@@ -1,3 +1,4182 @@
 {
-  "AC_OR_SSC": "Ephemeris"
+  "AC_OR_SSC": "Ephemeris",
+  "AC_OR_DEF": "Ephemeris",
+  "AC_AT_DEF": "Ephemeris",
+  "AC_H2_CRIS": "EnergeticParticles",
+  "AC_H3_CRIS": "EnergeticParticles",
+  "AC_H0_MFI": "MagneticField",
+  "AC_K0_MFI": "MagneticField",
+  "AC_H1_MFI": [
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "AC_K1_MFI": "MagneticField",
+  "AC_H2_MFI": [
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "AC_H3_MFI": "MagneticField",
+  "AC_K2_MFI": "MagneticField",
+  "AC_H2_SEP": [
+    "EnergeticParticles",
+    "IonComposition"
+  ],
+  "AC_H0_SWE": "ThermalPlasma",
+  "AC_K0_SWE": "ThermalPlasma",
+  "AC_H2_SWE": [
+    "Ephemeris",
+    "ThermalPlasma"
+  ],
+  "AC_K1_SWE": "ThermalPlasma",
+  "AC_H2_SWI": [
+    "EnergeticParticles",
+    "IonComposition",
+    "ThermalPlasma"
+  ],
+  "AC_H3_SWI": [
+    "EnergeticParticles",
+    "IonComposition",
+    "ThermalPlasma"
+  ],
+  "AC_H3_SW2": [
+    "ThermalPlasma",
+    "IonComposition"
+  ],
+  "AC_H4_SWI": [
+    "EnergeticParticles",
+    "IonComposition",
+    "ThermalPlasma"
+  ],
+  "AC_H5_SWI": [
+    "EnergeticParticles",
+    "IonComposition"
+  ],
+  "AC_H6_SWI": "ThermalPlasma",
+  "AC_H1_EPM": "EnergeticParticles",
+  "AC_H2_EPM": "EnergeticParticles",
+  "AC_H3_EPM": "EnergeticParticles",
+  "AC_K0_EPM": "EnergeticParticles",
+  "AC_K1_EPM": "EnergeticParticles",
+  "AC_K0_SIS": "EnergeticParticles",
+  "AC_H1_SIS": "EnergeticParticles",
+  "AC_H2_SIS": "EnergeticParticles",
+  "AC_H2_ULE": "EnergeticParticles",
+  "AEROCUBE-6-A_DOSIMETER_L2": "EnergeticParticles",
+  "AEROCUBE-6-B_DOSIMETER_L2": "EnergeticParticles",
+  "AMPTECCE_H0_MEPA": "EnergeticParticles",
+  "APOLLO12_SWS_1HR": "ThermalPlasma",
+  "APOLLO12_SWS_28S": "ThermalPlasma",
+  "APOLLO15_SWS_1HR": "ThermalPlasma",
+  "APOLLO15_SWS_28S": "ThermalPlasma",
+  "BAR_1A_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_1A_L2_FSPC": "Irradiance",
+  "BAR_1A_L2_HKPG": "InstrumentStatus",
+  "BAR_1A_L2_MAGN": "MagneticField",
+  "BAR_1A_L2_MSPC": "Irradiance",
+  "BAR_1A_L2_RCNT": "Irradiance",
+  "BAR_1A_L2_SSPC": "Irradiance",
+  "BAR_1B_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_1B_L2_FSPC": "Irradiance",
+  "BAR_1B_L2_HKPG": "InstrumentStatus",
+  "BAR_1B_L2_MAGN": "MagneticField",
+  "BAR_1B_L2_MSPC": "Irradiance",
+  "BAR_1B_L2_RCNT": "Irradiance",
+  "BAR_1B_L2_SSPC": "Irradiance",
+  "BAR_1C_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_1C_L2_FSPC": "Irradiance",
+  "BAR_1C_L2_HKPG": "InstrumentStatus",
+  "BAR_1C_L2_MAGN": "MagneticField",
+  "BAR_1C_L2_MSPC": "Irradiance",
+  "BAR_1C_L2_RCNT": "Irradiance",
+  "BAR_1C_L2_SSPC": "Irradiance",
+  "BAR_1D_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_1D_L2_FSPC": "Irradiance",
+  "BAR_1D_L2_HKPG": "InstrumentStatus",
+  "BAR_1D_L2_MAGN": "MagneticField",
+  "BAR_1D_L2_MSPC": "Irradiance",
+  "BAR_1D_L2_RCNT": "Irradiance",
+  "BAR_1D_L2_SSPC": "Irradiance",
+  "BAR_1G_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_1G_L2_FSPC": "Irradiance",
+  "BAR_1G_L2_HKPG": "InstrumentStatus",
+  "BAR_1G_L2_MAGN": "MagneticField",
+  "BAR_1G_L2_MSPC": "Irradiance",
+  "BAR_1G_L2_RCNT": "Irradiance",
+  "BAR_1G_L2_SSPC": "Irradiance",
+  "BAR_1H_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_1H_L2_FSPC": "Irradiance",
+  "BAR_1H_L2_HKPG": "InstrumentStatus",
+  "BAR_1H_L2_MAGN": "MagneticField",
+  "BAR_1H_L2_MSPC": "Irradiance",
+  "BAR_1H_L2_RCNT": "Irradiance",
+  "BAR_1H_L2_SSPC": "Irradiance",
+  "BAR_1I_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_1I_L2_FSPC": "Irradiance",
+  "BAR_1I_L2_HKPG": "InstrumentStatus",
+  "BAR_1I_L2_MAGN": "MagneticField",
+  "BAR_1I_L2_MSPC": "Irradiance",
+  "BAR_1I_L2_RCNT": "Irradiance",
+  "BAR_1I_L2_SSPC": "Irradiance",
+  "BAR_1J_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_1J_L2_FSPC": "Irradiance",
+  "BAR_1J_L2_HKPG": "InstrumentStatus",
+  "BAR_1J_L2_MAGN": "MagneticField",
+  "BAR_1J_L2_MSPC": "Irradiance",
+  "BAR_1J_L2_RCNT": "Irradiance",
+  "BAR_1J_L2_SSPC": "Irradiance",
+  "BAR_1K_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_1K_L2_FSPC": "Irradiance",
+  "BAR_1K_L2_HKPG": "InstrumentStatus",
+  "BAR_1K_L2_MAGN": "MagneticField",
+  "BAR_1K_L2_MSPC": "Irradiance",
+  "BAR_1K_L2_RCNT": "Irradiance",
+  "BAR_1K_L2_SSPC": "Irradiance",
+  "BAR_1M_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_1M_L2_FSPC": "Irradiance",
+  "BAR_1M_L2_HKPG": "InstrumentStatus",
+  "BAR_1M_L2_MAGN": "MagneticField",
+  "BAR_1M_L2_MSPC": "Irradiance",
+  "BAR_1M_L2_RCNT": "Irradiance",
+  "BAR_1M_L2_SSPC": "Irradiance",
+  "BAR_1N_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_1N_L2_FSPC": "Irradiance",
+  "BAR_1N_L2_HKPG": "InstrumentStatus",
+  "BAR_1N_L2_MAGN": "MagneticField",
+  "BAR_1N_L2_MSPC": "Irradiance",
+  "BAR_1N_L2_RCNT": "Irradiance",
+  "BAR_1N_L2_SSPC": "Irradiance",
+  "BAR_1O_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_1O_L2_FSPC": "Irradiance",
+  "BAR_1O_L2_HKPG": "InstrumentStatus",
+  "BAR_1O_L2_MAGN": "MagneticField",
+  "BAR_1O_L2_MSPC": "Irradiance",
+  "BAR_1O_L2_RCNT": "Irradiance",
+  "BAR_1O_L2_SSPC": "Irradiance",
+  "BAR_1Q_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_1Q_L2_FSPC": "Irradiance",
+  "BAR_1Q_L2_HKPG": "InstrumentStatus",
+  "BAR_1Q_L2_MAGN": "MagneticField",
+  "BAR_1Q_L2_MSPC": "Irradiance",
+  "BAR_1Q_L2_RCNT": "Irradiance",
+  "BAR_1Q_L2_SSPC": "Irradiance",
+  "BAR_1R_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_1R_L2_FSPC": "Irradiance",
+  "BAR_1R_L2_HKPG": "InstrumentStatus",
+  "BAR_1R_L2_MAGN": "MagneticField",
+  "BAR_1R_L2_MSPC": "Irradiance",
+  "BAR_1R_L2_RCNT": "Irradiance",
+  "BAR_1R_L2_SSPC": "Irradiance",
+  "BAR_1S_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_1S_L2_FSPC": "Irradiance",
+  "BAR_1S_L2_HKPG": "InstrumentStatus",
+  "BAR_1S_L2_MAGN": "MagneticField",
+  "BAR_1S_L2_MSPC": "Irradiance",
+  "BAR_1S_L2_RCNT": "Irradiance",
+  "BAR_1S_L2_SSPC": "Irradiance",
+  "BAR_1T_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_1T_L2_FSPC": "Irradiance",
+  "BAR_1T_L2_HKPG": "InstrumentStatus",
+  "BAR_1T_L2_MAGN": "MagneticField",
+  "BAR_1T_L2_MSPC": "Irradiance",
+  "BAR_1T_L2_RCNT": "Irradiance",
+  "BAR_1T_L2_SSPC": "Irradiance",
+  "BAR_1U_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_1U_L2_FSPC": "Irradiance",
+  "BAR_1U_L2_HKPG": "InstrumentStatus",
+  "BAR_1U_L2_MAGN": "MagneticField",
+  "BAR_1U_L2_MSPC": "Irradiance",
+  "BAR_1U_L2_RCNT": "Irradiance",
+  "BAR_1U_L2_SSPC": "Irradiance",
+  "BAR_1V_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_1V_L2_FSPC": "Irradiance",
+  "BAR_1V_L2_HKPG": "InstrumentStatus",
+  "BAR_1V_L2_MAGN": "MagneticField",
+  "BAR_1V_L2_MSPC": "Irradiance",
+  "BAR_1V_L2_RCNT": "Irradiance",
+  "BAR_1V_L2_SSPC": "Irradiance",
+  "BAR_2A_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_2A_L2_FSPC": "Irradiance",
+  "BAR_2A_L2_HKPG": "InstrumentStatus",
+  "BAR_2A_L2_MAGN": "MagneticField",
+  "BAR_2A_L2_MSPC": "Irradiance",
+  "BAR_2A_L2_RCNT": "Irradiance",
+  "BAR_2A_L2_SSPC": "Irradiance",
+  "BAR_2B_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_2B_L2_FSPC": "Irradiance",
+  "BAR_2B_L2_HKPG": "InstrumentStatus",
+  "BAR_2B_L2_MAGN": "MagneticField",
+  "BAR_2B_L2_MSPC": "Irradiance",
+  "BAR_2B_L2_RCNT": "Irradiance",
+  "BAR_2B_L2_SSPC": "Irradiance",
+  "BAR_2C_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_2C_L2_FSPC": "Irradiance",
+  "BAR_2C_L2_HKPG": "InstrumentStatus",
+  "BAR_2C_L2_MAGN": "MagneticField",
+  "BAR_2C_L2_MSPC": "Irradiance",
+  "BAR_2C_L2_RCNT": "Irradiance",
+  "BAR_2C_L2_SSPC": "Irradiance",
+  "BAR_2D_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_2D_L2_FSPC": "Irradiance",
+  "BAR_2D_L2_HKPG": "InstrumentStatus",
+  "BAR_2D_L2_MAGN": "MagneticField",
+  "BAR_2D_L2_MSPC": "Irradiance",
+  "BAR_2D_L2_RCNT": "Irradiance",
+  "BAR_2D_L2_SSPC": "Irradiance",
+  "BAR_2E_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_2E_L2_FSPC": "Irradiance",
+  "BAR_2E_L2_HKPG": "InstrumentStatus",
+  "BAR_2E_L2_MAGN": "MagneticField",
+  "BAR_2E_L2_MSPC": "Irradiance",
+  "BAR_2E_L2_RCNT": "Irradiance",
+  "BAR_2E_L2_SSPC": "Irradiance",
+  "BAR_2F_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_2F_L2_FSPC": "Irradiance",
+  "BAR_2F_L2_HKPG": "InstrumentStatus",
+  "BAR_2F_L2_MAGN": "MagneticField",
+  "BAR_2F_L2_MSPC": "Irradiance",
+  "BAR_2F_L2_RCNT": "Irradiance",
+  "BAR_2F_L2_SSPC": "Irradiance",
+  "BAR_2I_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_2I_L2_FSPC": "Irradiance",
+  "BAR_2I_L2_HKPG": "InstrumentStatus",
+  "BAR_2I_L2_MAGN": "MagneticField",
+  "BAR_2I_L2_MSPC": "Irradiance",
+  "BAR_2I_L2_RCNT": "Irradiance",
+  "BAR_2I_L2_SSPC": "Irradiance",
+  "BAR_2K_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_2K_L2_FSPC": "Irradiance",
+  "BAR_2K_L2_HKPG": "InstrumentStatus",
+  "BAR_2K_L2_MAGN": "MagneticField",
+  "BAR_2K_L2_MSPC": "Irradiance",
+  "BAR_2K_L2_RCNT": "Irradiance",
+  "BAR_2K_L2_SSPC": "Irradiance",
+  "BAR_2L_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_2L_L2_FSPC": "Irradiance",
+  "BAR_2L_L2_HKPG": "InstrumentStatus",
+  "BAR_2L_L2_MAGN": "MagneticField",
+  "BAR_2L_L2_MSPC": "Irradiance",
+  "BAR_2L_L2_RCNT": "Irradiance",
+  "BAR_2L_L2_SSPC": "Irradiance",
+  "BAR_2M_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_2M_L2_FSPC": "Irradiance",
+  "BAR_2M_L2_HKPG": "InstrumentStatus",
+  "BAR_2M_L2_MAGN": "MagneticField",
+  "BAR_2M_L2_MSPC": "Irradiance",
+  "BAR_2M_L2_RCNT": "Irradiance",
+  "BAR_2M_L2_SSPC": "Irradiance",
+  "BAR_2N_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_2N_L2_FSPC": "Irradiance",
+  "BAR_2N_L2_HKPG": "InstrumentStatus",
+  "BAR_2N_L2_MAGN": "MagneticField",
+  "BAR_2N_L2_MSPC": "Irradiance",
+  "BAR_2N_L2_RCNT": "Irradiance",
+  "BAR_2N_L2_SSPC": "Irradiance",
+  "BAR_2O_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_2O_L2_FSPC": "Irradiance",
+  "BAR_2O_L2_HKPG": "InstrumentStatus",
+  "BAR_2O_L2_MAGN": "MagneticField",
+  "BAR_2O_L2_MSPC": "Irradiance",
+  "BAR_2O_L2_RCNT": "Irradiance",
+  "BAR_2O_L2_SSPC": "Irradiance",
+  "BAR_2P_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_2P_L2_FSPC": "Irradiance",
+  "BAR_2P_L2_HKPG": "InstrumentStatus",
+  "BAR_2P_L2_MAGN": "MagneticField",
+  "BAR_2P_L2_MSPC": "Irradiance",
+  "BAR_2P_L2_RCNT": "Irradiance",
+  "BAR_2P_L2_SSPC": "Irradiance",
+  "BAR_2Q_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_2Q_L2_FSPC": "Irradiance",
+  "BAR_2Q_L2_HKPG": "InstrumentStatus",
+  "BAR_2Q_L2_MAGN": "MagneticField",
+  "BAR_2Q_L2_MSPC": "Irradiance",
+  "BAR_2Q_L2_RCNT": "Irradiance",
+  "BAR_2Q_L2_SSPC": "Irradiance",
+  "BAR_2T_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_2T_L2_FSPC": "Irradiance",
+  "BAR_2T_L2_HKPG": "InstrumentStatus",
+  "BAR_2T_L2_MAGN": "MagneticField",
+  "BAR_2T_L2_MSPC": "Irradiance",
+  "BAR_2T_L2_RCNT": "Irradiance",
+  "BAR_2T_L2_SSPC": "Irradiance",
+  "BAR_2W_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_2W_L2_FSPC": "Irradiance",
+  "BAR_2W_L2_HKPG": "InstrumentStatus",
+  "BAR_2W_L2_MAGN": "MagneticField",
+  "BAR_2W_L2_MSPC": "Irradiance",
+  "BAR_2W_L2_RCNT": "Irradiance",
+  "BAR_2W_L2_SSPC": "Irradiance",
+  "BAR_2X_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_2X_L2_FSPC": "Irradiance",
+  "BAR_2X_L2_HKPG": "InstrumentStatus",
+  "BAR_2X_L2_MAGN": "MagneticField",
+  "BAR_2X_L2_MSPC": "Irradiance",
+  "BAR_2X_L2_RCNT": "Irradiance",
+  "BAR_2X_L2_SSPC": "Irradiance",
+  "BAR_2Y_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_2Y_L2_FSPC": "Irradiance",
+  "BAR_2Y_L2_HKPG": "InstrumentStatus",
+  "BAR_2Y_L2_MAGN": "MagneticField",
+  "BAR_2Y_L2_MSPC": "Irradiance",
+  "BAR_2Y_L2_RCNT": "Irradiance",
+  "BAR_2Y_L2_SSPC": "Irradiance",
+  "BAR_3A_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_3A_L2_FSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_3A_L2_HKPG": "InstrumentStatus",
+  "BAR_3A_L2_MAGN": [
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "BAR_3A_L2_MSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_3A_L2_RCNT": [
+    "EnergeticParticles",
+    "InstrumentStatus"
+  ],
+  "BAR_3A_L2_SSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_3B_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_3B_L2_FSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_3B_L2_HKPG": "InstrumentStatus",
+  "BAR_3B_L2_MAGN": [
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "BAR_3B_L2_MSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_3B_L2_RCNT": [
+    "EnergeticParticles",
+    "InstrumentStatus"
+  ],
+  "BAR_3B_L2_SSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_3C_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_3C_L2_FSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_3C_L2_HKPG": "InstrumentStatus",
+  "BAR_3C_L2_MAGN": [
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "BAR_3C_L2_MSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_3C_L2_RCNT": [
+    "EnergeticParticles",
+    "InstrumentStatus"
+  ],
+  "BAR_3C_L2_SSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_3D_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_3D_L2_FSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_3D_L2_HKPG": "InstrumentStatus",
+  "BAR_3D_L2_MAGN": [
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "BAR_3D_L2_MSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_3D_L2_RCNT": [
+    "EnergeticParticles",
+    "InstrumentStatus"
+  ],
+  "BAR_3D_L2_SSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_3E_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_3E_L2_FSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_3E_L2_HKPG": "InstrumentStatus",
+  "BAR_3E_L2_MAGN": [
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "BAR_3E_L2_MSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_3E_L2_RCNT": [
+    "EnergeticParticles",
+    "InstrumentStatus"
+  ],
+  "BAR_3E_L2_SSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_3F_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_3F_L2_FSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_3F_L2_HKPG": "InstrumentStatus",
+  "BAR_3F_L2_MAGN": [
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "BAR_3F_L2_MSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_3F_L2_RCNT": [
+    "EnergeticParticles",
+    "InstrumentStatus"
+  ],
+  "BAR_3F_L2_SSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_3G_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_3G_L2_FSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_3G_L2_HKPG": "InstrumentStatus",
+  "BAR_3G_L2_MAGN": [
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "BAR_3G_L2_MSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_3G_L2_RCNT": [
+    "EnergeticParticles",
+    "InstrumentStatus"
+  ],
+  "BAR_3G_L2_SSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_4A_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_4A_L2_FSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_4A_L2_HKPG": "InstrumentStatus",
+  "BAR_4A_L2_MSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_4A_L2_RCNT": [
+    "EnergeticParticles",
+    "InstrumentStatus"
+  ],
+  "BAR_4A_L2_SSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_4A_L2_USPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_4A_L2_XSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_4B_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_4B_L2_FSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_4B_L2_HKPG": "InstrumentStatus",
+  "BAR_4B_L2_MSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_4B_L2_RCNT": [
+    "EnergeticParticles",
+    "InstrumentStatus"
+  ],
+  "BAR_4B_L2_SSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_4B_L2_USPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_4B_L2_XSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_4C_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_4C_L2_FSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_4C_L2_HKPG": "InstrumentStatus",
+  "BAR_4C_L2_MSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_4C_L2_RCNT": [
+    "EnergeticParticles",
+    "InstrumentStatus"
+  ],
+  "BAR_4C_L2_SSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_4C_L2_USPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_4C_L2_XSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_4D_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_4D_L2_FSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_4D_L2_HKPG": "InstrumentStatus",
+  "BAR_4D_L2_MSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_4D_L2_RCNT": [
+    "EnergeticParticles",
+    "InstrumentStatus"
+  ],
+  "BAR_4D_L2_SSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_4D_L2_USPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_4D_L2_XSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_4E_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_4E_L2_FSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_4E_L2_HKPG": "InstrumentStatus",
+  "BAR_4E_L2_MSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_4E_L2_RCNT": [
+    "EnergeticParticles",
+    "InstrumentStatus"
+  ],
+  "BAR_4E_L2_SSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_4E_L2_USPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_4E_L2_XSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_4F_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_4F_L2_FSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_4F_L2_HKPG": "InstrumentStatus",
+  "BAR_4F_L2_MSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_4F_L2_RCNT": [
+    "EnergeticParticles",
+    "InstrumentStatus"
+  ],
+  "BAR_4F_L2_SSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_4F_L2_USPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_4F_L2_XSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_4G_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_4G_L2_FSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_4G_L2_HKPG": "InstrumentStatus",
+  "BAR_4G_L2_MSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_4G_L2_RCNT": [
+    "EnergeticParticles",
+    "InstrumentStatus"
+  ],
+  "BAR_4G_L2_SSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_4G_L2_USPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_4G_L2_XSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_4H_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_4H_L2_FSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_4H_L2_HKPG": "InstrumentStatus",
+  "BAR_4H_L2_MSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_4H_L2_RCNT": [
+    "EnergeticParticles",
+    "InstrumentStatus"
+  ],
+  "BAR_4H_L2_SSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_4H_L2_USPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_4H_L2_XSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_5A_L2_EPHM": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BAR_5A_L2_FSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_5A_L2_HKPG": "InstrumentStatus",
+  "BAR_5A_L2_MSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_5A_L2_RCNT": [
+    "EnergeticParticles",
+    "InstrumentStatus"
+  ],
+  "BAR_5A_L2_SSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_5A_L2_USPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BAR_5A_L2_XSPC": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "Spectrum"
+  ],
+  "BEPICOLOMBO_HELIO1DAY_POSITION": "Ephemeris",
+  "CASSINI_MAG_1MIN_MAGNETIC_FIELD": "MagneticField",
+  "C1_PP_ASP": "ElectricField",
+  "C2_PP_ASP": "ElectricField",
+  "C3_PP_ASP": "ElectricField",
+  "C4_PP_ASP": "ElectricField",
+  "C1_PP_CIS": "IonComposition",
+  "C3_PP_CIS": "IonComposition",
+  "C4_PP_CIS": "IonComposition",
+  "C1_PP_DWP": "EnergeticParticles",
+  "C2_PP_DWP": "EnergeticParticles",
+  "C4_PP_DWP": "EnergeticParticles",
+  "C1_PP_EDI": "ElectricField",
+  "C2_PP_EDI": "ElectricField",
+  "C3_PP_EDI": "ElectricField",
+  "C4_PP_EDI": "ElectricField",
+  "C1_PP_EFW": [
+    "ElectricField",
+    "Waves.Passive"
+  ],
+  "C2_PP_EFW": [
+    "ElectricField",
+    "Waves.Passive"
+  ],
+  "C3_PP_EFW": [
+    "ElectricField",
+    "Waves.Passive"
+  ],
+  "C4_PP_EFW": [
+    "ElectricField",
+    "Waves.Passive"
+  ],
+  "C1_CP_FGM_SPIN": "MagneticField",
+  "C2_CP_FGM_SPIN": "MagneticField",
+  "C3_CP_FGM_SPIN": "MagneticField",
+  "C4_CP_FGM_SPIN": "MagneticField",
+  "C1_UP_FGM": "MagneticField",
+  "C2_UP_FGM": "MagneticField",
+  "C3_UP_FGM": "MagneticField",
+  "C4_UP_FGM": "MagneticField",
+  "C1_PP_PEA": "ThermalPlasma",
+  "C2_PP_PEA": "ThermalPlasma",
+  "C3_PP_PEA": "ThermalPlasma",
+  "C4_PP_PEA": "ThermalPlasma",
+  "C1_PP_RAP": "EnergeticParticles",
+  "C2_PP_RAP": "EnergeticParticles",
+  "C3_PP_RAP": "EnergeticParticles",
+  "C4_PP_RAP": "EnergeticParticles",
+  "C1_PP_STA": [
+    "ElectricField",
+    "MagneticField",
+    "Waves.Passive"
+  ],
+  "C2_PP_STA": [
+    "ElectricField",
+    "MagneticField",
+    "Waves.Passive"
+  ],
+  "C3_PP_STA": [
+    "ElectricField",
+    "MagneticField",
+    "Waves.Passive"
+  ],
+  "C4_PP_STA": [
+    "ElectricField",
+    "MagneticField",
+    "Waves.Passive"
+  ],
+  "C1_PP_WHI": [
+    "ElectricField",
+    "ThermalPlasma",
+    "Waves.Passive"
+  ],
+  "C2_PP_WHI": [
+    "ElectricField",
+    "ThermalPlasma",
+    "Waves.Passive"
+  ],
+  "C3_PP_WHI": [
+    "ElectricField",
+    "ThermalPlasma",
+    "Waves.Passive"
+  ],
+  "C4_PP_WHI": [
+    "ElectricField",
+    "ThermalPlasma",
+    "Waves.Passive"
+  ],
+  "C1_WAVEFORM_WBD": [
+    "MagneticField",
+    "ElectricField",
+    "Spectrum"
+  ],
+  "C2_WAVEFORM_WBD": [
+    "Waves.Passive",
+    "ElectricField",
+    "MagneticField"
+  ],
+  "C3_WAVEFORM_WBD": [
+    "Waves.Passive",
+    "ElectricField",
+    "MagneticField"
+  ],
+  "C4_WAVEFORM_WBD": [
+    "Waves.Passive",
+    "ElectricField",
+    "MagneticField"
+  ],
+  "C1_WAVEFORM_WBD_BM2": [
+    "Waves.Passive",
+    "ElectricField",
+    "MagneticField"
+  ],
+  "C2_WAVEFORM_WBD_BM2": [
+    "Waves.Passive",
+    "ElectricField",
+    "MagneticField"
+  ],
+  "C3_WAVEFORM_WBD_BM2": [
+    "Waves.Passive",
+    "ElectricField",
+    "MagneticField"
+  ],
+  "C4_WAVEFORM_WBD_BM2": [
+    "Waves.Passive",
+    "ElectricField",
+    "MagneticField"
+  ],
+  "CL_SP_AUX": "Ephemeris",
+  "CL_JP_PGP": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "C1_JP_PMP": [
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "C2_JP_PMP": [
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "C3_JP_PMP": [
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "C4_JP_PMP": [
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "C1_JP_PSE": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "C2_JP_PSE": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "C3_JP_PSE": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "C4_JP_PSE": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "CT_JP_PSE": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "CL_JP_PCY": [
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "CN_K0_ASI": "ImageIntensity",
+  "CN_K0_BARS": "Irradiance",
+  "CN_K0_MPA": "ImageIntensity",
+  "CN_K0_MARI": "ActivityIndex",
+  "CN_K1_MARI": "Waves.Passive",
+  "CNOFS_CINDI_IVM_500MS": "ThermalPlasma",
+  "CNOFS_VEFI_LD_500MS": "ElectricField",
+  "CNOFS_VEFI_EFIELD_1SEC": "ElectricField",
+  "CNOFS_VEFI_BFIELD_1SEC": "MagneticField",
+  "CNOFS_PLP_PLASMA_1SEC": "ThermalPlasma",
+  "CRRES_H0_MEA": "EnergeticParticles",
+  "CSSWE_REPTILE_6SEC-COUNTS-L1": "EnergeticParticles",
+  "CSSWE_REPTILE_6SEC-FLUX-L2": "EnergeticParticles",
+  "DE_UV_SAI": "ImageIntensity",
+  "DE_VS_EICS": "EnergeticParticles",
+  "DE1_6SEC_MAGAGMS": "MagneticField",
+  "DE1_1MIN_RIMS": [
+    "ActivityIndex",
+    "ElectricField",
+    "Ephemeris",
+    "Irradiance",
+    "ThermalPlasma"
+  ],
+  "DE1_PWI_LFC-SPECTRA": [
+    "Waves.Passive",
+    "Spectrum"
+  ],
+  "DE1_PWI_OR-AT": "Ephemeris",
+  "DE1_PWI_SFC-SPECTRA": [
+    "Waves.Passive",
+    "Spectrum"
+  ],
+  "DE2_DUCT16MS_RPA": "ThermalPlasma",
+  "DE2_ION2S_RPA": "ThermalPlasma",
+  "DE2_NEUTRAL1S_NACS": "NeutralGas",
+  "DE2_NEUTRAL8S_FPI": "EnergeticParticles",
+  "DE2_PLASMA500MS_LANG": "ThermalPlasma",
+  "DE2_UA16S_ALL": [
+    "ThermalPlasma",
+    "NeutralGas"
+  ],
+  "DE2_VION250MS_IDM": "ThermalPlasma",
+  "DE2_WIND2S_WATS": "NeutralGas",
+  "DE2_62MS_VEFIMAGB": [
+    "ElectricField",
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "DE2_AC500MS_VEFI": [
+    "ElectricField",
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "DE2_DCA500MS_VEFI": [
+    "ElectricField",
+    "Ephemeris"
+  ],
+  "DMSP-F16_SSJ_PRECIPITATING-ELECTRONS-IONS": "EnergeticParticles",
+  "DMSP-F17_SSJ_PRECIPITATING-ELECTRONS-IONS": "EnergeticParticles",
+  "DMSP-F18_SSJ_PRECIPITATING-ELECTRONS-IONS": "EnergeticParticles",
+  "DMSP-F16_SSM_MAGNETOMETER": "MagneticField",
+  "DMSP-F17_SSM_MAGNETOMETER": "MagneticField",
+  "DMSP-F18_SSM_MAGNETOMETER": "MagneticField",
+  "DMSP-F16_SSIES-3_THERMAL-PLASMA": [
+    "ThermalPlasma",
+    "IonComposition"
+  ],
+  "DMSP-F17_SSIES-3_THERMAL-PLASMA": [
+    "ThermalPlasma",
+    "IonComposition"
+  ],
+  "DMSP-F18_SSIES-3_THERMAL-PLASMA": [
+    "ThermalPlasma",
+    "IonComposition"
+  ],
+  "DN_K0_GBAY": "Irradiance",
+  "DN_K0_HANK": "Irradiance",
+  "DN_K0_ICEW": "Irradiance",
+  "DN_K0_KAPU": "Irradiance",
+  "DN_K0_PACE": "Irradiance",
+  "DN_K0_PYKK": "Irradiance",
+  "DN_K0_SASK": "Irradiance",
+  "DSCOVR_ORBIT_PRE": "Ephemeris",
+  "DSCOVR_AT_DEF": "Ephemeris",
+  "DSCOVR_AT_PRE": "Ephemeris",
+  "DSCOVR_H0_MAG": "MagneticField",
+  "DSCOVR_H1_FC": "EnergeticParticles",
+  "ELA_L1_STATE_PRED": "InstrumentStatus",
+  "ELB_L1_STATE_PRED": "InstrumentStatus",
+  "ELA_L1_STATE_DEFN": "InstrumentStatus",
+  "ELB_L1_STATE_DEFN": "InstrumentStatus",
+  "ELA_L1_EPDEF": "EnergeticParticles",
+  "ELB_L1_EPDEF": "EnergeticParticles",
+  "ELA_L1_EPDIF": "EnergeticParticles",
+  "ELB_L1_EPDIF": "EnergeticParticles",
+  "EQ_PP_EDI": [
+    "ThermalPlasma",
+    "ElectricField"
+  ],
+  "EQ_PP_EPI": "EnergeticParticles",
+  "EQ_PP_ICI": "ThermalPlasma",
+  "EQ_PP_MAM": "MagneticField",
+  "EQ_PP_PCD": "ThermalPlasma",
+  "EQ_SP_SFD": "ThermalPlasma",
+  "EQ_PP_AUX": "Ephemeris",
+  "FA_ESA_L2_EEB": "EnergeticParticles",
+  "FA_ESA_L2_EES": "EnergeticParticles",
+  "FA_ESA_L2_IEB": "EnergeticParticles",
+  "FA_ESA_L2_IES": "EnergeticParticles",
+  "FAST_HR_DCB": [
+    "Ephemeris",
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "FA_K0_ACF": [
+    "Waves.Passive",
+    "Spectrum",
+    "ElectricField",
+    "MagneticField"
+  ],
+  "FA_K0_TMS": [
+    "EnergeticParticles",
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "FM_K0_KILP": "ImageIntensity",
+  "GE_HPAMOM_CPI": "ThermalPlasma",
+  "GE_EDA3SEC_MGF": "MagneticField",
+  "GE_EDB3SEC_MGF": "MagneticField",
+  "GE_EDA12SEC_LEP": "ThermalPlasma",
+  "GE_EDB12SEC_LEP": "ThermalPlasma",
+  "GE_1MIN_MAG_PLASMA_SW_ONLY": [
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "GE_K0_MGF": "MagneticField",
+  "GE_SW_CPI": [
+    "ThermalPlasma",
+    "IonComposition"
+  ],
+  "GE_H0_CPI": [
+    "ThermalPlasma",
+    "IonComposition"
+  ],
+  "GE_K0_CPI": "ThermalPlasma",
+  "GE_K0_EFD": "ElectricField",
+  "GE_K0_EPI": "EnergeticParticles",
+  "GE_K0_LEP": [
+    "EnergeticParticles",
+    "ThermalPlasma"
+  ],
+  "GE_K0_PWI": [
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "GE_OR_DEF": "Ephemeris",
+  "GE_OR_PRE": "Ephemeris",
+  "GE_AT_DEF": "Ephemeris",
+  "GE_AT_PRE": "Ephemeris",
+  "GE_K0_SPHA": "Ephemeris",
+  "GENESIS_3DL2_GIM": "ThermalPlasma",
+  "GOES15_EPEAD-SCIENCE-ELECTRONS-E13EW_1MIN": "EnergeticParticles",
+  "GOES14_EPEAD-SCIENCE-ELECTRONS-E13EW_1MIN": "EnergeticParticles",
+  "GOES13_EPEAD-SCIENCE-ELECTRONS-E13EW_1MIN": "EnergeticParticles",
+  "GOES15_EPS-MAGED_1MIN": "EnergeticParticles",
+  "GOES14_EPS-MAGED_1MIN": "EnergeticParticles",
+  "GOES13_EPS-MAGED_1MIN": "EnergeticParticles",
+  "GOES15_EPS-MAGED_5MIN": "EnergeticParticles",
+  "GOES14_EPS-MAGED_5MIN": "EnergeticParticles",
+  "GOES13_EPS-MAGED_5MIN": "EnergeticParticles",
+  "GOES15_EPS-PITCH-ANGLES_1MIN": "EnergeticParticles",
+  "GOES14_EPS-PITCH-ANGLES_1MIN": "EnergeticParticles",
+  "GOES13_EPS-PITCH-ANGLES_1MIN": "EnergeticParticles",
+  "G7_K0_EPS": "EnergeticParticles",
+  "G6_K0_EPS": "EnergeticParticles",
+  "GOES11_K0_EP8": "EnergeticParticles",
+  "G0_K0_EP8": "EnergeticParticles",
+  "G9_K0_EP8": "EnergeticParticles",
+  "G8_K0_EP8": "EnergeticParticles",
+  "G12_L2_MAG": [
+    "MagneticField",
+    "Ephemeris"
+  ],
+  "G11_L2_MAG": [
+    "MagneticField",
+    "Ephemeris"
+  ],
+  "G10_L2_MAG": [
+    "MagneticField",
+    "Ephemeris"
+  ],
+  "G0_K0_MAG": "MagneticField",
+  "G9_K0_MAG": [
+    "MagneticField",
+    "Ephemeris"
+  ],
+  "G8_K0_MAG": [
+    "MagneticField",
+    "Ephemeris"
+  ],
+  "G7_K0_MAG": "MagneticField",
+  "G7_K1_MAG": "MagneticField",
+  "G6_K0_MAG": "MagneticField",
+  "GOES12_K0_MAG": "MagneticField",
+  "GOES11_K0_MAG": "MagneticField",
+  "GOES17_EPHEMERIS_SSC": [
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "GOES16_EPHEMERIS_SSC": [
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "GOES15_EPHEMERIS_SSC": [
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "GOES14_EPHEMERIS_SSC": [
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "GOES13_EPHEMERIS_SSC": [
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "GOES12_EPHEMERIS_SSC": [
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "GOES11_EPHEMERIS_SSC": [
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "GOES10_EPHEMERIS_SSC": [
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "GOES9_EPHEMERIS_SSC": [
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "GOES8_EPHEMERIS_SSC": [
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "GOLD_L2_NMAX": "ImageIntensity",
+  "GOLD_L2_ON2": "ImageIntensity",
+  "GOLD_L2_TDISK": "ImageIntensity",
+  "GPS_TEC2HR_IGS": "ThermalPlasma",
+  "GPS_TEC1HR_IGS": "ThermalPlasma",
+  "GPS_TEC15MIN_IGS": "ThermalPlasma",
+  "GPS_ROTI15MIN_JPL": "ActivityIndex",
+  "HEL1_6SEC_NESSMAG": "MagneticField",
+  "HEL2_6SEC_NESSMAG": "MagneticField",
+  "HELIOS1_E6_KUNOW_1HOUR_PARTICLE-FLUX": "EnergeticParticles",
+  "HELIOS2_E6_KUNOW_1HOUR_PARTICLE-FLUX": "EnergeticParticles",
+  "HELIOS1_E6_1HOUR_PARTICLE_FLUX": "EnergeticParticles",
+  "HELIOS2_E6_1HOUR_PARTICLE_FLUX": "EnergeticParticles",
+  "HELIOS1_COHO1HR_MERGED_MAG_PLASMA": [
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "HELIOS2_COHO1HR_MERGED_MAG_PLASMA": [
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "HELIOS2_40SEC_MAG-PLASMA": [
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "HELIOS1_40SEC_MAG-PLASMA": [
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "HK_H0_MAG": "MagneticField",
+  "HK_H0_VLF": [
+    "Waves.Passive",
+    "Spectrum"
+  ],
+  "ALOUETTE2_NEPROF_TOPS": "ThermalPlasma",
+  "ALOUETTE2_AV_ULA": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "ALOUETTE2_AV_WNK": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "ALOUETTE2_AV_QUI": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "ALOUETTE2_AV_LIM": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "ALOUETTE2_AV_SNT": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "ALOUETTE2_AV_SOL": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "ISS_SP_FPMU": "ThermalPlasma",
+  "ISS_DOSANL_TEPC": "EnergeticParticles",
+  "ISS_27DAY-AVERAGES_AMS-02": "EnergeticParticles",
+  "I1_AV2_OTT": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "I1_AV2_QUI": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "I1_AV2_ULA": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "I1_AV_ALL": [
+    "Waves.Active",
+    "Spectrum"
+  ],
+  "I1_AV_KER": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "I1_AV_KSH": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "I1_AV_KWA": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "I1_AV_ODG": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "I1_AV_ORR": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "I1_AV_OTT": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "I1_AV_QUI": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "I1_AV_RES": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "I1_AV_SNT": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "I1_AV_SOD": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "I1_AV_TRO": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "I1_AV_ULA": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "I1_AV_WNK": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "I1_NEPROF_TOPS": "Profile",
+  "I2_AV_ACN": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "I2_AV_ADL": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "I2_AV_AME": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "I2_AV_BRZ": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "I2_AV_BUR": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "I2_AV_CNA": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "I2_AV_KER": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "I2_AV_KRU": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "I2_AV_KSH": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "I2_AV_KWA": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "I2_AV_LAU": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "I2_AV_ODG": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "I2_AV_ORR": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "I2_AV_OTT": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "I2_AV_QUI": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "I2_AV_RES": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "I2_AV_SNT": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "I2_AV_SOD": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "I2_AV_SOL": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "I2_AV_SYO": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "I2_AV_TRO": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "I2_AV_ULA": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "I2_AV_WNK": [
+    "Spectrum",
+    "Waves.Active"
+  ],
+  "I2_NEPROF_TOPS": "Profile",
+  "I2_NEPROF_TOPIST": "Profile",
+  "I8_OR_SSC": "Ephemeris",
+  "I8_320MSEC_MAG": "MagneticField",
+  "I8_15SEC_MAG": "MagneticField",
+  "I8_H0_GME": "EnergeticParticles",
+  "I8_H0_MITPLASMA": "ThermalPlasma",
+  "IA_K0_MFI": "MagneticField",
+  "IA_K0_ENF": "MagneticField",
+  "IA_K0_EPI": "EnergeticParticles",
+  "IA_K0_ICD": "ThermalPlasma",
+  "IA_OR_DEF": "Ephemeris",
+  "IBEX_H3_ENA_LO_R17_CG_NOSP_OMNI_1YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_LO_R17_CG_SP_OMNI_1YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_LO_R17_CG_NOSP_ANTIRAM_1YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_LO_R17_CG_NOSP_RAM_1YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_LO_R17_CG_SP_ANTIRAM_1YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_LO_R17_CG_SP_RAM_1YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_LO_R17_NOCG_NOSP_RAM_1YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R16_CG_NOSP_ANTIRAM_11YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R16_CG_NOSP_OMNI_11YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R16_CG_SP_OMNI_11YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R16_NOCG_NOSP_OMNI_11YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R16_NOCG_SP_OMNI_11YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R16_CG_NOSP_RAM_11YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R16_CG_SP_RAM_11YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R16_NOCG_NOSP_RAM_11YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R16_NOCG_SP_RAM_11YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R16_CG_SP_ANTIRAM_11YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R16_NOCG_NOSP_ANTIRAM_11YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R16_NOCG_SP_ANTIRAM_11YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R16_CG_NOSP_ANTIRAM_1YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R16_NOCG_SP_ANTIRAM_1YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R16_NOCG_NOSP_RAM_1YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R16_NOCG_SP_RAM_1YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R16_CG_SP_RAM_1YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R16_CG_NOSP_RAM_1YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R16_NOCG_NOSP_ANTIRAM_1YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R16_CG_SP_ANTIRAM_1YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R16_CG_NOSP_OMNI_6MO": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R16_CG_SP_OMNI_6MO": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R16_NOCG_NOSP_OMNI_6MO": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R16_NOCG_SP_OMNI_6MO": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R16_CG_SP_OMNI_2YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R16_CG_SP_OMNI_3YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R14_PRESS-SLOPE_CG_NOSP_RAM_3YR": "EnergeticParticles",
+  "IBEX_H3_ENA_HI_R13_CG_NOSP_RAM_1YR": "EnergeticParticles",
+  "IBEX_H3_ENA_HI_R13_CG_NOSP_ANTIRAM_1YR": "EnergeticParticles",
+  "IBEX_H3_ENA_HI_R12_MAGNETOSPHERE_24MIN": [
+    "EnergeticParticles",
+    "Ephemeris"
+  ],
+  "IBEX_H3_ENA_LO_R10_NOCG_NOSP_OMNI_6MO": "NeutralAtomImages",
+  "IBEX_H3_ENA_LO_R10_NOCG_SP_OMNI_6MO": "NeutralAtomImages",
+  "IBEX_H3_ENA_LO_R10_NOCG_NOSP_OMNI_7YR": "EnergeticParticles",
+  "IBEX_H3_ENA_LO_R10_NOCG_SP_OMNI_7YR": "EnergeticParticles",
+  "IBEX_H3_ENA_HI_R10_CG_SP_OMNI_6MO": "EnergeticParticles",
+  "IBEX_H3_ENA_HI_R10_NOCG_NOSP_OMNI_6MO": "EnergeticParticles",
+  "IBEX_H3_ENA_HI_R10_NOCG_SP_OMNI_6MO": "EnergeticParticles",
+  "IBEX_H3_ENA_HI_R10_CG_NOSP_OMNI_6MO": "EnergeticParticles",
+  "IBEX_H3_ENA_HI_R10_CG_NOSP_ANTIRAM_1YR": "EnergeticParticles",
+  "IBEX_H3_ENA_HI_R10_CG_NOSP_RAM_1YR": "EnergeticParticles",
+  "IBEX_H3_ENA_HI_R10_CG_SP_ANTIRAM_1YR": "EnergeticParticles",
+  "IBEX_H3_ENA_HI_R10_CG_SP_RAM_1YR": "EnergeticParticles",
+  "IBEX_H3_ENA_HI_R10_NOCG_NOSP_ANTIRAM_1YR": "EnergeticParticles",
+  "IBEX_H3_ENA_HI_R10_NOCG_NOSP_RAM_1YR": "EnergeticParticles",
+  "IBEX_H3_ENA_HI_R10_NOCG_SP_ANTIRAM_1YR": "EnergeticParticles",
+  "IBEX_H3_ENA_HI_R10_NOCG_SP_RAM_1YR": "EnergeticParticles",
+  "IBEX_H3_ENA_HI_R10_CG_NOSP_RAM_7YR": "EnergeticParticles",
+  "IBEX_H3_ENA_HI_R10_CG_NOSP_ANTIRAM_7YR": "EnergeticParticles",
+  "IBEX_H3_ENA_HI_R10_CG_NOSP_OMNI_7YR": "EnergeticParticles",
+  "IBEX_H3_ENA_HI_R10_CG_SP_OMNI_7YR": "EnergeticParticles",
+  "IBEX_H3_ENA_HI_R10_CG_SP_ANTIRAM_7YR": "EnergeticParticles",
+  "IBEX_H3_ENA_HI_R10_CG_SP_RAM_7YR": "EnergeticParticles",
+  "IBEX_H3_ENA_HI_R10_NOCG_NOSP_ANTIRAM_7YR": "EnergeticParticles",
+  "IBEX_H3_ENA_HI_R10_NOCG_NOSP_OMNI_7YR": "EnergeticParticles",
+  "IBEX_H3_ENA_HI_R10_NOCG_SP_ANTIRAM_7YR": "EnergeticParticles",
+  "IBEX_H3_ENA_HI_R10_NOCG_SP_OMNI_7YR": "EnergeticParticles",
+  "IBEX_H3_ENA_LO_R07_NOCG_SP_OMNI_6MO": "NeutralAtomImages",
+  "IBEX_H3_ENA_LO_R07_NOCG_NOSP_OMNI_6MO": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R07_CG_NOSP_RAM_1YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R07_NOCG_NOSP_RAM_1YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R07_CG_SP_RAM_1YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R07_NOCG_SP_RAM_1YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R07_NOCG_SP_ANTIRAM_1YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R07_CG_SP_ANTIRAM_1YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R07_NOCG_NOSP_ANTIRAM_1YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R07_CG_NOSP_OMNI_6MO": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R07_CG_SP_OMNI_6MO": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R07_NOCG_NOSP_OMNI_6MO": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R07_NOCG_SP_OMNI_6MO": "NeutralAtomImages",
+  "IBEX_H3_ENA_LO_R04_CG_SP_RAM_3YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_LO_R04_CG_SP_ANTIRAM_3YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R04_NOCG_NOSP_ANTIRAM_1YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R04_CG_NOSP_ANTIRAM_1YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R04_CG_SP_ANTIRAM_1YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R04_NOCG_SP_ANTIRAM_1YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R04_CG_NOSP_RAM_1YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R04_CG_SP_RAM_1YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R04_NOCG_NOSP_RAM_1YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R04_NOCG_SP_RAM_1YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R04_CG_SP_OMNI_6MO": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R04_CG_NOSP_OMNI_6MO": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R04_NOCG_SP_OMNI_6MO": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R04_NOCG_NOSP_OMNI_6MO": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R04_NOCG_NOSP_OMNI_3YR": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R02_NOCG_NOSP_OMNI_6MO": "NeutralAtomImages",
+  "IBEX_H3_ENA_HI_R02_CG_NOSP_OMNI_6MO": "NeutralAtomImages",
+  "ICON_L2-1_MIGHTI-A_LOS-WIND-GREEN": "Dopplergram",
+  "ICON_L2-1_MIGHTI-B_LOS-WIND-GREEN": "Dopplergram",
+  "ICON_L2-1_MIGHTI-A_LOS-WIND-RED": "Dopplergram",
+  "ICON_L2-1_MIGHTI-B_LOS-WIND-RED": "Dopplergram",
+  "ICON_L2-2_MIGHTI_VECTOR-WIND-GREEN": "Dopplergram",
+  "ICON_L2-2_MIGHTI_VECTOR-WIND-RED": "Dopplergram",
+  "ICON_L2-3_MIGHTI-A_TEMPERATURE": "Dopplergram",
+  "ICON_L2-3_MIGHTI-B_TEMPERATURE": "Dopplergram",
+  "ICON_L2-4_FUV_DAY": "ImageIntensity",
+  "ICON_L2-4_FUV_DAY-LIMB": "ImageIntensity",
+  "ICON_L2-5_FUV_NIGHT": "ImageIntensity",
+  "ICON_L2-6_EUV": "ImageIntensity",
+  "ICON_L2-7_IVM-A": "Dopplergram",
+  "ICON_L2-7_IVM-B": "Dopplergram",
+  "IG_K0_PCI": "ActivityIndex",
+  "IMAGE_M2_EUV": "ImageIntensity",
+  "IM_K0_RPI": "Waves.Active",
+  "IM_K1_RPI": [
+    "Waves.Passive",
+    "Spectrum",
+    "ElectricField"
+  ],
+  "IM_ELECTRON_DENSITY_RPI": "Waves.Active",
+  "IM_OR_DEF": "Ephemeris",
+  "IM_OR_PRE": "Ephemeris",
+  "IM_HK_ADS": "InstrumentStatus",
+  "ISEE1_H1_FPE": "ThermalPlasma",
+  "ISEE1_H2_FPE": "ThermalPlasma",
+  "ISEE1_H0_FE": "ThermalPlasma",
+  "ISEE1_4SEC_MFI": "MagneticField",
+  "ISEE1_60SEC_MFI": "MagneticField",
+  "ISEE1_PWI_SA": [
+    "Waves.Passive",
+    "Spectrum"
+  ],
+  "ISEE1_PWI_SA-RAPID-E": [
+    "Waves.Passive",
+    "Spectrum"
+  ],
+  "ISEE1_PWI_SFR-E": [
+    "Waves.Passive",
+    "Spectrum"
+  ],
+  "ISEE2_H1_FPE": "ThermalPlasma",
+  "ISEE2_4SEC_MFI": "MagneticField",
+  "ISEE2_60SEC_MFI": "MagneticField",
+  "ISEE-3_MAGPLASMA_2MIN_MAGNETIC_FIELD_PLASMA": [
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "ISEE-3_MAG_1MIN_MAGNETIC_FIELD": "MagneticField",
+  "IT_H0_MFI": "MagneticField",
+  "IT_K0_MFI": "MagneticField",
+  "IT_K0_AKR": "Waves",
+  "IT_K0_COR": "ThermalPlasma",
+  "IT_K0_ELE": "ThermalPlasma",
+  "IT_K0_EPI": "EnergeticParticles",
+  "IT_K0_ICD": [
+    "EnergeticParticles",
+    "IonComposition"
+  ],
+  "IT_K0_VDP": "ThermalPlasma",
+  "IT_K0_WAV": "Waves.Passive",
+  "IT_OR_DEF": "Ephemeris",
+  "L9_H0_MPA": "ThermalPlasma",
+  "L9_K0_MPA": "EnergeticParticles",
+  "L9_K0_SPA": "EnergeticParticles",
+  "L0_K0_MPA": "EnergeticParticles",
+  "L0_K0_SPA": "EnergeticParticles",
+  "L1_K0_MPA": "EnergeticParticles",
+  "L1_K0_SPA": "EnergeticParticles",
+  "L4_K0_MPA": "EnergeticParticles",
+  "L4_K0_SPA": "EnergeticParticles",
+  "L7_H0_MPA": "ThermalPlasma",
+  "L7_K0_MPA": "EnergeticParticles",
+  "L7_K0_SPA": "EnergeticParticles",
+  "A1_K0_MPA": "EnergeticParticles",
+  "A2_K0_MPA": "EnergeticParticles",
+  "MSL_HELIO1DAY_POSITION": "Ephemeris",
+  "MVN_MAG_L2-SUNSTATE-1SEC": [
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "MVN_INSITU_KP-4SEC": [
+    "ElectricField",
+    "EnergeticParticles",
+    "Irradiance",
+    "MagneticField",
+    "Waves.Passive"
+  ],
+  "MVN_STA_L2_D8-12R1E": [
+    "EnergeticParticles",
+    "ThermalPlasma",
+    "IonComposition"
+  ],
+  "MVN_STA_L2_D9-12R64E": [
+    "EnergeticParticles",
+    "ThermalPlasma",
+    "IonComposition"
+  ],
+  "MVN_STA_L2_DA-1R64E": [
+    "EnergeticParticles",
+    "ThermalPlasma",
+    "IonComposition"
+  ],
+  "MVN_SWI_L2_ONBOARDSVYMOM": "ThermalPlasma",
+  "MVN_SWI_L2_ONBOARDSVYSPEC": [
+    "EnergeticParticles",
+    "ThermalPlasma"
+  ],
+  "MVN_SWI_L2_FINEARC3D": "ThermalPlasma",
+  "MVN_SWI_L2_COARSEARC3D": "ThermalPlasma",
+  "MVN_SWI_L2_COARSESVY3D": "ThermalPlasma",
+  "MVN_SWI_L2_FINESVY3D": "ThermalPlasma",
+  "MVN_SWE_L2_SVY3D": "ThermalPlasma",
+  "MVN_SWE_L2_SVYSPEC": "ThermalPlasma",
+  "MVN_SWE_L2_ARC3D": "ThermalPlasma",
+  "MVN_SWE_L2_ARCPAD": "ThermalPlasma",
+  "MVN_SWE_L2_SVYPAD": "ThermalPlasma",
+  "MVN_SEP_L2_S1-CAL-SVY-FULL": "EnergeticParticles",
+  "MVN_SEP_L2_S2-CAL-SVY-FULL": "EnergeticParticles",
+  "MESSENGER_MAG_RTN": [
+    "Ephemeris",
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "MMS1_ASPOC_SRVY_L2": "InstrumentStatus",
+  "MMS2_ASPOC_SRVY_L2": "InstrumentStatus",
+  "MMS3_ASPOC_SRVY_L2": "InstrumentStatus",
+  "MMS4_ASPOC_SRVY_L2": "InstrumentStatus",
+  "MMS1_DSP_FAST_L2_BPSD": [
+    "MagneticField",
+    "Waves.Passive"
+  ],
+  "MMS2_DSP_FAST_L2_BPSD": [
+    "MagneticField",
+    "Waves.Passive"
+  ],
+  "MMS3_DSP_FAST_L2_BPSD": [
+    "MagneticField",
+    "Waves.Passive"
+  ],
+  "MMS4_DSP_FAST_L2_BPSD": [
+    "MagneticField",
+    "Waves.Passive"
+  ],
+  "MMS1_DSP_SLOW_L2_BPSD": [
+    "MagneticField",
+    "Waves.Passive"
+  ],
+  "MMS2_DSP_SLOW_L2_BPSD": [
+    "MagneticField",
+    "Waves.Passive"
+  ],
+  "MMS3_DSP_SLOW_L2_BPSD": [
+    "MagneticField",
+    "Waves.Passive"
+  ],
+  "MMS4_DSP_SLOW_L2_BPSD": [
+    "MagneticField",
+    "Waves.Passive"
+  ],
+  "MMS1_DSP_FAST_L2_EPSD": [
+    "ElectricField",
+    "Waves.Passive"
+  ],
+  "MMS2_DSP_FAST_L2_EPSD": [
+    "ElectricField",
+    "Waves.Passive"
+  ],
+  "MMS3_DSP_FAST_L2_EPSD": [
+    "ElectricField",
+    "Waves.Passive"
+  ],
+  "MMS4_DSP_FAST_L2_EPSD": [
+    "ElectricField",
+    "Waves.Passive"
+  ],
+  "MMS1_DSP_SLOW_L2_EPSD": [
+    "ElectricField",
+    "Waves.Passive"
+  ],
+  "MMS2_DSP_SLOW_L2_EPSD": [
+    "ElectricField",
+    "Waves.Passive"
+  ],
+  "MMS3_DSP_SLOW_L2_EPSD": [
+    "ElectricField",
+    "Waves.Passive"
+  ],
+  "MMS4_DSP_SLOW_L2_EPSD": [
+    "ElectricField",
+    "Waves.Passive"
+  ],
+  "MMS1_EDI_SRVY_L2_AMB": "EnergeticParticles",
+  "MMS2_EDI_SRVY_L2_AMB": "EnergeticParticles",
+  "MMS3_EDI_SRVY_L2_AMB": "EnergeticParticles",
+  "MMS4_EDI_SRVY_L2_AMB": "EnergeticParticles",
+  "MMS1_EDI_SRVY_L2_AMB-PM2": "EnergeticParticles",
+  "MMS2_EDI_SRVY_L2_AMB-PM2": "EnergeticParticles",
+  "MMS3_EDI_SRVY_L2_AMB-PM2": "EnergeticParticles",
+  "MMS4_EDI_SRVY_L2_AMB-PM2": "EnergeticParticles",
+  "MMS1_EDI_SRVY_L2_EFIELD": "ElectricField",
+  "MMS2_EDI_SRVY_L2_EFIELD": "ElectricField",
+  "MMS3_EDI_SRVY_L2_EFIELD": "ElectricField",
+  "MMS4_EDI_SRVY_L2_EFIELD": "ElectricField",
+  "MMS1_EDI_SRVY_L2_Q0": "EnergeticParticles",
+  "MMS2_EDI_SRVY_L2_Q0": "EnergeticParticles",
+  "MMS3_EDI_SRVY_L2_Q0": "EnergeticParticles",
+  "MMS4_EDI_SRVY_L2_Q0": "EnergeticParticles",
+  "MMS1_EDI_BRST_L2_AMB": "EnergeticParticles",
+  "MMS2_EDI_BRST_L2_AMB": "EnergeticParticles",
+  "MMS3_EDI_BRST_L2_AMB": "EnergeticParticles",
+  "MMS4_EDI_BRST_L2_AMB": "EnergeticParticles",
+  "MMS1_EDI_BRST_L2_AMB-PM2": "EnergeticParticles",
+  "MMS2_EDI_BRST_L2_AMB-PM2": "EnergeticParticles",
+  "MMS3_EDI_BRST_L2_AMB-PM2": "EnergeticParticles",
+  "MMS4_EDI_BRST_L2_AMB-PM2": "EnergeticParticles",
+  "MMS1_EDI_BRST_L2_EFIELD": "ElectricField",
+  "MMS2_EDI_BRST_L2_EFIELD": "ElectricField",
+  "MMS3_EDI_BRST_L2_EFIELD": "ElectricField",
+  "MMS4_EDI_BRST_L2_EFIELD": "ElectricField",
+  "MMS1_EDI_BRST_L2_Q0": "EnergeticParticles",
+  "MMS2_EDI_BRST_L2_Q0": "EnergeticParticles",
+  "MMS3_EDI_BRST_L2_Q0": "EnergeticParticles",
+  "MMS4_EDI_BRST_L2_Q0": "EnergeticParticles",
+  "MMS1_EDP_FAST_L2_SCPOT": "ElectricField",
+  "MMS2_EDP_FAST_L2_SCPOT": "ElectricField",
+  "MMS3_EDP_FAST_L2_SCPOT": "ElectricField",
+  "MMS4_EDP_FAST_L2_SCPOT": "ElectricField",
+  "MMS1_EDP_SLOW_L2_SCPOT": "ElectricField",
+  "MMS2_EDP_SLOW_L2_SCPOT": "ElectricField",
+  "MMS3_EDP_SLOW_L2_SCPOT": "ElectricField",
+  "MMS4_EDP_SLOW_L2_SCPOT": "ElectricField",
+  "MMS1_EDP_BRST_L2_SCPOT": "ElectricField",
+  "MMS2_EDP_BRST_L2_SCPOT": "ElectricField",
+  "MMS3_EDP_BRST_L2_SCPOT": "ElectricField",
+  "MMS4_EDP_BRST_L2_SCPOT": "ElectricField",
+  "MMS1_EDP_SRVY_L2_HFESP": [
+    "ElectricField",
+    "Waves.Passive"
+  ],
+  "MMS2_EDP_SRVY_L2_HFESP": [
+    "ElectricField",
+    "Waves.Passive"
+  ],
+  "MMS3_EDP_SRVY_L2_HFESP": [
+    "ElectricField",
+    "Waves.Passive"
+  ],
+  "MMS4_EDP_SRVY_L2_HFESP": [
+    "ElectricField",
+    "Waves.Passive"
+  ],
+  "MMS1_EDP_BRST_L2_HMFE": "ElectricField",
+  "MMS2_EDP_BRST_L2_HMFE": "ElectricField",
+  "MMS3_EDP_BRST_L2_HMFE": "ElectricField",
+  "MMS4_EDP_BRST_L2_HMFE": "ElectricField",
+  "MMS1_EDP_FAST_L2_DCE": "ElectricField",
+  "MMS2_EDP_FAST_L2_DCE": "ElectricField",
+  "MMS3_EDP_FAST_L2_DCE": "ElectricField",
+  "MMS4_EDP_FAST_L2_DCE": "ElectricField",
+  "MMS1_EDP_SLOW_L2_DCE": "ElectricField",
+  "MMS2_EDP_SLOW_L2_DCE": "ElectricField",
+  "MMS3_EDP_SLOW_L2_DCE": "ElectricField",
+  "MMS4_EDP_SLOW_L2_DCE": "ElectricField",
+  "MMS1_EDP_BRST_L2_DCE": "ElectricField",
+  "MMS2_EDP_BRST_L2_DCE": "ElectricField",
+  "MMS3_EDP_BRST_L2_DCE": "ElectricField",
+  "MMS4_EDP_BRST_L2_DCE": "ElectricField",
+  "MMS1_EPD-EIS_SRVY_L2_EXTOF": "EnergeticParticles",
+  "MMS2_EPD-EIS_SRVY_L2_EXTOF": "EnergeticParticles",
+  "MMS3_EPD-EIS_SRVY_L2_EXTOF": "EnergeticParticles",
+  "MMS4_EPD-EIS_SRVY_L2_EXTOF": "EnergeticParticles",
+  "MMS1_EPD-EIS_BRST_L2_EXTOF": "EnergeticParticles",
+  "MMS2_EPD-EIS_BRST_L2_EXTOF": "EnergeticParticles",
+  "MMS3_EPD-EIS_BRST_L2_EXTOF": "EnergeticParticles",
+  "MMS4_EPD-EIS_BRST_L2_EXTOF": "EnergeticParticles",
+  "MMS1_EPD-EIS_SRVY_L2_PHXTOF": "EnergeticParticles",
+  "MMS2_EPD-EIS_SRVY_L2_PHXTOF": "EnergeticParticles",
+  "MMS3_EPD-EIS_SRVY_L2_PHXTOF": "EnergeticParticles",
+  "MMS4_EPD-EIS_SRVY_L2_PHXTOF": "EnergeticParticles",
+  "MMS1_EPD-EIS_BRST_L2_PHXTOF": "EnergeticParticles",
+  "MMS2_EPD-EIS_BRST_L2_PHXTOF": "EnergeticParticles",
+  "MMS3_EPD-EIS_BRST_L2_PHXTOF": "EnergeticParticles",
+  "MMS4_EPD-EIS_BRST_L2_PHXTOF": "EnergeticParticles",
+  "MMS1_EPD-EIS_SRVY_L2_ELECTRONENERGY": "EnergeticParticles",
+  "MMS2_EPD-EIS_SRVY_L2_ELECTRONENERGY": "EnergeticParticles",
+  "MMS3_EPD-EIS_SRVY_L2_ELECTRONENERGY": "EnergeticParticles",
+  "MMS4_EPD-EIS_SRVY_L2_ELECTRONENERGY": "EnergeticParticles",
+  "MMS1_FEEPS_SRVY_L2_ELECTRON": [
+    "EnergeticParticles",
+    "MagneticField"
+  ],
+  "MMS2_FEEPS_SRVY_L2_ELECTRON": [
+    "EnergeticParticles",
+    "MagneticField"
+  ],
+  "MMS3_FEEPS_SRVY_L2_ELECTRON": [
+    "EnergeticParticles",
+    "MagneticField"
+  ],
+  "MMS4_FEEPS_SRVY_L2_ELECTRON": [
+    "EnergeticParticles",
+    "MagneticField"
+  ],
+  "MMS1_FEEPS_BRST_L2_ELECTRON": [
+    "EnergeticParticles",
+    "MagneticField"
+  ],
+  "MMS2_FEEPS_BRST_L2_ELECTRON": [
+    "EnergeticParticles",
+    "MagneticField"
+  ],
+  "MMS3_FEEPS_BRST_L2_ELECTRON": [
+    "EnergeticParticles",
+    "MagneticField"
+  ],
+  "MMS4_FEEPS_BRST_L2_ELECTRON": [
+    "EnergeticParticles",
+    "MagneticField"
+  ],
+  "MMS1_FEEPS_SRVY_L2_ION": [
+    "EnergeticParticles",
+    "MagneticField"
+  ],
+  "MMS2_FEEPS_SRVY_L2_ION": [
+    "EnergeticParticles",
+    "MagneticField"
+  ],
+  "MMS3_FEEPS_SRVY_L2_ION": [
+    "EnergeticParticles",
+    "MagneticField"
+  ],
+  "MMS4_FEEPS_SRVY_L2_ION": [
+    "EnergeticParticles",
+    "MagneticField"
+  ],
+  "MMS1_FEEPS_BRST_L2_ION": [
+    "EnergeticParticles",
+    "MagneticField"
+  ],
+  "MMS2_FEEPS_BRST_L2_ION": [
+    "EnergeticParticles",
+    "MagneticField"
+  ],
+  "MMS3_FEEPS_BRST_L2_ION": [
+    "EnergeticParticles",
+    "MagneticField"
+  ],
+  "MMS4_FEEPS_BRST_L2_ION": [
+    "EnergeticParticles",
+    "MagneticField"
+  ],
+  "MMS1_FPI_BRST_L2_DES-DIST": "EnergeticParticles",
+  "MMS2_FPI_BRST_L2_DES-DIST": "EnergeticParticles",
+  "MMS3_FPI_BRST_L2_DES-DIST": "EnergeticParticles",
+  "MMS4_FPI_BRST_L2_DES-DIST": "EnergeticParticles",
+  "MMS1_FPI_BRST_L2_DIS-DIST": "EnergeticParticles",
+  "MMS2_FPI_BRST_L2_DIS-DIST": "EnergeticParticles",
+  "MMS3_FPI_BRST_L2_DIS-DIST": "EnergeticParticles",
+  "MMS4_FPI_BRST_L2_DIS-DIST": "EnergeticParticles",
+  "MMS1_FPI_FAST_L2_DES-DIST": "EnergeticParticles",
+  "MMS2_FPI_FAST_L2_DES-DIST": "EnergeticParticles",
+  "MMS3_FPI_FAST_L2_DES-DIST": "EnergeticParticles",
+  "MMS4_FPI_FAST_L2_DES-DIST": "EnergeticParticles",
+  "MMS1_FPI_FAST_L2_DIS-DIST": "EnergeticParticles",
+  "MMS2_FPI_FAST_L2_DIS-DIST": "EnergeticParticles",
+  "MMS3_FPI_FAST_L2_DIS-DIST": "EnergeticParticles",
+  "MMS4_FPI_FAST_L2_DIS-DIST": "EnergeticParticles",
+  "MMS1_FPI_FAST_L2_DIS-MOMS": [
+    "EnergeticParticles",
+    "ThermalPlasma"
+  ],
+  "MMS2_FPI_FAST_L2_DIS-MOMS": [
+    "EnergeticParticles",
+    "ThermalPlasma"
+  ],
+  "MMS3_FPI_FAST_L2_DIS-MOMS": [
+    "EnergeticParticles",
+    "ThermalPlasma"
+  ],
+  "MMS4_FPI_FAST_L2_DIS-MOMS": [
+    "EnergeticParticles",
+    "ThermalPlasma"
+  ],
+  "MMS1_FPI_BRST_L2_DIS-MOMS": [
+    "EnergeticParticles",
+    "ThermalPlasma"
+  ],
+  "MMS2_FPI_BRST_L2_DIS-MOMS": [
+    "EnergeticParticles",
+    "ThermalPlasma"
+  ],
+  "MMS3_FPI_BRST_L2_DIS-MOMS": [
+    "EnergeticParticles",
+    "ThermalPlasma"
+  ],
+  "MMS4_FPI_BRST_L2_DIS-MOMS": [
+    "EnergeticParticles",
+    "ThermalPlasma"
+  ],
+  "MMS1_FPI_FAST_L2_DES-MOMS": [
+    "EnergeticParticles",
+    "Spectrum",
+    "ThermalPlasma"
+  ],
+  "MMS2_FPI_FAST_L2_DES-MOMS": [
+    "EnergeticParticles",
+    "Spectrum",
+    "ThermalPlasma"
+  ],
+  "MMS3_FPI_FAST_L2_DES-MOMS": [
+    "EnergeticParticles",
+    "Spectrum",
+    "ThermalPlasma"
+  ],
+  "MMS4_FPI_FAST_L2_DES-MOMS": [
+    "EnergeticParticles",
+    "Spectrum",
+    "ThermalPlasma"
+  ],
+  "MMS1_FPI_BRST_L2_DES-MOMS": [
+    "EnergeticParticles",
+    "Spectrum",
+    "ThermalPlasma"
+  ],
+  "MMS2_FPI_BRST_L2_DES-MOMS": [
+    "EnergeticParticles",
+    "Spectrum",
+    "ThermalPlasma"
+  ],
+  "MMS3_FPI_BRST_L2_DES-MOMS": [
+    "EnergeticParticles",
+    "Spectrum",
+    "ThermalPlasma"
+  ],
+  "MMS4_FPI_BRST_L2_DES-MOMS": [
+    "EnergeticParticles",
+    "Spectrum",
+    "ThermalPlasma"
+  ],
+  "MMS1_FPI_FAST_L2_DIS-PARTMOMS": [
+    "ElectricField",
+    "InstrumentStatus",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "MMS2_FPI_FAST_L2_DIS-PARTMOMS": [
+    "ElectricField",
+    "InstrumentStatus",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "MMS3_FPI_FAST_L2_DIS-PARTMOMS": [
+    "ElectricField",
+    "InstrumentStatus",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "MMS4_FPI_FAST_L2_DIS-PARTMOMS": [
+    "ElectricField",
+    "InstrumentStatus",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "MMS1_FPI_BRST_L2_DIS-PARTMOMS": [
+    "ElectricField",
+    "InstrumentStatus",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "MMS2_FPI_BRST_L2_DIS-PARTMOMS": [
+    "ElectricField",
+    "InstrumentStatus",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "MMS3_FPI_BRST_L2_DIS-PARTMOMS": [
+    "ElectricField",
+    "InstrumentStatus",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "MMS4_FPI_BRST_L2_DIS-PARTMOMS": [
+    "ElectricField",
+    "InstrumentStatus",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "MMS1_FPI_FAST_L2_DES-PARTMOMS": [
+    "ElectricField",
+    "InstrumentStatus",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "MMS2_FPI_FAST_L2_DES-PARTMOMS": [
+    "ElectricField",
+    "InstrumentStatus",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "MMS3_FPI_FAST_L2_DES-PARTMOMS": [
+    "ElectricField",
+    "InstrumentStatus",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "MMS4_FPI_FAST_L2_DES-PARTMOMS": [
+    "ElectricField",
+    "InstrumentStatus",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "MMS1_FPI_BRST_L2_DES-PARTMOMS": [
+    "ElectricField",
+    "InstrumentStatus",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "MMS2_FPI_BRST_L2_DES-PARTMOMS": [
+    "ElectricField",
+    "InstrumentStatus",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "MMS3_FPI_BRST_L2_DES-PARTMOMS": [
+    "ElectricField",
+    "InstrumentStatus",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "MMS4_FPI_BRST_L2_DES-PARTMOMS": [
+    "ElectricField",
+    "InstrumentStatus",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "MMS1_FGM_SRVY_L2": "MagneticField",
+  "MMS2_FGM_SRVY_L2": "MagneticField",
+  "MMS3_FGM_SRVY_L2": "MagneticField",
+  "MMS4_FGM_SRVY_L2": "MagneticField",
+  "MMS1_FGM_BRST_L2": "MagneticField",
+  "MMS2_FGM_BRST_L2": "MagneticField",
+  "MMS3_FGM_BRST_L2": "MagneticField",
+  "MMS4_FGM_BRST_L2": "MagneticField",
+  "MMS1_HPCA_BRST_L2_MOMENTS": [
+    "EnergeticParticles",
+    "MagneticField"
+  ],
+  "MMS2_HPCA_BRST_L2_MOMENTS": [
+    "EnergeticParticles",
+    "MagneticField"
+  ],
+  "MMS3_HPCA_BRST_L2_MOMENTS": [
+    "EnergeticParticles",
+    "MagneticField"
+  ],
+  "MMS4_HPCA_BRST_L2_MOMENTS": [
+    "EnergeticParticles",
+    "MagneticField"
+  ],
+  "MMS1_HPCA_BRST_L2_ION": [
+    "EnergeticParticles",
+    "MagneticField"
+  ],
+  "MMS2_HPCA_BRST_L2_ION": [
+    "EnergeticParticles",
+    "MagneticField"
+  ],
+  "MMS3_HPCA_BRST_L2_ION": [
+    "EnergeticParticles",
+    "MagneticField"
+  ],
+  "MMS4_HPCA_BRST_L2_ION": [
+    "EnergeticParticles",
+    "MagneticField"
+  ],
+  "MMS1_HPCA_SRVY_L2_MOMENTS": [
+    "EnergeticParticles",
+    "MagneticField"
+  ],
+  "MMS2_HPCA_SRVY_L2_MOMENTS": [
+    "EnergeticParticles",
+    "MagneticField"
+  ],
+  "MMS3_HPCA_SRVY_L2_MOMENTS": [
+    "EnergeticParticles",
+    "MagneticField"
+  ],
+  "MMS4_HPCA_SRVY_L2_MOMENTS": [
+    "EnergeticParticles",
+    "MagneticField"
+  ],
+  "MMS1_HPCA_SRVY_L2_ION": [
+    "EnergeticParticles",
+    "MagneticField"
+  ],
+  "MMS2_HPCA_SRVY_L2_ION": [
+    "EnergeticParticles",
+    "MagneticField"
+  ],
+  "MMS3_HPCA_SRVY_L2_ION": [
+    "EnergeticParticles",
+    "MagneticField"
+  ],
+  "MMS4_HPCA_SRVY_L2_ION": [
+    "EnergeticParticles",
+    "MagneticField"
+  ],
+  "MMS1_HPCA_SRVY_L2_TOF-COUNTS": "EnergeticParticles",
+  "MMS2_HPCA_SRVY_L2_TOF-COUNTS": "EnergeticParticles",
+  "MMS3_HPCA_SRVY_L2_TOF-COUNTS": "EnergeticParticles",
+  "MMS4_HPCA_SRVY_L2_TOF-COUNTS": "EnergeticParticles",
+  "MMS1_MEC_BRST_L2_EPHT89D": [
+    "ActivityIndex",
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "MMS2_MEC_BRST_L2_EPHT89D": [
+    "ActivityIndex",
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "MMS3_MEC_BRST_L2_EPHT89D": [
+    "ActivityIndex",
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "MMS4_MEC_BRST_L2_EPHT89D": [
+    "ActivityIndex",
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "MMS1_MEC_BRST_L2_EPHT89Q": [
+    "ActivityIndex",
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "MMS2_MEC_BRST_L2_EPHT89Q": [
+    "ActivityIndex",
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "MMS3_MEC_BRST_L2_EPHT89Q": [
+    "ActivityIndex",
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "MMS4_MEC_BRST_L2_EPHT89Q": [
+    "ActivityIndex",
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "MMS1_MEC_BRST_L2_EPHTS04D": [
+    "ActivityIndex",
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "MMS2_MEC_BRST_L2_EPHTS04D": [
+    "ActivityIndex",
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "MMS3_MEC_BRST_L2_EPHTS04D": [
+    "ActivityIndex",
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "MMS4_MEC_BRST_L2_EPHTS04D": [
+    "ActivityIndex",
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "MMS1_MEC_SRVY_L2_EPHT89D": [
+    "ActivityIndex",
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "MMS2_MEC_SRVY_L2_EPHT89D": [
+    "ActivityIndex",
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "MMS3_MEC_SRVY_L2_EPHT89D": [
+    "ActivityIndex",
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "MMS4_MEC_SRVY_L2_EPHT89D": [
+    "ActivityIndex",
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "MMS1_MEC_SRVY_L2_EPHT89Q": [
+    "ActivityIndex",
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "MMS2_MEC_SRVY_L2_EPHT89Q": [
+    "ActivityIndex",
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "MMS3_MEC_SRVY_L2_EPHT89Q": [
+    "ActivityIndex",
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "MMS4_MEC_SRVY_L2_EPHT89Q": [
+    "ActivityIndex",
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "MMS1_MEC_SRVY_L2_EPHTS04D": [
+    "ActivityIndex",
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "MMS2_MEC_SRVY_L2_EPHTS04D": [
+    "ActivityIndex",
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "MMS3_MEC_SRVY_L2_EPHTS04D": [
+    "ActivityIndex",
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "MMS4_MEC_SRVY_L2_EPHTS04D": [
+    "ActivityIndex",
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "MMS1_SCM_SRVY_L2_SCSRVY": [
+    "MagneticField",
+    "Waves.Passive"
+  ],
+  "MMS2_SCM_SRVY_L2_SCSRVY": [
+    "MagneticField",
+    "Waves.Passive"
+  ],
+  "MMS3_SCM_SRVY_L2_SCSRVY": [
+    "MagneticField",
+    "Waves.Passive"
+  ],
+  "MMS4_SCM_SRVY_L2_SCSRVY": [
+    "MagneticField",
+    "Waves.Passive"
+  ],
+  "MMS1_SCM_BRST_L2_SCB": [
+    "MagneticField",
+    "Waves.Passive"
+  ],
+  "MMS2_SCM_BRST_L2_SCB": [
+    "MagneticField",
+    "Waves.Passive"
+  ],
+  "MMS3_SCM_BRST_L2_SCB": [
+    "MagneticField",
+    "Waves.Passive"
+  ],
+  "MMS4_SCM_BRST_L2_SCB": [
+    "MagneticField",
+    "Waves.Passive"
+  ],
+  "MMS1_SCM_BRST_L2_SCHB": [
+    "MagneticField",
+    "Waves.Passive"
+  ],
+  "MMS2_SCM_BRST_L2_SCHB": [
+    "MagneticField",
+    "Waves.Passive"
+  ],
+  "MMS3_SCM_BRST_L2_SCHB": [
+    "MagneticField",
+    "Waves.Passive"
+  ],
+  "MMS4_SCM_BRST_L2_SCHB": [
+    "MagneticField",
+    "Waves.Passive"
+  ],
+  "MUNIN_M1_MDSE": "EnergeticParticles",
+  "MUNIN_M1_MDSI": "EnergeticParticles",
+  "MUNIN_M1_OA": [
+    "Ephemeris",
+    "MagneticField"
+  ],
+  "NEW_HORIZONS_SWAP_VALIDSUM": [
+    "EnergeticParticles",
+    "ThermalPlasma"
+  ],
+  "NEW_HORIZONS_SWAP_PICKUP-IONS": [
+    "EnergeticParticles",
+    "ThermalPlasma"
+  ],
+  "NEW_HORIZONS_SWAP_PICKUP-IONS-HISTOGRAM": [
+    "EnergeticParticles",
+    "ThermalPlasma"
+  ],
+  "NOAA05_MEPED1MIN_SEM": [
+    "EnergeticParticles",
+    "Ephemeris",
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "NOAA06_MEPED1MIN_SEM": [
+    "EnergeticParticles",
+    "Ephemeris",
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "NOAA07_MEPED1MIN_SEM": [
+    "EnergeticParticles",
+    "Ephemeris",
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "NOAA08_MEPED1MIN_SEM": [
+    "EnergeticParticles",
+    "Ephemeris",
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "NOAA10_MEPED1MIN_SEM": [
+    "EnergeticParticles",
+    "Ephemeris",
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "NOAA12_MEPED1MIN_SEM": [
+    "EnergeticParticles",
+    "Ephemeris",
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "NOAA14_MEPED1MIN_SEM": [
+    "EnergeticParticles",
+    "Ephemeris",
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "NOAA15_POES-SEM2_FLUXES-2SEC": "EnergeticParticles",
+  "NOAA16_POES-SEM2_FLUXES-2SEC": "EnergeticParticles",
+  "NOAA18_POES-SEM2_FLUXES-2SEC": "EnergeticParticles",
+  "NOAA19_POES-SEM2_FLUXES-2SEC": "EnergeticParticles",
+  "METOP1_POES-SEM2_FLUXES-2SEC": "EnergeticParticles",
+  "METOP2_POES-SEM2_FLUXES-2SEC": "EnergeticParticles",
+  "OMNI_HRO_1MIN": [
+    "ThermalPlasma",
+    "MagneticField",
+    "ActivityIndex"
+  ],
+  "OMNI_HRO_5MIN": [
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "OMNI_HRO2_1MIN": [
+    "ActivityIndex",
+    "ElectricField",
+    "Ephemeris",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "OMNI_HRO2_5MIN": [
+    "ActivityIndex",
+    "ElectricField",
+    "EnergeticParticles",
+    "Ephemeris",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "OMNI2_H0_MRG1HR": [
+    "ThermalPlasma",
+    "MagneticField",
+    "EnergeticParticles",
+    "ActivityIndex"
+  ],
+  "OMNI_COHO1HR_MERGED_MAG_PLASMA": [
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "PIONEER10_MAG_1MIN_MAGNETIC_FIELD": "MagneticField",
+  "PIONEER10_COHO1HR_MERGED_MAG_PLASMA": [
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "PIONEER11_COHO1HR_MERGED_MAG_PLASMA": [
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "PIONEERVENUS_COHO1HR_MERGED_MAG_PLASMA": [
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "PIONEERVENUS_MERGED_SOLAR-WIND_10M": [
+    "Ephemeris",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "PO_K0_MFE": "MagneticField",
+  "PO_H0_CAM": "EnergeticParticles",
+  "PO_K0_CAM": "EnergeticParticles",
+  "PO_K0_CEP": "EnergeticParticles",
+  "PO_K0_EFI": "ElectricField",
+  "PO_6SECEDSC_EFI": "ElectricField",
+  "PO_6SECPOTLDENS_EFI": [
+    "ElectricField",
+    "ThermalPlasma"
+  ],
+  "PO_10MINATT_EFI": "Ephemeris",
+  "POLAR_HYDRA_MOMENTS-14SEC": "EnergeticParticles",
+  "PO_H0_HYD": "ThermalPlasma",
+  "PO_K0_HYD": "ThermalPlasma",
+  "PO_H0_PWI": [
+    "Waves.Passive",
+    "Spectrum"
+  ],
+  "PO_H1_PWI": [
+    "Waves.Passive",
+    "Spectrum"
+  ],
+  "PO_H2_PWI": [
+    "Waves.Passive",
+    "Spectrum"
+  ],
+  "PO_H3_PWI": "Waves.Passive",
+  "PO_H4_PWI": "Waves.Passive",
+  "PO_H5_PWI": "Waves.Passive",
+  "PO_H7_PWI": "Waves.Passive",
+  "PO_H8_PWI": "Waves.Passive",
+  "PO_H9_PWI": "Waves.Passive",
+  "PO_K0_PWI": "Waves.Passive",
+  "PO_H0_TID": "ThermalPlasma",
+  "PO_H1_TID": "ThermalPlasma",
+  "PO_H0_TIM": [
+    "EnergeticParticles",
+    "IonComposition",
+    "Spectrum",
+    "ThermalPlasma"
+  ],
+  "PO_H2_TIM": [
+    "EnergeticParticles",
+    "IonComposition",
+    "Spectrum",
+    "ThermalPlasma"
+  ],
+  "PO_K1_TIM": [
+    "EnergeticParticles",
+    "IonComposition",
+    "Spectrum",
+    "ThermalPlasma"
+  ],
+  "PO_LEVEL1_UVI": "ImageIntensity",
+  "PO_K0_UVI": "ImageIntensity",
+  "PO_VIS_EARTH-CAMERA-CALIBRATED": "ImageIntensity",
+  "PO_VIS_VISIBLE-IMAGER-CALIBRATED": "ImageIntensity",
+  "PO_OR_DEF": "Ephemeris",
+  "PO_OR_PRE": "Ephemeris",
+  "PO_AT_DEF": "Ephemeris",
+  "PO_AT_PRE": "Ephemeris",
+  "PO_K0_SPHA": "Ephemeris",
+  "PO_PA_DEF": "Ephemeris",
+  "PSP_HELIO1DAY_POSITION": "Ephemeris",
+  "PSP_COHO1HR_MERGED_MAG_PLASMA": [
+    "Ephemeris",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "PSP_SWP_SPC_L3I": [
+    "Ephemeris",
+    "ThermalPlasma"
+  ],
+  "PSP_SWP_SPC_L2I": [
+    "InstrumentStatus",
+    "ThermalPlasma"
+  ],
+  "PSP_SWP_SPI_SF00_L3_MOM_INST": [
+    "InstrumentStatus",
+    "ThermalPlasma"
+  ],
+  "PSP_SWP_SPI_SF0A_L3_MOM_INST": [
+    "InstrumentStatus",
+    "ThermalPlasma"
+  ],
+  "PSP_SWP_SPI_SF00_L2_8DX32EX8A": [
+    "InstrumentStatus",
+    "ThermalPlasma"
+  ],
+  "PSP_SWP_SPI_SF01_L2_8DX32EX8A": [
+    "EnergeticParticles",
+    "ThermalPlasma"
+  ],
+  "PSP_SWP_SPA_SF0_L2_16AX8DX32E": [
+    "InstrumentStatus",
+    "ThermalPlasma"
+  ],
+  "PSP_SWP_SPA_SF1_L2_32E": [
+    "InstrumentStatus",
+    "ThermalPlasma"
+  ],
+  "PSP_SWP_SPB_SF0_L2_16AX8DX32E": [
+    "InstrumentStatus",
+    "ThermalPlasma"
+  ],
+  "PSP_SWP_SPB_SF1_L2_32E": [
+    "InstrumentStatus",
+    "ThermalPlasma"
+  ],
+  "PSP_SWP_SPE_SF0_L3_PAD": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "PSP_SWP_SPA_SF0_L3_PAD": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "PSP_SWP_SPB_SF0_L3_PAD": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "PSP_FLD_L2_MAG_RTN": [
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "PSP_FLD_L2_MAG_RTN_1MIN": [
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "PSP_FLD_L2_MAG_RTN_4_SA_PER_CYC": [
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "PSP_FLD_L2_MAG_SC": [
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "PSP_FLD_L2_MAG_SC_1MIN": [
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "PSP_FLD_L2_MAG_SC_4_SA_PER_CYC": [
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "PSP_FLD_L2_RFS_HFR": [
+    "InstrumentStatus",
+    "Spectrum",
+    "Waves.Passive"
+  ],
+  "PSP_FLD_L2_RFS_LFR": [
+    "InstrumentStatus",
+    "Spectrum",
+    "Waves.Passive"
+  ],
+  "PSP_FLD_L2_F2_100BPS": [
+    "ElectricField",
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "PSP_FLD_L2_DFB_AC_BPF_DV12HG": [
+    "InstrumentStatus",
+    "Waves.Passive"
+  ],
+  "PSP_FLD_L2_DFB_AC_BPF_DV34HG": [
+    "InstrumentStatus",
+    "Waves.Passive"
+  ],
+  "PSP_FLD_L2_DFB_AC_BPF_SCMULFHG": [
+    "InstrumentStatus",
+    "Waves.Passive"
+  ],
+  "PSP_FLD_L2_DFB_AC_BPF_SCMUMFHG": [
+    "InstrumentStatus",
+    "Waves.Passive"
+  ],
+  "PSP_FLD_L2_DFB_AC_SPEC_DV12HG": [
+    "InstrumentStatus",
+    "Waves.Passive"
+  ],
+  "PSP_FLD_L2_DFB_AC_SPEC_DV34HG": [
+    "InstrumentStatus",
+    "Waves.Passive"
+  ],
+  "PSP_FLD_L2_DFB_AC_SPEC_SCMDLFHG": [
+    "InstrumentStatus",
+    "Waves.Passive"
+  ],
+  "PSP_FLD_L2_DFB_AC_SPEC_SCMELFHG": [
+    "InstrumentStatus",
+    "Waves.Passive"
+  ],
+  "PSP_FLD_L2_DFB_AC_SPEC_SCMFLFHG": [
+    "InstrumentStatus",
+    "Waves.Passive"
+  ],
+  "PSP_FLD_L2_DFB_AC_SPEC_SCMULFLG": [
+    "InstrumentStatus",
+    "Waves.Passive"
+  ],
+  "PSP_FLD_L2_DFB_AC_SPEC_SCMVLFHG": [
+    "InstrumentStatus",
+    "Waves.Passive"
+  ],
+  "PSP_FLD_L2_DFB_AC_SPEC_SCMMF": [
+    "InstrumentStatus",
+    "Waves.Passive"
+  ],
+  "PSP_FLD_L2_DFB_AC_SPEC_V5HG": [
+    "InstrumentStatus",
+    "Waves.Passive"
+  ],
+  "PSP_FLD_L2_DFB_AC_XSPEC_DV12HG_DV34HG": [
+    "InstrumentStatus",
+    "Waves.Passive"
+  ],
+  "PSP_FLD_L2_DFB_AC_XSPEC_SCMDLFHG_SCMELFHG": [
+    "InstrumentStatus",
+    "Waves.Passive"
+  ],
+  "PSP_FLD_L2_DFB_AC_XSPEC_SCMDLFHG_SCMFLFHG": [
+    "InstrumentStatus",
+    "Waves.Passive"
+  ],
+  "PSP_FLD_L2_DFB_AC_XSPEC_SCMELFHG_SCMFLFHG": [
+    "InstrumentStatus",
+    "Waves.Passive"
+  ],
+  "PSP_FLD_L2_DFB_DC_BPF_DV12HG": [
+    "ElectricField",
+    "InstrumentStatus"
+  ],
+  "PSP_FLD_L2_DFB_DC_BPF_DV34HG": [
+    "ElectricField",
+    "InstrumentStatus"
+  ],
+  "PSP_FLD_L2_DFB_DC_BPF_SCMULFHG": [
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "PSP_FLD_L2_DFB_DC_BPF_SCMVLFHG": [
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "PSP_FLD_L2_DFB_DC_SPEC_DV12HG": [
+    "ElectricField",
+    "InstrumentStatus"
+  ],
+  "PSP_FLD_L2_DFB_DC_SPEC_SCMDLFHG": [
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "PSP_FLD_L2_DFB_DC_SPEC_SCMELFHG": [
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "PSP_FLD_L2_DFB_DC_SPEC_SCMFLFHG": [
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "PSP_FLD_L2_DFB_DC_SPEC_SCMULFHG": [
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "PSP_FLD_L2_DFB_DC_SPEC_SCMVLFHG": [
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "PSP_FLD_L2_DFB_DC_SPEC_SCMWLFHG": [
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "PSP_FLD_L2_DFB_DC_XSPEC_SCMVLFHG_SCMWLFHG": [
+    "InstrumentStatus",
+    "Waves.Passive"
+  ],
+  "PSP_FLD_L2_DFB_DC_XSPEC_SCMDLFHG_SCMELFHG": [
+    "InstrumentStatus",
+    "Waves.Passive"
+  ],
+  "PSP_FLD_L2_DFB_DC_XSPEC_SCMDLFHG_SCMFLFHG": [
+    "InstrumentStatus",
+    "Waves.Passive"
+  ],
+  "PSP_FLD_L2_DFB_DC_XSPEC_SCMELFHG_SCMFLFHG": [
+    "InstrumentStatus",
+    "Waves.Passive"
+  ],
+  "PSP_FLD_L2_DFB_DBM_DVAC": [
+    "ElectricField",
+    "InstrumentStatus"
+  ],
+  "PSP_FLD_L2_DFB_DBM_SCM": [
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "PSP_FLD_L2_DFB_WF_VDC": [
+    "ElectricField",
+    "InstrumentStatus"
+  ],
+  "PSP_FLD_L2_DFB_WF_DVDC": [
+    "ElectricField",
+    "InstrumentStatus"
+  ],
+  "PSP_FLD_L2_DFB_WF_SCM": [
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "PSP_ISOIS_L2-SUMMARY": "EnergeticParticles",
+  "PSP_ISOIS-EPIHI_L2-SECOND-RATES": [
+    "EnergeticParticles",
+    "Ephemeris"
+  ],
+  "PSP_ISOIS-EPIHI_L2-HET-RATES10": [
+    "EnergeticParticles",
+    "Ephemeris"
+  ],
+  "PSP_ISOIS-EPIHI_L2-HET-RATES60": [
+    "EnergeticParticles",
+    "Ephemeris"
+  ],
+  "PSP_ISOIS-EPIHI_L2-HET-RATES300": [
+    "EnergeticParticles",
+    "Ephemeris"
+  ],
+  "PSP_ISOIS-EPIHI_L2-HET-RATES3600": [
+    "EnergeticParticles",
+    "Ephemeris"
+  ],
+  "PSP_ISOIS-EPIHI_L2-LET1-RATES10": [
+    "EnergeticParticles",
+    "Ephemeris"
+  ],
+  "PSP_ISOIS-EPIHI_L2-LET1-RATES60": [
+    "EnergeticParticles",
+    "Ephemeris"
+  ],
+  "PSP_ISOIS-EPIHI_L2-LET1-RATES300": [
+    "EnergeticParticles",
+    "Ephemeris"
+  ],
+  "PSP_ISOIS-EPIHI_L2-LET1-RATES3600": [
+    "EnergeticParticles",
+    "Ephemeris"
+  ],
+  "PSP_ISOIS-EPIHI_L2-LET2-RATES10": [
+    "EnergeticParticles",
+    "Ephemeris"
+  ],
+  "PSP_ISOIS-EPIHI_L2-LET2-RATES60": [
+    "EnergeticParticles",
+    "Ephemeris"
+  ],
+  "PSP_ISOIS-EPIHI_L2-LET2-RATES300": [
+    "EnergeticParticles",
+    "Ephemeris"
+  ],
+  "PSP_ISOIS-EPIHI_L2-LET2-RATES3600": [
+    "EnergeticParticles",
+    "Ephemeris"
+  ],
+  "PSP_ISOIS-EPILO_L2-IC": [
+    "EnergeticParticles",
+    "Ephemeris"
+  ],
+  "PSP_ISOIS-EPILO_L2-PE": [
+    "EnergeticParticles",
+    "Ephemeris"
+  ],
+  "PSP_ISOIS_L2-EPHEM": "Ephemeris",
+  "RS_K0_IPEI": "IonComposition",
+  "RBSPA_REL04_ECT-HOPE-MOM-L3": [
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "RBSPB_REL04_ECT-HOPE-MOM-L3": [
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "RBSPA_REL04_ECT-HOPE-PA-L3": [
+    "EnergeticParticles",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "RBSPB_REL04_ECT-HOPE-PA-L3": [
+    "EnergeticParticles",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "RBSPA_REL04_ECT-MAGEIS-L3": [
+    "EnergeticParticles",
+    "MagneticField"
+  ],
+  "RBSPB_REL04_ECT-MAGEIS-L3": [
+    "EnergeticParticles",
+    "MagneticField"
+  ],
+  "RBSP_ECT-REPT-SCI-L3-SELESNICK-MODEL": "EnergeticParticles",
+  "RBSPA_REL03_ECT-REPT-SCI-L3": [
+    "EnergeticParticles",
+    "MagneticField"
+  ],
+  "RBSPB_REL03_ECT-REPT-SCI-L3": [
+    "EnergeticParticles",
+    "MagneticField"
+  ],
+  "RBSPA_REL04_ECT-HOPE-SCI-L2SA": "EnergeticParticles",
+  "RBSPB_REL04_ECT-HOPE-SCI-L2SA": "EnergeticParticles",
+  "RBSPA_REL04_ECT-HOPE-SCI-L2": "EnergeticParticles",
+  "RBSPB_REL04_ECT-HOPE-SCI-L2": "EnergeticParticles",
+  "RBSPA_REL03_ECT-MAGEIS-L2": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "RBSPB_REL03_ECT-MAGEIS-L2": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "RBSPA_REL03_ECT-REPT-SCI-L2": [
+    "EnergeticParticles",
+    "MagneticField"
+  ],
+  "RBSPB_REL03_ECT-REPT-SCI-L2": [
+    "EnergeticParticles",
+    "MagneticField"
+  ],
+  "RBSP-A-RBSPICE_LEV-3-PAP_TOFXEH": [
+    "EnergeticParticles",
+    "Ephemeris",
+    "ThermalPlasma"
+  ],
+  "RBSP-B-RBSPICE_LEV-3-PAP_TOFXEH": [
+    "EnergeticParticles",
+    "Ephemeris",
+    "ThermalPlasma"
+  ],
+  "RBSP-A-RBSPICE_LEV-3-PAP_TOFXEHE-0": [
+    "EnergeticParticles",
+    "Ephemeris",
+    "ThermalPlasma"
+  ],
+  "RBSP-A-RBSPICE_LEV-3-PAP_TOFXEHE": [
+    "EnergeticParticles",
+    "Ephemeris",
+    "ThermalPlasma"
+  ],
+  "RBSP-B-RBSPICE_LEV-3-PAP_TOFXEHE-0": [
+    "EnergeticParticles",
+    "Ephemeris",
+    "ThermalPlasma"
+  ],
+  "RBSP-B-RBSPICE_LEV-3-PAP_TOFXEHE": [
+    "EnergeticParticles",
+    "Ephemeris",
+    "ThermalPlasma"
+  ],
+  "RBSP-A-RBSPICE_LEV-3-PAP_TOFXEO-0": [
+    "EnergeticParticles",
+    "Ephemeris",
+    "ThermalPlasma"
+  ],
+  "RBSP-A-RBSPICE_LEV-3-PAP_TOFXEO": [
+    "EnergeticParticles",
+    "Ephemeris",
+    "ThermalPlasma"
+  ],
+  "RBSP-B-RBSPICE_LEV-3-PAP_TOFXEO-0": [
+    "EnergeticParticles",
+    "Ephemeris",
+    "ThermalPlasma"
+  ],
+  "RBSP-B-RBSPICE_LEV-3-PAP_TOFXEO": [
+    "EnergeticParticles",
+    "Ephemeris",
+    "ThermalPlasma"
+  ],
+  "RBSP-A-RBSPICE_LEV-3-PAP_TOFXEION": [
+    "EnergeticParticles",
+    "Ephemeris",
+    "ThermalPlasma"
+  ],
+  "RBSP-B-RBSPICE_LEV-3-PAP_TOFXEION": [
+    "EnergeticParticles",
+    "Ephemeris",
+    "ThermalPlasma"
+  ],
+  "RBSP-A-RBSPICE_LEV-3-PAP_TOFXPHHHELT": [
+    "EnergeticParticles",
+    "Ephemeris",
+    "ThermalPlasma"
+  ],
+  "RBSP-B-RBSPICE_LEV-3-PAP_TOFXPHHHELT": [
+    "EnergeticParticles",
+    "Ephemeris",
+    "ThermalPlasma"
+  ],
+  "RBSP-A-RBSPICE_LEV-3-PAP_TOFXPHHLEHT": [
+    "EnergeticParticles",
+    "Ephemeris",
+    "ThermalPlasma"
+  ],
+  "RBSP-B-RBSPICE_LEV-3-PAP_TOFXPHHLEHT": [
+    "EnergeticParticles",
+    "Ephemeris",
+    "ThermalPlasma"
+  ],
+  "RBSP-A-RBSPICE_LEV-3-PAP_TOFXPHOHELT": [
+    "EnergeticParticles",
+    "Ephemeris",
+    "ThermalPlasma"
+  ],
+  "RBSP-B-RBSPICE_LEV-3-PAP_TOFXPHOHELT": [
+    "EnergeticParticles",
+    "Ephemeris",
+    "ThermalPlasma"
+  ],
+  "RBSP-A-RBSPICE_LEV-3-PAP_TOFXPHOLEHT": [
+    "EnergeticParticles",
+    "Ephemeris",
+    "ThermalPlasma"
+  ],
+  "RBSP-B-RBSPICE_LEV-3-PAP_TOFXPHOLEHT": [
+    "EnergeticParticles",
+    "Ephemeris",
+    "ThermalPlasma"
+  ],
+  "RBSP-A-RBSPICE_LEV-3-PAP_ESRLEHT": [
+    "EnergeticParticles",
+    "Ephemeris",
+    "ThermalPlasma"
+  ],
+  "RBSP-B-RBSPICE_LEV-3-PAP_ESRLEHT": [
+    "EnergeticParticles",
+    "Ephemeris",
+    "ThermalPlasma"
+  ],
+  "RBSP-A-RBSPICE_LEV-3-PAP_ESRHELT": [
+    "EnergeticParticles",
+    "Ephemeris",
+    "ThermalPlasma"
+  ],
+  "RBSP-B-RBSPICE_LEV-3-PAP_ESRHELT": [
+    "EnergeticParticles",
+    "Ephemeris",
+    "ThermalPlasma"
+  ],
+  "RBSP-A-RBSPICE_LEV-3_TOFXEH": "EnergeticParticles",
+  "RBSP-B-RBSPICE_LEV-3_TOFXEH": "EnergeticParticles",
+  "RBSP-A-RBSPICE_LEV-3_TOFXEION": "EnergeticParticles",
+  "RBSP-B-RBSPICE_LEV-3_TOFXEION": "EnergeticParticles",
+  "RBSP-A-RBSPICE_LEV-3_TOFXENONH": "EnergeticParticles",
+  "RBSP-B-RBSPICE_LEV-3_TOFXENONH": "EnergeticParticles",
+  "RBSP-A-RBSPICE_LEV-3_TOFXPHHHELT": "EnergeticParticles",
+  "RBSP-B-RBSPICE_LEV-3_TOFXPHHHELT": "EnergeticParticles",
+  "RBSP-A-RBSPICE_LEV-3_TOFXPHHLEHT": "EnergeticParticles",
+  "RBSP-B-RBSPICE_LEV-3_TOFXPHHLEHT": "EnergeticParticles",
+  "RBSP-A-RBSPICE_LEV-3_ESRHELT": "EnergeticParticles",
+  "RBSP-B-RBSPICE_LEV-3_ESRHELT": "EnergeticParticles",
+  "RBSP-A-RBSPICE_LEV-3_ESRLEHT": "EnergeticParticles",
+  "RBSP-B-RBSPICE_LEV-3_ESRLEHT": "EnergeticParticles",
+  "RBSP-A-RBSPICE_LEV-3_ISRHELT": "EnergeticParticles",
+  "RBSP-B-RBSPICE_LEV-3_ISRHELT": "EnergeticParticles",
+  "RBSP-A-RBSPICE_LEV-2_TOFXEH": "EnergeticParticles",
+  "RBSP-B-RBSPICE_LEV-2_TOFXEH": "EnergeticParticles",
+  "RBSP-A-RBSPICE_LEV-2_TOFXEION": "EnergeticParticles",
+  "RBSP-B-RBSPICE_LEV-2_TOFXEION": "EnergeticParticles",
+  "RBSP-A-RBSPICE_LEV-2_TOFXENONH": "EnergeticParticles",
+  "RBSP-B-RBSPICE_LEV-2_TOFXENONH": "EnergeticParticles",
+  "RBSP-A-RBSPICE_LEV-2_TOFXPHHHELT": "EnergeticParticles",
+  "RBSP-B-RBSPICE_LEV-2_TOFXPHHHELT": "EnergeticParticles",
+  "RBSP-A-RBSPICE_LEV-2_TOFXPHHLEHT": "EnergeticParticles",
+  "RBSP-B-RBSPICE_LEV-2_TOFXPHHLEHT": "EnergeticParticles",
+  "RBSP-A-RBSPICE_LEV-2_ESRHELT": "EnergeticParticles",
+  "RBSP-B-RBSPICE_LEV-2_ESRHELT": "EnergeticParticles",
+  "RBSP-A-RBSPICE_LEV-2_ESRLEHT": "EnergeticParticles",
+  "RBSP-B-RBSPICE_LEV-2_ESRLEHT": "EnergeticParticles",
+  "RBSP-A-RBSPICE_LEV-2_ISRHELT": "EnergeticParticles",
+  "RBSP-B-RBSPICE_LEV-2_ISRHELT": "EnergeticParticles",
+  "RBSPA_EFW-L2_E-HIRES-UVW": "ElectricField",
+  "RBSPB_EFW-L2_E-HIRES-UVW": "ElectricField",
+  "RBSPA_EFW-L2_E-SPINFIT-MGSE": "MagneticField",
+  "RBSPB_EFW-L2_E-SPINFIT-MGSE": "ElectricField",
+  "RBSPA_EFW-L2_ESVY_DESPUN": [
+    "ElectricField",
+    "Waves"
+  ],
+  "RBSPB_EFW-L2_ESVY_DESPUN": [
+    "ElectricField",
+    "Waves"
+  ],
+  "RBSPA_EFW-L2_FBK": [
+    "ElectricField",
+    "Waves",
+    "Spectrum"
+  ],
+  "RBSPB_EFW-L2_FBK": "MagneticField",
+  "RBSPA_EFW-L2_SPEC": "MagneticField",
+  "RBSPB_EFW-L2_SPEC": [
+    "ElectricField",
+    "Waves",
+    "Spectrum"
+  ],
+  "RBSPA_EFW-L2_VSVY-HIRES": "MagneticField",
+  "RBSPB_EFW-L2_VSVY-HIRES": "ElectricField",
+  "RBSP-A_DENSITY_EMFISIS-L4": [
+    "MagneticField",
+    "ThermalPlasma",
+    "Waves.Passive"
+  ],
+  "RBSP-B_DENSITY_EMFISIS-L4": [
+    "MagneticField",
+    "ThermalPlasma",
+    "Waves.Passive"
+  ],
+  "RBSP-A_MAGNETOMETER_4SEC-GEI_EMFISIS-L3": "MagneticField",
+  "RBSP-B_MAGNETOMETER_4SEC-GEI_EMFISIS-L3": "MagneticField",
+  "RBSP-A_MAGNETOMETER_4SEC-GEO_EMFISIS-L3": "MagneticField",
+  "RBSP-B_MAGNETOMETER_4SEC-GEO_EMFISIS-L3": "MagneticField",
+  "RBSP-A_MAGNETOMETER_4SEC-GSE_EMFISIS-L3": "MagneticField",
+  "RBSP-B_MAGNETOMETER_4SEC-GSE_EMFISIS-L3": "MagneticField",
+  "RBSP-A_MAGNETOMETER_4SEC-GSM_EMFISIS-L3": "MagneticField",
+  "RBSP-B_MAGNETOMETER_4SEC-GSM_EMFISIS-L3": "MagneticField",
+  "RBSP-A_MAGNETOMETER_4SEC-SM_EMFISIS-L3": "MagneticField",
+  "RBSP-B_MAGNETOMETER_4SEC-SM_EMFISIS-L3": "MagneticField",
+  "RBSP-A_MAGNETOMETER_1SEC-GEI_EMFISIS-L3": "MagneticField",
+  "RBSP-B_MAGNETOMETER_1SEC-GEI_EMFISIS-L3": "MagneticField",
+  "RBSP-A_MAGNETOMETER_1SEC-GEO_EMFISIS-L3": "MagneticField",
+  "RBSP-B_MAGNETOMETER_1SEC-GEO_EMFISIS-L3": "MagneticField",
+  "RBSP-A_MAGNETOMETER_1SEC-GSE_EMFISIS-L3": "MagneticField",
+  "RBSP-B_MAGNETOMETER_1SEC-GSE_EMFISIS-L3": "MagneticField",
+  "RBSP-A_MAGNETOMETER_1SEC-GSM_EMFISIS-L3": "MagneticField",
+  "RBSP-B_MAGNETOMETER_1SEC-GSM_EMFISIS-L3": "MagneticField",
+  "RBSP-A_MAGNETOMETER_1SEC-SM_EMFISIS-L3": "MagneticField",
+  "RBSP-B_MAGNETOMETER_1SEC-SM_EMFISIS-L3": "MagneticField",
+  "RBSP-A_MAGNETOMETER_HIRES-GEI_EMFISIS-L3": "MagneticField",
+  "RBSP-B_MAGNETOMETER_HIRES-GEI_EMFISIS-L3": "MagneticField",
+  "RBSP-A_MAGNETOMETER_HIRES-GEO_EMFISIS-L3": "MagneticField",
+  "RBSP-B_MAGNETOMETER_HIRES-GEO_EMFISIS-L3": "MagneticField",
+  "RBSP-A_MAGNETOMETER_HIRES-GSE_EMFISIS-L3": "MagneticField",
+  "RBSP-B_MAGNETOMETER_HIRES-GSE_EMFISIS-L3": "MagneticField",
+  "RBSP-A_MAGNETOMETER_HIRES-GSM_EMFISIS-L3": "MagneticField",
+  "RBSP-B_MAGNETOMETER_HIRES-GSM_EMFISIS-L3": "MagneticField",
+  "RBSP-A_MAGNETOMETER_HIRES-SM_EMFISIS-L3": "MagneticField",
+  "RBSP-B_MAGNETOMETER_HIRES-SM_EMFISIS-L3": "MagneticField",
+  "RBSP-A_MAGNETOMETER_UVW_EMFISIS-L2": "MagneticField",
+  "RBSP-B_MAGNETOMETER_UVW_EMFISIS-L2": "MagneticField",
+  "RBSP-A_HFR-SPECTRA_EMFISIS-L2": "Waves",
+  "RBSP-B_HFR-SPECTRA_EMFISIS-L2": "Waves",
+  "RBSP-A_HFR-SPECTRA-BURST_EMFISIS-L2": "MagneticField",
+  "RBSP-B_HFR-SPECTRA-BURST_EMFISIS-L2": "MagneticField",
+  "RBSP-A_HFR-SPECTRA-MERGED_EMFISIS-L2": "MagneticField",
+  "RBSP-B_HFR-SPECTRA-MERGED_EMFISIS-L2": "MagneticField",
+  "RBSP-A_WFR-SPECTRAL-MATRIX_EMFISIS-L2": "Spectrum",
+  "RBSP-B_WFR-SPECTRAL-MATRIX_EMFISIS-L2": "MagneticField",
+  "RBSP-A_WFR-SPECTRAL-MATRIX-DIAGONAL_EMFISIS-L2": "Waves",
+  "RBSP-B_WFR-SPECTRAL-MATRIX-DIAGONAL_EMFISIS-L2": "Waves",
+  "RBSP-A_WFR-SPECTRAL-MATRIX-DIAGONAL-MERGED_EMFISIS-L2": "MagneticField",
+  "RBSP-B_WFR-SPECTRAL-MATRIX-DIAGONAL-MERGED_EMFISIS-L2": "MagneticField",
+  "RBSP-A_HFR-WAVEFORM_EMFISIS-L2": "Waves",
+  "RBSP-B_HFR-WAVEFORM_EMFISIS-L2": "Waves",
+  "RBSP-A_WFR-WAVEFORM_EMFISIS-L2": "MagneticField",
+  "RBSP-B_WFR-WAVEFORM_EMFISIS-L2": "ElectricField",
+  "RBSP-A_WFR-WAVEFORM-CONTINUOUS-BURST_EMFISIS-L2": [
+    "ElectricField",
+    "MagneticField",
+    "Spectrum",
+    "Waves.Passive"
+  ],
+  "RBSP-B_WFR-WAVEFORM-CONTINUOUS-BURST_EMFISIS-L2": "MagneticField",
+  "RBSPA_L2_PSBR-RPS": [
+    "ElectricField",
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "RBSPB_L2_PSBR-RPS": [
+    "ElectricField",
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "RBSPA_L2-1MIN_PSBR-RPS": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "RBSPB_L2-1MIN_PSBR-RPS": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "RENU2_H0_EFIELD": "ElectricField",
+  "RENU2_H0_EPLAS": "EnergeticParticles",
+  "RENU2_H0_ERPAMAIN": [
+    "ElectricField",
+    "EnergeticParticles"
+  ],
+  "RENU2_H0_ERPASUB": [
+    "ElectricField",
+    "EnergeticParticles"
+  ],
+  "RENU2_H0_FGM": "MagneticField",
+  "RENU2_H0_PMT": "Irradiance",
+  "RENU2_H0_VLF": "Waves.Passive",
+  "RENU2_H0_IG2": "NeutralGas",
+  "RENU2_H0_UVPMT": "Irradiance",
+  "SE_K0_AIS": "ThermalPlasma",
+  "SE_K0_FPI": "Waves",
+  "SE_K0_MAG": "MagneticField",
+  "SE_K0_RIO": "Waves",
+  "SE_K0_VLF": "Waves",
+  "SNOE_L3_GEO": "NeutralGas",
+  "SNOE_L3_MAG": "NeutralGas",
+  "SO_K0_CEL": [
+    "EnergeticParticles",
+    "ThermalPlasma"
+  ],
+  "SO_K0_CST": "EnergeticParticles",
+  "SO_K0_ERN": "EnergeticParticles",
+  "SO_OR_DEF": "Ephemeris",
+  "SO_OR_PRE": "Ephemeris",
+  "SO_AT_DEF": "Ephemeris",
+  "SOHO_CELIAS-SEM_15S": "Radiance",
+  "SOHO_CELIAS-SEM_1DAY": "Radiance",
+  "SOHO_CELIAS-PM_30S": "ThermalPlasma",
+  "SOHO_CELIAS-PM_5MIN": "ThermalPlasma",
+  "SOHO_COSTEP-EPHIN_L3I-1MIN": "EnergeticParticles",
+  "SOHO_COSTEP-EPHIN_L3I-5MIN": "EnergeticParticles",
+  "SOHO_COSTEP-EPHIN_L3I-10MIN": "EnergeticParticles",
+  "SOHO_COSTEP-EPHIN_L3I-30MIN": "EnergeticParticles",
+  "SOHO_COSTEP-EPHIN_L3I-1HR": "EnergeticParticles",
+  "SOHO_COSTEP-EPHIN_L3I-1DAY": "EnergeticParticles",
+  "SOHO_ERNE-LED_L2-1MIN": "EnergeticParticles",
+  "SOHO_ERNE-HED_L2-1MIN": "EnergeticParticles",
+  "SOHO_ERNE_HEAVY-ION-1HR": "EnergeticParticles",
+  "SOHO_ERNE_HEAVY-ION-5MIN": "EnergeticParticles",
+  "SOLO_HELIO1DAY_POSITION": "Ephemeris",
+  "ST5-155_1SEC_MAG": "Ephemeris",
+  "ST5-224_1SEC_MAG": "Ephemeris",
+  "ST5-094_1SEC_MAG": "Ephemeris",
+  "STA_LB_MAG_RTN": "MagneticField",
+  "STA_LB_IMPACT": [
+    "EnergeticParticles",
+    "MagneticField"
+  ],
+  "STB_LB_IMPACT": [
+    "EnergeticParticles",
+    "MagneticField"
+  ],
+  "STA_L1_IMPACT_BURST": [
+    "InstrumentStatus",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "STB_L1_IMPACT_BURST": [
+    "InstrumentStatus",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "STA_L1_IMPACT_HKP": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "STB_L1_IMPACT_HKP": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "STA_L1_SWEA_DIST": [
+    "ElectricField",
+    "EnergeticParticles",
+    "InstrumentStatus"
+  ],
+  "STB_L1_SWEA_DIST": [
+    "ElectricField",
+    "EnergeticParticles",
+    "InstrumentStatus"
+  ],
+  "STA_L1_SWEA_DISB": [
+    "ElectricField",
+    "EnergeticParticles",
+    "InstrumentStatus"
+  ],
+  "STB_L1_SWEA_DISB": [
+    "ElectricField",
+    "EnergeticParticles",
+    "InstrumentStatus"
+  ],
+  "STA_L1_SWEA_SPEC": "ThermalPlasma",
+  "STB_L1_SWEA_SPEC": "ThermalPlasma",
+  "STA_L2_SWEA_PAD": "ThermalPlasma",
+  "STB_L2_SWEA_PAD": "ThermalPlasma",
+  "STA_L1_LET": "EnergeticParticles",
+  "STB_L1_LET": "EnergeticParticles",
+  "STA_L1_HET": "EnergeticParticles",
+  "STB_L1_HET": "EnergeticParticles",
+  "STA_L1_SEPT": "EnergeticParticles",
+  "STB_L1_SEPT": "EnergeticParticles",
+  "STA_L1_SIT": "EnergeticParticles",
+  "STB_L1_SIT": "EnergeticParticles",
+  "STA_L1_STE": "EnergeticParticles",
+  "STB_L1_STE": "EnergeticParticles",
+  "STA_L1_MAG_SC": "MagneticField",
+  "STB_L1_MAG_SC": "MagneticField",
+  "STA_L1_MAGB_SC": [
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "STB_L1_MAGB_SC": [
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "STA_L1_MAG_RTN": "MagneticField",
+  "STB_L1_MAG_RTN": "MagneticField",
+  "STA_L1_MAGB_RTN": [
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "STB_L1_MAGB_RTN": [
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "STA_L2_PLA_1DMAX_1MIN": "ThermalPlasma",
+  "STB_L2_PLA_1DMAX_1MIN": "ThermalPlasma",
+  "STA_L2_PLA_1DMAX_10MIN": "ThermalPlasma",
+  "STB_L2_PLA_1DMAX_10MIN": "ThermalPlasma",
+  "STA_L2_PLA_1DMAX_1HR": "ThermalPlasma",
+  "STB_L2_PLA_1DMAX_1HR": "ThermalPlasma",
+  "STA_L2_PLA_IRON_Q_2HR": "ThermalPlasma",
+  "STB_L2_PLA_IRON_Q_2HR": "ThermalPlasma",
+  "STA_LB_PLA_BROWSE": "ThermalPlasma",
+  "STB_LB_PLA_BROWSE": "ThermalPlasma",
+  "STA_L2_MAGPLASMA_1M": [
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "STB_L2_MAGPLASMA_1M": [
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "STA_L3_PLA_HEPLUS_24HR": [
+    "EnergeticParticles",
+    "ThermalPlasma"
+  ],
+  "STA_L3_PLA_HEPLUS_F_VSW_01HR": [
+    "EnergeticParticles",
+    "ThermalPlasma"
+  ],
+  "STA_L3_PLA_HEPLUS_F_VSW_24HR": [
+    "EnergeticParticles",
+    "ThermalPlasma"
+  ],
+  "STA_L3_PLA_HE2PL_F_VSW_01HR": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "ThermalPlasma"
+  ],
+  "STA_L3_PLA_HEPLUS_F_VSW_10MIN": [
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "ThermalPlasma"
+  ],
+  "STA_L3_PLA_HEPLUS_SW_VELCTDIST_5MIN": [
+    "EnergeticParticles",
+    "Ephemeris",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "STA_L3_WAV_HFR": [
+    "ElectricField",
+    "Waves"
+  ],
+  "STA_L3_WAV_LFR": [
+    "ElectricField",
+    "Waves"
+  ],
+  "STB_L3_WAV_LFR": [
+    "ElectricField",
+    "Waves"
+  ],
+  "SX_K0_30F": [
+    "EnergeticParticles",
+    "IonComposition"
+  ],
+  "SX_K0_POF": [
+    "EnergeticParticles",
+    "IonComposition"
+  ],
+  "STA_COHO1HR_MERGED_MAG_PLASMA": [
+    "EnergeticParticles",
+    "Ephemeris",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "STB_COHO1HR_MERGED_MAG_PLASMA": [
+    "EnergeticParticles",
+    "Ephemeris",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "STEREO_LEVEL2_SWAVES": [
+    "Waves.Passive",
+    "Spectrum"
+  ],
+  "THA_OR_SSC": "Ephemeris",
+  "THB_OR_SSC": "Ephemeris",
+  "THC_OR_SSC": "Ephemeris",
+  "THD_OR_SSC": "Ephemeris",
+  "THE_OR_SSC": "Ephemeris",
+  "THA_L2_EFI": "ElectricField",
+  "THB_L2_EFI": "ElectricField",
+  "THC_L2_EFI": "ElectricField",
+  "THD_L2_EFI": "ElectricField",
+  "THE_L2_EFI": "ElectricField",
+  "THA_L2_ESA": "ThermalPlasma",
+  "THB_L2_ESA": "ThermalPlasma",
+  "THC_L2_ESA": "ThermalPlasma",
+  "THD_L2_ESA": "ThermalPlasma",
+  "THE_L2_ESA": "ThermalPlasma",
+  "THA_L2_FBK": [
+    "ElectricField",
+    "MagneticField",
+    "Spectrum"
+  ],
+  "THB_L2_FBK": [
+    "ElectricField",
+    "MagneticField",
+    "Spectrum",
+    "Waves.Passive"
+  ],
+  "THC_L2_FBK": [
+    "ElectricField",
+    "MagneticField",
+    "Spectrum"
+  ],
+  "THD_L2_FBK": [
+    "ElectricField",
+    "MagneticField",
+    "Spectrum",
+    "Waves.Passive"
+  ],
+  "THE_L2_FBK": [
+    "ElectricField",
+    "MagneticField",
+    "Spectrum",
+    "Waves.Passive"
+  ],
+  "THA_L2_FFT": "Spectrum",
+  "THB_L2_FFT": "Spectrum",
+  "THC_L2_FFT": "Spectrum",
+  "THD_L2_FFT": "Spectrum",
+  "THE_L2_FFT": "Spectrum",
+  "THA_L2_FGM": "MagneticField",
+  "THB_L2_FGM": "MagneticField",
+  "THC_L2_FGM": "MagneticField",
+  "THD_L2_FGM": "MagneticField",
+  "THE_L2_FGM": "MagneticField",
+  "THA_L2_FIT": [
+    "ElectricField",
+    "MagneticField"
+  ],
+  "THB_L2_FIT": [
+    "ElectricField",
+    "MagneticField"
+  ],
+  "THC_L2_FIT": [
+    "ElectricField",
+    "MagneticField"
+  ],
+  "THD_L2_FIT": [
+    "ElectricField",
+    "MagneticField"
+  ],
+  "THE_L2_FIT": [
+    "ElectricField",
+    "MagneticField"
+  ],
+  "THA_L2_GMOM": [
+    "ElectricField",
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "THB_L2_GMOM": [
+    "ElectricField",
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "THC_L2_GMOM": [
+    "ElectricField",
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "THD_L2_GMOM": [
+    "ElectricField",
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "THE_L2_GMOM": [
+    "ElectricField",
+    "EnergeticParticles",
+    "InstrumentStatus",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "THB_L2_MERGED": [
+    "ThermalPlasma",
+    "MagneticField"
+  ],
+  "THC_L2_MERGED": [
+    "ThermalPlasma",
+    "MagneticField"
+  ],
+  "THA_L2_SCM": "MagneticField",
+  "THB_L2_SCM": "MagneticField",
+  "THC_L2_SCM": "MagneticField",
+  "THD_L2_SCM": "MagneticField",
+  "THE_L2_SCM": "MagneticField",
+  "THA_L2_SST": [
+    "IonComposition",
+    "EnergeticParticles",
+    "Spectrum"
+  ],
+  "THB_L2_SST": [
+    "IonComposition",
+    "EnergeticParticles",
+    "Spectrum"
+  ],
+  "THC_L2_SST": [
+    "IonComposition",
+    "EnergeticParticles",
+    "Spectrum"
+  ],
+  "THD_L2_SST": [
+    "IonComposition",
+    "EnergeticParticles",
+    "Spectrum"
+  ],
+  "THE_L2_SST": [
+    "IonComposition",
+    "EnergeticParticles",
+    "Spectrum"
+  ],
+  "THA_L2_MOM": [
+    "ThermalPlasma",
+    "EnergeticParticles",
+    "IonComposition"
+  ],
+  "THB_L2_MOM": [
+    "ThermalPlasma",
+    "EnergeticParticles",
+    "IonComposition"
+  ],
+  "THC_L2_MOM": [
+    "ThermalPlasma",
+    "EnergeticParticles",
+    "IonComposition"
+  ],
+  "THD_L2_MOM": [
+    "ThermalPlasma",
+    "EnergeticParticles",
+    "IonComposition"
+  ],
+  "THE_L2_MOM": [
+    "ThermalPlasma",
+    "EnergeticParticles",
+    "IonComposition"
+  ],
+  "THA_L1_STATE": "Ephemeris",
+  "THB_L1_STATE": "Ephemeris",
+  "THC_L1_STATE": "Ephemeris",
+  "THD_L1_STATE": "Ephemeris",
+  "THE_L1_STATE": "Ephemeris",
+  "THG_L1_ASK": "ImageIntensity",
+  "THG_L2_MAG_HOV": "MagneticField",
+  "THG_L2_MAG_JAN": "MagneticField",
+  "THG_L2_MAG_NRD": "MagneticField",
+  "THG_L2_MAG_DMH": "MagneticField",
+  "THG_L2_MAG_DNB": "MagneticField",
+  "THG_L2_MAG_LRV": "MagneticField",
+  "THG_L2_MAG_SCO": "MagneticField",
+  "THG_L2_MAG_AMK": "MagneticField",
+  "THG_L2_MAG_SUM": "MagneticField",
+  "THG_L2_MAG_NAQ": "MagneticField",
+  "THG_L2_MAG_NRSQ": "MagneticField",
+  "THG_L2_MAG_FHB": "MagneticField",
+  "THG_L2_MAG_STF": "MagneticField",
+  "THG_L2_MAG_GHB": "MagneticField",
+  "THG_L2_MAG_UMQ": "MagneticField",
+  "THG_L2_MAG_STJ": "MagneticField",
+  "THG_L2_MAG_SKT": "MagneticField",
+  "THG_L2_MAG_GDH": "MagneticField",
+  "THG_L2_MAG_ATU": "MagneticField",
+  "THG_L2_MAG_UPN": "MagneticField",
+  "THG_L2_MAG_KUV": "MagneticField",
+  "THG_L2_MAG_GBAY": "MagneticField",
+  "THG_L2_MAG_NAIN": "MagneticField",
+  "THG_L2_MAG_SVS": "MagneticField",
+  "THG_L2_MAG_PANG": "MagneticField",
+  "THG_L2_MAG_SEPT": "MagneticField",
+  "THG_L2_MAG_SCHF": "MagneticField",
+  "THG_L2_MAG_KUUJ": "MagneticField",
+  "THG_L2_MAG_IQA": "MagneticField",
+  "THG_L2_MAG_CRVR": "MagneticField",
+  "THG_L2_MAG_TAB": "MagneticField",
+  "THG_L2_MAG_THL": "MagneticField",
+  "THG_L2_MAG_STFL": "MagneticField",
+  "THG_L2_MAG_CHBG": "MagneticField",
+  "THG_L2_MAG_OTT": "MagneticField",
+  "THG_L2_MAG_SALU": "MagneticField",
+  "THG_L2_MAG_CDRT": "MagneticField",
+  "THG_L2_MAG_PUVR": "MagneticField",
+  "THG_L2_MAG_KJPK": "MagneticField",
+  "THG_L2_MAG_RADI": "MagneticField",
+  "THG_L2_MAG_VLDR": "MagneticField",
+  "THG_L2_MAG_AKUL": "MagneticField",
+  "THG_L2_MAG_INUK": "MagneticField",
+  "THG_L2_MAG_SNKQ": "MagneticField",
+  "THG_L2_MAG_IGLO": "MagneticField",
+  "THG_L2_MAG_KAPU": "MagneticField",
+  "THG_L2_MAG_CHBR": "MagneticField",
+  "THG_L2_MAG_HRP": "MagneticField",
+  "THG_L2_MAG_RBAY": "MagneticField",
+  "THG_L2_MAG_RANK": "MagneticField",
+  "THG_L2_MAG_FCC": "MagneticField",
+  "THG_L2_MAG_GILL": "MagneticField",
+  "THG_L2_MAG_GJOA": "MagneticField",
+  "THG_L2_MAG_BLC": "MagneticField",
+  "THG_L2_MAG_PINA": "MagneticField",
+  "THG_L2_MAG_TPAS": "MagneticField",
+  "THG_L2_MAG_CBB": "MagneticField",
+  "THG_L2_MAG_LARG": "MagneticField",
+  "THG_L2_MAG_LRG": "MagneticField",
+  "THG_L2_MAG_LCL": "MagneticField",
+  "THG_L2_MAG_PKS": "MagneticField",
+  "THG_L2_MAG_EKAT": "MagneticField",
+  "THG_L2_MAG_SNAP": "MagneticField",
+  "THG_L2_MAG_FSMI": "MagneticField",
+  "THG_L2_MAG_LETH": "MagneticField",
+  "THG_L2_MAG_ATHA": "MagneticField",
+  "THG_L2_MAG_MEA": "MagneticField",
+  "THG_L2_MAG_REDR": "MagneticField",
+  "THG_L2_MAG_ROTH": "MagneticField",
+  "THG_L2_MAG_YKNF": "MagneticField",
+  "THG_L2_MAG_YKC": "MagneticField",
+  "THG_L2_MAG_FSJ": "MagneticField",
+  "THG_L2_MAG_FSIM": "MagneticField",
+  "THG_L2_MAG_FTN": "MagneticField",
+  "THG_L2_MAG_PGEO": "MagneticField",
+  "THG_L2_MAG_VIC": "MagneticField",
+  "THG_L2_MAG_PTRS": "MagneticField",
+  "THG_L2_MAG_INUV": "MagneticField",
+  "THG_L2_MAG_WHS": "MagneticField",
+  "THG_L2_MAG_WHIT": "MagneticField",
+  "THG_L2_MAG_SIT": "MagneticField",
+  "THG_L2_MAG_EAGL": "MagneticField",
+  "THG_L2_MAG_KAKO": "MagneticField",
+  "THG_L2_MAG_GAKO": "MagneticField",
+  "THG_L2_MAG_FYKN": "MagneticField",
+  "THG_L2_MAG_ARCT": "MagneticField",
+  "THG_L2_MAG_POKR": "MagneticField",
+  "THG_L2_MAG_CMO": "MagneticField",
+  "THG_L2_MAG_CIGO": "MagneticField",
+  "THG_L2_MAG_DED": "MagneticField",
+  "THG_L2_MAG_TOOL": "MagneticField",
+  "THG_L2_MAG_HLMS": "MagneticField",
+  "THG_L2_MAG_TRAP": "MagneticField",
+  "THG_L2_MAG_HOMR": "MagneticField",
+  "THG_L2_MAG_KENA": "MagneticField",
+  "THG_L2_MAG_BETT": "MagneticField",
+  "THG_L2_MAG_MCGR": "MagneticField",
+  "THG_L2_MAG_BRW": "MagneticField",
+  "THG_L2_MAG_KIAN": "MagneticField",
+  "THG_L2_MAG_SHU": "MagneticField",
+  "THG_L2_MAG_PBK": "MagneticField",
+  "THG_L2_MAG_TIK": "MagneticField",
+  "THG_L2_MAG_DIK": "MagneticField",
+  "THG_L2_MAG_VIZ": "MagneticField",
+  "THG_L2_MAG_AMD": "MagneticField",
+  "THG_L2_MAG_LOZ": "MagneticField",
+  "THG_L2_MAG_MEK": "MagneticField",
+  "THG_L2_MAG_IVA": "MagneticField",
+  "THG_L2_MAG_OUJ": "MagneticField",
+  "THG_L2_MAG_KEV": "MagneticField",
+  "THG_L2_MAG_HAN": "MagneticField",
+  "THG_L2_MAG_TAR": "MagneticField",
+  "THG_L2_MAG_RAN": "MagneticField",
+  "THG_L2_MAG_NOR": "MagneticField",
+  "THG_L2_MAG_HOP": "MagneticField",
+  "THG_L2_MAG_NUR": "MagneticField",
+  "THG_L2_MAG_PEL": "MagneticField",
+  "THG_L2_MAG_MAS": "MagneticField",
+  "THG_L2_MAG_MUO": "MagneticField",
+  "THG_L2_MAG_SOR": "MagneticField",
+  "THG_L2_MAG_KIL": "MagneticField",
+  "THG_L2_MAG_BJN": "MagneticField",
+  "THG_L2_MAG_TRO": "MagneticField",
+  "THG_L2_MAG_JCK": "MagneticField",
+  "THG_L2_MAG_AND": "MagneticField",
+  "THG_L2_MAG_LYR": "MagneticField",
+  "THG_L2_MAG_BBG": "MagneticField",
+  "THG_L2_MAG_DON": "MagneticField",
+  "THG_L2_MAG_NAL": "MagneticField",
+  "THG_L2_MAG_BFE": "MagneticField",
+  "THG_L2_MAG_RVK": "MagneticField",
+  "THG_L2_MAG_DOB": "MagneticField",
+  "THG_L2_MAG_ROE": "MagneticField",
+  "THG_L2_MAG_KAR": "MagneticField",
+  "THG_L2_MAG_SOL": "MagneticField",
+  "THG_L2_MAG_PG5": "MagneticField",
+  "THG_L2_MAG_PG4": "MagneticField",
+  "THG_L2_MAG_PG3": "MagneticField",
+  "THG_L2_MAG_PG2": "MagneticField",
+  "THG_L2_MAG_PG1": "MagneticField",
+  "THG_L2_MAG_PG0": "MagneticField",
+  "THG_L2_MAG_SJG": "MagneticField",
+  "THG_L2_MAG_DRBY": "MagneticField",
+  "THG_L2_MAG_WLPS": "MagneticField",
+  "THG_L2_MAG_LREL": "MagneticField",
+  "THG_L2_MAG_FRD": "MagneticField",
+  "THG_L2_MAG_LOYS": "MagneticField",
+  "THG_L2_MAG_BMLS": "MagneticField",
+  "THG_L2_MAG_RMUS": "MagneticField",
+  "THG_L2_MAG_SWNO": "MagneticField",
+  "THG_L2_MAG_BSL": "MagneticField",
+  "THG_L2_MAG_HRIS": "MagneticField",
+  "THG_L2_MAG_WRTH": "MagneticField",
+  "THG_L2_MAG_BENN": "MagneticField",
+  "THG_L2_MAG_AMER": "MagneticField",
+  "THG_L2_MAG_GLYN": "MagneticField",
+  "THG_L2_MAG_RICH": "MagneticField",
+  "THG_L2_MAG_PCEL": "MagneticField",
+  "THG_L2_MAG_LYFD": "MagneticField",
+  "THG_L2_MAG_SATX": "MagneticField",
+  "THG_L2_MAG_LRES": "MagneticField",
+  "THG_L2_MAG_FYTS": "MagneticField",
+  "THG_L2_MAG_PINE": "MagneticField",
+  "THG_L2_MAG_PBLO": "MagneticField",
+  "THG_L2_MAG_BOU": "MagneticField",
+  "THG_L2_MAG_TUC": "MagneticField",
+  "THG_L2_MAG_HOTS": "MagneticField",
+  "THG_L2_MAG_NEW": "MagneticField",
+  "THG_L2_MAG_UKIA": "MagneticField",
+  "THG_L2_MAG_FRN": "MagneticField",
+  "THG_L2_MAG_CCNV": "MagneticField",
+  "THG_L2_MAG_STFD": "MagneticField",
+  "THG_L2_MAG_KODK": "MagneticField",
+  "THG_L2_MAG_HON": "MagneticField",
+  "THG_L2_MAG_GUA": "MagneticField",
+  "THG_L2_MAG_BRN": "MagneticField",
+  "THG_L2_MAG_TDC": "MagneticField",
+  "TIMED_L1BV20_SABER": [
+    "Radiance",
+    "Profile"
+  ],
+  "TIMED_L3A_SEE": "Irradiance",
+  "TIMED_WINDVECTORSNCAR_TIDI": [
+    "NeutralGas",
+    "Profile",
+    "Radiance"
+  ],
+  "TIMED_EDP_GUVI": "Profile",
+  "TIMED_L1CDISK_GUVI": "Radiance",
+  "TWINS_M2_ENA": [
+    "Ephemeris",
+    "ThermalPlasma"
+  ],
+  "TWINS1_TISTORM_IMAGER": "ImageIntensity",
+  "TWINS2_TISTORM_IMAGER": "ImageIntensity",
+  "TWINS1_L1_IMAGER": "NeutralAtomImages",
+  "TWINS2_L1_IMAGER": "NeutralAtomImages",
+  "TWINS1_L1_LAD": "ImageIntensity",
+  "TWINS2_L1_LAD": "ImageIntensity",
+  "TWINS1_OR_DEF": "Ephemeris",
+  "TWINS2_OR_DEF": "Ephemeris",
+  "TWINS1_AT_DEF": "Ephemeris",
+  "TWINS2_AT_DEF": "Ephemeris",
+  "UY_COHO1HR_MERGED_MAG_PLASMA": [
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "UY_1SEC_VHM": "MagneticField",
+  "UY_1MIN_VHM": "MagneticField",
+  "UY_M0_AT1": "EnergeticParticles",
+  "UY_M0_BAE": "ThermalPlasma",
+  "UY_M0_BAI": "ThermalPlasma",
+  "UY_M1_BAI": "ThermalPlasma",
+  "UY_M1_EPA": [
+    "EnergeticParticles",
+    "IonComposition"
+  ],
+  "UY_H0_GLG": "ThermalPlasma",
+  "UY_M0_GRB": "Irradiance",
+  "UY_M0_HET": "EnergeticParticles",
+  "UY_M0_HFT": "EnergeticParticles",
+  "UY_M0_KET": "EnergeticParticles",
+  "UY_M0_LET": "EnergeticParticles",
+  "UY_M1_LF15": [
+    "EnergeticParticles",
+    "IonComposition"
+  ],
+  "UY_M1_LF60": [
+    "EnergeticParticles",
+    "IonComposition"
+  ],
+  "UY_M1_LM12": [
+    "EnergeticParticles",
+    "IonComposition"
+  ],
+  "UY_M1_LM30": [
+    "EnergeticParticles",
+    "IonComposition"
+  ],
+  "UY_M1_LMDE": [
+    "EnergeticParticles",
+    "IonComposition"
+  ],
+  "UY_M1_SCS": [
+    "EnergeticParticles",
+    "ThermalPlasma"
+  ],
+  "UY_M1_SWI": [
+    "ThermalPlasma",
+    "IonComposition"
+  ],
+  "UY_M0_PFRA": [
+    "Waves.Passive",
+    "Waves.Passive"
+  ],
+  "UY_M0_PFRP": [
+    "Waves.Passive",
+    "Waves.Passive"
+  ],
+  "UY_M0_R144": [
+    "Waves.Passive",
+    "ElectricField"
+  ],
+  "UY_M0_RARA": [
+    "Waves.Passive",
+    "Waves.Passive"
+  ],
+  "UY_M0_RARP": [
+    "Waves.Passive",
+    "Waves.Passive"
+  ],
+  "UY_M1_WART": [
+    "EnergeticParticles",
+    "IonComposition"
+  ],
+  "UY_M0_WFBA": [
+    "Waves.Passive",
+    "Waves.Passive"
+  ],
+  "UY_M0_WFBP": [
+    "Waves.Passive",
+    "Waves.Passive"
+  ],
+  "UY_M0_WFEA": [
+    "Waves.Passive",
+    "Waves.Passive"
+  ],
+  "UY_M0_WFEP": [
+    "Waves.Passive",
+    "Waves.Passive"
+  ],
+  "UY_M1_VHM": "MagneticField",
+  "UY_M1_WRTD": [
+    "EnergeticParticles",
+    "IonComposition"
+  ],
+  "UY_ALPHA-DISTRIBUTIONS_SWOOPS": [
+    "EnergeticParticles",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "UY_ALPHA-FIT-PARAMETERS_SWOOPS": [
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "UY_ALPHA-MOMENTS_SWOOPS": [
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "UY_PROTON-DISTRIBUTIONS_SWOOPS": [
+    "EnergeticParticles",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "UY_PROTON-FIT-PARAMETERS_SWOOPS": [
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "UY_PROTON-MOMENTS_SWOOPS": [
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "VG1_PWS_LR": "Waves",
+  "VG2_PWS_LR": "Waves",
+  "VG1_PWS_WF": "Waves",
+  "VG2_PWS_WF": "Waves",
+  "VOYAGER1_48S_MAG-VIM": "MagneticField",
+  "VOYAGER2_48S_MAG-VIM": "MagneticField",
+  "VOYAGER1_2S_MAG": "MagneticField",
+  "VOYAGER1_10S_MAG": "MagneticField",
+  "VOYAGER1_48S_MAG": "MagneticField",
+  "VOYAGER2_2S_MAG": "MagneticField",
+  "VOYAGER2_10S_MAG": "MagneticField",
+  "VOYAGER2_48S_MAG": "MagneticField",
+  "VOYAGER1_COHO1HR_MERGED_MAG_PLASMA": [
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "VOYAGER2_COHO1HR_MERGED_MAG_PLASMA": [
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "VOYAGER1_PLS_HIRES_PLASMA_DATA": "ThermalPlasma",
+  "VOYAGER2_PLS_HIRES_PLASMA_DATA": "EnergeticParticles",
+  "VOYAGER1_PLS_COMPOSITION": "ThermalPlasma",
+  "VOYAGER2_PLS_COMPOSITION": "ThermalPlasma",
+  "VOYAGER1_PLS_ELECTRONS_E1": "EnergeticParticles",
+  "VOYAGER1_PLS_ELECTRONS_E2": "EnergeticParticles",
+  "VOYAGER1_PLS_IONS_L": "EnergeticParticles",
+  "VOYAGER1_PLS_IONS_M": "EnergeticParticles",
+  "VOYAGER2_PLS_ELECTRONS_E1": "EnergeticParticles",
+  "VOYAGER2_PLS_ELECTRONS_E2": "EnergeticParticles",
+  "VOYAGER2_PLS_IONS_L": "EnergeticParticles",
+  "VOYAGER2_PLS_IONS_M": "EnergeticParticles",
+  "VOYAGER-1_LECP_ELEC-BGND-COR-1D": "EnergeticParticles",
+  "VOYAGER-2_LECP_ELEC-BGND-COR-1D": "EnergeticParticles",
+  "WI_L2-1HOUR-SEP_EPACT-APE_B": "EnergeticParticles",
+  "WI_L2-1HOUR-SEP_EPACT-LEMT": "EnergeticParticles",
+  "WI_L2-5MIN-SEP_EPACT-LEMT": "EnergeticParticles",
+  "WI_EPACT_STEP-DIFFERENTIAL-ION-FLUX-1HR": [
+    "EnergeticParticles",
+    "Ephemeris",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "WI_EPACT_STEP-DIRECTIONAL-DIFF-CNO-FLUX-10MIN": [
+    "EnergeticParticles",
+    "Ephemeris",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "WI_EPACT_STEP-DIRECTIONAL-DIFF-FE-FLUX-10MIN": [
+    "EnergeticParticles",
+    "Ephemeris",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "WI_EPACT_STEP-DIRECTIONAL-DIFF-HE-FLUX-10MIN": [
+    "EnergeticParticles",
+    "Ephemeris",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "WI_EPACT_STEP-DIRECTIONAL-DIFF-H-FLUX-10MIN": [
+    "EnergeticParticles",
+    "Ephemeris",
+    "MagneticField",
+    "ThermalPlasma"
+  ],
+  "WI_L2-30MIN_SMS-STICS-AFM-MAGNETOSPHERE": "IonComposition",
+  "WI_L2-30MIN_SMS-STICS-AFM-SOLARWIND": "IonComposition",
+  "WI_L2-30MIN_SMS-STICS-ERPA-MAGNETOSPHERE": "IonComposition",
+  "WI_L2-30MIN_SMS-STICS-ERPA-SOLARWIND": "IonComposition",
+  "WI_L2_3MIN_SMS-STICS-NVT-MAGNETOSPHERE": "IonComposition",
+  "WI_L2_3MIN_SMS-STICS-NVT-SOLARWIND": "IonComposition",
+  "WI_L2-3MIN_SMS-STICS-VDF-MAGNETOSPHERE": "IonComposition",
+  "WI_L2-3MIN_SMS-STICS-VDF-SOLARWIND": "IonComposition",
+  "WI_H0_MFI": "MagneticField",
+  "WI_H2_MFI": "MagneticField",
+  "WI_H3-RTN_MFI": "MagneticField",
+  "WI_H4-RTN_MFI": "MagneticField",
+  "WI_K0_MFI": [
+    "Ephemeris",
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "WI_K0_SWE": [
+    "Ephemeris",
+    "InstrumentStatus",
+    "ThermalPlasma"
+  ],
+  "WI_H0_SWE": "ThermalPlasma",
+  "WI_H1_SWE": "ThermalPlasma",
+  "WI_SW-ION-DIST_SWE-FARADAY": [
+    "ElectricField",
+    "EnergeticParticles",
+    "InstrumentStatus"
+  ],
+  "WI_STRAHL0_SWE": "EnergeticParticles",
+  "WI_H3_SWE": "ThermalPlasma",
+  "WI_H4_SWE": "ThermalPlasma",
+  "WI_H5_SWE": "ThermalPlasma",
+  "WI_M0_SWE": "ThermalPlasma",
+  "WI_M2_SWE": "ThermalPlasma",
+  "WI_PM_3DP": "ThermalPlasma",
+  "WI_PLSP_3DP": "ThermalPlasma",
+  "WI_SOSP_3DP": "EnergeticParticles",
+  "WI_SOPD_3DP": "EnergeticParticles",
+  "WI_EM_3DP": "ThermalPlasma",
+  "WI_EMFITS_E0_3DP": "ThermalPlasma",
+  "WI_ELM2_3DP": "ThermalPlasma",
+  "WI_ELSP_3DP": "EnergeticParticles",
+  "WI_ELPD_3DP": "ThermalPlasma",
+  "WI_EHSP_3DP": "EnergeticParticles",
+  "WI_EHPD_3DP": "EnergeticParticles",
+  "WI_SFSP_3DP": "EnergeticParticles",
+  "WI_SFPD_3DP": "EnergeticParticles",
+  "WIND_3DP_ECHSFITS_E0-YR": "EnergeticParticles",
+  "WI_K0_3DP": "ThermalPlasma",
+  "WI_K0_EPA": "EnergeticParticles",
+  "WI_K0_SMS": [
+    "EnergeticParticles",
+    "IonComposition"
+  ],
+  "WI_H0_WAV": [
+    "ElectricField",
+    "ThermalPlasma"
+  ],
+  "WI_H1_WAV": [
+    "Waves.Passive",
+    "Spectrum"
+  ],
+  "WI_K0_WAV": [
+    "ElectricField",
+    "InstrumentStatus",
+    "ThermalPlasma"
+  ],
+  "WI_L3-DUSTIMPACT_WAVES": "ElectricField",
+  "WI_OR_DEF": "Ephemeris",
+  "WI_OR_PRE": "Ephemeris",
+  "WI_AT_DEF": "Ephemeris",
+  "WI_AT_PRE": "Ephemeris",
+  "WI_K0_SPHA": [
+    "Ephemeris",
+    "InstrumentStatus"
+  ],
+  "BORRELLY_HELIO1DAY_POSITION": "Ephemeris",
+  "CASSINI_HELIO1DAY_POSITION": "Ephemeris",
+  "COMETGS_HELIO1DAY_POSITION": "Ephemeris",
+  "COMETHMP_HELIO1DAY_POSITION": "Ephemeris",
+  "DAWN_HELIO1DAY_POSITION": "Ephemeris",
+  "EARTH_HELIO1DAY_POSITION": "Ephemeris",
+  "GALILEO_HELIO1DAY_POSITION": "Ephemeris",
+  "GIACOBINI_HELIO1DAY_POSITION": "Ephemeris",
+  "GIOTTO_HELIO1DAY_POSITION": "Ephemeris",
+  "HALEBOPP_HELIO1DAY_POSITION": "Ephemeris",
+  "HALLEY_HELIO1DAY_POSITION": "Ephemeris",
+  "HELIOS1_HELIO1DAY_POSITION": "Ephemeris",
+  "HELIOS2_HELIO1DAY_POSITION": "Ephemeris",
+  "HYAKUTAKE_HELIO1DAY_POSITION": "Ephemeris",
+  "ISEE-3_HELIO1DAY_POSITION": "Ephemeris",
+  "JUNO_HELIO1DAY_POSITION": "Ephemeris",
+  "JUPITER_HELIO1DAY_POSITION": "Ephemeris",
+  "MARS_HELIO1DAY_POSITION": "Ephemeris",
+  "MAVEN_HELIO1DAY_POSITION": "Ephemeris",
+  "MERCURY_HELIO1DAY_POSITION": "Ephemeris",
+  "MESSENGER_HELIO1DAY_POSITION": "Ephemeris",
+  "NEPTUNE_HELIO1DAY_POSITION": "Ephemeris",
+  "NEW_HORIZONS_HELIO1DAY_POSITION": "Ephemeris",
+  "PHOBOS2_HELIO1DAY_POSITION": "Ephemeris",
+  "PIONEER10_HELIO1DAY_POSITION": "Ephemeris",
+  "PIONEER11_HELIO1DAY_POSITION": "Ephemeris",
+  "PLUTO_HELIO1DAY_POSITION": "Ephemeris",
+  "ROSETTA_HELIO1DAY_POSITION": "Ephemeris",
+  "SAKIGAKE_HELIO1DAY_POSITION": "Ephemeris",
+  "SATURN_HELIO1DAY_POSITION": "Ephemeris",
+  "SOHO_HELIO1DAY_POSITION": "Ephemeris",
+  "STA_HELIO1DAY_POSITION": "Ephemeris",
+  "STB_HELIO1DAY_POSITION": "Ephemeris",
+  "SUISEI_HELIO1DAY_POSITION": "Ephemeris",
+  "THB_HELIO1DAY_POSITION": "Ephemeris",
+  "THC_HELIO1DAY_POSITION": "Ephemeris",
+  "ULYSSES_HELIO1DAY_POSITION": "Ephemeris",
+  "URANUS_HELIO1DAY_POSITION": "Ephemeris",
+  "VENUS_HELIO1DAY_POSITION": "Ephemeris",
+  "VOYAGER1_HELIO1DAY_POSITION": "Ephemeris",
+  "VOYAGER2_HELIO1DAY_POSITION": "Ephemeris",
+  "VOYAGER1_CRS_DAILY_FLUX": "EnergeticParticles",
+  "WILD2_HELIO1DAY_POSITION": "Ephemeris"
 }

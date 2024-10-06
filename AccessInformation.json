@@ -77,7 +77,7 @@
       "URL": "https://sscweb.gsfc.nasa.gov/cgi-bin/Locator.cgi",
       "ProductKey": null,
       "Style": "WebService",
-      "Description": "Web Service to this product."
+      "Description": "Web Service to this product. Note that the parameter names in this SPASE record may differ from the parameter names used by this web service and additional parameters may be available."
     }
   },
   "SSCWeb/4DOrbit": {
@@ -105,8 +105,8 @@
       "URL": "https://hapi-server.org/servers/#server=CDAWeb&dataset={dsid}",
       "Style": "HAPI",
       "ProductKey": null,
-      "Description": "Web Service to this product using the HAPI interface.",
-      "x_Description": "Note: A HAPI dataset has a collection of parameters, each having the same time stamps. This CDAWeb dataset contains {n_keys} HAPI-type datasets. The @0, ... at the end of the ParameterKeys indicates the index of the CDAWeb dataset. (The dataset index <=> CDF file time variable pairs are {time_variable_names}.)"
+      "Description": "Web Service to this product using the HAPI interface. Note that HAPI dataset has a collection of parameters, each having the same time stamps..",
+      "x_Description":  "This CDAWeb dataset contains {n_keys} HAPI-type datasets. The @0, ... at the end of the ParameterKeys indicates the index of the CDAWeb dataset. (The dataset index <=> CDF file time variable pairs are {time_variable_names}.)"
     }
   },
   "CDAWeb/HAPI/Program": {
@@ -134,7 +134,7 @@
       "URL": "https://hapi-server.org/servers/#server=SSCWeb&dataset={dsid}",
       "Style": "HAPI",
       "ProductKey": null,
-      "Description": "Web Service to this product using the HAPI interface."
+      "Description": "Web Service to this product using the HAPI interface. Note that the parameter names in this SPASE record may differ from the parameter names used by this web service and additional parameters may be available."
     }
   },
   "SSCWeb/HAPI/Program": {

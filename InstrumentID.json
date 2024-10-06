@@ -1,3 +1,2910 @@
 {
-  "AC_OR_SSC": "spase://SMWG/Instrument/ACE/Ephemeris"
+  "AC_OR_SSC": "spase://SMWG/Instrument/ACE/Ephemeris",
+  "AC_OR_DEF": "spase://SMWG/Instrument/ACE/Ephemeris",
+  "AC_AT_DEF": "spase://SMWG/Instrument/ACE/Ephemeris",
+  "AC_H2_CRIS": "spase://SMWG/Instrument/ACE/CRIS",
+  "AC_H3_CRIS": "spase://SMWG/Instrument/ACE/CRIS",
+  "AC_H0_MFI": "spase://SMWG/Instrument/ACE/MAG",
+  "AC_K0_MFI": "spase://SMWG/Instrument/ACE/MAG",
+  "AC_H1_MFI": [
+    "spase://SMWG/Instrument/ACE/Ephemeris",
+    "spase://SMWG/Instrument/ACE/MAG"
+  ],
+  "AC_K1_MFI": "spase://SMWG/Instrument/ACE/MAG",
+  "AC_H2_MFI": [
+    "spase://SMWG/Instrument/ACE/Ephemeris",
+    "spase://SMWG/Instrument/ACE/MAG"
+  ],
+  "AC_H3_MFI": "spase://SMWG/Instrument/ACE/MAG",
+  "AC_K2_MFI": "spase://SMWG/Instrument/ACE/MAG",
+  "AC_H2_SEP": "spase://SMWG/Instrument/ACE/SEPICA",
+  "AC_H0_SWE": "spase://SMWG/Instrument/ACE/SWEPAM",
+  "AC_K0_SWE": "spase://SMWG/Instrument/ACE/SWEPAM",
+  "AC_H2_SWE": [
+    "spase://SMWG/Instrument/ACE/Ephemeris",
+    "spase://SMWG/Instrument/ACE/SWEPAM"
+  ],
+  "AC_K1_SWE": "spase://SMWG/Instrument/ACE/SWEPAM",
+  "AC_H2_SWI": [
+    "spase://SMWG/Instrument/ACE/SWICS",
+    "spase://SMWG/Instrument/ACE/SWIMS"
+  ],
+  "AC_H3_SWI": [
+    "spase://SMWG/Instrument/ACE/SWICS",
+    "spase://SMWG/Instrument/ACE/SWIMS"
+  ],
+  "AC_H3_SW2": "spase://SMWG/Instrument/ACE/SWICS",
+  "AC_H4_SWI": [
+    "spase://SMWG/Instrument/ACE/SWICS",
+    "spase://SMWG/Instrument/ACE/SWIMS"
+  ],
+  "AC_H5_SWI": [
+    "spase://SMWG/Instrument/ACE/SWICS",
+    "spase://SMWG/Instrument/ACE/SWIMS"
+  ],
+  "AC_H6_SWI": "spase://SMWG/Instrument/ACE/SWICS",
+  "AC_H1_EPM": "spase://SMWG/Instrument/ACE/EPAM",
+  "AC_H2_EPM": "spase://SMWG/Instrument/ACE/EPAM",
+  "AC_H3_EPM": "spase://SMWG/Instrument/ACE/EPAM",
+  "AC_K0_EPM": "spase://SMWG/Instrument/ACE/EPAM",
+  "AC_K1_EPM": "spase://SMWG/Instrument/ACE/EPAM",
+  "AC_K0_SIS": "spase://SMWG/Instrument/ACE/SIS",
+  "AC_H1_SIS": "spase://SMWG/Instrument/ACE/SIS",
+  "AC_H2_SIS": "spase://SMWG/Instrument/ACE/SIS",
+  "AC_H2_ULE": "spase://SMWG/Instrument/ACE/ULEIS",
+  "AEROCUBE-6-A_DOSIMETER_L2": "spase://NASA/Instrument/AeroCube-6/A/Dosimeter",
+  "AEROCUBE-6-B_DOSIMETER_L2": "spase://NASA/Instrument/AeroCube-6/B/Dosimeter",
+  "AMPTECCE_H0_MEPA": "spase://SMWG/Instrument/AMPTE-CCE/MEPA",
+  "APOLLO12_SWS_1HR": "spase://SMWG/Instrument/Apollo12-LM/SWS",
+  "APOLLO12_SWS_28S": "spase://SMWG/Instrument/Apollo12-LM/SWS",
+  "APOLLO15_SWS_1HR": "spase://SMWG/Instrument/Apollo15-LM/SWS",
+  "APOLLO15_SWS_28S": "spase://SMWG/Instrument/Apollo15-LM/SWS",
+  "BAR_1A_L2_EPHM": "spase://SMWG/Instrument/BARREL/1A/Ephemeris",
+  "BAR_1A_L2_FSPC": "spase://SMWG/Instrument/BARREL/1A/XRI",
+  "BAR_1A_L2_HKPG": "spase://SMWG/Instrument/BARREL/1A/DataProcessingUnit",
+  "BAR_1A_L2_MAGN": "spase://SMWG/Instrument/BARREL/1A/MAG",
+  "BAR_1A_L2_MSPC": "spase://SMWG/Instrument/BARREL/1A/XRI",
+  "BAR_1A_L2_RCNT": "spase://SMWG/Instrument/BARREL/1A/XRI",
+  "BAR_1A_L2_SSPC": "spase://SMWG/Instrument/BARREL/1A/XRI",
+  "BAR_1B_L2_EPHM": "spase://SMWG/Instrument/BARREL/1B/Ephemeris",
+  "BAR_1B_L2_FSPC": "spase://SMWG/Instrument/BARREL/1B/XRI",
+  "BAR_1B_L2_HKPG": "spase://SMWG/Instrument/BARREL/1B/DataProcessingUnit",
+  "BAR_1B_L2_MAGN": "spase://SMWG/Instrument/BARREL/1B/MAG",
+  "BAR_1B_L2_MSPC": "spase://SMWG/Instrument/BARREL/1B/XRI",
+  "BAR_1B_L2_RCNT": "spase://SMWG/Instrument/BARREL/1B/XRI",
+  "BAR_1B_L2_SSPC": "spase://SMWG/Instrument/BARREL/1B/XRI",
+  "BAR_1C_L2_EPHM": "spase://SMWG/Instrument/BARREL/1C/Ephemeris",
+  "BAR_1C_L2_FSPC": "spase://SMWG/Instrument/BARREL/1C/XRI",
+  "BAR_1C_L2_HKPG": "spase://SMWG/Instrument/BARREL/1C/DataProcessingUnit",
+  "BAR_1C_L2_MAGN": "spase://SMWG/Instrument/BARREL/1C/MAG",
+  "BAR_1C_L2_MSPC": "spase://SMWG/Instrument/BARREL/1C/XRI",
+  "BAR_1C_L2_RCNT": "spase://SMWG/Instrument/BARREL/1C/XRI",
+  "BAR_1C_L2_SSPC": "spase://SMWG/Instrument/BARREL/1C/XRI",
+  "BAR_1D_L2_EPHM": "spase://SMWG/Instrument/BARREL/1D/Ephemeris",
+  "BAR_1D_L2_FSPC": "spase://SMWG/Instrument/BARREL/1D/XRI",
+  "BAR_1D_L2_HKPG": "spase://SMWG/Instrument/BARREL/1D/DataProcessingUnit",
+  "BAR_1D_L2_MAGN": "spase://SMWG/Instrument/BARREL/1D/MAG",
+  "BAR_1D_L2_MSPC": "spase://SMWG/Instrument/BARREL/1D/XRI",
+  "BAR_1D_L2_RCNT": "spase://SMWG/Instrument/BARREL/1D/XRI",
+  "BAR_1D_L2_SSPC": "spase://SMWG/Instrument/BARREL/1D/XRI",
+  "BAR_1G_L2_EPHM": "spase://SMWG/Instrument/BARREL/1G/Ephemeris",
+  "BAR_1G_L2_FSPC": "spase://SMWG/Instrument/BARREL/1G/XRI",
+  "BAR_1G_L2_HKPG": "spase://SMWG/Instrument/BARREL/1G/DataProcessingUnit",
+  "BAR_1G_L2_MAGN": "spase://SMWG/Instrument/BARREL/1G/MAG",
+  "BAR_1G_L2_MSPC": "spase://SMWG/Instrument/BARREL/1G/XRI",
+  "BAR_1G_L2_RCNT": "spase://SMWG/Instrument/BARREL/1G/XRI",
+  "BAR_1G_L2_SSPC": "spase://SMWG/Instrument/BARREL/1G/XRI",
+  "BAR_1H_L2_EPHM": "spase://SMWG/Instrument/BARREL/1H/Ephemeris",
+  "BAR_1H_L2_FSPC": "spase://SMWG/Instrument/BARREL/1H/XRI",
+  "BAR_1H_L2_HKPG": "spase://SMWG/Instrument/BARREL/1H/DataProcessingUnit",
+  "BAR_1H_L2_MAGN": "spase://SMWG/Instrument/BARREL/1H/MAG",
+  "BAR_1H_L2_MSPC": "spase://SMWG/Instrument/BARREL/1H/XRI",
+  "BAR_1H_L2_RCNT": "spase://SMWG/Instrument/BARREL/1H/XRI",
+  "BAR_1H_L2_SSPC": "spase://SMWG/Instrument/BARREL/1H/XRI",
+  "BAR_1I_L2_EPHM": "spase://SMWG/Instrument/BARREL/1I/Ephemeris",
+  "BAR_1I_L2_FSPC": "spase://SMWG/Instrument/BARREL/1I/XRI",
+  "BAR_1I_L2_HKPG": "spase://SMWG/Instrument/BARREL/1I/DataProcessingUnit",
+  "BAR_1I_L2_MAGN": "spase://SMWG/Instrument/BARREL/1I/MAG",
+  "BAR_1I_L2_MSPC": "spase://SMWG/Instrument/BARREL/1I/XRI",
+  "BAR_1I_L2_RCNT": "spase://SMWG/Instrument/BARREL/1I/XRI",
+  "BAR_1I_L2_SSPC": "spase://SMWG/Instrument/BARREL/1I/XRI",
+  "BAR_1J_L2_EPHM": "spase://SMWG/Instrument/BARREL/1J/Ephemeris",
+  "BAR_1J_L2_FSPC": "spase://SMWG/Instrument/BARREL/1J/XRI",
+  "BAR_1J_L2_HKPG": "spase://SMWG/Instrument/BARREL/1J/DataProcessingUnit",
+  "BAR_1J_L2_MAGN": "spase://SMWG/Instrument/BARREL/1J/MAG",
+  "BAR_1J_L2_MSPC": "spase://SMWG/Instrument/BARREL/1J/XRI",
+  "BAR_1J_L2_RCNT": "spase://SMWG/Instrument/BARREL/1J/XRI",
+  "BAR_1J_L2_SSPC": "spase://SMWG/Instrument/BARREL/1J/XRI",
+  "BAR_1K_L2_EPHM": "spase://SMWG/Instrument/BARREL/1K/Ephemeris",
+  "BAR_1K_L2_FSPC": "spase://SMWG/Instrument/BARREL/1K/XRI",
+  "BAR_1K_L2_HKPG": "spase://SMWG/Instrument/BARREL/1K/DataProcessingUnit",
+  "BAR_1K_L2_MAGN": "spase://SMWG/Instrument/BARREL/1K/MAG",
+  "BAR_1K_L2_MSPC": "spase://SMWG/Instrument/BARREL/1K/XRI",
+  "BAR_1K_L2_RCNT": "spase://SMWG/Instrument/BARREL/1K/XRI",
+  "BAR_1K_L2_SSPC": "spase://SMWG/Instrument/BARREL/1K/XRI",
+  "BAR_1M_L2_EPHM": "spase://SMWG/Instrument/BARREL/1M/Ephemeris",
+  "BAR_1M_L2_FSPC": "spase://SMWG/Instrument/BARREL/1M/XRI",
+  "BAR_1M_L2_HKPG": "spase://SMWG/Instrument/BARREL/1M/DataProcessingUnit",
+  "BAR_1M_L2_MAGN": "spase://SMWG/Instrument/BARREL/1M/MAG",
+  "BAR_1M_L2_MSPC": "spase://SMWG/Instrument/BARREL/1M/XRI",
+  "BAR_1M_L2_RCNT": "spase://SMWG/Instrument/BARREL/1M/XRI",
+  "BAR_1M_L2_SSPC": "spase://SMWG/Instrument/BARREL/1M/XRI",
+  "BAR_1N_L2_EPHM": "spase://SMWG/Instrument/BARREL/1N/Ephemeris",
+  "BAR_1N_L2_FSPC": "spase://SMWG/Instrument/BARREL/1N/XRI",
+  "BAR_1N_L2_HKPG": "spase://SMWG/Instrument/BARREL/1N/DataProcessingUnit",
+  "BAR_1N_L2_MAGN": "spase://SMWG/Instrument/BARREL/1N/MAG",
+  "BAR_1N_L2_MSPC": "spase://SMWG/Instrument/BARREL/1N/XRI",
+  "BAR_1N_L2_RCNT": "spase://SMWG/Instrument/BARREL/1N/XRI",
+  "BAR_1N_L2_SSPC": "spase://SMWG/Instrument/BARREL/1N/XRI",
+  "BAR_1O_L2_EPHM": "spase://SMWG/Instrument/BARREL/1O/Ephemeris",
+  "BAR_1O_L2_FSPC": "spase://SMWG/Instrument/BARREL/1O/XRI",
+  "BAR_1O_L2_HKPG": "spase://SMWG/Instrument/BARREL/1O/DataProcessingUnit",
+  "BAR_1O_L2_MAGN": "spase://SMWG/Instrument/BARREL/1O/MAG",
+  "BAR_1O_L2_MSPC": "spase://SMWG/Instrument/BARREL/1O/XRI",
+  "BAR_1O_L2_RCNT": "spase://SMWG/Instrument/BARREL/1O/XRI",
+  "BAR_1O_L2_SSPC": "spase://SMWG/Instrument/BARREL/1O/XRI",
+  "BAR_1Q_L2_EPHM": "spase://SMWG/Instrument/BARREL/1Q/Ephemeris",
+  "BAR_1Q_L2_FSPC": "spase://SMWG/Instrument/BARREL/1Q/XRI",
+  "BAR_1Q_L2_HKPG": "spase://SMWG/Instrument/BARREL/1Q/DataProcessingUnit",
+  "BAR_1Q_L2_MAGN": "spase://SMWG/Instrument/BARREL/1Q/MAG",
+  "BAR_1Q_L2_MSPC": "spase://SMWG/Instrument/BARREL/1Q/XRI",
+  "BAR_1Q_L2_RCNT": "spase://SMWG/Instrument/BARREL/1Q/XRI",
+  "BAR_1Q_L2_SSPC": "spase://SMWG/Instrument/BARREL/1Q/XRI",
+  "BAR_1R_L2_EPHM": "spase://SMWG/Instrument/BARREL/1R/Ephemeris",
+  "BAR_1R_L2_FSPC": "spase://SMWG/Instrument/BARREL/1R/XRI",
+  "BAR_1R_L2_HKPG": "spase://SMWG/Instrument/BARREL/1R/DataProcessingUnit",
+  "BAR_1R_L2_MAGN": "spase://SMWG/Instrument/BARREL/1R/MAG",
+  "BAR_1R_L2_MSPC": "spase://SMWG/Instrument/BARREL/1R/XRI",
+  "BAR_1R_L2_RCNT": "spase://SMWG/Instrument/BARREL/1R/XRI",
+  "BAR_1R_L2_SSPC": "spase://SMWG/Instrument/BARREL/1R/XRI",
+  "BAR_1S_L2_EPHM": "spase://SMWG/Instrument/BARREL/1S/Ephemeris",
+  "BAR_1S_L2_FSPC": "spase://SMWG/Instrument/BARREL/1S/XRI",
+  "BAR_1S_L2_HKPG": "spase://SMWG/Instrument/BARREL/1S/DataProcessingUnit",
+  "BAR_1S_L2_MAGN": "spase://SMWG/Instrument/BARREL/1S/MAG",
+  "BAR_1S_L2_MSPC": "spase://SMWG/Instrument/BARREL/1S/XRI",
+  "BAR_1S_L2_RCNT": "spase://SMWG/Instrument/BARREL/1S/XRI",
+  "BAR_1S_L2_SSPC": "spase://SMWG/Instrument/BARREL/1S/XRI",
+  "BAR_1T_L2_EPHM": "spase://SMWG/Instrument/BARREL/1T/Ephemeris",
+  "BAR_1T_L2_FSPC": "spase://SMWG/Instrument/BARREL/1T/XRI",
+  "BAR_1T_L2_HKPG": "spase://SMWG/Instrument/BARREL/1T/DataProcessingUnit",
+  "BAR_1T_L2_MAGN": "spase://SMWG/Instrument/BARREL/1T/MAG",
+  "BAR_1T_L2_MSPC": "spase://SMWG/Instrument/BARREL/1T/XRI",
+  "BAR_1T_L2_RCNT": "spase://SMWG/Instrument/BARREL/1T/XRI",
+  "BAR_1T_L2_SSPC": "spase://SMWG/Instrument/BARREL/1T/XRI",
+  "BAR_1U_L2_EPHM": "spase://SMWG/Instrument/BARREL/1U/Ephemeris",
+  "BAR_1U_L2_FSPC": "spase://SMWG/Instrument/BARREL/1U/XRI",
+  "BAR_1U_L2_HKPG": "spase://SMWG/Instrument/BARREL/1U/DataProcessingUnit",
+  "BAR_1U_L2_MAGN": "spase://SMWG/Instrument/BARREL/1U/MAG",
+  "BAR_1U_L2_MSPC": "spase://SMWG/Instrument/BARREL/1U/XRI",
+  "BAR_1U_L2_RCNT": "spase://SMWG/Instrument/BARREL/1U/XRI",
+  "BAR_1U_L2_SSPC": "spase://SMWG/Instrument/BARREL/1U/XRI",
+  "BAR_1V_L2_EPHM": "spase://SMWG/Instrument/BARREL/1V/Ephemeris",
+  "BAR_1V_L2_FSPC": "spase://SMWG/Instrument/BARREL/1V/XRI",
+  "BAR_1V_L2_HKPG": "spase://SMWG/Instrument/BARREL/1V/DataProcessingUnit",
+  "BAR_1V_L2_MAGN": "spase://SMWG/Instrument/BARREL/1V/MAG",
+  "BAR_1V_L2_MSPC": "spase://SMWG/Instrument/BARREL/1V/XRI",
+  "BAR_1V_L2_RCNT": "spase://SMWG/Instrument/BARREL/1V/XRI",
+  "BAR_1V_L2_SSPC": "spase://SMWG/Instrument/BARREL/1V/XRI",
+  "BAR_2A_L2_EPHM": "spase://SMWG/Instrument/BARREL/2A/Ephemeris",
+  "BAR_2A_L2_FSPC": "spase://SMWG/Instrument/BARREL/2A/XRI",
+  "BAR_2A_L2_HKPG": "spase://SMWG/Instrument/BARREL/2A/DataProcessingUnit",
+  "BAR_2A_L2_MAGN": "spase://SMWG/Instrument/BARREL/2A/MAG",
+  "BAR_2A_L2_MSPC": "spase://SMWG/Instrument/BARREL/2A/XRI",
+  "BAR_2A_L2_RCNT": "spase://SMWG/Instrument/BARREL/2A/XRI",
+  "BAR_2A_L2_SSPC": "spase://SMWG/Instrument/BARREL/2A/XRI",
+  "BAR_2B_L2_EPHM": "spase://SMWG/Instrument/BARREL/2B/Ephemeris",
+  "BAR_2B_L2_FSPC": "spase://SMWG/Instrument/BARREL/2B/XRI",
+  "BAR_2B_L2_HKPG": "spase://SMWG/Instrument/BARREL/2B/DataProcessingUnit",
+  "BAR_2B_L2_MAGN": "spase://SMWG/Instrument/BARREL/2B/MAG",
+  "BAR_2B_L2_MSPC": "spase://SMWG/Instrument/BARREL/2B/XRI",
+  "BAR_2B_L2_RCNT": "spase://SMWG/Instrument/BARREL/2B/XRI",
+  "BAR_2B_L2_SSPC": "spase://SMWG/Instrument/BARREL/2B/XRI",
+  "BAR_2C_L2_EPHM": "spase://SMWG/Instrument/BARREL/2C/Ephemeris",
+  "BAR_2C_L2_FSPC": "spase://SMWG/Instrument/BARREL/2C/XRI",
+  "BAR_2C_L2_HKPG": "spase://SMWG/Instrument/BARREL/2C/DataProcessingUnit",
+  "BAR_2C_L2_MAGN": "spase://SMWG/Instrument/BARREL/2C/MAG",
+  "BAR_2C_L2_MSPC": "spase://SMWG/Instrument/BARREL/2C/XRI",
+  "BAR_2C_L2_RCNT": "spase://SMWG/Instrument/BARREL/2C/XRI",
+  "BAR_2C_L2_SSPC": "spase://SMWG/Instrument/BARREL/2C/XRI",
+  "BAR_2D_L2_EPHM": "spase://SMWG/Instrument/BARREL/2D/Ephemeris",
+  "BAR_2D_L2_FSPC": "spase://SMWG/Instrument/BARREL/2D/XRI",
+  "BAR_2D_L2_HKPG": "spase://SMWG/Instrument/BARREL/2D/DataProcessingUnit",
+  "BAR_2D_L2_MAGN": "spase://SMWG/Instrument/BARREL/2D/MAG",
+  "BAR_2D_L2_MSPC": "spase://SMWG/Instrument/BARREL/2D/XRI",
+  "BAR_2D_L2_RCNT": "spase://SMWG/Instrument/BARREL/2D/XRI",
+  "BAR_2D_L2_SSPC": "spase://SMWG/Instrument/BARREL/2D/XRI",
+  "BAR_2E_L2_EPHM": "spase://SMWG/Instrument/BARREL/2E/Ephemeris",
+  "BAR_2E_L2_FSPC": "spase://SMWG/Instrument/BARREL/2E/XRI",
+  "BAR_2E_L2_HKPG": "spase://SMWG/Instrument/BARREL/2E/DataProcessingUnit",
+  "BAR_2E_L2_MAGN": "spase://SMWG/Instrument/BARREL/2E/MAG",
+  "BAR_2E_L2_MSPC": "spase://SMWG/Instrument/BARREL/2E/XRI",
+  "BAR_2E_L2_RCNT": "spase://SMWG/Instrument/BARREL/2E/XRI",
+  "BAR_2E_L2_SSPC": "spase://SMWG/Instrument/BARREL/2E/XRI",
+  "BAR_2F_L2_EPHM": "spase://SMWG/Instrument/BARREL/2F/Ephemeris",
+  "BAR_2F_L2_FSPC": "spase://SMWG/Instrument/BARREL/2F/XRI",
+  "BAR_2F_L2_HKPG": "spase://SMWG/Instrument/BARREL/2F/DataProcessingUnit",
+  "BAR_2F_L2_MAGN": "spase://SMWG/Instrument/BARREL/2F/MAG",
+  "BAR_2F_L2_MSPC": "spase://SMWG/Instrument/BARREL/2F/XRI",
+  "BAR_2F_L2_RCNT": "spase://SMWG/Instrument/BARREL/2F/XRI",
+  "BAR_2F_L2_SSPC": "spase://SMWG/Instrument/BARREL/2F/XRI",
+  "BAR_2I_L2_EPHM": "spase://SMWG/Instrument/BARREL/2I/Ephemeris",
+  "BAR_2I_L2_FSPC": "spase://SMWG/Instrument/BARREL/2I/XRI",
+  "BAR_2I_L2_HKPG": "spase://SMWG/Instrument/BARREL/2I/DataProcessingUnit",
+  "BAR_2I_L2_MAGN": "spase://SMWG/Instrument/BARREL/2I/MAG",
+  "BAR_2I_L2_MSPC": "spase://SMWG/Instrument/BARREL/2I/XRI",
+  "BAR_2I_L2_RCNT": "spase://SMWG/Instrument/BARREL/2I/XRI",
+  "BAR_2I_L2_SSPC": "spase://SMWG/Instrument/BARREL/2I/XRI",
+  "BAR_2K_L2_EPHM": "spase://SMWG/Instrument/BARREL/2K/Ephemeris",
+  "BAR_2K_L2_FSPC": "spase://SMWG/Instrument/BARREL/2K/XRI",
+  "BAR_2K_L2_HKPG": "spase://SMWG/Instrument/BARREL/2K/DataProcessingUnit",
+  "BAR_2K_L2_MAGN": "spase://SMWG/Instrument/BARREL/2K/MAG",
+  "BAR_2K_L2_MSPC": "spase://SMWG/Instrument/BARREL/2K/XRI",
+  "BAR_2K_L2_RCNT": "spase://SMWG/Instrument/BARREL/2K/XRI",
+  "BAR_2K_L2_SSPC": "spase://SMWG/Instrument/BARREL/2K/XRI",
+  "BAR_2L_L2_EPHM": "spase://SMWG/Instrument/BARREL/2L/Ephemeris",
+  "BAR_2L_L2_FSPC": "spase://SMWG/Instrument/BARREL/2L/XRI",
+  "BAR_2L_L2_HKPG": "spase://SMWG/Instrument/BARREL/2L/DataProcessingUnit",
+  "BAR_2L_L2_MAGN": "spase://SMWG/Instrument/BARREL/2L/MAG",
+  "BAR_2L_L2_MSPC": "spase://SMWG/Instrument/BARREL/2L/XRI",
+  "BAR_2L_L2_RCNT": "spase://SMWG/Instrument/BARREL/2L/XRI",
+  "BAR_2L_L2_SSPC": "spase://SMWG/Instrument/BARREL/2L/XRI",
+  "BAR_2M_L2_EPHM": "spase://SMWG/Instrument/BARREL/2M/Ephemeris",
+  "BAR_2M_L2_FSPC": "spase://SMWG/Instrument/BARREL/2M/XRI",
+  "BAR_2M_L2_HKPG": "spase://SMWG/Instrument/BARREL/2M/DataProcessingUnit",
+  "BAR_2M_L2_MAGN": "spase://SMWG/Instrument/BARREL/2M/MAG",
+  "BAR_2M_L2_MSPC": "spase://SMWG/Instrument/BARREL/2M/XRI",
+  "BAR_2M_L2_RCNT": "spase://SMWG/Instrument/BARREL/2M/XRI",
+  "BAR_2M_L2_SSPC": "spase://SMWG/Instrument/BARREL/2M/XRI",
+  "BAR_2N_L2_EPHM": "spase://SMWG/Instrument/BARREL/2N/Ephemeris",
+  "BAR_2N_L2_FSPC": "spase://SMWG/Instrument/BARREL/2N/XRI",
+  "BAR_2N_L2_HKPG": "spase://SMWG/Instrument/BARREL/2N/DataProcessingUnit",
+  "BAR_2N_L2_MAGN": "spase://SMWG/Instrument/BARREL/2N/MAG",
+  "BAR_2N_L2_MSPC": "spase://SMWG/Instrument/BARREL/2N/XRI",
+  "BAR_2N_L2_RCNT": "spase://SMWG/Instrument/BARREL/2N/XRI",
+  "BAR_2N_L2_SSPC": "spase://SMWG/Instrument/BARREL/2N/XRI",
+  "BAR_2O_L2_EPHM": "spase://SMWG/Instrument/BARREL/2O/Ephemeris",
+  "BAR_2O_L2_FSPC": "spase://SMWG/Instrument/BARREL/2O/XRI",
+  "BAR_2O_L2_HKPG": "spase://SMWG/Instrument/BARREL/2O/DataProcessingUnit",
+  "BAR_2O_L2_MAGN": "spase://SMWG/Instrument/BARREL/2O/MAG",
+  "BAR_2O_L2_MSPC": "spase://SMWG/Instrument/BARREL/2O/XRI",
+  "BAR_2O_L2_RCNT": "spase://SMWG/Instrument/BARREL/2O/XRI",
+  "BAR_2O_L2_SSPC": "spase://SMWG/Instrument/BARREL/2O/XRI",
+  "BAR_2P_L2_EPHM": "spase://SMWG/Instrument/BARREL/2P/Ephemeris",
+  "BAR_2P_L2_FSPC": "spase://SMWG/Instrument/BARREL/2P/XRI",
+  "BAR_2P_L2_HKPG": "spase://SMWG/Instrument/BARREL/2P/DataProcessingUnit",
+  "BAR_2P_L2_MAGN": "spase://SMWG/Instrument/BARREL/2P/MAG",
+  "BAR_2P_L2_MSPC": "spase://SMWG/Instrument/BARREL/2P/XRI",
+  "BAR_2P_L2_RCNT": "spase://SMWG/Instrument/BARREL/2P/XRI",
+  "BAR_2P_L2_SSPC": "spase://SMWG/Instrument/BARREL/2P/XRI",
+  "BAR_2Q_L2_EPHM": "spase://SMWG/Instrument/BARREL/2Q/Ephemeris",
+  "BAR_2Q_L2_FSPC": "spase://SMWG/Instrument/BARREL/2Q/XRI",
+  "BAR_2Q_L2_HKPG": "spase://SMWG/Instrument/BARREL/2Q/DataProcessingUnit",
+  "BAR_2Q_L2_MAGN": "spase://SMWG/Instrument/BARREL/2Q/MAG",
+  "BAR_2Q_L2_MSPC": "spase://SMWG/Instrument/BARREL/2Q/XRI",
+  "BAR_2Q_L2_RCNT": "spase://SMWG/Instrument/BARREL/2Q/XRI",
+  "BAR_2Q_L2_SSPC": "spase://SMWG/Instrument/BARREL/2Q/XRI",
+  "BAR_2T_L2_EPHM": "spase://SMWG/Instrument/BARREL/2T/Ephemeris",
+  "BAR_2T_L2_FSPC": "spase://SMWG/Instrument/BARREL/2T/XRI",
+  "BAR_2T_L2_HKPG": "spase://SMWG/Instrument/BARREL/2T/DataProcessingUnit",
+  "BAR_2T_L2_MAGN": "spase://SMWG/Instrument/BARREL/2T/MAG",
+  "BAR_2T_L2_MSPC": "spase://SMWG/Instrument/BARREL/2T/XRI",
+  "BAR_2T_L2_RCNT": "spase://SMWG/Instrument/BARREL/2T/XRI",
+  "BAR_2T_L2_SSPC": "spase://SMWG/Instrument/BARREL/2T/XRI",
+  "BAR_2W_L2_EPHM": "spase://SMWG/Instrument/BARREL/2W/Ephemeris",
+  "BAR_2W_L2_FSPC": "spase://SMWG/Instrument/BARREL/2W/XRI",
+  "BAR_2W_L2_HKPG": "spase://SMWG/Instrument/BARREL/2W/DataProcessingUnit",
+  "BAR_2W_L2_MAGN": "spase://SMWG/Instrument/BARREL/2W/MAG",
+  "BAR_2W_L2_MSPC": "spase://SMWG/Instrument/BARREL/2W/XRI",
+  "BAR_2W_L2_RCNT": "spase://SMWG/Instrument/BARREL/2W/XRI",
+  "BAR_2W_L2_SSPC": "spase://SMWG/Instrument/BARREL/2W/XRI",
+  "BAR_2X_L2_EPHM": "spase://SMWG/Instrument/BARREL/2X/Ephemeris",
+  "BAR_2X_L2_FSPC": "spase://SMWG/Instrument/BARREL/2X/XRI",
+  "BAR_2X_L2_HKPG": "spase://SMWG/Instrument/BARREL/2X/DataProcessingUnit",
+  "BAR_2X_L2_MAGN": "spase://SMWG/Instrument/BARREL/2X/MAG",
+  "BAR_2X_L2_MSPC": "spase://SMWG/Instrument/BARREL/2X/XRI",
+  "BAR_2X_L2_RCNT": "spase://SMWG/Instrument/BARREL/2X/XRI",
+  "BAR_2X_L2_SSPC": "spase://SMWG/Instrument/BARREL/2X/XRI",
+  "BAR_2Y_L2_EPHM": "spase://SMWG/Instrument/BARREL/2Y/Ephemeris",
+  "BAR_2Y_L2_FSPC": "spase://SMWG/Instrument/BARREL/2Y/XRI",
+  "BAR_2Y_L2_HKPG": "spase://SMWG/Instrument/BARREL/2Y/DataProcessingUnit",
+  "BAR_2Y_L2_MAGN": "spase://SMWG/Instrument/BARREL/2Y/MAG",
+  "BAR_2Y_L2_MSPC": "spase://SMWG/Instrument/BARREL/2Y/XRI",
+  "BAR_2Y_L2_RCNT": "spase://SMWG/Instrument/BARREL/2Y/XRI",
+  "BAR_2Y_L2_SSPC": "spase://SMWG/Instrument/BARREL/2Y/XRI",
+  "BAR_3A_L2_EPHM": "spase://SMWG/Instrument/BARREL/3A/Ephemeris",
+  "BAR_3A_L2_FSPC": "spase://SMWG/Instrument/BARREL/3A/XRI",
+  "BAR_3A_L2_HKPG": "spase://SMWG/Instrument/BARREL/3A/DataProcessingUnit",
+  "BAR_3A_L2_MAGN": "spase://SMWG/Instrument/BARREL/3A/MAG",
+  "BAR_3A_L2_MSPC": "spase://SMWG/Instrument/BARREL/3A/XRI",
+  "BAR_3A_L2_RCNT": "spase://SMWG/Instrument/BARREL/3A/XRI",
+  "BAR_3A_L2_SSPC": "spase://SMWG/Instrument/BARREL/3A/XRI",
+  "BAR_3B_L2_EPHM": "spase://SMWG/Instrument/BARREL/3B/Ephemeris",
+  "BAR_3B_L2_FSPC": "spase://SMWG/Instrument/BARREL/3B/XRI",
+  "BAR_3B_L2_HKPG": "spase://SMWG/Instrument/BARREL/3B/DataProcessingUnit",
+  "BAR_3B_L2_MAGN": "spase://SMWG/Instrument/BARREL/3B/MAG",
+  "BAR_3B_L2_MSPC": "spase://SMWG/Instrument/BARREL/3B/XRI",
+  "BAR_3B_L2_RCNT": "spase://SMWG/Instrument/BARREL/3B/XRI",
+  "BAR_3B_L2_SSPC": "spase://SMWG/Instrument/BARREL/3B/XRI",
+  "BAR_3C_L2_EPHM": "spase://SMWG/Instrument/BARREL/3C/Ephemeris",
+  "BAR_3C_L2_FSPC": "spase://SMWG/Instrument/BARREL/3C/XRI",
+  "BAR_3C_L2_HKPG": "spase://SMWG/Instrument/BARREL/3C/DataProcessingUnit",
+  "BAR_3C_L2_MAGN": "spase://SMWG/Instrument/BARREL/3C/MAG",
+  "BAR_3C_L2_MSPC": "spase://SMWG/Instrument/BARREL/3C/XRI",
+  "BAR_3C_L2_RCNT": "spase://SMWG/Instrument/BARREL/3C/XRI",
+  "BAR_3C_L2_SSPC": "spase://SMWG/Instrument/BARREL/3C/XRI",
+  "BAR_3D_L2_EPHM": "spase://SMWG/Instrument/BARREL/3D/Ephemeris",
+  "BAR_3D_L2_FSPC": "spase://SMWG/Instrument/BARREL/3D/XRI",
+  "BAR_3D_L2_HKPG": "spase://SMWG/Instrument/BARREL/3D/DataProcessingUnit",
+  "BAR_3D_L2_MAGN": "spase://SMWG/Instrument/BARREL/3D/MAG",
+  "BAR_3D_L2_MSPC": "spase://SMWG/Instrument/BARREL/3D/XRI",
+  "BAR_3D_L2_RCNT": "spase://SMWG/Instrument/BARREL/3D/XRI",
+  "BAR_3D_L2_SSPC": "spase://SMWG/Instrument/BARREL/3D/XRI",
+  "BAR_3E_L2_EPHM": "spase://SMWG/Instrument/BARREL/3E/Ephemeris",
+  "BAR_3E_L2_FSPC": "spase://SMWG/Instrument/BARREL/3E/XRI",
+  "BAR_3E_L2_HKPG": "spase://SMWG/Instrument/BARREL/3E/DataProcessingUnit",
+  "BAR_3E_L2_MAGN": "spase://SMWG/Instrument/BARREL/3E/MAG",
+  "BAR_3E_L2_MSPC": "spase://SMWG/Instrument/BARREL/3E/XRI",
+  "BAR_3E_L2_RCNT": "spase://SMWG/Instrument/BARREL/3E/XRI",
+  "BAR_3E_L2_SSPC": "spase://SMWG/Instrument/BARREL/3E/XRI",
+  "BAR_3F_L2_EPHM": "spase://SMWG/Instrument/BARREL/3F/Ephemeris",
+  "BAR_3F_L2_FSPC": "spase://SMWG/Instrument/BARREL/3F/XRI",
+  "BAR_3F_L2_HKPG": "spase://SMWG/Instrument/BARREL/3F/DataProcessingUnit",
+  "BAR_3F_L2_MAGN": "spase://SMWG/Instrument/BARREL/3F/MAG",
+  "BAR_3F_L2_MSPC": "spase://SMWG/Instrument/BARREL/3F/XRI",
+  "BAR_3F_L2_RCNT": "spase://SMWG/Instrument/BARREL/3F/XRI",
+  "BAR_3F_L2_SSPC": "spase://SMWG/Instrument/BARREL/3F/XRI",
+  "BAR_3G_L2_EPHM": "spase://SMWG/Instrument/BARREL/3G/Ephemeris",
+  "BAR_3G_L2_FSPC": "spase://SMWG/Instrument/BARREL/3G/XRI",
+  "BAR_3G_L2_HKPG": "spase://SMWG/Instrument/BARREL/3G/DataProcessingUnit",
+  "BAR_3G_L2_MAGN": "spase://SMWG/Instrument/BARREL/3G/MAG",
+  "BAR_3G_L2_MSPC": "spase://SMWG/Instrument/BARREL/3G/XRI",
+  "BAR_3G_L2_RCNT": "spase://SMWG/Instrument/BARREL/3G/XRI",
+  "BAR_3G_L2_SSPC": "spase://SMWG/Instrument/BARREL/3G/XRI",
+  "BAR_4A_L2_EPHM": "spase://SMWG/Instrument/BARREL/4A/Ephemeris",
+  "BAR_4A_L2_FSPC": "spase://SMWG/Instrument/BARREL/4A/XRI",
+  "BAR_4A_L2_HKPG": "spase://SMWG/Instrument/BARREL/4A/DataProcessingUnit",
+  "BAR_4A_L2_MSPC": "spase://SMWG/Instrument/BARREL/4A/XRI",
+  "BAR_4A_L2_RCNT": "spase://SMWG/Instrument/BARREL/4A/XRI",
+  "BAR_4A_L2_SSPC": "spase://SMWG/Instrument/BARREL/4A/XRI",
+  "BAR_4A_L2_USPC": "spase://SMWG/Instrument/BARREL/4A/XRI",
+  "BAR_4A_L2_XSPC": "spase://SMWG/Instrument/BARREL/4A/XRI",
+  "BAR_4B_L2_EPHM": "spase://SMWG/Instrument/BARREL/4B/Ephemeris",
+  "BAR_4B_L2_FSPC": "spase://SMWG/Instrument/BARREL/4B/XRI",
+  "BAR_4B_L2_HKPG": "spase://SMWG/Instrument/BARREL/4B/DataProcessingUnit",
+  "BAR_4B_L2_MSPC": "spase://SMWG/Instrument/BARREL/4B/XRI",
+  "BAR_4B_L2_RCNT": "spase://SMWG/Instrument/BARREL/4B/XRI",
+  "BAR_4B_L2_SSPC": "spase://SMWG/Instrument/BARREL/4B/XRI",
+  "BAR_4B_L2_USPC": "spase://SMWG/Instrument/BARREL/4B/XRI",
+  "BAR_4B_L2_XSPC": "spase://SMWG/Instrument/BARREL/4B/XRI",
+  "BAR_4C_L2_EPHM": "spase://SMWG/Instrument/BARREL/4C/Ephemeris",
+  "BAR_4C_L2_FSPC": "spase://SMWG/Instrument/BARREL/4C/XRI",
+  "BAR_4C_L2_HKPG": "spase://SMWG/Instrument/BARREL/4C/DataProcessingUnit",
+  "BAR_4C_L2_MSPC": "spase://SMWG/Instrument/BARREL/4C/XRI",
+  "BAR_4C_L2_RCNT": "spase://SMWG/Instrument/BARREL/4C/XRI",
+  "BAR_4C_L2_SSPC": "spase://SMWG/Instrument/BARREL/4C/XRI",
+  "BAR_4C_L2_USPC": "spase://SMWG/Instrument/BARREL/4C/XRI",
+  "BAR_4C_L2_XSPC": "spase://SMWG/Instrument/BARREL/4C/XRI",
+  "BAR_4D_L2_EPHM": "spase://SMWG/Instrument/BARREL/4D/Ephemeris",
+  "BAR_4D_L2_FSPC": "spase://SMWG/Instrument/BARREL/4D/XRI",
+  "BAR_4D_L2_HKPG": "spase://SMWG/Instrument/BARREL/4D/DataProcessingUnit",
+  "BAR_4D_L2_MSPC": "spase://SMWG/Instrument/BARREL/4D/XRI",
+  "BAR_4D_L2_RCNT": "spase://SMWG/Instrument/BARREL/4D/XRI",
+  "BAR_4D_L2_SSPC": "spase://SMWG/Instrument/BARREL/4D/XRI",
+  "BAR_4D_L2_USPC": "spase://SMWG/Instrument/BARREL/4D/XRI",
+  "BAR_4D_L2_XSPC": "spase://SMWG/Instrument/BARREL/4D/XRI",
+  "BAR_4E_L2_EPHM": "spase://SMWG/Instrument/BARREL/4E/Ephemeris",
+  "BAR_4E_L2_FSPC": "spase://SMWG/Instrument/BARREL/4E/XRI",
+  "BAR_4E_L2_HKPG": "spase://SMWG/Instrument/BARREL/4E/DataProcessingUnit",
+  "BAR_4E_L2_MSPC": "spase://SMWG/Instrument/BARREL/4E/XRI",
+  "BAR_4E_L2_RCNT": "spase://SMWG/Instrument/BARREL/4E/XRI",
+  "BAR_4E_L2_SSPC": "spase://SMWG/Instrument/BARREL/4E/XRI",
+  "BAR_4E_L2_USPC": "spase://SMWG/Instrument/BARREL/4E/XRI",
+  "BAR_4E_L2_XSPC": "spase://SMWG/Instrument/BARREL/4E/XRI",
+  "BAR_4F_L2_EPHM": "spase://SMWG/Instrument/BARREL/4F/Ephemeris",
+  "BAR_4F_L2_FSPC": "spase://SMWG/Instrument/BARREL/4F/XRI",
+  "BAR_4F_L2_HKPG": "spase://SMWG/Instrument/BARREL/4F/DataProcessingUnit",
+  "BAR_4F_L2_MSPC": "spase://SMWG/Instrument/BARREL/4F/XRI",
+  "BAR_4F_L2_RCNT": "spase://SMWG/Instrument/BARREL/4F/XRI",
+  "BAR_4F_L2_SSPC": "spase://SMWG/Instrument/BARREL/4F/XRI",
+  "BAR_4F_L2_USPC": "spase://SMWG/Instrument/BARREL/4F/XRI",
+  "BAR_4F_L2_XSPC": "spase://SMWG/Instrument/BARREL/4F/XRI",
+  "BAR_4G_L2_EPHM": "spase://SMWG/Instrument/BARREL/4G/Ephemeris",
+  "BAR_4G_L2_FSPC": "spase://SMWG/Instrument/BARREL/4G/XRI",
+  "BAR_4G_L2_HKPG": "spase://SMWG/Instrument/BARREL/4G/DataProcessingUnit",
+  "BAR_4G_L2_MSPC": "spase://SMWG/Instrument/BARREL/4G/XRI",
+  "BAR_4G_L2_RCNT": "spase://SMWG/Instrument/BARREL/4G/XRI",
+  "BAR_4G_L2_SSPC": "spase://SMWG/Instrument/BARREL/4G/XRI",
+  "BAR_4G_L2_USPC": "spase://SMWG/Instrument/BARREL/4G/XRI",
+  "BAR_4G_L2_XSPC": "spase://SMWG/Instrument/BARREL/4G/XRI",
+  "BAR_4H_L2_EPHM": "spase://SMWG/Instrument/BARREL/4H/Ephemeris",
+  "BAR_4H_L2_FSPC": "spase://SMWG/Instrument/BARREL/4H/XRI",
+  "BAR_4H_L2_HKPG": "spase://SMWG/Instrument/BARREL/4H/DataProcessingUnit",
+  "BAR_4H_L2_MSPC": "spase://SMWG/Instrument/BARREL/4H/XRI",
+  "BAR_4H_L2_RCNT": "spase://SMWG/Instrument/BARREL/4H/XRI",
+  "BAR_4H_L2_SSPC": "spase://SMWG/Instrument/BARREL/4H/XRI",
+  "BAR_4H_L2_USPC": "spase://SMWG/Instrument/BARREL/4H/XRI",
+  "BAR_4H_L2_XSPC": "spase://SMWG/Instrument/BARREL/4H/XRI",
+  "BAR_5A_L2_EPHM": "spase://SMWG/Instrument/BARREL/5A/Ephemeris",
+  "BAR_5A_L2_FSPC": "spase://SMWG/Instrument/BARREL/5A/XRI",
+  "BAR_5A_L2_HKPG": "spase://SMWG/Instrument/BARREL/5A/DataProcessingUnit",
+  "BAR_5A_L2_MSPC": "spase://SMWG/Instrument/BARREL/5A/XRI",
+  "BAR_5A_L2_RCNT": "spase://SMWG/Instrument/BARREL/5A/XRI",
+  "BAR_5A_L2_SSPC": "spase://SMWG/Instrument/BARREL/5A/XRI",
+  "BAR_5A_L2_USPC": "spase://SMWG/Instrument/BARREL/5A/XRI",
+  "BAR_5A_L2_XSPC": "spase://SMWG/Instrument/BARREL/5A/XRI",
+  "BEPICOLOMBO_HELIO1DAY_POSITION": "spase://SMWG/Instrument/BepiColombo/Ephemeris",
+  "CASSINI_MAG_1MIN_MAGNETIC_FIELD": "spase://SMWG/Instrument/Cassini/MAG",
+  "C1_PP_ASP": "spase://SMWG/Instrument/Cluster-Rumba/ASPOC",
+  "C2_PP_ASP": "spase://SMWG/Instrument/Cluster-Salsa/ASPOC",
+  "C3_PP_ASP": "spase://SMWG/Instrument/Cluster-Samba/ASPOC",
+  "C4_PP_ASP": "spase://SMWG/Instrument/Cluster-Tango/ASPOC",
+  "C1_PP_CIS": "spase://SMWG/Instrument/Cluster-Rumba/CIS",
+  "C3_PP_CIS": "spase://SMWG/Instrument/Cluster-Samba/CIS",
+  "C4_PP_CIS": "spase://SMWG/Instrument/Cluster-Tango/CIS",
+  "C1_PP_DWP": "spase://SMWG/Instrument/Cluster-Rumba/DWP",
+  "C2_PP_DWP": "spase://SMWG/Instrument/Cluster-Salsa/DWP",
+  "C4_PP_DWP": "spase://SMWG/Instrument/Cluster-Tango/DWP",
+  "C1_PP_EDI": "spase://SMWG/Instrument/Cluster-Rumba/EDI",
+  "C2_PP_EDI": "spase://SMWG/Instrument/Cluster-Salsa/EDI",
+  "C3_PP_EDI": "spase://SMWG/Instrument/Cluster-Samba/EDI",
+  "C4_PP_EDI": "spase://SMWG/Instrument/Cluster-Tango/EDI",
+  "C1_PP_EFW": "spase://SMWG/Instrument/Cluster-Rumba/EFW",
+  "C2_PP_EFW": "spase://SMWG/Instrument/Cluster-Salsa/EFW",
+  "C3_PP_EFW": "spase://SMWG/Instrument/Cluster-Samba/EFW",
+  "C4_PP_EFW": "spase://SMWG/Instrument/Cluster-Tango/EFW",
+  "C1_CP_FGM_SPIN": "spase://SMWG/Instrument/Cluster-Rumba/FGM",
+  "C2_CP_FGM_SPIN": "spase://SMWG/Instrument/Cluster-Salsa/FGM",
+  "C3_CP_FGM_SPIN": "spase://SMWG/Instrument/Cluster-Samba/FGM",
+  "C4_CP_FGM_SPIN": "spase://SMWG/Instrument/Cluster-Tango/FGM",
+  "C1_UP_FGM": "spase://SMWG/Instrument/Cluster-Rumba/FGM",
+  "C2_UP_FGM": "spase://SMWG/Instrument/Cluster-Salsa/FGM",
+  "C3_UP_FGM": "spase://SMWG/Instrument/Cluster-Samba/FGM",
+  "C4_UP_FGM": "spase://SMWG/Instrument/Cluster-Tango/FGM",
+  "C1_PP_PEA": "spase://SMWG/Instrument/Cluster-Rumba/PEACE",
+  "C2_PP_PEA": "spase://SMWG/Instrument/Cluster-Salsa/PEACE",
+  "C3_PP_PEA": "spase://SMWG/Instrument/Cluster-Samba/PEACE",
+  "C4_PP_PEA": "spase://SMWG/Instrument/Cluster-Tango/PEACE",
+  "C1_PP_RAP": "spase://SMWG/Instrument/Cluster-Rumba/RAPID",
+  "C2_PP_RAP": "spase://SMWG/Instrument/Cluster-Salsa/RAPID",
+  "C3_PP_RAP": "spase://SMWG/Instrument/Cluster-Samba/RAPID",
+  "C4_PP_RAP": "spase://SMWG/Instrument/Cluster-Tango/RAPID",
+  "C1_PP_STA": "spase://SMWG/Instrument/Cluster-Rumba/STAFF",
+  "C2_PP_STA": "spase://SMWG/Instrument/Cluster-Salsa/STAFF",
+  "C3_PP_STA": "spase://SMWG/Instrument/Cluster-Samba/STAFF",
+  "C4_PP_STA": "spase://SMWG/Instrument/Cluster-Tango/STAFF",
+  "C1_PP_WHI": "spase://SMWG/Instrument/Cluster-Rumba/WHISPER",
+  "C2_PP_WHI": "spase://SMWG/Instrument/Cluster-Salsa/WHISPER",
+  "C3_PP_WHI": "spase://SMWG/Instrument/Cluster-Samba/WHISPER",
+  "C4_PP_WHI": "spase://SMWG/Instrument/Cluster-Tango/WHISPER",
+  "C1_WAVEFORM_WBD": "spase://SMWG/Instrument/Cluster-Rumba/WBD",
+  "C2_WAVEFORM_WBD": "spase://SMWG/Instrument/Cluster-Salsa/WBD",
+  "C3_WAVEFORM_WBD": "spase://SMWG/Instrument/Cluster-Samba/WBD",
+  "C4_WAVEFORM_WBD": "spase://SMWG/Instrument/Cluster-Tango/WBD",
+  "C1_WAVEFORM_WBD_BM2": "spase://SMWG/Instrument/Cluster-Rumba/WBD",
+  "C2_WAVEFORM_WBD_BM2": "spase://SMWG/Instrument/Cluster-Salsa/WBD",
+  "C3_WAVEFORM_WBD_BM2": "spase://SMWG/Instrument/Cluster-Samba/WBD",
+  "C4_WAVEFORM_WBD_BM2": "spase://SMWG/Instrument/Cluster-Tango/WBD",
+  "CL_SP_AUX": [
+    "spase://SMWG/Instrument/Cluster-Rumba/Ephemeris",
+    "spase://SMWG/Instrument/Cluster-Salsa/Ephemeris",
+    "spase://SMWG/Instrument/Cluster-Samba/Ephemeris",
+    "spase://SMWG/Instrument/Cluster-Tango/Ephemeris"
+  ],
+  "CL_JP_PGP": "spase://SMWG/Instrument/Cluster/JSOC",
+  "C1_JP_PMP": "spase://SMWG/Instrument/Cluster/JSOC",
+  "C2_JP_PMP": "spase://SMWG/Instrument/Cluster/JSOC",
+  "C3_JP_PMP": "spase://SMWG/Instrument/Cluster/JSOC",
+  "C4_JP_PMP": "spase://SMWG/Instrument/Cluster/JSOC",
+  "C1_JP_PSE": "spase://SMWG/Instrument/Cluster/JSOC",
+  "C2_JP_PSE": "spase://SMWG/Instrument/Cluster/JSOC",
+  "C3_JP_PSE": "spase://SMWG/Instrument/Cluster/JSOC",
+  "C4_JP_PSE": "spase://SMWG/Instrument/Cluster/JSOC",
+  "CT_JP_PSE": "spase://SMWG/Instrument/Cluster/JSOC",
+  "CL_JP_PCY": "spase://SMWG/Instrument/Cluster/JSOC",
+  "CN_K0_ASI": "spase://SMWG/Instrument/CANOPUS/ASI",
+  "CN_K0_BARS": "spase://SMWG/Instrument/CANOPUS/BARS",
+  "CN_K0_MPA": "spase://SMWG/Instrument/CANOPUS/MPA",
+  "CN_K0_MARI": "spase://SMWG/Instrument/CANOPUS/MARI",
+  "CN_K1_MARI": "spase://SMWG/Instrument/CANOPUS/MARI",
+  "CNOFS_CINDI_IVM_500MS": "spase://SMWG/Instrument/CNOFS/CINDI/IVM",
+  "CNOFS_VEFI_LD_500MS": "spase://SMWG/Instrument/CNOFS/VEFI",
+  "CNOFS_VEFI_EFIELD_1SEC": "spase://SMWG/Instrument/CNOFS/VEFI",
+  "CNOFS_VEFI_BFIELD_1SEC": "spase://SMWG/Instrument/CNOFS/VEFI",
+  "CNOFS_PLP_PLASMA_1SEC": "spase://SMWG/Instrument/CNOFS/PLP",
+  "CRRES_H0_MEA": "spase://SMWG/Instrument/CRRES/MEA",
+  "CSSWE_REPTILE_6SEC-COUNTS-L1": "spase://SMWG/Instrument/CubeSat/CSSWE/REPTile",
+  "CSSWE_REPTILE_6SEC-FLUX-L2": "spase://SMWG/Instrument/CubeSat/CSSWE/REPTile",
+  "DE_UV_SAI": "spase://SMWG/Instrument/DynamicsExplorer1/SAI",
+  "DE_VS_EICS": "spase://SMWG/Instrument/DynamicsExplorer1/EICS",
+  "DE1_6SEC_MAGAGMS": "spase://SMWG/Instrument/DynamicsExplorer1/MAGA",
+  "DE1_1MIN_RIMS": [
+    "spase://SMWG/Instrument/DynamicsExplorer1/Ephemeris",
+    "spase://SMWG/Instrument/DynamicsExplorer1/MAGA",
+    "spase://SMWG/Instrument/DynamicsExplorer1/RIMS"
+  ],
+  "DE1_PWI_LFC-SPECTRA": "spase://SMWG/Instrument/DynamicsExplorer1/PWI",
+  "DE1_PWI_OR-AT": "spase://SMWG/Instrument/DynamicsExplorer1/Ephemeris",
+  "DE1_PWI_SFC-SPECTRA": "spase://SMWG/Instrument/DynamicsExplorer1/PWI",
+  "DE2_DUCT16MS_RPA": "spase://SMWG/Instrument/DynamicsExplorer2/RPA",
+  "DE2_ION2S_RPA": "spase://SMWG/Instrument/DynamicsExplorer2/RPA",
+  "DE2_NEUTRAL1S_NACS": "spase://SMWG/Instrument/DynamicsExplorer2/NACS",
+  "DE2_NEUTRAL8S_FPI": "spase://SMWG/Instrument/DynamicsExplorer2/FPI",
+  "DE2_PLASMA500MS_LANG": "spase://SMWG/Instrument/DynamicsExplorer2/LANG",
+  "DE2_UA16S_ALL": [
+    "spase://SMWG/Instrument/DynamicsExplorer2/RPA",
+    "spase://SMWG/Instrument/DynamicsExplorer2/IDM",
+    "spase://SMWG/Instrument/DynamicsExplorer2/WATS",
+    "spase://SMWG/Instrument/DynamicsExplorer2/LANG",
+    "spase://SMWG/Instrument/DynamicsExplorer2/FPI",
+    "spase://SMWG/Instrument/DynamicsExplorer2/NACS"
+  ],
+  "DE2_VION250MS_IDM": "spase://SMWG/Instrument/DynamicsExplorer2/IDM",
+  "DE2_WIND2S_WATS": "spase://SMWG/Instrument/DynamicsExplorer2/NACS",
+  "DE2_62MS_VEFIMAGB": [
+    "spase://SMWG/Instrument/DynamicsExplorer2/Ephemeris",
+    "spase://SMWG/Instrument/DynamicsExplorer2/MAGB",
+    "spase://SMWG/Instrument/DynamicsExplorer2/VEFI"
+  ],
+  "DE2_AC500MS_VEFI": "spase://SMWG/Instrument/DynamicsExplorer2/VEFI",
+  "DE2_DCA500MS_VEFI": "spase://SMWG/Instrument/DynamicsExplorer2/VEFI",
+  "DMSP-F16_SSJ_PRECIPITATING-ELECTRONS-IONS": "spase://SMWG/Instrument/DMSP_5D-3/F16/SESS/SSJ5",
+  "DMSP-F17_SSJ_PRECIPITATING-ELECTRONS-IONS": "spase://SMWG/Instrument/DMSP_5D-3/F17/SESS/SSJ5",
+  "DMSP-F18_SSJ_PRECIPITATING-ELECTRONS-IONS": "spase://SMWG/Instrument/DMSP_5D-3/F18/SESS/SSJ5",
+  "DMSP-F16_SSM_MAGNETOMETER": "spase://SMWG/Instrument/DMSP_5D-3/F16/SESS/SSM-Boom",
+  "DMSP-F17_SSM_MAGNETOMETER": "spase://SMWG/Instrument/DMSP_5D-3/F17/SESS/SSM-Boom",
+  "DMSP-F18_SSM_MAGNETOMETER": "spase://SMWG/Instrument/DMSP_5D-3/F18/SESS/SSM-Boom",
+  "DMSP-F16_SSIES-3_THERMAL-PLASMA": "spase://SMWG/Instrument/DMSP_5D-3/F16/SESS/SSI/ES-3",
+  "DMSP-F17_SSIES-3_THERMAL-PLASMA": "spase://SMWG/Instrument/DMSP_5D-3/F17/SESS/SSI/ES-3",
+  "DMSP-F18_SSIES-3_THERMAL-PLASMA": "spase://SMWG/Instrument/DMSP_5D-3/F18/SESS/SSI/ES-3",
+  "DN_K0_GBAY": "spase://SMWG/Instrument/SuperDARN/Radars",
+  "DN_K0_HANK": "spase://SMWG/Instrument/SuperDARN/Radars",
+  "DN_K0_ICEW": "spase://SMWG/Instrument/SuperDARN/Radars",
+  "DN_K0_KAPU": "spase://SMWG/Instrument/SuperDARN/Radars",
+  "DN_K0_PACE": "spase://SMWG/Instrument/SuperDARN/Radars",
+  "DN_K0_PYKK": "spase://SMWG/Instrument/SuperDARN/Radars",
+  "DN_K0_SASK": "spase://SMWG/Instrument/SuperDARN/Radars",
+  "DSCOVR_ORBIT_PRE": [
+    "spase://SMWG/Instrument/DSCOVR/Ephemeris",
+    "spase://SMWG/Instrument/DSCOVR/PlasMag/FaradayCup",
+    "spase://SMWG/Instrument/DSCOVR/PlasMag/FluxgateMagnetometer"
+  ],
+  "DSCOVR_AT_DEF": "spase://SMWG/Instrument/DSCOVR/Ephemeris",
+  "DSCOVR_AT_PRE": "spase://SMWG/Instrument/DSCOVR/Ephemeris",
+  "DSCOVR_H0_MAG": "spase://SMWG/Instrument/DSCOVR/PlasMag/FluxgateMagnetometer",
+  "DSCOVR_H1_FC": "spase://SMWG/Instrument/DSCOVR/PlasMag/FaradayCup",
+  "ELA_L1_STATE_PRED": "spase://SMWG/Instrument/",
+  "ELB_L1_STATE_PRED": "spase://SMWG/Instrument/",
+  "ELA_L1_STATE_DEFN": "spase://SMWG/Instrument/",
+  "ELB_L1_STATE_DEFN": "spase://SMWG/Instrument/",
+  "ELA_L1_EPDEF": "spase://NASA/Instrument/ELFIN/A/EPD",
+  "ELB_L1_EPDEF": "spase://NASA/Instrument/ELFIN/B/EPD",
+  "ELA_L1_EPDIF": "spase://NASA/Instrument/ELFIN/A/EPD",
+  "ELB_L1_EPDIF": "spase://NASA/Instrument/ELFIN/B/EPD",
+  "EQ_PP_EDI": "spase://SMWG/Instrument/Equator-S/EDI",
+  "EQ_PP_EPI": "spase://SMWG/Instrument/Equator-S/EPI",
+  "EQ_PP_ICI": "spase://SMWG/Instrument/Equator-S/ICI",
+  "EQ_PP_MAM": "spase://SMWG/Instrument/Equator-S/MAM",
+  "EQ_PP_PCD": "spase://SMWG/Instrument/Equator-S/PCD",
+  "EQ_SP_SFD": "spase://SMWG/Instrument/Equator-S/SFD",
+  "EQ_PP_AUX": "spase://SMWG/Instrument/Equator-S/Ephemeris",
+  "FA_ESA_L2_EEB": "spase://SMWG/Instrument/FAST/ESA",
+  "FA_ESA_L2_EES": "spase://SMWG/Instrument/FAST/ESA",
+  "FA_ESA_L2_IEB": "spase://SMWG/Instrument/FAST/ESA",
+  "FA_ESA_L2_IES": "spase://SMWG/Instrument/FAST/ESA",
+  "FAST_HR_DCB": [
+    "spase://SMWG/Instrument/FAST/Ephemeris",
+    "spase://SMWG/Instrument/FAST/MAG"
+  ],
+  "FA_K0_ACF": [
+    "spase://SMWG/Instrument/FAST/EFLP",
+    "spase://SMWG/Instrument/FAST/MAG"
+  ],
+  "FA_K0_TMS": "spase://SMWG/Instrument/FAST/TEAMS",
+  "FM_K0_KILP": "spase://SMWG/Instrument/Ground/Kilpisjarvi/AllSkyCamera",
+  "GE_HPAMOM_CPI": "spase://SMWG/Instrument/Geotail/CPI/HPA",
+  "GE_EDA3SEC_MGF": "spase://SMWG/Instrument/Geotail/MGF",
+  "GE_EDB3SEC_MGF": "spase://SMWG/Instrument/Geotail/MGF",
+  "GE_EDA12SEC_LEP": "spase://SMWG/Instrument/Geotail/LEP",
+  "GE_EDB12SEC_LEP": "spase://SMWG/Instrument/Geotail/LEP",
+  "GE_1MIN_MAG_PLASMA_SW_ONLY": [
+    "spase://SMWG/Instrument/Geotail/CPI",
+    "spase://SMWG/Instrument/Geotail/MGF"
+  ],
+  "GE_K0_MGF": "spase://SMWG/Instrument/Geotail/MGF",
+  "GE_SW_CPI": "spase://SMWG/Instrument/Geotail/CPI/SWA",
+  "GE_H0_CPI": "spase://SMWG/Instrument/Geotail/CPI/SWA",
+  "GE_K0_CPI": [
+    "spase://SMWG/Instrument/Geotail/CPI/HPA",
+    "spase://SMWG/Instrument/Geotail/CPI/SWA"
+  ],
+  "GE_K0_EFD": "spase://SMWG/Instrument/Geotail/EFD",
+  "GE_K0_EPI": "spase://SMWG/Instrument/Geotail/EPIC",
+  "GE_K0_LEP": "spase://SMWG/Instrument/Geotail/LEP",
+  "GE_K0_PWI": "spase://SMWG/Instrument/Geotail/PWI",
+  "GE_OR_DEF": "spase://SMWG/Instrument/Geotail/Ephemeris",
+  "GE_OR_PRE": "spase://SMWG/Instrument/Geotail/Ephemeris",
+  "GE_AT_DEF": "spase://SMWG/Instrument/Geotail/Ephemeris",
+  "GE_AT_PRE": "spase://SMWG/Instrument/Geotail/Ephemeris",
+  "GE_K0_SPHA": "spase://SMWG/Instrument/Geotail/Ephemeris",
+  "GENESIS_3DL2_GIM": "spase://SMWG/Instrument/Genesis/GIM-GEM",
+  "GOES15_EPEAD-SCIENCE-ELECTRONS-E13EW_1MIN": "spase://SMWG/Instrument/GOES/15/EPS",
+  "GOES14_EPEAD-SCIENCE-ELECTRONS-E13EW_1MIN": "spase://SMWG/Instrument/GOES/14/EPS",
+  "GOES13_EPEAD-SCIENCE-ELECTRONS-E13EW_1MIN": "spase://SMWG/Instrument/GOES/13/EPS",
+  "GOES15_EPS-MAGED_1MIN": "spase://SMWG/Instrument/GOES/15/EPS",
+  "GOES14_EPS-MAGED_1MIN": "spase://SMWG/Instrument/GOES/14/EPS",
+  "GOES13_EPS-MAGED_1MIN": "spase://SMWG/Instrument/GOES/13/EPS",
+  "GOES15_EPS-MAGED_5MIN": "spase://SMWG/Instrument/GOES/15/EPS",
+  "GOES14_EPS-MAGED_5MIN": "spase://SMWG/Instrument/GOES/14/EPS",
+  "GOES13_EPS-MAGED_5MIN": "spase://SMWG/Instrument/GOES/13/EPS",
+  "GOES15_EPS-PITCH-ANGLES_1MIN": "spase://SMWG/Instrument/GOES/15/SEM",
+  "GOES14_EPS-PITCH-ANGLES_1MIN": "spase://SMWG/Instrument/GOES/14/SEM",
+  "GOES13_EPS-PITCH-ANGLES_1MIN": "spase://SMWG/Instrument/GOES/13/SEM",
+  "G7_K0_EPS": "spase://SMWG/Instrument/GOES/7/EPM",
+  "G6_K0_EPS": "spase://SMWG/Instrument/GOES/6/EPM",
+  "GOES11_K0_EP8": "spase://SMWG/Instrument/GOES/11/SEM",
+  "G0_K0_EP8": "spase://SMWG/Instrument/GOES/10/SEM",
+  "G9_K0_EP8": "spase://SMWG/Instrument/GOES/9/SEM",
+  "G8_K0_EP8": "spase://SMWG/Instrument/GOES/8/EPM",
+  "G12_L2_MAG": "spase://SMWG/Instrument/GOES/12/MAG",
+  "G11_L2_MAG": "spase://SMWG/Instrument/GOES/11/MAG",
+  "G10_L2_MAG": "spase://SMWG/Instrument/GOES/10/MAG",
+  "G0_K0_MAG": "spase://SMWG/Instrument/GOES/10/MAG",
+  "G9_K0_MAG": [
+    "spase://SMWG/Instrument/GOES/9/MAG",
+    "spase://SMWG/Instrument/GOES/9/Ephemeris"
+  ],
+  "G8_K0_MAG": [
+    "spase://SMWG/Instrument/GOES/8/MAG",
+    "spase://SMWG/Instrument/GOES/8/Ephemeris"
+  ],
+  "G7_K0_MAG": "spase://SMWG/Instrument/GOES/7/MAG",
+  "G7_K1_MAG": "spase://SMWG/Instrument/GOES/7/MAG",
+  "G6_K0_MAG": "spase://SMWG/Instrument/GOES/6/MAG",
+  "GOES12_K0_MAG": "spase://SMWG/Instrument/GOES/12/MAG",
+  "GOES11_K0_MAG": "spase://SMWG/Instrument/GOES/11/MAG",
+  "GOES17_EPHEMERIS_SSC": "spase://SMWG/Instrument/GOES/17/Ephemeris",
+  "GOES16_EPHEMERIS_SSC": "spase://SMWG/Instrument/GOES/16/Ephemeris",
+  "GOES15_EPHEMERIS_SSC": [
+    "spase://SMWG/Instrument/GOES/15/Ephemeris",
+    "spase://SMWG/Instrument/GOES/15/MAG"
+  ],
+  "GOES14_EPHEMERIS_SSC": [
+    "spase://SMWG/Instrument/GOES/14/Ephemeris",
+    "spase://SMWG/Instrument/GOES/14/MAG"
+  ],
+  "GOES13_EPHEMERIS_SSC": [
+    "spase://SMWG/Instrument/GOES/13/Ephemeris",
+    "spase://SMWG/Instrument/GOES/13/MAG"
+  ],
+  "GOES12_EPHEMERIS_SSC": [
+    "spase://SMWG/Instrument/GOES/12/Ephemeris",
+    "spase://SMWG/Instrument/GOES/12/MAG"
+  ],
+  "GOES11_EPHEMERIS_SSC": [
+    "spase://SMWG/Instrument/GOES/11/Ephemeris",
+    "spase://SMWG/Instrument/GOES/11/MAG"
+  ],
+  "GOES10_EPHEMERIS_SSC": [
+    "spase://SMWG/Instrument/GOES/10/Ephemeris",
+    "spase://SMWG/Instrument/GOES/10/MAG"
+  ],
+  "GOES9_EPHEMERIS_SSC": [
+    "spase://SMWG/Instrument/GOES/9/Ephemeris",
+    "spase://SMWG/Instrument/GOES/9/MAG"
+  ],
+  "GOES8_EPHEMERIS_SSC": [
+    "spase://SMWG/Instrument/GOES/8/Ephemeris",
+    "spase://SMWG/Instrument/GOES/8/MAG"
+  ],
+  "GOLD_L2_NMAX": "spase://SMWG/Instrument/GOLD",
+  "GOLD_L2_ON2": "spase://SMWG/Instrument/GOLD",
+  "GOLD_L2_TDISK": "spase://SMWG/Instrument/GOLD",
+  "GPS_TEC2HR_IGS": "spase://SMWG/Instrument/IGS/GPS_Receiver",
+  "GPS_TEC1HR_IGS": "spase://SMWG/Instrument/IGS/GPS_Receiver",
+  "GPS_TEC15MIN_IGS": "spase://SMWG/Instrument/IGS/GPS_Receiver",
+  "GPS_ROTI15MIN_JPL": "spase://SMWG/Instrument/IGS/GPS_Receiver",
+  "HEL1_6SEC_NESSMAG": "spase://SMWG/Instrument/Helios1/E3",
+  "HEL2_6SEC_NESSMAG": "spase://SMWG/Instrument/Helios2/E3",
+  "HELIOS1_E6_KUNOW_1HOUR_PARTICLE-FLUX": "spase://SMWG/Instrument/Helios1/E6",
+  "HELIOS2_E6_KUNOW_1HOUR_PARTICLE-FLUX": "spase://SMWG/Instrument/Helios2/E6",
+  "HELIOS1_E6_1HOUR_PARTICLE_FLUX": "spase://SMWG/Instrument/Helios1/E6",
+  "HELIOS2_E6_1HOUR_PARTICLE_FLUX": "spase://SMWG/Instrument/Helios2/E6",
+  "HELIOS1_COHO1HR_MERGED_MAG_PLASMA": [
+    "spase://SMWG/Instrument/Helios1/E1",
+    "spase://SMWG/Instrument/Helios1/E3"
+  ],
+  "HELIOS2_COHO1HR_MERGED_MAG_PLASMA": [
+    "spase://SMWG/Instrument/Helios2/E1",
+    "spase://SMWG/Instrument/Helios2/E3"
+  ],
+  "HELIOS2_40SEC_MAG-PLASMA": [
+    "spase://SMWG/Instrument/Helios2/E3",
+    "spase://SMWG/Instrument/Helios2/E1"
+  ],
+  "HELIOS1_40SEC_MAG-PLASMA": [
+    "spase://SMWG/Instrument/Helios1/E1",
+    "spase://SMWG/Instrument/Helios1/E3"
+  ],
+  "HK_H0_MAG": "spase://SMWG/Instrument/Hawkeye/MAG",
+  "HK_H0_VLF": "spase://SMWG/Instrument/Hawkeye/VLF",
+  "ALOUETTE2_NEPROF_TOPS": "spase://SMWG/Instrument/Alouette2/SFS",
+  "ALOUETTE2_AV_ULA": "spase://SMWG/Instrument/Alouette2/SFS",
+  "ALOUETTE2_AV_WNK": "spase://SMWG/Instrument/Alouette2/SFS",
+  "ALOUETTE2_AV_QUI": "spase://SMWG/Instrument/Alouette2/SFS",
+  "ALOUETTE2_AV_LIM": "spase://SMWG/Instrument/Alouette2/SFS",
+  "ALOUETTE2_AV_SNT": "spase://SMWG/Instrument/Alouette2/SFS",
+  "ALOUETTE2_AV_SOL": "spase://SMWG/Instrument/Alouette2/SFS",
+  "ISS_SP_FPMU": "spase://SMWG/Instrument/ISS/FPMU",
+  "ISS_DOSANL_TEPC": "spase://SMWG/Instrument/ISS/TEPC",
+  "ISS_27DAY-AVERAGES_AMS-02": "spase://SMWG/Instrument/ISS/AMS-02",
+  "I1_AV2_OTT": "spase://SMWG/Instrument/ISIS1/SFS",
+  "I1_AV2_QUI": "spase://SMWG/Instrument/ISIS1/SFS",
+  "I1_AV2_ULA": "spase://SMWG/Instrument/ISIS1/SFS",
+  "I1_AV_ALL": "spase://SMWG/Instrument/ISIS1/SFS",
+  "I1_AV_KER": "spase://SMWG/Instrument/ISIS1/SFS",
+  "I1_AV_KSH": "spase://SMWG/Instrument/ISIS1/SFS",
+  "I1_AV_KWA": "spase://SMWG/Instrument/ISIS1/SFS",
+  "I1_AV_ODG": "spase://SMWG/Instrument/ISIS1/SFS",
+  "I1_AV_ORR": "spase://SMWG/Instrument/ISIS1/SFS",
+  "I1_AV_OTT": "spase://SMWG/Instrument/ISIS1/SFS",
+  "I1_AV_QUI": "spase://SMWG/Instrument/ISIS1/SFS",
+  "I1_AV_RES": "spase://SMWG/Instrument/ISIS1/SFS",
+  "I1_AV_SNT": "spase://SMWG/Instrument/ISIS1/SFS",
+  "I1_AV_SOD": "spase://SMWG/Instrument/ISIS1/SFS",
+  "I1_AV_TRO": "spase://SMWG/Instrument/ISIS1/SFS",
+  "I1_AV_ULA": "spase://SMWG/Instrument/ISIS1/SFS",
+  "I1_AV_WNK": "spase://SMWG/Instrument/ISIS1/SFS",
+  "I1_NEPROF_TOPS": "spase://SMWG/Instrument/ISIS1/SFS",
+  "I2_AV_ACN": "spase://SMWG/Instrument/ISIS2/SFS",
+  "I2_AV_ADL": "spase://SMWG/Instrument/ISIS2/SFS",
+  "I2_AV_AME": "spase://SMWG/Instrument/ISIS2/SFS",
+  "I2_AV_BRZ": "spase://SMWG/Instrument/ISIS2/SFS",
+  "I2_AV_BUR": "spase://SMWG/Instrument/ISIS2/SFS",
+  "I2_AV_CNA": "spase://SMWG/Instrument/ISIS2/SFS",
+  "I2_AV_KER": "spase://SMWG/Instrument/ISIS2/SFS",
+  "I2_AV_KRU": "spase://SMWG/Instrument/ISIS2/SFS",
+  "I2_AV_KSH": "spase://SMWG/Instrument/ISIS2/SFS",
+  "I2_AV_KWA": "spase://SMWG/Instrument/ISIS2/SFS",
+  "I2_AV_LAU": "spase://SMWG/Instrument/ISIS2/SFS",
+  "I2_AV_ODG": "spase://SMWG/Instrument/ISIS2/SFS",
+  "I2_AV_ORR": "spase://SMWG/Instrument/ISIS2/SFS",
+  "I2_AV_OTT": "spase://SMWG/Instrument/ISIS2/SFS",
+  "I2_AV_QUI": "spase://SMWG/Instrument/ISIS2/SFS",
+  "I2_AV_RES": "spase://SMWG/Instrument/ISIS2/SFS",
+  "I2_AV_SNT": "spase://SMWG/Instrument/ISIS2/SFS",
+  "I2_AV_SOD": "spase://SMWG/Instrument/ISIS2/SFS",
+  "I2_AV_SOL": "spase://SMWG/Instrument/ISIS2/SFS",
+  "I2_AV_SYO": "spase://SMWG/Instrument/ISIS2/SFS",
+  "I2_AV_TRO": "spase://SMWG/Instrument/ISIS2/SFS",
+  "I2_AV_ULA": "spase://SMWG/Instrument/ISIS2/SFS",
+  "I2_AV_WNK": "spase://SMWG/Instrument/ISIS2/SFS",
+  "I2_NEPROF_TOPS": "spase://SMWG/Instrument/ISIS2/SFS",
+  "I2_NEPROF_TOPIST": "spase://SMWG/Instrument/ISIS2/SFS",
+  "I8_OR_SSC": "spase://SMWG/Instrument/IMP8/Ephemeris",
+  "I8_320MSEC_MAG": "spase://SMWG/Instrument/IMP8/MAG",
+  "I8_15SEC_MAG": "spase://SMWG/Instrument/IMP8/MAG",
+  "I8_H0_GME": "spase://SMWG/Instrument/IMP8/MCGUIRE",
+  "I8_H0_MITPLASMA": "spase://SMWG/Instrument/IMP8/PLS",
+  "IA_K0_MFI": "spase://SMWG/Instrument/Interball-2/IMAP3",
+  "IA_K0_ENF": "spase://SMWG/Instrument/Interball-2/SKA3",
+  "IA_K0_EPI": "spase://SMWG/Instrument/Interball-2/DOK2A",
+  "IA_K0_ICD": "spase://SMWG/Instrument/Interball-2/PROMICS3",
+  "IA_OR_DEF": "spase://SMWG/Instrument/Interball-2/Ephemeris",
+  "IBEX_H3_ENA_LO_R17_CG_NOSP_OMNI_1YR": "spase://SMWG/Instrument/IBEX/Lo",
+  "IBEX_H3_ENA_LO_R17_CG_SP_OMNI_1YR": "spase://SMWG/Instrument/IBEX/Lo",
+  "IBEX_H3_ENA_LO_R17_CG_NOSP_ANTIRAM_1YR": "spase://SMWG/Instrument/IBEX/Lo",
+  "IBEX_H3_ENA_LO_R17_CG_NOSP_RAM_1YR": "spase://SMWG/Instrument/IBEX/Lo",
+  "IBEX_H3_ENA_LO_R17_CG_SP_ANTIRAM_1YR": "spase://SMWG/Instrument/IBEX/Lo",
+  "IBEX_H3_ENA_LO_R17_CG_SP_RAM_1YR": "spase://SMWG/Instrument/IBEX/Lo",
+  "IBEX_H3_ENA_LO_R17_NOCG_NOSP_RAM_1YR": "spase://SMWG/Instrument/IBEX/Lo",
+  "IBEX_H3_ENA_HI_R16_CG_NOSP_ANTIRAM_11YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R16_CG_NOSP_OMNI_11YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R16_CG_SP_OMNI_11YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R16_NOCG_NOSP_OMNI_11YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R16_NOCG_SP_OMNI_11YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R16_CG_NOSP_RAM_11YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R16_CG_SP_RAM_11YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R16_NOCG_NOSP_RAM_11YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R16_NOCG_SP_RAM_11YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R16_CG_SP_ANTIRAM_11YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R16_NOCG_NOSP_ANTIRAM_11YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R16_NOCG_SP_ANTIRAM_11YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R16_CG_NOSP_ANTIRAM_1YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R16_NOCG_SP_ANTIRAM_1YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R16_NOCG_NOSP_RAM_1YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R16_NOCG_SP_RAM_1YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R16_CG_SP_RAM_1YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R16_CG_NOSP_RAM_1YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R16_NOCG_NOSP_ANTIRAM_1YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R16_CG_SP_ANTIRAM_1YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R16_CG_NOSP_OMNI_6MO": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R16_CG_SP_OMNI_6MO": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R16_NOCG_NOSP_OMNI_6MO": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R16_NOCG_SP_OMNI_6MO": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R16_CG_SP_OMNI_2YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R16_CG_SP_OMNI_3YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R14_PRESS-SLOPE_CG_NOSP_RAM_3YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R13_CG_NOSP_RAM_1YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R13_CG_NOSP_ANTIRAM_1YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R12_MAGNETOSPHERE_24MIN": [
+    "spase://SMWG/Instrument/IBEX/Ephemeris",
+    "spase://SMWG/Instrument/IBEX/Hi"
+  ],
+  "IBEX_H3_ENA_LO_R10_NOCG_NOSP_OMNI_6MO": "spase://SMWG/Instrument/IBEX/Lo",
+  "IBEX_H3_ENA_LO_R10_NOCG_SP_OMNI_6MO": "spase://SMWG/Instrument/IBEX/Lo",
+  "IBEX_H3_ENA_LO_R10_NOCG_NOSP_OMNI_7YR": "spase://SMWG/Instrument/IBEX/Lo",
+  "IBEX_H3_ENA_LO_R10_NOCG_SP_OMNI_7YR": "spase://SMWG/Instrument/IBEX/Lo",
+  "IBEX_H3_ENA_HI_R10_CG_SP_OMNI_6MO": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R10_NOCG_NOSP_OMNI_6MO": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R10_NOCG_SP_OMNI_6MO": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R10_CG_NOSP_OMNI_6MO": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R10_CG_NOSP_ANTIRAM_1YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R10_CG_NOSP_RAM_1YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R10_CG_SP_ANTIRAM_1YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R10_CG_SP_RAM_1YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R10_NOCG_NOSP_ANTIRAM_1YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R10_NOCG_NOSP_RAM_1YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R10_NOCG_SP_ANTIRAM_1YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R10_NOCG_SP_RAM_1YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R10_CG_NOSP_RAM_7YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R10_CG_NOSP_ANTIRAM_7YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R10_CG_NOSP_OMNI_7YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R10_CG_SP_OMNI_7YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R10_CG_SP_ANTIRAM_7YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R10_CG_SP_RAM_7YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R10_NOCG_NOSP_ANTIRAM_7YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R10_NOCG_NOSP_OMNI_7YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R10_NOCG_SP_ANTIRAM_7YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R10_NOCG_SP_OMNI_7YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_LO_R07_NOCG_SP_OMNI_6MO": "spase://SMWG/Instrument/IBEX/Lo",
+  "IBEX_H3_ENA_LO_R07_NOCG_NOSP_OMNI_6MO": "spase://SMWG/Instrument/IBEX/Lo",
+  "IBEX_H3_ENA_HI_R07_CG_NOSP_RAM_1YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R07_NOCG_NOSP_RAM_1YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R07_CG_SP_RAM_1YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R07_NOCG_SP_RAM_1YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R07_NOCG_SP_ANTIRAM_1YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R07_CG_SP_ANTIRAM_1YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R07_NOCG_NOSP_ANTIRAM_1YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R07_CG_NOSP_OMNI_6MO": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R07_CG_SP_OMNI_6MO": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R07_NOCG_NOSP_OMNI_6MO": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R07_NOCG_SP_OMNI_6MO": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_LO_R04_CG_SP_RAM_3YR": "spase://SMWG/Instrument/IBEX/Lo",
+  "IBEX_H3_ENA_LO_R04_CG_SP_ANTIRAM_3YR": "spase://SMWG/Instrument/IBEX/Lo",
+  "IBEX_H3_ENA_HI_R04_NOCG_NOSP_ANTIRAM_1YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R04_CG_NOSP_ANTIRAM_1YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R04_CG_SP_ANTIRAM_1YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R04_NOCG_SP_ANTIRAM_1YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R04_CG_NOSP_RAM_1YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R04_CG_SP_RAM_1YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R04_NOCG_NOSP_RAM_1YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R04_NOCG_SP_RAM_1YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R04_CG_SP_OMNI_6MO": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R04_CG_NOSP_OMNI_6MO": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R04_NOCG_SP_OMNI_6MO": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R04_NOCG_NOSP_OMNI_6MO": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R04_NOCG_NOSP_OMNI_3YR": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R02_NOCG_NOSP_OMNI_6MO": "spase://SMWG/Instrument/IBEX/Hi",
+  "IBEX_H3_ENA_HI_R02_CG_NOSP_OMNI_6MO": "spase://SMWG/Instrument/IBEX/Hi",
+  "ICON_L2-1_MIGHTI-A_LOS-WIND-GREEN": "spase://SMWG/Instrument/ICON/MIGHTI",
+  "ICON_L2-1_MIGHTI-B_LOS-WIND-GREEN": "spase://SMWG/Instrument/ICON/MIGHTI",
+  "ICON_L2-1_MIGHTI-A_LOS-WIND-RED": "spase://SMWG/Instrument/ICON/MIGHTI",
+  "ICON_L2-1_MIGHTI-B_LOS-WIND-RED": "spase://SMWG/Instrument/ICON/MIGHTI",
+  "ICON_L2-2_MIGHTI_VECTOR-WIND-GREEN": "spase://SMWG/Instrument/ICON/MIGHTI",
+  "ICON_L2-2_MIGHTI_VECTOR-WIND-RED": "spase://SMWG/Instrument/ICON/MIGHTI",
+  "ICON_L2-3_MIGHTI-A_TEMPERATURE": "spase://SMWG/Instrument/ICON/MIGHTI",
+  "ICON_L2-3_MIGHTI-B_TEMPERATURE": "spase://SMWG/Instrument/ICON/MIGHTI",
+  "ICON_L2-4_FUV_DAY": "spase://SMWG/Instrument/ICON/FUV",
+  "ICON_L2-4_FUV_DAY-LIMB": "spase://SMWG/Instrument/ICON/FUV",
+  "ICON_L2-5_FUV_NIGHT": "spase://SMWG/Instrument/ICON/FUV",
+  "ICON_L2-6_EUV": "spase://SMWG/Instrument/ICON/EUV",
+  "ICON_L2-7_IVM-A": "spase://SMWG/Instrument/ICON/IVM",
+  "ICON_L2-7_IVM-B": "spase://SMWG/Instrument/ICON/IVM",
+  "IG_K0_PCI": [
+    "spase://SMWG/Instrument/Ground/Thule.Air.Base/Magnetometer",
+    "spase://SMWG/Instrument/Ground/Vostok/Magnetometer"
+  ],
+  "IMAGE_M2_EUV": "spase://SMWG/Instrument/IMAGE/EUV",
+  "IM_K0_RPI": "spase://SMWG/Instrument/IMAGE/RPI",
+  "IM_K1_RPI": "spase://SMWG/Instrument/IMAGE/RPI",
+  "IM_ELECTRON_DENSITY_RPI": "spase://SMWG/Instrument/IMAGE/RPI",
+  "IM_OR_DEF": "spase://SMWG/Instrument/IMAGE/Ephemeris",
+  "IM_OR_PRE": null,
+  "IM_HK_ADS": "spase://SMWG/Instrument/IMAGE/HK",
+  "ISEE1_H1_FPE": "spase://SMWG/Instrument/ISEE1/FPE",
+  "ISEE1_H2_FPE": "spase://SMWG/Instrument/ISEE1/FPE",
+  "ISEE1_H0_FE": "spase://SMWG/Instrument/ISEE1/VES",
+  "ISEE1_4SEC_MFI": "spase://SMWG/Instrument/ISEE1/MAG",
+  "ISEE1_60SEC_MFI": "spase://SMWG/Instrument/ISEE1/MAG",
+  "ISEE1_PWI_SA": "spase://SMWG/Instrument/ISEE1/PWE",
+  "ISEE1_PWI_SA-RAPID-E": "spase://SMWG/Instrument/ISEE1/PWE",
+  "ISEE1_PWI_SFR-E": "spase://SMWG/Instrument/ISEE1/PWE",
+  "ISEE2_H1_FPE": "spase://SMWG/Instrument/ISEE2/FPE",
+  "ISEE2_4SEC_MFI": "spase://SMWG/Instrument/ISEE2/MAG",
+  "ISEE2_60SEC_MFI": "spase://SMWG/Instrument/ISEE2/MAG",
+  "ISEE-3_MAGPLASMA_2MIN_MAGNETIC_FIELD_PLASMA": [
+    "spase://SMWG/Instrument/ISEE3/MAG",
+    "spase://SMWG/Instrument/ISEE3/SWP"
+  ],
+  "ISEE-3_MAG_1MIN_MAGNETIC_FIELD": "spase://SMWG/Instrument/ISEE3/MAG",
+  "IT_H0_MFI": [
+    "spase://SMWG/Instrument/Interball-1/MIFM",
+    "spase://SMWG/Instrument/Interball-1/FM3I",
+    "spase://SMWG/Instrument/Interball-1/FGMI"
+  ],
+  "IT_K0_MFI": [
+    "spase://SMWG/Instrument/Interball-1/MIFM",
+    "spase://SMWG/Instrument/Interball-1/FM3I",
+    "spase://SMWG/Instrument/Interball-1/FGMI"
+  ],
+  "IT_K0_AKR": "spase://SMWG/Instrument/Interball-1/AKR2",
+  "IT_K0_COR": "spase://SMWG/Instrument/Interball-1/CORALL",
+  "IT_K0_ELE": "spase://SMWG/Instrument/Interball-1/ELECTRON",
+  "IT_K0_EPI": [
+    "spase://SMWG/Instrument/Interball-1/DOK2",
+    "spase://SMWG/Instrument/Interball-1/SKA2"
+  ],
+  "IT_K0_ICD": "spase://SMWG/Instrument/Interball-1/PROMICS3",
+  "IT_K0_VDP": "spase://SMWG/Instrument/Interball-1/VDP",
+  "IT_K0_WAV": "spase://SMWG/Instrument/Interball-1/MIFM",
+  "IT_OR_DEF": [
+    "spase://SMWG/Instrument/Interball-1/Ephemeris",
+    "spase://SMWG/Instrument/Magion-4/Ephemeris"
+  ],
+  "L9_H0_MPA": "spase://SMWG/Instrument/LANL/1989/MPA",
+  "L9_K0_MPA": "spase://SMWG/Instrument/LANL/1989/MPA",
+  "L9_K0_SPA": "spase://SMWG/Instrument/LANL/1989/SOPA",
+  "L0_K0_MPA": "spase://SMWG/Instrument/LANL/1990/MPA",
+  "L0_K0_SPA": "spase://SMWG/Instrument/LANL/1990/SOPA",
+  "L1_K0_MPA": "spase://SMWG/Instrument/LANL/1991/MPA",
+  "L1_K0_SPA": "spase://SMWG/Instrument/LANL/1991/SOPA",
+  "L4_K0_MPA": "spase://SMWG/Instrument/LANL/1994/MPA",
+  "L4_K0_SPA": "spase://SMWG/Instrument/LANL/1994/SOPA",
+  "L7_H0_MPA": "spase://SMWG/Instrument/LANL/1997/MPA",
+  "L7_K0_MPA": "spase://SMWG/Instrument/LANL/1997/MPA",
+  "L7_K0_SPA": "spase://SMWG/Instrument/LANL/1997/SOPA",
+  "A1_K0_MPA": "spase://SMWG/Instrument/LANL/2001/MPA",
+  "A2_K0_MPA": "spase://SMWG/Instrument/LANL/2002/MPA",
+  "MSL_HELIO1DAY_POSITION": "spase://SMWG/Instrument/MarsScienceLaboratory/Ephemeris",
+  "MVN_MAG_L2-SUNSTATE-1SEC": [
+    "spase://SMWG/Instrument/MAVEN/Ephemeris",
+    "spase://SMWG/Instrument/MAVEN/MAG"
+  ],
+  "MVN_INSITU_KP-4SEC": [
+    "spase://SMWG/Instrument/MAVEN/Ephemeris",
+    "spase://SMWG/Instrument/MAVEN/LPW",
+    "spase://SMWG/Instrument/MAVEN/LPW/EUV",
+    "spase://SMWG/Instrument/MAVEN/MAG",
+    "spase://SMWG/Instrument/MAVEN/NGIMS",
+    "spase://SMWG/Instrument/MAVEN/SEP",
+    "spase://SMWG/Instrument/MAVEN/STATIC",
+    "spase://SMWG/Instrument/MAVEN/SWEA",
+    "spase://SMWG/Instrument/MAVEN/SWIA"
+  ],
+  "MVN_STA_L2_D8-12R1E": "spase://SMWG/Instrument/MAVEN/STATIC",
+  "MVN_STA_L2_D9-12R64E": "spase://SMWG/Instrument/MAVEN/STATIC",
+  "MVN_STA_L2_DA-1R64E": "spase://SMWG/Instrument/MAVEN/STATIC",
+  "MVN_SWI_L2_ONBOARDSVYMOM": "spase://SMWG/Instrument/MAVEN/SWIA",
+  "MVN_SWI_L2_ONBOARDSVYSPEC": "spase://SMWG/Instrument/MAVEN/SWIA",
+  "MVN_SWI_L2_FINEARC3D": "spase://SMWG/Instrument/MAVEN/SWIA",
+  "MVN_SWI_L2_COARSEARC3D": "spase://SMWG/Instrument/MAVEN/SWIA",
+  "MVN_SWI_L2_COARSESVY3D": "spase://SMWG/Instrument/MAVEN/SWIA",
+  "MVN_SWI_L2_FINESVY3D": "spase://SMWG/Instrument/MAVEN/SWIA",
+  "MVN_SWE_L2_SVY3D": "spase://SMWG/Instrument/MAVEN/SWEA",
+  "MVN_SWE_L2_SVYSPEC": "spase://SMWG/Instrument/MAVEN/SWEA",
+  "MVN_SWE_L2_ARC3D": "spase://SMWG/Instrument/MAVEN/SWEA",
+  "MVN_SWE_L2_ARCPAD": "spase://SMWG/Instrument/MAVEN/SWEA",
+  "MVN_SWE_L2_SVYPAD": "spase://SMWG/Instrument/MAVEN/SWEA",
+  "MVN_SEP_L2_S1-CAL-SVY-FULL": "spase://SMWG/Instrument/MAVEN/SEP",
+  "MVN_SEP_L2_S2-CAL-SVY-FULL": "spase://SMWG/Instrument/MAVEN/SEP",
+  "MESSENGER_MAG_RTN": [
+    "spase://SMWG/Instrument/MESSENGER/Ephemeris",
+    "spase://SMWG/Instrument/MESSENGER/Magnetometer"
+  ],
+  "MMS1_ASPOC_SRVY_L2": "spase://SMWG/Instrument/MMS/1/InstrumentControl/ASPOC",
+  "MMS2_ASPOC_SRVY_L2": "spase://SMWG/Instrument/MMS/2/InstrumentControl/ASPOC",
+  "MMS3_ASPOC_SRVY_L2": "spase://SMWG/Instrument/MMS/3/InstrumentControl/ASPOC",
+  "MMS4_ASPOC_SRVY_L2": "spase://SMWG/Instrument/MMS/4/InstrumentControl/ASPOC",
+  "MMS1_DSP_FAST_L2_BPSD": [
+    "spase://SMWG/Instrument/MMS/1/FIELDS/DSP",
+    "spase://SMWG/Instrument/MMS/1/FIELDS/SCM"
+  ],
+  "MMS2_DSP_FAST_L2_BPSD": [
+    "spase://SMWG/Instrument/MMS/2/FIELDS/DSP",
+    "spase://SMWG/Instrument/MMS/2/FIELDS/SCM"
+  ],
+  "MMS3_DSP_FAST_L2_BPSD": [
+    "spase://SMWG/Instrument/MMS/3/FIELDS/DSP",
+    "spase://SMWG/Instrument/MMS/3/FIELDS/SCM"
+  ],
+  "MMS4_DSP_FAST_L2_BPSD": [
+    "spase://SMWG/Instrument/MMS/4/FIELDS/DSP",
+    "spase://SMWG/Instrument/MMS/4/FIELDS/SCM"
+  ],
+  "MMS1_DSP_SLOW_L2_BPSD": [
+    "spase://SMWG/Instrument/MMS/1/FIELDS/DSP",
+    "spase://SMWG/Instrument/MMS/1/FIELDS/SCM"
+  ],
+  "MMS2_DSP_SLOW_L2_BPSD": [
+    "spase://SMWG/Instrument/MMS/2/FIELDS/DSP",
+    "spase://SMWG/Instrument/MMS/2/FIELDS/SCM"
+  ],
+  "MMS3_DSP_SLOW_L2_BPSD": [
+    "spase://SMWG/Instrument/MMS/3/FIELDS/DSP",
+    "spase://SMWG/Instrument/MMS/3/FIELDS/SCM"
+  ],
+  "MMS4_DSP_SLOW_L2_BPSD": [
+    "spase://SMWG/Instrument/MMS/4/FIELDS/DSP",
+    "spase://SMWG/Instrument/MMS/4/FIELDS/SCM"
+  ],
+  "MMS1_DSP_FAST_L2_EPSD": [
+    "spase://SMWG/Instrument/MMS/1/FIELDS/ADP",
+    "spase://SMWG/Instrument/MMS/1/FIELDS/DSP",
+    "spase://SMWG/Instrument/MMS/1/FIELDS/SDP"
+  ],
+  "MMS2_DSP_FAST_L2_EPSD": [
+    "spase://SMWG/Instrument/MMS/2/FIELDS/ADP",
+    "spase://SMWG/Instrument/MMS/2/FIELDS/DSP",
+    "spase://SMWG/Instrument/MMS/2/FIELDS/SDP"
+  ],
+  "MMS3_DSP_FAST_L2_EPSD": [
+    "spase://SMWG/Instrument/MMS/3/FIELDS/ADP",
+    "spase://SMWG/Instrument/MMS/3/FIELDS/DSP",
+    "spase://SMWG/Instrument/MMS/3/FIELDS/SDP"
+  ],
+  "MMS4_DSP_FAST_L2_EPSD": [
+    "spase://SMWG/Instrument/MMS/4/FIELDS/ADP",
+    "spase://SMWG/Instrument/MMS/4/FIELDS/DSP",
+    "spase://SMWG/Instrument/MMS/4/FIELDS/SDP"
+  ],
+  "MMS1_DSP_SLOW_L2_EPSD": [
+    "spase://SMWG/Instrument/MMS/1/FIELDS/ADP",
+    "spase://SMWG/Instrument/MMS/1/FIELDS/DSP",
+    "spase://SMWG/Instrument/MMS/1/FIELDS/SDP"
+  ],
+  "MMS2_DSP_SLOW_L2_EPSD": [
+    "spase://SMWG/Instrument/MMS/2/FIELDS/ADP",
+    "spase://SMWG/Instrument/MMS/2/FIELDS/DSP",
+    "spase://SMWG/Instrument/MMS/2/FIELDS/SDP"
+  ],
+  "MMS3_DSP_SLOW_L2_EPSD": [
+    "spase://SMWG/Instrument/MMS/3/FIELDS/ADP",
+    "spase://SMWG/Instrument/MMS/3/FIELDS/DSP",
+    "spase://SMWG/Instrument/MMS/3/FIELDS/SDP"
+  ],
+  "MMS4_DSP_SLOW_L2_EPSD": [
+    "spase://SMWG/Instrument/MMS/4/FIELDS/ADP",
+    "spase://SMWG/Instrument/MMS/4/FIELDS/DSP",
+    "spase://SMWG/Instrument/MMS/4/FIELDS/SDP"
+  ],
+  "MMS1_EDI_SRVY_L2_AMB": "spase://SMWG/Instrument/MMS/1/FIELDS/EDI",
+  "MMS2_EDI_SRVY_L2_AMB": "spase://SMWG/Instrument/MMS/2/FIELDS/EDI",
+  "MMS3_EDI_SRVY_L2_AMB": "spase://SMWG/Instrument/MMS/3/FIELDS/EDI",
+  "MMS4_EDI_SRVY_L2_AMB": "spase://SMWG/Instrument/MMS/4/FIELDS/EDI",
+  "MMS1_EDI_SRVY_L2_AMB-PM2": "spase://SMWG/Instrument/MMS/1/FIELDS/EDI",
+  "MMS2_EDI_SRVY_L2_AMB-PM2": "spase://SMWG/Instrument/MMS/2/FIELDS/EDI",
+  "MMS3_EDI_SRVY_L2_AMB-PM2": "spase://SMWG/Instrument/MMS/3/FIELDS/EDI",
+  "MMS4_EDI_SRVY_L2_AMB-PM2": "spase://SMWG/Instrument/MMS/4/FIELDS/EDI",
+  "MMS1_EDI_SRVY_L2_EFIELD": "spase://SMWG/Instrument/MMS/1/FIELDS/EDI",
+  "MMS2_EDI_SRVY_L2_EFIELD": "spase://SMWG/Instrument/MMS/2/FIELDS/EDI",
+  "MMS3_EDI_SRVY_L2_EFIELD": "spase://SMWG/Instrument/MMS/3/FIELDS/EDI",
+  "MMS4_EDI_SRVY_L2_EFIELD": "spase://SMWG/Instrument/MMS/4/FIELDS/EDI",
+  "MMS1_EDI_SRVY_L2_Q0": "spase://SMWG/Instrument/MMS/1/FIELDS/EDI",
+  "MMS2_EDI_SRVY_L2_Q0": "spase://SMWG/Instrument/MMS/2/FIELDS/EDI",
+  "MMS3_EDI_SRVY_L2_Q0": "spase://SMWG/Instrument/MMS/3/FIELDS/EDI",
+  "MMS4_EDI_SRVY_L2_Q0": "spase://SMWG/Instrument/MMS/4/FIELDS/EDI",
+  "MMS1_EDI_BRST_L2_AMB": "spase://SMWG/Instrument/MMS/1/FIELDS/EDI",
+  "MMS2_EDI_BRST_L2_AMB": "spase://SMWG/Instrument/MMS/2/FIELDS/EDI",
+  "MMS3_EDI_BRST_L2_AMB": "spase://SMWG/Instrument/MMS/3/FIELDS/EDI",
+  "MMS4_EDI_BRST_L2_AMB": "spase://SMWG/Instrument/MMS/4/FIELDS/EDI",
+  "MMS1_EDI_BRST_L2_AMB-PM2": "spase://SMWG/Instrument/MMS/1/FIELDS/EDI",
+  "MMS2_EDI_BRST_L2_AMB-PM2": "spase://SMWG/Instrument/MMS/2/FIELDS/EDI",
+  "MMS3_EDI_BRST_L2_AMB-PM2": "spase://SMWG/Instrument/MMS/3/FIELDS/EDI",
+  "MMS4_EDI_BRST_L2_AMB-PM2": "spase://SMWG/Instrument/MMS/4/FIELDS/EDI",
+  "MMS1_EDI_BRST_L2_EFIELD": "spase://SMWG/Instrument/MMS/1/FIELDS/EDI",
+  "MMS2_EDI_BRST_L2_EFIELD": "spase://SMWG/Instrument/MMS/2/FIELDS/EDI",
+  "MMS3_EDI_BRST_L2_EFIELD": "spase://SMWG/Instrument/MMS/3/FIELDS/EDI",
+  "MMS4_EDI_BRST_L2_EFIELD": "spase://SMWG/Instrument/MMS/4/FIELDS/EDI",
+  "MMS1_EDI_BRST_L2_Q0": "spase://SMWG/Instrument/MMS/1/FIELDS/EDI",
+  "MMS2_EDI_BRST_L2_Q0": "spase://SMWG/Instrument/MMS/2/FIELDS/EDI",
+  "MMS3_EDI_BRST_L2_Q0": "spase://SMWG/Instrument/MMS/3/FIELDS/EDI",
+  "MMS4_EDI_BRST_L2_Q0": "spase://SMWG/Instrument/MMS/4/FIELDS/EDI",
+  "MMS1_EDP_FAST_L2_SCPOT": [
+    "spase://SMWG/Instrument/MMS/1/FIELDS/ADP",
+    "spase://SMWG/Instrument/MMS/1/FIELDS/SDP"
+  ],
+  "MMS2_EDP_FAST_L2_SCPOT": [
+    "spase://SMWG/Instrument/MMS/2/FIELDS/ADP",
+    "spase://SMWG/Instrument/MMS/2/FIELDS/SDP"
+  ],
+  "MMS3_EDP_FAST_L2_SCPOT": [
+    "spase://SMWG/Instrument/MMS/3/FIELDS/ADP",
+    "spase://SMWG/Instrument/MMS/3/FIELDS/SDP"
+  ],
+  "MMS4_EDP_FAST_L2_SCPOT": [
+    "spase://SMWG/Instrument/MMS/4/FIELDS/ADP",
+    "spase://SMWG/Instrument/MMS/4/FIELDS/SDP"
+  ],
+  "MMS1_EDP_SLOW_L2_SCPOT": [
+    "spase://SMWG/Instrument/MMS/1/FIELDS/ADP",
+    "spase://SMWG/Instrument/MMS/1/FIELDS/SDP"
+  ],
+  "MMS2_EDP_SLOW_L2_SCPOT": [
+    "spase://SMWG/Instrument/MMS/2/FIELDS/ADP",
+    "spase://SMWG/Instrument/MMS/2/FIELDS/SDP"
+  ],
+  "MMS3_EDP_SLOW_L2_SCPOT": [
+    "spase://SMWG/Instrument/MMS/3/FIELDS/ADP",
+    "spase://SMWG/Instrument/MMS/3/FIELDS/SDP"
+  ],
+  "MMS4_EDP_SLOW_L2_SCPOT": [
+    "spase://SMWG/Instrument/MMS/4/FIELDS/ADP",
+    "spase://SMWG/Instrument/MMS/4/FIELDS/SDP"
+  ],
+  "MMS1_EDP_BRST_L2_SCPOT": [
+    "spase://SMWG/Instrument/MMS/1/FIELDS/ADP",
+    "spase://SMWG/Instrument/MMS/1/FIELDS/SDP"
+  ],
+  "MMS2_EDP_BRST_L2_SCPOT": [
+    "spase://SMWG/Instrument/MMS/2/FIELDS/ADP",
+    "spase://SMWG/Instrument/MMS/2/FIELDS/SDP"
+  ],
+  "MMS3_EDP_BRST_L2_SCPOT": [
+    "spase://SMWG/Instrument/MMS/3/FIELDS/ADP",
+    "spase://SMWG/Instrument/MMS/3/FIELDS/SDP"
+  ],
+  "MMS4_EDP_BRST_L2_SCPOT": [
+    "spase://SMWG/Instrument/MMS/4/FIELDS/ADP",
+    "spase://SMWG/Instrument/MMS/4/FIELDS/SDP"
+  ],
+  "MMS1_EDP_SRVY_L2_HFESP": [
+    "spase://SMWG/Instrument/MMS/1/FIELDS/ADP",
+    "spase://SMWG/Instrument/MMS/1/FIELDS/SDP"
+  ],
+  "MMS2_EDP_SRVY_L2_HFESP": [
+    "spase://SMWG/Instrument/MMS/2/FIELDS/ADP",
+    "spase://SMWG/Instrument/MMS/2/FIELDS/SDP"
+  ],
+  "MMS3_EDP_SRVY_L2_HFESP": [
+    "spase://SMWG/Instrument/MMS/3/FIELDS/ADP",
+    "spase://SMWG/Instrument/MMS/3/FIELDS/SDP"
+  ],
+  "MMS4_EDP_SRVY_L2_HFESP": [
+    "spase://SMWG/Instrument/MMS/4/FIELDS/ADP",
+    "spase://SMWG/Instrument/MMS/4/FIELDS/SDP"
+  ],
+  "MMS1_EDP_BRST_L2_HMFE": [
+    "spase://SMWG/Instrument/MMS/1/FIELDS/ADP",
+    "spase://SMWG/Instrument/MMS/1/FIELDS/SDP"
+  ],
+  "MMS2_EDP_BRST_L2_HMFE": [
+    "spase://SMWG/Instrument/MMS/2/FIELDS/ADP",
+    "spase://SMWG/Instrument/MMS/2/FIELDS/SDP"
+  ],
+  "MMS3_EDP_BRST_L2_HMFE": [
+    "spase://SMWG/Instrument/MMS/3/FIELDS/ADP",
+    "spase://SMWG/Instrument/MMS/3/FIELDS/SDP"
+  ],
+  "MMS4_EDP_BRST_L2_HMFE": [
+    "spase://SMWG/Instrument/MMS/4/FIELDS/ADP",
+    "spase://SMWG/Instrument/MMS/4/FIELDS/SDP"
+  ],
+  "MMS1_EDP_FAST_L2_DCE": [
+    "spase://SMWG/Instrument/MMS/1/FIELDS/ADP",
+    "spase://SMWG/Instrument/MMS/1/FIELDS/SDP"
+  ],
+  "MMS2_EDP_FAST_L2_DCE": [
+    "spase://SMWG/Instrument/MMS/2/FIELDS/ADP",
+    "spase://SMWG/Instrument/MMS/2/FIELDS/SDP"
+  ],
+  "MMS3_EDP_FAST_L2_DCE": [
+    "spase://SMWG/Instrument/MMS/3/FIELDS/ADP",
+    "spase://SMWG/Instrument/MMS/3/FIELDS/SDP"
+  ],
+  "MMS4_EDP_FAST_L2_DCE": [
+    "spase://SMWG/Instrument/MMS/4/FIELDS/ADP",
+    "spase://SMWG/Instrument/MMS/4/FIELDS/SDP"
+  ],
+  "MMS1_EDP_SLOW_L2_DCE": [
+    "spase://SMWG/Instrument/MMS/1/FIELDS/ADP",
+    "spase://SMWG/Instrument/MMS/1/FIELDS/SDP"
+  ],
+  "MMS2_EDP_SLOW_L2_DCE": [
+    "spase://SMWG/Instrument/MMS/2/FIELDS/ADP",
+    "spase://SMWG/Instrument/MMS/2/FIELDS/SDP"
+  ],
+  "MMS3_EDP_SLOW_L2_DCE": [
+    "spase://SMWG/Instrument/MMS/3/FIELDS/ADP",
+    "spase://SMWG/Instrument/MMS/3/FIELDS/SDP"
+  ],
+  "MMS4_EDP_SLOW_L2_DCE": [
+    "spase://SMWG/Instrument/MMS/4/FIELDS/ADP",
+    "spase://SMWG/Instrument/MMS/4/FIELDS/SDP"
+  ],
+  "MMS1_EDP_BRST_L2_DCE": [
+    "spase://SMWG/Instrument/MMS/1/FIELDS/ADP",
+    "spase://SMWG/Instrument/MMS/1/FIELDS/SDP"
+  ],
+  "MMS2_EDP_BRST_L2_DCE": [
+    "spase://SMWG/Instrument/MMS/2/FIELDS/ADP",
+    "spase://SMWG/Instrument/MMS/2/FIELDS/SDP"
+  ],
+  "MMS3_EDP_BRST_L2_DCE": [
+    "spase://SMWG/Instrument/MMS/3/FIELDS/ADP",
+    "spase://SMWG/Instrument/MMS/3/FIELDS/SDP"
+  ],
+  "MMS4_EDP_BRST_L2_DCE": [
+    "spase://SMWG/Instrument/MMS/4/FIELDS/ADP",
+    "spase://SMWG/Instrument/MMS/4/FIELDS/SDP"
+  ],
+  "MMS1_EPD-EIS_SRVY_L2_EXTOF": [
+    "spase://SMWG/Instrument/MMS/1/EnergeticParticleDetector/EIS",
+    "spase://SMWG/Instrument/MMS/1/FIELDS/FGM"
+  ],
+  "MMS2_EPD-EIS_SRVY_L2_EXTOF": [
+    "spase://SMWG/Instrument/MMS/2/EnergeticParticleDetector/EIS",
+    "spase://SMWG/Instrument/MMS/2/FIELDS/FGM"
+  ],
+  "MMS3_EPD-EIS_SRVY_L2_EXTOF": [
+    "spase://SMWG/Instrument/MMS/3/EnergeticParticleDetector/EIS",
+    "spase://SMWG/Instrument/MMS/3/FIELDS/FGM"
+  ],
+  "MMS4_EPD-EIS_SRVY_L2_EXTOF": [
+    "spase://SMWG/Instrument/MMS/4/EnergeticParticleDetector/EIS",
+    "spase://SMWG/Instrument/MMS/4/FIELDS/FGM"
+  ],
+  "MMS1_EPD-EIS_BRST_L2_EXTOF": [
+    "spase://SMWG/Instrument/MMS/1/EnergeticParticleDetector/EIS",
+    "spase://SMWG/Instrument/MMS/1/FIELDS/FGM"
+  ],
+  "MMS2_EPD-EIS_BRST_L2_EXTOF": [
+    "spase://SMWG/Instrument/MMS/2/EnergeticParticleDetector/EIS",
+    "spase://SMWG/Instrument/MMS/2/FIELDS/FGM"
+  ],
+  "MMS3_EPD-EIS_BRST_L2_EXTOF": [
+    "spase://SMWG/Instrument/MMS/3/EnergeticParticleDetector/EIS",
+    "spase://SMWG/Instrument/MMS/3/FIELDS/FGM"
+  ],
+  "MMS4_EPD-EIS_BRST_L2_EXTOF": [
+    "spase://SMWG/Instrument/MMS/4/EnergeticParticleDetector/EIS",
+    "spase://SMWG/Instrument/MMS/4/FIELDS/FGM"
+  ],
+  "MMS1_EPD-EIS_SRVY_L2_PHXTOF": [
+    "spase://SMWG/Instrument/MMS/1/EnergeticParticleDetector/EIS",
+    "spase://SMWG/Instrument/MMS/1/FIELDS/FGM"
+  ],
+  "MMS2_EPD-EIS_SRVY_L2_PHXTOF": [
+    "spase://SMWG/Instrument/MMS/2/EnergeticParticleDetector/EIS",
+    "spase://SMWG/Instrument/MMS/2/FIELDS/FGM"
+  ],
+  "MMS3_EPD-EIS_SRVY_L2_PHXTOF": [
+    "spase://SMWG/Instrument/MMS/3/EnergeticParticleDetector/EIS",
+    "spase://SMWG/Instrument/MMS/3/FIELDS/FGM"
+  ],
+  "MMS4_EPD-EIS_SRVY_L2_PHXTOF": [
+    "spase://SMWG/Instrument/MMS/4/EnergeticParticleDetector/EIS",
+    "spase://SMWG/Instrument/MMS/4/FIELDS/FGM"
+  ],
+  "MMS1_EPD-EIS_BRST_L2_PHXTOF": [
+    "spase://SMWG/Instrument/MMS/1/EnergeticParticleDetector/EIS",
+    "spase://SMWG/Instrument/MMS/1/FIELDS/FGM"
+  ],
+  "MMS2_EPD-EIS_BRST_L2_PHXTOF": [
+    "spase://SMWG/Instrument/MMS/2/EnergeticParticleDetector/EIS",
+    "spase://SMWG/Instrument/MMS/2/FIELDS/FGM"
+  ],
+  "MMS3_EPD-EIS_BRST_L2_PHXTOF": [
+    "spase://SMWG/Instrument/MMS/3/EnergeticParticleDetector/EIS",
+    "spase://SMWG/Instrument/MMS/3/FIELDS/FGM"
+  ],
+  "MMS4_EPD-EIS_BRST_L2_PHXTOF": [
+    "spase://SMWG/Instrument/MMS/4/EnergeticParticleDetector/EIS",
+    "spase://SMWG/Instrument/MMS/4/FIELDS/FGM"
+  ],
+  "MMS1_EPD-EIS_SRVY_L2_ELECTRONENERGY": [
+    "spase://SMWG/Instrument/MMS/1/EnergeticParticleDetector/EIS",
+    "spase://SMWG/Instrument/MMS/1/FIELDS/FGM"
+  ],
+  "MMS2_EPD-EIS_SRVY_L2_ELECTRONENERGY": [
+    "spase://SMWG/Instrument/MMS/2/EnergeticParticleDetector/EIS",
+    "spase://SMWG/Instrument/MMS/2/FIELDS/FGM"
+  ],
+  "MMS3_EPD-EIS_SRVY_L2_ELECTRONENERGY": [
+    "spase://SMWG/Instrument/MMS/3/EnergeticParticleDetector/EIS",
+    "spase://SMWG/Instrument/MMS/3/FIELDS/FGM"
+  ],
+  "MMS4_EPD-EIS_SRVY_L2_ELECTRONENERGY": [
+    "spase://SMWG/Instrument/MMS/4/EnergeticParticleDetector/EIS",
+    "spase://SMWG/Instrument/MMS/4/FIELDS/FGM"
+  ],
+  "MMS1_FEEPS_SRVY_L2_ELECTRON": [
+    "spase://SMWG/Instrument/MMS/1/EnergeticParticleDetector/FEEPS",
+    "spase://SMWG/Instrument/MMS/1/FIELDS/FGM"
+  ],
+  "MMS2_FEEPS_SRVY_L2_ELECTRON": [
+    "spase://SMWG/Instrument/MMS/2/EnergeticParticleDetector/FEEPS",
+    "spase://SMWG/Instrument/MMS/2/FIELDS/FGM"
+  ],
+  "MMS3_FEEPS_SRVY_L2_ELECTRON": [
+    "spase://SMWG/Instrument/MMS/3/EnergeticParticleDetector/FEEPS",
+    "spase://SMWG/Instrument/MMS/3/FIELDS/FGM"
+  ],
+  "MMS4_FEEPS_SRVY_L2_ELECTRON": [
+    "spase://SMWG/Instrument/MMS/4/EnergeticParticleDetector/FEEPS",
+    "spase://SMWG/Instrument/MMS/4/FIELDS/FGM"
+  ],
+  "MMS1_FEEPS_BRST_L2_ELECTRON": [
+    "spase://SMWG/Instrument/MMS/1/EnergeticParticleDetector/FEEPS",
+    "spase://SMWG/Instrument/MMS/1/FIELDS/FGM"
+  ],
+  "MMS2_FEEPS_BRST_L2_ELECTRON": [
+    "spase://SMWG/Instrument/MMS/2/EnergeticParticleDetector/FEEPS",
+    "spase://SMWG/Instrument/MMS/2/FIELDS/FGM"
+  ],
+  "MMS3_FEEPS_BRST_L2_ELECTRON": [
+    "spase://SMWG/Instrument/MMS/3/EnergeticParticleDetector/FEEPS",
+    "spase://SMWG/Instrument/MMS/3/FIELDS/FGM"
+  ],
+  "MMS4_FEEPS_BRST_L2_ELECTRON": [
+    "spase://SMWG/Instrument/MMS/4/EnergeticParticleDetector/FEEPS",
+    "spase://SMWG/Instrument/MMS/4/FIELDS/FGM"
+  ],
+  "MMS1_FEEPS_SRVY_L2_ION": [
+    "spase://SMWG/Instrument/MMS/1/EnergeticParticleDetector/FEEPS",
+    "spase://SMWG/Instrument/MMS/1/FIELDS/FGM"
+  ],
+  "MMS2_FEEPS_SRVY_L2_ION": [
+    "spase://SMWG/Instrument/MMS/2/EnergeticParticleDetector/FEEPS",
+    "spase://SMWG/Instrument/MMS/2/FIELDS/FGM"
+  ],
+  "MMS3_FEEPS_SRVY_L2_ION": [
+    "spase://SMWG/Instrument/MMS/3/EnergeticParticleDetector/FEEPS",
+    "spase://SMWG/Instrument/MMS/3/FIELDS/FGM"
+  ],
+  "MMS4_FEEPS_SRVY_L2_ION": [
+    "spase://SMWG/Instrument/MMS/4/EnergeticParticleDetector/FEEPS",
+    "spase://SMWG/Instrument/MMS/4/FIELDS/FGM"
+  ],
+  "MMS1_FEEPS_BRST_L2_ION": [
+    "spase://SMWG/Instrument/MMS/1/EnergeticParticleDetector/FEEPS",
+    "spase://SMWG/Instrument/MMS/1/FIELDS/FGM"
+  ],
+  "MMS2_FEEPS_BRST_L2_ION": [
+    "spase://SMWG/Instrument/MMS/2/EnergeticParticleDetector/FEEPS",
+    "spase://SMWG/Instrument/MMS/2/FIELDS/FGM"
+  ],
+  "MMS3_FEEPS_BRST_L2_ION": [
+    "spase://SMWG/Instrument/MMS/3/EnergeticParticleDetector/FEEPS",
+    "spase://SMWG/Instrument/MMS/3/FIELDS/FGM"
+  ],
+  "MMS4_FEEPS_BRST_L2_ION": [
+    "spase://SMWG/Instrument/MMS/4/EnergeticParticleDetector/FEEPS",
+    "spase://SMWG/Instrument/MMS/4/FIELDS/FGM"
+  ],
+  "MMS1_FPI_BRST_L2_DES-DIST": "spase://SMWG/Instrument/MMS/1/FastPlasmaInstrument/DES",
+  "MMS2_FPI_BRST_L2_DES-DIST": "spase://SMWG/Instrument/MMS/1/FastPlasmaInstrument/DES",
+  "MMS3_FPI_BRST_L2_DES-DIST": "spase://SMWG/Instrument/MMS/1/FastPlasmaInstrument/DES",
+  "MMS4_FPI_BRST_L2_DES-DIST": "spase://SMWG/Instrument/MMS/1/FastPlasmaInstrument/DES",
+  "MMS1_FPI_BRST_L2_DIS-DIST": "spase://SMWG/Instrument/MMS/1/FastPlasmaInstrument/DIS",
+  "MMS2_FPI_BRST_L2_DIS-DIST": "spase://SMWG/Instrument/MMS/1/FastPlasmaInstrument/DIS",
+  "MMS3_FPI_BRST_L2_DIS-DIST": "spase://SMWG/Instrument/MMS/1/FastPlasmaInstrument/DIS",
+  "MMS4_FPI_BRST_L2_DIS-DIST": "spase://SMWG/Instrument/MMS/1/FastPlasmaInstrument/DIS",
+  "MMS1_FPI_FAST_L2_DES-DIST": "spase://SMWG/Instrument/MMS/1/FastPlasmaInstrument/DES",
+  "MMS2_FPI_FAST_L2_DES-DIST": "spase://SMWG/Instrument/MMS/1/FastPlasmaInstrument/DES",
+  "MMS3_FPI_FAST_L2_DES-DIST": "spase://SMWG/Instrument/MMS/1/FastPlasmaInstrument/DES",
+  "MMS4_FPI_FAST_L2_DES-DIST": "spase://SMWG/Instrument/MMS/1/FastPlasmaInstrument/DES",
+  "MMS1_FPI_FAST_L2_DIS-DIST": "spase://SMWG/Instrument/MMS/1/FastPlasmaInstrument/DIS",
+  "MMS2_FPI_FAST_L2_DIS-DIST": "spase://SMWG/Instrument/MMS/1/FastPlasmaInstrument/DIS",
+  "MMS3_FPI_FAST_L2_DIS-DIST": "spase://SMWG/Instrument/MMS/1/FastPlasmaInstrument/DIS",
+  "MMS4_FPI_FAST_L2_DIS-DIST": "spase://SMWG/Instrument/MMS/1/FastPlasmaInstrument/DIS",
+  "MMS1_FPI_FAST_L2_DIS-MOMS": "spase://SMWG/Instrument/MMS/1/FastPlasmaInstrument/DIS",
+  "MMS2_FPI_FAST_L2_DIS-MOMS": "spase://SMWG/Instrument/MMS/1/FastPlasmaInstrument/DIS",
+  "MMS3_FPI_FAST_L2_DIS-MOMS": "spase://SMWG/Instrument/MMS/1/FastPlasmaInstrument/DIS",
+  "MMS4_FPI_FAST_L2_DIS-MOMS": "spase://SMWG/Instrument/MMS/1/FastPlasmaInstrument/DIS",
+  "MMS1_FPI_BRST_L2_DIS-MOMS": "spase://SMWG/Instrument/MMS/1/FastPlasmaInstrument/DIS",
+  "MMS2_FPI_BRST_L2_DIS-MOMS": "spase://SMWG/Instrument/MMS/1/FastPlasmaInstrument/DIS",
+  "MMS3_FPI_BRST_L2_DIS-MOMS": "spase://SMWG/Instrument/MMS/1/FastPlasmaInstrument/DIS",
+  "MMS4_FPI_BRST_L2_DIS-MOMS": "spase://SMWG/Instrument/MMS/1/FastPlasmaInstrument/DIS",
+  "MMS1_FPI_FAST_L2_DES-MOMS": "spase://SMWG/Instrument/MMS/1/FastPlasmaInstrument/DES",
+  "MMS2_FPI_FAST_L2_DES-MOMS": "spase://SMWG/Instrument/MMS/1/FastPlasmaInstrument/DES",
+  "MMS3_FPI_FAST_L2_DES-MOMS": "spase://SMWG/Instrument/MMS/1/FastPlasmaInstrument/DES",
+  "MMS4_FPI_FAST_L2_DES-MOMS": "spase://SMWG/Instrument/MMS/1/FastPlasmaInstrument/DES",
+  "MMS1_FPI_BRST_L2_DES-MOMS": "spase://SMWG/Instrument/MMS/1/FastPlasmaInstrument/DES",
+  "MMS2_FPI_BRST_L2_DES-MOMS": "spase://SMWG/Instrument/MMS/1/FastPlasmaInstrument/DES",
+  "MMS3_FPI_BRST_L2_DES-MOMS": "spase://SMWG/Instrument/MMS/1/FastPlasmaInstrument/DES",
+  "MMS4_FPI_BRST_L2_DES-MOMS": "spase://SMWG/Instrument/MMS/1/FastPlasmaInstrument/DES",
+  "MMS1_FPI_FAST_L2_DIS-PARTMOMS": [
+    "spase://SMWG/Instrument/MMS/1/FIELDS/FGM",
+    "spase://SMWG/Instrument/MMS/1/FastPlasmaInstrument/DIS"
+  ],
+  "MMS2_FPI_FAST_L2_DIS-PARTMOMS": [
+    "spase://SMWG/Instrument/MMS/2/FIELDS/FGM",
+    "spase://SMWG/Instrument/MMS/2/FastPlasmaInstrument/DIS"
+  ],
+  "MMS3_FPI_FAST_L2_DIS-PARTMOMS": [
+    "spase://SMWG/Instrument/MMS/3/FIELDS/FGM",
+    "spase://SMWG/Instrument/MMS/3/FastPlasmaInstrument/DIS"
+  ],
+  "MMS4_FPI_FAST_L2_DIS-PARTMOMS": [
+    "spase://SMWG/Instrument/MMS/4/FIELDS/FGM",
+    "spase://SMWG/Instrument/MMS/4/FastPlasmaInstrument/DIS"
+  ],
+  "MMS1_FPI_BRST_L2_DIS-PARTMOMS": [
+    "spase://SMWG/Instrument/MMS/1/FIELDS/FGM",
+    "spase://SMWG/Instrument/MMS/1/FastPlasmaInstrument/DIS"
+  ],
+  "MMS2_FPI_BRST_L2_DIS-PARTMOMS": [
+    "spase://SMWG/Instrument/MMS/2/FIELDS/FGM",
+    "spase://SMWG/Instrument/MMS/2/FastPlasmaInstrument/DIS"
+  ],
+  "MMS3_FPI_BRST_L2_DIS-PARTMOMS": [
+    "spase://SMWG/Instrument/MMS/3/FIELDS/FGM",
+    "spase://SMWG/Instrument/MMS/3/FastPlasmaInstrument/DIS"
+  ],
+  "MMS4_FPI_BRST_L2_DIS-PARTMOMS": [
+    "spase://SMWG/Instrument/MMS/4/FIELDS/FGM",
+    "spase://SMWG/Instrument/MMS/4/FastPlasmaInstrument/DIS"
+  ],
+  "MMS1_FPI_FAST_L2_DES-PARTMOMS": [
+    "spase://SMWG/Instrument/MMS/1/FIELDS/FGM",
+    "spase://SMWG/Instrument/MMS/1/FastPlasmaInstrument/DES"
+  ],
+  "MMS2_FPI_FAST_L2_DES-PARTMOMS": [
+    "spase://SMWG/Instrument/MMS/2/FIELDS/FGM",
+    "spase://SMWG/Instrument/MMS/2/FastPlasmaInstrument/DES"
+  ],
+  "MMS3_FPI_FAST_L2_DES-PARTMOMS": [
+    "spase://SMWG/Instrument/MMS/3/FIELDS/FGM",
+    "spase://SMWG/Instrument/MMS/3/FastPlasmaInstrument/DES"
+  ],
+  "MMS4_FPI_FAST_L2_DES-PARTMOMS": [
+    "spase://SMWG/Instrument/MMS/4/FIELDS/FGM",
+    "spase://SMWG/Instrument/MMS/4/FastPlasmaInstrument/DES"
+  ],
+  "MMS1_FPI_BRST_L2_DES-PARTMOMS": [
+    "spase://SMWG/Instrument/MMS/1/FIELDS/FGM",
+    "spase://SMWG/Instrument/MMS/1/FastPlasmaInstrument/DES"
+  ],
+  "MMS2_FPI_BRST_L2_DES-PARTMOMS": [
+    "spase://SMWG/Instrument/MMS/2/FIELDS/FGM",
+    "spase://SMWG/Instrument/MMS/2/FastPlasmaInstrument/DES"
+  ],
+  "MMS3_FPI_BRST_L2_DES-PARTMOMS": [
+    "spase://SMWG/Instrument/MMS/3/FIELDS/FGM",
+    "spase://SMWG/Instrument/MMS/3/FastPlasmaInstrument/DES"
+  ],
+  "MMS4_FPI_BRST_L2_DES-PARTMOMS": [
+    "spase://SMWG/Instrument/MMS/4/FIELDS/FGM",
+    "spase://SMWG/Instrument/MMS/4/FastPlasmaInstrument/DES"
+  ],
+  "MMS1_FGM_SRVY_L2": "spase://SMWG/Instrument/MMS/1/FIELDS/FGM",
+  "MMS2_FGM_SRVY_L2": "spase://SMWG/Instrument/MMS/2/FIELDS/FGM",
+  "MMS3_FGM_SRVY_L2": "spase://SMWG/Instrument/MMS/3/FIELDS/FGM",
+  "MMS4_FGM_SRVY_L2": "spase://SMWG/Instrument/MMS/4/FIELDS/FGM",
+  "MMS1_FGM_BRST_L2": "spase://SMWG/Instrument/MMS/1/FIELDS/FGM",
+  "MMS2_FGM_BRST_L2": "spase://SMWG/Instrument/MMS/2/FIELDS/FGM",
+  "MMS3_FGM_BRST_L2": "spase://SMWG/Instrument/MMS/3/FIELDS/FGM",
+  "MMS4_FGM_BRST_L2": "spase://SMWG/Instrument/MMS/4/FIELDS/FGM",
+  "MMS1_HPCA_BRST_L2_MOMENTS": [
+    "spase://SMWG/Instrument/MMS/1/FIELDS/FGM",
+    "spase://SMWG/Instrument/MMS/1/HotPlasmaCompositionAnalyzer"
+  ],
+  "MMS2_HPCA_BRST_L2_MOMENTS": [
+    "spase://SMWG/Instrument/MMS/2/FIELDS/FGM",
+    "spase://SMWG/Instrument/MMS/2/HotPlasmaCompositionAnalyzer"
+  ],
+  "MMS3_HPCA_BRST_L2_MOMENTS": [
+    "spase://SMWG/Instrument/MMS/3/FIELDS/FGM",
+    "spase://SMWG/Instrument/MMS/3/HotPlasmaCompositionAnalyzer"
+  ],
+  "MMS4_HPCA_BRST_L2_MOMENTS": [
+    "spase://SMWG/Instrument/MMS/4/FIELDS/FGM",
+    "spase://SMWG/Instrument/MMS/4/HotPlasmaCompositionAnalyzer"
+  ],
+  "MMS1_HPCA_BRST_L2_ION": [
+    "spase://SMWG/Instrument/MMS/1/FIELDS/FGM",
+    "spase://SMWG/Instrument/MMS/1/HotPlasmaCompositionAnalyzer"
+  ],
+  "MMS2_HPCA_BRST_L2_ION": [
+    "spase://SMWG/Instrument/MMS/2/FIELDS/FGM",
+    "spase://SMWG/Instrument/MMS/2/HotPlasmaCompositionAnalyzer"
+  ],
+  "MMS3_HPCA_BRST_L2_ION": [
+    "spase://SMWG/Instrument/MMS/3/FIELDS/FGM",
+    "spase://SMWG/Instrument/MMS/3/HotPlasmaCompositionAnalyzer"
+  ],
+  "MMS4_HPCA_BRST_L2_ION": [
+    "spase://SMWG/Instrument/MMS/4/FIELDS/FGM",
+    "spase://SMWG/Instrument/MMS/4/HotPlasmaCompositionAnalyzer"
+  ],
+  "MMS1_HPCA_SRVY_L2_MOMENTS": [
+    "spase://SMWG/Instrument/MMS/1/FIELDS/FGM",
+    "spase://SMWG/Instrument/MMS/1/HotPlasmaCompositionAnalyzer"
+  ],
+  "MMS2_HPCA_SRVY_L2_MOMENTS": [
+    "spase://SMWG/Instrument/MMS/2/FIELDS/FGM",
+    "spase://SMWG/Instrument/MMS/2/HotPlasmaCompositionAnalyzer"
+  ],
+  "MMS3_HPCA_SRVY_L2_MOMENTS": [
+    "spase://SMWG/Instrument/MMS/3/FIELDS/FGM",
+    "spase://SMWG/Instrument/MMS/3/HotPlasmaCompositionAnalyzer"
+  ],
+  "MMS4_HPCA_SRVY_L2_MOMENTS": [
+    "spase://SMWG/Instrument/MMS/4/FIELDS/FGM",
+    "spase://SMWG/Instrument/MMS/4/HotPlasmaCompositionAnalyzer"
+  ],
+  "MMS1_HPCA_SRVY_L2_ION": [
+    "spase://SMWG/Instrument/MMS/1/FIELDS/FGM",
+    "spase://SMWG/Instrument/MMS/1/HotPlasmaCompositionAnalyzer"
+  ],
+  "MMS2_HPCA_SRVY_L2_ION": [
+    "spase://SMWG/Instrument/MMS/2/FIELDS/FGM",
+    "spase://SMWG/Instrument/MMS/2/HotPlasmaCompositionAnalyzer"
+  ],
+  "MMS3_HPCA_SRVY_L2_ION": [
+    "spase://SMWG/Instrument/MMS/3/FIELDS/FGM",
+    "spase://SMWG/Instrument/MMS/3/HotPlasmaCompositionAnalyzer"
+  ],
+  "MMS4_HPCA_SRVY_L2_ION": [
+    "spase://SMWG/Instrument/MMS/4/FIELDS/FGM",
+    "spase://SMWG/Instrument/MMS/4/HotPlasmaCompositionAnalyzer"
+  ],
+  "MMS1_HPCA_SRVY_L2_TOF-COUNTS": "spase://SMWG/Instrument/MMS/1/HotPlasmaCompositionAnalyzer",
+  "MMS2_HPCA_SRVY_L2_TOF-COUNTS": "spase://SMWG/Instrument/MMS/2/HotPlasmaCompositionAnalyzer",
+  "MMS3_HPCA_SRVY_L2_TOF-COUNTS": "spase://SMWG/Instrument/MMS/3/HotPlasmaCompositionAnalyzer",
+  "MMS4_HPCA_SRVY_L2_TOF-COUNTS": "spase://SMWG/Instrument/MMS/4/HotPlasmaCompositionAnalyzer",
+  "MMS1_MEC_BRST_L2_EPHT89D": "spase://SMWG/Instrument/MMS/1/Ephemeris",
+  "MMS2_MEC_BRST_L2_EPHT89D": "spase://SMWG/Instrument/MMS/2/Ephemeris",
+  "MMS3_MEC_BRST_L2_EPHT89D": "spase://SMWG/Instrument/MMS/3/Ephemeris",
+  "MMS4_MEC_BRST_L2_EPHT89D": "spase://SMWG/Instrument/MMS/4/Ephemeris",
+  "MMS1_MEC_BRST_L2_EPHT89Q": "spase://SMWG/Instrument/MMS/1/Ephemeris",
+  "MMS2_MEC_BRST_L2_EPHT89Q": "spase://SMWG/Instrument/MMS/2/Ephemeris",
+  "MMS3_MEC_BRST_L2_EPHT89Q": "spase://SMWG/Instrument/MMS/3/Ephemeris",
+  "MMS4_MEC_BRST_L2_EPHT89Q": "spase://SMWG/Instrument/MMS/4/Ephemeris",
+  "MMS1_MEC_BRST_L2_EPHTS04D": "spase://SMWG/Instrument/MMS/1/Ephemeris",
+  "MMS2_MEC_BRST_L2_EPHTS04D": "spase://SMWG/Instrument/MMS/2/Ephemeris",
+  "MMS3_MEC_BRST_L2_EPHTS04D": "spase://SMWG/Instrument/MMS/3/Ephemeris",
+  "MMS4_MEC_BRST_L2_EPHTS04D": "spase://SMWG/Instrument/MMS/4/Ephemeris",
+  "MMS1_MEC_SRVY_L2_EPHT89D": "spase://SMWG/Instrument/MMS/1/Ephemeris",
+  "MMS2_MEC_SRVY_L2_EPHT89D": "spase://SMWG/Instrument/MMS/2/Ephemeris",
+  "MMS3_MEC_SRVY_L2_EPHT89D": "spase://SMWG/Instrument/MMS/3/Ephemeris",
+  "MMS4_MEC_SRVY_L2_EPHT89D": "spase://SMWG/Instrument/MMS/4/Ephemeris",
+  "MMS1_MEC_SRVY_L2_EPHT89Q": "spase://SMWG/Instrument/MMS/1/Ephemeris",
+  "MMS2_MEC_SRVY_L2_EPHT89Q": "spase://SMWG/Instrument/MMS/2/Ephemeris",
+  "MMS3_MEC_SRVY_L2_EPHT89Q": "spase://SMWG/Instrument/MMS/3/Ephemeris",
+  "MMS4_MEC_SRVY_L2_EPHT89Q": "spase://SMWG/Instrument/MMS/4/Ephemeris",
+  "MMS1_MEC_SRVY_L2_EPHTS04D": "spase://SMWG/Instrument/MMS/1/Ephemeris",
+  "MMS2_MEC_SRVY_L2_EPHTS04D": "spase://SMWG/Instrument/MMS/2/Ephemeris",
+  "MMS3_MEC_SRVY_L2_EPHTS04D": "spase://SMWG/Instrument/MMS/3/Ephemeris",
+  "MMS4_MEC_SRVY_L2_EPHTS04D": "spase://SMWG/Instrument/MMS/4/Ephemeris",
+  "MMS1_SCM_SRVY_L2_SCSRVY": "spase://SMWG/Instrument/MMS/1/FIELDS/SCM",
+  "MMS2_SCM_SRVY_L2_SCSRVY": "spase://SMWG/Instrument/MMS/2/FIELDS/SCM",
+  "MMS3_SCM_SRVY_L2_SCSRVY": "spase://SMWG/Instrument/MMS/3/FIELDS/SCM",
+  "MMS4_SCM_SRVY_L2_SCSRVY": "spase://SMWG/Instrument/MMS/4/FIELDS/SCM",
+  "MMS1_SCM_BRST_L2_SCB": "spase://SMWG/Instrument/MMS/1/FIELDS/SCM",
+  "MMS2_SCM_BRST_L2_SCB": "spase://SMWG/Instrument/MMS/2/FIELDS/SCM",
+  "MMS3_SCM_BRST_L2_SCB": "spase://SMWG/Instrument/MMS/3/FIELDS/SCM",
+  "MMS4_SCM_BRST_L2_SCB": "spase://SMWG/Instrument/MMS/4/FIELDS/SCM",
+  "MMS1_SCM_BRST_L2_SCHB": "spase://SMWG/Instrument/MMS/1/FIELDS/SCM",
+  "MMS2_SCM_BRST_L2_SCHB": "spase://SMWG/Instrument/MMS/2/FIELDS/SCM",
+  "MMS3_SCM_BRST_L2_SCHB": "spase://SMWG/Instrument/MMS/3/FIELDS/SCM",
+  "MMS4_SCM_BRST_L2_SCHB": "spase://SMWG/Instrument/MMS/4/FIELDS/SCM",
+  "MUNIN_M1_MDSE": "spase://SMWG/Instrument/Munin/MEDUSA",
+  "MUNIN_M1_MDSI": "spase://SMWG/Instrument/Munin/MEDUSA",
+  "MUNIN_M1_OA": "spase://SMWG/Instrument/Munin/Ephemeris",
+  "NEW_HORIZONS_SWAP_VALIDSUM": "spase://SMWG/Instrument/NewHorizons/SWAP",
+  "NEW_HORIZONS_SWAP_PICKUP-IONS": "spase://SMWG/Instrument/NewHorizons/SWAP",
+  "NEW_HORIZONS_SWAP_PICKUP-IONS-HISTOGRAM": "spase://SMWG/Instrument/NewHorizons/SWAP",
+  "NOAA05_MEPED1MIN_SEM": "spase://SMWG/Instrument/NOAA/5/SPM",
+  "NOAA06_MEPED1MIN_SEM": "spase://SMWG/Instrument/NOAA/6/SEM",
+  "NOAA07_MEPED1MIN_SEM": "spase://SMWG/Instrument/NOAA/7/SEM",
+  "NOAA08_MEPED1MIN_SEM": "spase://SMWG/Instrument/NOAA/8/SEM",
+  "NOAA10_MEPED1MIN_SEM": "spase://SMWG/Instrument/NOAA/10/SEM",
+  "NOAA12_MEPED1MIN_SEM": "spase://SMWG/Instrument/NOAA/12/SEM",
+  "NOAA14_MEPED1MIN_SEM": "spase://SMWG/Instrument/NOAA/14/SEM",
+  "NOAA15_POES-SEM2_FLUXES-2SEC": "spase://SMWG/Instrument/NOAA/15/SEM-2",
+  "NOAA16_POES-SEM2_FLUXES-2SEC": "spase://SMWG/Instrument/NOAA/16/SEM-2",
+  "NOAA18_POES-SEM2_FLUXES-2SEC": "spase://SMWG/Instrument/NOAA/18/SEM-2",
+  "NOAA19_POES-SEM2_FLUXES-2SEC": "spase://SMWG/Instrument/NOAA/19/SEM-2",
+  "METOP1_POES-SEM2_FLUXES-2SEC": "spase://SMWG/Instrument/MetOp/B/SEM-2",
+  "METOP2_POES-SEM2_FLUXES-2SEC": "spase://SMWG/Instrument/MetOp/A/SEM-2",
+  "OMNI_HRO_1MIN": "spase://SMWG/Instrument/OMNI",
+  "OMNI_HRO_5MIN": "spase://SMWG/Instrument/OMNI",
+  "OMNI_HRO2_1MIN": [
+    "spase://SMWG/Instrument/ACE/Ephemeris",
+    "spase://SMWG/Instrument/ACE/MAG",
+    "spase://SMWG/Instrument/ACE/SWEPAM",
+    "spase://SMWG/Instrument/Geotail/CPI",
+    "spase://SMWG/Instrument/Geotail/Ephemeris",
+    "spase://SMWG/Instrument/Geotail/MGF",
+    "spase://SMWG/Instrument/IMP8/Ephemeris",
+    "spase://SMWG/Instrument/IMP8/MAG",
+    "spase://SMWG/Instrument/IMP8/PLS",
+    "spase://SMWG/Instrument/Wind/Ephemeris",
+    "spase://SMWG/Instrument/Wind/MFI",
+    "spase://SMWG/Instrument/Wind/SWE"
+  ],
+  "OMNI_HRO2_5MIN": [
+    "spase://SMWG/Instrument/ACE/Ephemeris",
+    "spase://SMWG/Instrument/ACE/MAG",
+    "spase://SMWG/Instrument/ACE/SWEPAM",
+    "spase://SMWG/Instrument/Geotail/CPI",
+    "spase://SMWG/Instrument/Geotail/Ephemeris",
+    "spase://SMWG/Instrument/Geotail/MGF",
+    "spase://SMWG/Instrument/IMP8/Ephemeris",
+    "spase://SMWG/Instrument/IMP8/MAG",
+    "spase://SMWG/Instrument/IMP8/PLS",
+    "spase://SMWG/Instrument/Wind/Ephemeris",
+    "spase://SMWG/Instrument/Wind/MFI",
+    "spase://SMWG/Instrument/Wind/SWE"
+  ],
+  "OMNI2_H0_MRG1HR": "spase://SMWG/Instrument/OMNI",
+  "OMNI_COHO1HR_MERGED_MAG_PLASMA": "spase://SMWG/Instrument/OMNI",
+  "PIONEER10_MAG_1MIN_MAGNETIC_FIELD": "spase://SMWG/Instrument/Pioneer10/MAG",
+  "PIONEER10_COHO1HR_MERGED_MAG_PLASMA": [
+    "spase://SMWG/Instrument/Pioneer10/MAG",
+    "spase://SMWG/Instrument/Pioneer10/PLS"
+  ],
+  "PIONEER11_COHO1HR_MERGED_MAG_PLASMA": [
+    "spase://SMWG/Instrument/Pioneer11/MAG1",
+    "spase://SMWG/Instrument/Pioneer11/PLS"
+  ],
+  "PIONEERVENUS_COHO1HR_MERGED_MAG_PLASMA": [
+    "spase://SMWG/Instrument/PioneerVenusOrbiter/OMAG",
+    "spase://SMWG/Instrument/PioneerVenusOrbiter/ORPA"
+  ],
+  "PIONEERVENUS_MERGED_SOLAR-WIND_10M": [
+    "spase://SMWG/Instrument/PioneerVenusOrbiter/Ephemeris",
+    "spase://SMWG/Instrument/PioneerVenusOrbiter/OMAG",
+    "spase://SMWG/Instrument/PioneerVenusOrbiter/OPA"
+  ],
+  "PO_K0_MFE": "spase://SMWG/Instrument/POLAR/MFE",
+  "PO_H0_CAM": "spase://SMWG/Instrument/POLAR/CAMMICE",
+  "PO_K0_CAM": "spase://SMWG/Instrument/POLAR/CAMMICE-MICS",
+  "PO_K0_CEP": "spase://SMWG/Instrument/POLAR/CEPPAD",
+  "PO_K0_EFI": "spase://SMWG/Instrument/POLAR/EFI",
+  "PO_6SECEDSC_EFI": "spase://SMWG/Instrument/POLAR/EFI",
+  "PO_6SECPOTLDENS_EFI": "spase://SMWG/Instrument/POLAR/EFI",
+  "PO_10MINATT_EFI": "spase://SMWG/Instrument/POLAR/EFI",
+  "POLAR_HYDRA_MOMENTS-14SEC": "spase://SMWG/Instrument/POLAR/HYDRA",
+  "PO_H0_HYD": "spase://SMWG/Instrument/POLAR/HYDRA",
+  "PO_K0_HYD": "spase://SMWG/Instrument/POLAR/HYDRA",
+  "PO_H0_PWI": "spase://SMWG/Instrument/POLAR/PWI",
+  "PO_H1_PWI": "spase://SMWG/Instrument/POLAR/PWI",
+  "PO_H2_PWI": "spase://SMWG/Instrument/POLAR/PWI",
+  "PO_H3_PWI": "spase://SMWG/Instrument/POLAR/PWI",
+  "PO_H4_PWI": "spase://SMWG/Instrument/POLAR/PWI",
+  "PO_H5_PWI": "spase://SMWG/Instrument/POLAR/PWI",
+  "PO_H7_PWI": "spase://SMWG/Instrument/POLAR/PWI",
+  "PO_H8_PWI": "spase://SMWG/Instrument/POLAR/PWI",
+  "PO_H9_PWI": "spase://SMWG/Instrument/POLAR/PWI",
+  "PO_K0_PWI": "spase://SMWG/Instrument/POLAR/PWI",
+  "PO_H0_TID": "spase://SMWG/Instrument/POLAR/TIDE",
+  "PO_H1_TID": "spase://SMWG/Instrument/POLAR/TIDE",
+  "PO_H0_TIM": "spase://SMWG/Instrument/POLAR/TIMAS",
+  "PO_H2_TIM": "spase://SMWG/Instrument/POLAR/TIMAS",
+  "PO_K1_TIM": "spase://SMWG/Instrument/POLAR/TIMAS",
+  "PO_LEVEL1_UVI": "spase://SMWG/Instrument/POLAR/UVI",
+  "PO_K0_UVI": "spase://SMWG/Instrument/POLAR/UVI",
+  "PO_VIS_EARTH-CAMERA-CALIBRATED": "spase://SMWG/Instrument/POLAR/VIS",
+  "PO_VIS_VISIBLE-IMAGER-CALIBRATED": "spase://SMWG/Instrument/POLAR/VIS",
+  "PO_OR_DEF": "spase://SMWG/Instrument/POLAR/Ephemeris",
+  "PO_OR_PRE": "spase://SMWG/Instrument/POLAR/Ephemeris",
+  "PO_AT_DEF": "spase://SMWG/Instrument/POLAR/Ephemeris",
+  "PO_AT_PRE": "spase://SMWG/Instrument/POLAR/Ephemeris",
+  "PO_K0_SPHA": "spase://SMWG/Instrument/POLAR/Ephemeris",
+  "PO_PA_DEF": "spase://SMWG/Instrument/POLAR/Ephemeris",
+  "PSP_HELIO1DAY_POSITION": "spase://SMWG/Instrument/ParkerSolarProbe/Ephemeris",
+  "PSP_COHO1HR_MERGED_MAG_PLASMA": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/Ephemeris",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/MAG",
+    "spase://SMWG/Instrument/ParkerSolarProbe/SWEAP/SPC"
+  ],
+  "PSP_SWP_SPC_L3I": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/Ephemeris",
+    "spase://SMWG/Instrument/ParkerSolarProbe/SWEAP/SPC"
+  ],
+  "PSP_SWP_SPC_L2I": "spase://SMWG/Instrument/ParkerSolarProbe/SWEAP/SPC",
+  "PSP_SWP_SPI_SF00_L3_MOM_INST": "spase://SMWG/Instrument/ParkerSolarProbe/SWEAP/SPAN-A",
+  "PSP_SWP_SPI_SF0A_L3_MOM_INST": "spase://SMWG/Instrument/ParkerSolarProbe/SWEAP/SPAN-A",
+  "PSP_SWP_SPI_SF00_L2_8DX32EX8A": "spase://SMWG/Instrument/ParkerSolarProbe/SWEAP/SPAN-A",
+  "PSP_SWP_SPI_SF01_L2_8DX32EX8A": "spase://SMWG/Instrument/",
+  "PSP_SWP_SPA_SF0_L2_16AX8DX32E": "spase://SMWG/Instrument/ParkerSolarProbe/SWEAP/SPAN-A",
+  "PSP_SWP_SPA_SF1_L2_32E": "spase://SMWG/Instrument/ParkerSolarProbe/SWEAP/SPAN-A",
+  "PSP_SWP_SPB_SF0_L2_16AX8DX32E": "spase://SMWG/Instrument/ParkerSolarProbe/SWEAP/SPAN-B",
+  "PSP_SWP_SPB_SF1_L2_32E": "spase://SMWG/Instrument/ParkerSolarProbe/SWEAP/SPAN-B",
+  "PSP_SWP_SPE_SF0_L3_PAD": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/SWEAP",
+    "spase://SMWG/Instrument/ParkerSolarProbe/SWEAP/SPC",
+    "spase://SMWG/Instrument/ParkerSolarProbe/SWEAP/SPAN-A",
+    "spase://SMWG/Instrument/ParkerSolarProbe/SWEAP/SPAN-B"
+  ],
+  "PSP_SWP_SPA_SF0_L3_PAD": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/MAG",
+    "spase://SMWG/Instrument/ParkerSolarProbe/SWEAP/SPAN-A"
+  ],
+  "PSP_SWP_SPB_SF0_L3_PAD": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/MAG",
+    "spase://SMWG/Instrument/ParkerSolarProbe/SWEAP/SPAN-B"
+  ],
+  "PSP_FLD_L2_MAG_RTN": "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/MAG",
+  "PSP_FLD_L2_MAG_RTN_1MIN": "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/MAG",
+  "PSP_FLD_L2_MAG_RTN_4_SA_PER_CYC": "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/MAG",
+  "PSP_FLD_L2_MAG_SC": "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/MAG",
+  "PSP_FLD_L2_MAG_SC_1MIN": "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/MAG",
+  "PSP_FLD_L2_MAG_SC_4_SA_PER_CYC": "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/MAG",
+  "PSP_FLD_L2_RFS_HFR": "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/RFS/HFR",
+  "PSP_FLD_L2_RFS_LFR": "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/RFS/LFR",
+  "PSP_FLD_L2_F2_100BPS": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/FIELDS2/TDS",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/MAG",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/SCM",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V1",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V2",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V3",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V4",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V5",
+    "spase://SMWG/Instrument/ParkerSolarProbe/SWEAP"
+  ],
+  "PSP_FLD_L2_DFB_AC_BPF_DV12HG": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V1",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V2"
+  ],
+  "PSP_FLD_L2_DFB_AC_BPF_DV34HG": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V3",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V4"
+  ],
+  "PSP_FLD_L2_DFB_AC_BPF_SCMULFHG": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/SCM"
+  ],
+  "PSP_FLD_L2_DFB_AC_BPF_SCMUMFHG": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/SCM"
+  ],
+  "PSP_FLD_L2_DFB_AC_SPEC_DV12HG": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V1",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V2"
+  ],
+  "PSP_FLD_L2_DFB_AC_SPEC_DV34HG": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V3",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V4"
+  ],
+  "PSP_FLD_L2_DFB_AC_SPEC_SCMDLFHG": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/SCM"
+  ],
+  "PSP_FLD_L2_DFB_AC_SPEC_SCMELFHG": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/SCM"
+  ],
+  "PSP_FLD_L2_DFB_AC_SPEC_SCMFLFHG": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/SCM"
+  ],
+  "PSP_FLD_L2_DFB_AC_SPEC_SCMULFLG": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/SCM"
+  ],
+  "PSP_FLD_L2_DFB_AC_SPEC_SCMVLFHG": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/SCM"
+  ],
+  "PSP_FLD_L2_DFB_AC_SPEC_SCMMF": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/SCM"
+  ],
+  "PSP_FLD_L2_DFB_AC_SPEC_V5HG": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V5"
+  ],
+  "PSP_FLD_L2_DFB_AC_XSPEC_DV12HG_DV34HG": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V1",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V2",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V3",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V4"
+  ],
+  "PSP_FLD_L2_DFB_AC_XSPEC_SCMDLFHG_SCMELFHG": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/SCM"
+  ],
+  "PSP_FLD_L2_DFB_AC_XSPEC_SCMDLFHG_SCMFLFHG": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/SCM"
+  ],
+  "PSP_FLD_L2_DFB_AC_XSPEC_SCMELFHG_SCMFLFHG": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/SCM"
+  ],
+  "PSP_FLD_L2_DFB_DC_BPF_DV12HG": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V1",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V2"
+  ],
+  "PSP_FLD_L2_DFB_DC_BPF_DV34HG": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V3",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V4"
+  ],
+  "PSP_FLD_L2_DFB_DC_BPF_SCMULFHG": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/SCM"
+  ],
+  "PSP_FLD_L2_DFB_DC_BPF_SCMVLFHG": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/SCM"
+  ],
+  "PSP_FLD_L2_DFB_DC_SPEC_DV12HG": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V1",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V2"
+  ],
+  "PSP_FLD_L2_DFB_DC_SPEC_SCMDLFHG": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/SCM"
+  ],
+  "PSP_FLD_L2_DFB_DC_SPEC_SCMELFHG": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/SCM"
+  ],
+  "PSP_FLD_L2_DFB_DC_SPEC_SCMFLFHG": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/SCM"
+  ],
+  "PSP_FLD_L2_DFB_DC_SPEC_SCMULFHG": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/SCM"
+  ],
+  "PSP_FLD_L2_DFB_DC_SPEC_SCMVLFHG": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/SCM"
+  ],
+  "PSP_FLD_L2_DFB_DC_SPEC_SCMWLFHG": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/SCM"
+  ],
+  "PSP_FLD_L2_DFB_DC_XSPEC_SCMVLFHG_SCMWLFHG": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/SCM"
+  ],
+  "PSP_FLD_L2_DFB_DC_XSPEC_SCMDLFHG_SCMELFHG": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/SCM"
+  ],
+  "PSP_FLD_L2_DFB_DC_XSPEC_SCMDLFHG_SCMFLFHG": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/SCM"
+  ],
+  "PSP_FLD_L2_DFB_DC_XSPEC_SCMELFHG_SCMFLFHG": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/SCM"
+  ],
+  "PSP_FLD_L2_DFB_DBM_DVAC": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V1",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V2",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V3",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V4",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V5"
+  ],
+  "PSP_FLD_L2_DFB_DBM_SCM": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/SCM"
+  ],
+  "PSP_FLD_L2_DFB_WF_VDC": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V1",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V2",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V3",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V4",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V5"
+  ],
+  "PSP_FLD_L2_DFB_WF_DVDC": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V1",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V2",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V3",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V4"
+  ],
+  "PSP_FLD_L2_DFB_WF_SCM": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/SCM"
+  ],
+  "PSP_ISOIS_L2-SUMMARY": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/ISOIS/EPI-Hi/HET",
+    "spase://SMWG/Instrument/ParkerSolarProbe/ISOIS/EPI-Hi/LET1",
+    "spase://SMWG/Instrument/ParkerSolarProbe/ISOIS/EPI-Hi/LET2",
+    "spase://SMWG/Instrument/ParkerSolarProbe/ISOIS/EPI-Lo"
+  ],
+  "PSP_ISOIS-EPIHI_L2-SECOND-RATES": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/ISOIS/EPI-Hi/HET",
+    "spase://SMWG/Instrument/ParkerSolarProbe/ISOIS/EPI-Hi/LET1",
+    "spase://SMWG/Instrument/ParkerSolarProbe/ISOIS/EPI-Hi/LET2"
+  ],
+  "PSP_ISOIS-EPIHI_L2-HET-RATES10": "spase://SMWG/Instrument/ParkerSolarProbe/ISOIS/EPI-Hi/HET",
+  "PSP_ISOIS-EPIHI_L2-HET-RATES60": "spase://SMWG/Instrument/ParkerSolarProbe/ISOIS/EPI-Hi/HET",
+  "PSP_ISOIS-EPIHI_L2-HET-RATES300": "spase://SMWG/Instrument/ParkerSolarProbe/ISOIS/EPI-Hi/HET",
+  "PSP_ISOIS-EPIHI_L2-HET-RATES3600": "spase://SMWG/Instrument/ParkerSolarProbe/ISOIS/EPI-Hi/HET",
+  "PSP_ISOIS-EPIHI_L2-LET1-RATES10": "spase://SMWG/Instrument/ParkerSolarProbe/ISOIS/EPI-Hi/LET1",
+  "PSP_ISOIS-EPIHI_L2-LET1-RATES60": "spase://SMWG/Instrument/ParkerSolarProbe/ISOIS/EPI-Hi/LET1",
+  "PSP_ISOIS-EPIHI_L2-LET1-RATES300": "spase://SMWG/Instrument/ParkerSolarProbe/ISOIS/EPI-Hi/LET1",
+  "PSP_ISOIS-EPIHI_L2-LET1-RATES3600": "spase://SMWG/Instrument/ParkerSolarProbe/ISOIS/EPI-Hi/LET1",
+  "PSP_ISOIS-EPIHI_L2-LET2-RATES10": "spase://SMWG/Instrument/ParkerSolarProbe/ISOIS/EPI-Hi/LET2",
+  "PSP_ISOIS-EPIHI_L2-LET2-RATES60": "spase://SMWG/Instrument/ParkerSolarProbe/ISOIS/EPI-Hi/LET2",
+  "PSP_ISOIS-EPIHI_L2-LET2-RATES300": "spase://SMWG/Instrument/ParkerSolarProbe/ISOIS/EPI-Hi/LET2",
+  "PSP_ISOIS-EPIHI_L2-LET2-RATES3600": "spase://SMWG/Instrument/ParkerSolarProbe/ISOIS/EPI-Hi/LET2",
+  "PSP_ISOIS-EPILO_L2-IC": "spase://SMWG/Instrument/ParkerSolarProbe/ISOIS/EPI-Lo",
+  "PSP_ISOIS-EPILO_L2-PE": "spase://SMWG/Instrument/ParkerSolarProbe/ISOIS/EPI-Lo",
+  "PSP_ISOIS_L2-EPHEM": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/Ephemeris",
+    "spase://SMWG/Instrument/ParkerSolarProbe/ISOIS/EPI-Hi/HET",
+    "spase://SMWG/Instrument/ParkerSolarProbe/ISOIS/EPI-Hi/LET1",
+    "spase://SMWG/Instrument/ParkerSolarProbe/ISOIS/EPI-Hi/LET2",
+    "spase://SMWG/Instrument/ParkerSolarProbe/ISOIS/EPI-Lo"
+  ],
+  "RS_K0_IPEI": "spase://SMWG/Instrument/ROCSAT-1/IPEI",
+  "RBSPA_REL04_ECT-HOPE-MOM-L3": [
+    "spase://SMWG/Instrument/RBSP/A/ECT",
+    "spase://SMWG/Instrument/RBSP/A/Ephemeris"
+  ],
+  "RBSPB_REL04_ECT-HOPE-MOM-L3": [
+    "spase://SMWG/Instrument/RBSP/B/ECT",
+    "spase://SMWG/Instrument/RBSP/B/Ephemeris"
+  ],
+  "RBSPA_REL04_ECT-HOPE-PA-L3": [
+    "spase://SMWG/Instrument/RBSP/A/ECT",
+    "spase://SMWG/Instrument/RBSP/A/Ephemeris"
+  ],
+  "RBSPB_REL04_ECT-HOPE-PA-L3": [
+    "spase://SMWG/Instrument/RBSP/B/ECT",
+    "spase://SMWG/Instrument/RBSP/B/Ephemeris"
+  ],
+  "RBSPA_REL04_ECT-MAGEIS-L3": [
+    "spase://SMWG/Instrument/RBSP/A/ECT",
+    "spase://SMWG/Instrument/RBSP/A/Ephemeris"
+  ],
+  "RBSPB_REL04_ECT-MAGEIS-L3": [
+    "spase://SMWG/Instrument/RBSP/B/ECT",
+    "spase://SMWG/Instrument/RBSP/B/Ephemeris"
+  ],
+  "RBSP_ECT-REPT-SCI-L3-SELESNICK-MODEL": [
+    "spase://SMWG/Instrument/RBSP/A/ECT",
+    "spase://SMWG/Instrument/RBSP/B/ECT"
+  ],
+  "RBSPA_REL03_ECT-REPT-SCI-L3": [
+    "spase://SMWG/Instrument/RBSP/A/ECT",
+    "spase://SMWG/Instrument/RBSP/A/Ephemeris"
+  ],
+  "RBSPB_REL03_ECT-REPT-SCI-L3": [
+    "spase://SMWG/Instrument/RBSP/B/ECT",
+    "spase://SMWG/Instrument/RBSP/B/Ephemeris"
+  ],
+  "RBSPA_REL04_ECT-HOPE-SCI-L2SA": "spase://SMWG/Instrument/RBSP/A/ECT",
+  "RBSPB_REL04_ECT-HOPE-SCI-L2SA": "spase://SMWG/Instrument/RBSP/B/ECT",
+  "RBSPA_REL04_ECT-HOPE-SCI-L2": "spase://SMWG/Instrument/RBSP/A/ECT",
+  "RBSPB_REL04_ECT-HOPE-SCI-L2": "spase://SMWG/Instrument/RBSP/B/ECT",
+  "RBSPA_REL03_ECT-MAGEIS-L2": [
+    "spase://SMWG/Instrument/RBSP/A/ECT",
+    "spase://SMWG/Instrument/RBSP/A/Ephemeris"
+  ],
+  "RBSPB_REL03_ECT-MAGEIS-L2": [
+    "spase://SMWG/Instrument/RBSP/B/ECT",
+    "spase://SMWG/Instrument/RBSP/B/Ephemeris"
+  ],
+  "RBSPA_REL03_ECT-REPT-SCI-L2": [
+    "spase://SMWG/Instrument/RBSP/A/ECT",
+    "spase://SMWG/Instrument/RBSP/A/Ephemeris"
+  ],
+  "RBSPB_REL03_ECT-REPT-SCI-L2": [
+    "spase://SMWG/Instrument/RBSP/B/ECT",
+    "spase://SMWG/Instrument/RBSP/B/Ephemeris"
+  ],
+  "RBSP-A-RBSPICE_LEV-3-PAP_TOFXEH": [
+    "spase://SMWG/Instrument/RBSP/A/Ephemeris",
+    "spase://SMWG/Instrument/RBSP/A/RBSPICE"
+  ],
+  "RBSP-B-RBSPICE_LEV-3-PAP_TOFXEH": [
+    "spase://SMWG/Instrument/RBSP/B/Ephemeris",
+    "spase://SMWG/Instrument/RBSP/B/RBSPICE"
+  ],
+  "RBSP-A-RBSPICE_LEV-3-PAP_TOFXEHE-0": [
+    "spase://SMWG/Instrument/RBSP/A/Ephemeris",
+    "spase://SMWG/Instrument/RBSP/A/RBSPICE"
+  ],
+  "RBSP-A-RBSPICE_LEV-3-PAP_TOFXEHE": [
+    "spase://SMWG/Instrument/RBSP/A/Ephemeris",
+    "spase://SMWG/Instrument/RBSP/A/RBSPICE"
+  ],
+  "RBSP-B-RBSPICE_LEV-3-PAP_TOFXEHE-0": [
+    "spase://SMWG/Instrument/RBSP/B/Ephemeris",
+    "spase://SMWG/Instrument/RBSP/B/RBSPICE"
+  ],
+  "RBSP-B-RBSPICE_LEV-3-PAP_TOFXEHE": [
+    "spase://SMWG/Instrument/RBSP/B/Ephemeris",
+    "spase://SMWG/Instrument/RBSP/B/RBSPICE"
+  ],
+  "RBSP-A-RBSPICE_LEV-3-PAP_TOFXEO-0": [
+    "spase://SMWG/Instrument/RBSP/A/Ephemeris",
+    "spase://SMWG/Instrument/RBSP/A/RBSPICE"
+  ],
+  "RBSP-A-RBSPICE_LEV-3-PAP_TOFXEO": [
+    "spase://SMWG/Instrument/RBSP/A/Ephemeris",
+    "spase://SMWG/Instrument/RBSP/A/RBSPICE"
+  ],
+  "RBSP-B-RBSPICE_LEV-3-PAP_TOFXEO-0": [
+    "spase://SMWG/Instrument/RBSP/B/Ephemeris",
+    "spase://SMWG/Instrument/RBSP/B/RBSPICE"
+  ],
+  "RBSP-B-RBSPICE_LEV-3-PAP_TOFXEO": [
+    "spase://SMWG/Instrument/RBSP/B/Ephemeris",
+    "spase://SMWG/Instrument/RBSP/B/RBSPICE"
+  ],
+  "RBSP-A-RBSPICE_LEV-3-PAP_TOFXEION": [
+    "spase://SMWG/Instrument/RBSP/A/Ephemeris",
+    "spase://SMWG/Instrument/RBSP/A/RBSPICE"
+  ],
+  "RBSP-B-RBSPICE_LEV-3-PAP_TOFXEION": [
+    "spase://SMWG/Instrument/RBSP/B/Ephemeris",
+    "spase://SMWG/Instrument/RBSP/B/RBSPICE"
+  ],
+  "RBSP-A-RBSPICE_LEV-3-PAP_TOFXPHHHELT": [
+    "spase://SMWG/Instrument/RBSP/A/Ephemeris",
+    "spase://SMWG/Instrument/RBSP/A/RBSPICE"
+  ],
+  "RBSP-B-RBSPICE_LEV-3-PAP_TOFXPHHHELT": [
+    "spase://SMWG/Instrument/RBSP/B/Ephemeris",
+    "spase://SMWG/Instrument/RBSP/B/RBSPICE"
+  ],
+  "RBSP-A-RBSPICE_LEV-3-PAP_TOFXPHHLEHT": [
+    "spase://SMWG/Instrument/RBSP/A/Ephemeris",
+    "spase://SMWG/Instrument/RBSP/A/RBSPICE"
+  ],
+  "RBSP-B-RBSPICE_LEV-3-PAP_TOFXPHHLEHT": [
+    "spase://SMWG/Instrument/RBSP/B/Ephemeris",
+    "spase://SMWG/Instrument/RBSP/B/RBSPICE"
+  ],
+  "RBSP-A-RBSPICE_LEV-3-PAP_TOFXPHOHELT": [
+    "spase://SMWG/Instrument/RBSP/A/Ephemeris",
+    "spase://SMWG/Instrument/RBSP/A/RBSPICE"
+  ],
+  "RBSP-B-RBSPICE_LEV-3-PAP_TOFXPHOHELT": [
+    "spase://SMWG/Instrument/RBSP/B/Ephemeris",
+    "spase://SMWG/Instrument/RBSP/B/RBSPICE"
+  ],
+  "RBSP-A-RBSPICE_LEV-3-PAP_TOFXPHOLEHT": [
+    "spase://SMWG/Instrument/RBSP/A/Ephemeris",
+    "spase://SMWG/Instrument/RBSP/A/RBSPICE"
+  ],
+  "RBSP-B-RBSPICE_LEV-3-PAP_TOFXPHOLEHT": [
+    "spase://SMWG/Instrument/RBSP/B/Ephemeris",
+    "spase://SMWG/Instrument/RBSP/B/RBSPICE"
+  ],
+  "RBSP-A-RBSPICE_LEV-3-PAP_ESRLEHT": [
+    "spase://SMWG/Instrument/RBSP/A/Ephemeris",
+    "spase://SMWG/Instrument/RBSP/A/RBSPICE"
+  ],
+  "RBSP-B-RBSPICE_LEV-3-PAP_ESRLEHT": [
+    "spase://SMWG/Instrument/RBSP/B/Ephemeris",
+    "spase://SMWG/Instrument/RBSP/B/RBSPICE"
+  ],
+  "RBSP-A-RBSPICE_LEV-3-PAP_ESRHELT": [
+    "spase://SMWG/Instrument/RBSP/A/Ephemeris",
+    "spase://SMWG/Instrument/RBSP/A/RBSPICE"
+  ],
+  "RBSP-B-RBSPICE_LEV-3-PAP_ESRHELT": [
+    "spase://SMWG/Instrument/RBSP/B/Ephemeris",
+    "spase://SMWG/Instrument/RBSP/B/RBSPICE"
+  ],
+  "RBSP-A-RBSPICE_LEV-3_TOFXEH": "spase://SMWG/Instrument/RBSP/A/RBSPICE",
+  "RBSP-B-RBSPICE_LEV-3_TOFXEH": "spase://SMWG/Instrument/RBSP/B/RBSPICE",
+  "RBSP-A-RBSPICE_LEV-3_TOFXEION": "spase://SMWG/Instrument/RBSP/A/RBSPICE",
+  "RBSP-B-RBSPICE_LEV-3_TOFXEION": "spase://SMWG/Instrument/RBSP/B/RBSPICE",
+  "RBSP-A-RBSPICE_LEV-3_TOFXENONH": "spase://SMWG/Instrument/RBSP/A/RBSPICE",
+  "RBSP-B-RBSPICE_LEV-3_TOFXENONH": "spase://SMWG/Instrument/RBSP/B/RBSPICE",
+  "RBSP-A-RBSPICE_LEV-3_TOFXPHHHELT": "spase://SMWG/Instrument/RBSP/A/RBSPICE",
+  "RBSP-B-RBSPICE_LEV-3_TOFXPHHHELT": "spase://SMWG/Instrument/RBSP/B/RBSPICE",
+  "RBSP-A-RBSPICE_LEV-3_TOFXPHHLEHT": "spase://SMWG/Instrument/RBSP/A/RBSPICE",
+  "RBSP-B-RBSPICE_LEV-3_TOFXPHHLEHT": "spase://SMWG/Instrument/RBSP/B/RBSPICE",
+  "RBSP-A-RBSPICE_LEV-3_ESRHELT": "spase://SMWG/Instrument/RBSP/A/RBSPICE",
+  "RBSP-B-RBSPICE_LEV-3_ESRHELT": "spase://SMWG/Instrument/RBSP/B/RBSPICE",
+  "RBSP-A-RBSPICE_LEV-3_ESRLEHT": "spase://SMWG/Instrument/RBSP/A/RBSPICE",
+  "RBSP-B-RBSPICE_LEV-3_ESRLEHT": "spase://SMWG/Instrument/RBSP/B/RBSPICE",
+  "RBSP-A-RBSPICE_LEV-3_ISRHELT": "spase://SMWG/Instrument/RBSP/A/RBSPICE",
+  "RBSP-B-RBSPICE_LEV-3_ISRHELT": "spase://SMWG/Instrument/RBSP/B/RBSPICE",
+  "RBSP-A-RBSPICE_LEV-2_TOFXEH": "spase://SMWG/Instrument/RBSP/A/RBSPICE",
+  "RBSP-B-RBSPICE_LEV-2_TOFXEH": "spase://SMWG/Instrument/RBSP/B/RBSPICE",
+  "RBSP-A-RBSPICE_LEV-2_TOFXEION": "spase://SMWG/Instrument/RBSP/A/RBSPICE",
+  "RBSP-B-RBSPICE_LEV-2_TOFXEION": "spase://SMWG/Instrument/RBSP/B/RBSPICE",
+  "RBSP-A-RBSPICE_LEV-2_TOFXENONH": "spase://SMWG/Instrument/RBSP/A/RBSPICE",
+  "RBSP-B-RBSPICE_LEV-2_TOFXENONH": "spase://SMWG/Instrument/RBSP/B/RBSPICE",
+  "RBSP-A-RBSPICE_LEV-2_TOFXPHHHELT": "spase://SMWG/Instrument/RBSP/A/RBSPICE",
+  "RBSP-B-RBSPICE_LEV-2_TOFXPHHHELT": "spase://SMWG/Instrument/RBSP/B/RBSPICE",
+  "RBSP-A-RBSPICE_LEV-2_TOFXPHHLEHT": "spase://SMWG/Instrument/RBSP/A/RBSPICE",
+  "RBSP-B-RBSPICE_LEV-2_TOFXPHHLEHT": "spase://SMWG/Instrument/RBSP/B/RBSPICE",
+  "RBSP-A-RBSPICE_LEV-2_ESRHELT": "spase://SMWG/Instrument/RBSP/A/RBSPICE",
+  "RBSP-B-RBSPICE_LEV-2_ESRHELT": "spase://SMWG/Instrument/RBSP/B/RBSPICE",
+  "RBSP-A-RBSPICE_LEV-2_ESRLEHT": "spase://SMWG/Instrument/RBSP/A/RBSPICE",
+  "RBSP-B-RBSPICE_LEV-2_ESRLEHT": "spase://SMWG/Instrument/RBSP/B/RBSPICE",
+  "RBSP-A-RBSPICE_LEV-2_ISRHELT": "spase://SMWG/Instrument/RBSP/A/RBSPICE",
+  "RBSP-B-RBSPICE_LEV-2_ISRHELT": "spase://SMWG/Instrument/RBSP/B/RBSPICE",
+  "RBSPA_EFW-L2_E-HIRES-UVW": "spase://SMWG/Instrument/RBSP/A/EFW",
+  "RBSPB_EFW-L2_E-HIRES-UVW": "spase://SMWG/Instrument/RBSP/B/EFW",
+  "RBSPA_EFW-L2_E-SPINFIT-MGSE": "spase://SMWG/Instrument/RBSP/B/EMFISIS",
+  "RBSPB_EFW-L2_E-SPINFIT-MGSE": "spase://SMWG/Instrument/RBSP/B/EFW",
+  "RBSPA_EFW-L2_ESVY_DESPUN": "spase://SMWG/Instrument/RBSP/A/EFW",
+  "RBSPB_EFW-L2_ESVY_DESPUN": "spase://SMWG/Instrument/RBSP/B/EFW",
+  "RBSPA_EFW-L2_FBK": "spase://SMWG/Instrument/RBSP/A/EFW",
+  "RBSPB_EFW-L2_FBK": "spase://SMWG/Instrument/RBSP/B/EMFISIS",
+  "RBSPA_EFW-L2_SPEC": "spase://SMWG/Instrument/RBSP/B/EMFISIS",
+  "RBSPB_EFW-L2_SPEC": "spase://SMWG/Instrument/RBSP/B/EFW",
+  "RBSPA_EFW-L2_VSVY-HIRES": "spase://SMWG/Instrument/RBSP/B/EMFISIS",
+  "RBSPB_EFW-L2_VSVY-HIRES": "spase://SMWG/Instrument/RBSP/B/EFW",
+  "RBSP-A_DENSITY_EMFISIS-L4": "spase://SMWG/Instrument/RBSP/A/EMFISIS",
+  "RBSP-B_DENSITY_EMFISIS-L4": "spase://SMWG/Instrument/RBSP/B/EMFISIS",
+  "RBSP-A_MAGNETOMETER_4SEC-GEI_EMFISIS-L3": "spase://SMWG/Instrument/RBSP/A/EMFISIS",
+  "RBSP-B_MAGNETOMETER_4SEC-GEI_EMFISIS-L3": "spase://SMWG/Instrument/RBSP/B/EMFISIS",
+  "RBSP-A_MAGNETOMETER_4SEC-GEO_EMFISIS-L3": "spase://SMWG/Instrument/RBSP/A/EMFISIS",
+  "RBSP-B_MAGNETOMETER_4SEC-GEO_EMFISIS-L3": "spase://SMWG/Instrument/RBSP/B/EMFISIS",
+  "RBSP-A_MAGNETOMETER_4SEC-GSE_EMFISIS-L3": "spase://SMWG/Instrument/RBSP/A/EMFISIS",
+  "RBSP-B_MAGNETOMETER_4SEC-GSE_EMFISIS-L3": "spase://SMWG/Instrument/RBSP/B/EMFISIS",
+  "RBSP-A_MAGNETOMETER_4SEC-GSM_EMFISIS-L3": "spase://SMWG/Instrument/RBSP/A/EMFISIS",
+  "RBSP-B_MAGNETOMETER_4SEC-GSM_EMFISIS-L3": "spase://SMWG/Instrument/RBSP/B/EMFISIS",
+  "RBSP-A_MAGNETOMETER_4SEC-SM_EMFISIS-L3": "spase://SMWG/Instrument/RBSP/A/EMFISIS",
+  "RBSP-B_MAGNETOMETER_4SEC-SM_EMFISIS-L3": "spase://SMWG/Instrument/RBSP/B/EMFISIS",
+  "RBSP-A_MAGNETOMETER_1SEC-GEI_EMFISIS-L3": "spase://SMWG/Instrument/RBSP/A/EMFISIS",
+  "RBSP-B_MAGNETOMETER_1SEC-GEI_EMFISIS-L3": "spase://SMWG/Instrument/RBSP/B/EMFISIS",
+  "RBSP-A_MAGNETOMETER_1SEC-GEO_EMFISIS-L3": "spase://SMWG/Instrument/RBSP/A/EMFISIS",
+  "RBSP-B_MAGNETOMETER_1SEC-GEO_EMFISIS-L3": "spase://SMWG/Instrument/RBSP/B/EMFISIS",
+  "RBSP-A_MAGNETOMETER_1SEC-GSE_EMFISIS-L3": "spase://SMWG/Instrument/RBSP/A/EMFISIS",
+  "RBSP-B_MAGNETOMETER_1SEC-GSE_EMFISIS-L3": "spase://SMWG/Instrument/RBSP/B/EMFISIS",
+  "RBSP-A_MAGNETOMETER_1SEC-GSM_EMFISIS-L3": "spase://SMWG/Instrument/RBSP/A/EMFISIS",
+  "RBSP-B_MAGNETOMETER_1SEC-GSM_EMFISIS-L3": "spase://SMWG/Instrument/RBSP/B/EMFISIS",
+  "RBSP-A_MAGNETOMETER_1SEC-SM_EMFISIS-L3": "spase://SMWG/Instrument/RBSP/A/EMFISIS",
+  "RBSP-B_MAGNETOMETER_1SEC-SM_EMFISIS-L3": "spase://SMWG/Instrument/RBSP/B/EMFISIS",
+  "RBSP-A_MAGNETOMETER_HIRES-GEI_EMFISIS-L3": "spase://SMWG/Instrument/RBSP/A/EMFISIS",
+  "RBSP-B_MAGNETOMETER_HIRES-GEI_EMFISIS-L3": "spase://SMWG/Instrument/RBSP/B/EMFISIS",
+  "RBSP-A_MAGNETOMETER_HIRES-GEO_EMFISIS-L3": "spase://SMWG/Instrument/RBSP/A/EMFISIS",
+  "RBSP-B_MAGNETOMETER_HIRES-GEO_EMFISIS-L3": "spase://SMWG/Instrument/RBSP/B/EMFISIS",
+  "RBSP-A_MAGNETOMETER_HIRES-GSE_EMFISIS-L3": "spase://SMWG/Instrument/RBSP/A/EMFISIS",
+  "RBSP-B_MAGNETOMETER_HIRES-GSE_EMFISIS-L3": "spase://SMWG/Instrument/RBSP/B/EMFISIS",
+  "RBSP-A_MAGNETOMETER_HIRES-GSM_EMFISIS-L3": "spase://SMWG/Instrument/RBSP/A/EMFISIS",
+  "RBSP-B_MAGNETOMETER_HIRES-GSM_EMFISIS-L3": "spase://SMWG/Instrument/RBSP/B/EMFISIS",
+  "RBSP-A_MAGNETOMETER_HIRES-SM_EMFISIS-L3": "spase://SMWG/Instrument/RBSP/A/EMFISIS",
+  "RBSP-B_MAGNETOMETER_HIRES-SM_EMFISIS-L3": "spase://SMWG/Instrument/RBSP/B/EMFISIS",
+  "RBSP-A_MAGNETOMETER_UVW_EMFISIS-L2": "spase://SMWG/Instrument/RBSP/A/EMFISIS",
+  "RBSP-B_MAGNETOMETER_UVW_EMFISIS-L2": "spase://SMWG/Instrument/RBSP/B/EMFISIS",
+  "RBSP-A_HFR-SPECTRA_EMFISIS-L2": "spase://SMWG/Instrument/RBSP/A/EMFISIS",
+  "RBSP-B_HFR-SPECTRA_EMFISIS-L2": "spase://SMWG/Instrument/RBSP/B/EMFISIS",
+  "RBSP-A_HFR-SPECTRA-BURST_EMFISIS-L2": "spase://SMWG/Instrument/RBSP/A/EMFISIS",
+  "RBSP-B_HFR-SPECTRA-BURST_EMFISIS-L2": "spase://SMWG/Instrument/RBSP/B/EMFISIS",
+  "RBSP-A_HFR-SPECTRA-MERGED_EMFISIS-L2": "spase://SMWG/Instrument/RBSP/A/EMFISIS",
+  "RBSP-B_HFR-SPECTRA-MERGED_EMFISIS-L2": "spase://SMWG/Instrument/RBSP/B/EMFISIS",
+  "RBSP-A_WFR-SPECTRAL-MATRIX_EMFISIS-L2": "spase://SMWG/Instrument/RBSP/A/EMFISIS",
+  "RBSP-B_WFR-SPECTRAL-MATRIX_EMFISIS-L2": "spase://SMWG/Instrument/RBSP/B/EMFISIS",
+  "RBSP-A_WFR-SPECTRAL-MATRIX-DIAGONAL_EMFISIS-L2": "spase://SMWG/Instrument/RBSP/A/EMFISIS",
+  "RBSP-B_WFR-SPECTRAL-MATRIX-DIAGONAL_EMFISIS-L2": "spase://SMWG/Instrument/RBSP/B/EMFISIS",
+  "RBSP-A_WFR-SPECTRAL-MATRIX-DIAGONAL-MERGED_EMFISIS-L2": "spase://SMWG/Instrument/RBSP/A/EMFISIS",
+  "RBSP-B_WFR-SPECTRAL-MATRIX-DIAGONAL-MERGED_EMFISIS-L2": "spase://SMWG/Instrument/RBSP/B/EMFISIS",
+  "RBSP-A_HFR-WAVEFORM_EMFISIS-L2": "spase://SMWG/Instrument/RBSP/A/EMFISIS",
+  "RBSP-B_HFR-WAVEFORM_EMFISIS-L2": "spase://SMWG/Instrument/RBSP/B/EMFISIS",
+  "RBSP-A_WFR-WAVEFORM_EMFISIS-L2": "spase://SMWG/Instrument/RBSP/A/EMFISIS",
+  "RBSP-B_WFR-WAVEFORM_EMFISIS-L2": "spase://SMWG/Instrument/RBSP/B/EMFISIS",
+  "RBSP-A_WFR-WAVEFORM-CONTINUOUS-BURST_EMFISIS-L2": "spase://SMWG/Instrument/RBSP/A/EMFISIS",
+  "RBSP-B_WFR-WAVEFORM-CONTINUOUS-BURST_EMFISIS-L2": "spase://SMWG/Instrument/RBSP/B/EMFISIS",
+  "RBSPA_L2_PSBR-RPS": [
+    "spase://SMWG/Instrument/RBSP/A/Ephemeris",
+    "spase://SMWG/Instrument/RBSP/A/RPS"
+  ],
+  "RBSPB_L2_PSBR-RPS": [
+    "spase://SMWG/Instrument/RBSP/B/Ephemeris",
+    "spase://SMWG/Instrument/RBSP/B/RPS"
+  ],
+  "RBSPA_L2-1MIN_PSBR-RPS": [
+    "spase://SMWG/Instrument/RBSP/A/Ephemeris",
+    "spase://SMWG/Instrument/RBSP/A/RPS"
+  ],
+  "RBSPB_L2-1MIN_PSBR-RPS": [
+    "spase://SMWG/Instrument/RBSP/B/Ephemeris",
+    "spase://SMWG/Instrument/RBSP/B/RPS"
+  ],
+  "RENU2_H0_EFIELD": "spase://SMWG/Instrument/RENU2/COWBOY",
+  "RENU2_H0_EPLAS": "spase://SMWG/Instrument/RENU2/EPLAS",
+  "RENU2_H0_ERPAMAIN": "spase://SMWG/Instrument/RENU2/ERPA",
+  "RENU2_H0_ERPASUB": "spase://SMWG/Instrument/RENU2/ERPA",
+  "RENU2_H0_FGM": "spase://SMWG/Instrument/RENU2/FGM",
+  "RENU2_H0_PMT": "spase://SMWG/Instrument/RENU2/PMT",
+  "RENU2_H0_VLF": "spase://SMWG/Instrument/RENU2/COWBOY",
+  "RENU2_H0_IG2": "spase://SMWG/Instrument/RENU2/IG2",
+  "RENU2_H0_UVPMT": "spase://SMWG/Instrument/RENU2/UVPMT",
+  "SE_K0_AIS": "spase://SMWG/Instrument/SESAME/AIS",
+  "SE_K0_FPI": "spase://SMWG/Instrument/SESAME/FPI",
+  "SE_K0_MAG": "spase://SMWG/Instrument/SESAME/MAG",
+  "SE_K0_RIO": "spase://SMWG/Instrument/SESAME/RIO",
+  "SE_K0_VLF": "spase://SMWG/Instrument/SESAME/VLF-ELF",
+  "SNOE_L3_GEO": "spase://SMWG/Instrument/SNOE/UVS",
+  "SNOE_L3_MAG": "spase://SMWG/Instrument/SNOE/UVS",
+  "SO_K0_CEL": "spase://SMWG/Instrument/SOHO/CELIAS",
+  "SO_K0_CST": "spase://SMWG/Instrument/SOHO/COSTEP",
+  "SO_K0_ERN": "spase://SMWG/Instrument/SOHO/ERNE",
+  "SO_OR_DEF": "spase://SMWG/Instrument/SOHO/Ephemeris",
+  "SO_OR_PRE": "spase://SMWG/Instrument/SOHO/Ephemeris",
+  "SO_AT_DEF": "spase://SMWG/Instrument/SOHO/Ephemeris",
+  "SOHO_CELIAS-SEM_15S": "spase://SMWG/Instrument/SOHO/CELIAS",
+  "SOHO_CELIAS-SEM_1DAY": "spase://SMWG/Instrument/SOHO/CELIAS",
+  "SOHO_CELIAS-PM_30S": "spase://SMWG/Instrument/SOHO/CELIAS",
+  "SOHO_CELIAS-PM_5MIN": "spase://SMWG/Instrument/SOHO/CELIAS",
+  "SOHO_COSTEP-EPHIN_L3I-1MIN": "spase://SMWG/Instrument/SOHO/COSTEP",
+  "SOHO_COSTEP-EPHIN_L3I-5MIN": "spase://SMWG/Instrument/SOHO/COSTEP",
+  "SOHO_COSTEP-EPHIN_L3I-10MIN": "spase://SMWG/Instrument/SOHO/COSTEP",
+  "SOHO_COSTEP-EPHIN_L3I-30MIN": "spase://SMWG/Instrument/SOHO/COSTEP",
+  "SOHO_COSTEP-EPHIN_L3I-1HR": "spase://SMWG/Instrument/SOHO/COSTEP",
+  "SOHO_COSTEP-EPHIN_L3I-1DAY": "spase://SMWG/Instrument/SOHO/COSTEP",
+  "SOHO_ERNE-LED_L2-1MIN": "spase://SMWG/Instrument/SOHO/ERNE",
+  "SOHO_ERNE-HED_L2-1MIN": "spase://SMWG/Instrument/SOHO/ERNE",
+  "SOHO_ERNE_HEAVY-ION-1HR": "spase://SMWG/Instrument/SOHO/ERNE",
+  "SOHO_ERNE_HEAVY-ION-5MIN": "spase://SMWG/Instrument/SOHO/ERNE",
+  "SOLO_HELIO1DAY_POSITION": "spase://SMWG/Instrument/SolarOrbiter/Ephemeris",
+  "ST5-155_1SEC_MAG": "spase://SMWG/Instrument/ST5-155/Ephemeris",
+  "ST5-224_1SEC_MAG": "spase://SMWG/Instrument/ST5-224/Ephemeris",
+  "ST5-094_1SEC_MAG": "spase://SMWG/Instrument/ST5-094/Ephemeris",
+  "STA_LB_MAG_RTN": "spase://SMWG/Instrument/STEREO-A/IMPACT/MAG",
+  "STA_LB_IMPACT": "spase://SMWG/Instrument/STEREO-A/IMPACT",
+  "STB_LB_IMPACT": "spase://SMWG/Instrument/STEREO-B/IMPACT",
+  "STA_L1_IMPACT_BURST": [
+    "spase://SMWG/Instrument/STEREO-A/IMPACT/MAG",
+    "spase://SMWG/Instrument/STEREO-A/IMPACT/STE",
+    "spase://SMWG/Instrument/STEREO-A/IMPACT/SWEA",
+    "spase://SMWG/Instrument/STEREO-A/IMPACT",
+    "spase://SMWG/Instrument/STEREO-A/PLASTIC",
+    "spase://SMWG/Instrument/STEREO-A/SWAVES"
+  ],
+  "STB_L1_IMPACT_BURST": [
+    "spase://SMWG/Instrument/STEREO-B/IMPACT/MAG",
+    "spase://SMWG/Instrument/STEREO-B/IMPACT/STE",
+    "spase://SMWG/Instrument/STEREO-B/IMPACT/SWEA",
+    "spase://SMWG/Instrument/STEREO-B/IMPACT",
+    "spase://SMWG/Instrument/STEREO-B/PLASTIC",
+    "spase://SMWG/Instrument/STEREO-B/SWAVES"
+  ],
+  "STA_L1_IMPACT_HKP": [
+    "spase://SMWG/Instrument/STEREO-A/IMPACT",
+    "spase://SMWG/Instrument/STEREO-A/PLASTIC"
+  ],
+  "STB_L1_IMPACT_HKP": [
+    "spase://SMWG/Instrument/STEREO-B/IMPACT",
+    "spase://SMWG/Instrument/STEREO-B/PLASTIC"
+  ],
+  "STA_L1_SWEA_DIST": "spase://SMWG/Instrument/STEREO-A/IMPACT/SWEA",
+  "STB_L1_SWEA_DIST": "spase://SMWG/Instrument/STEREO-B/IMPACT/SWEA",
+  "STA_L1_SWEA_DISB": "spase://SMWG/Instrument/STEREO-A/IMPACT/SWEA",
+  "STB_L1_SWEA_DISB": "spase://SMWG/Instrument/STEREO-B/IMPACT/SWEA",
+  "STA_L1_SWEA_SPEC": "spase://SMWG/Instrument/STEREO-A/IMPACT/SWEA",
+  "STB_L1_SWEA_SPEC": "spase://SMWG/Instrument/STEREO-B/IMPACT/SWEA",
+  "STA_L2_SWEA_PAD": "spase://SMWG/Instrument/STEREO-A/IMPACT/SWEA",
+  "STB_L2_SWEA_PAD": "spase://SMWG/Instrument/STEREO-B/IMPACT/SWEA",
+  "STA_L1_LET": "spase://SMWG/Instrument/STEREO-A/IMPACT/LET",
+  "STB_L1_LET": "spase://SMWG/Instrument/STEREO-B/IMPACT/LET",
+  "STA_L1_HET": "spase://SMWG/Instrument/STEREO-A/IMPACT/HET",
+  "STB_L1_HET": "spase://SMWG/Instrument/STEREO-B/IMPACT/HET",
+  "STA_L1_SEPT": "spase://SMWG/Instrument/STEREO-A/IMPACT/SEPT",
+  "STB_L1_SEPT": "spase://SMWG/Instrument/STEREO-B/IMPACT/SEPT",
+  "STA_L1_SIT": "spase://SMWG/Instrument/STEREO-A/IMPACT/SIT",
+  "STB_L1_SIT": "spase://SMWG/Instrument/STEREO-B/IMPACT/SIT",
+  "STA_L1_STE": "spase://SMWG/Instrument/STEREO-A/IMPACT/STE",
+  "STB_L1_STE": "spase://SMWG/Instrument/STEREO-B/IMPACT/STE",
+  "STA_L1_MAG_SC": "spase://SMWG/Instrument/STEREO-A/IMPACT/MAG",
+  "STB_L1_MAG_SC": "spase://SMWG/Instrument/STEREO-B/IMPACT/MAG",
+  "STA_L1_MAGB_SC": "spase://SMWG/Instrument/STEREO-A/IMPACT/MAG",
+  "STB_L1_MAGB_SC": "spase://SMWG/Instrument/STEREO-B/IMPACT/MAG",
+  "STA_L1_MAG_RTN": "spase://SMWG/Instrument/STEREO-A/IMPACT/MAG",
+  "STB_L1_MAG_RTN": "spase://SMWG/Instrument/STEREO-B/IMPACT/MAG",
+  "STA_L1_MAGB_RTN": "spase://SMWG/Instrument/STEREO-A/IMPACT/MAG",
+  "STB_L1_MAGB_RTN": "spase://SMWG/Instrument/STEREO-B/IMPACT/MAG",
+  "STA_L2_PLA_1DMAX_1MIN": "spase://SMWG/Instrument/STEREO-A/PLASTIC",
+  "STB_L2_PLA_1DMAX_1MIN": "spase://SMWG/Instrument/STEREO-B/PLASTIC",
+  "STA_L2_PLA_1DMAX_10MIN": "spase://SMWG/Instrument/STEREO-A/PLASTIC",
+  "STB_L2_PLA_1DMAX_10MIN": "spase://SMWG/Instrument/STEREO-B/PLASTIC",
+  "STA_L2_PLA_1DMAX_1HR": "spase://SMWG/Instrument/STEREO-A/PLASTIC",
+  "STB_L2_PLA_1DMAX_1HR": "spase://SMWG/Instrument/STEREO-B/PLASTIC",
+  "STA_L2_PLA_IRON_Q_2HR": "spase://SMWG/Instrument/STEREO-A/PLASTIC",
+  "STB_L2_PLA_IRON_Q_2HR": "spase://SMWG/Instrument/STEREO-B/PLASTIC",
+  "STA_LB_PLA_BROWSE": "spase://SMWG/Instrument/STEREO-A/PLASTIC",
+  "STB_LB_PLA_BROWSE": "spase://SMWG/Instrument/STEREO-B/PLASTIC",
+  "STA_L2_MAGPLASMA_1M": [
+    "spase://SMWG/Instrument/STEREO-A/Ephemeris",
+    "spase://SMWG/Instrument/STEREO-A/IMPACT",
+    "spase://SMWG/Instrument/STEREO-A/PLASTIC"
+  ],
+  "STB_L2_MAGPLASMA_1M": [
+    "spase://SMWG/Instrument/STEREO-B/Ephemeris",
+    "spase://SMWG/Instrument/STEREO-B/IMPACT",
+    "spase://SMWG/Instrument/STEREO-B/PLASTIC"
+  ],
+  "STA_L3_PLA_HEPLUS_24HR": "spase://SMWG/Instrument/STEREO-A/PLASTIC",
+  "STA_L3_PLA_HEPLUS_F_VSW_01HR": "spase://SMWG/Instrument/STEREO-A/PLASTIC",
+  "STA_L3_PLA_HEPLUS_F_VSW_24HR": "spase://SMWG/Instrument/STEREO-A/PLASTIC",
+  "STA_L3_PLA_HE2PL_F_VSW_01HR": "spase://SMWG/Instrument/STEREO-A/PLASTIC",
+  "STA_L3_PLA_HEPLUS_F_VSW_10MIN": "spase://SMWG/Instrument/STEREO-A/PLASTIC",
+  "STA_L3_PLA_HEPLUS_SW_VELCTDIST_5MIN": "spase://SMWG/Instrument/STEREO-A/PLASTIC",
+  "STA_L3_WAV_HFR": "spase://SMWG/Instrument/STEREO-A/SWAVES",
+  "STA_L3_WAV_LFR": "spase://SMWG/Instrument/STEREO-A/SWAVES",
+  "STB_L3_WAV_LFR": "spase://SMWG/Instrument/STEREO-B/SWAVES",
+  "SX_K0_30F": [
+    "spase://SMWG/Instrument/SAMPEX/MAST",
+    "spase://SMWG/Instrument/SAMPEX/HILT",
+    "spase://SMWG/Instrument/SAMPEX/PET",
+    "spase://SMWG/Instrument/SAMPEX/LICA"
+  ],
+  "SX_K0_POF": [
+    "spase://SMWG/Instrument/SAMPEX/MAST",
+    "spase://SMWG/Instrument/SAMPEX/HILT",
+    "spase://SMWG/Instrument/SAMPEX/PET",
+    "spase://SMWG/Instrument/SAMPEX/LICA"
+  ],
+  "STA_COHO1HR_MERGED_MAG_PLASMA": [
+    "spase://SMWG/Instrument/STEREO-A/Ephemeris",
+    "spase://SMWG/Instrument/STEREO-A/IMPACT",
+    "spase://SMWG/Instrument/STEREO-A/PLASTIC"
+  ],
+  "STB_COHO1HR_MERGED_MAG_PLASMA": [
+    "spase://SMWG/Instrument/STEREO-A/PLASTIC",
+    "spase://SMWG/Instrument/STEREO-B/Ephemeris",
+    "spase://SMWG/Instrument/STEREO-B/IMPACT"
+  ],
+  "STEREO_LEVEL2_SWAVES": [
+    "spase://SMWG/Instrument/STEREO-A/SWAVES",
+    "spase://SMWG/Instrument/STEREO-B/SWAVES"
+  ],
+  "THA_OR_SSC": "spase://SMWG/Instrument/THEMIS/A/Ephemeris",
+  "THB_OR_SSC": "spase://SMWG/Instrument/THEMIS/B/Ephemeris",
+  "THC_OR_SSC": "spase://SMWG/Instrument/THEMIS/C/Ephemeris",
+  "THD_OR_SSC": "spase://SMWG/Instrument/THEMIS/D/Ephemeris",
+  "THE_OR_SSC": "spase://SMWG/Instrument/THEMIS/E/Ephemeris",
+  "THA_L2_EFI": "spase://SMWG/Instrument/THEMIS/A/EFI",
+  "THB_L2_EFI": "spase://SMWG/Instrument/THEMIS/B/EFI",
+  "THC_L2_EFI": "spase://SMWG/Instrument/THEMIS/C/EFI",
+  "THD_L2_EFI": "spase://SMWG/Instrument/THEMIS/D/EFI",
+  "THE_L2_EFI": "spase://SMWG/Instrument/THEMIS/E/EFI",
+  "THA_L2_ESA": "spase://SMWG/Instrument/THEMIS/A/ESA",
+  "THB_L2_ESA": "spase://SMWG/Instrument/THEMIS/B/ESA",
+  "THC_L2_ESA": "spase://SMWG/Instrument/THEMIS/C/ESA",
+  "THD_L2_ESA": "spase://SMWG/Instrument/THEMIS/D/ESA",
+  "THE_L2_ESA": "spase://SMWG/Instrument/THEMIS/E/ESA",
+  "THA_L2_FBK": [
+    "spase://SMWG/Instrument/THEMIS/A/EFI",
+    "spase://SMWG/Instrument/THEMIS/A/SCM"
+  ],
+  "THB_L2_FBK": [
+    "spase://SMWG/Instrument/THEMIS/B/EFI",
+    "spase://SMWG/Instrument/THEMIS/B/SCM"
+  ],
+  "THC_L2_FBK": [
+    "spase://SMWG/Instrument/THEMIS/C/EFI",
+    "spase://SMWG/Instrument/THEMIS/C/SCM"
+  ],
+  "THD_L2_FBK": [
+    "spase://SMWG/Instrument/THEMIS/D/EFI",
+    "spase://SMWG/Instrument/THEMIS/D/SCM"
+  ],
+  "THE_L2_FBK": [
+    "spase://SMWG/Instrument/THEMIS/E/EFI",
+    "spase://SMWG/Instrument/THEMIS/E/SCM"
+  ],
+  "THA_L2_FFT": [
+    "spase://SMWG/Instrument/THEMIS/A/EFI",
+    "spase://SMWG/Instrument/THEMIS/A/SCM"
+  ],
+  "THB_L2_FFT": [
+    "spase://SMWG/Instrument/THEMIS/B/EFI",
+    "spase://SMWG/Instrument/THEMIS/B/SCM"
+  ],
+  "THC_L2_FFT": [
+    "spase://SMWG/Instrument/THEMIS/C/EFI",
+    "spase://SMWG/Instrument/THEMIS/C/SCM"
+  ],
+  "THD_L2_FFT": [
+    "spase://SMWG/Instrument/THEMIS/D/EFI",
+    "spase://SMWG/Instrument/THEMIS/D/SCM"
+  ],
+  "THE_L2_FFT": [
+    "spase://SMWG/Instrument/THEMIS/E/EFI",
+    "spase://SMWG/Instrument/THEMIS/E/SCM"
+  ],
+  "THA_L2_FGM": "spase://SMWG/Instrument/THEMIS/A/FGM",
+  "THB_L2_FGM": "spase://SMWG/Instrument/THEMIS/B/FGM",
+  "THC_L2_FGM": "spase://SMWG/Instrument/THEMIS/C/FGM",
+  "THD_L2_FGM": "spase://SMWG/Instrument/THEMIS/D/FGM",
+  "THE_L2_FGM": "spase://SMWG/Instrument/THEMIS/E/FGM",
+  "THA_L2_FIT": [
+    "spase://SMWG/Instrument/THEMIS/A/EFI",
+    "spase://SMWG/Instrument/THEMIS/A/FGM"
+  ],
+  "THB_L2_FIT": [
+    "spase://SMWG/Instrument/THEMIS/B/EFI",
+    "spase://SMWG/Instrument/THEMIS/B/FGM"
+  ],
+  "THC_L2_FIT": [
+    "spase://SMWG/Instrument/THEMIS/C/EFI",
+    "spase://SMWG/Instrument/THEMIS/C/FGM"
+  ],
+  "THD_L2_FIT": [
+    "spase://SMWG/Instrument/THEMIS/D/EFI",
+    "spase://SMWG/Instrument/THEMIS/D/FGM"
+  ],
+  "THE_L2_FIT": [
+    "spase://SMWG/Instrument/THEMIS/E/EFI",
+    "spase://SMWG/Instrument/THEMIS/E/FGM"
+  ],
+  "THA_L2_GMOM": [
+    "spase://SMWG/Instrument/THEMIS/A/ESA",
+    "spase://SMWG/Instrument/THEMIS/A/SST"
+  ],
+  "THB_L2_GMOM": [
+    "spase://SMWG/Instrument/THEMIS/B/ESA",
+    "spase://SMWG/Instrument/THEMIS/B/SST"
+  ],
+  "THC_L2_GMOM": [
+    "spase://SMWG/Instrument/THEMIS/C/ESA",
+    "spase://SMWG/Instrument/THEMIS/C/SST"
+  ],
+  "THD_L2_GMOM": [
+    "spase://SMWG/Instrument/THEMIS/D/ESA",
+    "spase://SMWG/Instrument/THEMIS/D/SST"
+  ],
+  "THE_L2_GMOM": [
+    "spase://SMWG/Instrument/THEMIS/E/ESA",
+    "spase://SMWG/Instrument/THEMIS/E/SST"
+  ],
+  "THB_L2_MERGED": [
+    "spase://SMWG/Instrument/THEMIS/B/ESA",
+    "spase://SMWG/Instrument/THEMIS/B/FGM"
+  ],
+  "THC_L2_MERGED": [
+    "spase://SMWG/Instrument/THEMIS/C/ESA",
+    "spase://SMWG/Instrument/THEMIS/C/FGM"
+  ],
+  "THA_L2_SCM": "spase://SMWG/Instrument/THEMIS/A/SCM",
+  "THB_L2_SCM": "spase://SMWG/Instrument/THEMIS/B/SCM",
+  "THC_L2_SCM": "spase://SMWG/Instrument/THEMIS/C/SCM",
+  "THD_L2_SCM": "spase://SMWG/Instrument/THEMIS/D/SCM",
+  "THE_L2_SCM": "spase://SMWG/Instrument/THEMIS/E/SCM",
+  "THA_L2_SST": "spase://SMWG/Instrument/THEMIS/A/SST",
+  "THB_L2_SST": "spase://SMWG/Instrument/THEMIS/B/SST",
+  "THC_L2_SST": "spase://SMWG/Instrument/THEMIS/C/SST",
+  "THD_L2_SST": "spase://SMWG/Instrument/THEMIS/D/SST",
+  "THE_L2_SST": "spase://SMWG/Instrument/THEMIS/E/SST",
+  "THA_L2_MOM": "spase://SMWG/Instrument/THEMIS/A/MOM",
+  "THB_L2_MOM": "spase://SMWG/Instrument/THEMIS/B/MOM",
+  "THC_L2_MOM": "spase://SMWG/Instrument/THEMIS/C/MOM",
+  "THD_L2_MOM": "spase://SMWG/Instrument/THEMIS/D/MOM",
+  "THE_L2_MOM": "spase://SMWG/Instrument/THEMIS/E/MOM",
+  "THA_L1_STATE": "spase://SMWG/Instrument/THEMIS/A/Ephemeris",
+  "THB_L1_STATE": "spase://SMWG/Instrument/THEMIS/B/Ephemeris",
+  "THC_L1_STATE": "spase://SMWG/Instrument/THEMIS/C/Ephemeris",
+  "THD_L1_STATE": "spase://SMWG/Instrument/THEMIS/D/Ephemeris",
+  "THE_L1_STATE": "spase://SMWG/Instrument/THEMIS/E/Ephemeris",
+  "THG_L1_ASK": [
+    "spase://SMWG/Instrument/THEMIS/Ground/UCLA-GBO/CHBG/ASI",
+    "spase://SMWG/Instrument/THEMIS/Ground/CANMAG/ATHA/ASI"
+  ],
+  "THG_L2_MAG_HOV": "spase://SMWG/Instrument/Ground/Hov.Faroe.Islands/Magnetometer",
+  "THG_L2_MAG_JAN": "spase://SMWG/Instrument/Ground/Jan.Mayen/Magnetometer",
+  "THG_L2_MAG_NRD": "spase://SMWG/Instrument/Ground/Nord/Magnetometer",
+  "THG_L2_MAG_DMH": "spase://SMWG/Instrument/Ground/Danmarkshavn/Magnetometer",
+  "THG_L2_MAG_DNB": "spase://SMWG/Instrument/Ground/Daneborg/Magnetometer",
+  "THG_L2_MAG_LRV": "spase://SMWG/Instrument/Ground/Leirvogur/Magnetometer",
+  "THG_L2_MAG_SCO": "spase://SMWG/Instrument/Ground/Ittoqqortoormiit/Magnetometer",
+  "THG_L2_MAG_AMK": "spase://SMWG/Instrument/Ground/Tasiilaq/Magnetometer",
+  "THG_L2_MAG_SUM": "spase://SMWG/Instrument/Ground/Summit/Magnetometer",
+  "THG_L2_MAG_NAQ": "spase://SMWG/Instrument/Ground/Narsarsuaq/Magnetometer",
+  "THG_L2_MAG_NRSQ": "spase://SMWG/Instrument/Ground/Narsarsuaq/Magnetometer",
+  "THG_L2_MAG_FHB": "spase://SMWG/Instrument/Ground/Paamiut/Magnetometer",
+  "THG_L2_MAG_STF": "spase://SMWG/Instrument/Ground/Kangerlussuaq/Magnetometer",
+  "THG_L2_MAG_GHB": "spase://SMWG/Instrument/Ground/Nuuk/Magnetometer",
+  "THG_L2_MAG_UMQ": "spase://SMWG/Instrument/Ground/Uummannaq/Magnetometer",
+  "THG_L2_MAG_STJ": "spase://SMWG/Instrument/Ground/St.Johns/Magnetometer",
+  "THG_L2_MAG_SKT": "spase://SMWG/Instrument/Ground/Maniitsoq/Magnetometer",
+  "THG_L2_MAG_GDH": "spase://SMWG/Instrument/Ground/Qeqertarsuaq/Magnetometer",
+  "THG_L2_MAG_ATU": "spase://SMWG/Instrument/Ground/Attu/Magnetometer",
+  "THG_L2_MAG_UPN": "spase://SMWG/Instrument/Ground/Upernavik/Magnetometer",
+  "THG_L2_MAG_KUV": "spase://SMWG/Instrument/Ground/Kullorsuaq/Magnetometer",
+  "THG_L2_MAG_GBAY": "spase://SMWG/Instrument/Ground/Goose.Bay/Magnetometer",
+  "THG_L2_MAG_NAIN": "spase://SMWG/Instrument/Ground/Nain/Magnetometer",
+  "THG_L2_MAG_SVS": "spase://SMWG/Instrument/Ground/Savissivik/Magnetometer",
+  "THG_L2_MAG_PANG": "spase://SMWG/Instrument/Ground/Pangnirtung/Magnetometer",
+  "THG_L2_MAG_SEPT": "spase://SMWG/Instrument/Ground/Sept.Iles/Magnetometer",
+  "THG_L2_MAG_SCHF": "spase://SMWG/Instrument/Ground/Schefferville/Magnetometer",
+  "THG_L2_MAG_KUUJ": "spase://SMWG/Instrument/Ground/Kuujjuaq/Magnetometer",
+  "THG_L2_MAG_IQA": "spase://SMWG/Instrument/Ground/Iqaluit/Magnetometer",
+  "THG_L2_MAG_CRVR": "spase://SMWG/Instrument/Ground/Clyde.River/Magnetometer",
+  "THG_L2_MAG_TAB": "spase://SMWG/Instrument/Ground/Thule.Air.Base/Magnetometer",
+  "THG_L2_MAG_THL": "spase://SMWG/Instrument/Ground/Qaanaaq/Magnetometer",
+  "THG_L2_MAG_STFL": "spase://SMWG/Instrument/Ground/Saint.Felicien/Magnetometer",
+  "THG_L2_MAG_CHBG": "spase://SMWG/Instrument/Ground/Chibougamau/Magnetometer",
+  "THG_L2_MAG_OTT": "spase://SMWG/Instrument/Ground/Ottawa/Magnetometer",
+  "THG_L2_MAG_SALU": "spase://SMWG/Instrument/Ground/Salluit/Magnetometer",
+  "THG_L2_MAG_CDRT": "spase://SMWG/Instrument/Ground/Cape.Dorset/Magnetometer",
+  "THG_L2_MAG_PUVR": "spase://SMWG/Instrument/Ground/Puvirnituq/Magnetometer",
+  "THG_L2_MAG_KJPK": "spase://SMWG/Instrument/Ground/Kuujjuarapik/Magnetometer",
+  "THG_L2_MAG_RADI": "spase://SMWG/Instrument/Ground/Radisson/Magnetometer",
+  "THG_L2_MAG_VLDR": "spase://SMWG/Instrument/Ground/Val.d.Or/Magnetometer",
+  "THG_L2_MAG_AKUL": "spase://SMWG/Instrument/Ground/Akulivik/Magnetometer",
+  "THG_L2_MAG_INUK": "spase://SMWG/Instrument/Ground/Inukjuak/Magnetometer",
+  "THG_L2_MAG_SNKQ": "spase://SMWG/Instrument/Ground/Sanikiluaq/Magnetometer",
+  "THG_L2_MAG_IGLO": "spase://SMWG/Instrument/Ground/Igloolik/Magnetometer",
+  "THG_L2_MAG_KAPU": "spase://SMWG/Instrument/Ground/Kapuskasing/Magnetometer",
+  "THG_L2_MAG_CHBR": "spase://SMWG/Instrument/Ground/Coral.Harbour/Magnetometer",
+  "THG_L2_MAG_HRP": "spase://SMWG/Instrument/Ground/Hornepayne/Magnetometer",
+  "THG_L2_MAG_RBAY": "spase://SMWG/Instrument/Ground/Repulse.Bay/Magnetometer",
+  "THG_L2_MAG_RANK": "spase://SMWG/Instrument/Ground/Rankin.Inlet/Magnetometer",
+  "THG_L2_MAG_FCC": "spase://SMWG/Instrument/Ground/Fort.Churchill/Magnetometer",
+  "THG_L2_MAG_GILL": "spase://SMWG/Instrument/Ground/Gillam/Magnetometer",
+  "THG_L2_MAG_GJOA": "spase://SMWG/Instrument/Ground/Gjoa.Haven/Magnetometer",
+  "THG_L2_MAG_BLC": "spase://SMWG/Instrument/Ground/Baker.Lake/Magnetometer",
+  "THG_L2_MAG_PINA": "spase://SMWG/Instrument/Ground/Pinawa/Magnetometer",
+  "THG_L2_MAG_TPAS": "spase://SMWG/Instrument/Ground/The.Pas/Magnetometer",
+  "THG_L2_MAG_CBB": "spase://SMWG/Instrument/Ground/Cambridge.Bay/Magnetometer",
+  "THG_L2_MAG_LARG": "spase://SMWG/Instrument/Ground/La.Ronge/Magnetometer",
+  "THG_L2_MAG_LRG": "spase://SMWG/Instrument/Ground/La.Ronge/Magnetometer",
+  "THG_L2_MAG_LCL": "spase://SMWG/Instrument/Ground/Lucky.Lake/Magnetometer",
+  "THG_L2_MAG_PKS": "spase://SMWG/Instrument/Ground/Park.Site/Magnetometer",
+  "THG_L2_MAG_EKAT": "spase://SMWG/Instrument/Ground/Ekati/Magnetometer",
+  "THG_L2_MAG_SNAP": "spase://SMWG/Instrument/Ground/Snap.Lake/Magnetometer",
+  "THG_L2_MAG_FSMI": "spase://SMWG/Instrument/Ground/Fort.Smith/Magnetometer",
+  "THG_L2_MAG_LETH": "spase://SMWG/Instrument/Ground/Lethbridge/Magnetometer",
+  "THG_L2_MAG_ATHA": "spase://SMWG/Instrument/Ground/Athabasca/Magnetometer",
+  "THG_L2_MAG_MEA": "spase://SMWG/Instrument/Ground/Meanook/Magnetometer",
+  "THG_L2_MAG_REDR": "spase://SMWG/Instrument/Ground/Red.Deer/Magnetometer",
+  "THG_L2_MAG_ROTH": "spase://SMWG/Instrument/Ground/Priddis/Magnetometer",
+  "THG_L2_MAG_YKNF": "spase://SMWG/Instrument/Ground/Yellowknife/Magnetometer",
+  "THG_L2_MAG_YKC": "spase://SMWG/Instrument/Ground/Yellowknife/Magnetometer",
+  "THG_L2_MAG_FSJ": "spase://SMWG/Instrument/Ground/Fort.St.John/Magnetometer",
+  "THG_L2_MAG_FSIM": "spase://SMWG/Instrument/Ground/Fort.Simpson/Magnetometer",
+  "THG_L2_MAG_FTN": "spase://SMWG/Instrument/Ground/Fort.Nelson/Magnetometer",
+  "THG_L2_MAG_PGEO": "spase://SMWG/Instrument/Ground/Prince.George/Magnetometer",
+  "THG_L2_MAG_VIC": "spase://SMWG/Instrument/Ground/Victoria/Magnetometer",
+  "THG_L2_MAG_PTRS": "spase://SMWG/Instrument/Ground/Petersburg/Magnetometer",
+  "THG_L2_MAG_INUV": "spase://SMWG/Instrument/Ground/Inuvik/Magnetometer",
+  "THG_L2_MAG_WHS": "spase://SMWG/Instrument/Ground/Whitehorse/Magnetometer",
+  "THG_L2_MAG_WHIT": "spase://SMWG/Instrument/Ground/Whitehorse/Magnetometer",
+  "THG_L2_MAG_SIT": "spase://SMWG/Instrument/Ground/Sitka/Magnetometer",
+  "THG_L2_MAG_EAGL": "spase://SMWG/Instrument/Ground/Eagle/Magnetometer",
+  "THG_L2_MAG_KAKO": "spase://SMWG/Instrument/Ground/Kaktovik/Magnetometer",
+  "THG_L2_MAG_GAKO": "spase://SMWG/Instrument/Ground/Gakona/Magnetometer",
+  "THG_L2_MAG_FYKN": "spase://SMWG/Instrument/Ground/Fort.Yukon/Magnetometer",
+  "THG_L2_MAG_ARCT": "spase://SMWG/Instrument/Ground/Arctic.Village/Magnetometer",
+  "THG_L2_MAG_POKR": "spase://SMWG/Instrument/Ground/Poker.Flat/Magnetometer",
+  "THG_L2_MAG_CMO": "spase://SMWG/Instrument/Ground/College/Magnetometer",
+  "THG_L2_MAG_CIGO": "spase://SMWG/Instrument/Ground/College/Magnetometer",
+  "THG_L2_MAG_DED": "spase://SMWG/Instrument/Ground/Dead.Horse/Magnetometer",
+  "THG_L2_MAG_TOOL": "spase://SMWG/Instrument/Ground/Toolik.Lake/Magnetometer",
+  "THG_L2_MAG_HLMS": "spase://SMWG/Instrument/Ground/Anchorage/Magnetometer",
+  "THG_L2_MAG_TRAP": "spase://SMWG/Instrument/Ground/Trapper.Creek/Magnetometer",
+  "THG_L2_MAG_HOMR": "spase://SMWG/Instrument/Ground/Homer/Magnetometer",
+  "THG_L2_MAG_KENA": "spase://SMWG/Instrument/Ground/Kenai/Magnetometer",
+  "THG_L2_MAG_BETT": "spase://SMWG/Instrument/Ground/Bettles/Magnetometer",
+  "THG_L2_MAG_MCGR": "spase://SMWG/Instrument/Ground/McGrath/Magnetometer",
+  "THG_L2_MAG_BRW": "spase://SMWG/Instrument/Ground/Barrow/Magnetometer",
+  "THG_L2_MAG_KIAN": "spase://SMWG/Instrument/Ground/Kiana/Magnetometer",
+  "THG_L2_MAG_SHU": "spase://SMWG/Instrument/Ground/Shumagin/Magnetometer",
+  "THG_L2_MAG_PBK": "spase://SMWG/Instrument/Ground/Pevek/Magnetometer",
+  "THG_L2_MAG_TIK": "spase://SMWG/Instrument/Ground/Tiksi/Magnetometer",
+  "THG_L2_MAG_DIK": "spase://SMWG/Instrument/Ground/Dikson/Magnetometer",
+  "THG_L2_MAG_VIZ": "spase://SMWG/Instrument/Ground/Vize.Island/Magnetometer",
+  "THG_L2_MAG_AMD": "spase://SMWG/Instrument/Ground/Amderma/Magnetometer",
+  "THG_L2_MAG_LOZ": "spase://SMWG/Instrument/Ground/Lovozero/Magnetometer",
+  "THG_L2_MAG_MEK": "spase://SMWG/Instrument/Ground/Mekrijarvi/Magnetometer",
+  "THG_L2_MAG_IVA": "spase://SMWG/Instrument/Ground/Ivalo/Magnetometer",
+  "THG_L2_MAG_OUJ": "spase://SMWG/Instrument/Ground/Oulujarvi/Magnetometer",
+  "THG_L2_MAG_KEV": "spase://SMWG/Instrument/Ground/Kevo/Magnetometer",
+  "THG_L2_MAG_HAN": "spase://SMWG/Instrument/Ground/Hankasalmi/Magnetometer",
+  "THG_L2_MAG_TAR": "spase://SMWG/Instrument/Ground/Tartu/Magnetometer",
+  "THG_L2_MAG_RAN": "spase://SMWG/Instrument/Ground/Ranua/Magnetometer",
+  "THG_L2_MAG_NOR": "spase://SMWG/Instrument/Ground/Nordkapp/Magnetometer",
+  "THG_L2_MAG_HOP": "spase://SMWG/Instrument/Ground/Hopen/Magnetometer",
+  "THG_L2_MAG_NUR": "spase://SMWG/Instrument/Ground/Nurmijarvi/Magnetometer",
+  "THG_L2_MAG_PEL": "spase://SMWG/Instrument/Ground/Pello/Magnetometer",
+  "THG_L2_MAG_MAS": "spase://SMWG/Instrument/Ground/Masi/Magnetometer",
+  "THG_L2_MAG_MUO": "spase://SMWG/Instrument/Ground/Muono/Magnetometer",
+  "THG_L2_MAG_SOR": "spase://SMWG/Instrument/Ground/Soroya/Magnetometer",
+  "THG_L2_MAG_KIL": "spase://SMWG/Instrument/Ground/Kilpisjarvi/Magnetometer",
+  "THG_L2_MAG_BJN": "spase://SMWG/Instrument/Ground/Bjorn/Magnetometer",
+  "THG_L2_MAG_TRO": "spase://SMWG/Instrument/Ground/Tromso/Magnetometer",
+  "THG_L2_MAG_JCK": "spase://SMWG/Instrument/Ground/Jackvik/Magnetometer",
+  "THG_L2_MAG_AND": "spase://SMWG/Instrument/Ground/Andenes/Magnetometer",
+  "THG_L2_MAG_LYR": "spase://SMWG/Instrument/Ground/Longyearbyen/Magnetometer",
+  "THG_L2_MAG_BBG": "spase://SMWG/Instrument/Ground/Barentsburg/Magnetometer",
+  "THG_L2_MAG_DON": "spase://SMWG/Instrument/Ground/Donna/Magnetometer",
+  "THG_L2_MAG_NAL": "spase://SMWG/Instrument/Ground/Nyalesund/Magnetometer",
+  "THG_L2_MAG_BFE": "spase://SMWG/Instrument/Ground/Brorfelde/Magnetometer",
+  "THG_L2_MAG_RVK": "spase://SMWG/Instrument/Ground/Rorvik/Magnetometer",
+  "THG_L2_MAG_DOB": "spase://SMWG/Instrument/Ground/Dombas/Magnetometer",
+  "THG_L2_MAG_ROE": "spase://SMWG/Instrument/Ground/Roemoe/Magnetometer",
+  "THG_L2_MAG_KAR": "spase://SMWG/Instrument/Ground/Karmoy/Magnetometer",
+  "THG_L2_MAG_SOL": "spase://SMWG/Instrument/Ground/Solund/Magnetometer",
+  "THG_L2_MAG_PG5": "spase://SMWG/Instrument/Ground/PENGUIn.5/Magnetometer",
+  "THG_L2_MAG_PG4": "spase://SMWG/Instrument/Ground/PENGUIn.4/Magnetometer",
+  "THG_L2_MAG_PG3": "spase://SMWG/Instrument/Ground/PENGUIn.3/Magnetometer",
+  "THG_L2_MAG_PG2": "spase://SMWG/Instrument/Ground/PENGUIn.2/Magnetometer",
+  "THG_L2_MAG_PG1": "spase://SMWG/Instrument/Ground/PENGUIn.1/Magnetometer",
+  "THG_L2_MAG_PG0": "spase://SMWG/Instrument/Ground/PENGUIn.0/Magnetometer",
+  "THG_L2_MAG_SJG": "spase://SMWG/Instrument/WDC/San.Juan/Magnetometer",
+  "THG_L2_MAG_DRBY": "spase://SMWG/Instrument/Ground/Derby/Magnetometer",
+  "THG_L2_MAG_WLPS": "spase://SMWG/Instrument/Ground/Wallops.Island/Magnetometer",
+  "THG_L2_MAG_LREL": "spase://SMWG/Instrument/Ground/Laurel/Magnetometer",
+  "THG_L2_MAG_FRD": "spase://SMWG/Instrument/Ground/Fredericksburg/Magnetometer",
+  "THG_L2_MAG_LOYS": "spase://SMWG/Instrument/Ground/Loysburg/Magnetometer",
+  "THG_L2_MAG_BMLS": "spase://SMWG/Instrument/Ground/Bay.Mills/Magnetometer",
+  "THG_L2_MAG_RMUS": "spase://SMWG/Instrument/Ground/Remus/Magnetometer",
+  "THG_L2_MAG_SWNO": "spase://SMWG/Instrument/Ground/Shawano/Magnetometer",
+  "THG_L2_MAG_BSL": "spase://SMWG/Instrument/Ground/NASA.Stennis.Space.Center/Magnetometer",
+  "THG_L2_MAG_HRIS": "spase://SMWG/Instrument/Ground/Harris/Magnetometer",
+  "THG_L2_MAG_WRTH": "spase://SMWG/Instrument/Ground/Worthington/Magnetometer",
+  "THG_L2_MAG_BENN": "spase://SMWG/Instrument/Ground/Bennington/Magnetometer",
+  "THG_L2_MAG_AMER": "spase://SMWG/Instrument/Ground/Americus/Magnetometer",
+  "THG_L2_MAG_GLYN": "spase://SMWG/Instrument/Ground/Glyndon/Magnetometer",
+  "THG_L2_MAG_RICH": "spase://SMWG/Instrument/Ground/Richardson/Magnetometer",
+  "THG_L2_MAG_PCEL": "spase://SMWG/Instrument/Ground/Purcell/Magnetometer",
+  "THG_L2_MAG_LYFD": "spase://SMWG/Instrument/Ground/Lyford/Magnetometer",
+  "THG_L2_MAG_SATX": "spase://SMWG/Instrument/Ground/San.Antonio/Magnetometer",
+  "THG_L2_MAG_LRES": "spase://SMWG/Instrument/Ground/Linares/Magnetometer",
+  "THG_L2_MAG_FYTS": "spase://SMWG/Instrument/Ground/Fort.Yates/Magnetometer",
+  "THG_L2_MAG_PINE": "spase://SMWG/Instrument/Ground/Pine.Ridge/Magnetometer",
+  "THG_L2_MAG_PBLO": "spase://SMWG/Instrument/Ground/Pueblo/Magnetometer",
+  "THG_L2_MAG_BOU": "spase://SMWG/Instrument/Ground/Boulder/Magnetometer",
+  "THG_L2_MAG_TUC": "spase://SMWG/Instrument/Ground/Tucson/Magnetometer",
+  "THG_L2_MAG_HOTS": "spase://SMWG/Instrument/Ground/Hot.Springs/Magnetometer",
+  "THG_L2_MAG_NEW": "spase://SMWG/Instrument/Ground/Colville.National.Forest/Magnetometer",
+  "THG_L2_MAG_UKIA": "spase://SMWG/Instrument/Ground/Ukiah/Magnetometer",
+  "THG_L2_MAG_FRN": "spase://SMWG/Instrument/Ground/Fresno/Magnetometer",
+  "THG_L2_MAG_CCNV": "spase://SMWG/Instrument/Ground/Carson.City/Magnetometer",
+  "THG_L2_MAG_STFD": "spase://SMWG/Instrument/Ground/Stanford/Magnetometer",
+  "THG_L2_MAG_KODK": "spase://SMWG/Instrument/Ground/Kodiak/Magnetometer",
+  "THG_L2_MAG_HON": "spase://SMWG/Instrument/Ground/Honolulu/Magnetometer",
+  "THG_L2_MAG_GUA": "spase://SMWG/Instrument/Ground/Dededo/Magnetometer",
+  "THG_L2_MAG_BRN": "spase://SMWG/Instrument/Ground/Baranov/Magnetometer",
+  "THG_L2_MAG_TDC": "spase://SMWG/Instrument/Ground/Tristan.da.Cunha/Magnetometer",
+  "TIMED_L1BV20_SABER": "spase://SMWG/Instrument/TIMED/SABER",
+  "TIMED_L3A_SEE": "spase://SMWG/Instrument/TIMED/SEE",
+  "TIMED_WINDVECTORSNCAR_TIDI": "spase://SMWG/Instrument/TIMED/TIDI",
+  "TIMED_EDP_GUVI": "spase://SMWG/Instrument/TIMED/GUVI",
+  "TIMED_L1CDISK_GUVI": "spase://SMWG/Instrument/TIMED/GUVI",
+  "TWINS_M2_ENA": [
+    "spase://SMWG/Instrument/TWINS1/ENA",
+    "spase://SMWG/Instrument/TWINS1/Ephemeris",
+    "spase://SMWG/Instrument/TWINS2/ENA",
+    "spase://SMWG/Instrument/TWINS2/Ephemeris"
+  ],
+  "TWINS1_TISTORM_IMAGER": "spase://SMWG/Instrument/TWINS1/ENA",
+  "TWINS2_TISTORM_IMAGER": "spase://SMWG/Instrument/TWINS2/ENA",
+  "TWINS1_L1_IMAGER": "spase://SMWG/Instrument/TWINS1/ENA",
+  "TWINS2_L1_IMAGER": "spase://SMWG/Instrument/TWINS2/ENA",
+  "TWINS1_L1_LAD": "spase://SMWG/Instrument/TWINS1/LAD",
+  "TWINS2_L1_LAD": "spase://SMWG/Instrument/TWINS2/LAD",
+  "TWINS1_OR_DEF": "spase://SMWG/Instrument/TWINS1/Ephemeris",
+  "TWINS2_OR_DEF": "spase://SMWG/Instrument/TWINS2/Ephemeris",
+  "TWINS1_AT_DEF": "spase://SMWG/Instrument/TWINS1/Ephemeris",
+  "TWINS2_AT_DEF": "spase://SMWG/Instrument/TWINS1/Ephemeris",
+  "UY_COHO1HR_MERGED_MAG_PLASMA": [
+    "spase://SMWG/Instrument/Ulysses/FGM",
+    "spase://SMWG/Instrument/Ulysses/SWOOPS"
+  ],
+  "UY_1SEC_VHM": "spase://SMWG/Instrument/Ulysses/FGM",
+  "UY_1MIN_VHM": "spase://SMWG/Instrument/Ulysses/FGM",
+  "UY_M0_AT1": "spase://SMWG/Instrument/Ulysses/COSPIN/AT",
+  "UY_M0_BAE": "spase://SMWG/Instrument/Ulysses/SWOOPS",
+  "UY_M0_BAI": "spase://SMWG/Instrument/Ulysses/SWOOPS",
+  "UY_M1_BAI": "spase://SMWG/Instrument/Ulysses/SWOOPS",
+  "UY_M1_EPA": "spase://SMWG/Instrument/Ulysses/EPAC",
+  "UY_H0_GLG": "spase://SMWG/Instrument/Ulysses/SWICS",
+  "UY_M0_GRB": "spase://SMWG/Instrument/Ulysses/SWICS",
+  "UY_M0_HET": "spase://SMWG/Instrument/Ulysses/COSPIN/HET",
+  "UY_M0_HFT": "spase://SMWG/Instrument/Ulysses/COSPIN/HFT",
+  "UY_M0_KET": "spase://SMWG/Instrument/Ulysses/COSPIN/KET",
+  "UY_M0_LET": "spase://SMWG/Instrument/Ulysses/COSPIN/LET",
+  "UY_M1_LF15": "spase://SMWG/Instrument/Ulysses/HISCALE",
+  "UY_M1_LF60": "spase://SMWG/Instrument/Ulysses/HISCALE",
+  "UY_M1_LM12": "spase://SMWG/Instrument/Ulysses/HISCALE",
+  "UY_M1_LM30": "spase://SMWG/Instrument/Ulysses/HISCALE",
+  "UY_M1_LMDE": "spase://SMWG/Instrument/Ulysses/HISCALE",
+  "UY_M1_SCS": "spase://SMWG/Instrument/Ulysses/SWICS",
+  "UY_M1_SWI": "spase://SMWG/Instrument/Ulysses/SWICS",
+  "UY_M0_PFRA": "spase://SMWG/Instrument/Ulysses/URAP",
+  "UY_M0_PFRP": "spase://SMWG/Instrument/Ulysses/URAP",
+  "UY_M0_R144": "spase://SMWG/Instrument/Ulysses/URAP",
+  "UY_M0_RARA": "spase://SMWG/Instrument/Ulysses/URAP",
+  "UY_M0_RARP": "spase://SMWG/Instrument/Ulysses/URAP",
+  "UY_M1_WART": "spase://SMWG/Instrument/Ulysses/HISCALE",
+  "UY_M0_WFBA": "spase://SMWG/Instrument/Ulysses/URAP",
+  "UY_M0_WFBP": "spase://SMWG/Instrument/Ulysses/URAP",
+  "UY_M0_WFEA": "spase://SMWG/Instrument/Ulysses/URAP",
+  "UY_M0_WFEP": "spase://SMWG/Instrument/Ulysses/URAP",
+  "UY_M1_VHM": "spase://SMWG/Instrument/Ulysses/FGM",
+  "UY_M1_WRTD": "spase://SMWG/Instrument/Ulysses/HISCALE",
+  "UY_ALPHA-DISTRIBUTIONS_SWOOPS": [
+    "spase://SMWG/Instrument/Ulysses/Ephemeris",
+    "spase://SMWG/Instrument/Ulysses/FGM",
+    "spase://SMWG/Instrument/Ulysses/SWOOPS"
+  ],
+  "UY_ALPHA-FIT-PARAMETERS_SWOOPS": [
+    "spase://SMWG/Instrument/Ulysses/Ephemeris",
+    "spase://SMWG/Instrument/Ulysses/FGM",
+    "spase://SMWG/Instrument/Ulysses/SWOOPS"
+  ],
+  "UY_ALPHA-MOMENTS_SWOOPS": [
+    "spase://SMWG/Instrument/Ulysses/Ephemeris",
+    "spase://SMWG/Instrument/Ulysses/FGM",
+    "spase://SMWG/Instrument/Ulysses/SWOOPS"
+  ],
+  "UY_PROTON-DISTRIBUTIONS_SWOOPS": [
+    "spase://SMWG/Instrument/Ulysses/Ephemeris",
+    "spase://SMWG/Instrument/Ulysses/FGM",
+    "spase://SMWG/Instrument/Ulysses/SWOOPS"
+  ],
+  "UY_PROTON-FIT-PARAMETERS_SWOOPS": [
+    "spase://SMWG/Instrument/Ulysses/Ephemeris",
+    "spase://SMWG/Instrument/Ulysses/FGM",
+    "spase://SMWG/Instrument/Ulysses/SWOOPS"
+  ],
+  "UY_PROTON-MOMENTS_SWOOPS": [
+    "spase://SMWG/Instrument/Ulysses/Ephemeris",
+    "spase://SMWG/Instrument/Ulysses/FGM",
+    "spase://SMWG/Instrument/Ulysses/SWOOPS"
+  ],
+  "VG1_PWS_LR": "spase://SMWG/Instrument/Voyager1/PWS",
+  "VG2_PWS_LR": "spase://SMWG/Instrument/Voyager2/PWS",
+  "VG1_PWS_WF": "spase://SMWG/Instrument/Voyager1/PWS",
+  "VG2_PWS_WF": "spase://SMWG/Instrument/Voyager2/PWS",
+  "VOYAGER1_48S_MAG-VIM": "spase://SMWG/Instrument/Voyager1/MAG",
+  "VOYAGER2_48S_MAG-VIM": "spase://SMWG/Instrument/Voyager2/MAG",
+  "VOYAGER1_2S_MAG": [
+    "spase://SMWG/Instrument/Voyager1/MAG",
+    "spase://SMWG/Instrument/Voyager1/Ephemeris"
+  ],
+  "VOYAGER1_10S_MAG": [
+    "spase://SMWG/Instrument/Voyager1/MAG",
+    "spase://SMWG/Instrument/Voyager1/Ephemeris"
+  ],
+  "VOYAGER1_48S_MAG": "spase://SMWG/Instrument/Voyager1/MAG",
+  "VOYAGER2_2S_MAG": [
+    "spase://SMWG/Instrument/Voyager2/MAG",
+    "spase://SMWG/Instrument/Voyager1/Ephemeris"
+  ],
+  "VOYAGER2_10S_MAG": [
+    "spase://SMWG/Instrument/Voyager2/MAG",
+    "spase://SMWG/Instrument/Voyager1/Ephemeris"
+  ],
+  "VOYAGER2_48S_MAG": "spase://SMWG/Instrument/Voyager2/MAG",
+  "VOYAGER1_COHO1HR_MERGED_MAG_PLASMA": [
+    "spase://SMWG/Instrument/Voyager1/MAG",
+    "spase://SMWG/Instrument/Voyager1/PLS"
+  ],
+  "VOYAGER2_COHO1HR_MERGED_MAG_PLASMA": [
+    "spase://SMWG/Instrument/Voyager2/MAG",
+    "spase://SMWG/Instrument/Voyager2/PLS"
+  ],
+  "VOYAGER1_PLS_HIRES_PLASMA_DATA": "spase://SMWG/Instrument/Voyager1/MAG",
+  "VOYAGER2_PLS_HIRES_PLASMA_DATA": "spase://SMWG/Instrument/Voyager2/PLS",
+  "VOYAGER1_PLS_COMPOSITION": "spase://SMWG/Instrument/Voyager1/PLS",
+  "VOYAGER2_PLS_COMPOSITION": "spase://SMWG/Instrument/Voyager2/PLS",
+  "VOYAGER1_PLS_ELECTRONS_E1": "spase://SMWG/Instrument/Voyager1/PLS",
+  "VOYAGER1_PLS_ELECTRONS_E2": "spase://SMWG/Instrument/Voyager1/PLS",
+  "VOYAGER1_PLS_IONS_L": "spase://SMWG/Instrument/Voyager1/PLS",
+  "VOYAGER1_PLS_IONS_M": "spase://SMWG/Instrument/Voyager1/PLS",
+  "VOYAGER2_PLS_ELECTRONS_E1": "spase://SMWG/Instrument/Voyager2/PLS",
+  "VOYAGER2_PLS_ELECTRONS_E2": "spase://SMWG/Instrument/Voyager2/PLS",
+  "VOYAGER2_PLS_IONS_L": "spase://SMWG/Instrument/Voyager2/PLS",
+  "VOYAGER2_PLS_IONS_M": "spase://SMWG/Instrument/Voyager2/PLS",
+  "VOYAGER-1_LECP_ELEC-BGND-COR-1D": "spase://SMWG/Instrument/Voyager1/LECP",
+  "VOYAGER-2_LECP_ELEC-BGND-COR-1D": "spase://SMWG/Instrument/Voyager2/LECP",
+  "WI_L2-1HOUR-SEP_EPACT-APE_B": "spase://SMWG/Instrument/Wind/EPACT",
+  "WI_L2-1HOUR-SEP_EPACT-LEMT": "spase://SMWG/Instrument/Wind/EPACT",
+  "WI_L2-5MIN-SEP_EPACT-LEMT": "spase://SMWG/Instrument/Wind/EPACT",
+  "WI_EPACT_STEP-DIFFERENTIAL-ION-FLUX-1HR": "spase://SMWG/Instrument/Wind/EPACT",
+  "WI_EPACT_STEP-DIRECTIONAL-DIFF-CNO-FLUX-10MIN": "spase://SMWG/Instrument/Wind/EPACT",
+  "WI_EPACT_STEP-DIRECTIONAL-DIFF-FE-FLUX-10MIN": "spase://SMWG/Instrument/Wind/EPACT",
+  "WI_EPACT_STEP-DIRECTIONAL-DIFF-HE-FLUX-10MIN": "spase://SMWG/Instrument/Wind/EPACT",
+  "WI_EPACT_STEP-DIRECTIONAL-DIFF-H-FLUX-10MIN": "spase://SMWG/Instrument/Wind/EPACT",
+  "WI_L2-30MIN_SMS-STICS-AFM-MAGNETOSPHERE": "spase://SMWG/Instrument/Wind/SMS/STICS",
+  "WI_L2-30MIN_SMS-STICS-AFM-SOLARWIND": "spase://SMWG/Instrument/Wind/SMS/STICS",
+  "WI_L2-30MIN_SMS-STICS-ERPA-MAGNETOSPHERE": "spase://SMWG/Instrument/Wind/SMS/STICS",
+  "WI_L2-30MIN_SMS-STICS-ERPA-SOLARWIND": "spase://SMWG/Instrument/Wind/SMS/STICS",
+  "WI_L2_3MIN_SMS-STICS-NVT-MAGNETOSPHERE": "spase://SMWG/Instrument/Wind/SMS/STICS",
+  "WI_L2_3MIN_SMS-STICS-NVT-SOLARWIND": "spase://SMWG/Instrument/Wind/SMS/STICS",
+  "WI_L2-3MIN_SMS-STICS-VDF-MAGNETOSPHERE": "spase://SMWG/Instrument/Wind/SMS/STICS",
+  "WI_L2-3MIN_SMS-STICS-VDF-SOLARWIND": "spase://SMWG/Instrument/Wind/SMS/STICS",
+  "WI_H0_MFI": "spase://SMWG/Instrument/Wind/MFI",
+  "WI_H2_MFI": "spase://SMWG/Instrument/Wind/MFI",
+  "WI_H3-RTN_MFI": "spase://SMWG/Instrument/Wind/MFI",
+  "WI_H4-RTN_MFI": "spase://SMWG/Instrument/Wind/MFI",
+  "WI_K0_MFI": "spase://SMWG/Instrument/Wind/MFI",
+  "WI_K0_SWE": "spase://SMWG/Instrument/Wind/SWE",
+  "WI_H0_SWE": "spase://SMWG/Instrument/Wind/SWE",
+  "WI_H1_SWE": "spase://SMWG/Instrument/Wind/SWE",
+  "WI_SW-ION-DIST_SWE-FARADAY": "spase://SMWG/Instrument/Wind/SWE",
+  "WI_STRAHL0_SWE": "spase://SMWG/Instrument/Wind/SWE",
+  "WI_H3_SWE": "spase://SMWG/Instrument/Wind/SWE",
+  "WI_H4_SWE": "spase://SMWG/Instrument/Wind/SWE",
+  "WI_H5_SWE": "spase://SMWG/Instrument/Wind/SWE",
+  "WI_M0_SWE": "spase://SMWG/Instrument/Wind/SWE",
+  "WI_M2_SWE": "spase://SMWG/Instrument/Wind/SWE",
+  "WI_PM_3DP": "spase://SMWG/Instrument/Wind/3DP",
+  "WI_PLSP_3DP": "spase://SMWG/Instrument/Wind/3DP",
+  "WI_SOSP_3DP": "spase://SMWG/Instrument/Wind/3DP",
+  "WI_SOPD_3DP": "spase://SMWG/Instrument/Wind/3DP",
+  "WI_EM_3DP": "spase://SMWG/Instrument/Wind/3DP",
+  "WI_EMFITS_E0_3DP": "spase://SMWG/Instrument/Wind/3DP",
+  "WI_ELM2_3DP": "spase://SMWG/Instrument/Wind/3DP",
+  "WI_ELSP_3DP": "spase://SMWG/Instrument/Wind/3DP",
+  "WI_ELPD_3DP": "spase://SMWG/Instrument/Wind/3DP",
+  "WI_EHSP_3DP": "spase://SMWG/Instrument/Wind/3DP",
+  "WI_EHPD_3DP": "spase://SMWG/Instrument/Wind/3DP",
+  "WI_SFSP_3DP": "spase://SMWG/Instrument/Wind/3DP",
+  "WI_SFPD_3DP": "spase://SMWG/Instrument/Wind/3DP",
+  "WIND_3DP_ECHSFITS_E0-YR": null,
+  "WI_K0_3DP": "spase://SMWG/Instrument/Wind/3DP",
+  "WI_K0_EPA": "spase://SMWG/Instrument/Wind/EPACT",
+  "WI_K0_SMS": [
+    "spase://SMWG/Instrument/Wind/SMS/STICS",
+    "spase://SMWG/Instrument/Wind/SMS/SWICS"
+  ],
+  "WI_H0_WAV": "spase://SMWG/Instrument/Wind/WAVES",
+  "WI_H1_WAV": "spase://SMWG/Instrument/Wind/WAVES",
+  "WI_K0_WAV": "spase://SMWG/Instrument/Wind/WAVES",
+  "WI_L3-DUSTIMPACT_WAVES": "spase://SMWG/Instrument/Wind/WAVES",
+  "WI_OR_DEF": "spase://SMWG/Instrument/Wind/Ephemeris",
+  "WI_OR_PRE": "spase://SMWG/Instrument/Wind/Ephemeris",
+  "WI_AT_DEF": "spase://SMWG/Instrument/Wind/Ephemeris",
+  "WI_AT_PRE": "spase://SMWG/Instrument/Wind/Ephemeris",
+  "WI_K0_SPHA": "spase://SMWG/Instrument/Wind/Ephemeris",
+  "BORRELLY_HELIO1DAY_POSITION": null,
+  "CASSINI_HELIO1DAY_POSITION": "spase://SMWG/Instrument/Cassini/Ephemeris",
+  "COMETGS_HELIO1DAY_POSITION": null,
+  "COMETHMP_HELIO1DAY_POSITION": null,
+  "DAWN_HELIO1DAY_POSITION": "spase://SMWG/Instrument/Dawn/Ephemeris",
+  "EARTH_HELIO1DAY_POSITION": null,
+  "GALILEO_HELIO1DAY_POSITION": "spase://SMWG/Instrument/Galileo/Ephemeris",
+  "GIACOBINI_HELIO1DAY_POSITION": null,
+  "GIOTTO_HELIO1DAY_POSITION": "spase://SMWG/Instrument/Giotto/Ephemeris",
+  "HALEBOPP_HELIO1DAY_POSITION": null,
+  "HALLEY_HELIO1DAY_POSITION": null,
+  "HELIOS1_HELIO1DAY_POSITION": "spase://SMWG/Instrument/Helios1/Ephemeris",
+  "HELIOS2_HELIO1DAY_POSITION": "spase://SMWG/Instrument/Helios2/Ephemeris",
+  "HYAKUTAKE_HELIO1DAY_POSITION": null,
+  "ISEE-3_HELIO1DAY_POSITION": "spase://SMWG/Instrument/ISEE3/Ephemeris",
+  "JUNO_HELIO1DAY_POSITION": "spase://SMWG/Instrument/Juno/Ephemeris",
+  "JUPITER_HELIO1DAY_POSITION": null,
+  "MARS_HELIO1DAY_POSITION": null,
+  "MAVEN_HELIO1DAY_POSITION": "spase://SMWG/Instrument/MAVEN/Ephemeris",
+  "MERCURY_HELIO1DAY_POSITION": null,
+  "MESSENGER_HELIO1DAY_POSITION": "spase://SMWG/Instrument/MESSENGER/Ephemeris",
+  "NEPTUNE_HELIO1DAY_POSITION": null,
+  "NEW_HORIZONS_HELIO1DAY_POSITION": "spase://SMWG/Instrument/NewHorizons/Ephemeris",
+  "PHOBOS2_HELIO1DAY_POSITION": "spase://SMWG/Instrument/Phobos2/Ephemeris",
+  "PIONEER10_HELIO1DAY_POSITION": "spase://SMWG/Instrument/Pioneer10/Ephemeris",
+  "PIONEER11_HELIO1DAY_POSITION": "spase://SMWG/Instrument/Pioneer11/Ephemeris",
+  "PLUTO_HELIO1DAY_POSITION": null,
+  "ROSETTA_HELIO1DAY_POSITION": "spase://SMWG/Instrument/Rosetta/Ephemeris",
+  "SAKIGAKE_HELIO1DAY_POSITION": "spase://SMWG/Instrument/Sakigake/Ephemeris",
+  "SATURN_HELIO1DAY_POSITION": null,
+  "SOHO_HELIO1DAY_POSITION": "spase://SMWG/Instrument/SOHO/Ephemeris",
+  "STA_HELIO1DAY_POSITION": "spase://SMWG/Instrument/STEREO-A/Ephemeris",
+  "STB_HELIO1DAY_POSITION": "spase://SMWG/Instrument/STEREO-B/Ephemeris",
+  "SUISEI_HELIO1DAY_POSITION": "spase://SMWG/Instrument/Suisei/Ephemeris",
+  "THB_HELIO1DAY_POSITION": "spase://SMWG/Instrument/THEMIS/B/Ephemeris",
+  "THC_HELIO1DAY_POSITION": "spase://SMWG/Instrument/THEMIS/C/Ephemeris",
+  "ULYSSES_HELIO1DAY_POSITION": "spase://SMWG/Instrument/Ulysses/Ephemeris",
+  "URANUS_HELIO1DAY_POSITION": null,
+  "VENUS_HELIO1DAY_POSITION": null,
+  "VOYAGER1_HELIO1DAY_POSITION": "spase://SMWG/Instrument/Voyager1/Ephemeris",
+  "VOYAGER2_HELIO1DAY_POSITION": "spase://SMWG/Instrument/Voyager2/Ephemeris",
+  "VOYAGER1_CRS_DAILY_FLUX": "spase://SMWG/Instrument/Voyager1/CRS",
+  "WILD2_HELIO1DAY_POSITION": null
 }
