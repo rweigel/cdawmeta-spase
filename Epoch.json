@@ -1,0 +1,15 @@
+{
+  "Note": "This variable is in the source CDF file. Not all web services will provide access to this variable in this form (e.g., an ISO 8601 string may be used). If the source of the CDF file is a different file type, it may be have been represented in a different format.",
+  "CDF_EPOCH": {
+    "Unit": "ms",
+    "Description": "Zero corresponds to 0000-01-01T00.00.000. See https://spdf.gsfc.nasa.gov/pub/software/cdf/doc/cdf390/cdf390ug.pdf"
+  },
+  "CDF_EPOCH16": {
+    "Unit": "ps",
+    "Description": "Zero corresponds to 0000-01-01T00.00.000.000.000.000. See https://spdf.gsfc.nasa.gov/pub/software/cdf/doc/cdf390/cdf390ug.pdf"
+  },
+  "CDF_TIME_TT2000": {
+    "Unit": "ns",
+    "Description": "Zero corresponds to J2000. See https://spdf.gsfc.nasa.gov/pub/software/cdf/doc/cdf390/cdf390ug.pdf"
+  }
+}
