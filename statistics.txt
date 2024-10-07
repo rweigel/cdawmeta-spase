@@ -1,0 +1,9 @@
+Number of CDAWeb datasets:  2711
+Number found in hpde.io:    1904
+Number of SPASE records with a Parameter node: 1792
+Found ObservedRegion in 1480 of 1904 SPASE records.
+Found InstrumentID in 1885 of 1904 SPASE records.
+Found MeasurementType in 1904 of 1904 SPASE records.
+Found DOI in 868 of 1904 SPASE records.
+Found InformationURL in 1758 of 1904 SPASE records.
+Found ResourceID in 1904 of 1904 SPASE records.
