@@ -30,12 +30,12 @@
     "Availability": "Online",
     "AccessRights": "Open",
     "Acknowledgement": "SPDF/CDAWeb",
-    "Format": ["CDF", "CSV", "GIF", "NetCDF", "PNG", "PS", "PDF", "x_Script.IDL", "x_Script.Python", "Text.ASCII", "x_WAV", "XML"],
+    "Format": ["CDF", "CSV", "GIF", "NetCDF", "PNG", "PS", "PDF", "XML", "x_Script.IDL", "x_Script.Python", "Text.ASCII", "x_WAV"],
     "AccessURL": {
         "Name": "CDAWeb Web Service",
         "URL": "https://cdaweb.gsfc.nasa.gov/WebServices/",
         "Style": "WebService",
-        "Description": "Instructions for using web services to access this dataset an other other metadata and options for CDAWeb datasets. The ProductKey here corresponds to {dataset} in 'URI' in the tables in which it applies."
+        "Description": "Instructions for using web services to access this dataset an other other metadata and options for CDAWeb datasets. The ProductKey here corresponds to the query parameter 'dataset' in the tables at the AccessURL in a dataset-related request can be made."
     }
   },
   "CDAWeb/CDAWS/UI": {
@@ -90,7 +90,7 @@
       "Name": "4D Orbit Viewer",
       "URL": "https://sscweb.gsfc.nasa.gov/4dorbit/?sc={dsid}",
       "ProductKey": null,
-      "Style": "_Visualization",
+      "Style": "x_Visualization",
       "Description": "Web Service to this product."
     }
   },
@@ -98,22 +98,22 @@
     "RepositoryID": "spase://SMWG/Repository/NASA/GSFC/SPDF",
     "Availability": "Online",
     "AccessRights": "Open",
-    "Acknowledgement": "SPDF/CDAWeb",
+    "Acknowledgement": "SPDF/CDAWeb and the HAPI project",
     "Format": ["CSV", "JSON", "Binary"],
     "AccessURL": {
       "Name": "CDAWeb HAPI Server",
       "URL": "https://hapi-server.org/servers/#server=CDAWeb&dataset={dsid}",
       "Style": "HAPI",
       "ProductKey": null,
-      "Description": "Web Service to this product using the HAPI interface. Note that HAPI dataset has a collection of parameters, each having the same time stamps..",
-      "x_Description":  "This CDAWeb dataset contains {n_keys} HAPI-type datasets. The @0, ... at the end of the ParameterKeys indicates the index of the CDAWeb dataset. (The dataset index <=> CDF file time variable pairs are {time_variable_names}.)"
+      "Description": "Web Service to this product using the HAPI interface.",
+      "x_Description": "Note that HAPI dataset has a collection of parameters, each having the same time stamps. This CDAWeb dataset contains {n_keys} HAPI-type datasets. The @0, @1, ... at the end of the ParameterKeys indicates the index of the CDAWeb dataset. (The dataset index <=> CDF file time variable pairs are {time_variable_names}.)"
     }
   },
   "CDAWeb/HAPI/Program": {
     "RepositoryID": "spase://SMWG/Repository/NASA/GSFC/SPDF",
     "Availability": "Online",
     "AccessRights": "Open",
-    "Acknowledgement": "SPDF/CDAWeb",
+    "Acknowledgement": "SPDF/CDAWeb and the HAPI project",
     "Format": null,
     "AccessURL": {
       "Name": "CDAWeb HAPI Script in Multiple Languages",
@@ -123,11 +123,25 @@
       "Description": "Web Service user interface that generates scripts in {hapi_languages} to access this product. See https://hapi-server.org/servers/api for the API."
     }
   },
+  "CDAWeb/HAPI/Plot": {
+    "RepositoryID": "spase://SMWG/Repository/NASA/GSFC/SPDF",
+    "Availability": "Online",
+    "AccessRights": "Open",
+    "Acknowledgement": "SPDF/CDAWeb and the HAPI project",
+    "Format": ["PNG", "PDF", "SVG"],
+    "AccessURL": {
+      "Name": "HAPI visualizations",
+      "URL": "https://hapi-server.org/plot/?server=https://cdaweb.gsfc.nasa.gov/hapi&dataset={dsid}&format=gallery",
+      "Style": "x_Visualization",
+      "ProductKey": null,
+      "Description": "Web Service that generates plots. See https://hapi-server.org/plot/ for the API."
+    }
+  },
   "SSCWeb/HAPI": {
     "RepositoryID": "spase://SMWG/Repository/NASA/GSFC/SPDF",
     "Availability": "Online",
     "AccessRights": "Open",
-    "Acknowledgement": "SPDF/SSCWeb",
+    "Acknowledgement": "SPDF/SSCWeb and the HAPI project",
     "Format": ["CSV", "JSON", "Binary"],
     "AccessURL": {
       "Name": "CDAWeb HAPI Server",
@@ -141,14 +155,28 @@
     "RepositoryID": "spase://SMWG/Repository/NASA/GSFC/SPDF",
     "Availability": "Online",
     "AccessRights": "Open",
-    "Acknowledgement": "SPDF/CDAWeb",
+    "Acknowledgement": "SPDF/CDAWeb and the HAPI project",
     "Format": null,
     "AccessURL": {
-      "Name": "CDAWeb HAPI Script in multiple languages",
-      "URL": "https://hapi-server.org/servers/#server=CDAWeb&dataset={dsid}&return=script",
+      "Name": "SSCWeb HAPI Script in Multiple Languages",
+      "URL": "https://hapi-server.org/servers/#server=SSCWeb&dataset={dsid}&return=script",
       "Style": "HAPI",
       "ProductKey": null,
-      "Description": "Web Service that generates scripts in {hapi_languages} to access this product. See https://hapi-server.org/servers/api for the API."
+      "Description": "Web Service user interface that generates scripts in {hapi_languages} to access this product. See https://hapi-server.org/servers/api for the API."
+    }
+  },
+  "SSCWeb/HAPI/Plot": {
+    "RepositoryID": "spase://SMWG/Repository/NASA/GSFC/SPDF",
+    "Availability": "Online",
+    "AccessRights": "Open",
+    "Acknowledgement": "SPDF/CDAWeb and the HAPI project",
+    "Format": ["PNG", "PDF", "SVG"],
+    "AccessURL": {
+      "Name": "HAPI visualizations",
+      "URL": "https://hapi-server.org/plot/?server=https://hapi-server.org/servers/SSCWeb/hapi&dataset={dsid}&format=gallery",
+      "Style": "x_Visualization",
+      "ProductKey": null,
+      "Description": "Web Service that generates plots. See https://hapi-server.org/plot/ for the API."
     }
   }
 }

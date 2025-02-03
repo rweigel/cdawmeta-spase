@@ -1,8 +1,8 @@
 {
   "AC": [
     "Heliosphere.Inner",
-    "Heliosphere.NearEarth",
-    "Heliosphere"
+    "Heliosphere",
+    "Heliosphere.NearEarth"
   ],
   "AMPTECCE": [
     "Earth.Magnetosphere",
@@ -29,82 +29,82 @@
     "Heliosphere.Outer"
   ],
   "C1": [
-    "Earth.NearSurface.PolarCap",
-    "Heliosphere.Inner",
-    "Earth.Magnetosphere.Main",
-    "Earth.Magnetosphere.Magnetotail",
     "Earth.Magnetosphere",
-    "Earth.NearSurface.AuroralRegion",
+    "Earth.NearSurface.Plasmasphere",
+    "Earth.Magnetosphere.Magnetotail",
+    "Earth.Magnetosphere.Main",
+    "Earth.Magnetosphere.Polar",
     "Heliosphere.NearEarth",
+    "Heliosphere.Inner",
+    "Earth.Magnetosphere.RadiationBelt",
+    "Earth.NearSurface.AuroralRegion",
     "Earth.Magnetosheath",
     "Earth.NearSurface.Ionosphere",
-    "Earth.Magnetosphere.Polar",
-    "Earth.NearSurface.Plasmasphere",
-    "Earth.Magnetosphere.RadiationBelt"
+    "Earth.NearSurface.PolarCap"
   ],
   "C2": [
-    "Earth.NearSurface.PolarCap",
-    "Earth.Magnetosphere.Main",
-    "Earth.Magnetosphere.Magnetotail",
     "Earth.Magnetosphere",
-    "Heliosphere.NearEarth",
     "Earth.Magnetosphere.Polar",
-    "Earth.NearSurface.Plasmasphere",
-    "Earth.Magnetosphere.RadiationBelt",
+    "Heliosphere.NearEarth",
     "Heliosphere.Inner",
+    "Earth.Magnetosphere.RadiationBelt",
+    "Earth.NearSurface.Ionosphere",
+    "Earth.NearSurface.PolarCap",
+    "Earth.NearSurface.Plasmasphere",
+    "Earth.Magnetosphere.Magnetotail",
+    "Earth.Magnetosphere.Main",
     "Earth.NearSurface.AuroralRegion",
-    "Earth.Magnetosheath",
-    "Earth.NearSurface.Ionosphere"
+    "Earth.Magnetosheath"
   ],
   "C3": [
-    "Earth.NearSurface.PolarCap",
-    "Earth.Magnetosphere.Main",
-    "Earth.Magnetosphere.Magnetotail",
     "Earth.Magnetosphere",
-    "Heliosphere.NearEarth",
     "Earth.Magnetosphere.Polar",
-    "Earth.NearSurface.Plasmasphere",
-    "Earth.Magnetosphere.RadiationBelt",
+    "Heliosphere.NearEarth",
     "Heliosphere.Inner",
+    "Earth.Magnetosphere.RadiationBelt",
+    "Earth.NearSurface.Ionosphere",
+    "Earth.NearSurface.PolarCap",
+    "Earth.NearSurface.Plasmasphere",
+    "Earth.Magnetosphere.Magnetotail",
+    "Earth.Magnetosphere.Main",
     "Earth.NearSurface.AuroralRegion",
-    "Earth.Magnetosheath",
-    "Earth.NearSurface.Ionosphere"
+    "Earth.Magnetosheath"
   ],
   "C4": [
-    "Earth.NearSurface.PolarCap",
-    "Earth.Magnetosphere.Main",
-    "Earth.Magnetosphere.Magnetotail",
     "Earth.Magnetosphere",
-    "Heliosphere.NearEarth",
     "Earth.Magnetosphere.Polar",
-    "Earth.NearSurface.Plasmasphere",
-    "Earth.Magnetosphere.RadiationBelt",
+    "Heliosphere.NearEarth",
     "Heliosphere.Inner",
+    "Earth.Magnetosphere.RadiationBelt",
+    "Earth.NearSurface.Ionosphere",
+    "Earth.NearSurface.PolarCap",
+    "Earth.NearSurface.Plasmasphere",
+    "Earth.Magnetosphere.Magnetotail",
+    "Earth.Magnetosphere.Main",
     "Earth.NearSurface.AuroralRegion",
-    "Earth.Magnetosheath",
-    "Earth.NearSurface.Ionosphere"
+    "Earth.Magnetosheath"
   ],
   "CL": [
-    "Earth.NearSurface.PolarCap",
-    "Earth.Magnetosphere.Main",
-    "Earth.Magnetosphere.Magnetotail",
     "Earth.Magnetosphere",
-    "Earth.NearSurface.AuroralRegion",
+    "Earth.NearSurface.Plasmasphere",
+    "Earth.Magnetosphere.Magnetotail",
+    "Earth.Magnetosphere.Main",
+    "Earth.Magnetosphere.Polar",
     "Heliosphere.NearEarth",
+    "Earth.Magnetosphere.RadiationBelt",
+    "Earth.NearSurface.AuroralRegion",
     "Earth.Magnetosheath",
     "Earth.NearSurface.Ionosphere",
-    "Earth.Magnetosphere.Polar",
-    "Earth.NearSurface.Plasmasphere",
-    "Earth.Magnetosphere.RadiationBelt"
+    "Earth.NearSurface.PolarCap"
   ],
   "CN": [
-    "Earth.NearSurface.Ionosphere",
     "Earth.NearSurface.AuroralRegion",
-    "Earth.Surface"
+    "Earth.Surface",
+    "Earth.NearSurface.Ionosphere"
   ],
   "CNOFS": [
-    "Earth.NearSurface.Ionosphere",
-    "Earth.NearSurface"
+    "Earth.NearSurface",
+    "Earth.NearSurface.Ionosphere"
   ],
   "CRRES": [
     "Earth.Magnetosphere.Main",
@@ -114,8 +114,8 @@
     "Earth.Magnetosphere.RadiationBelt"
   ],
   "DE": [
-    "Earth.NearSurface.Ionosphere",
-    "Earth.NearSurface.Atmosphere"
+    "Earth.NearSurface.Atmosphere",
+    "Earth.NearSurface.Ionosphere"
   ],
   "DE1": [
     "Earth.Magnetosphere",
@@ -127,15 +127,15 @@
     "Earth.NearSurface.PolarCap"
   ],
   "DE2": [
-    "Earth.NearSurface.PolarCap",
-    "Earth.NearSurface.Atmosphere",
     "Earth.Magnetosphere",
-    "Earth.NearSurface.AuroralRegion",
     "Earth.NearSurface.EquatorialRegion",
-    "Earth.NearSurface.Ionosphere",
     "Earth.Magnetosphere.Polar",
+    "Earth.NearSurface.Thermosphere",
+    "Earth.NearSurface.Atmosphere",
+    "Earth.NearSurface.AuroralRegion",
     "Earth.NearSurface",
-    "Earth.NearSurface.Thermosphere"
+    "Earth.NearSurface.Ionosphere",
+    "Earth.NearSurface.PolarCap"
   ],
   "DMSP-F16": [
     "Earth.Magnetosphere",
@@ -191,22 +191,22 @@
     "Earth.NearSurface.PolarCap"
   ],
   "EQ": [
-    "Earth.NearSurface.Ionosphere",
-    "Earth.Magnetosphere.Main",
-    "Earth.Magnetosphere",
     "Earth.NearSurface.Thermosphere",
+    "Earth.Magnetosphere.RadiationBelt",
+    "Earth.Magnetosphere",
     "Earth.NearSurface.EquatorialRegion",
-    "Earth.Magnetosphere.RadiationBelt"
+    "Earth.Magnetosphere.Main",
+    "Earth.NearSurface.Ionosphere"
   ],
   "FA": [
-    "Earth.NearSurface.PolarCap",
     "Earth.Magnetosphere",
-    "Earth.NearSurface.AuroralRegion",
-    "Earth.NearSurface.EquatorialRegion",
-    "Earth.NearSurface.Ionosphere",
-    "Earth.Magnetosphere.Polar",
     "Earth.NearSurface.Plasmasphere",
-    "Earth.NearSurface"
+    "Earth.NearSurface.EquatorialRegion",
+    "Earth.Magnetosphere.Polar",
+    "Earth.NearSurface.AuroralRegion",
+    "Earth.NearSurface",
+    "Earth.NearSurface.Ionosphere",
+    "Earth.NearSurface.PolarCap"
   ],
   "FM": [
     "Earth.NearSurface.AuroralRegion",
@@ -216,10 +216,10 @@
     "Earth.NearSurface.Ionosphere.FRegion"
   ],
   "GE": [
-    "Earth.Magnetosphere.Magnetotail",
     "Earth.Magnetosphere",
-    "Heliosphere.NearEarth",
-    "Earth.Magnetosheath"
+    "Earth.Magnetosheath",
+    "Earth.Magnetosphere.Magnetotail",
+    "Heliosphere.NearEarth"
   ],
   "GOES15": [
     "Earth.Magnetosphere",
@@ -237,12 +237,12 @@
     "Earth.Magnetosphere.RadiationBelt"
   ],
   "G7": [
-    "Earth.Magnetosphere",
-    "Earth.Magnetosphere.RadiationBelt"
+    "Earth.Magnetosphere.RadiationBelt",
+    "Earth.Magnetosphere"
   ],
   "G6": [
-    "Earth.Magnetosphere",
-    "Earth.Magnetosphere.RadiationBelt"
+    "Earth.Magnetosphere.RadiationBelt",
+    "Earth.Magnetosphere"
   ],
   "G0": [
     "Earth.Magnetosphere"
@@ -301,10 +301,10 @@
     "Earth.NearSurface.Ionosphere"
   ],
   "GPS": [
-    "Earth.NearSurface.Ionosphere",
-    "Earth.Magnetosphere.Main",
+    "Earth.Magnetosphere.RadiationBelt",
     "Earth.Magnetosphere",
-    "Earth.Magnetosphere.RadiationBelt"
+    "Earth.Magnetosphere.Main",
+    "Earth.NearSurface.Ionosphere"
   ],
   "HEL1": [
     "Heliosphere.Inner"
@@ -314,58 +314,58 @@
   ],
   "HELIOS1": [
     "Heliosphere.Inner",
-    "Heliosphere.NearEarth",
-    "Heliosphere"
+    "Heliosphere",
+    "Heliosphere.NearEarth"
   ],
   "HELIOS2": [
     "Heliosphere.Inner",
-    "Heliosphere.NearEarth",
-    "Heliosphere"
+    "Heliosphere",
+    "Heliosphere.NearEarth"
   ],
   "HK": [
-    "Earth.NearSurface.PolarCap",
-    "Earth.NearSurface.Ionosphere",
     "Heliosphere.Inner",
-    "Earth.Magnetosphere.Polar",
-    "Earth.Magnetosphere",
-    "Earth.NearSurface.AuroralRegion"
-  ],
-  "ALOUETTE2": [
-    "Earth.NearSurface.PolarCap",
     "Earth.Magnetosphere",
     "Earth.NearSurface.AuroralRegion",
-    "Earth.NearSurface.EquatorialRegion",
-    "Earth.NearSurface.Ionosphere",
     "Earth.Magnetosphere.Polar",
-    "Earth.NearSurface"
+    "Earth.NearSurface.Ionosphere",
+    "Earth.NearSurface.PolarCap"
+  ],
+  "ALOUETTE2": [
+    "Earth.Magnetosphere",
+    "Earth.NearSurface.EquatorialRegion",
+    "Earth.Magnetosphere.Polar",
+    "Earth.NearSurface.AuroralRegion",
+    "Earth.NearSurface",
+    "Earth.NearSurface.Ionosphere",
+    "Earth.NearSurface.PolarCap"
   ],
   "ISS": [
     "Earth.NearSurface.Ionosphere.FRegion",
     "Earth.NearSurface.Thermosphere"
   ],
   "I1": [
-    "Earth.NearSurface.PolarCap",
+    "Earth.NearSurface.Ionosphere.Topside",
+    "Earth.Magnetosphere",
+    "Earth.NearSurface.EquatorialRegion",
+    "Earth.Magnetosphere.Polar",
+    "Earth.NearSurface.AuroralRegion",
+    "Earth.NearSurface",
+    "Earth.NearSurface.Ionosphere",
+    "Earth.NearSurface.PolarCap"
+  ],
+  "I2": [
     "Earth.Magnetosphere",
     "Earth.NearSurface.AuroralRegion",
     "Earth.NearSurface.EquatorialRegion",
-    "Earth.NearSurface.Ionosphere",
-    "Earth.Magnetosphere.Polar",
-    "Earth.NearSurface.Ionosphere.Topside",
-    "Earth.NearSurface"
-  ],
-  "I2": [
-    "Earth.NearSurface.PolarCap",
-    "Earth.NearSurface.Ionosphere",
-    "Earth.Magnetosphere.Polar",
-    "Earth.Magnetosphere",
-    "Earth.NearSurface.AuroralRegion",
     "Earth.NearSurface",
-    "Earth.NearSurface.EquatorialRegion"
+    "Earth.Magnetosphere.Polar",
+    "Earth.NearSurface.Ionosphere",
+    "Earth.NearSurface.PolarCap"
   ],
   "I8": [
+    "Earth.Magnetosheath",
     "Earth.Magnetosphere.Magnetotail",
-    "Heliosphere.NearEarth",
-    "Earth.Magnetosheath"
+    "Heliosphere.NearEarth"
   ],
   "IA": [
     "Earth.Magnetosphere",
@@ -390,14 +390,14 @@
     "Earth.NearSurface.PolarCap"
   ],
   "ISEE1": [
+    "Earth.Magnetosheath",
     "Earth.Magnetosphere",
-    "Heliosphere.NearEarth",
-    "Earth.Magnetosheath"
+    "Heliosphere.NearEarth"
   ],
   "ISEE2": [
     "Earth.Magnetosphere",
-    "Heliosphere.NearEarth",
-    "Earth.Magnetosheath"
+    "Earth.Magnetosheath",
+    "Heliosphere.NearEarth"
   ],
   "ISEE-3": [
     "Heliosphere",
@@ -405,11 +405,11 @@
     "Heliosphere.Outer"
   ],
   "IT": [
+    "Earth.Magnetosphere",
+    "Earth.Magnetosheath",
     "Earth.Magnetosphere.Main",
     "Earth.Magnetosphere.Polar",
-    "Earth.Magnetosphere",
-    "Heliosphere.NearEarth",
-    "Earth.Magnetosheath"
+    "Heliosphere.NearEarth"
   ],
   "L9": [
     "Earth.Magnetosphere"
@@ -529,36 +529,36 @@
   ],
   "OMNI": [
     "Heliosphere.Inner",
-    "Heliosphere.NearEarth",
-    "Heliosphere"
+    "Heliosphere",
+    "Heliosphere.NearEarth"
   ],
   "OMNI2": [
     "Heliosphere.NearEarth"
   ],
   "PIONEER10": [
-    "Heliosphere.NearEarth",
+    "Heliosphere",
     "Heliosphere.Outer",
-    "Heliosphere"
+    "Heliosphere.NearEarth"
   ],
   "PIONEER11": [
-    "Heliosphere.NearEarth",
+    "Heliosphere",
     "Heliosphere.Outer",
-    "Heliosphere"
+    "Heliosphere.NearEarth"
   ],
   "PIONEERVENUS": [
     "Heliosphere.Inner"
   ],
   "PO": [
-    "Earth.NearSurface.PolarCap",
-    "Heliosphere.Inner",
     "Earth.Magnetosphere",
-    "Earth.NearSurface.AuroralRegion",
-    "Earth.NearSurface.EquatorialRegion",
-    "Earth.NearSurface.Ionosphere",
-    "Earth.Magnetosphere.Polar",
     "Earth.NearSurface.Plasmasphere",
+    "Earth.NearSurface.EquatorialRegion",
+    "Earth.Magnetosphere.Polar",
+    "Heliosphere.Inner",
+    "Earth.Magnetosphere.RadiationBelt",
+    "Earth.NearSurface.AuroralRegion",
     "Earth.NearSurface",
-    "Earth.Magnetosphere.RadiationBelt"
+    "Earth.NearSurface.Ionosphere",
+    "Earth.NearSurface.PolarCap"
   ],
   "PSP": [
     "Heliosphere",
@@ -612,14 +612,14 @@
     "Earth.NearSurface.EquatorialRegion"
   ],
   "RENU2": [
-    "Earth.NearSurface.PolarCap",
+    "Earth.NearSurface.Ionosphere.Topside",
+    "Earth.NearSurface.Ionosphere.ERegion",
+    "Earth.NearSurface.Thermosphere",
     "Earth.NearSurface.Ionosphere.DRegion",
     "Earth.NearSurface.AuroralRegion",
-    "Earth.NearSurface.Ionosphere",
     "Earth.NearSurface.Ionosphere.FRegion",
-    "Earth.NearSurface.Ionosphere.ERegion",
-    "Earth.NearSurface.Ionosphere.Topside",
-    "Earth.NearSurface.Thermosphere"
+    "Earth.NearSurface.Ionosphere",
+    "Earth.NearSurface.PolarCap"
   ],
   "SE": [
     "Earth.Magnetosphere",
@@ -630,8 +630,8 @@
   ],
   "SO": [
     "Heliosphere.Inner",
-    "Heliosphere.NearEarth",
-    "Heliosphere"
+    "Heliosphere",
+    "Heliosphere.NearEarth"
   ],
   "SOHO": [
     "Heliosphere.NearEarth"
@@ -651,78 +651,78 @@
     "Jupiter"
   ],
   "THA": [
-    "Earth.Magnetosphere.Main",
-    "Earth.Magnetosphere.Magnetotail",
     "Earth.Magnetosphere",
+    "Earth.Magnetosphere.Magnetotail",
+    "Earth.Magnetosphere.Main",
     "Heliosphere.NearEarth",
-    "Earth.Magnetosheath",
-    "Earth.Magnetosphere.RadiationBelt"
+    "Earth.Magnetosphere.RadiationBelt",
+    "Earth.Magnetosheath"
   ],
   "THB": [
-    "Earth.Magnetosphere.Main",
-    "Earth.Magnetosphere.Magnetotail",
     "Earth.Magnetosphere",
+    "Earth.Magnetosphere.Magnetotail",
+    "Earth.Magnetosphere.Main",
     "Heliosphere.NearEarth",
-    "Earth.Magnetosheath",
-    "Earth.Magnetosphere.RadiationBelt"
+    "Earth.Magnetosphere.RadiationBelt",
+    "Earth.Magnetosheath"
   ],
   "THC": [
-    "Earth.Magnetosphere.Main",
-    "Earth.Magnetosphere.Magnetotail",
     "Earth.Magnetosphere",
+    "Earth.Magnetosphere.Magnetotail",
+    "Earth.Magnetosphere.Main",
     "Heliosphere.NearEarth",
-    "Earth.Magnetosheath",
-    "Earth.Magnetosphere.RadiationBelt"
+    "Earth.Magnetosphere.RadiationBelt",
+    "Earth.Magnetosheath"
   ],
   "THD": [
-    "Earth.Magnetosphere.Main",
-    "Earth.Magnetosphere.Magnetotail",
     "Earth.Magnetosphere",
+    "Earth.Magnetosphere.Magnetotail",
+    "Earth.Magnetosphere.Main",
     "Heliosphere.NearEarth",
-    "Earth.Magnetosheath",
-    "Earth.Magnetosphere.RadiationBelt"
+    "Earth.Magnetosphere.RadiationBelt",
+    "Earth.Magnetosheath"
   ],
   "THE": [
-    "Earth.Magnetosphere.Main",
-    "Earth.Magnetosphere.Magnetotail",
     "Earth.Magnetosphere",
+    "Earth.Magnetosphere.Magnetotail",
+    "Earth.Magnetosphere.Main",
     "Heliosphere.NearEarth",
-    "Earth.Magnetosheath",
-    "Earth.Magnetosphere.RadiationBelt"
+    "Earth.Magnetosphere.RadiationBelt",
+    "Earth.Magnetosheath"
   ],
   "TIMED": [
+    "Earth.NearSurface.EquatorialRegion",
     "Sun",
-    "Earth.NearSurface.PolarCap",
+    "Earth.NearSurface.Mesosphere",
+    "Earth.NearSurface.Thermosphere",
     "Earth.NearSurface.Atmosphere",
     "Earth.NearSurface.AuroralRegion",
-    "Earth.NearSurface.Mesosphere",
-    "Earth.NearSurface.EquatorialRegion",
+    "Earth.NearSurface",
     "Earth.NearSurface.Stratosphere",
     "Earth.NearSurface.Ionosphere",
-    "Earth.NearSurface",
-    "Earth.NearSurface.Thermosphere"
+    "Earth.NearSurface.PolarCap"
   ],
   "TWINS1": [
-    "Earth.Magnetosphere.Main",
-    "Earth.Magnetosphere.Magnetotail",
+    "Earth.Magnetosphere.RadiationBelt",
     "Earth.Magnetosphere",
     "Earth.Magnetosheath",
-    "Earth.Magnetosphere.RadiationBelt"
+    "Earth.Magnetosphere.Magnetotail",
+    "Earth.Magnetosphere.Main"
   ],
   "TWINS2": [
-    "Earth.Magnetosphere.Main",
-    "Earth.Magnetosphere.Magnetotail",
+    "Earth.Magnetosphere.RadiationBelt",
     "Earth.Magnetosphere",
     "Earth.Magnetosheath",
-    "Earth.Magnetosphere.RadiationBelt"
+    "Earth.Magnetosphere.Magnetotail",
+    "Earth.Magnetosphere.Main"
   ],
   "UY": [
-    "Heliosphere.Inner",
-    "Heliosphere.NearEarth",
-    "Heliosphere.Outer",
+    "Heliosphere",
     "Sun.Corona",
     "Jupiter",
-    "Heliosphere"
+    "Heliosphere.NearEarth",
+    "Heliosphere.Inner",
+    "Heliosphere.Outer"
   ],
   "VG1": [
     "Heliosphere",
@@ -736,13 +736,13 @@
   ],
   "VOYAGER1": [
     "Heliosphere.Heliosheath",
-    "Heliosphere.Outer",
-    "Heliosphere"
+    "Heliosphere",
+    "Heliosphere.Outer"
   ],
   "VOYAGER2": [
     "Heliosphere.Heliosheath",
-    "Heliosphere.Outer",
-    "Heliosphere"
+    "Heliosphere",
+    "Heliosphere.Outer"
   ],
   "VOYAGER-1": [
     "Heliosphere.Outer",
@@ -753,15 +753,15 @@
     "Heliosphere.Heliosheath"
   ],
   "WI": [
-    "Earth.NearSurface.PolarCap",
-    "Heliosphere.Inner",
-    "Earth.Magnetosphere.Main",
-    "Earth.Magnetosphere.Magnetotail",
-    "Earth.Magnetosphere",
-    "Earth.NearSurface.AuroralRegion",
-    "Heliosphere.NearEarth",
-    "Earth.Magnetosheath",
+    "Heliosphere",
     "Earth.NearSurface.Plasmasphere",
-    "Heliosphere"
+    "Earth.Magnetosphere",
+    "Earth.Magnetosphere.Magnetotail",
+    "Earth.Magnetosphere.Main",
+    "Heliosphere.NearEarth",
+    "Heliosphere.Inner",
+    "Earth.NearSurface.AuroralRegion",
+    "Earth.Magnetosheath",
+    "Earth.NearSurface.PolarCap"
   ]
 }
