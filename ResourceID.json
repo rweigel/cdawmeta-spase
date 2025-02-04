@@ -1928,7 +1928,7 @@
   "SOLO_L2_SWA-EAS2-NM3D-DEF": null,
   "SOLO_L2_MAG-RTN-BURST": null,
   "SOLO_L2_MAG-RTN-NORMAL": null,
-  "SOLO_L2_MAG-RTN-NORMAL-1-MINUTE": null,
+  "SOLO_L2_MAG-RTN-NORMAL-1-MINUTE": "spase://ESA/NumericalData/SolarOrbiter/MAG/Level2/RTN/Normal/PT60S",
   "SOLO_L2_MAG-RTN-LL": null,
   "SOLO_L2_MAG-RTN-LL-1-MINUTE": null,
   "SOLO_L2_MAG-SRF-BURST": null,

@@ -636,6 +636,10 @@
   "SOHO": [
     "Heliosphere.NearEarth"
   ],
+  "SOLO": [
+    "Heliosphere",
+    "Heliosphere.Inner"
+  ],
   "STA": [
     "Heliosphere.Remote1AU"
   ],

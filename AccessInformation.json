@@ -1,4 +1,34 @@
 {
+  "ESA/SOAR/Web": {
+    "_cdaweb_ids": ["^SOLO_L2_MAG"],
+    "RepositoryID": "spase://ESA/Repository/ESDC",
+    "Availability": "Online",
+    "AccessRights": "Open",
+    "Acknowledgement": "ESA/ESDC",
+    "Format": ["CDF"],
+    "Style": "Listing",
+    "AccessURL": {
+        "Name": "Solar Orbiter Archive (SOAR) web interface",
+        "URL": "https://soar.esac.esa.int/soar/",
+        "ProductKey": null,
+        "Description": "Solar Orbiter Archive (SOAR) European Space Agency web interface"
+    }
+  },
+  "ESA/SOAR/TAP": {
+    "_cdaweb_ids": ["^SOLO_L2_MAG"],
+    "RepositoryID": "spase://ESA/Repository/ESDC",
+    "Availability": "Online",
+    "AccessRights": "Open",
+    "Acknowledgement": "ESA/ESDC",
+    "Format": ["TAP"],
+    "Style": "Listing",
+    "AccessURL": {
+        "Name": "Solar Orbiter Archive (SOAR) web interface",
+        "URL": "https://soar.esac.esa.int/soar-sl-tap/tap/",
+        "ProductKey": null,
+        "Description": "Solar Orbiter Data and Metadata via the European Space Agency Table Access Protocol (TAP) server"
+    }
+  },
   "CDAWeb/HTTPS/CDF": {
     "RepositoryID": "spase://SMWG/Repository/NASA/GSFC/SPDF",
     "Availability": "Online",

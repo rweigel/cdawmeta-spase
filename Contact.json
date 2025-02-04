@@ -1,0 +1,14 @@
+[{
+  "_cdaweb_ids": ["^SOLO_L2_MAG"],
+  "Contacts":
+    [
+      {
+        "PersonID": "spase://ESA/Person/Timothy.S.Horbury",
+        "Role": "PrincipalInvestigator"
+      },
+      {
+        "PersonID": "spase://ESA/Person/Timothy.S.Horbury",
+        "Role": "MetadataContact"
+      }
+    ]
+}]

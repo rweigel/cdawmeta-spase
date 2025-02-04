@@ -1,11 +1,41 @@
 {
+  "https://doi.org/10.5270/esa-ux7y320": {
+    "InformationURL": {
+      "Name": "Solar Orbiter Magnetometer (MAG) reference webpage with DOI information",
+      "URL": "https://doi.org/10.5270/esa-ux7y320",
+      "Description": "Metadata page"
+    },
+    "_cdaweb_ids": [
+      "^SOLO_.*_MAG"
+    ]
+  },
+  "https://www.imperial.ac.uk/space-and-atmospheric-physics/research/missions-and-projects/space-missions/solar-orbiter/": {
+    "InformationURL": {
+      "Name": "Solar Orbiter Magnetometer (MAG) webpage",
+      "URL": "https://www.imperial.ac.uk/space-and-atmospheric-physics/research/missions-and-projects/space-missions/solar-orbiter/",
+      "Description": "Website"
+    },
+    "_cdaweb_ids": [
+      "^SOLO_.*_MAG"
+    ]
+  },
+  "https://doi.org/10.1051/0004-6361/201937257": {
+    "InformationURL": {
+      "Name": "Horbury, T.S., et al., The Solar Orbiter magnetometer, A&A, 642 (2020) A9",
+      "URL": "https://doi.org/10.1051/0004-6361/201937257",
+      "Description": "Journal article"
+    },
+    "_cdaweb_ids": [
+      "^SOLO_.*_MAG"
+    ]
+  },
   "http://www.srl.caltech.edu/ACE/ASC/orbit.html": {
     "InformationURL": {
       "Name": "ACE Attitude and Orbit Data Website",
       "URL": "http://www.srl.caltech.edu/ACE/ASC/orbit.html",
       "Description": "ACE Attitude and Orbit Data Release Notes and Information"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "AC_OR_DEF",
       "AC_AT_DEF"
     ]
@@ -16,7 +46,7 @@
       "URL": "https://sscweb.gsfc.nasa.gov",
       "Description": "The Satellite Situation Center Web, SSCWeb, Service has been developed and is operated jointly by the NASA/GSFC Space Physics Data Facility, SPDF, and the National Space Science Data Center, NSSDC, to support a Range of NASA Science Programs and to fulfill Key International NASA Responsibilities including those of NSSDC and the World Data Center-A for Rockets and Satellites. The Software and associated Database of SSCWeb together form a System to cast Geocentric Spacecraft Location Information into a Framework of Empirical Geophysical Regions and Mappings of Spacecraft Locations along Lines of the Earth's Magnetic Field. This Capability is one Key to Mission Science Planning, both Single Missions and Coordinated Observations of Multiple Spacecraft with Ground-Based Investigations, and to subsequent Multi-Mission Data Analysis."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "AC_OR_DEF",
       "AC_AT_DEF",
       "BEPICOLOMBO_HELIO1DAY_POSITION",
@@ -85,7 +115,7 @@
       "URL": "https://izw1.caltech.edu/ACE/ASC/level2/cris_l2desc.html",
       "Description": "A web site hosting instrument information, data release notes, as well as web utilities for plotting and downloading data"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "AC_H2_CRIS"
     ]
   },
@@ -95,7 +125,7 @@
       "URL": "http://www.srl.caltech.edu/ACE/ASC/level2/cris_l2desc.html",
       "Description": "A web site hosting instrument information, data release notes, as well as web utilities for plotting and downloading data"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "AC_H3_CRIS"
     ]
   },
@@ -105,7 +135,7 @@
       "URL": "https://izw1.caltech.edu/ACE/ASC/level2/mag_l2desc.html",
       "Description": "ACE Science Center site hosting instrument information, data release notes, as well as web utilities for plotting and downloading data"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "AC_H0_MFI"
     ]
   },
@@ -115,7 +145,7 @@
       "URL": "https://izw1.caltech.edu/ACE/ASC/level2/policy_lvl2.html",
       "Description": "ACE level 2 data rules of use, and caveats"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "AC_H0_MFI",
       "AC_H1_MFI",
       "AC_K1_MFI",
@@ -134,7 +164,7 @@
       "URL": "http://www.srl.caltech.edu/ACE/ASC/level2/index.html",
       "Description": "ACE Level 2 Data Release Notes Home Page"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "AC_K0_MFI",
       "AC_H2_MFI",
       "AC_H3_MFI",
@@ -150,7 +180,7 @@
       "URL": "http://www.srl.caltech.edu/ACE/ASC/level2/policy_lvl2.html",
       "Description": "ACE Level 2 Rules of Use Home Page"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "AC_K0_MFI",
       "AC_H2_MFI",
       "AC_H3_MFI",
@@ -172,7 +202,7 @@
       "URL": "http://www-ssg.sr.unh.edu/mag/ACE.html",
       "Description": "ACE MAG Instrument Home Page at UNH"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "AC_K0_MFI",
       "AC_H1_MFI",
       "AC_K1_MFI",
@@ -187,7 +217,7 @@
       "URL": "https://izw1.caltech.edu/ACE/ASC/level2/index.html",
       "Description": "ACE Level 2 Data Release Notes Home Page"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "AC_H1_MFI",
       "AC_K1_MFI",
       "AC_H2_SEP",
@@ -203,7 +233,7 @@
       "URL": "http://www.ssg.sr.unh.edu/tof/Missions/Ace/index.html?sepicamain.html",
       "Description": "ACE SEPICA Instrument Home Page at UNH"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "AC_H2_SEP"
     ]
   },
@@ -213,7 +243,7 @@
       "URL": "https://izw1.caltech.edu/ACE/ASC/level2/swepam_l2desc.html",
       "Description": "ACE Science Center site hosting instrument information, data release notes, as well as web utilities for plotting and downloading data"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "AC_H0_SWE"
     ]
   },
@@ -223,7 +253,7 @@
       "URL": "https://www.swepam.lanl.gov",
       "Description": "ACE SWEPAM Instrument Home Page at LANL"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "AC_K0_SWE",
       "AC_H2_SWE"
     ]
@@ -234,7 +264,7 @@
       "URL": "https://doi.org/10.1023/A:1005040232597",
       "Description": "McComas, D.J., Bame, S.J., Barker, P., Feldman, W.C., Phillips, J.L., Riley, P., and J.W. Griffee, Solar Wind Electron Proton Alpha Monitor (SWEPAM) for the Advanced Composition Explorer, Space Sci. Rev., 86, 563–612, 1998"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "AC_K1_SWE"
     ]
   },
@@ -244,7 +274,7 @@
       "URL": "https://space.umd.edu/umd_sensors/swics.html",
       "Description": "ACE SWICS Instrument Home Page at UM"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "AC_H2_SWI",
       "AC_H3_SWI",
       "AC_H4_SWI",
@@ -257,7 +287,7 @@
       "URL": "http://www.srl.caltech.edu/ACE/ASC/DATA/level2/ss2/swics_lv2_V2_release_notes.txt",
       "Description": "Additional details provided by the instrument team. All users of SWICS data should read these notes."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "AC_H3_SW2"
     ]
   },
@@ -267,7 +297,7 @@
       "URL": "http://www.srl.caltech.edu/ACE/ASC/DATA/level2/ssprotons/swics_protons_release_notes.txt",
       "Description": "Additional details provided by the instrument team. All users of SWICS data should read these notes."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "AC_H6_SWI"
     ]
   },
@@ -277,7 +307,7 @@
       "URL": "https://izw1.caltech.edu/ACE/ASC/level2/epam_l2desc.html",
       "Description": "A web site hosting instrument information, data release notes, as well as web utilities for plotting and downloading data"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "AC_H1_EPM"
     ]
   },
@@ -287,7 +317,7 @@
       "URL": "http://www.srl.caltech.edu/ACE/ASC/level2/epam_l2desc.html",
       "Description": "A web site hosting instrument information, data release notes, as well as web utilities for plotting and downloading data"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "AC_H2_EPM",
       "AC_H3_EPM"
     ]
@@ -298,7 +328,7 @@
       "URL": "http://sd-www.jhuapl.edu/ACE/EPAM/",
       "Description": "ACE EPAM Instrument Home Page at APL/JHU"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "AC_K0_EPM",
       "AC_K1_EPM"
     ]
@@ -309,7 +339,7 @@
       "URL": "http://www.srl.caltech.edu/ACE/ASC/level2/sis_l2desc.html",
       "Description": "A web site hosting instrument information, data release notes, as well as web utilities for plotting and downloading data"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "AC_K0_SIS",
       "AC_H1_SIS",
       "AC_H2_SIS"
@@ -321,7 +351,7 @@
       "URL": "http://sd-www.jhuapl.edu/ACE/ULEIS/",
       "Description": "ACE ULEIS Remote Analysis Site (RAS) Home Page"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "AC_H2_ULE"
     ]
   },
@@ -332,7 +362,7 @@
       "Description": "AC6 Data at RBSP Science Gateway",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "AEROCUBE-6-A_DOSIMETER_L2",
       "AEROCUBE-6-B_DOSIMETER_L2"
     ]
@@ -343,7 +373,7 @@
       "URL": "http://sd-www.jhuapl.edu/AMPTE/",
       "Description": "AMPTE/CCE MEPA Information and Data"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "AMPTECCE_H0_MEPA"
     ]
   },
@@ -354,7 +384,7 @@
       "Description": "The Balloon Array for Radiation Belt Relativistic Electron Losses, BARREL, Mission official website with embedded links to mission overview, data, news & events, and publications. Hosted by Dartmouth College",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "^BAR"
     ]
   },
@@ -365,7 +395,7 @@
       "Description": "Balloon Array for Radiation Belt Relativistic Electron Losses, BARREL, Space Science Reviews overview publication: Millan, R.M., McCarthy, M.P., Sample, J.G., Smith, D.M., Thompson, L.D., McGaw, D.G., Woodger, L.A., Hewitt, J.G., Comess, M.D., Yando, K.B., Liang, A.X., Anderson, B.A., Knezek, N.R., Rexroad, W.Z., Scheiman, J.M., Bowers, G.S., Halford, A.J., Collier, A.B., Clilverd, M.A., Lin, R.P., and M.K. Hudson, The Balloon Array for RBSP Relativistic Electron Losses (BARREL). Space Sci. Rev., 179, 503-530 (2013). https://doi.org/10.1007/s11214-013-9971-z",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "^BAR"
     ]
   },
@@ -376,7 +406,7 @@
       "Description": "BARREL Mission Data Usage Policy PDF",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "^BAR"
     ]
   },
@@ -387,7 +417,7 @@
       "Description": "Annotated BARREL campaign information with balloon release locations along with dates and times of balloon launch and termination of data acquisition. Text file provided by Warren Rexroad",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "^BAR"
     ]
   },
@@ -398,7 +428,7 @@
       "Description": "The A.J. Halford BARREL Mission overview website covering the years from 2013 to 2016. The site hosts a list of BARREL related publications, an informative BARREL slideshow, and a youtube video that expounds on the BARREL balloon campaign strategy and goals.",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "^BAR"
     ]
   },
@@ -409,7 +439,7 @@
       "Description": "The BARREL Mission status update blog entitled: BARREL - Radiation Belt Science with Balloons. This blog offers offers status reports and links to frequently asked questions, FAQ, page as well as links to two other blogs: the BARREL Dedicated Science Blog and the KeV Blog that list also balloon status reports. All of these blogs document events that occurred during BARREL balloon launch campaigns that took place from late 2012 until the summer of 2016.",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "^BAR"
     ]
   },
@@ -420,7 +450,7 @@
       "Description": "The NASA Balloon Array for Radiation Belt Relativistic Electron Losses, BARREL, Mission website with links to a BARREL Mission Overview as well as mission related images, videos, and BARREL related NASA news releases amd media resources.",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "^BAR"
     ]
   },
@@ -431,7 +461,7 @@
       "Description": "The International Radiation Belt Environment Modeling, IRBEM, website lists information on how to use the IRBEM fortran library, which was formerly known as the ONERA-DESP library. IRBEM software package can be used to compute magnetic coordinates for any location within the terrestrial magnetic field, to calculate the locus of points defining drift shells, to perform coordinate and time format transformations, to evaluate geophysics/space-physics models, and to propagate orbits in time. All of this functionality can be performed by using various external magnetic field models.",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "^BAR"
     ]
   },
@@ -442,7 +472,7 @@
       "Description": "The COSPAR Pannel on Radiation Belt Environment Modeling, PRBEM, International Radiation Belt Environment Modeling, IRBEM, GitHub Website. The site provide access to all components of the IRBEM Library and it is freely distributed under the umbrella of the PRBEM COSPAR panel.",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "^BAR"
     ]
   },
@@ -452,7 +482,7 @@
       "URL": "http://barreldata.ucsc.edu",
       "Description": "Access to all releases of BARREL data and links to the Science Operation Center Tools"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "^BAR"
     ]
   },
@@ -462,7 +492,7 @@
       "URL": "https://omniweb.sci.gsfc.nasa.gov/coho/helios/heli.html",
       "Description": "Heliocentric trajectories for selected spacecraft, planets, and comets, HelioWeb data service, hosted by NASA GSFC"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "BEPICOLOMBO_HELIO1DAY_POSITION",
       "CASSINI_HELIO1DAY_POSITION",
       "DAWN_HELIO1DAY_POSITION",
@@ -489,7 +519,7 @@
       "URL": "https://omniweb.sci.gsfc.nasa.gov/coho/helios/about_helioweb.html",
       "Description": "Instructions for using the Heliocentric Trajectories HelioWeb data service, hosted by NASA GSFC"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "BEPICOLOMBO_HELIO1DAY_POSITION",
       "CASSINI_HELIO1DAY_POSITION",
       "DAWN_HELIO1DAY_POSITION",
@@ -516,7 +546,7 @@
       "URL": "https://omniweb.sci.gsfc.nasa.gov/coho/helios/helioweb_command_line_sample.txt",
       "Description": "Instructions for using the Heliocentric Trajectories HelioWeb data service via CURL or WGET commands, hosted by NASA GSFC"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "BEPICOLOMBO_HELIO1DAY_POSITION",
       "CASSINI_HELIO1DAY_POSITION",
       "DAWN_HELIO1DAY_POSITION",
@@ -543,7 +573,7 @@
       "URL": "https://omniweb.sci.gsfc.nasa.gov/coho/helios/coor_des.html",
       "Description": "Definitions for the Heliographic, HG, Heliographic Inertial, HGI, and Solar Ecliptic, SE, Coordinate Systems, hosted by NASA GSFC"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "BEPICOLOMBO_HELIO1DAY_POSITION",
       "CASSINI_HELIO1DAY_POSITION",
       "DAWN_HELIO1DAY_POSITION",
@@ -570,7 +600,7 @@
       "URL": "https://ssd.jpl.nasa.gov/horizons.cgi",
       "Description": "HORIZONS Web Interface, a web page that provides limited access to the JPL HORIZONS system which can be used to generate ephemerides for solar system bodies"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "BEPICOLOMBO_HELIO1DAY_POSITION",
       "MSL_HELIO1DAY_POSITION",
       "PSP_HELIO1DAY_POSITION",
@@ -625,7 +655,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-045A-01",
       "Description": "Introduction to the Active Spacecraft Potential Control (ASPOC) on Cluster II Rumba"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C1_PP_ASP"
     ]
   },
@@ -635,7 +665,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-041B-01",
       "Description": "Introduction to the Active Spacecraft Potential Control (ASPOC) on Cluster II Salsa"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C2_PP_ASP"
     ]
   },
@@ -645,7 +675,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-041A-01",
       "Description": "Introduction to the Active Spacecraft Potential Control (ASPOC) on Cluster II Samba"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C3_PP_ASP"
     ]
   },
@@ -655,7 +685,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-045B-01",
       "Description": "Introduction to the Active Spacecraft Potential Control (ASPOC) on Cluster II Tango"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C4_PP_ASP"
     ]
   },
@@ -665,7 +695,7 @@
       "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045A-02",
       "Description": "This site provides information concerning the Cluster II Rumba Cluster Ion Spectrometry Instrument."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C1_PP_CIS"
     ]
   },
@@ -675,7 +705,7 @@
       "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041A-02",
       "Description": "This site provides information concerning the Cluster II Samba Cluster Ion Spectrometry Instrument."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C3_PP_CIS"
     ]
   },
@@ -685,7 +715,7 @@
       "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045B-02",
       "Description": "This site provides information concerning the Cluster II Tango Cluster Ion Spectrometry Instrument."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C4_PP_CIS"
     ]
   },
@@ -695,7 +725,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-045A-07",
       "Description": "Information about the Digital Wave Processor (DWP) experiment on the Cluster 2/FM5 Rumba mission."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C1_PP_DWP"
     ]
   },
@@ -705,7 +735,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-041B-07",
       "Description": "Information about the Digital Wave Processor (DWP) experiment on the Cluster 2/FM5 Salsa mission."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C2_PP_DWP"
     ]
   },
@@ -715,7 +745,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-045B-07",
       "Description": "Information about the Digital Wave Processor (DWP) experiment on the Cluster 2/FM5 (Tango) mission."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C4_PP_DWP"
     ]
   },
@@ -725,7 +755,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-045A-03",
       "Description": "This site provides information concerning the Cluster II Rumba Electron Drift Instrument."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C1_PP_EDI"
     ]
   },
@@ -735,7 +765,7 @@
       "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041B-03",
       "Description": "This site provides information concerning the Cluster II Salsa Electron Drift Instrument."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C2_PP_EDI"
     ]
   },
@@ -745,7 +775,7 @@
       "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041A-03",
       "Description": "This site provides information concerning the Cluster II Samba Electron Drift Instrument."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C3_PP_EDI"
     ]
   },
@@ -755,7 +785,7 @@
       "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045B-03",
       "Description": "This site provides information concerning the Cluster II Tango Electron Drift Instrument."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C4_PP_EDI"
     ]
   },
@@ -765,7 +795,7 @@
       "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045A-08",
       "Description": "This site provides information concerning the Cluster II Rumba Electric Field and Waves Instrument."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C1_PP_EFW"
     ]
   },
@@ -775,7 +805,7 @@
       "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041B-08",
       "Description": "This site provides information concerning the Cluster II Salsa Electric Field and Waves Instrument."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C2_PP_EFW"
     ]
   },
@@ -785,7 +815,7 @@
       "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041A-08",
       "Description": "This site provides information concerning the Cluster II Samba Electric Field and Waves Instrument."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C3_PP_EFW"
     ]
   },
@@ -795,7 +825,7 @@
       "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045B-08",
       "Description": "This site provides information concerning the Cluster II Tango Electric Field and Waves Instrument."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C4_PP_EFW"
     ]
   },
@@ -805,7 +835,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-045A-04",
       "Description": "This site provides information concerning the Cluster Rumba Fluxgate Magnetometer Instrument."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C1_CP_FGM_SPIN",
       "C2_CP_FGM_SPIN",
       "C3_CP_FGM_SPIN",
@@ -818,7 +848,7 @@
       "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045A-04",
       "Description": "This site provides information concerning the Cluster II Rumba Fluxgate Magnetometer Instrument."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C1_UP_FGM"
     ]
   },
@@ -828,7 +858,7 @@
       "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041B-04",
       "Description": "This site provides information concerning the Cluster II Salsa Fluxgate Magnetometer Instrument."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C2_UP_FGM"
     ]
   },
@@ -838,7 +868,7 @@
       "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041A-04",
       "Description": "This site provides information concerning the Cluster II Samba Fluxgate Magnetometer Instrument."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C3_UP_FGM"
     ]
   },
@@ -848,7 +878,7 @@
       "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045B-04",
       "Description": "This site provides information concerning the Cluster II Tango Fluxgate Magnetometer Instrument."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C4_UP_FGM"
     ]
   },
@@ -858,7 +888,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-045A-05",
       "Description": "This site provides information concerning the Cluster II Rumba Plasma Electron and Current Experiment Instrument."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C1_PP_PEA"
     ]
   },
@@ -868,7 +898,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-041B-05",
       "Description": "This site provides information concerning the Cluster II Salsa Plasma Electron and Current Experiment Instrument."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C2_PP_PEA"
     ]
   },
@@ -878,7 +908,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-041A-05",
       "Description": "This site provides information concerning the Cluster II Samba Plasma Electron and Current Experiment Instrument."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C3_PP_PEA"
     ]
   },
@@ -888,7 +918,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-045B-05",
       "Description": "This site provides information concerning the Cluster II Tango Plasma Electron and Current Experiment Instrument."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C4_PP_PEA"
     ]
   },
@@ -898,7 +928,7 @@
       "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045A-06",
       "Description": "This site provides information concerning the Cluster II Rumba Research with Adaptive Particle Imaging Detectors Instrument."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C1_PP_RAP"
     ]
   },
@@ -908,7 +938,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-041B-06",
       "Description": "This site provides information concerning the Cluster II Salsa Research with Adaptive Particle Imaging Detectors Instrument."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C2_PP_RAP"
     ]
   },
@@ -918,7 +948,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-041A-06",
       "Description": "This site provides information concerning the Cluster II Samba Research with Adaptive Particle Imaging Detectors Instrument."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C3_PP_RAP"
     ]
   },
@@ -928,7 +958,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-045B-06",
       "Description": "This site provides information concerning the Cluster II Tango Research with Adaptive Particle Imaging Detectors Instrument."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C4_PP_RAP"
     ]
   },
@@ -938,7 +968,7 @@
       "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045A-09",
       "Description": "This site provides information concerning the Cluster II Rumba Spatio-Temporal Analysis of Magnetic Field Fluctuations Instrument."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C1_PP_STA"
     ]
   },
@@ -948,7 +978,7 @@
       "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041B-09",
       "Description": "This site provides information concerning the Cluster II Salsa Spatio-Temporal Analysis of Magnetic Field Fluctuations Instrument."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C2_PP_STA"
     ]
   },
@@ -958,7 +988,7 @@
       "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041A-09",
       "Description": "This site provides information concerning the Cluster II Samba Spatio-Temporal Analysis of Magnetic Field Fluctuations Instrument."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C3_PP_STA"
     ]
   },
@@ -968,7 +998,7 @@
       "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045B-09",
       "Description": "This site provides information concerning the Cluster II Tango Spatio-Temporal Analysis of Magnetic Field Fluctuations Instrument."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C4_PP_STA"
     ]
   },
@@ -978,7 +1008,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-045A-11",
       "Description": "This site provides information concerning the Cluster II Rumba Waves of HF and Sounder for Probing Electron Density by Relaxation Instrument."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C1_PP_WHI"
     ]
   },
@@ -988,7 +1018,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-041B-11",
       "Description": "This site provides information concerning the Cluster II Salsa Waves of HF and Sounder for Probing Electron Density by Relaxation Instrument."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C2_PP_WHI"
     ]
   },
@@ -998,7 +1028,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-041A-11",
       "Description": "This site provides information concerning the Cluster II Samba Waves of HF and Sounder for Probing Electron Density by Relaxation Instrument."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C3_PP_WHI"
     ]
   },
@@ -1008,7 +1038,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-045B-11",
       "Description": "This site provides information concerning the Cluster II Tango Waves of HF and Sounder for Probing Electron Density by Relaxation Instrument."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C4_PP_WHI"
     ]
   },
@@ -1018,7 +1048,7 @@
       "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045A-10",
       "Description": "Introduction to the WBD experiment on Cluster II Rumba"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C1_WAVEFORM_WBD"
     ]
   },
@@ -1029,7 +1059,7 @@
       "Description": "Cluster WBD Instrument page maintained by the University of Iowa with links to instrument descriptions and team members, publications, lists of coordinated observing times, science data availability catalogs, data, data interpretation and caveat descriptions as well as data analysis tools.",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C2_WAVEFORM_WBD",
       "C3_WAVEFORM_WBD",
       "C4_WAVEFORM_WBD",
@@ -1046,7 +1076,7 @@
       "Description": "Cluster WBD documentation with links to lists of coordinated observing times, science data availability catalogs, WBD User Guide, WBD Calibration Report, WBD Interface Control Document, and data interpretation and caveat descriptions.",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "C2_WAVEFORM_WBD",
       "C3_WAVEFORM_WBD",
       "C4_WAVEFORM_WBD",
@@ -1062,7 +1092,7 @@
       "URL": "https://www.cosmos.esa.int/web/csa/",
       "Description": "Web Page for access to High-Time Resolution Data from the Cluster and Double Star Missions"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "CL_JP_PGP",
       "C1_JP_PMP",
       "C2_JP_PMP",
@@ -1081,7 +1111,7 @@
       "URL": "http://sci.esa.int/cluster/52770-csds/",
       "Description": "The Cluster Science Working Team along with the ESA Cluster Project Team have established the Cluster Science Data System, CSDS, a distributed Set of Data Centres, most of which are associated with one or more of the Cluster Experiments. With Software provided by the Experiment Team, each Data Centre processes the Data and then exchanges them with all the other Centres to obtain a full Data Set in a standard Format."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "CL_JP_PGP",
       "C1_JP_PMP",
       "C2_JP_PMP",
@@ -1100,7 +1130,7 @@
       "URL": "https://www.cosmos.esa.int/web/csa",
       "Description": "Cluster and Double Star Science Archive, Access to High Resolution Cluster Data"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "CL_JP_PCY"
     ]
   },
@@ -1110,7 +1140,7 @@
       "URL": "https://www.hao.ucar.edu/modeling/amie/DOCS/rules_canopus.html",
       "Description": "Canadian Auroral Network for the OPEN Program Unified Study, CANOPUS, Rules of the Road, Rules governing the Use and Distribution of CANOPUS Data"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "CN_K0_ASI",
       "CN_K0_BARS",
       "CN_K0_MPA",
@@ -1122,7 +1152,7 @@
       "Name": "VEFI Data Products",
       "URL": "https://vefi.gsfc.nasa.gov/vefi/dataproducts.html"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "CNOFS_VEFI_LD_500MS",
       "CNOFS_VEFI_EFIELD_1SEC",
       "CNOFS_VEFI_BFIELD_1SEC"
@@ -1134,7 +1164,7 @@
       "URL": "https://cdaweb.gsfc.nasa.gov/index.html/",
       "Description": "1-sec PLP avg key parameters preliminary data from CDAWeb"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "CNOFS_PLP_PLASMA_1SEC"
     ]
   },
@@ -1144,7 +1174,7 @@
       "URL": "ftps://spdf.gsfc.nasa.gov/pub/data/crres/particle_mea/500ms_pcbinary/document/",
       "Description": "This is an information file provided by the PI for the raw high resolution data."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "CRRES_H0_MEA"
     ]
   },
@@ -1154,7 +1184,7 @@
       "URL": "http://lasp.colorado.edu/home/csswe/data/",
       "Description": "CSSWE Data Information and Download"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "CSSWE_REPTILE_6SEC-COUNTS-L1",
       "CSSWE_REPTILE_6SEC-FLUX-L2"
     ]
@@ -1165,7 +1195,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1981-070A-01",
       "Description": "Introduction to the Magnetic Field Observations Triaxial Fluxgate Magnetometer on DE 1"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "DE1_6SEC_MAGAGMS"
     ]
   },
@@ -1175,7 +1205,7 @@
       "URL": "https://spacephysics.msfc.nasa.gov/projects/rims/",
       "Description": "Information on the Dynamics Explorer 1, DE-1, Retarding Ion Mass Spectrometer, RIMS, at Marshall Space Flight Center"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "DE1_1MIN_RIMS"
     ]
   },
@@ -1186,7 +1216,7 @@
       "Description": "\n            ",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "DE1_PWI_LFC-SPECTRA",
       "DE1_PWI_SFC-SPECTRA"
     ]
@@ -1198,7 +1228,7 @@
       "Description": "\n            ",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "DE1_PWI_OR-AT"
     ]
   },
@@ -1207,7 +1237,7 @@
       "Name": "Readme file at SPDF",
       "URL": "https://spdf.gsfc.nasa.gov/pub/data/de/de2/plasma_rpa/"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "DE2_DUCT16MS_RPA"
     ]
   },
@@ -1217,7 +1247,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov",
       "Description": "The Retarding Potential Analyzer (RPA) measured the bulk ion velocity in the direction of the spacecraft motion, the constituent ion concentrations, and the ion temperature along the satellite path. These parameters were derived from a least squares fit to the ion number flux vs energy curve obtained by sweeping or stepping the voltage applied to the internal retarding grids of the RPA. In addition, a separate wide aperture sensor, a duct sensor, was flown to measure the spectral characteristics of iregularities in the total ion concentration. The measured parameters obtained from this investigation were important to the understanding of mechanisms that influence the plasma; i.e., to understand the coupling between the solar wind and the earth's atmosphere. The measurements were made with a multigridded planar retarding potential analyzer very similar in concept and geometry to the instruments carried on the AE satellites. The retarding potential was variable in the range from approximately +32 to 0 volts. The details of this voltage trace, and whether it was continuous or stepped, depended on the operating mode of the instrument. Specific parameters deduced from these measurements were ion temperature; vehicle potential; ram component of the ion drift velocity; the ion and electron concentration irregularity spectrum; and the concentration of H+, He+, O+, and Fe+, and of molecular ions near perigee. Additional details are in W. B. Hanson et al., Space Sci. Instrum., v. 5, n. 4, p. 503, 1981."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "DE2_DUCT16MS_RPA"
     ]
   },
@@ -1226,7 +1256,7 @@
       "Name": "Readme file at SPDF",
       "URL": "https://spdf.gsfc.nasa.gov/pub/data/de/de2/plasma_rpa/00readme.txt"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "DE2_ION2S_RPA"
     ]
   },
@@ -1236,7 +1266,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1981-070B-07",
       "Description": "The Retarding Potential Analyzer (RPA) measured the bulk ion velocity in the direction of the spacecraft motion, the constituent ion concentrations, and the ion temperature along the satellite path. These parameters were derived from a least squares fit to the ion number flux vs energy curve obtained by sweeping or stepping the voltage applied to the internal retarding grids of the RPA. In addition, a separate wide aperture sensor, a duct sensor, was flown to measure the spectral characteristics of iregularities in the total ion concentration. The measured parameters obtained from this investigation were important to the understanding of mechanisms that influence the plasma; i.e., to understand the coupling between the solar wind and the earth's atmosphere. The measurements were made with a multigridded planar retarding potential analyzer very similar in concept and geometry to the instruments carried on the AE satellites. The retarding potential was variable in the range from approximately +32 to 0 volts. The details of this voltage trace, and whether it was continuous or stepped, depended on the operating mode of the instrument. Specific parameters deduced from these measurements were ion temperature; vehicle potential; ram component of the ion drift velocity; the ion and electron concentration irregularity spectrum; and the concentration of H+, He+, O+, and Fe+, and of molecular ions near perigee. Additional details are in W. B. Hanson et al., Space Sci. Instrum., v. 5, n. 4, p. 503, 1981."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "DE2_ION2S_RPA"
     ]
   },
@@ -1245,7 +1275,7 @@
       "Name": "Readme file at SPDF",
       "URL": "ftps://spdf.gsfc.nasa.gov/pub/data/de/de2/neutral_gas_nacs/00readme.txt"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "DE2_NEUTRAL1S_NACS"
     ]
   },
@@ -1254,7 +1284,7 @@
       "Name": "Readme file at SPDF",
       "URL": "ftps://spdf.gsfc.nasa.gov/pub/data/de/de2/plasma_lang/00readme.txt"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "DE2_PLASMA500MS_LANG"
     ]
   },
@@ -1264,7 +1294,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1981-070B-09",
       "Description": "Introduction to the Langmuir Probe (LANG) Observations on DE 2"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "DE2_PLASMA500MS_LANG"
     ]
   },
@@ -1273,7 +1303,7 @@
       "Name": "Readme file at SPDF",
       "URL": "https://spdf.gsfc.nasa.gov/pub/data/de/de2/plasma_idm/00readme.txt"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "DE2_VION250MS_IDM"
     ]
   },
@@ -1283,7 +1313,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1981-070B-06",
       "Description": "Introduction to the Ion Drift Meter Observations on DE 2"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "DE2_VION250MS_IDM"
     ]
   },
@@ -1292,7 +1322,7 @@
       "Name": "Readme file at SPDF",
       "URL": "ftps://spdf.gsfc.nasa.gov/pub/data/de/de2/neutral_gas_wats/00readme.txt"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "DE2_WIND2S_WATS"
     ]
   },
@@ -1303,7 +1333,7 @@
       "Description": "Dynamics Explorer 2, DE 2, Merged Magnetometer Instrument, MAGB, and Vector Electric Field Instrument, VEFI, data readme text file, hosted by NASA GSFC",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "DE2_62MS_VEFIMAGB"
     ]
   },
@@ -1314,7 +1344,7 @@
       "Description": "Dynamics Explorer 2, DE 2, Magnetometer Instrument, MAGB, instrument and data description, hosted by NASA GSFC",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "DE2_62MS_VEFIMAGB"
     ]
   },
@@ -1325,7 +1355,7 @@
       "Description": "Dynamics Explorer 2, DE 2, Vector Electric Field Instrument, VEFI, instrument and data description, hosted by NASA GSFC",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "DE2_62MS_VEFIMAGB"
     ]
   },
@@ -1336,7 +1366,7 @@
       "Description": "OMNIWeb FTP Browser access to Dynamics Explorer 2 Magnetic and Electric Field ASCII data including plot, listing, and output file services, hosted by NASA GSFC",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "DE2_62MS_VEFIMAGB",
       "DE2_AC500MS_VEFI",
       "DE2_DCA500MS_VEFI"
@@ -1349,7 +1379,7 @@
       "Description": "General information concerning the Dynamics Explorer 2, Magnetic Field Observations, MAG-B, instrument",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "DE2_62MS_VEFIMAGB"
     ]
   },
@@ -1360,7 +1390,7 @@
       "Description": "General information concerning the Dynamics Explorer 2, Vector Electric Field Instrument, VEFI, instrument",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "DE2_62MS_VEFIMAGB",
       "DE2_AC500MS_VEFI",
       "DE2_DCA500MS_VEFI"
@@ -1373,7 +1403,7 @@
       "Description": "Dynamics Explorer 2, DE 2, Vector Electric Field Instrument, VEFI, data readme text file, hosted by NASA GSFC",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "DE2_AC500MS_VEFI",
       "DE2_DCA500MS_VEFI"
     ]
@@ -1385,7 +1415,7 @@
       "Description": "Dynamics Explorer 2, DE 2, Vector Electric Field Instrument, VEFI, instrument and data description, hosted by NASA GSFC",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "DE2_AC500MS_VEFI",
       "DE2_DCA500MS_VEFI"
     ]
@@ -1396,7 +1426,7 @@
       "URL": "https://www.ngdc.noaa.gov/stp/satellite/satdataservices.html",
       "Description": "NGDC Solar and Terrestrial Physics, STP, Satellite Data Services"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "DMSP-F16_SSJ_PRECIPITATING-ELECTRONS-IONS",
       "DMSP-F17_SSJ_PRECIPITATING-ELECTRONS-IONS",
       "DMSP-F18_SSJ_PRECIPITATING-ELECTRONS-IONS",
@@ -1410,7 +1440,7 @@
       "Name": "DMSP SSIES-3 QUALITY FLAG Document",
       "URL": "https://spdf.gsfc.nasa.gov/pub/data/dmsp/documents/ssies/SSIES-3_qualityflags_Sept2019.pdf"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "DMSP-F16_SSIES-3_THERMAL-PLASMA",
       "DMSP-F17_SSIES-3_THERMAL-PLASMA",
       "DMSP-F18_SSIES-3_THERMAL-PLASMA"
@@ -1421,7 +1451,7 @@
       "Name": "DMSP SSIES-3 Documentation",
       "URL": "https://spdf.gsfc.nasa.gov/pub/data/dmsp/documents/ssies/"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "DMSP-F16_SSIES-3_THERMAL-PLASMA",
       "DMSP-F17_SSIES-3_THERMAL-PLASMA",
       "DMSP-F18_SSIES-3_THERMAL-PLASMA"
@@ -1433,7 +1463,7 @@
       "URL": "https://spdf.gsfc.nasa.gov/pub/data/dmsp/dmspf16/ssies/ssies-3rl/thermal-plasma-hdf/",
       "Description": "HDF files used to convert to CDF files at SPDF"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "DMSP-F16_SSIES-3_THERMAL-PLASMA"
     ]
   },
@@ -1443,7 +1473,7 @@
       "URL": "https://spdf.gsfc.nasa.gov/pub/data/dmsp/dmspf16/ssies/ssies-3rl/thermal-plasma-plots/",
       "Description": "Single orbit plots of plasma data"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "DMSP-F16_SSIES-3_THERMAL-PLASMA"
     ]
   },
@@ -1453,7 +1483,7 @@
       "URL": "https://spdf.gsfc.nasa.gov/pub/data/dmsp/dmspf17/ssies/ssies-3rl/thermal-plasma-hdf/",
       "Description": "HDF files used to convert to CDF files at SPDF"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "DMSP-F17_SSIES-3_THERMAL-PLASMA"
     ]
   },
@@ -1463,7 +1493,7 @@
       "URL": "https://spdf.gsfc.nasa.gov/pub/data/dmsp/dmspf17/ssies/ssies-3rl/thermal-plasma-plots/",
       "Description": "Single orbit plots of plasma data"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "DMSP-F17_SSIES-3_THERMAL-PLASMA"
     ]
   },
@@ -1473,7 +1503,7 @@
       "URL": "https://spdf.gsfc.nasa.gov/pub/data/dmsp/dmspf18/ssies/ssies-3rl/thermal-plasma-hdf/",
       "Description": "HDF files used to convert to CDF files at SPDF"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "DMSP-F18_SSIES-3_THERMAL-PLASMA"
     ]
   },
@@ -1483,7 +1513,7 @@
       "URL": "https://spdf.gsfc.nasa.gov/pub/data/dmsp/dmspf18/ssies/ssies-3rl/thermal-plasma-plots/",
       "Description": "Single orbit plots of plasma data"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "DMSP-F18_SSIES-3_THERMAL-PLASMA"
     ]
   },
@@ -1493,7 +1523,7 @@
       "URL": "http://superdarn.jhuapl.edu/",
       "Description": "The Johns Hopkins University Applied Physics Laboratory, Super Dual Auroral Radar Network, SuperDARN, Informational Web Site. The SuperDARN now consists of 32 Radars operating on Frequencies between 8 MHz and 20 MHz and looking into the Polar Regions of the Earth. These Radars can measure the Position and Velocity of Plasma Irregularities in the Earth's Ionosphere, the highest Layer of the Earth's Atmosphere. The Movements of these Irregularities respond to Energy coupled into the Auroral Regions from the Solar Wind and the Magnetosphere. Therefore, SuperDARN Data provides Scientists with Information regarding the Earth's Interaction with the Space Environment."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "DN_K0_GBAY",
       "DN_K0_HANK",
       "DN_K0_ICEW",
@@ -1509,7 +1539,7 @@
       "URL": "https://superdarn.ca/",
       "Description": "Canadian Super Dual Auroral Radar Network, SuperDARN, Informational Web Site"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "DN_K0_GBAY",
       "DN_K0_HANK",
       "DN_K0_ICEW",
@@ -1525,7 +1555,7 @@
       "URL": "https://www.bas.ac.uk/project/superdarn/",
       "Description": "British Antarctic Survey, BAS, Super Dual Auroral Radar Network, SuperDARN, Informational Web Site"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "DN_K0_GBAY",
       "DN_K0_HANK",
       "DN_K0_ICEW",
@@ -1541,7 +1571,7 @@
       "URL": "https://www2.le.ac.uk/departments/physics/research/rspp/missions/eclat/logos/iceland_panorama.jpg/view",
       "Description": "University of Leicester, Pykkvibaer Super Dual Auroral Radar Network, SuperDARN, Informational Web Site"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "DN_K0_GBAY",
       "DN_K0_HANK",
       "DN_K0_ICEW",
@@ -1557,7 +1587,7 @@
       "URL": "https://space.fmi.fi/PLASMA/RADAR/STARE/index.html",
       "Description": "Finnish Meteorological Institute, FMI, Scandinavian Twin Auroral Radar Experiment, STARE, Informational Web Site"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "DN_K0_GBAY",
       "DN_K0_HANK",
       "DN_K0_ICEW",
@@ -1573,7 +1603,7 @@
       "URL": "http://vt.superdarn.org/tiki-index.php?page=Radar+Overview",
       "Description": "Super Dual Auroral Radar Network, SuperDARN, Worldwide List of SuperDARN Observatories"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "DN_K0_GBAY",
       "DN_K0_HANK",
       "DN_K0_ICEW",
@@ -1589,7 +1619,7 @@
       "URL": "https://www.nesdis.noaa.gov/content/dscovr-deep-space-climate-observatory",
       "Description": "Deep Space Climate Observatory, DSCOVR, Web Page hosted by the National Environmental Satellite, Data, and Information Service, NESDIS, National Oceanic and Atmospheric Administration, NOAA"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "DSCOVR_ORBIT_PRE",
       "DSCOVR_AT_DEF",
       "DSCOVR_AT_PRE",
@@ -1604,7 +1634,7 @@
       "Description": "Electron Losses and Fields INvestigation-A twin satellite mission University of California, Los Angeles homepage.",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "ELA_L1_STATE_PRED",
       "ELB_L1_STATE_PRED",
       "ELA_L1_STATE_DEFN",
@@ -1621,7 +1651,7 @@
       "URL": "http://sprg.ssl.berkeley.edu/fast/",
       "Description": "General Information about the FAST mission"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "FA_ESA_L2_EEB",
       "FA_ESA_L2_EES",
       "FA_ESA_L2_IEB",
@@ -1635,7 +1665,7 @@
       "URL": "http://sprg.ssl.berkeley.edu/fast/scienceops/docs/fast_esa_problems.pdf",
       "Description": "FAST Electrostatic Analyzer Known Data Problems and Limitations"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "FA_ESA_L2_EEB",
       "FA_ESA_L2_EES",
       "FA_ESA_L2_IEB",
@@ -1648,7 +1678,7 @@
       "URL": "https://cdaweb.gsfc.nasa.gov/FAST_HR_DCB_Document.pdf",
       "Description": "FAST Magnetometer Data Set Description"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "FAST_HR_DCB"
     ]
   },
@@ -1658,7 +1688,7 @@
       "URL": "https://link.springer.com/article/10.1023%2FA%3A1013153623344",
       "Description": "FAST Magnetometer Instrument Description"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "FAST_HR_DCB"
     ]
   },
@@ -1669,7 +1699,7 @@
       "Description": "The FAST home page maintained at the University of California Berkeley with links to publications, documentation, access to data and software.",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "FA_K0_ACF"
     ]
   },
@@ -1679,7 +1709,7 @@
       "URL": "https://spdf.gsfc.nasa.gov/pub/data/fast/teams/k0/fast_teams_known_problems.pdf",
       "Description": "FAST TEAMS Data Caveats"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "FA_K0_TMS"
     ]
   },
@@ -1689,7 +1719,7 @@
       "URL": "http://sprg.ssl.berkeley.edu/fast/scienceprod/welcome.html",
       "Description": "Access to High-Resolution FAST Data and Summary Plots from the"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "FA_K0_TMS"
     ]
   },
@@ -1699,7 +1729,7 @@
       "URL": "https://space.fmi.fi/MIRACLE/ASC/",
       "Description": "Finnish Meteorological Institute, FMI, All-Sky Cameras, Imaging the Auroras"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "FM_K0_KILP"
     ]
   },
@@ -1709,7 +1739,7 @@
       "URL": "http://www-pi.physics.uiowa.edu/cpi",
       "Description": "Geotail CPI description and survey plots."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "GE_HPAMOM_CPI",
       "GE_H0_CPI"
     ]
@@ -1720,7 +1750,7 @@
       "URL": "http://www.darts.isas.ac.jp/stp/geotail/jgg_mgf.pdf",
       "Description": "Reprint of Kokubun, S., T. Yamamoto, M. H. Acuna, K. Hayashi, K. Shiokawa, and H. Kawano, The Geotail Magnetic Field Experiment, J. Geomag. Geoelectr., 46, 7-21, 1994."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "GE_EDA3SEC_MGF",
       "GE_K0_MGF"
     ]
@@ -1731,7 +1761,7 @@
       "URL": "https://www.darts.isas.ac.jp/stp/geotail/jgg_mgf.pdf",
       "Description": "Reprint of Kokubun, S., T. Yamamoto, M. H. Acuna, K. Hayashi, K. Shiokawa, and H. Kawano, The Geotail Magnetic Field Experiment, J. Geomag. Geoelectr., 46, 7-21, 1994."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "GE_EDB3SEC_MGF"
     ]
   },
@@ -1741,7 +1771,7 @@
       "URL": "https://www.darts.isas.ac.jp/stp/geotail/jgg_lep.pdf",
       "Description": "Reprint of Mukai, T., S. Machida, Y. Saito, M. Hirahara, T. Terasawa, N. Kaya, T. Obara, M. Ejiri, and A. Nishida, The low energy particle (LEP) experiment onboard the Geotail satellite, J. Geomag. Geoelectr., 46, 669-692, 1994."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "GE_EDA12SEC_LEP"
     ]
   },
@@ -1751,7 +1781,7 @@
       "URL": "http://www.darts.isas.ac.jp/stp/geotail/jgg_lep.pdf",
       "Description": "Reprint of Mukai, T., S. Machida, Y. Saito, M. Hirahara, T. Terasawa, N. Kaya, T. Obara, M. Ejiri, and A. Nishida, The low energy particle (LEP) experiment onboard the Geotail satellite, J. Geomag. Geoelectr., 46, 669-692, 1994."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "GE_EDB12SEC_LEP"
     ]
   },
@@ -1760,7 +1790,7 @@
       "Name": "Key Parameters GE_K0_MGF from the Geotail Magnetic Field Instrument (MGF) in CDF",
       "URL": "http://nssdc.gsfc.nasa.gov/nmc/datasetDisplay.do?id=SPHE-00568"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "GE_K0_MGF"
     ]
   },
@@ -1770,7 +1800,7 @@
       "URL": "http://www-pi.physics.uiowa.edu/cpi/",
       "Description": "Geotail CPI description and survey plots."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "GE_SW_CPI",
       "GE_K0_CPI"
     ]
@@ -1780,7 +1810,7 @@
       "Name": "Data Description at LANL",
       "URL": "http://genesis.lanl.gov/l2_description.html"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "GENESIS_3DL2_GIM"
     ]
   },
@@ -1791,7 +1821,7 @@
       "Description": "Information about the magnetometers onboard GOES 15",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "GOES15_EPEAD-SCIENCE-ELECTRONS-E13EW_1MIN",
       "GOES14_EPEAD-SCIENCE-ELECTRONS-E13EW_1MIN",
       "GOES13_EPEAD-SCIENCE-ELECTRONS-E13EW_1MIN",
@@ -1807,7 +1837,7 @@
       "Description": "Information about the magnetometers onboard GOES 14.",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "GOES14_EPS-MAGED_1MIN",
       "GOES13_EPS-MAGED_1MIN",
       "GOES15_EPS-MAGED_5MIN"
@@ -1819,7 +1849,7 @@
       "URL": "https://www.ngdc.noaa.gov/stp/satellite/goes/index.html",
       "Description": "Primary GOES Archive and Instrument Documentation, NOAA National Geophysical Data Center, NGDC"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "GOES15_EPS-PITCH-ANGLES_1MIN",
       "GOES14_EPS-PITCH-ANGLES_1MIN",
       "GOES13_EPS-PITCH-ANGLES_1MIN",
@@ -1832,7 +1862,7 @@
       "URL": "https://www.ngdc.noaa.gov/stp/satellite/goes/",
       "Description": "The GOES Space Environment Monitor Archive is an important component of the National Space Weather Program, an Interagency Program to provide timely and reliable Space Environment Observations and Forecasts."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "G6_K0_EPS",
       "G0_K0_MAG",
       "G7_K1_MAG"
@@ -1844,7 +1874,7 @@
       "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-022A-03",
       "Description": "Introduction to the GOES 11 Space Environment Monitor."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "GOES11_K0_EP8"
     ]
   },
@@ -1854,7 +1884,7 @@
       "URL": "https://satdat.ngdc.noaa.gov/sem/goes/goes_docs/avg/readme.txt",
       "Description": "Additional GOES EPS information."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "GOES11_K0_EP8",
       "G9_K0_EP8",
       "G8_K0_EP8"
@@ -1866,7 +1896,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1995-025A-03",
       "Description": "Introduction to the GOES 9 Space Environment Monitor."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "G9_K0_EP8"
     ]
   },
@@ -1876,7 +1906,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1994-022A-05",
       "Description": "Introduction to the GOES 8 Energetic Particle Sensor."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "G8_K0_EP8"
     ]
   },
@@ -1886,7 +1916,7 @@
       "URL": "ftp://satdat.ngdc.noaa.gov/sem/goes/goes_docs/full/readme.txt",
       "Description": "Additional GOES EPM data file information."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "G8_K0_EP8"
     ]
   },
@@ -1896,7 +1926,7 @@
       "URL": "http://themis.ssl.berkeley.edu/data/goes/GOES8-12_readme_draft090108.doc",
       "Description": "Notes on GOES 8-12 magnetometer data by Howard J. Singer."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "G12_L2_MAG"
     ]
   },
@@ -1906,7 +1936,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1997-019A-03",
       "Description": "Introduction to the GOES 10 Magnetometer."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "G0_K0_MAG"
     ]
   },
@@ -1916,7 +1946,7 @@
       "URL": "https://www.goes.noaa.gov/",
       "Description": "A web site hosted by NOAA with information and links to the GOES spacecraft and data"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "G9_K0_MAG",
       "G8_K0_MAG"
     ]
@@ -1927,7 +1957,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-022A-03",
       "Description": "Introduction to the GOES 11 Magnetometer."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "GOES11_K0_MAG"
     ]
   },
@@ -1937,7 +1967,7 @@
       "URL": "https://sscweb.gsfc.nasa.gov/",
       "Description": "This Center is an Operational Unit of the Space Physics Data Facility (SPDF), and the National Space Science Data Center International Counterpart, World Data Center A for Rockets and Satellites (WDC-A-R&S). SSC Personnel and Software Systems support NASA and International Space Physics Activities by maintaining an Ephemeris Data Base for Scientific Satellites in Geocentric or Heliocentric Orbits which can be used to plan and support Analysis of coordinated Science Observations by multiple Satellites. The Space Physics Data Facility (SPDF), which now provide Software Development and Operational Support for SSC, are Part of the Heliophysics Science Division at NASA Goddard Space Flight Center with primary Contractor Support from ADNET Systems."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "GOES17_EPHEMERIS_SSC",
       "GOES16_EPHEMERIS_SSC",
       "GOES15_EPHEMERIS_SSC",
@@ -1957,7 +1987,7 @@
       "URL": "https://gold.cs.ucf.edu/",
       "Description": "GOLD web page with news and other information"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "GOLD_L2_NMAX",
       "GOLD_L2_ON2",
       "GOLD_L2_TDISK"
@@ -1969,7 +1999,7 @@
       "URL": "https://doi.org/10.1007/s11214-017-0392-2",
       "Description": "Eastes, R.W., McClintock, W.E., Burns, A.G. et al. Space Sci. Rev. (2017) vol. 212, pp.383."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "GOLD_L2_NMAX",
       "GOLD_L2_ON2",
       "GOLD_L2_TDISK"
@@ -1981,7 +2011,7 @@
       "URL": "https://iono.jpl.nasa.gov/",
       "Description": "Jet Propulsion Laboratory, JPL, Ionospheric and Atmospheric Remote Sensing Web Site"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "GPS_ROTI15MIN_JPL"
     ]
   },
@@ -1991,7 +2021,7 @@
       "URL": "ftps://spdf.gsfc.nasa.gov/pub/data/helios/helios1/mag/6sec_ness/helios.txt",
       "Description": "Data set page at SPDF"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "HEL1_6SEC_NESSMAG"
     ]
   },
@@ -2001,7 +2031,7 @@
       "URL": "https://spdf.gsfc.nasa.gov/pub/data/helios/helios2/mag/6sec_ness/helios.txt",
       "Description": "Data set page at SPDF"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "HEL2_6SEC_NESSMAG"
     ]
   },
@@ -2010,7 +2040,7 @@
       "Name": "Readme file at SPDF",
       "URL": "ftp://spdf.gsfc.nasa.gov/pub/data/helios/helios1/merged/he1mgd.txt"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "HELIOS1_COHO1HR_MERGED_MAG_PLASMA"
     ]
   },
@@ -2019,7 +2049,7 @@
       "Name": "Readme file at SPDF",
       "URL": "ftps://spdf.gsfc.nasa.gov/pub/data/helios/helios2/merged/he2mgd.txt"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "HELIOS2_COHO1HR_MERGED_MAG_PLASMA"
     ]
   },
@@ -2030,7 +2060,7 @@
       "Description": "Hawkeye page maintained by NASA GSFC with science and instrument descriptions, data, software, and publication lists",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "HK_H0_VLF"
     ]
   },
@@ -2040,7 +2070,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1974-040A-03",
       "Description": "Information about the ELF/VLF Receivers experiment on the Hawkeye 1 mission."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "HK_H0_VLF"
     ]
   },
@@ -2050,7 +2080,7 @@
       "URL": "https://spdf.gsfc.nasa.gov/isis/isis-status.html",
       "Description": "ISIS/Alouette Page maintained by NASA GSFC with Science and Instrument Descriptions, Data Access, Software, and Publication Lists"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "ALOUETTE2_AV_ULA",
       "ALOUETTE2_AV_WNK",
       "ALOUETTE2_AV_QUI",
@@ -2104,7 +2134,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1965-098A",
       "Description": "Information about the Swept Frequency Sounder, SFS, Experiment on Alouette 2"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "ALOUETTE2_AV_ULA",
       "ALOUETTE2_AV_WNK",
       "ALOUETTE2_AV_QUI",
@@ -2119,7 +2149,7 @@
       "URL": "http://www.sdl.usu.edu/programs/fpmu",
       "Description": "Floating Potential Measurement Unit, FPMU, Home Page, Space Dynamics Laboratory, Utah State University, per NASA Policy Directive 2200.1B, Section 1.a.5"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "ISS_SP_FPMU"
     ]
   },
@@ -2129,7 +2159,7 @@
       "URL": "https://www.nasa.gov/mission_pages/station/research/experiments/1079.html",
       "Description": "Establishment of the Dosimetric Technique in the International Space Station, ISS, with a Position Sensitive-Tissue Equivalent Proportional Chamber, PS-TEPC, 20170802"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "ISS_DOSANL_TEPC"
     ]
   },
@@ -2139,7 +2169,7 @@
       "URL": "https://www.nasa.gov/mission_pages/station/research/experiments/742.html",
       "Description": "NASA Web Page for the Alpha Mass Spectrometer-02 (AMS-02) onboard the International Space Station"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "ISS_27DAY-AVERAGES_AMS-02"
     ]
   },
@@ -2149,7 +2179,7 @@
       "URL": "https://doi.org/10.1029/2018RS006659",
       "Description": "Benson, R.F., D. Bilitza, S.F. Fung, V. Truhlik, and Y. Wang (2018), Enhancing the ISIS-I topside digital ionogram database, Radio Sci., 53, DOI: 10.1029/2018RS006659"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "I1_AV2_OTT",
       "I1_AV2_QUI",
       "I1_AV2_ULA"
@@ -2161,7 +2191,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-009A",
       "Description": "Information about the Swept Frequency Sounder, SFS, Experiment on ISIS 1"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "I1_AV2_OTT",
       "I1_AV2_QUI",
       "I1_AV2_ULA",
@@ -2210,7 +2240,7 @@
       "Description": "ISIS/Alouette page maintained by NASA GSFC with science and instrument descriptions, data access, software, and publication lists",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "I1_AV_ALL"
     ]
   },
@@ -2220,7 +2250,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1969-009A-01",
       "Description": "Information about the Sweep Frequency Sounder experiment on ISIS-1."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "I1_AV_ALL"
     ]
   },
@@ -2230,7 +2260,7 @@
       "URL": "ftp://spdf.gsfc.nasa.gov/pub/data/imp/imp8/mag/320ms_ascii/doc/imp8_mag_320ms_proc.txt",
       "Description": "Details on creation of this data set"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "I8_320MSEC_MAG"
     ]
   },
@@ -2240,7 +2270,7 @@
       "URL": "https://wind.nasa.gov/imp8/",
       "Description": "A web site hosting instrument information and providing \naccess to the data"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "I8_15SEC_MAG"
     ]
   },
@@ -2249,7 +2279,7 @@
       "Name": "NSSDC Master Catalog",
       "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1973-078A-09"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "I8_H0_GME"
     ]
   },
@@ -2258,7 +2288,7 @@
       "Name": "CDAWeb Skeleton Table",
       "URL": "ftp://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/i8_h0_gme_00000000_v01.skt"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "I8_H0_GME"
     ]
   },
@@ -2268,7 +2298,7 @@
       "URL": "https://spdf.gsfc.nasa.gov/pub/data/imp/imp8/plasma_mit/sw_msheath_min/00readme.txt",
       "Description": "Text created by MIT IMP8 plasma team"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "I8_H0_MITPLASMA"
     ]
   },
@@ -2279,7 +2309,7 @@
       "Description": "IBEX Mission, Instrument, and Data Release Descriptions",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "IBEX_H3_ENA_LO_R17_CG_NOSP_OMNI_1YR",
       "IBEX_H3_ENA_LO_R17_CG_SP_OMNI_1YR",
       "IBEX_H3_ENA_LO_R17_CG_NOSP_ANTIRAM_1YR",
@@ -2354,7 +2384,7 @@
       "Description": "IBEX Data Release-17, IBEX-Lo one-year-maps in ascii list and image formats",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "IBEX_H3_ENA_LO_R17_CG_NOSP_OMNI_1YR",
       "IBEX_H3_ENA_LO_R17_CG_SP_OMNI_1YR",
       "IBEX_H3_ENA_LO_R17_CG_NOSP_ANTIRAM_1YR",
@@ -2443,7 +2473,7 @@
       "Description": "IBEX Mission, Instrument, and Data Release Descriptions",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "IBEX_H3_ENA_HI_R14_PRESS-SLOPE_CG_NOSP_RAM_3YR"
     ]
   },
@@ -2453,7 +2483,7 @@
       "URL": "https://ibex.princeton.edu",
       "Description": "Interstellar Boundary Explorer, IBEX, Mission, Instrument, and Data Release Description, hosted by Princeton, Princeton"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "IBEX_H3_ENA_HI_R13_CG_NOSP_RAM_1YR",
       "IBEX_H3_ENA_LO_R10_NOCG_NOSP_OMNI_7YR",
       "IBEX_H3_ENA_HI_R10_NOCG_SP_OMNI_6MO",
@@ -2475,7 +2505,7 @@
       "URL": "https://spdf.gsfc.nasa.gov/pub/data/ibex/release13/IBEX-Data-Release-13_Expansion-of-the-Heliosphere.pdf",
       "Description": "Interstellar Boundary Explorer, IBEX, Mission, Data Release 13, IBEX-Hi Maps in ASCII List Format and Image Format, hosted by the Space Physics Data Facility, SPDF, NASA"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "IBEX_H3_ENA_HI_R13_CG_NOSP_RAM_1YR",
       "IBEX_H3_ENA_HI_R13_CG_NOSP_ANTIRAM_1YR"
     ]
@@ -2486,7 +2516,7 @@
       "URL": "https://iopscience.iop.org/article/10.3847/1538-4365/aa66d8",
       "Description": "McComas, D.J., Dayeh, M.A., Funsten, H.O., Heerikhuisen, J., Janzen, P.H., Reisenfeld, D.B., Schwadron, N.A., Szalay, J.R., and Zirnstein, E.J., Astrophysical Journal Letters, 856:1, ,L10, DOI:10.3847/2041-8213/aab611, 2018"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "IBEX_H3_ENA_HI_R13_CG_NOSP_RAM_1YR",
       "IBEX_H3_ENA_HI_R13_CG_NOSP_ANTIRAM_1YR",
       "IBEX_H3_ENA_LO_R10_NOCG_NOSP_OMNI_7YR",
@@ -2521,7 +2551,7 @@
       "URL": "https://link.springer.com/article/10.1007/s11214-009-9504-y",
       "Description": "Funsten, H.O., Allegrini, F., Bochsler, P., Dunn, G., Ellis, S., Everett, D., Fagan, M.J., Fuselier, S.A., Granoff, M., Gruntman, M., Guthrie, A.A., Hanley, J., Harper, R.W., Heirtzler, D., Janzen, P., Kihara, K.H., King, B., Kucharek, H., Manzo, M.P., Maple, M., Mashburn, K., McComas, D.J., Moebius, E., Nolin, J., Piazza, D., Pope, S., Reisenfeld, D.B., Rodriguez, B., Roelof, E.C., Saul, L., Turco, S., Valek, P., Weidner, S., Wurz, P., and S. Zaffke, The Interstellar Boundary Explorer High Energy (IBEX-Hi) Neutral Atom Imager, Space Science Review, 146: 75-103, DOI:10.1007/s11214-009-9504-y, 2009"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "IBEX_H3_ENA_HI_R13_CG_NOSP_RAM_1YR",
       "IBEX_H3_ENA_HI_R13_CG_NOSP_ANTIRAM_1YR",
       "IBEX_H3_ENA_HI_R12_MAGNETOSPHERE_24MIN",
@@ -2558,7 +2588,7 @@
       "Description": "Interstellar Boundary Explorer, IBEX, Mission, Instrument, and Data Release Description, hosted by the Southwest Research Institute, SwRI",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "IBEX_H3_ENA_HI_R13_CG_NOSP_ANTIRAM_1YR",
       "IBEX_H3_ENA_HI_R12_MAGNETOSPHERE_24MIN",
       "IBEX_H3_ENA_LO_R10_NOCG_SP_OMNI_7YR",
@@ -2582,7 +2612,7 @@
       "Description": "Interstellar Boundary Explorer, IBEX, Mission, Data Release 13, IBEX-Hi Maps in ASCII List Format and Image Format, hosted by the Southwest Research Institute, SwRI",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "IBEX_H3_ENA_HI_R13_CG_NOSP_ANTIRAM_1YR"
     ]
   },
@@ -2593,7 +2623,7 @@
       "Description": "Interstellar Boundary Explorer, IBEX, Mission, Data Release 12, IBEX-Hi Count Data for Magnetospheric Imaging in ASCII Format, hosted by the Southwest Research Institute, SwRI",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "IBEX_H3_ENA_HI_R12_MAGNETOSPHERE_24MIN"
     ]
   },
@@ -2604,7 +2634,7 @@
       "Description": "Interstellar Boundary Explorer, IBEX, Mission, Data Release 12, IBEX-Hi Count Data for Magnetospheric Imaging in ASCII Format, hosted by the Space Physics Data Facility, SPDF, NASA",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "IBEX_H3_ENA_HI_R12_MAGNETOSPHERE_24MIN"
     ]
   },
@@ -2615,7 +2645,7 @@
       "Description": "Fuselier, S.A., H.O. Funsten, D. Heirtzler, P. Janzen, H. Kucharek, D.J. McComas, E. Mobius, T.E. Moore, S.M. Petrinec, D.B. Reisenfeld, N.A. Schwadron, K.J. Trattner, and P. Wurz, Energetic neutral atoms from the Earth's subsolar magnetopause, Geophys. Res. Lett., 37, doi:10.1029/2010GL044140, 2010.",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "IBEX_H3_ENA_HI_R12_MAGNETOSPHERE_24MIN"
     ]
   },
@@ -2626,7 +2656,7 @@
       "Description": "McComas, D.J., M.A. Dayeh, H.O. Funsten, S.A. Fuselier, J. Goldstein, J.M. Jahn, P. Janzen, D.G. Mitchell, S.M. Petrinec, D.B. Reisenfeld, and N.A. Schwadron, First IBEX observations of the terrestrial plasma sheet and a possible disconnection event, J. Geophys. Res., 116, doi:10.1029/2010JA016138, 2011.",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "IBEX_H3_ENA_HI_R12_MAGNETOSPHERE_24MIN"
     ]
   },
@@ -2637,7 +2667,7 @@
       "Description": "Petrinec, S.M., M.A. Dayeh, H.O. Funsten, S.A. Fuselier, D. Heirtzler, P. Janzen, H. Kucharek, D.J. McComas, E. Mobius, T.E. Moore, D.B. Reisenfeld, N.A. Schwadron, K.J. Trattner, and P. Wurz, Neutral atom imaging of the magnetospheric cusps, J. Geophys. Res., 116, doi:10.1029/2010JA016357, 2011.",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "IBEX_H3_ENA_HI_R12_MAGNETOSPHERE_24MIN"
     ]
   },
@@ -2648,7 +2678,7 @@
       "Description": "McComas D.J., N. Buzulukova, M.G. Connors, M.A. Dayeh, J. Goldstein, H.O. Funsten, S. Fuselier, N.A. Schwadron, and P. Valek, Two Wide-Angle Imaging Neutral-Atom Spectrometers and Interstellar Boundary Explorer energetic neutral atom imaging of the 5 April 2010 substorm, J. Geophys. Res., doi:10.1029/2011JA017273, 2012.",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "IBEX_H3_ENA_HI_R12_MAGNETOSPHERE_24MIN"
     ]
   },
@@ -2659,7 +2689,7 @@
       "Description": "Ogasawara, K., V. Angelopoulos, M.A. Dayeh, S.A. Fuselier, G. Livadiotis, D.J. McComas, J.P. McFadden, Characterizing the dayside magnetosheath using energetic neutral atoms: IBEX and THEMIS observations, J. Geophys. Res., doi:10.1002/jgra.50353, 2013.",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "IBEX_H3_ENA_HI_R12_MAGNETOSPHERE_24MIN"
     ]
   },
@@ -2670,7 +2700,7 @@
       "Description": "Dayeh, M.A., S.A. Fuselier, H.O. Funsten, D.J. McComas, K. Ogasawara, S.M. Petrinec, N.A. Schwadron, and P. Valek, Shape of the terrestrial plasma sheet in the near-Earth magnetospheric tail as imaged by the Interstellar Boundary Explorer, Geophys. Res. Lett., 42, 7, 2115-2122, doi:10.1002/2015GL063682, 2015.",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "IBEX_H3_ENA_HI_R12_MAGNETOSPHERE_24MIN"
     ]
   },
@@ -2681,7 +2711,7 @@
       "Description": "Fuselier S.A., M.A. Dayeh, G. Livadiotis, D.J. McComas, K. Ogasawara, P. Valek, H.O. Funsten, and S.M. Petrinec, Imaging the development of the cold dense plasma sheet, Geophys. Res. Lett., doi:10.1002/2015GL065716, 2015.",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "IBEX_H3_ENA_HI_R12_MAGNETOSPHERE_24MIN"
     ]
   },
@@ -2691,7 +2721,7 @@
       "URL": "https://spdf.gsfc.nasa.gov/pub/data/ibex/release10/IBEX-Data-Release-10_Seven-Years-of-Imaging-the-Global-Heliosphere-with-IBEX.pdf",
       "Description": "Interstellar Boundary Explorer, IBEX, Mission, Data Release 10, IBEX-Hi Maps in ASCII List Format and Image Format, hosted by the Space Physics Data Facility, SPDF, NASA"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "IBEX_H3_ENA_LO_R10_NOCG_NOSP_OMNI_7YR",
       "IBEX_H3_ENA_HI_R10_NOCG_SP_OMNI_6MO",
       "IBEX_H3_ENA_HI_R10_CG_NOSP_ANTIRAM_1YR",
@@ -2712,7 +2742,7 @@
       "URL": "http://ibex.swri.edu/ibexpublicdata/Data_Release_10/",
       "Description": "Interstellar Boundary Explorer, IBEX, Mission, Data Release 10, IBEX-Hi Maps in ASCII List Format and Image Format, hosted by the Southwest Research Institute, SwRI"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "IBEX_H3_ENA_LO_R10_NOCG_SP_OMNI_7YR",
       "IBEX_H3_ENA_HI_R10_CG_SP_OMNI_6MO",
       "IBEX_H3_ENA_HI_R10_NOCG_NOSP_OMNI_6MO",
@@ -2733,7 +2763,7 @@
       "URL": "https://spdf.sci.gsfc.nasa.gov/pub/data/ibex/release10/IBEX-Data-Release-10_Seven-Years-of-Imaging-the-Global-Heliosphere-with-IBEX.pdf",
       "Description": "Interstellar Boundary Explorer, IBEX, Mission, Data Release 10, IBEX-Hi Maps in ASCII List Format and Image Format, hosted by the Space Physics Data Facility, SPDF, NASA"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "IBEX_H3_ENA_LO_R10_NOCG_SP_OMNI_7YR",
       "IBEX_H3_ENA_HI_R10_CG_SP_OMNI_6MO",
       "IBEX_H3_ENA_HI_R10_NOCG_NOSP_OMNI_6MO",
@@ -2754,7 +2784,7 @@
       "URL": "https://icon.ssl.berkeley.edu/",
       "Description": "ICON spacecraft Homepage."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "ICON_L2-1_MIGHTI-A_LOS-WIND-GREEN",
       "ICON_L2-1_MIGHTI-B_LOS-WIND-GREEN",
       "ICON_L2-1_MIGHTI-A_LOS-WIND-RED",
@@ -2777,7 +2807,7 @@
       "URL": "https://doi.org/10.1007/s11214-017-0358-4",
       "Description": "Space Science Reviews, 212(1-2), pp.553-584. DOI: 10.1007/s11214-017-0358-4"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "ICON_L2-1_MIGHTI-A_LOS-WIND-GREEN",
       "ICON_L2-1_MIGHTI-B_LOS-WIND-GREEN",
       "ICON_L2-1_MIGHTI-A_LOS-WIND-RED",
@@ -2794,7 +2824,7 @@
       "URL": "https://doi.org/10.1007/s11214-017-0386-0",
       "Description": "Space Science Reviews, 212(1-2), pp.655-696. DOI: 10.1007/s11214-017-0386-0"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "ICON_L2-4_FUV_DAY",
       "ICON_L2-4_FUV_DAY-LIMB",
       "ICON_L2-5_FUV_NIGHT"
@@ -2806,7 +2836,7 @@
       "URL": "https://doi.org/10.1007/s11214-018-0477-6",
       "Description": "Space Science Reviews, 212(1-2), pp.655-696. DOI: 10.1007/s11214-017-0386-0"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "ICON_L2-4_FUV_DAY-LIMB"
     ]
   },
@@ -2816,7 +2846,7 @@
       "URL": "https://doi.org/10.1007/s11214-017-0384-2",
       "Description": "Space Science Reviews, 212(1-2), pp.631-643. DOI: 10.1007/s11214-017-0384-2"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "ICON_L2-6_EUV"
     ]
   },
@@ -2826,7 +2856,7 @@
       "URL": "https://doi.org/10.1007/s11214-017-0383-3",
       "Description": "Space Science Reviews, 212(1-2), pp.615-629. DOI: 10.1007/s11214-017-0383-3"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "ICON_L2-7_IVM-A",
       "ICON_L2-7_IVM-B"
     ]
@@ -2837,7 +2867,7 @@
       "URL": "http://euv.lpl.arizona.edu/euv/",
       "Description": "Imager for Magnetopause-to-Aurora Global Exploration, IMAGE, satellite Extreme Ultraviolet Imager, instrument information web site, hosted by the Lunar and Planetary Laboratory, University of Arizona"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "IMAGE_M2_EUV"
     ]
   },
@@ -2847,7 +2877,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-017A-06",
       "Description": "General information concerning the Imager for Magnetopause-to-Aurora Global Exploration, IMAGE, Extreme Ultraviolet, EUV, instrument"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "IMAGE_M2_EUV"
     ]
   },
@@ -2857,7 +2887,7 @@
       "URL": "https://doi.org/10.1002/2015JA021225",
       "Description": "Katus, R.M., D.L. Gallagher, M.W. Liemohn, A.M. Keesee, and L.K. Sarno-Smith, Statistical Storm Time Examination of MLT dependent Plasmapause Location derived from IMAGE EUV, J. Geophys. Res. Space Phys., 120, 5545-5559, 2015, DOI: 10.1002/2015JA021225"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "IMAGE_M2_EUV"
     ]
   },
@@ -2868,7 +2898,7 @@
       "Description": "IMAGE RPI Instrument page maintained by NASA GSFC with RPI facts, description, team, data, documents, discoveries, and related links sections",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "IM_K0_RPI",
       "IM_K1_RPI",
       "IM_ELECTRON_DENSITY_RPI"
@@ -2881,7 +2911,7 @@
       "Description": "IMAGE RPI Instrument page maintained by University of Massachusetts Lowell with RPI description, team, software downloads, software user guides, access to CORPRAL automated prospecting results, mission planning tools and commanding guide, data model descriptions for Level 0 and 1, sonification files of 2003 Halloween storm, and useful links",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "IM_K0_RPI",
       "IM_K1_RPI",
       "IM_ELECTRON_DENSITY_RPI"
@@ -2894,7 +2924,7 @@
       "Description": "RPIAnywhere software download page, including BinBrowser (RPI data analysis tool) and EdRPI (RPI mission planning tool)",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "IM_K0_RPI",
       "IM_ELECTRON_DENSITY_RPI"
     ]
@@ -2906,7 +2936,7 @@
       "Description": "RPIAnywhere software download page, including BinBrowser (RPI data analysis tool) and EdRPI (RPI mission planning tool)",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "IM_K1_RPI"
     ]
   },
@@ -2915,7 +2945,7 @@
       "Name": "Skeleton table at CDAWeb/SPDF",
       "URL": "ftps://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/isee1_h1_fpe_00000000_v01.skt"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "ISEE1_H1_FPE"
     ]
   },
@@ -2924,7 +2954,7 @@
       "Name": "Readme file at SPDF",
       "URL": "ftp://spdf.gsfc.nasa.gov/pub/data/isee/isee1/plasma_lanl/aareadme.txt"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "ISEE1_H2_FPE"
     ]
   },
@@ -2933,7 +2963,7 @@
       "Name": "Readme file at SPDF",
       "URL": "ftp://spdf.gsfc.nasa.gov/pub/data/isee/isee1/fast_electrons_gsfc/aareadme.txt"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "ISEE1_H0_FE"
     ]
   },
@@ -2943,7 +2973,7 @@
       "URL": "http://www-ssc.igpp.ucla.edu/forms/isee",
       "Description": "Data at 60-s and 4-s resolution are available for the entire ISEE mission (October 22, 1977 through  September 25, 1987) and can be displayed either as a plot or an ASCII listing. The ISEE-1 and -2 magnetometer data server is provided by the Institute of Geophysics and Planetary Physics (IGPP) at UCLA, through a grant to Robert J. Strangeway from the NASA Space Physics Data System (SPDS)."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "ISEE1_60SEC_MFI",
       "ISEE2_4SEC_MFI"
     ]
@@ -2955,7 +2985,7 @@
       "Description": "\n            ",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "ISEE1_PWI_SA",
       "ISEE1_PWI_SA-RAPID-E",
       "ISEE1_PWI_SFR-E"
@@ -2966,7 +2996,7 @@
       "Name": "Skeleton table at CDAWeb/SPDF",
       "URL": "ftps://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/isee2_h1_fpe_00000000_v01.skt"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "ISEE2_H1_FPE"
     ]
   },
@@ -2976,7 +3006,7 @@
       "URL": "https://spdf.gsfc.nasa.gov/pub/data/isee/isee3/2_min_merged_mag_plasma/aareadme.txt",
       "Description": "Description of the Format of the ISEE-3 Merged Magnetic Field and Solar Wind Plasma 2 min Average ASCII Data"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "ISEE-3_MAGPLASMA_2MIN_MAGNETIC_FIELD_PLASMA"
     ]
   },
@@ -2986,7 +3016,7 @@
       "URL": "https://spdf.gsfc.nasa.gov/pub/data/isee/isee3/magnetic_fields/1min_ascii_extracted/1min_1978_1983/00readme.txt",
       "Description": "Description of the Format of the ISEE-3 Magnetic Field 1 min Average ASCII Data, 1978-1983, covering the Magnetospheric Phase of the ISEE 3 Mission"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "ISEE-3_MAG_1MIN_MAGNETIC_FIELD"
     ]
   },
@@ -2996,7 +3026,7 @@
       "URL": "http://www.iki.rssi.ru/vprokhor",
       "Description": "This page maintains the Situation Analysis for the IKI International Space Missions and its coordination with the Inter-Agency multimission campaigns."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "IT_OR_DEF"
     ]
   },
@@ -3005,7 +3035,7 @@
       "Name": "Interball Tail Probe Situation Analysis",
       "URL": "http://www.iki.rssi.ru/vprokhor/tail.htm"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "IT_OR_DEF"
     ]
   },
@@ -3015,7 +3045,7 @@
       "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/93JA00726",
       "Description": "Journal of Geophysical Research Article on the LANL MPA instrument."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "L9_K0_MPA",
       "L7_K0_MPA"
     ]
@@ -3026,7 +3056,7 @@
       "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/92JA01139",
       "Description": "Journal of Geophysical Research Article containing information on the LANL SOPA instrument."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "L9_K0_SPA",
       "L7_K0_SPA"
     ]
@@ -3037,7 +3067,7 @@
       "URL": "https://doi.org/10.1029/93JA00726",
       "Description": "Journal of Geophysical Research Article on the LANL MPA instrument."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "L0_K0_MPA"
     ]
   },
@@ -3047,7 +3077,7 @@
       "URL": "https://doi.org/10.1029/92JA01139",
       "Description": "Journal of Geophysical Research Article containing information on the LANL SOPA instrument."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "L0_K0_SPA",
       "L4_K0_SPA"
     ]
@@ -3058,7 +3088,7 @@
       "URL": " https://doi.org/10.1029/93JA00726",
       "Description": "Journal of Geophysical Research Article on the LANL MPA instrument."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "L1_K0_MPA",
       "L4_K0_MPA"
     ]
@@ -3069,7 +3099,7 @@
       "URL": " https://doi.org/10.1029/92JA01139",
       "Description": "Journal of Geophysical Research Article containing information on the LANL SOPA instrument."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "L1_K0_SPA"
     ]
   },
@@ -3079,7 +3109,7 @@
       "URL": "http://onlinelibrary.wiley.com/doi/10.1029/93JA00726/pdf",
       "Description": "Journal of Geophysical Research article on the LANL MPA instrument."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "A1_K0_MPA"
     ]
   },
@@ -3089,7 +3119,7 @@
       "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/93JA00726",
       "Description": "Journal of Geophysical Research Article on the LANL MPA instrument."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "A2_K0_MPA"
     ]
   },
@@ -3099,7 +3129,7 @@
       "URL": "https://omniweb.gsfc.nasa.gov/coho/helios/heli.html",
       "Description": "Heliocentric trajectories for selected spacecraft, planets, and comets, HelioWeb data service, hosted by NASA GSFC"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MSL_HELIO1DAY_POSITION",
       "PSP_HELIO1DAY_POSITION",
       "SOLO_HELIO1DAY_POSITION",
@@ -3136,7 +3166,7 @@
       "URL": "https://omniweb.gsfc.nasa.gov/coho/helios/about_helioweb.html",
       "Description": "Instructions for using the Heliocentric Trajectories HelioWeb data service, hosted by NASA GSFC"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MSL_HELIO1DAY_POSITION",
       "PSP_HELIO1DAY_POSITION",
       "SOLO_HELIO1DAY_POSITION",
@@ -3173,7 +3203,7 @@
       "URL": "https://omniweb.gsfc.nasa.gov/coho/helios/helioweb_command_line_sample.txt",
       "Description": "Instructions for using the Heliocentric Trajectories HelioWeb data service via CURL or WGET commands, hosted by NASA GSFC"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MSL_HELIO1DAY_POSITION",
       "PSP_HELIO1DAY_POSITION",
       "SOLO_HELIO1DAY_POSITION",
@@ -3210,7 +3240,7 @@
       "URL": "https://omniweb.gsfc.nasa.gov/coho/helios/coor_des.html",
       "Description": "Definitions for the Heliographic, HG, Heliographic Inertial, HGI, and Solar Ecliptic, SE, Coordinate Systems, hosted by NASA GSFC"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MSL_HELIO1DAY_POSITION",
       "PSP_HELIO1DAY_POSITION",
       "SOLO_HELIO1DAY_POSITION",
@@ -3247,7 +3277,7 @@
       "URL": "http://lasp.colorado.edu/home/maven/",
       "Description": "General Information about the Mars Atmosphere and Volatile Evolution, MAVEN, Mission, Laboratory for Atmospheric and Space Physics, University of Colorado, Boulder, UCB"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MVN_MAG_L2-SUNSTATE-1SEC",
       "MVN_INSITU_KP-4SEC"
     ]
@@ -3258,7 +3288,7 @@
       "URL": "http://lasp.colorado.edu/home/maven/science/instrument-package/mag/",
       "Description": "The Mars Atmosphere and Volatile Evolution, MAVEN, Magnetometer Instrument Home Page, Laboratory for Atmospheric and Space Physics, University of Colorado, Boulder, UCB"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MVN_MAG_L2-SUNSTATE-1SEC",
       "MVN_INSITU_KP-4SEC"
     ]
@@ -3269,7 +3299,7 @@
       "URL": "https://doi.org/10.1007/s11214-015-0169-4",
       "Description": "Connerney, J.E.P., J. Espley, P. Lawton, S. Murphy, J. Odom, R. Oliversen, and D. Sheppard, The MAVEN Magnetic Field Investigation, Space Sci. Rev., 195, 257-291, 2015"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MVN_MAG_L2-SUNSTATE-1SEC",
       "MVN_INSITU_KP-4SEC"
     ]
@@ -3280,7 +3310,7 @@
       "URL": "http://lasp.colorado.edu/home/maven/science/instrument-package/lpw/",
       "Description": "The Mars Atmosphere and Volatile Evolution, MAVEN, Langmuir Probe and Waves Instrument Home Page, Laboratory for Atmospheric and Space Physics, LASP, University of Colorado, Boulder"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MVN_INSITU_KP-4SEC"
     ]
   },
@@ -3290,7 +3320,7 @@
       "URL": "https://doi.org/10.1007/s11214-015-0194-3",
       "Description": "Andersson, L., Ergun, R.E., Delory, G.T., Eriksson, A., Westfall, J., Reed, H., McCauly, J., Summers, D., and D. Meyers, The Langmuir Probe and Waves (LPW) Instrument for MAVEN, Space Sci. Rev., 195, 173-198, 2015"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MVN_INSITU_KP-4SEC"
     ]
   },
@@ -3300,7 +3330,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2013-063A-04",
       "Description": "NSSDC Master Catalog Listing for the MAVEN Langmuir Probe and Waves, LPW, Instrument, NSSDCA/COSPAR ID: 2013-063A-04"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MVN_INSITU_KP-4SEC",
       "MVN_INSITU_KP-4SEC"
     ]
@@ -3311,7 +3341,7 @@
       "URL": "http://lasp.colorado.edu/home/maven/science/instrument-package/lpw/extreme-ultraviolet-euv-monitor/",
       "Description": "The Mars Atmosphere and Volatile Evolution, MAVEN, Langmuir Probe and Waves, LPW, Extreme Ultraviolet Monitor Instrument Home Page, Laboratory for Atmospheric and Space Physics, LASP, University of Colorado, Boulder"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MVN_INSITU_KP-4SEC"
     ]
   },
@@ -3321,7 +3351,7 @@
       "URL": "https://doi.org/10.1007/s11214-015-0195-2",
       "Description": "Eparvier, F.G., Chamberlin, P.C., Woods, T.N., and E.M.B. Thiemann, The Solar Extreme Ultraviolet Monitor for MAVEN, Space Sci. Rev., 195, 293-301, 2015"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MVN_INSITU_KP-4SEC"
     ]
   },
@@ -3331,7 +3361,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2013-063A-08",
       "Description": "NSSDC Master Catalog Listing for the MAVEN Magnetometer, MAG, Instrument, NSSDCA/COSPAR ID: 2013-063A-08"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MVN_INSITU_KP-4SEC"
     ]
   },
@@ -3341,7 +3371,7 @@
       "URL": "http://lasp.colorado.edu/home/maven/science/instrument-package/ngims/",
       "Description": "The Mars Atmosphere and Volatile Evolution, MAVEN, Neutral Gas and Ion Mass Spectrometer Instrument Home Page, Laboratory for Atmospheric and Space Physics, LASP, University of Colorado, Boulder"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MVN_INSITU_KP-4SEC"
     ]
   },
@@ -3351,7 +3381,7 @@
       "URL": "https://doi.org/10.1007/s11214-014-0091-1",
       "Description": "Mahaffy, P.R., Benna, M., King, T., Harpold, D.N., Arvey, R., Barciniak, M., Bendt, M., Carrigan, D., Errigo, T., Holmes, V., Johnson, C.S., Kellogg, J., Kimvilakani, P., Lefavor, M., Hengemihle, J., Jaeger, F., Lyness, E., Maurer, J., Melak, A., Noreiga, F., Noriega, M., Patel, K., Prats, B., Raaen, E., Tan, F., Weidner, E., Gundersen, C., Battel, S., Block, B.P., Arnett, K., Miller, R., Cooper, C., Edmonson, C., and J.T. Nolan,, The Neutral Gas and Ion Mass Spectrometer on the Mars Atmosphere and Volatile Evolution Mission, Space Sci. Rev., 195, 49-73, 2015"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MVN_INSITU_KP-4SEC"
     ]
   },
@@ -3361,7 +3391,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2013-063A-02",
       "Description": "NSSDC Master Catalog Listing for the MAVEN Neutral Gas and Ion Mass Spectrometer, NGIMS, Instrument, NSSDCA/COSPAR ID: 2013-063A-02"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MVN_INSITU_KP-4SEC"
     ]
   },
@@ -3371,7 +3401,7 @@
       "URL": "http://lasp.colorado.edu/home/maven/science/instrument-package/sep/",
       "Description": "The Mars Atmosphere and Volatile Evolution, MAVEN, Solar Energetic Particle Instrument Home Page, Laboratory of Atmospheric and Space Physics, LASP, University of Colorado, Boulder"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MVN_INSITU_KP-4SEC"
     ]
   },
@@ -3381,7 +3411,7 @@
       "URL": "https://doi.org/10.1007/s11214-015-0218-z",
       "Description": "Larson, D.E., Lillis, R.J., Lee, C.O., Dunn, P.A., Hatch, K., Robinson, M., Glaser, D., Chen, J., Curtis, D., Tiu, C., Lin, R.P., Luhmann, J.G., and B.M. Jakosky, The MAVEN Solar Energetic Particle Investigation, Space Sci. Rev., 195, 153-172, 2015"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MVN_INSITU_KP-4SEC"
     ]
   },
@@ -3391,7 +3421,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2013-063A-05",
       "Description": "NSSDC Master Catalog Listing for the MAVEN Solar Energetic Particle, SEP, Instrument, NSSDCA/COSPAR ID: 2013-063A-05"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MVN_INSITU_KP-4SEC"
     ]
   },
@@ -3401,7 +3431,7 @@
       "URL": "http://lasp.colorado.edu/home/maven/science/instrument-package/static/",
       "Description": "The Mars Atmosphere and Volatile Evolution, MAVEN, SupraThermal And Thermal Ion Composition Instrument Home Page, Laboratory of Atmospheric and Space Physics, LASP, University of Colorado, Boulder"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MVN_INSITU_KP-4SEC"
     ]
   },
@@ -3411,7 +3441,7 @@
       "URL": "https://doi.org/10.1007/s11214-015-0175-6",
       "Description": "McFadden, J.P., Kortmann, O., Curtis, D., Dalton, G., Johnson, G., Abiad, R., Sterling, R., Hatch, K., Berg, P., Tiu, C., Gordon, D., Heavner, S., Robinson, M., Marckwordt, M., Lin, R., and B.M. Jakosky, MAVEN SupraThermal and Thermal Ion Compostion (STATIC) Instrument, Space Sci. Rev., 195, 199-256, 2015"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MVN_INSITU_KP-4SEC"
     ]
   },
@@ -3421,7 +3451,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2013-063A-03",
       "Description": "NSSDC Master Catalog Listing for the MAVEN SupraThermal And Thermal Ion Composition, STATIC, Instrument, NSSDCA/COSPAR ID: 2013-063A-03"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MVN_INSITU_KP-4SEC"
     ]
   },
@@ -3431,7 +3461,7 @@
       "URL": "http://lasp.colorado.edu/home/maven/science/instrument-package/swea/",
       "Description": "The Mars Atmosphere and Volatile Evolution, MAVEN, Solar Wind Electron Analyzer Instrument Home Page, Laboratory of Atmospheric and Space Physics, LASP, University of Colorado, Boulder"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MVN_INSITU_KP-4SEC"
     ]
   },
@@ -3441,7 +3471,7 @@
       "URL": "https://doi.org/10.1007/s11214-015-0232-1",
       "Description": "Mitchell, D.L., Mazelle, C., Sauvaud, J.-A., Thocaven, J.-J., Rouzaud, J., Fedorov, A., Rouger, P., Toublanc, D., Taylor, E., Gordon, D., Robinson, M., Heavner, S., Turin, P., Diaz-Aguado, M., Curtis, D.W., Lin, R.P., and B.M. Jakosky, The MAVEN Solar Wind Electron Analyzer, Space Sci. Rev., 200, 495-528, 2016"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MVN_INSITU_KP-4SEC"
     ]
   },
@@ -3451,7 +3481,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2013-063A-07",
       "Description": "NSSDC Master Catalog Listing for the MAVEN Solar Wind Electron Analyzer, SWEA, Instrument, NSSDCA/COSPAR ID: 2013-063A-07"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MVN_INSITU_KP-4SEC"
     ]
   },
@@ -3461,7 +3491,7 @@
       "URL": "http://lasp.colorado.edu/home/maven/science/instrument-package/swia/",
       "Description": "The Mars Atmosphere and Volatile Evolution, MAVEN, Solar Wind Ion Analyzer Instrument Home Page, Laboratory for Atmospheric and Space Physics, LASP, University of Colorado, Boulder"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MVN_INSITU_KP-4SEC"
     ]
   },
@@ -3471,7 +3501,7 @@
       "URL": "https://doi.org/10.1007/s11214-013-0029-z",
       "Description": "Halekas, J.S., Taylor, E.R., Dalton, G., Johnson, G., Curtis, D.W., McFadden, J.P., Mitchell, D.L., Lin, R.P., and B.M. Jakosky, The Solar Wind Ion Analyzer for MAVEN, Space Sci. Rev., 195, 125-151, 2015"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MVN_INSITU_KP-4SEC"
     ]
   },
@@ -3481,7 +3511,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2013-063A-06",
       "Description": "NSSDC Master Catalog Listing for the MAVEN Solar Wind Ion Analyzer, SWIA, Instrument, NSSDCA/COSPAR ID: 2013-063A-06"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MVN_INSITU_KP-4SEC"
     ]
   },
@@ -3490,7 +3520,7 @@
       "Name": "MAVEN Data Archive at PDS PPI Node",
       "URL": "https://pds-ppi.igpp.ucla.edu/search/?sc=MAVEN&facet=SPACECRAFT_NAME"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MVN_STA_L2_D8-12R1E",
       "MVN_STA_L2_D9-12R64E",
       "MVN_STA_L2_DA-1R64E",
@@ -3514,7 +3544,7 @@
       "Name": "MAVEN home page at LASP",
       "URL": "https://lasp.colorado.edu/maven/"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MVN_STA_L2_D8-12R1E",
       "MVN_STA_L2_D9-12R64E",
       "MVN_STA_L2_DA-1R64E",
@@ -3538,7 +3568,7 @@
       "Name": "MAVEN home page at NASA.gov",
       "URL": "https://science.nasa.gov/mission/maven/"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MVN_STA_L2_D8-12R1E",
       "MVN_STA_L2_D9-12R64E",
       "MVN_STA_L2_DA-1R64E",
@@ -3564,7 +3594,7 @@
       "Description": "General information concerning the MESSENGER, Magnetometer, MAG, instrument",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MESSENGER_MAG_RTN"
     ]
   },
@@ -3575,7 +3605,7 @@
       "Description": "MESSENGER Magnetometer, MAG, calibrated data. This volume contains the MAG data from Earth to Mercury over the time interval 2004-08-12 to 2015-04-30, hosted by the Planetary Data System, Planetary Plasma Interactions node, PSD-PPI.",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MESSENGER_MAG_RTN"
     ]
   },
@@ -3586,7 +3616,7 @@
       "Description": "The MESSENGER Magnetometer, MAG, calibrated observations consist of time and position tagged magnetic field samples in physical units and coordinate systems collected by the MAG instrument during fly-by and orbital operations of Mercury. See information given for time intervals more likely to have data quality issues.",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MESSENGER_MAG_RTN"
     ]
   },
@@ -3597,7 +3627,7 @@
       "Description": "Anderson, B.J., M.H. Acuna, D.A. Lohr, J. Scheifele, A. Raval, H. Korth, and J.A. Slavin, The Magnetometer instrument on MESSENGER, Space Sci. Rev., 2007, DOI: 10.1007/s11214-007-9246-7.",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MESSENGER_MAG_RTN"
     ]
   },
@@ -3607,7 +3637,7 @@
       "URL": "https://mms.gsfc.nasa.gov/",
       "Description": "The Magnetospheric Multiscale (MMS) Mission Home Page hosted by the Goddard Space Flight Center (GSFC)."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MMS1_ASPOC_SRVY_L2",
       "MMS2_ASPOC_SRVY_L2",
       "MMS3_ASPOC_SRVY_L2",
@@ -3844,7 +3874,7 @@
       "URL": "https://lasp.colorado.edu/mms/sdc/public/datasets/aspoc/",
       "Description": "The Magnetospheric Multiscale (MMS) Mission home page hosted by the Laboratory of Atmospheric and Space Physics, Science Data Center (LASP, SDC) at the University of Colorado, Boulder."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MMS1_ASPOC_SRVY_L2",
       "MMS2_ASPOC_SRVY_L2",
       "MMS3_ASPOC_SRVY_L2",
@@ -3857,7 +3887,7 @@
       "URL": "https://www.oeaw.ac.at/en/iwf/research/space-missions/current-missions/magnetospheric-multiscale/aspoc",
       "Description": "The Magnetospheric Multiscale (MMS) ASPOC home page hosted by the Graz ASPOC team located at the Institut fur Weltraumforschung (IWF), Osterreichische Akademie der Wissenschaften (OAW)."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MMS1_ASPOC_SRVY_L2",
       "MMS2_ASPOC_SRVY_L2",
       "MMS3_ASPOC_SRVY_L2",
@@ -3870,7 +3900,7 @@
       "URL": "https://lasp.colorado.edu/mms/sdc/public/datasets/fields/",
       "Description": "The Magnetospheric Multiscale (MMS) Mission home page hosted by the Laboratory of Atmospheric and Space Physics, Science Data Center (LASP, SDC) at the University of Colorado, Boulder."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MMS1_EDI_SRVY_L2_AMB",
       "MMS2_EDI_SRVY_L2_AMB",
       "MMS3_EDI_SRVY_L2_AMB",
@@ -3919,7 +3949,7 @@
       "URL": "https://mms-fields.unh.edu/",
       "Description": "The Magnetospheric Multiscale (MMS) FIELDS Instrument Suite home page. The web page is hosted by the University of New Hampshire (UNH)."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MMS1_EDI_SRVY_L2_AMB",
       "MMS2_EDI_SRVY_L2_AMB",
       "MMS3_EDI_SRVY_L2_AMB",
@@ -3944,7 +3974,7 @@
       "URL": "http://mms.space.swri.edu/index.html",
       "Description": "The Magnetospheric Multiscale (MMS) Scientific Investigation home page. The MMS Scientific Investigation is called Solving Magnetospheric Acceleration, Reconnection, and Turbulence (SMART). The web page is hosted by the Southwest Research Institute (SwRI)."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MMS1_EDI_SRVY_L2_AMB-PM2",
       "MMS2_EDI_SRVY_L2_AMB-PM2",
       "MMS3_EDI_SRVY_L2_AMB-PM2",
@@ -3997,7 +4027,7 @@
       "URL": "http://mms-fields.unh.edu/",
       "Description": "The Magnetospheric Multiscale (MMS) FIELDS Instrument Suite home page. The web page is hosted by the University of New Hampshire (UNH)."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MMS1_EDI_SRVY_L2_AMB-PM2",
       "MMS2_EDI_SRVY_L2_AMB-PM2",
       "MMS3_EDI_SRVY_L2_AMB-PM2",
@@ -4022,7 +4052,7 @@
       "URL": "http://mms.space.swri.edu/",
       "Description": "The Magnetospheric Multiscale (MMS) Scientific Investigation home page. The MMS Scientific Investigation is called Solving Magnetospheric Acceleration, Reconnection, and Turbulence (SMART). The web page is hosted by the Southwest Research Institute (SwRI)."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MMS1_EDP_FAST_L2_SCPOT",
       "MMS2_EDP_FAST_L2_SCPOT",
       "MMS3_EDP_FAST_L2_SCPOT",
@@ -4047,7 +4077,7 @@
       "URL": "https://lasp.colorado.edu/mms/sdc/public/datasets/epd/",
       "Description": "The Magnetospheric Multiscale (MMS) Mission home page hosted by the Laboratory of Atmospheric and Space Physics, Science Data Center (LASP, SDC) at the University of Colorado, Boulder."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MMS1_EPD-EIS_SRVY_L2_EXTOF",
       "MMS2_EPD-EIS_SRVY_L2_EXTOF",
       "MMS3_EPD-EIS_SRVY_L2_EXTOF",
@@ -4092,7 +4122,7 @@
       "URL": "https://mms.gsfc.nasa.gov",
       "Description": "The Magnetospheric Multiscale (MMS) Mission Home Page hosted at the Goddard Space Flight Center (GSFC)"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MMS1_FPI_BRST_L2_DES-DIST",
       "MMS2_FPI_BRST_L2_DES-DIST",
       "MMS3_FPI_BRST_L2_DES-DIST",
@@ -4117,7 +4147,7 @@
       "URL": "http://mms.space.swri.edu",
       "Description": "The SMART Home Page hosted by the Southwest Research Institute (SwRI). SMART is the Acronym for the Magnetospheric Multiscale (MMS) Scientific Investigation. The Acronym stands for Solving Magnetospheric Acceleration, Reconnection, and Turbulence."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MMS1_FPI_BRST_L2_DES-DIST",
       "MMS2_FPI_BRST_L2_DES-DIST",
       "MMS3_FPI_BRST_L2_DES-DIST",
@@ -4142,7 +4172,7 @@
       "URL": "https://lasp.colorado.edu/mms/sdc/public/",
       "Description": "The Magnetospheric Multiscale (MMS) Mission Home Page hosted by the Laboratory of Atmospheric and Space Physics, Science Data Center (LASP, SDC) at the University of Colorado, Boulder"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MMS1_FPI_BRST_L2_DES-DIST",
       "MMS2_FPI_BRST_L2_DES-DIST",
       "MMS3_FPI_BRST_L2_DES-DIST",
@@ -4199,7 +4229,7 @@
       "URL": "https://www.nasa.gov/mission_pages/mms/spacecraft/mms-instruments.html#fpi",
       "Description": "NASA Web Page providing an Overview of the Magnetospheric Multiscale (MMS) Fast Plasma Investigation (FPI) Instrument"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MMS1_FPI_BRST_L2_DES-DIST",
       "MMS2_FPI_BRST_L2_DES-DIST",
       "MMS3_FPI_BRST_L2_DES-DIST",
@@ -4256,7 +4286,7 @@
       "URL": "https://www.iwf.oeaw.ac.at/missionen/laufende-missionen/mms/dfg/",
       "Description": "The Magnetospheric Multiscale (MMS) Flux Gate Magnetometer (FGM) home page hosted by the Institut fur Weltraumforschung (IWF), Osterreichische Akademie der Wissenschaften (OAW)."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MMS1_FGM_SRVY_L2",
       "MMS2_FGM_SRVY_L2",
       "MMS3_FGM_SRVY_L2",
@@ -4269,7 +4299,7 @@
       "URL": "https://www.oeaw.ac.at/en/iwf/forschung/weltraummissionen/laufende-missionen/mms/dfg",
       "Description": "The Magnetospheric Multiscale (MMS) Flux Gate Magnetometer (FGM) home page hosted by the Institut fur Weltraumforschung (IWF), Osterreichische Akademie der Wissenschaften (OAW)."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MMS1_FGM_BRST_L2",
       "MMS2_FGM_BRST_L2",
       "MMS3_FGM_BRST_L2",
@@ -4282,7 +4312,7 @@
       "URL": "https://lasp.colorado.edu/mms/sdc/public/datasets/hpca/",
       "Description": "The Magnetospheric Multiscale (MMS) Mission home page hosted by the Laboratory of Atmospheric and Space Physics, Science Data Center (LASP, SDC) at the University of Colorado, Boulder."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MMS1_HPCA_BRST_L2_MOMENTS",
       "MMS2_HPCA_BRST_L2_MOMENTS",
       "MMS3_HPCA_BRST_L2_MOMENTS",
@@ -4307,7 +4337,7 @@
       "URL": "http://mms.space.swri.edu/instruments.html",
       "Description": "The Magnetospheric Multiscale (MMS) Instrument Payload home page. The web page is hosted by the Southwest Research Institute (SwRI)."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MMS1_HPCA_BRST_L2_MOMENTS",
       "MMS2_HPCA_BRST_L2_MOMENTS",
       "MMS3_HPCA_BRST_L2_MOMENTS",
@@ -4324,7 +4354,7 @@
       "URL": "https://www.nasa.gov/mission_pages/mms/spacecraft/mms-instruments.html",
       "Description": "MMS Science instrument descriptions, hosted by National Aeronautics and Space Administration, NASA"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MMS1_HPCA_SRVY_L2_TOF-COUNTS",
       "MMS2_HPCA_SRVY_L2_TOF-COUNTS",
       "MMS3_HPCA_SRVY_L2_TOF-COUNTS",
@@ -4337,7 +4367,7 @@
       "URL": "https://link.springer.com/article/10.1007/s11214-014-0119-6",
       "Description": "Young, D. T. , J.L. Burch, R.G. Gomez, A. De Los Santos, G.P. Miller, P. Wilson, IV, N. Paschalidis, S.A. Fuselier, K. Pickens, E. Hertzberg, C.J. Pollock, J. Scherrer, P.B. Wood, E.T. Donald, D. Aaron, J. Furman, D. George, R.S. Gurnee, R.S. Hourani, A. Jacques, T. Johnson, T. Orr, K.S. Pan, S. Persyn, S. Pope, J. Roberts, M.R. Stokes, K.J. Trattner, and J.M. Webster, Hot Plasma Composition Analyzer for the Magnetospheric Multiscale Mission, Space Sci. Rev., 199, 407–470, 2016, DOI: 10.1007/s11214-014-0119-6"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MMS1_HPCA_SRVY_L2_TOF-COUNTS",
       "MMS2_HPCA_SRVY_L2_TOF-COUNTS",
       "MMS3_HPCA_SRVY_L2_TOF-COUNTS",
@@ -4350,7 +4380,7 @@
       "URL": "https://lasp.colorado.edu/mms/sdc/public/datasets/mec/",
       "Description": "The Magnetospheric Multiscale (MMS) Mission home page hosted by the Laboratory of Atmospheric and Space Physics, Science Data Center (LASP, SDC) at the University of Colorado, Boulder."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MMS1_MEC_BRST_L2_EPHT89D",
       "MMS2_MEC_BRST_L2_EPHT89D",
       "MMS3_MEC_BRST_L2_EPHT89D",
@@ -4383,7 +4413,7 @@
       "URL": "https://magnum.lpp.polytechnique.fr/MMS-SCM-939?lang=en",
       "Description": "The Magnetospheric Multiscale (MMS) Search-Coil Magnetometer (FGM) home page hosted by the Laboratoire de Physique des Plasma (LPP), Universite Pierre et Marie Curie (UPMC)."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MMS1_SCM_SRVY_L2_SCSRVY",
       "MMS2_SCM_SRVY_L2_SCSRVY",
       "MMS3_SCM_SRVY_L2_SCSRVY",
@@ -4400,7 +4430,7 @@
       "URL": "https://www.lpp.polytechnique.fr/MMS-SCM-939?lang=en",
       "Description": "The Magnetospheric Multiscale (MMS) Search-Coil Magnetometer (SCM) home page hosted by the Laboratoire de Physique des Plasma (LPP), CNRS École Polytechnique and Sorbonne Université"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MMS1_SCM_BRST_L2_SCB",
       "MMS2_SCM_BRST_L2_SCB",
       "MMS3_SCM_BRST_L2_SCB",
@@ -4413,7 +4443,7 @@
       "URL": "https://www.ann-geophys.net/19/593/2001/angeo-19-593-2001.pdf",
       "Description": "The MEDUSA Electron and Ion Spectrometer and the PIA Ultraviolet Photometers on Astrid-2, O. Norberg, J. D. Winningham, H. Lauche, W. Keith, W. Puccio, J. Olsen, K. Lundin, and J. Scherrer"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MUNIN_M1_MDSE",
       "MUNIN_M1_MDSI"
     ]
@@ -4424,7 +4454,7 @@
       "URL": "https://www.eoportal.org/satellite-missions/munin",
       "Description": "eoPortal Munin Web Page"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "MUNIN_M1_MDSE",
       "MUNIN_M1_MDSI",
       "MUNIN_M1_OA"
@@ -4436,7 +4466,7 @@
       "URL": "https://www.boulder.swri.edu/pkb/",
       "Description": "SwRI New Horizons Science Team, Space Science Review Preprints"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "NEW_HORIZONS_SWAP_VALIDSUM",
       "NEW_HORIZONS_SWAP_PICKUP-IONS",
       "NEW_HORIZONS_SWAP_PICKUP-IONS-HISTOGRAM"
@@ -4448,7 +4478,7 @@
       "URL": "https://www.nasa.gov/mission_pages/newhorizons/multimedia/swap.html",
       "Description": "NASA New Horizons Mission Page for the Solar Wind Around Pluto, SWAP, Instrument"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "NEW_HORIZONS_SWAP_VALIDSUM",
       "NEW_HORIZONS_SWAP_PICKUP-IONS",
       "NEW_HORIZONS_SWAP_PICKUP-IONS-HISTOGRAM"
@@ -4460,7 +4490,7 @@
       "URL": "https://arxiv.org/abs/0709.4505",
       "Description": "Solar Wind Around Pluto, SWAP, Instrument Description: McComas, D. F. Allegrini, F. Bagenal, P. Casey, P. Delamere, D. Demkee, G. Dunn, H. Elliott, J. Hanley, K. Johnson, J. Langle, G. Miller, S. Pope, M. Reno, B. Rodriguez, N. Schwadron, P. Valek, S. Weidner, The Solar Wind Around Pluto (SWAP) Instrument Aboard New Horizons, Space Sci. Rev., 140(1), 261-313, 2008, doi:10.1007/s11214-007-9205-3."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "NEW_HORIZONS_SWAP_VALIDSUM"
     ]
   },
@@ -4470,7 +4500,7 @@
       "URL": "https://cdaweb.gsfc.nasa.gov/NOAA_POES_MEPED_GSFC_Data_Reprocessing.doc",
       "Description": "NOAA/POES MEPED Data Documentation: NOAA-5 to NOAA-14 Data Reprocessed at GSFC/SPDF, authored by Tan, L.C., Fung, S.F., and X. Shao, internal White Paper hosted by the CDAWeb at Goddard Space Flight Center, GSFC."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "NOAA05_MEPED1MIN_SEM",
       "NOAA06_MEPED1MIN_SEM",
       "NOAA07_MEPED1MIN_SEM",
@@ -4486,7 +4516,7 @@
       "URL": "https://www.ngdc.noaa.gov/stp/satellite/poes/",
       "Description": "Polar Orbiting Environmental Satellites, POES, Web Page hosted by the National Center for Environmental Information, NCEI, at the National Oceanic and Atmospheric Administration, NOAA"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "NOAA05_MEPED1MIN_SEM",
       "NOAA06_MEPED1MIN_SEM",
       "NOAA07_MEPED1MIN_SEM",
@@ -4508,7 +4538,7 @@
       "URL": "https://www.ngdc.noaa.gov/stp/satellite/poes/docs/NGDC/MEPED%20telescope%20processing%20ATBD_V1.pdf",
       "Description": "For further Details on MEPED Contamination Issues, See the"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "NOAA15_POES-SEM2_FLUXES-2SEC",
       "NOAA16_POES-SEM2_FLUXES-2SEC",
       "NOAA18_POES-SEM2_FLUXES-2SEC",
@@ -4523,7 +4553,7 @@
       "URL": "https://omniweb.gsfc.nasa.gov/html/HROdocum.html",
       "Description": "Extensive OMNI documentation pages"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "OMNI_HRO_1MIN",
       "OMNI_HRO2_1MIN",
       "OMNI_HRO2_5MIN"
@@ -4535,7 +4565,7 @@
       "URL": "https://omniweb.sci.gsfc.nasa.gov/html/HROdocum.html",
       "Description": "Extensive OMNI documentation pages"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "OMNI_HRO_5MIN"
     ]
   },
@@ -4545,7 +4575,7 @@
       "URL": "https://omniweb.gsfc.nasa.gov/ow_min.html",
       "Description": "Goddard Space Flight Center, GSFC, Space Physics Data Facility, SPDF, OMNIWeb Service. Additional data access options for high resolution (1 min and 5 min) OMNI solar wind magnetic field and plasma data at Earth's bow shock nose, geomagnetic activity indices, and energetic proton fluxes (5 min data only)."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "OMNI_HRO2_1MIN",
       "OMNI_HRO2_5MIN"
     ]
@@ -4556,7 +4586,7 @@
       "URL": "https://omniweb.gsfc.nasa.gov/html/hro_news.html",
       "Description": "Release Notes: News for High Resolution OMNI data"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "OMNI_HRO2_1MIN",
       "OMNI_HRO2_5MIN"
     ]
@@ -4567,7 +4597,7 @@
       "URL": "https://omniweb.gsfc.nasa.gov/html/ow_data.html",
       "Description": "Extensive OMNI documentation pages"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "OMNI2_H0_MRG1HR"
     ]
   },
@@ -4577,7 +4607,7 @@
       "URL": "https://omniweb.gsfc.nasa.gov/",
       "Description": "Additional analysis tools for these data from the"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "OMNI_COHO1HR_MERGED_MAG_PLASMA"
     ]
   },
@@ -4587,7 +4617,7 @@
       "URL": "https://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer10/mag/ip_1min_ascii/p10magmn_fmt.txt",
       "Description": "Pioneer 10 Helium Vector Magnetometer, HVM, ASCII Data File Description"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PIONEER10_MAG_1MIN_MAGNETIC_FIELD"
     ]
   },
@@ -4596,7 +4626,7 @@
       "Name": "Readme file at SPDF",
       "URL": "ftps://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer10/merged/coho1hr_magplasma_ascii/p10mgd.txt"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PIONEER10_COHO1HR_MERGED_MAG_PLASMA"
     ]
   },
@@ -4605,7 +4635,7 @@
       "Name": "Readme file at SPDF",
       "URL": "https://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer11/merged/coho1hr_magplasma_ascii/p11mgd.txt"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PIONEER11_COHO1HR_MERGED_MAG_PLASMA"
     ]
   },
@@ -4614,7 +4644,7 @@
       "Name": "Readme file from SPDF",
       "URL": "ftps://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer_venus/merged/coho1hr_magplasma_ascii/pvomgd.txt"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PIONEERVENUS_COHO1HR_MERGED_MAG_PLASMA"
     ]
   },
@@ -4625,7 +4655,7 @@
       "Description": "NSSDC Master Catalog, Pioneer Venus Orbiter spacecraft",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PIONEERVENUS_MERGED_SOLAR-WIND_10M"
     ]
   },
@@ -4636,7 +4666,7 @@
       "Description": "General information concerning the Pioneer Venus Orbiter, Magnetometer, OMAG, instrument",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PIONEERVENUS_MERGED_SOLAR-WIND_10M"
     ]
   },
@@ -4647,7 +4677,7 @@
       "Description": "General information concerning the Pioneer Venus Orbiter, Solar Wind Plasma Analyzer, OPA, instrument",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PIONEERVENUS_MERGED_SOLAR-WIND_10M"
     ]
   },
@@ -4657,7 +4687,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1996-013A-03",
       "Description": "NASA master catalog information page."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "POLAR_HYDRA_MOMENTS-14SEC"
     ]
   },
@@ -4668,7 +4698,7 @@
       "Description": "A Polar PWI page is maintained at the University of Iowa with descriptions of interpretation issues, user's guides, data availability tables, a form for creating summary plots and access to pregenerated dynamic spectrograms.",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PO_H0_PWI",
       "PO_H1_PWI",
       "PO_H2_PWI"
@@ -4681,7 +4711,7 @@
       "Description": "Descriptions of PWI receiver and antenna modes.",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PO_H0_PWI",
       "PO_H1_PWI"
     ]
@@ -4693,7 +4723,7 @@
       "Description": "A Polar PWI page is maintained at the University of Iowa with descriptions of receivers, interpretation issues, user's guides, data availability tables, a form for creating summary plots and access to pregenerated dynamic spectrograms.",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PO_H3_PWI",
       "PO_H5_PWI",
       "PO_H7_PWI",
@@ -4706,7 +4736,7 @@
       "Name": "TIMAS Home Page",
       "URL": "http://lasp.colorado.edu/home/timas/full/"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PO_H0_TIM",
       "PO_H2_TIM",
       "PO_K1_TIM"
@@ -4717,7 +4747,7 @@
       "Name": "Description of data processing and usage",
       "URL": "http://lasp.colorado.edu/timas/info/PAPCO/changes_v02.html"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PO_H0_TIM"
     ]
   },
@@ -4727,7 +4757,7 @@
       "URL": "http://lasp.colorado.edu/timas/info/PAPCO/changes_v02_how.html",
       "Description": "Details on the \"spill over\" correction used in data processing"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PO_H0_TIM"
     ]
   },
@@ -4737,7 +4767,7 @@
       "URL": "http://lasp.colorado.edu/timas/info/PAPCO/timas.html",
       "Description": "A PAPCO module for reading and displaying TIMAS (and other POLAR) data."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PO_H0_TIM",
       "PO_K1_TIM"
     ]
@@ -4748,7 +4778,7 @@
       "URL": "http://www.papco.org",
       "Description": "PaPCo is IDL software for data visualization and analysis. It is modular, PaPCo modules built by various institutions and individuals plug into PaPCo core to provide data products. These modules provide graphic panels that are stacked on a time axis. About 60 modules exist, and 30 are supported as core modules that come with PaPCo. There are modules from 15+ spacecraft, including CRRES, Polar, Cassini and Cluster. Data from CDAWeb is plottable as well. The software is open-source, making it very flexible and well-suited for science use."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PO_H0_TIM",
       "PO_K1_TIM"
     ]
@@ -4758,7 +4788,7 @@
       "Name": "H1 and H2 High Resolution Data Products",
       "URL": "http://lasp.colorado.edu/timas/info/h12-data/h12-data.html"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PO_H2_TIM"
     ]
   },
@@ -4768,7 +4798,7 @@
       "URL": "http://lasp.colorado.edu/timas/info/h12-data/1-flow_db_spec.html",
       "Description": "Description of the data base included in this data set"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PO_H2_TIM"
     ]
   },
@@ -4777,7 +4807,7 @@
       "Name": "IDL code to read the po_h2_v01 data files and display them",
       "URL": "http://lasp.colorado.edu/timas/info/h12-data/read_h2.pro"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PO_H2_TIM"
     ]
   },
@@ -4787,7 +4817,7 @@
       "URL": "http://lasp.colorado.edu/home/timas/resources/principal-investigator/petersons-publications/",
       "Description": "Solar-minimum quiet-time ion energization and outflow in dynamic boundary related coordinates, W.K. Peterson, L. Andersson, B.C. Callahan, H.L. Collin, J.D. Scudder, and A.W. Yau, To appear in J. Geophys. Res., 2008."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PO_H2_TIM",
       "PO_H2_TIM",
       "PO_H2_TIM"
@@ -4799,7 +4829,7 @@
       "URL": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2000JA003006",
       "Description": "Polar/TIMAS Observations of Suprathermal Ion Outflow During Solar Minimum Conditions, W.K. Peterson, H.L. Collin, A.W. Yau, and O.W. Lennartsson, J. Geophys. Res., 106, 6059, 2001."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PO_H2_TIM"
     ]
   },
@@ -4809,7 +4839,7 @@
       "URL": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/1998GL900090",
       "Description": "The Seasonal Variation of Auroral Ion Beams, H.L. Collin, W.K. Peterson, O.W. Lennartsson, and J.F. Drake, Geophysical Research Letters, 25, 4071, 1998."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PO_H2_TIM"
     ]
   },
@@ -4819,7 +4849,7 @@
       "URL": "http://vis.physics.uiowa.edu/vis/vis_description/vis_description.htmlx",
       "Description": "Scientific Description of the VIS Instrument"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PO_VIS_EARTH-CAMERA-CALIBRATED",
       "PO_VIS_VISIBLE-IMAGER-CALIBRATED"
     ]
@@ -4830,7 +4860,7 @@
       "URL": "https://cdaweb.gsfc.nasa.gov/Polar_VIS_docs/SENSITIVITIES_AND_INTENSITIES.TXT",
       "Description": "Sensitivity and Intensity Calculation"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PO_VIS_EARTH-CAMERA-CALIBRATED",
       "PO_VIS_VISIBLE-IMAGER-CALIBRATED"
     ]
@@ -4841,7 +4871,7 @@
       "URL": "https://cdaweb.gsfc.nasa.gov/Polar_VIS_docs/Coordinate_Calculation.txt",
       "Description": "Polar VIS Coordinate Calculation"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PO_VIS_EARTH-CAMERA-CALIBRATED",
       "PO_VIS_VISIBLE-IMAGER-CALIBRATED"
     ]
@@ -4852,7 +4882,7 @@
       "URL": "http://vis.physics.uiowa.edu/vis/software/",
       "Description": "Scientific Analysis Software"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PO_VIS_EARTH-CAMERA-CALIBRATED",
       "PO_VIS_VISIBLE-IMAGER-CALIBRATED"
     ]
@@ -4863,7 +4893,7 @@
       "URL": "https://pwg.gsfc.nasa.gov/menu_orbits.html",
       "Description": "Polar Satellite Attitude and Orbit Information, Archived Website. Disclaimer: The following material is being kept online for archival purposes. Although accurate at the Time Of publication, it is no longer being updated. The Page may contain Broken Links or outdated Information, and parts may not function in Current Web Browsers."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PO_OR_DEF",
       "PO_AT_DEF"
     ]
@@ -4874,7 +4904,7 @@
       "URL": "https://omniweb.gsfc.nasa.gov/coho/html/cw_data.html",
       "Description": "This web site provides a overview description of the data and services provided by the COHOWeb interface and includes spacecraft mission specific notes, the data format specification, and coordinate system descriptions."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PSP_COHO1HR_MERGED_MAG_PLASMA",
       "STA_COHO1HR_MERGED_MAG_PLASMA",
       "STB_COHO1HR_MERGED_MAG_PLASMA"
@@ -4886,7 +4916,7 @@
       "URL": "https://omniweb.sci.gsfc.nasa.gov/coho/",
       "Description": "Data access and services for hourly and daily merged interplanetary magnetic field, plasma, proton fluxes, and ephemerides data from deep space satellite missions. The services include: 1) Graphical browse and listing, 2) Listing, and plotting with filtering, 3) Distribution functions, medians, averages, standard deviations, 4) Scatter plotting, linear regression fitting, 5) FTPS access to hourly data, and 6) FTPS access to high resolution data."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PSP_COHO1HR_MERGED_MAG_PLASMA",
       "STB_COHO1HR_MERGED_MAG_PLASMA"
     ]
@@ -4897,7 +4927,7 @@
       "URL": "https://omniweb.sci.gsfc.nasa.gov/html/about_interface.html",
       "Description": "The OMNIWeb Plus integrated interface provides access to the many interplanetary magnetic field, plasma, and energetic particle data sets hosted by the Goddard Space Flight Center, GSFC, Space Physics Data Facility, SPDF. OMNIWeb Plus services are available via several underlying interfaces including: OMNIWeb, COHOWeb, FTPBrowser, CDAWeb, HelioWeb, and direct HTTPS access that offering various functionalities."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PSP_COHO1HR_MERGED_MAG_PLASMA"
     ]
   },
@@ -4907,7 +4937,7 @@
       "URL": "https://omniweb.sci.gsfc.nasa.gov/",
       "Description": "Paths to magnetic field, plasma, energetic particle, and ephemeris data relevant to heliospheric studies resident at the Goddard Space Flight Center, GSFC, Space Physics Data Facility, SPDF"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PSP_COHO1HR_MERGED_MAG_PLASMA"
     ]
   },
@@ -4917,7 +4947,7 @@
       "URL": "https://omniweb.sci.gsfc.nasa.gov/html/citing.html",
       "Description": "OMNI Data Usage Citation Instructions"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PSP_COHO1HR_MERGED_MAG_PLASMA"
     ]
   },
@@ -4927,7 +4957,7 @@
       "URL": "https://doi.org/10.1007/s11214-015-0206-3",
       "Description": "Parker Solar Probe, PSP, SWEAP Instrument Suite Description: Kasper, J.C., Abiad, R., Austin, G. et al., Solar Wind Electrons Alphas and Protons (SWEAP) Investigation: Design of the Solar Wind and Coronal Plasma Instrument Suite for Solar Probe Plus, Space Scii. Rev., 204, 131–186 (2016)"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PSP_SWP_SPC_L3I",
       "PSP_SWP_SPC_L2I",
       "PSP_SWP_SPI_SF00_L3_MOM_INST",
@@ -4948,7 +4978,7 @@
       "URL": "http://sweap.cfa.harvard.edu",
       "Description": "Parker Solar Probe, PSP, SWEAP home page, Smithsonian Astrophysical Observatory"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PSP_SWP_SPC_L3I",
       "PSP_SWP_SPC_L2I",
       "PSP_SWP_SPI_SF00_L3_MOM_INST",
@@ -4969,7 +4999,7 @@
       "URL": "http://sweap.cfa.harvard.edu/Data.html",
       "Description": "Parker Solar Probe, PSP, SWEAP Data Access web site, Smithsonian Astrophysical Observatory"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PSP_SWP_SPC_L3I",
       "PSP_SWP_SPC_L2I",
       "PSP_SWP_SPI_SF00_L3_MOM_INST",
@@ -4992,7 +5022,7 @@
       "Description": "SWEAP",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PSP_SWP_SPI_SF01_L2_8DX32EX8A"
     ]
   },
@@ -5003,7 +5033,7 @@
       "Description": "Smithsonian Astrophysical Observatory SWEAP",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PSP_SWP_SPI_SF01_L2_8DX32EX8A"
     ]
   },
@@ -5014,7 +5044,7 @@
       "Description": "Includes a Brief Note on Proton Contanimation Removal",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PSP_SWP_SPI_SF01_L2_8DX32EX8A"
     ]
   },
@@ -5024,7 +5054,7 @@
       "URL": "https://doi.org/10.1007/s11214-016-0244-5",
       "Description": "Parker Solar Probe, PSP, FIELDS Instrument Suite Description: Bale, S.D., Goetz, K., Harvey, P.R. et al., The FIELDS Instrument Suite for Solar Probe Plus, Space Sci Rev 204, 49-82 (2016)"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PSP_FLD_L2_MAG_RTN",
       "PSP_FLD_L2_MAG_RTN_1MIN",
       "PSP_FLD_L2_MAG_RTN_4_SA_PER_CYC",
@@ -5078,7 +5108,7 @@
       "URL": "https://doi.org/10.1002/2016JA022344",
       "Description": "Parker Solar Probe, PSP, FIELDS Instrument Suite, Digital Fields Board, DFB, Description: Malaspina, D.M., Ergun, R.E., Bolton, M. et al., The Digital Fields Board for the FIELDS Instrument Suite on the Solar Probe Plus Mission: Analog and Digital signal Processing, JGR Space Physics, 121, 5088-5096 (2016)"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PSP_FLD_L2_MAG_RTN",
       "PSP_FLD_L2_MAG_SC_1MIN",
       "PSP_FLD_L2_MAG_SC_4_SA_PER_CYC",
@@ -5129,7 +5159,7 @@
       "URL": "https://fields.ssl.berkeley.edu/data/",
       "Description": "Parker Solar Probe, PSP, FIELDS Instrument Suite, Data Description and Access, Spacecraft Operations Center, SOC, Web Site, UC Berkeley"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PSP_FLD_L2_MAG_RTN",
       "PSP_FLD_L2_MAG_SC_1MIN",
       "PSP_FLD_L2_MAG_SC_4_SA_PER_CYC",
@@ -5161,7 +5191,7 @@
       "URL": "https://fields.ssl.berkeley.edu/rules/",
       "Description": "Parker Solar Probe, PSP, FIELDS Instrument Suite, Rules of the Road, Spacecraft Operations Center, SOC, Web Site, UC Berkeley"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PSP_FLD_L2_MAG_RTN",
       "PSP_FLD_L2_MAG_SC_1MIN",
       "PSP_FLD_L2_MAG_SC_4_SA_PER_CYC",
@@ -5193,7 +5223,7 @@
       "URL": "http://parkersolarprobe.jhuapl.edu/The-Mission/index.php",
       "Description": "Parker Solar Probe, PSP, Mission Overview, hosted by the Applied Physics Laboratory, Johns Hopkins University"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PSP_FLD_L2_MAG_RTN",
       "PSP_FLD_L2_MAG_RTN_1MIN",
       "PSP_FLD_L2_MAG_RTN_4_SA_PER_CYC",
@@ -5247,7 +5277,7 @@
       "URL": "https://fields.ssl.berkeley.edu/2020/10/release-notes-for-psp-fields-release-5-1/",
       "Description": "PSP/FIELDS data release 5.1, on October 19, 2020, updates the dfb_dbm_scm and dfb_wf_dvdc data types to version 3. The new data versions contain significant corrections to the previously released data."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PSP_FLD_L2_MAG_RTN",
       "PSP_FLD_L2_MAG_SC_1MIN",
       "PSP_FLD_L2_MAG_SC_4_SA_PER_CYC",
@@ -5279,7 +5309,7 @@
       "URL": "https://fields.ssl.berkeley.edu/2021/04/release-notes-for-psp-fields-data-release-7/",
       "Description": "PSP/FIELDS data release 7, on April 4, 2021, includes data from PSP Encounter 6 (September 2020). All data up to and including December 2020 are now publicly available. For this data release, all DFB cross spectra have been reprocessed (with a new version number), and a subset of MAG data has also been reprocessed (with a new version number)."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PSP_FLD_L2_MAG_RTN",
       "PSP_FLD_L2_MAG_SC_1MIN",
       "PSP_FLD_L2_MAG_SC_4_SA_PER_CYC",
@@ -5311,7 +5341,7 @@
       "URL": "https://fields.ssl.berkeley.edu/2021/06/release-notes-for-psp-fields-data-release-8/",
       "Description": "PSP/FIELDS data release 8, on June 28, 2021, includes survey data from PSP Encounter 7 and Venus Gravity assist 4. Several data sets have been updated in release 8."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PSP_FLD_L2_MAG_RTN",
       "PSP_FLD_L2_MAG_SC_1MIN",
       "PSP_FLD_L2_MAG_SC_4_SA_PER_CYC",
@@ -5343,7 +5373,7 @@
       "URL": "https://fields.ssl.berkeley.edu/2021/10/release-notes-for-psp-fields-data-release-9/",
       "Description": "PSP/FIELDS Data Release 9, on October 29, 2021, includes select data from Encounter 7 (perihelion January 2021), and survey and select data from Encounter 8 (perihelion April 2021)."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PSP_FLD_L2_MAG_RTN",
       "PSP_FLD_L2_MAG_SC_1MIN",
       "PSP_FLD_L2_MAG_SC_4_SA_PER_CYC",
@@ -5375,7 +5405,7 @@
       "URL": "https://fields.ssl.berkeley.edu/2022/02/release-notes-for-psp-fields-data-release-10/",
       "Description": "PSP/FIELDS Data Release 10, on February 7, 2022, includes survey and select data from Encounter 9 (perihelion August 2021)."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PSP_FLD_L2_MAG_RTN",
       "PSP_FLD_L2_MAG_SC_1MIN",
       "PSP_FLD_L2_MAG_SC_4_SA_PER_CYC",
@@ -5407,7 +5437,7 @@
       "URL": "https://fields.ssl.berkeley.edu/2022/04/release-notes-for-psp-fields-data-release-11/",
       "Description": "PSP/FIELDS Data Release 11, on April 25, 2022, includes survey and select data from Encounter 10 (perihelion November 2021), and survey and select data from Venus Gravity Assist 5 (October 2021)."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PSP_FLD_L2_MAG_RTN",
       "PSP_FLD_L2_MAG_SC_1MIN",
       "PSP_FLD_L2_MAG_SC_4_SA_PER_CYC",
@@ -5439,7 +5469,7 @@
       "URL": "http://fields.ssl.berkeley.edu/data/",
       "Description": "Parker Solar Probe, PSP, FIELDS Instrument Suite, Data Description, Spacecraft Operations Center, SOC, Web Site, UC Berkeley"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PSP_FLD_L2_MAG_RTN_1MIN",
       "PSP_FLD_L2_MAG_RTN_4_SA_PER_CYC",
       "PSP_FLD_L2_MAG_SC",
@@ -5471,7 +5501,7 @@
       "URL": "http://fields.ssl.berkeley.edu/rules/",
       "Description": "Parker Solar Probe, PSP, FIELDS Instrument Suite, Rules of the Road, Spacecraft Operations Center, SOC, Web Site, UC Berkeley"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PSP_FLD_L2_MAG_RTN_1MIN",
       "PSP_FLD_L2_MAG_RTN_4_SA_PER_CYC",
       "PSP_FLD_L2_MAG_SC",
@@ -5502,7 +5532,7 @@
       "URL": "https://doi.org/10.1007/s11214-014-0059-1",
       "Description": "Parker Solar Probe, PSP, ISOIS Instrument Suite Description: McComas, D.J. et al., Integrated Science Investigation of the Sun (ISIS): Design of the Energetic Particle Investigation, Space Sci. Rev., 204, 187–256 (2016)"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PSP_ISOIS_L2-SUMMARY",
       "PSP_ISOIS-EPIHI_L2-SECOND-RATES",
       "PSP_ISOIS-EPIHI_L2-HET-RATES10",
@@ -5528,7 +5558,7 @@
       "URL": "http://spp-isois.sr.unh.edu/ISOIS_Terms_of_Use.html",
       "Description": "Parker Solar Probe, PSP, ISOIS Instrument Suite, Rules of the Road, Spacecraft Operations Center, SOC, web site, Univ. of New Hampshire"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PSP_ISOIS_L2-SUMMARY",
       "PSP_ISOIS-EPIHI_L2-HET-RATES60",
       "PSP_ISOIS-EPIHI_L2-LET1-RATES10",
@@ -5543,7 +5573,7 @@
       "URL": "http://spp-isois.sr.unh.edu/data_public/ISOIS_Data_Glossary.pdf",
       "Description": "Parker Solar Probe, PSP, ISOIS Instrument Suite, Energetic Particle Data - User Guide, Spacecraft Operations Center, SOC, web site, Univ. of New Hampshire"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PSP_ISOIS_L2-SUMMARY",
       "PSP_ISOIS-EPIHI_L2-HET-RATES60",
       "PSP_ISOIS-EPIHI_L2-LET1-RATES10",
@@ -5558,7 +5588,7 @@
       "URL": "http://spp-isois.sr.unh.edu/home.html",
       "Description": "Parker Solar Probe, PSP, ISOIS Instrument Suite, Spacecraft Operations Center, SOC, web site, Univ. of New Hampshire. This is the official science data host site for the IS☉IS instrument suite and visualization toolkit."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PSP_ISOIS_L2-SUMMARY",
       "PSP_ISOIS-EPIHI_L2-HET-RATES60",
       "PSP_ISOIS-EPIHI_L2-LET1-RATES10",
@@ -5573,7 +5603,7 @@
       "URL": "http://fields.ssl.berkeley.edu/",
       "Description": "Parker Solar Probe, PSP, FIELDS Instrument Suite, Spacecraft Operations Center, SOC, web site, UC Berkeley. The magnetic field data sed for pitch angle calculation of ISOIS energetic particle data is provided courtesy of the PSP FIELDS team."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PSP_ISOIS_L2-SUMMARY",
       "PSP_ISOIS-EPIHI_L2-HET-RATES60",
       "PSP_ISOIS-EPIHI_L2-LET1-RATES10",
@@ -5589,7 +5619,7 @@
       "Description": "Parker Solar Probe, PSP, IS☉IS Instrument Suite, Rules of the Road, Spacecraft Operations Center, SOC, web site, Univ. of New Hampshire",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PSP_ISOIS-EPIHI_L2-SECOND-RATES",
       "PSP_ISOIS-EPIHI_L2-HET-RATES10",
       "PSP_ISOIS-EPIHI_L2-HET-RATES300",
@@ -5610,7 +5640,7 @@
       "Description": "Parker Solar Probe, PSP, IS☉IS Instrument Suite, Energetic Particle Data - User Guide, Spacecraft Operations Center, SOC, web site, Univ. of New Hampshire",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PSP_ISOIS-EPIHI_L2-SECOND-RATES",
       "PSP_ISOIS-EPIHI_L2-HET-RATES10",
       "PSP_ISOIS-EPIHI_L2-HET-RATES300",
@@ -5631,7 +5661,7 @@
       "Description": "Parker Solar Probe, PSP, IS☉IS Instrument Suite, Spacecraft Operations Center, SOC, web site, Univ. of New Hampshire. This is the official science data host site for the IS☉IS instrument suite and visualization toolkit.",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PSP_ISOIS-EPIHI_L2-SECOND-RATES",
       "PSP_ISOIS-EPIHI_L2-HET-RATES10",
       "PSP_ISOIS-EPIHI_L2-HET-RATES300",
@@ -5652,7 +5682,7 @@
       "Description": "Parker Solar Probe, PSP, FIELDS Instrument Suite, Spacecraft Operations Center, SOC, web site, UC Berkeley. The magnetic field data used for pitch angle calculation of IS☉IS energetic particle data is provided courtesy of the PSP FIELDS team.",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "PSP_ISOIS-EPIHI_L2-SECOND-RATES",
       "PSP_ISOIS-EPIHI_L2-HET-RATES10",
       "PSP_ISOIS-EPIHI_L2-HET-RATES300",
@@ -5672,7 +5702,7 @@
       "URL": "https://vanallenprobes.jhuapl.edu",
       "Description": "Van Allen Probes Home Page, Exploring Earth's Radiation Belts and the Extremes of Space Weather, Applied Physics Laboratory, Johns Hopkins University"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "RBSPA_REL04_ECT-HOPE-MOM-L3",
       "RBSPB_REL04_ECT-HOPE-PA-L3",
       "RBSPA_REL04_ECT-MAGEIS-L3",
@@ -5717,7 +5747,7 @@
       "URL": "https://rbspgway.jhuapl.edu/",
       "Description": "Van Allen Probes Science Gateway for access to Data, Models, Software and Tools for Researchers, Students and the General Public at the Applied Physics Laboratory, Johns Hopkins University"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "RBSPA_REL04_ECT-HOPE-MOM-L3",
       "RBSPB_REL04_ECT-HOPE-PA-L3",
       "RBSPA_REL04_ECT-MAGEIS-L3",
@@ -5746,7 +5776,7 @@
       "URL": "https://rbspgway.jhuapl.edu/data_policy",
       "Description": "Van Allen Probes Science Gateway, Mission Rules of the Road for Data Usage, Applied Physics Laboratory at the Applied Physics Laboratory, Johns Hopkins University"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "RBSPA_REL04_ECT-HOPE-MOM-L3",
       "RBSPB_REL04_ECT-HOPE-PA-L3",
       "RBSPA_REL04_ECT-MAGEIS-L3",
@@ -5775,7 +5805,7 @@
       "URL": "https://rbsp-ect.sr.unh.edu/",
       "Description": "Van Allen Probes Energetic Particle, Composition, and Thermal Plasma Suite, ECT, Home Page at the University of New Hampshire"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "RBSPA_REL04_ECT-HOPE-MOM-L3",
       "RBSPB_REL04_ECT-HOPE-PA-L3",
       "RBSPA_REL04_ECT-MAGEIS-L3",
@@ -5791,7 +5821,7 @@
       "URL": "https://www.rbsp-ect.lanl.gov/",
       "Description": "Van Allen Probes Energetic Particle, Composition, and Thermal Plasma Suite, ECT, Science Operations Center, SOC, and Data Services Web Page at the Los Alamos National Laboratory"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "RBSPA_REL04_ECT-HOPE-MOM-L3",
       "RBSPB_REL04_ECT-HOPE-MOM-L3",
       "RBSPA_REL04_ECT-HOPE-PA-L3",
@@ -5812,7 +5842,7 @@
       "URL": "https://www.rbsp-ect.lanl.gov/science/DataDirectories.php",
       "Description": "Van Allen Probes Energetic Particle, Composition, and Thermal Plasma Suite, ECT, Science Operations Center, SOC, Data Access Links to Pitch Angle resolved Helium Oxygen Proton Electron, HOPE, Mass Spectrometer Particle Web Site for access to Magnetic Field Data the Los Alamos National Laboratory"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "RBSPA_REL04_ECT-HOPE-MOM-L3",
       "RBSPB_REL04_ECT-HOPE-MOM-L3",
       "RBSPA_REL04_ECT-HOPE-PA-L3",
@@ -5833,7 +5863,7 @@
       "URL": "http://vanallenprobes.jhuapl.edu",
       "Description": "Van Allen Probes Home Page, Exploring Earth's Radiation Belts and the Extremes of Space Weather, Applied Physics Laboratory, Johns Hopkins University"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "RBSPB_REL04_ECT-HOPE-MOM-L3",
       "RBSPA_REL04_ECT-HOPE-PA-L3",
       "RBSPB_REL04_ECT-MAGEIS-L3",
@@ -5912,7 +5942,7 @@
       "URL": "http://rbspgway.jhuapl.edu/",
       "Description": "Van Allen Probes Science Gateway for access to Data, Models, Software and Tools for Researchers, Students and the General Public at the Applied Physics Laboratory, Johns Hopkins University"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "RBSPB_REL04_ECT-HOPE-MOM-L3",
       "RBSPA_REL04_ECT-HOPE-PA-L3",
       "RBSPB_REL04_ECT-MAGEIS-L3",
@@ -5944,7 +5974,7 @@
       "URL": "http://rbspgway.jhuapl.edu/data_policy",
       "Description": "Van Allen Probes Science Gateway, Mission Rules of the Road for Data Usage, Applied Physics Laboratory at the Applied Physics Laboratory, Johns Hopkins University"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "RBSPB_REL04_ECT-HOPE-MOM-L3",
       "RBSPA_REL04_ECT-HOPE-PA-L3",
       "RBSPB_REL04_ECT-MAGEIS-L3",
@@ -5976,7 +6006,7 @@
       "URL": "http://rbsp-ect.sr.unh.edu",
       "Description": "Van Allen Probes Energetic Particle, Composition, and Thermal Plasma Suite, ECT, Home Page at the University of New Hampshire"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "RBSPB_REL04_ECT-HOPE-MOM-L3",
       "RBSPA_REL04_ECT-HOPE-PA-L3",
       "RBSPB_REL04_ECT-MAGEIS-L3",
@@ -5993,7 +6023,7 @@
       "URL": "https://doi.org/10.1002/2017JA024661",
       "Description": "Selesnick, R.S., Baker, D.N., Kanekal, S.G., Hoxie, V.C., X. Li, Modeling the Proton Radiation Belt with Van Allen Probes Relativistic Electron-Proton Telescope Data, J. Geophys. Res. Space Phys., 123, 685-697, https://doi.org/10.1002/2017JA024661, 2018"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "RBSP_ECT-REPT-SCI-L3-SELESNICK-MODEL"
     ]
   },
@@ -6003,7 +6033,7 @@
       "URL": "https://rbsp-ect.lanl.gov/publications/Data_Acknowledgement.php",
       "Description": "Van Allen Probes Energetic Particle, Composition, and Thermal Plasma Suite Data Usage and Acknowledgement Web Page, Los Alamos National Laboratory"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "RBSP_ECT-REPT-SCI-L3-SELESNICK-MODEL"
     ]
   },
@@ -6013,7 +6043,7 @@
       "URL": "http://rbsp-ect.sr.unh.edu/",
       "Description": "ECT home page"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "RBSPA_REL04_ECT-HOPE-SCI-L2SA"
     ]
   },
@@ -6023,7 +6053,7 @@
       "URL": "https://rbsp-ect.lanl.gov/rbsp_ect.php",
       "Description": "ECT SOC and data services"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "RBSPA_REL04_ECT-HOPE-SCI-L2SA",
       "RBSPB_REL04_ECT-HOPE-SCI-L2SA",
       "RBSPA_REL04_ECT-HOPE-SCI-L2",
@@ -6036,7 +6066,7 @@
       "URL": "http://rbsp-ect.sr.unh.edu/instrument_hope.shtml",
       "Description": "Van Allen Probes"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "RBSPA_REL04_ECT-HOPE-SCI-L2SA"
     ]
   },
@@ -6046,7 +6076,7 @@
       "URL": "https://rbsp-ect.sr.unh.edu//",
       "Description": "ECT home page"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "RBSPB_REL04_ECT-HOPE-SCI-L2SA"
     ]
   },
@@ -6056,7 +6086,7 @@
       "URL": "https://rbsp-ect.sr.unh.edu//instrument_hope.shtml",
       "Description": "Van Allen Probes"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "RBSPB_REL04_ECT-HOPE-SCI-L2SA"
     ]
   },
@@ -6066,7 +6096,7 @@
       "URL": "http://rbspice.ftecs.com/Data.html",
       "Description": "Van Allen Probes Radiation Belt Storm Probes Ion Composition Experiment, RBSPICE, Web Page for Data Access, Current QuickLook and Summary Plots, Instrument Information at Fundamental Technologies, LLC"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "RBSP-A-RBSPICE_LEV-3-PAP_TOFXEH",
       "RBSP-B-RBSPICE_LEV-3-PAP_TOFXEH",
       "RBSP-A-RBSPICE_LEV-3-PAP_TOFXEHE-0",
@@ -6131,7 +6161,7 @@
       "URL": "http://sd-www.jhuapl.edu/rbspice/MIDL/",
       "Description": "Van Allen Probes RBSPICE Web Page for Mission Independent Data Layer, MIDL, Data Analysis and Visualization Software at the Applied Physics Laboratory, Johns Hopkins University"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "RBSP-A-RBSPICE_LEV-3-PAP_TOFXEH",
       "RBSP-B-RBSPICE_LEV-3-PAP_TOFXEH",
       "RBSP-A-RBSPICE_LEV-3-PAP_TOFXEHE-0",
@@ -6196,7 +6226,7 @@
       "URL": "http://athena.jhuapl.edu",
       "Description": "Science Gateway (including Mission Rules of the Road for Data Usage)"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "RBSP-B-RBSPICE_LEV-3_TOFXEION",
       "RBSP-A-RBSPICE_LEV-3_TOFXPHHHELT",
       "RBSP-B-RBSPICE_LEV-3_TOFXPHHLEHT",
@@ -6236,7 +6266,7 @@
       "URL": "http://rbsp.space.umn.edu",
       "Description": "Daily Summary Plots and additional L2 data"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "RBSPA_EFW-L2_E-HIRES-UVW",
       "RBSPB_EFW-L2_E-HIRES-UVW",
       "RBSPA_EFW-L2_E-SPINFIT-MGSE",
@@ -6255,7 +6285,7 @@
       "URL": "http://www.space.umn.edu/rbspefw-data-policy-the-rules-of-the-road/",
       "Description": "EFW Data Required Reading"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "RBSPA_EFW-L2_ESVY_DESPUN",
       "RBSPB_EFW-L2_ESVY_DESPUN"
     ]
@@ -6266,7 +6296,7 @@
       "URL": "http://emfisis.physics.uiowa.edu",
       "Description": "Van Allen Probes Electric and Magnetic Field Instrument Suite and Integrated Science, EMFISIS, Home Page at the University of Iowa"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "RBSP-A_DENSITY_EMFISIS-L4",
       "RBSP-B_DENSITY_EMFISIS-L4",
       "RBSP-A_WFR-SPECTRAL-MATRIX_EMFISIS-L2",
@@ -6279,7 +6309,7 @@
       "URL": "http://emfisis.physics.uiowa.edu/about/instrument",
       "Description": "Van Allen Probes Electric and Magnetic Field Instrument Suite and Integrated Science, EMFISIS, Web Page with Mission and Instrument Team Links at the University of Iowa"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "RBSP-A_DENSITY_EMFISIS-L4",
       "RBSP-B_DENSITY_EMFISIS-L4",
       "RBSP-A_MAGNETOMETER_4SEC-GEI_EMFISIS-L3",
@@ -6340,7 +6370,7 @@
       "URL": "http://emfisis.physics.uiowa.edu/data/index",
       "Description": "Van Allen Probes Electric and Magnetic Field Instrument Suite and Integrated Science, EMFISIS, Data Access including advanced Autoplot Graphics with Links to the Data Use Policy and Magnetometer Release Notes at the University of Iowa"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "RBSP-A_DENSITY_EMFISIS-L4",
       "RBSP-B_DENSITY_EMFISIS-L4",
       "RBSP-A_HFR-SPECTRA_EMFISIS-L2",
@@ -6360,7 +6390,7 @@
       "URL": "http://emfisis.physics.uiowa.edu/data/mag_release_notes",
       "Description": "Current EMFISIS/MAG Issues, Caveats and Production Release Notes"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "RBSP-A_MAGNETOMETER_4SEC-GEI_EMFISIS-L3",
       "RBSP-B_MAGNETOMETER_4SEC-GEI_EMFISIS-L3",
       "RBSP-A_MAGNETOMETER_4SEC-GEO_EMFISIS-L3",
@@ -6417,7 +6447,7 @@
       "URL": "http://virbo.org/RBSP/RPS",
       "Description": "Van Allen Probes Relativistic Proton Spectrometer, RPS, Web Page for Instrument Description Summary and Data Access Links, at the Virtual Radiation Belt Observatory"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "RBSPA_L2_PSBR-RPS",
       "RBSPB_L2_PSBR-RPS",
       "RBSPA_L2-1MIN_PSBR-RPS",
@@ -6430,7 +6460,7 @@
       "URL": "http://mirl.sr.unh.edu/projects_renu2/projects_renu2.html",
       "Description": "Rocket Experiment for Neutral Upwelling 2, RENU2, Mission Overview Web Page, University of New Hampshire"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "RENU2_H0_EFIELD",
       "RENU2_H0_EPLAS",
       "RENU2_H0_ERPAMAIN",
@@ -6448,7 +6478,7 @@
       "URL": "https://sites.dartmouth.edu/lynch-rocket-lab/",
       "Description": "Rocket Experiment for Neutral Upwelling 2, RENU2, Instrument Overview Web Page, Lynch Rocket Lab, Dartmouth University"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "RENU2_H0_EFIELD",
       "RENU2_H0_EPLAS",
       "RENU2_H0_IG2",
@@ -6461,7 +6491,7 @@
       "URL": "http://mirl.sr.unh.edu/projects_renu2/FlightData/FlightData.html",
       "Description": "UNH Web Page for the Instrumentation onboard the RENU2 Sounding Rocket"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "RENU2_H0_EFIELD",
       "RENU2_H0_EPLAS",
       "RENU2_H0_FGM",
@@ -6477,7 +6507,7 @@
       "URL": "https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2018GL081885",
       "Description": "Lessard, M.R., Fritz, B., Sadler, B., Cohen, I., Kenward, D., Godbole, N., Clemmons, J.H., Hecht, J.H., Lynch, K.A., Harrington, M., Roberts, T.M., Hysell, D., Crowley, G., Sigernes, F., Syrjasuo, M., Ellingson, P., Partamies, N., Moen, J., Clausen, L., Oksavik, K., and T. Yeoman, Overview of the Rocket Experiment for Neutral1, Upwelling Sounding Rocket 2 (RENU2), Geophys. Res. Lett., 46, https://doi.org/10.1029/2018GL081885"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "RENU2_H0_EFIELD",
       "RENU2_H0_EPLAS",
       "RENU2_H0_FGM",
@@ -6493,7 +6523,7 @@
       "URL": "http://www.dartmouth.edu/~aurora/renu/instruments.html",
       "Description": "Rocket Experiment for Neutral Upwelling 2, RENU2, Instrument Overview Web Page, Lynch Rocket Lab, Dartmouth University"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "RENU2_H0_FGM",
       "RENU2_H0_PMT",
       "RENU2_H0_VLF"
@@ -6505,7 +6535,7 @@
       "URL": "http://lasp.colorado.edu/home/snoe/data/download-data/",
       "Description": "Information on SNOE UVS data"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "SNOE_L3_GEO",
       "SNOE_L3_MAG"
     ]
@@ -6515,7 +6545,7 @@
       "Name": "CDAWeb Skeleton Table",
       "URL": "ftps://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/so_k0_cel_00000000_v01.skt"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "SO_K0_CEL"
     ]
   },
@@ -6524,7 +6554,7 @@
       "Name": "CDAWeb Skeleton Table",
       "URL": "ftp://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/so_k0_cst_00000000_v01.skt"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "SO_K0_CST"
     ]
   },
@@ -6533,7 +6563,7 @@
       "Name": "CDAWeb Skeleton Table",
       "URL": "https://spdf.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/so_k0_ern_00000000_v01.skt"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "SO_K0_ERN"
     ]
   },
@@ -6543,7 +6573,7 @@
       "URL": "https://soho.nascom.nasa.gov/about/orbit.html",
       "Description": "SOHO Satellite Attitude and Orbit Information Website"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "SO_OR_DEF",
       "SO_OR_PRE",
       "SO_AT_DEF"
@@ -6554,7 +6584,7 @@
       "Name": "SOHO Mission Home Page",
       "URL": "https://sohowww.nascom.nasa.gov/"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "SOHO_CELIAS-SEM_15S",
       "SOHO_CELIAS-SEM_1DAY",
       "SOHO_CELIAS-PM_30S",
@@ -6576,7 +6606,7 @@
       "Name": "CELIAS Instrument Home Page",
       "URL": "https://www.ieap.uni-kiel.de/et/soho/celias/"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "SOHO_CELIAS-SEM_15S",
       "SOHO_CELIAS-SEM_1DAY",
       "SOHO_CELIAS-PM_30S",
@@ -6588,7 +6618,7 @@
       "Name": "CELIAS Instrument DOI",
       "URL": "https://doi.org/10.5270/esa-iey8z2h"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "SOHO_CELIAS-SEM_15S",
       "SOHO_CELIAS-SEM_1DAY",
       "SOHO_CELIAS-PM_30S",
@@ -6601,7 +6631,7 @@
       "URL": "https://doi.org/10.1007/BF00733436",
       "Description": "Hovestadt, D., Hilchenbach, M., Bürgi, A. et al. CELIAS - Charge, Element and Isotope Analysis System for SOHO. Sol Phys 162, 441–481 (1995)"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "SOHO_CELIAS-SEM_15S",
       "SOHO_CELIAS-SEM_1DAY",
       "SOHO_CELIAS-PM_30S",
@@ -6613,7 +6643,7 @@
       "Name": "Version 4 Science Product Release Notes",
       "URL": "https://lasp.colorado.edu/eve/data_access/eve_data/lasp_soho_sem_data/long/LASP_SOHO_SEM_release_notes_v4.pdf"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "SOHO_CELIAS-SEM_15S",
       "SOHO_CELIAS-SEM_1DAY"
     ]
@@ -6623,7 +6653,7 @@
       "Name": "The SOHO Archive",
       "URL": "https://soho.nascom.nasa.gov/data/archive.html"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "SOHO_CELIAS-SEM_15S",
       "SOHO_CELIAS-SEM_1DAY",
       "SOHO_CELIAS-PM_30S",
@@ -6643,7 +6673,7 @@
       "Name": "COSTEP Instrument Home Page",
       "URL": "http://www2.physik.uni-kiel.de/et/ag-heber/costep/"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "SOHO_COSTEP-EPHIN_L3I-1MIN",
       "SOHO_COSTEP-EPHIN_L3I-5MIN",
       "SOHO_COSTEP-EPHIN_L3I-10MIN",
@@ -6658,7 +6688,7 @@
       "URL": "https://doi.org/10.1007/BF00733437",
       "Description": "Müller-Mellin, R., Kunow, H., Fleißner, V. et al. COSTEP - Comprehensive Suprathermal and Energetic Particle Analyser. Sol Phys 162, 483–504 (1995)"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "SOHO_COSTEP-EPHIN_L3I-1MIN",
       "SOHO_COSTEP-EPHIN_L3I-5MIN",
       "SOHO_COSTEP-EPHIN_L3I-10MIN",
@@ -6672,7 +6702,7 @@
       "Name": "COSTEP-EPHIN Level 3 Data Documentation",
       "URL": "http://ulysses.physik.uni-kiel.de/costep/level3/l3i/DOCUMENTATION-COSTEP-EPHIN-L3-20220201.pdf"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "SOHO_COSTEP-EPHIN_L3I-1MIN",
       "SOHO_COSTEP-EPHIN_L3I-5MIN",
       "SOHO_COSTEP-EPHIN_L3I-10MIN",
@@ -6686,7 +6716,7 @@
       "Name": "ERNE Instrument Home Page",
       "URL": "https://srl.utu.fi/projects/erne/"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "SOHO_ERNE-LED_L2-1MIN",
       "SOHO_ERNE-HED_L2-1MIN",
       "SOHO_ERNE_HEAVY-ION-1HR",
@@ -6699,7 +6729,7 @@
       "URL": "https://doi.org/10.1007/BF00733438",
       "Description": "Torsti, J., Valtonen, E., Lumme, M. et al. Energetic particle experiment ERNE. Sol Phys 162, 505–531 (1995)"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "SOHO_ERNE-LED_L2-1MIN",
       "SOHO_ERNE-HED_L2-1MIN",
       "SOHO_ERNE_HEAVY-ION-1HR",
@@ -6711,7 +6741,7 @@
       "Name": "ERNE-LED Level 2 Data Description",
       "URL": "https://export.srl.utu.fi/export_data_description.txt"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "SOHO_ERNE-LED_L2-1MIN",
       "SOHO_ERNE-HED_L2-1MIN"
     ]
@@ -6721,7 +6751,7 @@
       "Name": "ERNE Export data archive",
       "URL": "https://export.srl.utu.fi/"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "SOHO_ERNE-LED_L2-1MIN",
       "SOHO_ERNE-HED_L2-1MIN"
     ]
@@ -6732,7 +6762,7 @@
       "URL": "http://sprg.ssl.berkeley.edu/impact/",
       "Description": "STEREO, In-situ Measurements of Particles and CME Transients, IMPACT, experiment and data descriptions, web site hosted by UC Berkeley"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "STA_LB_MAG_RTN",
       "STA_LB_IMPACT",
       "STB_LB_IMPACT",
@@ -6765,7 +6795,7 @@
       "Description": "STEREO In-Situ Measurements of Particles and CME Transients, IMPACT, Solar Wind Electron Analyzer, SWEA, Data Caveats web page, hosted by NASA GSFC",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "STA_L1_SWEA_DIST",
       "STB_L1_SWEA_DIST",
       "STA_L1_SWEA_DISB",
@@ -6779,7 +6809,7 @@
       "Description": "General information concerning the STEREO A, In-Situ Measurements of Particles and CME Transients, IMPACT, instrument",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "STA_L1_SWEA_DIST",
       "STA_L1_SWEA_DISB",
       "STA_L1_MAGB_SC",
@@ -6794,7 +6824,7 @@
       "Description": "General information concerning the STEREO B, In-Situ Measurements of Particles and CME Transients, IMPACT, instrument",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "STB_L1_SWEA_DIST",
       "STB_L1_SWEA_DISB",
       "STB_L1_MAGB_SC",
@@ -6808,7 +6838,7 @@
       "URL": "https://sprg.ssl.berkeley.edu/impact",
       "Description": "Experiment and Data descriptions for STEREO IMPACT"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "STA_L2_SWEA_PAD",
       "STB_L2_SWEA_PAD",
       "STA_L1_HET",
@@ -6821,7 +6851,7 @@
       "URL": "http://stereo.irap.omp.eu",
       "Description": "SWEA Data and Plots"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "STA_L2_SWEA_PAD",
       "STB_L2_SWEA_PAD"
     ]
@@ -6831,7 +6861,7 @@
       "Name": "CDAWeb Skeleton Table",
       "URL": "ftp://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/sta_l1_let_00000000_v01.skt"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "STA_L1_LET"
     ]
   },
@@ -6840,7 +6870,7 @@
       "Name": "Caltech STEREO site",
       "URL": "http://www.srl.caltech.edu/STEREO/docs/LET_Level1.html"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "STA_L1_LET",
       "STB_L1_LET"
     ]
@@ -6850,7 +6880,7 @@
       "Name": "CDAWeb Skeleton Table",
       "URL": "https://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/stb_l1_let_00000000_v01.skt"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "STB_L1_LET"
     ]
   },
@@ -6860,7 +6890,7 @@
       "URL": "https://sprg.ssl.berkeley.edu/impact/SSR/vonRosenetalSSR.pdf",
       "Description": "HET Instrument description paper"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "STA_L1_HET",
       "STB_L1_HET"
     ]
@@ -6870,7 +6900,7 @@
       "Name": "STEREO page at Caltech",
       "URL": "https://www.srl.caltech.edu/STEREO/"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "STA_L1_HET",
       "STB_L1_HET"
     ]
@@ -6880,7 +6910,7 @@
       "Name": "STEREO Science Center",
       "URL": "https://stereo-ssc.nascom.nasa.gov/data.shtml"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "STA_L1_HET",
       "STB_L1_HET"
     ]
@@ -6890,7 +6920,7 @@
       "Name": "SEPT site at U. Kiel",
       "URL": "http://www2.physik.uni-kiel.de/stereo/index.php?doc=home"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "STA_L1_SEPT",
       "STB_L1_SEPT"
     ]
@@ -6900,7 +6930,7 @@
       "Name": "CDAWeb Skeleton Table",
       "URL": "https://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/sta_l1_sept_00000000_v01.skt"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "STA_L1_SEPT"
     ]
   },
@@ -6909,7 +6939,7 @@
       "Name": "CDAWeb Skeleton Table",
       "URL": "ftp://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/stb_l1_sept_00000000_v01.skt"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "STB_L1_SEPT"
     ]
   },
@@ -6918,7 +6948,7 @@
       "Name": "STEREO/SIT site at Caltech",
       "URL": "http://www.srl.caltech.edu/STEREO/docs/SIT_Level1.html"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "STA_L1_SIT",
       "STB_L1_SIT"
     ]
@@ -6928,7 +6958,7 @@
       "Name": "CDAWeb Skeleton Table",
       "URL": "ftp://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/sta_l1_sit_00000000_v01.skt"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "STA_L1_SIT"
     ]
   },
@@ -6937,7 +6967,7 @@
       "Name": "CDAWeb Skeleton Table",
       "URL": "https://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/stb_l1_sit_00000000_v01.skt"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "STB_L1_SIT"
     ]
   },
@@ -6946,7 +6976,7 @@
       "Name": "The SEP Instrument Suite on STEREO",
       "URL": "http://www.srl.caltech.edu/STEREO/"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "STA_L1_STE"
     ]
   },
@@ -6955,7 +6985,7 @@
       "Name": "CDAWeb Skeleton Table",
       "URL": "https://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/sta_l1_ste_00000000_v01.skt"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "STA_L1_STE"
     ]
   },
@@ -6964,7 +6994,7 @@
       "Name": "Lin and Wang STE page at UCB",
       "URL": "http://sprg.ssl.berkeley.edu/~windsound/STE/STE.html"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "STB_L1_STE"
     ]
   },
@@ -6973,7 +7003,7 @@
       "Name": "CDAWeb Skeleton Table",
       "URL": "ftp://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/stb_l1_ste_00000000_v01.skt"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "STB_L1_STE"
     ]
   },
@@ -6982,7 +7012,7 @@
       "Name": "PLASTIC Index page at UNH",
       "URL": "http://stereo.sr.unh.edu/data/PLASTIC_Resources/index.htm"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "STA_L2_PLA_1DMAX_1MIN",
       "STB_L2_PLA_1DMAX_1MIN",
       "STA_L2_PLA_1DMAX_10MIN",
@@ -7001,7 +7031,7 @@
       "Name": "Readme at STEREO Science Center",
       "URL": "https://stereo-ssc.nascom.nasa.gov/data/ins_data/plastic/level2/Iron/READ_ME_PLASTIC_Iron_Abundance_Kinetic.pdf"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "STA_L2_PLA_IRON_Q_2HR",
       "STB_L2_PLA_IRON_Q_2HR"
     ]
@@ -7013,7 +7043,7 @@
       "Description": "STEREO Plasma and Supra-Thermal Ion Composition, PLASTIC, instrument web site, release notes, status, and other information, hosted by University of New Hampshire, UNH",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "STA_L3_PLA_HEPLUS_24HR",
       "STA_L3_PLA_HEPLUS_F_VSW_01HR",
       "STA_L3_PLA_HEPLUS_F_VSW_24HR",
@@ -7029,7 +7059,7 @@
       "Description": "General information concerning the STEREO A, Plasma and Supra-Thermal Ion Composition, PLASTIC, instrument",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "STA_L3_PLA_HEPLUS_24HR",
       "STA_COHO1HR_MERGED_MAG_PLASMA"
     ]
@@ -7041,7 +7071,7 @@
       "Description": "Readme for STEREO PLASTIC daily suprathermal He⁺ relative fluxes, last update: November 06, 2017",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "STA_L3_PLA_HEPLUS_24HR"
     ]
   },
@@ -7051,7 +7081,7 @@
       "URL": "https://stereo-ssc.nascom.nasa.gov/data/ins_data/plastic/level3/He2Pl_PSD/READ_ME_PLASTIC_He2Plus_PSD.pdf",
       "Description": "Description of STEREO PLASTIC Pick Up, He⁺², Phase Space Densities, PSD, in the spacecraft frame of reference as a function of V/Vsw, hosted by the University of New Hampshire, UNH"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "STA_L3_PLA_HE2PL_F_VSW_01HR"
     ]
   },
@@ -7061,7 +7091,7 @@
       "URL": "https://stereo-ssc.nascom.nasa.gov/data/ins_data/plastic/level3/HePlus/HePlus_PSD/READ_ME_PLASTIC_HePlus_PSD.pdf",
       "Description": "Description of STEREO PLASTIC Pick Up, He⁺, Phase Space Densities, PSD, in the spacecraft frame of reference as a function of V/Vsw, hosted by the University of New Hampshire, UNH"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "STA_L3_PLA_HEPLUS_F_VSW_10MIN",
       "STA_L3_PLA_HEPLUS_SW_VELCTDIST_5MIN"
     ]
@@ -7072,7 +7102,7 @@
       "URL": "https://doi.org/10.1029/2019JA026781",
       "Description": "Bower, J.S., Moebius, E., Berger, L., Farrugia, C., Keilbach, D., Lee, M. A., Quinn, P.R., Schwadron, N., and A. Taut, Effect of rapid changes of solar wind conditions on the pickup ion velocity distribution, J. Geophys. Res. Space Phys., 124, 6418-6437, 2019, DOI: 10.1029/2019JA026781"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "STA_L3_PLA_HEPLUS_SW_VELCTDIST_5MIN"
     ]
   },
@@ -7083,7 +7113,7 @@
       "Description": "Bougeret, J.L., Goetz, K., Kaiser, M.L. et al. S/WAVES: The Radio and Plasma Wave Investigation on the STEREO Mission. Space Sci Rev 136, 487–528 (2008).\n                ",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "STA_L3_WAV_HFR",
       "STA_L3_WAV_LFR",
       "STB_L3_WAV_LFR"
@@ -7096,7 +7126,7 @@
       "Description": "Cecconi, B., Bonnin, X., Hoang, S. et al. STEREO/Waves Goniopolarimetry. Space Sci Rev 136, 549–563 (2008).",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "STA_L3_WAV_HFR",
       "STA_L3_WAV_LFR",
       "STB_L3_WAV_LFR"
@@ -7109,7 +7139,7 @@
       "Description": "Krupar, V., O. Santolik, B. Cecconi, M. Maksimovic, X. Bonnin, M. Panchenko, and A. Zaslavsky (2012), Goniopolarimetric inversion using SVD: An application to type III radio bursts observed by STEREO, J. Geophys. Res., 117, A06101.",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "STA_L3_WAV_HFR",
       "STA_L3_WAV_LFR",
       "STB_L3_WAV_LFR"
@@ -7121,7 +7151,7 @@
       "URL": "http://www.srl.caltech.edu/sampex/DataCenter/docs/NSSDC_Level2_doc_v1-3.pdf",
       "Description": "Extensive PDF document prepared by M. Lennard, J. Mazur,\nand G. Mason originally in 1996 and most recently updated in 2007 to describe the\nmany NSSDC-resident SAMPEX data sets, including the polar cap averaged fluxes.\nThis document also identifies a series of mission and instrument papers at\nIEEE Transactions on Geoscience and Remote Sensing, Vol. 31, No. 3, May 1993"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "SX_K0_POF"
     ]
   },
@@ -7132,7 +7162,7 @@
       "Description": "Data access and services for hourly and daily merged interplanetary magnetic field, plasma, proton fluxes, and ephemerides data from deep space satellite missions. The services include: 1) Graphical browse and listing, 2) Listing, and plotting with filtering, 3) Distribution functions, medians, averages, standard deviations, 4) Scatter plotting, linear regression fitting, 5) FTP access to hourly data, and 6) FTP access to high resolution data.",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "STA_COHO1HR_MERGED_MAG_PLASMA"
     ]
   },
@@ -7143,7 +7173,7 @@
       "Description": "The OMNIWeb Plus integrated interface provides access to the many interplanetary magnetic field, plasma, and energetic particle data sets hosted by the Goddard Space Flight Center, GSFC, Space Physics Data Facility, SPDF. OMNIWeb Plus services are available via several underlying interfaces including: OMNIWeb, COHOWeb, FTPBrowser, CDAWeb, HelioWeb, and direct HTTPS access that offering various functionalities.",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "STA_COHO1HR_MERGED_MAG_PLASMA",
       "STB_COHO1HR_MERGED_MAG_PLASMA"
     ]
@@ -7155,7 +7185,7 @@
       "Description": "Paths to magnetic field, plasma, energetic particle, and ephemeris data relevant to heliospheric studies resident at the Goddard Space Flight Center, GSFC, Space Physics Data Facility, SPDF",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "STA_COHO1HR_MERGED_MAG_PLASMA",
       "STB_COHO1HR_MERGED_MAG_PLASMA"
     ]
@@ -7167,7 +7197,7 @@
       "Description": "OMNI Data Usage Citation Instructions",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "STA_COHO1HR_MERGED_MAG_PLASMA",
       "STB_COHO1HR_MERGED_MAG_PLASMA"
     ]
@@ -7179,7 +7209,7 @@
       "Description": "STEREO Plasma and Supra-Thermal Ion Composition, PLASTIC, instrument data web site, hosted by the University of New Hampshire, UNH",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "STA_COHO1HR_MERGED_MAG_PLASMA",
       "STB_COHO1HR_MERGED_MAG_PLASMA"
     ]
@@ -7191,7 +7221,7 @@
       "Description": "General information concerning the STEREO B, Plasma and Supra-Thermal Ion Composition, PLASTIC, instrument",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "STB_COHO1HR_MERGED_MAG_PLASMA"
     ]
   },
@@ -7202,7 +7232,7 @@
       "Description": "STEREO/WAVES instrument page maintained by NASA GSFC with science and instrument descriptions, data, personnel, publications, and related links sections",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "STEREO_LEVEL2_SWAVES"
     ]
   },
@@ -7213,7 +7243,7 @@
       "Description": "STEREO mission page with spacecraft and instrument descriptions, news, links to data (STEREO Science Center), and image gallerys",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "STEREO_LEVEL2_SWAVES"
     ]
   },
@@ -7223,7 +7253,7 @@
       "URL": "http://themis.ssl.berkeley.edu/instrument_efi.shtml",
       "Description": "THEMIS Electric Field Instrument, EFI, Instrument Description with Links to Information concerning Data Modes, Data Products, and Caveats"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "THA_L2_EFI",
       "THB_L2_EFI",
       "THC_L2_EFI",
@@ -7237,7 +7267,7 @@
       "URL": "http://themis.ssl.berkeley.edu/efi_proc_history.shtml",
       "Description": "THEMIS Electric Field Instrument, EFI, Processing History with a Link To Data Variable Descriptions"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "THA_L2_EFI",
       "THB_L2_EFI",
       "THC_L2_EFI",
@@ -7251,7 +7281,7 @@
       "URL": "http://themis.ssl.berkeley.edu/index.shtml",
       "Description": "THEMIS Project Home Page"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "THA_L2_EFI",
       "THB_L2_EFI",
       "THC_L2_EFI",
@@ -7270,7 +7300,7 @@
       "URL": "http://themis.ssl.berkeley.edu/roadrules.shtml",
       "Description": "THEMIS Rules of the Road, Details on the THEMIS Data Policy and on Publication Citation"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "THA_L2_EFI",
       "THB_L2_EFI",
       "THC_L2_EFI",
@@ -7293,7 +7323,7 @@
       "Name": "THEMIS website",
       "URL": "http://themis.ssl.berkeley.edu"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "THA_L2_FBK",
       "THB_L2_FBK",
       "THC_L2_FBK",
@@ -7361,7 +7391,7 @@
       "URL": "http://themis.ssl.berkeley.edu/instrument_sst.shtml",
       "Description": "Detailed Description of the Solid State Telescope (SST) Instrument"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "THA_L2_GMOM",
       "THB_L2_GMOM",
       "THC_L2_GMOM",
@@ -7375,7 +7405,7 @@
       "URL": "http://themis.ssl.berkeley.edu/instrument_esa.shtml",
       "Description": "Detailed Description of the Electrostatic Analyzer (ESA) Instrument"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "THA_L2_GMOM",
       "THB_L2_GMOM",
       "THC_L2_GMOM",
@@ -7388,7 +7418,7 @@
       "Name": "SPDF readme",
       "URL": "https://spdf.gsfc.nasa.gov/pub/data/themis/thb/l2/merged/ascii/00readme_themisb.txt"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "THB_L2_MERGED"
     ]
   },
@@ -7397,7 +7427,7 @@
       "Name": "SPDF readme",
       "URL": "ftp://spdf.gsfc.nasa.gov/pub/data/themis/thc/l2/merged/ascii/00readme_themisc.txt"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "THC_L2_MERGED"
     ]
   },
@@ -7407,7 +7437,7 @@
       "URL": "http://themis.ssl.berkeley.edu/overview_data.shtml",
       "Description": "Overview of THEMIS data, descriptions, and data policy."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "THA_L1_STATE",
       "THB_L1_STATE",
       "THC_L1_STATE",
@@ -7421,7 +7451,7 @@
       "URL": "https://spdf.gsfc.nasa.gov/pub/data/themis/documents/tdas/docs/thm_ogs_431m_ephemeris_format_definition.pdf",
       "Description": "Ephemeris file format and quantity details including RoI descriptions."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "THA_L1_STATE",
       "THB_L1_STATE"
     ]
@@ -7432,7 +7462,7 @@
       "URL": "ftp://apollo.ssl.berkeley.edu/pub/THEMIS/3 Ground Systems/3.2 Science Operations/Science Operations Documents/thm_ogs_431m_ephemeris_format_definition.pdf",
       "Description": "Ephemeris file format and quantity details including RoI descriptions."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "THC_L1_STATE",
       "THD_L1_STATE",
       "THE_L1_STATE"
@@ -7444,7 +7474,7 @@
       "URL": "http://flux.phys.uit.no/geomag.html",
       "Description": "Main menu for access to magnetic field data"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "THG_L2_MAG_HOV",
       "THG_L2_MAG_JAN",
       "THG_L2_MAG_SUM",
@@ -7472,7 +7502,7 @@
       "URL": "https://www.space.dtu.dk/English/Research/Scientific_data_and_models/Magnetic_Ground_Stations.aspx",
       "Description": "Main menu for access to magnetic field data"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "THG_L2_MAG_NRD",
       "THG_L2_MAG_DMH",
       "THG_L2_MAG_DNB",
@@ -7501,7 +7531,7 @@
       "URL": "http://cygnus.raunvis.hi.is//~halo/lrv.html",
       "Description": "Leirvogur Magnetic Observatory mainpage"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "THG_L2_MAG_LRV"
     ]
   },
@@ -7511,7 +7541,7 @@
       "URL": "ftp://cygnus.raunvis.hi.is/",
       "Description": "Data available through"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "THG_L2_MAG_LRV"
     ]
   },
@@ -7521,7 +7551,7 @@
       "URL": "http://www.intermagnet.org/data-donnee/data-eng.php",
       "Description": "Web site for access to magnetic field data"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "THG_L2_MAG_STJ",
       "THG_L2_MAG_IQA",
       "THG_L2_MAG_OTT",
@@ -7539,7 +7569,7 @@
       "URL": "https://geomag.nrcan.gc.ca/data-donnee/dl/dl-en.php",
       "Description": "Web site for information and access to magnetic field data"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "THG_L2_MAG_STJ",
       "THG_L2_MAG_IQA",
       "THG_L2_MAG_OTT",
@@ -7557,7 +7587,7 @@
       "URL": "http://themis.ssl.berkeley.edu/gmag_desc.shtml",
       "Description": "THEMIS Ground-based Observatory (GBO) MAGnetometers (GMAGs)"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "THG_L2_MAG_GBAY",
       "THG_L2_MAG_KUUJ",
       "THG_L2_MAG_CHBG",
@@ -7610,7 +7640,7 @@
       "URL": "http://www-ssc.igpp.ucla.edu/themis_data/calib_files/",
       "Description": "Magnetometer"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "THG_L2_MAG_GBAY",
       "THG_L2_MAG_CHBG",
       "THG_L2_MAG_KAPU",
@@ -7642,7 +7672,7 @@
       "URL": "http://space.augsburg.edu/",
       "Description": "Automatic Geophysical Observatories"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "THG_L2_MAG_NAIN",
       "THG_L2_MAG_CDRT"
     ]
@@ -7653,7 +7683,7 @@
       "URL": "http://space.augsburg.edu/maccs/index.html",
       "Description": "Main menu for access to magnetic field data"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "THG_L2_MAG_PANG",
       "THG_L2_MAG_CRVR",
       "THG_L2_MAG_IGLO",
@@ -7668,7 +7698,7 @@
       "URL": "http://sprg.ssl.berkeley.edu/themis/",
       "Description": "THEMIS Ground-based Observatory (GBO) MAGnetometers (GMAGs)"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "THG_L2_MAG_SEPT",
       "THG_L2_MAG_SCHF",
       "THG_L2_MAG_STFL",
@@ -7704,7 +7734,7 @@
       "URL": "http://autumn.athabascau.ca/",
       "Description": "Calibration files at http://autumn.athabascau.ca/themis.gbo.mag.calibration"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "THG_L2_MAG_SEPT",
       "THG_L2_MAG_SCHF",
       "THG_L2_MAG_STFL",
@@ -7741,7 +7771,7 @@
       "URL": "http://www.carisma.ca",
       "Description": "Access to information about the CARISMA magnetometer array."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "THG_L2_MAG_SNKQ",
       "THG_L2_MAG_RANK",
       "THG_L2_MAG_GILL",
@@ -7758,7 +7788,7 @@
       "URL": "http://cse.ssl.berkeley.edu/artemis/",
       "Description": "THEMIS"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "THG_L2_MAG_PTRS",
       "THG_L2_MAG_DRBY",
       "THG_L2_MAG_LOYS",
@@ -7778,7 +7808,7 @@
       "URL": "https://www.usgs.gov/natural-hazards/geomagnetism",
       "Description": "Web site for access to magnetic field data"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "THG_L2_MAG_SIT",
       "THG_L2_MAG_CMO",
       "THG_L2_MAG_DED",
@@ -7801,7 +7831,7 @@
       "URL": "http://geophys.aari.ru/",
       "Description": "AARI"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "THG_L2_MAG_PBK",
       "THG_L2_MAG_TIK",
       "THG_L2_MAG_DIK",
@@ -7818,7 +7848,7 @@
       "URL": "http://space.fmi.fi/",
       "Description": "Web site for access to magnetic field data"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "THG_L2_MAG_MEK",
       "THG_L2_MAG_IVA",
       "THG_L2_MAG_OUJ",
@@ -7839,7 +7869,7 @@
       "URL": "http://mist.nianet.org",
       "Description": "PENGUIn Magnetometer Network informational web site"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "THG_L2_MAG_PG5",
       "THG_L2_MAG_PG4",
       "THG_L2_MAG_PG3",
@@ -7854,7 +7884,7 @@
       "URL": "http://spc.igpp.ucla.edu/mcmac/rmd_files/",
       "Description": "THEMIS Ground-based Observatory (GBO) MAGnetometers (GMAGs)"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "THG_L2_MAG_LRES"
     ]
   },
@@ -7864,7 +7894,7 @@
       "URL": "http://themis.ssl.berkeley.edu/instrument_gmags.shtml",
       "Description": "THEMIS Ground-based Observatory (GBO) MAGnetometers (GMAGs)"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "THG_L2_MAG_CCNV"
     ]
   },
@@ -7873,7 +7903,7 @@
       "Name": "SABER L1B netCDF file contents",
       "URL": "http://saber.gats-inc.com/saber_doc/SABER_level1B_NCDUMP.pdf"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "TIMED_L1BV20_SABER"
     ]
   },
@@ -7882,7 +7912,7 @@
       "Name": "L3 Data Information",
       "URL": "http://lasp.colorado.edu/home/see/data/observational-averages/level-3a/"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "TIMED_L3A_SEE"
     ]
   },
@@ -7893,7 +7923,7 @@
       "Description": "TIDI data and experiment home page hosted by National Center for Atmospheric Research, NCAR",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "TIMED_WINDVECTORSNCAR_TIDI"
     ]
   },
@@ -7904,7 +7934,7 @@
       "Description": "TIDI data and experiment home page hosted by University of Michigan, UM",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "TIMED_WINDVECTORSNCAR_TIDI"
     ]
   },
@@ -7915,7 +7945,7 @@
       "Description": "TIMED Mission Data Center hosted by the Johns Hopkins University, Applied Physics Laboratory, JHU/APL",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "TIMED_WINDVECTORSNCAR_TIDI"
     ]
   },
@@ -7926,7 +7956,7 @@
       "Description": "General information concerning the TIMED, TIMED Doppler Interferometer, TIDI, instrument",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "TIMED_WINDVECTORSNCAR_TIDI"
     ]
   },
@@ -7935,7 +7965,7 @@
       "Name": "Electron Density Profiles description",
       "URL": "http://guvitimed.jhuapl.edu/sites/default/files/data/documents/readme_GUVI_Version_13_Limb_Retrievals.pdf"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "TIMED_EDP_GUVI"
     ]
   },
@@ -7944,7 +7974,7 @@
       "Name": "Imaging L1C Data Information",
       "URL": "http://guvitimed.jhuapl.edu/sites/default/files/data/documents/L1C_datainfo.pdf"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "TIMED_L1CDISK_GUVI"
     ]
   },
@@ -7954,7 +7984,7 @@
       "URL": "https://doi.org/10.1007/s11214-008-9467-4",
       "Description": "McComas, D.J., F. Allegrini, J. Baldonado, B. Blake, P.C. Brandt, J. Burch, J. Clemmons, W. Crain, D. Delapp, R. DeMajistre, D. Everett, H. Fahr, L. Friesen, H. Funsten, J. Goldstein, M. Gruntman, R. Harbaugh, R. Harper, H. Henkel, C. Holmlund, G. Lay, D. Mabry, D. Mitchell, U. Nass, C. Pollock, S. Pope, M. Reno, S. Ritzau, E. Roelof, E. Scime, M. Sivjee, R. Skoug, Sotirelis, T.S., Thomsen, M., Urdiales, C., Valek, P., Viherkanto, K., Weidner, S., Ylikorpi, T., Young, M., and J. Zoennchen. The Two Wide-angle Imaging Neutral-atom Spectrometers (TWINS) NASA Mission-of-Opportunity, Space Sci. Rev., 142, 157-231, 2009, DOI: 10.1007/s11214-008-9467-4"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "TWINS_M2_ENA"
     ]
   },
@@ -7964,7 +7994,7 @@
       "URL": "https://doi.org/10.1002/2016JA023824",
       "Description": "Katus, R.M., D.L. Gallagher, M.W. Liemohn, A.M. Keesee, and L.K. Sarno-Smith, Statistical Storm Time Examination of MLT dependent Plasmapause Location derived from IMAGE EUV, J. Geophys. Res. Space Phys., 120, 5545-5559, 2015, DOI: 10.1002/2015JA021225."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "TWINS_M2_ENA"
     ]
   },
@@ -7974,7 +8004,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2006-027A-01",
       "Description": "General information concerning the Two Wide-angle Imaging Neutral-atom Spectrometer 1, TWINS 1, Energetic Neutral Atom, ENA, imager"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "TWINS_M2_ENA"
     ]
   },
@@ -7984,7 +8014,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2008-010A-01",
       "Description": "General information concerning the Two Wide-angle Imaging Neutral-atom Spectrometer 2, TWINS 2, Energetic Neutral Atom, ENA, imager"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "TWINS_M2_ENA"
     ]
   },
@@ -7994,7 +8024,7 @@
       "URL": "https://cdaweb.gsfc.nasa.gov/TWINS_info.html",
       "Description": "Initial Inventory CDAWeb Two Wide-angle Imaging Neutral-atom Spectrometers, TWINS, List of Events and Sample Plots"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "TWINS1_TISTORM_IMAGER",
       "TWINS2_TISTORM_IMAGER",
       "TWINS1_L1_LAD",
@@ -8007,7 +8037,7 @@
       "URL": "https://earth.esa.int/web/eoportal/satellite-missions/t/twins/",
       "Description": "Two Wide-angle Imaging Neutral-atom Spectrometers, TWINS, Release Notes and other Information, Southwest Research Institute, SwRI, Web Site"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "TWINS1_TISTORM_IMAGER",
       "TWINS1_L1_LAD"
     ]
@@ -8018,7 +8048,7 @@
       "URL": "http://twins.swri.edu/",
       "Description": "Two Wide-angle Imaging Neutral-atom Spectrometers, TWINS, Release Notes and other Information, Southwest Research Institute, SwRI, Web Site"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "TWINS2_TISTORM_IMAGER",
       "TWINS2_L1_LAD"
     ]
@@ -8029,7 +8059,7 @@
       "URL": "http://twins.swri.edu",
       "Description": "?"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "TWINS1_L1_IMAGER",
       "TWINS1_OR_DEF",
       "TWINS2_OR_DEF"
@@ -8041,7 +8071,7 @@
       "URL": "https://earth.esa.int/web/eoportal/satellite-missions/t/twins",
       "Description": "?"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "TWINS2_L1_IMAGER"
     ]
   },
@@ -8052,7 +8082,7 @@
       "Description": "General information concerning the TWINS 1 spacecraft",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "TWINS1_AT_DEF"
     ]
   },
@@ -8063,7 +8093,7 @@
       "Description": "General information concerning the TWINS 2 spacecraft",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "TWINS2_AT_DEF"
     ]
   },
@@ -8072,7 +8102,7 @@
       "Name": "Readme file at SPDF",
       "URL": "https://spdf.gsfc.nasa.gov/pub/data/ulysses/merged/ulymgd.txt"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "UY_COHO1HR_MERGED_MAG_PLASMA"
     ]
   },
@@ -8081,7 +8111,7 @@
       "Name": "SWOOPS data users' guide",
       "URL": "https://spdf.gsfc.nasa.gov/pub/data/ulysses/plasma/swoops/ion/swoops_ion_users_guide_update_20030214.txt"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "UY_COHO1HR_MERGED_MAG_PLASMA"
     ]
   },
@@ -8091,7 +8121,7 @@
       "URL": "http://ufa.esac.esa.int/ufa/#instruments",
       "Description": "Site hosting instrument information, data and plots for Ulysses magnetometer"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "UY_1SEC_VHM",
       "UY_M0_AT1",
       "UY_M0_HET",
@@ -8107,7 +8137,7 @@
       "URL": "http://ufa.esac.esa.int/ufa/docs/user_manual.pdf",
       "Description": "Final Archived Version of the Ulysses User Manual"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "UY_M1_BAI"
     ]
   },
@@ -8117,7 +8147,7 @@
       "URL": "https://www.cosmos.esa.int/web/ulysses/swics-operations",
       "Description": "Ulysses , SWICS, GLG Operations Web Page. The SWICS GLG Experiment determines the Elemental and Ionic-Charge Composition, Temperatures and Mean Speeds of all major Solar Wind Ions from Hydrogen, H, through Iron, Fe, at Solar Wind Speeds ranging from 175 km/s to 1280 km/s."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "UY_H0_GLG"
     ]
   },
@@ -8127,7 +8157,7 @@
       "URL": "http://ufa.esac.esa.int/ufa-sl-server/data-action?PROTOCOL=HTTP&PRODUCT_TYPE=ALL&FILE_NAME=het_usernotes.pdf&FILE_PATH=/ufa/HiRes/doc/cospin",
       "Description": "The User Notes File at the Ulysses Final Archive (UFA) describes the Format of the ASCII Data Files for the COSPIN High Energy Telescope, HET, 10 min Average Ion and Electron Spin-Averaged Coincidence Counting Rates"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "UY_M0_HET"
     ]
   },
@@ -8137,7 +8167,7 @@
       "URL": "http://ufa.esac.esa.int/ufa-sl-server/data-action?PROTOCOL=HTTP&PRODUCT_TYPE=ALL&FILE_NAME=cospin_hft_un.html&FILE_PATH=/ufa/HiRes/doc/cospin",
       "Description": "The User Notes File at the Ulysses Final Archive (UFA) describes the Format of the ASCII Data Files for the COSPIN High Flux Telescope, HFT, 10 min Average Proton and Heavy Ion Nominal Fluxes"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "UY_M0_HFT"
     ]
   },
@@ -8147,7 +8177,7 @@
       "URL": "http://ufa.esac.esa.int/ufa-sl-server/data-action?PROTOCOL=HTTP&PRODUCT_TYPE=ALL&FILE_NAME=cospin_ket_un.html&FILE_PATH=/ufa/HiRes/doc/cospin",
       "Description": "The User Notes File at the Ulysses Final Archive (UFA) describes the Format of the ASCII Data Files for the COSPIN Kiel Electron Telescope Telescope, KET, 10 min Average Proton, Helium and Electron Count Rates and detector Count Rates"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "UY_M0_KET"
     ]
   },
@@ -8157,7 +8187,7 @@
       "URL": "https://www.cosmos.esa.int/web/ulysses/swics",
       "Description": "Ulysses Solar Wind Ion Composition Experiment, SWICS, Web Page"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "UY_M1_SCS"
     ]
   },
@@ -8168,7 +8198,7 @@
       "Description": "Ulysses URAP Instrument page maintained by NASA GSFC with URAP data plotting tools, Data Access, Publication lists, Team member lists, documents, and related links sections",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "UY_M0_R144"
     ]
   },
@@ -8178,7 +8208,7 @@
       "URL": "https://swoops.lanl.gov/",
       "Description": "The Ulysses SWOOPS Web Page, LANL"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "UY_ALPHA-DISTRIBUTIONS_SWOOPS",
       "UY_ALPHA-MOMENTS_SWOOPS",
       "UY_PROTON-DISTRIBUTIONS_SWOOPS",
@@ -8191,7 +8221,7 @@
       "URL": "https://adsabs.harvard.edu/pdf/1992a&as...92..237b",
       "Description": "The Ulysses SWOOPS Web Page, LANL"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "UY_ALPHA-FIT-PARAMETERS_SWOOPS",
       "UY_PROTON-FIT-PARAMETERS_SWOOPS"
     ]
@@ -8202,7 +8232,7 @@
       "URL": "https://space.physics.uiowa.edu/plasma-wave/voyager/",
       "Description": "Voyager 1 and Voyager 2 Plasma Wave Investigation Information and Web Site Links"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "VG1_PWS_LR",
       "VG2_PWS_LR",
       "VG1_PWS_WF",
@@ -8215,7 +8245,7 @@
       "URL": "https://cohoweb.gsfc.nasa.gov",
       "Description": "Voyager 1 merged Magnetic Field and Ephemeris Data from COHOWeb"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "VOYAGER1_48S_MAG-VIM",
       "VOYAGER2_48S_MAG-VIM"
     ]
@@ -8226,7 +8256,7 @@
       "URL": "https://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/magnetic_fields/ip_48s_ascii/doc_mag_ip_vy_hires.txt",
       "Description": "Detailed Description of Variables"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "VOYAGER1_48S_MAG"
     ]
   },
@@ -8236,7 +8266,7 @@
       "URL": "https://spdf.gsfc.nasa.gov/pub/data/voyager/voyager2/magnetic_fields/ip_48s_ascii/doc_mag_ip_vy_hires.txt",
       "Description": "Detailed Description of Variables"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "VOYAGER2_48S_MAG"
     ]
   },
@@ -8245,7 +8275,7 @@
       "Name": "Readme file at SPDF",
       "URL": "https://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/merged/vy1mgd.txt"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "VOYAGER1_COHO1HR_MERGED_MAG_PLASMA"
     ]
   },
@@ -8254,7 +8284,7 @@
       "Name": "Readme file at SPDF",
       "URL": "ftps://spdf.gsfc.nasa.gov/pub/data/voyager/voyager2/merged/vy2mgd.txt"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "VOYAGER2_COHO1HR_MERGED_MAG_PLASMA"
     ]
   },
@@ -8264,7 +8294,7 @@
       "URL": "http://web.mit.edu/jbelcher/www/VoyagerInterstellar.pdf",
       "Description": "Voyager PLS Instrument Documentation, MIT"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "VOYAGER1_PLS_COMPOSITION",
       "VOYAGER2_PLS_COMPOSITION"
     ]
@@ -8275,7 +8305,7 @@
       "URL": "http://lasp.colorado.edu/home/mop/missions/voyager/fits-to-spectra/",
       "Description": "Fits to Spectra Source Data at the Laboratory of Atmospheric and Space Physics, LASP, University of Colorado, Boulder"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "VOYAGER1_PLS_COMPOSITION",
       "VOYAGER2_PLS_COMPOSITION"
     ]
@@ -8286,7 +8316,7 @@
       "URL": "http://lasp.colorado.edu/home/mop/missions/voyager/viper/",
       "Description": "The VIPER Web Page, LASP"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "VOYAGER1_PLS_COMPOSITION",
       "VOYAGER2_PLS_COMPOSITION"
     ]
@@ -8297,7 +8327,7 @@
       "URL": "http://lasp.colorado.edu/home/mop/files/2015/06/VoyagerPLSAnalysisManual-1.pdf",
       "Description": "The VIPER Instruction Manual, LASP"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "VOYAGER1_PLS_COMPOSITION",
       "VOYAGER2_PLS_COMPOSITION"
     ]
@@ -8308,7 +8338,7 @@
       "URL": "http://web.mit.edu/space/www/voyager/voyager.html",
       "Description": "Voyager Plasma Science Experiment Web Page at MIT"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "VOYAGER1_PLS_ELECTRONS_E1",
       "VOYAGER1_PLS_ELECTRONS_E2",
       "VOYAGER1_PLS_IONS_L",
@@ -8324,7 +8354,7 @@
       "Name": "Voyager Data at Fundamental Technologies",
       "URL": "https://voyager.ftecs.com/data.html"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "VOYAGER-1_LECP_ELEC-BGND-COR-1D",
       "VOYAGER-2_LECP_ELEC-BGND-COR-1D"
     ]
@@ -8334,7 +8364,7 @@
       "Name": "Voyager LECP Experiments Web Site",
       "URL": "http://sd-www.jhuapl.edu/VOYAGER/"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "VOYAGER-1_LECP_ELEC-BGND-COR-1D",
       "VOYAGER-2_LECP_ELEC-BGND-COR-1D"
     ]
@@ -8344,7 +8374,7 @@
       "Name": "Data in ASCII format",
       "URL": "https://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/particle/lecp/electron-background-corrected-daily/"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "VOYAGER-1_LECP_ELEC-BGND-COR-1D"
     ]
   },
@@ -8353,7 +8383,7 @@
       "Name": "Data in ASCII format",
       "URL": "https://spdf.gsfc.nasa.gov/pub/data/voyager/voyager2/particle/lecp/electron-background-corrected-daily/"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "VOYAGER-2_LECP_ELEC-BGND-COR-1D"
     ]
   },
@@ -8363,7 +8393,7 @@
       "URL": "https://spdf.gsfc.nasa.gov/pub/data/wind/epact/flux_ascii/ape-b/",
       "Description": "Access to Wind Energetic Particles: Acceleration, Composition and Transport, EPACT, Solar Energetic Particle, SEP, ASCII Data Files"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "WI_L2-1HOUR-SEP_EPACT-APE_B"
     ]
   },
@@ -8373,7 +8403,7 @@
       "URL": "https://wind.nasa.gov/",
       "Description": "Wind Project Web Site"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "WI_EPACT_STEP-DIFFERENTIAL-ION-FLUX-1HR",
       "WI_EPACT_STEP-DIRECTIONAL-DIFF-CNO-FLUX-10MIN",
       "WI_EPACT_STEP-DIRECTIONAL-DIFF-FE-FLUX-10MIN",
@@ -8390,7 +8420,7 @@
       "Description": "Historic Wind SMS",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "WI_L2-30MIN_SMS-STICS-AFM-MAGNETOSPHERE",
       "WI_L2-30MIN_SMS-STICS-AFM-SOLARWIND",
       "WI_L2-30MIN_SMS-STICS-ERPA-MAGNETOSPHERE",
@@ -8409,7 +8439,7 @@
       "Description": "Wind STICS",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "WI_L2-30MIN_SMS-STICS-AFM-MAGNETOSPHERE",
       "WI_L2-30MIN_SMS-STICS-AFM-SOLARWIND",
       "WI_L2-30MIN_SMS-STICS-ERPA-MAGNETOSPHERE",
@@ -8426,7 +8456,7 @@
       "URL": "https://wind.nasa.gov",
       "Description": "A web site hosting instrument information as well as web utilities for plotting and downloading data"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "WI_H0_MFI",
       "WI_H2_MFI",
       "WI_H3-RTN_MFI",
@@ -8450,7 +8480,7 @@
       "Description": "Wind spacecraft general instrument web page with links to data, documentation, and home pages for all instruments, hosted by NASA GSFC",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "WI_K0_MFI",
       "WI_K0_SWE",
       "WI_SW-ION-DIST_SWE-FARADAY",
@@ -8466,7 +8496,7 @@
       "Description": "Wind spacecraft general instrument web page with brief descriptions for data sources from all instruments, hosted by NASA GSFC",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "WI_K0_MFI",
       "WI_K0_SWE",
       "WI_SW-ION-DIST_SWE-FARADAY",
@@ -8482,7 +8512,7 @@
       "Description": "Wind Magnetic Field Innstrument, MFI, description, hosted by NASA GSFC",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "WI_K0_MFI"
     ]
   },
@@ -8493,7 +8523,7 @@
       "Description": "Wind Magnetic Field Innstrument, MFI, and Solar Wind Experiment, SWE, Key Parameter data access and plotting web page with selectable overplotting of DSCOVR data and links to CDF data directories, hosted by NASA GSFC",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "WI_K0_MFI",
       "WI_K0_SWE",
       "WI_SW-ION-DIST_SWE-FARADAY",
@@ -8507,7 +8537,7 @@
       "Description": "General information concerning the Wind, Magnetic Fields Instrument, MFI, instrument",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "WI_K0_MFI"
     ]
   },
@@ -8518,7 +8548,7 @@
       "Description": "R.P. Lepping, M.H. Acũna, L.F. Burlaga, W.M. Farrell, J.A. Slavin, K.H. Schatten, F. Mariani, N.F. Ness, F.M. Neubauer, Y.C. Whang, J.B. Byrnes, R.S. Kennon, P.V. Panetta, J. Scheifele, and E.M. Worley, The WIND magnetic field investigation, Space Sci. Rev., 71, 207-229, 1995, DOI: 10.1007/BF00751330.",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "WI_K0_MFI"
     ]
   },
@@ -8529,7 +8559,7 @@
       "Description": "Wind Solar Wind Experiment, SWE, Instruments, History, and Data Products web page, hosted by NASA GSFC",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "WI_K0_SWE",
       "WI_H0_SWE",
       "WI_SW-ION-DIST_SWE-FARADAY",
@@ -8547,7 +8577,7 @@
       "Description": "General information concerning the Wind, Solar Wind Experiment, SWE, instrument",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "WI_K0_SWE",
       "WI_SW-ION-DIST_SWE-FARADAY"
     ]
@@ -8559,7 +8589,7 @@
       "Description": "Wind Solar Wind Experiment, SWE, web page hosted by the Massachusetts Institute of Technology Space Plasma group. Since the Summer of 2015, the responsibility for Wind plasma data has been assumed by the Harvard Smithsonian Astrophysics Lab.",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "WI_K0_SWE",
       "WI_SW-ION-DIST_SWE-FARADAY"
     ]
@@ -8571,7 +8601,7 @@
       "Description": "Wind Solar Wind Experiment, SWE, Instrument description web page hosted by the Massachusetts Institute of Technology Space Plasma group",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "WI_K0_SWE",
       "WI_SW-ION-DIST_SWE-FARADAY"
     ]
@@ -8583,7 +8613,7 @@
       "Description": "Ogilvie, K.W., D.J. Chornay, R.J. Fritzenreiter, F. Hunsaker, J. Keller, J. Lobell, G. Miller, J.D. Scudder, E.C. Sittler, Jr., R.B. Torbert, D. Bodet, G. Needell, A.J. Lazarus, J.T. Steinberg, J.H. Tappan, A. Mavretic, and E. Gergin, SWE, a comprehensive plasma instrument for the Wind spacecraft, Space Sci. Rev., 71, 55-77, 1995, DOI: 10.1007/BF00751326",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "WI_K0_SWE",
       "WI_SW-ION-DIST_SWE-FARADAY"
     ]
@@ -8595,7 +8625,7 @@
       "Description": "Wind Solar Wind Experiment, SWE, Key Parameter Readme file, hosted by the Massachusetts Institute of Technology, MIT",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "WI_K0_SWE",
       "WI_SW-ION-DIST_SWE-FARADAY"
     ]
@@ -8606,7 +8636,7 @@
       "URL": "https://spdf.gsfc.nasa.gov/pub/data/wind/swe/ascii/2-min/thesis.pdf",
       "Description": "Descriptive excerpt from J. Kasper Ph.D. dissertation"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "WI_H1_SWE"
     ]
   },
@@ -8617,7 +8647,7 @@
       "Description": "Wind Solar Wind Experiment, SWE: reduced charge flux distributions data release notes, version: 1.0.  format: CDF 3.4.0.  release Date: June 10, 2012",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "WI_SW-ION-DIST_SWE-FARADAY"
     ]
   },
@@ -8627,7 +8657,7 @@
       "URL": "https://cdaweb.gsfc.nasa.gov/data/wind/swe/strahl0/readme_wind_strahl0_cdf.txt",
       "Description": "Wind STRAHL0"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "WI_STRAHL0_SWE"
     ]
   },
@@ -8637,7 +8667,7 @@
       "URL": "http://sprg.ssl.berkeley.edu/wind3dp/",
       "Description": "The Wind 3DP instrument home page contains information on the Wind 3DP instruments and their associated data sets."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "WI_PM_3DP",
       "WI_PLSP_3DP",
       "WI_SOSP_3DP",
@@ -8660,7 +8690,7 @@
       "URL": "https://spdf.gsfc.nasa.gov/pub/data/wind/3dp/wind3dp_caveats.pdf",
       "Description": "Caveats for the correct use of Wind 3DP datasets"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "WI_SOSP_3DP",
       "WI_SOPD_3DP",
       "WI_EM_3DP",
@@ -8679,7 +8709,7 @@
       "Description": "General information concerning the Wind, Hot Plasma and Charged Particles, 3DP, instrument",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "WI_ELSP_3DP"
     ]
   },
@@ -8690,7 +8720,7 @@
       "Description": "Lin, R.P., K.A. Anderson, S. Ashford, C. Carlson, D. Curtis, R. Ergun, D. Larson, J. McFadden, M. McCarthy, G.K. Parks, H. Rème, J.M. Bosqued, J. Coutelier, F. Cotin, C. D'Uston, K.-P. Wenzel, T.R. Sanderson, J. Henrion, J.C. Ronnet, and G. Paschmann, A three-dimensional plasma and energetic particle investigation for the wind spacecraft, Space Sci. Rev., 71, 125-153, 1995, DOI: 10.1007/BF00751328.",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "WI_ELSP_3DP"
     ]
   },
@@ -8700,7 +8730,7 @@
       "URL": "https://arxiv.org/abs/2107.08125",
       "Description": "Salem, C. S., et al., Precision Electron Measurements in the Solar Wind at 1AU from NASA’s Wind spacecraft, Astron. & Astrophys. Note paper has been accepted in 2023"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "WIND_3DP_ECHSFITS_E0-YR"
     ]
   },
@@ -8710,7 +8740,7 @@
       "URL": "https://doi.org/10.1002/2013JA019359",
       "Description": "Pulupa, M., et al., Spin-modulated spacecraft floating potential: Observations and effects on electron moments, J. Geophys. Res. Space Physics, Vol. 119, 647-657, doi:10.1002/2013JA019359"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "WIND_3DP_ECHSFITS_E0-YR"
     ]
   },
@@ -8720,7 +8750,7 @@
       "URL": "https://doi.org/10.1007/BF00751328",
       "Description": "Lin, R. P. et al., A Three-dimensional plasma and energetic particle investigation for the Wind spacecraft, Space Science Reviews, Vol. 71, p125-153, 1995."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "WIND_3DP_ECHSFITS_E0-YR"
     ]
   },
@@ -8731,7 +8761,7 @@
       "Description": "Wind WAVES home page, the Radio and Plasma Wave Investigation on the Wind Spacecraft with links to the WAVES instrument description and for data plotting and access including IDL savesets and radio burst lists, hosted by NASA GSFC",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "WI_H0_WAV",
       "WI_H1_WAV",
       "WI_K0_WAV"
@@ -8744,7 +8774,7 @@
       "Description": "Wind WAVES data product access web page, hosted by NASA GSFC",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "WI_H0_WAV",
       "WI_K0_WAV"
     ]
@@ -8756,7 +8786,7 @@
       "Description": "General information concerning the Wind, Plasma and Radio Waves, WAVES, instrument",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "WI_H0_WAV",
       "WI_K0_WAV"
     ]
@@ -8768,7 +8798,7 @@
       "Description": "Bougeret, J.-L., M.L. Kaiser, P.J. Kellogg, R. Manning, K. Goetz, S.J. Monson, N. Monge, L. Friel, C.A. Meetre, C. Perche, L. Sitruk, and S. Hoang, WAVES: The radio and plasma wave investigation on the wind spacecraft, Space Sci. Rev., 71, 231-263, 1995, DOI: 10.1007/BF00751331.",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "WI_H0_WAV",
       "WI_K0_WAV"
     ]
@@ -8779,7 +8809,7 @@
       "URL": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2016JA023209",
       "Description": "The Wind Database of Interplanetary and Interstellar Dust Events, JGR Article"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "WI_L3-DUSTIMPACT_WAVES"
     ]
   },
@@ -8790,7 +8820,7 @@
       "Description": "General information concerning the Wind spacecraft",
       "Language": "en"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "WI_K0_SPHA"
     ]
   },
@@ -8800,7 +8830,7 @@
       "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1977-084A-08",
       "Description": "General information concerning the Voyager 1 Cosmic Ray System, CRS, instrument"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "VOYAGER1_CRS_DAILY_FLUX"
     ]
   },
@@ -8810,7 +8840,7 @@
       "URL": "https://voyager.gsfc.nasa.gov/instruments.html",
       "Description": "Voyager Cosmic Ray System, CRS, instrument web site, with information concerning two High Energy Telescopes, HET-I and HET-II, four Low Energy Telscopes, LET A-D, and The Electron Telescope, TET, hosted by GSFC, NASA"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "VOYAGER1_CRS_DAILY_FLUX"
     ]
   },
@@ -8820,7 +8850,7 @@
       "URL": "https://voyager.jpl.nasa.gov/mission/spacecraft/instruments/crs/",
       "Description": "Voyager Cosmic Ray System, CRS, instrument description and scientific objectives web site, hosted by JPL, NASA"
     },
-    "ids": [
+    "_cdaweb_ids": [
       "VOYAGER1_CRS_DAILY_FLUX"
     ]
   },
@@ -8830,7 +8860,7 @@
       "URL": "https://doi.org/10.1007/BF00211546",
       "Description": "Stone, E.C., R.E. Vogt, F.B. McDonald, B.J. Teegarden, J.H. Trainor, J.R. Jokipii, and W.R. Webber, Cosmic Ray Investigation for the Voyager Missions: Energetic Particle Studies in the Outer Heliosphere - and Beyond, Space Sci. Rev. 21, 355-376w, 1977."
     },
-    "ids": [
+    "_cdaweb_ids": [
       "VOYAGER1_CRS_DAILY_FLUX"
     ]
   }
