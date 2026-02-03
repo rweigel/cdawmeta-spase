@@ -960,7 +960,9 @@
     "Spectrum"
   ],
   "BEPICOLOMBO_HELIO1DAY_POSITION": "Ephemeris",
+  "BEPICOLOMBO_HELIO1HR_POSITION": "Ephemeris",
   "BORRELLY_HELIO1DAY_POSITION": "Ephemeris",
+  "BORRELLY_HELIO1HR_POSITION": "Ephemeris",
   "C1_CP_FGM_SPIN": "MagneticField",
   "C1_JP_PMP": [
     "Ephemeris",
@@ -1120,6 +1122,7 @@
     "MagneticField"
   ],
   "CASSINI_HELIO1DAY_POSITION": "Ephemeris",
+  "CASSINI_HELIO1HR_POSITION": "Ephemeris",
   "CASSINI_MAG_1MIN_MAGNETIC_FIELD": "MagneticField",
   "CL_JP_PCY": [
     "MagneticField",
@@ -1141,7 +1144,9 @@
   "CN_K0_MPA": "ImageIntensity",
   "CN_K1_MARI": "Waves.Passive",
   "COMETGS_HELIO1DAY_POSITION": "Ephemeris",
+  "COMETGS_HELIO1HR_POSITION": "Ephemeris",
   "COMETHMP_HELIO1DAY_POSITION": "Ephemeris",
+  "COMETHMP_HELIO1HR_POSITION": "Ephemeris",
   "CRRES_H0_MEA": "EnergeticParticles",
   "CSSWE_REPTILE_6SEC-COUNTS-L1": "EnergeticParticles",
   "CSSWE_REPTILE_6SEC-FLUX-L2": "EnergeticParticles",
@@ -1150,6 +1155,7 @@
     "InstrumentStatus"
   ],
   "DAWN_HELIO1DAY_POSITION": "Ephemeris",
+  "DAWN_HELIO1HR_POSITION": "Ephemeris",
   "DE1_1MIN_RIMS": [
     "ActivityIndex",
     "ElectricField",
@@ -1225,6 +1231,7 @@
   "DSCOVR_H1_FC": "EnergeticParticles",
   "DSCOVR_ORBIT_PRE": "Ephemeris",
   "EARTH_HELIO1DAY_POSITION": "Ephemeris",
+  "EARTH_HELIO1HR_POSITION": "Ephemeris",
   "ELA_L1_EPDEF": "EnergeticParticles",
   "ELA_L1_EPDIF": "EnergeticParticles",
   "ELA_L1_STATE_DEFN": "InstrumentStatus",
@@ -1294,6 +1301,7 @@
     "Ephemeris"
   ],
   "GALILEO_HELIO1DAY_POSITION": "Ephemeris",
+  "GALILEO_HELIO1HR_POSITION": "Ephemeris",
   "GENESIS_3DL2_GIM": "ThermalPlasma",
   "GE_1MIN_MAG_PLASMA_SW_ONLY": [
     "MagneticField",
@@ -1330,7 +1338,9 @@
     "IonComposition"
   ],
   "GIACOBINI_HELIO1DAY_POSITION": "Ephemeris",
+  "GIACOBINI_HELIO1HR_POSITION": "Ephemeris",
   "GIOTTO_HELIO1DAY_POSITION": "Ephemeris",
+  "GIOTTO_HELIO1HR_POSITION": "Ephemeris",
   "GOES10_EPHEMERIS_SSC": [
     "Ephemeris",
     "MagneticField"
@@ -1394,7 +1404,9 @@
   "GPS_TEC1HR_IGS": "ThermalPlasma",
   "GPS_TEC2HR_IGS": "ThermalPlasma",
   "HALEBOPP_HELIO1DAY_POSITION": "Ephemeris",
+  "HALEBOPP_HELIO1HR_POSITION": "Ephemeris",
   "HALLEY_HELIO1DAY_POSITION": "Ephemeris",
+  "HALLEY_HELIO1HR_POSITION": "Ephemeris",
   "HEL1_6SEC_NESSMAG": "MagneticField",
   "HEL2_6SEC_NESSMAG": "MagneticField",
   "HELIOS1_40SEC_MAG-PLASMA": [
@@ -1408,6 +1420,7 @@
   "HELIOS1_E6_1HOUR_PARTICLE_FLUX": "EnergeticParticles",
   "HELIOS1_E6_KUNOW_1HOUR_PARTICLE-FLUX": "EnergeticParticles",
   "HELIOS1_HELIO1DAY_POSITION": "Ephemeris",
+  "HELIOS1_HELIO1HR_POSITION": "Ephemeris",
   "HELIOS2_40SEC_MAG-PLASMA": [
     "MagneticField",
     "ThermalPlasma"
@@ -1419,12 +1432,14 @@
   "HELIOS2_E6_1HOUR_PARTICLE_FLUX": "EnergeticParticles",
   "HELIOS2_E6_KUNOW_1HOUR_PARTICLE-FLUX": "EnergeticParticles",
   "HELIOS2_HELIO1DAY_POSITION": "Ephemeris",
+  "HELIOS2_HELIO1HR_POSITION": "Ephemeris",
   "HK_H0_MAG": "MagneticField",
   "HK_H0_VLF": [
     "Waves.Passive",
     "Spectrum"
   ],
   "HYAKUTAKE_HELIO1DAY_POSITION": "Ephemeris",
+  "HYAKUTAKE_HELIO1HR_POSITION": "Ephemeris",
   "I1_AV2_OTT": [
     "Spectrum",
     "Waves.Active"
@@ -1721,6 +1736,7 @@
   "IM_OR_DEF": "Ephemeris",
   "IM_OR_PRE": "Ephemeris",
   "ISEE-3_HELIO1DAY_POSITION": "Ephemeris",
+  "ISEE-3_HELIO1HR_POSITION": "Ephemeris",
   "ISEE-3_MAGPLASMA_2MIN_MAGNETIC_FIELD_PLASMA": [
     "MagneticField",
     "ThermalPlasma"
@@ -1763,7 +1779,9 @@
   "IT_K0_WAV": "Waves.Passive",
   "IT_OR_DEF": "Ephemeris",
   "JUNO_HELIO1DAY_POSITION": "Ephemeris",
+  "JUNO_HELIO1HR_POSITION": "Ephemeris",
   "JUPITER_HELIO1DAY_POSITION": "Ephemeris",
+  "JUPITER_HELIO1HR_POSITION": "Ephemeris",
   "L0_K0_MPA": "EnergeticParticles",
   "L0_K0_SPA": "EnergeticParticles",
   "L1_K0_MPA": "EnergeticParticles",
@@ -1777,9 +1795,13 @@
   "L9_K0_MPA": "EnergeticParticles",
   "L9_K0_SPA": "EnergeticParticles",
   "MARS_HELIO1DAY_POSITION": "Ephemeris",
+  "MARS_HELIO1HR_POSITION": "Ephemeris",
   "MAVEN_HELIO1DAY_POSITION": "Ephemeris",
+  "MAVEN_HELIO1HR_POSITION": "Ephemeris",
   "MERCURY_HELIO1DAY_POSITION": "Ephemeris",
+  "MERCURY_HELIO1HR_POSITION": "Ephemeris",
   "MESSENGER_HELIO1DAY_POSITION": "Ephemeris",
+  "MESSENGER_HELIO1HR_POSITION": "Ephemeris",
   "MESSENGER_MAG_RTN": [
     "Ephemeris",
     "InstrumentStatus",
@@ -2493,6 +2515,7 @@
     "ThermalPlasma"
   ],
   "NEPTUNE_HELIO1DAY_POSITION": "Ephemeris",
+  "NEPTUNE_HELIO1HR_POSITION": "Ephemeris",
   "NEW_HORIZONS_SWAP_PICKUP-IONS": [
     "EnergeticParticles",
     "ThermalPlasma"
@@ -2582,17 +2605,20 @@
     "ThermalPlasma"
   ],
   "PHOBOS2_HELIO1DAY_POSITION": "Ephemeris",
+  "PHOBOS2_HELIO1HR_POSITION": "Ephemeris",
   "PIONEER10_COHO1HR_MERGED_MAG_PLASMA": [
     "MagneticField",
     "ThermalPlasma"
   ],
   "PIONEER10_HELIO1DAY_POSITION": "Ephemeris",
+  "PIONEER10_HELIO1HR_POSITION": "Ephemeris",
   "PIONEER10_MAG_1MIN_MAGNETIC_FIELD": "MagneticField",
   "PIONEER11_COHO1HR_MERGED_MAG_PLASMA": [
     "MagneticField",
     "ThermalPlasma"
   ],
   "PIONEER11_HELIO1DAY_POSITION": "Ephemeris",
+  "PIONEER11_HELIO1HR_POSITION": "Ephemeris",
   "PIONEERVENUS_COHO1HR_MERGED_MAG_PLASMA": [
     "MagneticField",
     "ThermalPlasma"
@@ -2603,6 +2629,7 @@
     "ThermalPlasma"
   ],
   "PLUTO_HELIO1DAY_POSITION": "Ephemeris",
+  "PLUTO_HELIO1HR_POSITION": "Ephemeris",
   "POLAR_HYDRA_MOMENTS-14SEC": "EnergeticParticles",
   "PO_10MINATT_EFI": "Ephemeris",
   "PO_6SECEDSC_EFI": "ElectricField",
@@ -2671,6 +2698,7 @@
     "MagneticField",
     "ThermalPlasma"
   ],
+  "PSP_FLD_L2_AEB": "InstrumentStatus",
   "PSP_FLD_L2_DFB_AC_BPF_DV12HG": [
     "InstrumentStatus",
     "Waves.Passive"
@@ -2743,9 +2771,21 @@
     "ElectricField",
     "InstrumentStatus"
   ],
+  "PSP_FLD_L2_DFB_DBM_DVDC": [
+    "ElectricField",
+    "InstrumentStatus"
+  ],
   "PSP_FLD_L2_DFB_DBM_SCM": [
     "InstrumentStatus",
     "MagneticField"
+  ],
+  "PSP_FLD_L2_DFB_DBM_VAC": [
+    "ElectricField",
+    "InstrumentStatus"
+  ],
+  "PSP_FLD_L2_DFB_DBM_VDC": [
+    "ElectricField",
+    "InstrumentStatus"
   ],
   "PSP_FLD_L2_DFB_DC_BPF_DV12HG": [
     "ElectricField",
@@ -2848,6 +2888,15 @@
     "InstrumentStatus",
     "MagneticField"
   ],
+  "PSP_FLD_L2_MAG_VSO": [
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "PSP_FLD_L2_RFS_BURST": [
+    "InstrumentStatus",
+    "Spectrum",
+    "Waves.Passive"
+  ],
   "PSP_FLD_L2_RFS_HFR": [
     "InstrumentStatus",
     "Spectrum",
@@ -2858,7 +2907,18 @@
     "Spectrum",
     "Waves.Passive"
   ],
+  "PSP_FLD_L3_DUST": "Dust",
+  "PSP_FLD_L3_MERGED_SCAM_WF": [
+    "InstrumentStatus",
+    "MagneticField"
+  ],
+  "PSP_FLD_L3_RFS_LFR_QTN": "ThermalPlasma",
+  "PSP_FLD_L3_SQTN_RFS_V1V2": [
+    "ElectricField",
+    "Waves"
+  ],
   "PSP_HELIO1DAY_POSITION": "Ephemeris",
+  "PSP_HELIO1HR_POSITION": "Ephemeris",
   "PSP_ISOIS-EPIHI_L2-HET-RATES10": [
     "EnergeticParticles",
     "Ephemeris"
@@ -3334,9 +3394,12 @@
   "RENU2_H0_UVPMT": "Irradiance",
   "RENU2_H0_VLF": "Waves.Passive",
   "ROSETTA_HELIO1DAY_POSITION": "Ephemeris",
+  "ROSETTA_HELIO1HR_POSITION": "Ephemeris",
   "RS_K0_IPEI": "IonComposition",
   "SAKIGAKE_HELIO1DAY_POSITION": "Ephemeris",
+  "SAKIGAKE_HELIO1HR_POSITION": "Ephemeris",
   "SATURN_HELIO1DAY_POSITION": "Ephemeris",
+  "SATURN_HELIO1HR_POSITION": "Ephemeris",
   "SE_K0_AIS": "ThermalPlasma",
   "SE_K0_FPI": "Waves",
   "SE_K0_MAG": "MagneticField",
@@ -3359,6 +3422,7 @@
   "SOHO_ERNE_HEAVY-ION-1HR": "EnergeticParticles",
   "SOHO_ERNE_HEAVY-ION-5MIN": "EnergeticParticles",
   "SOHO_HELIO1DAY_POSITION": "Ephemeris",
+  "SOHO_HELIO1HR_POSITION": "Ephemeris",
   "SOLO_HELIO1DAY_POSITION": "Ephemeris",
   "SO_AT_DEF": "Ephemeris",
   "SO_K0_CEL": [
@@ -3379,6 +3443,7 @@
     "ThermalPlasma"
   ],
   "STA_HELIO1DAY_POSITION": "Ephemeris",
+  "STA_HELIO1HR_POSITION": "Ephemeris",
   "STA_L1_HET": "EnergeticParticles",
   "STA_L1_IMPACT_BURST": [
     "InstrumentStatus",
@@ -3474,6 +3539,7 @@
     "ThermalPlasma"
   ],
   "STB_HELIO1DAY_POSITION": "Ephemeris",
+  "STB_HELIO1HR_POSITION": "Ephemeris",
   "STB_L1_HET": "EnergeticParticles",
   "STB_L1_IMPACT_BURST": [
     "InstrumentStatus",
@@ -3538,6 +3604,7 @@
     "Spectrum"
   ],
   "SUISEI_HELIO1DAY_POSITION": "Ephemeris",
+  "SUISEI_HELIO1HR_POSITION": "Ephemeris",
   "SX_K0_30F": [
     "EnergeticParticles",
     "IonComposition"
@@ -3580,6 +3647,7 @@
   ],
   "THA_OR_SSC": "Ephemeris",
   "THB_HELIO1DAY_POSITION": "Ephemeris",
+  "THB_HELIO1HR_POSITION": "Ephemeris",
   "THB_L1_STATE": "Ephemeris",
   "THB_L2_EFI": "ElectricField",
   "THB_L2_ESA": "ThermalPlasma",
@@ -3619,6 +3687,7 @@
   ],
   "THB_OR_SSC": "Ephemeris",
   "THC_HELIO1DAY_POSITION": "Ephemeris",
+  "THC_HELIO1HR_POSITION": "Ephemeris",
   "THC_L1_STATE": "Ephemeris",
   "THC_L2_EFI": "ElectricField",
   "THC_L2_ESA": "ThermalPlasma",
@@ -3929,7 +3998,9 @@
     "ThermalPlasma"
   ],
   "ULYSSES_HELIO1DAY_POSITION": "Ephemeris",
+  "ULYSSES_HELIO1HR_POSITION": "Ephemeris",
   "URANUS_HELIO1DAY_POSITION": "Ephemeris",
+  "URANUS_HELIO1HR_POSITION": "Ephemeris",
   "UY_1MIN_VHM": "MagneticField",
   "UY_1SEC_VHM": "MagneticField",
   "UY_ALPHA-DISTRIBUTIONS_SWOOPS": [
@@ -4050,6 +4121,7 @@
     "ThermalPlasma"
   ],
   "VENUS_HELIO1DAY_POSITION": "Ephemeris",
+  "VENUS_HELIO1HR_POSITION": "Ephemeris",
   "VG1_PWS_LR": "Waves",
   "VG1_PWS_WF": "Waves",
   "VG2_PWS_LR": "Waves",
@@ -4086,6 +4158,7 @@
   "VOYAGER2_PLS_IONS_L": "EnergeticParticles",
   "VOYAGER2_PLS_IONS_M": "EnergeticParticles",
   "WILD2_HELIO1DAY_POSITION": "Ephemeris",
+  "WILD2_HELIO1HR_POSITION": "Ephemeris",
   "WIND_3DP_ECHSFITS_E0-YR": "EnergeticParticles",
   "WI_AT_DEF": "Ephemeris",
   "WI_AT_PRE": "Ephemeris",
@@ -4179,6 +4252,10 @@
   "WI_L2-5MIN-SEP_EPACT-LEMT": "EnergeticParticles",
   "WI_L2_3MIN_SMS-STICS-NVT-MAGNETOSPHERE": "IonComposition",
   "WI_L2_3MIN_SMS-STICS-NVT-SOLARWIND": "IonComposition",
+  "WI_L2_WAV_RAD1": [
+    "Waves.Passive",
+    "Spectrum"
+  ],
   "WI_L3-DUSTIMPACT_WAVES": "ElectricField",
   "WI_M0_SWE": "ThermalPlasma",
   "WI_M2_SWE": "ThermalPlasma",

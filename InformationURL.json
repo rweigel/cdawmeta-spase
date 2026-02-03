@@ -40,58 +40,99 @@
       "AC_AT_DEF",
       "AC_OR_DEF",
       "BEPICOLOMBO_HELIO1DAY_POSITION",
+      "BEPICOLOMBO_HELIO1HR_POSITION",
       "BORRELLY_HELIO1DAY_POSITION",
+      "BORRELLY_HELIO1HR_POSITION",
       "CASSINI_HELIO1DAY_POSITION",
+      "CASSINI_HELIO1HR_POSITION",
       "COMETGS_HELIO1DAY_POSITION",
+      "COMETGS_HELIO1HR_POSITION",
       "COMETHMP_HELIO1DAY_POSITION",
+      "COMETHMP_HELIO1HR_POSITION",
       "DAWN_HELIO1DAY_POSITION",
+      "DAWN_HELIO1HR_POSITION",
       "EARTH_HELIO1DAY_POSITION",
+      "EARTH_HELIO1HR_POSITION",
       "GALILEO_HELIO1DAY_POSITION",
+      "GALILEO_HELIO1HR_POSITION",
       "GIACOBINI_HELIO1DAY_POSITION",
+      "GIACOBINI_HELIO1HR_POSITION",
       "GIOTTO_HELIO1DAY_POSITION",
+      "GIOTTO_HELIO1HR_POSITION",
       "HALEBOPP_HELIO1DAY_POSITION",
+      "HALEBOPP_HELIO1HR_POSITION",
       "HALLEY_HELIO1DAY_POSITION",
+      "HALLEY_HELIO1HR_POSITION",
       "HELIOS1_HELIO1DAY_POSITION",
+      "HELIOS1_HELIO1HR_POSITION",
       "HELIOS2_HELIO1DAY_POSITION",
+      "HELIOS2_HELIO1HR_POSITION",
       "HYAKUTAKE_HELIO1DAY_POSITION",
+      "HYAKUTAKE_HELIO1HR_POSITION",
       "ISEE-3_HELIO1DAY_POSITION",
+      "ISEE-3_HELIO1HR_POSITION",
       "JUNO_HELIO1DAY_POSITION",
+      "JUNO_HELIO1HR_POSITION",
       "JUPITER_HELIO1DAY_POSITION",
+      "JUPITER_HELIO1HR_POSITION",
       "MARS_HELIO1DAY_POSITION",
+      "MARS_HELIO1HR_POSITION",
       "MAVEN_HELIO1DAY_POSITION",
+      "MAVEN_HELIO1HR_POSITION",
       "MERCURY_HELIO1DAY_POSITION",
+      "MERCURY_HELIO1HR_POSITION",
       "MESSENGER_HELIO1DAY_POSITION",
+      "MESSENGER_HELIO1HR_POSITION",
       "MSL_HELIO1DAY_POSITION",
       "NEPTUNE_HELIO1DAY_POSITION",
+      "NEPTUNE_HELIO1HR_POSITION",
       "PHOBOS2_HELIO1DAY_POSITION",
+      "PHOBOS2_HELIO1HR_POSITION",
       "PIONEER10_HELIO1DAY_POSITION",
+      "PIONEER10_HELIO1HR_POSITION",
       "PIONEER11_HELIO1DAY_POSITION",
+      "PIONEER11_HELIO1HR_POSITION",
       "PLUTO_HELIO1DAY_POSITION",
+      "PLUTO_HELIO1HR_POSITION",
       "PO_AT_DEF",
       "PO_OR_DEF",
       "PSP_HELIO1DAY_POSITION",
+      "PSP_HELIO1HR_POSITION",
       "ROSETTA_HELIO1DAY_POSITION",
+      "ROSETTA_HELIO1HR_POSITION",
       "SAKIGAKE_HELIO1DAY_POSITION",
+      "SAKIGAKE_HELIO1HR_POSITION",
       "SATURN_HELIO1DAY_POSITION",
+      "SATURN_HELIO1HR_POSITION",
       "SOHO_HELIO1DAY_POSITION",
+      "SOHO_HELIO1HR_POSITION",
       "SOLO_HELIO1DAY_POSITION",
       "SO_AT_DEF",
       "SO_OR_DEF",
       "SO_OR_PRE",
       "STA_HELIO1DAY_POSITION",
+      "STA_HELIO1HR_POSITION",
       "STB_HELIO1DAY_POSITION",
+      "STB_HELIO1HR_POSITION",
       "SUISEI_HELIO1DAY_POSITION",
+      "SUISEI_HELIO1HR_POSITION",
       "THA_OR_SSC",
       "THB_HELIO1DAY_POSITION",
+      "THB_HELIO1HR_POSITION",
       "THB_OR_SSC",
       "THC_HELIO1DAY_POSITION",
+      "THC_HELIO1HR_POSITION",
       "THC_OR_SSC",
       "THD_OR_SSC",
       "THE_OR_SSC",
       "ULYSSES_HELIO1DAY_POSITION",
+      "ULYSSES_HELIO1HR_POSITION",
       "URANUS_HELIO1DAY_POSITION",
+      "URANUS_HELIO1HR_POSITION",
       "VENUS_HELIO1DAY_POSITION",
+      "VENUS_HELIO1HR_POSITION",
       "WILD2_HELIO1DAY_POSITION",
+      "WILD2_HELIO1HR_POSITION",
       "WI_AT_DEF",
       "WI_AT_PRE"
     ]
@@ -666,48 +707,89 @@
     },
     "_cdaweb_ids": [
       "BEPICOLOMBO_HELIO1DAY_POSITION",
+      "BEPICOLOMBO_HELIO1HR_POSITION",
       "BORRELLY_HELIO1DAY_POSITION",
+      "BORRELLY_HELIO1HR_POSITION",
       "CASSINI_HELIO1DAY_POSITION",
+      "CASSINI_HELIO1HR_POSITION",
       "COMETGS_HELIO1DAY_POSITION",
+      "COMETGS_HELIO1HR_POSITION",
       "COMETHMP_HELIO1DAY_POSITION",
+      "COMETHMP_HELIO1HR_POSITION",
       "DAWN_HELIO1DAY_POSITION",
+      "DAWN_HELIO1HR_POSITION",
       "EARTH_HELIO1DAY_POSITION",
+      "EARTH_HELIO1HR_POSITION",
       "GALILEO_HELIO1DAY_POSITION",
+      "GALILEO_HELIO1HR_POSITION",
       "GIACOBINI_HELIO1DAY_POSITION",
+      "GIACOBINI_HELIO1HR_POSITION",
       "GIOTTO_HELIO1DAY_POSITION",
+      "GIOTTO_HELIO1HR_POSITION",
       "HALEBOPP_HELIO1DAY_POSITION",
+      "HALEBOPP_HELIO1HR_POSITION",
       "HALLEY_HELIO1DAY_POSITION",
+      "HALLEY_HELIO1HR_POSITION",
       "HELIOS1_HELIO1DAY_POSITION",
+      "HELIOS1_HELIO1HR_POSITION",
       "HELIOS2_HELIO1DAY_POSITION",
+      "HELIOS2_HELIO1HR_POSITION",
       "HYAKUTAKE_HELIO1DAY_POSITION",
+      "HYAKUTAKE_HELIO1HR_POSITION",
       "ISEE-3_HELIO1DAY_POSITION",
+      "ISEE-3_HELIO1HR_POSITION",
       "JUNO_HELIO1DAY_POSITION",
+      "JUNO_HELIO1HR_POSITION",
       "JUPITER_HELIO1DAY_POSITION",
+      "JUPITER_HELIO1HR_POSITION",
       "MARS_HELIO1DAY_POSITION",
+      "MARS_HELIO1HR_POSITION",
       "MAVEN_HELIO1DAY_POSITION",
+      "MAVEN_HELIO1HR_POSITION",
       "MERCURY_HELIO1DAY_POSITION",
+      "MERCURY_HELIO1HR_POSITION",
       "MESSENGER_HELIO1DAY_POSITION",
+      "MESSENGER_HELIO1HR_POSITION",
       "MSL_HELIO1DAY_POSITION",
       "NEPTUNE_HELIO1DAY_POSITION",
+      "NEPTUNE_HELIO1HR_POSITION",
       "PHOBOS2_HELIO1DAY_POSITION",
+      "PHOBOS2_HELIO1HR_POSITION",
       "PIONEER10_HELIO1DAY_POSITION",
+      "PIONEER10_HELIO1HR_POSITION",
       "PIONEER11_HELIO1DAY_POSITION",
+      "PIONEER11_HELIO1HR_POSITION",
       "PLUTO_HELIO1DAY_POSITION",
+      "PLUTO_HELIO1HR_POSITION",
       "PSP_HELIO1DAY_POSITION",
+      "PSP_HELIO1HR_POSITION",
       "ROSETTA_HELIO1DAY_POSITION",
+      "ROSETTA_HELIO1HR_POSITION",
       "SAKIGAKE_HELIO1DAY_POSITION",
+      "SAKIGAKE_HELIO1HR_POSITION",
       "SATURN_HELIO1DAY_POSITION",
+      "SATURN_HELIO1HR_POSITION",
       "SOHO_HELIO1DAY_POSITION",
+      "SOHO_HELIO1HR_POSITION",
       "SOLO_HELIO1DAY_POSITION",
       "STA_HELIO1DAY_POSITION",
+      "STA_HELIO1HR_POSITION",
       "STB_HELIO1DAY_POSITION",
+      "STB_HELIO1HR_POSITION",
       "SUISEI_HELIO1DAY_POSITION",
+      "SUISEI_HELIO1HR_POSITION",
       "THB_HELIO1DAY_POSITION",
+      "THB_HELIO1HR_POSITION",
       "THC_HELIO1DAY_POSITION",
+      "THC_HELIO1HR_POSITION",
       "ULYSSES_HELIO1DAY_POSITION",
+      "ULYSSES_HELIO1HR_POSITION",
       "URANUS_HELIO1DAY_POSITION",
+      "URANUS_HELIO1HR_POSITION",
       "VENUS_HELIO1DAY_POSITION",
-      "WILD2_HELIO1DAY_POSITION"
+      "VENUS_HELIO1HR_POSITION",
+      "WILD2_HELIO1DAY_POSITION",
+      "WILD2_HELIO1HR_POSITION"
     ]
   },
   "https://omniweb.gsfc.nasa.gov/coho/helios/heli.html": {
@@ -717,32 +799,73 @@
       "Description": "Heliocentric trajectories for selected spacecraft, planets, and comets, HelioWeb data service, hosted by NASA GSFC"
     },
     "_cdaweb_ids": [
+      "BEPICOLOMBO_HELIO1HR_POSITION",
       "BORRELLY_HELIO1DAY_POSITION",
+      "BORRELLY_HELIO1HR_POSITION",
+      "CASSINI_HELIO1HR_POSITION",
       "COMETGS_HELIO1DAY_POSITION",
+      "COMETGS_HELIO1HR_POSITION",
       "COMETHMP_HELIO1DAY_POSITION",
+      "COMETHMP_HELIO1HR_POSITION",
+      "DAWN_HELIO1HR_POSITION",
       "EARTH_HELIO1DAY_POSITION",
+      "EARTH_HELIO1HR_POSITION",
       "GALILEO_HELIO1DAY_POSITION",
+      "GALILEO_HELIO1HR_POSITION",
       "GIACOBINI_HELIO1DAY_POSITION",
+      "GIACOBINI_HELIO1HR_POSITION",
       "GIOTTO_HELIO1DAY_POSITION",
+      "GIOTTO_HELIO1HR_POSITION",
+      "HALEBOPP_HELIO1HR_POSITION",
+      "HALLEY_HELIO1HR_POSITION",
       "HELIOS1_HELIO1DAY_POSITION",
+      "HELIOS1_HELIO1HR_POSITION",
+      "HELIOS2_HELIO1HR_POSITION",
+      "HYAKUTAKE_HELIO1HR_POSITION",
       "ISEE-3_HELIO1DAY_POSITION",
+      "ISEE-3_HELIO1HR_POSITION",
       "JUNO_HELIO1DAY_POSITION",
+      "JUNO_HELIO1HR_POSITION",
+      "JUPITER_HELIO1HR_POSITION",
       "MARS_HELIO1DAY_POSITION",
+      "MARS_HELIO1HR_POSITION",
       "MAVEN_HELIO1DAY_POSITION",
+      "MAVEN_HELIO1HR_POSITION",
       "MERCURY_HELIO1DAY_POSITION",
+      "MERCURY_HELIO1HR_POSITION",
       "MESSENGER_HELIO1DAY_POSITION",
+      "MESSENGER_HELIO1HR_POSITION",
       "MSL_HELIO1DAY_POSITION",
+      "NEPTUNE_HELIO1HR_POSITION",
+      "PHOBOS2_HELIO1HR_POSITION",
+      "PIONEER10_HELIO1HR_POSITION",
       "PIONEER11_HELIO1DAY_POSITION",
+      "PIONEER11_HELIO1HR_POSITION",
       "PLUTO_HELIO1DAY_POSITION",
+      "PLUTO_HELIO1HR_POSITION",
       "PSP_HELIO1DAY_POSITION",
+      "PSP_HELIO1HR_POSITION",
       "ROSETTA_HELIO1DAY_POSITION",
+      "ROSETTA_HELIO1HR_POSITION",
       "SAKIGAKE_HELIO1DAY_POSITION",
+      "SAKIGAKE_HELIO1HR_POSITION",
       "SATURN_HELIO1DAY_POSITION",
+      "SATURN_HELIO1HR_POSITION",
       "SOHO_HELIO1DAY_POSITION",
+      "SOHO_HELIO1HR_POSITION",
       "SOLO_HELIO1DAY_POSITION",
+      "STA_HELIO1HR_POSITION",
       "STB_HELIO1DAY_POSITION",
+      "STB_HELIO1HR_POSITION",
       "SUISEI_HELIO1DAY_POSITION",
-      "ULYSSES_HELIO1DAY_POSITION"
+      "SUISEI_HELIO1HR_POSITION",
+      "THB_HELIO1HR_POSITION",
+      "THC_HELIO1HR_POSITION",
+      "ULYSSES_HELIO1DAY_POSITION",
+      "ULYSSES_HELIO1HR_POSITION",
+      "URANUS_HELIO1HR_POSITION",
+      "VENUS_HELIO1HR_POSITION",
+      "WILD2_HELIO1HR_POSITION"
     ]
   },
   "https://omniweb.gsfc.nasa.gov/coho/helios/about_helioweb.html": {
@@ -752,32 +875,73 @@
       "Description": "Instructions for using the Heliocentric Trajectories HelioWeb data service, hosted by NASA GSFC"
     },
     "_cdaweb_ids": [
+      "BEPICOLOMBO_HELIO1HR_POSITION",
       "BORRELLY_HELIO1DAY_POSITION",
+      "BORRELLY_HELIO1HR_POSITION",
+      "CASSINI_HELIO1HR_POSITION",
       "COMETGS_HELIO1DAY_POSITION",
+      "COMETGS_HELIO1HR_POSITION",
       "COMETHMP_HELIO1DAY_POSITION",
+      "COMETHMP_HELIO1HR_POSITION",
+      "DAWN_HELIO1HR_POSITION",
       "EARTH_HELIO1DAY_POSITION",
+      "EARTH_HELIO1HR_POSITION",
       "GALILEO_HELIO1DAY_POSITION",
+      "GALILEO_HELIO1HR_POSITION",
       "GIACOBINI_HELIO1DAY_POSITION",
+      "GIACOBINI_HELIO1HR_POSITION",
       "GIOTTO_HELIO1DAY_POSITION",
+      "GIOTTO_HELIO1HR_POSITION",
+      "HALEBOPP_HELIO1HR_POSITION",
+      "HALLEY_HELIO1HR_POSITION",
       "HELIOS1_HELIO1DAY_POSITION",
+      "HELIOS1_HELIO1HR_POSITION",
+      "HELIOS2_HELIO1HR_POSITION",
+      "HYAKUTAKE_HELIO1HR_POSITION",
       "ISEE-3_HELIO1DAY_POSITION",
+      "ISEE-3_HELIO1HR_POSITION",
       "JUNO_HELIO1DAY_POSITION",
+      "JUNO_HELIO1HR_POSITION",
+      "JUPITER_HELIO1HR_POSITION",
       "MARS_HELIO1DAY_POSITION",
+      "MARS_HELIO1HR_POSITION",
       "MAVEN_HELIO1DAY_POSITION",
+      "MAVEN_HELIO1HR_POSITION",
       "MERCURY_HELIO1DAY_POSITION",
+      "MERCURY_HELIO1HR_POSITION",
       "MESSENGER_HELIO1DAY_POSITION",
+      "MESSENGER_HELIO1HR_POSITION",
       "MSL_HELIO1DAY_POSITION",
+      "NEPTUNE_HELIO1HR_POSITION",
+      "PHOBOS2_HELIO1HR_POSITION",
+      "PIONEER10_HELIO1HR_POSITION",
       "PIONEER11_HELIO1DAY_POSITION",
+      "PIONEER11_HELIO1HR_POSITION",
       "PLUTO_HELIO1DAY_POSITION",
+      "PLUTO_HELIO1HR_POSITION",
       "PSP_HELIO1DAY_POSITION",
+      "PSP_HELIO1HR_POSITION",
       "ROSETTA_HELIO1DAY_POSITION",
+      "ROSETTA_HELIO1HR_POSITION",
       "SAKIGAKE_HELIO1DAY_POSITION",
+      "SAKIGAKE_HELIO1HR_POSITION",
       "SATURN_HELIO1DAY_POSITION",
+      "SATURN_HELIO1HR_POSITION",
       "SOHO_HELIO1DAY_POSITION",
+      "SOHO_HELIO1HR_POSITION",
       "SOLO_HELIO1DAY_POSITION",
+      "STA_HELIO1HR_POSITION",
       "STB_HELIO1DAY_POSITION",
+      "STB_HELIO1HR_POSITION",
       "SUISEI_HELIO1DAY_POSITION",
-      "ULYSSES_HELIO1DAY_POSITION"
+      "SUISEI_HELIO1HR_POSITION",
+      "THB_HELIO1HR_POSITION",
+      "THC_HELIO1HR_POSITION",
+      "ULYSSES_HELIO1DAY_POSITION",
+      "ULYSSES_HELIO1HR_POSITION",
+      "URANUS_HELIO1HR_POSITION",
+      "VENUS_HELIO1HR_POSITION",
+      "WILD2_HELIO1HR_POSITION"
     ]
   },
   "https://omniweb.gsfc.nasa.gov/coho/helios/helioweb_command_line_sample.txt": {
@@ -787,32 +951,73 @@
       "Description": "Instructions for using the Heliocentric Trajectories HelioWeb data service via CURL or WGET commands, hosted by NASA GSFC"
     },
     "_cdaweb_ids": [
+      "BEPICOLOMBO_HELIO1HR_POSITION",
       "BORRELLY_HELIO1DAY_POSITION",
+      "BORRELLY_HELIO1HR_POSITION",
+      "CASSINI_HELIO1HR_POSITION",
       "COMETGS_HELIO1DAY_POSITION",
+      "COMETGS_HELIO1HR_POSITION",
       "COMETHMP_HELIO1DAY_POSITION",
+      "COMETHMP_HELIO1HR_POSITION",
+      "DAWN_HELIO1HR_POSITION",
       "EARTH_HELIO1DAY_POSITION",
+      "EARTH_HELIO1HR_POSITION",
       "GALILEO_HELIO1DAY_POSITION",
+      "GALILEO_HELIO1HR_POSITION",
       "GIACOBINI_HELIO1DAY_POSITION",
+      "GIACOBINI_HELIO1HR_POSITION",
       "GIOTTO_HELIO1DAY_POSITION",
+      "GIOTTO_HELIO1HR_POSITION",
+      "HALEBOPP_HELIO1HR_POSITION",
+      "HALLEY_HELIO1HR_POSITION",
       "HELIOS1_HELIO1DAY_POSITION",
+      "HELIOS1_HELIO1HR_POSITION",
+      "HELIOS2_HELIO1HR_POSITION",
+      "HYAKUTAKE_HELIO1HR_POSITION",
       "ISEE-3_HELIO1DAY_POSITION",
+      "ISEE-3_HELIO1HR_POSITION",
       "JUNO_HELIO1DAY_POSITION",
+      "JUNO_HELIO1HR_POSITION",
+      "JUPITER_HELIO1HR_POSITION",
       "MARS_HELIO1DAY_POSITION",
+      "MARS_HELIO1HR_POSITION",
       "MAVEN_HELIO1DAY_POSITION",
+      "MAVEN_HELIO1HR_POSITION",
       "MERCURY_HELIO1DAY_POSITION",
+      "MERCURY_HELIO1HR_POSITION",
       "MESSENGER_HELIO1DAY_POSITION",
+      "MESSENGER_HELIO1HR_POSITION",
       "MSL_HELIO1DAY_POSITION",
+      "NEPTUNE_HELIO1HR_POSITION",
+      "PHOBOS2_HELIO1HR_POSITION",
+      "PIONEER10_HELIO1HR_POSITION",
       "PIONEER11_HELIO1DAY_POSITION",
+      "PIONEER11_HELIO1HR_POSITION",
       "PLUTO_HELIO1DAY_POSITION",
+      "PLUTO_HELIO1HR_POSITION",
       "PSP_HELIO1DAY_POSITION",
+      "PSP_HELIO1HR_POSITION",
       "ROSETTA_HELIO1DAY_POSITION",
+      "ROSETTA_HELIO1HR_POSITION",
       "SAKIGAKE_HELIO1DAY_POSITION",
+      "SAKIGAKE_HELIO1HR_POSITION",
       "SATURN_HELIO1DAY_POSITION",
+      "SATURN_HELIO1HR_POSITION",
       "SOHO_HELIO1DAY_POSITION",
+      "SOHO_HELIO1HR_POSITION",
       "SOLO_HELIO1DAY_POSITION",
+      "STA_HELIO1HR_POSITION",
       "STB_HELIO1DAY_POSITION",
+      "STB_HELIO1HR_POSITION",
       "SUISEI_HELIO1DAY_POSITION",
-      "ULYSSES_HELIO1DAY_POSITION"
+      "SUISEI_HELIO1HR_POSITION",
+      "THB_HELIO1HR_POSITION",
+      "THC_HELIO1HR_POSITION",
+      "ULYSSES_HELIO1DAY_POSITION",
+      "ULYSSES_HELIO1HR_POSITION",
+      "URANUS_HELIO1HR_POSITION",
+      "VENUS_HELIO1HR_POSITION",
+      "WILD2_HELIO1HR_POSITION"
     ]
   },
   "https://omniweb.gsfc.nasa.gov/coho/helios/coor_des.html": {
@@ -822,32 +1027,83 @@
       "Description": "Definitions for the Heliographic, HG, Heliographic Inertial, HGI, and Solar Ecliptic, SE, Coordinate Systems, hosted by NASA GSFC"
     },
     "_cdaweb_ids": [
+      "BEPICOLOMBO_HELIO1HR_POSITION",
       "BORRELLY_HELIO1DAY_POSITION",
+      "BORRELLY_HELIO1HR_POSITION",
+      "CASSINI_HELIO1HR_POSITION",
       "COMETGS_HELIO1DAY_POSITION",
+      "COMETGS_HELIO1HR_POSITION",
       "COMETHMP_HELIO1DAY_POSITION",
+      "COMETHMP_HELIO1HR_POSITION",
+      "DAWN_HELIO1HR_POSITION",
       "EARTH_HELIO1DAY_POSITION",
+      "EARTH_HELIO1HR_POSITION",
       "GALILEO_HELIO1DAY_POSITION",
+      "GALILEO_HELIO1HR_POSITION",
       "GIACOBINI_HELIO1DAY_POSITION",
+      "GIACOBINI_HELIO1HR_POSITION",
       "GIOTTO_HELIO1DAY_POSITION",
+      "GIOTTO_HELIO1HR_POSITION",
+      "HALEBOPP_HELIO1HR_POSITION",
+      "HALLEY_HELIO1HR_POSITION",
       "HELIOS1_HELIO1DAY_POSITION",
+      "HELIOS1_HELIO1HR_POSITION",
+      "HELIOS2_HELIO1HR_POSITION",
+      "HYAKUTAKE_HELIO1HR_POSITION",
       "ISEE-3_HELIO1DAY_POSITION",
+      "ISEE-3_HELIO1HR_POSITION",
       "JUNO_HELIO1DAY_POSITION",
+      "JUNO_HELIO1HR_POSITION",
+      "JUPITER_HELIO1HR_POSITION",
       "MARS_HELIO1DAY_POSITION",
+      "MARS_HELIO1HR_POSITION",
       "MAVEN_HELIO1DAY_POSITION",
+      "MAVEN_HELIO1HR_POSITION",
       "MERCURY_HELIO1DAY_POSITION",
+      "MERCURY_HELIO1HR_POSITION",
       "MESSENGER_HELIO1DAY_POSITION",
+      "MESSENGER_HELIO1HR_POSITION",
       "MSL_HELIO1DAY_POSITION",
+      "NEPTUNE_HELIO1HR_POSITION",
+      "PHOBOS2_HELIO1HR_POSITION",
+      "PIONEER10_HELIO1HR_POSITION",
       "PIONEER11_HELIO1DAY_POSITION",
+      "PIONEER11_HELIO1HR_POSITION",
       "PLUTO_HELIO1DAY_POSITION",
+      "PLUTO_HELIO1HR_POSITION",
       "PSP_HELIO1DAY_POSITION",
+      "PSP_HELIO1HR_POSITION",
       "ROSETTA_HELIO1DAY_POSITION",
+      "ROSETTA_HELIO1HR_POSITION",
       "SAKIGAKE_HELIO1DAY_POSITION",
+      "SAKIGAKE_HELIO1HR_POSITION",
       "SATURN_HELIO1DAY_POSITION",
+      "SATURN_HELIO1HR_POSITION",
       "SOHO_HELIO1DAY_POSITION",
+      "SOHO_HELIO1HR_POSITION",
       "SOLO_HELIO1DAY_POSITION",
+      "STA_HELIO1HR_POSITION",
       "STB_HELIO1DAY_POSITION",
+      "STB_HELIO1HR_POSITION",
       "SUISEI_HELIO1DAY_POSITION",
-      "ULYSSES_HELIO1DAY_POSITION"
+      "SUISEI_HELIO1HR_POSITION",
+      "THB_HELIO1HR_POSITION",
+      "THC_HELIO1HR_POSITION",
+      "ULYSSES_HELIO1DAY_POSITION",
+      "ULYSSES_HELIO1HR_POSITION",
+      "URANUS_HELIO1HR_POSITION",
+      "VENUS_HELIO1HR_POSITION",
+      "WILD2_HELIO1HR_POSITION"
+    ]
+  },
+  "https://doi.org/10.48322/cyec-7n35": {
+    "InformationURL": {
+      "Name": "Helio1Day version SPASE DOI",
+      "URL": "https://doi.org/10.48322/cyec-7n35",
+      "Description": "Deprecated version of this SPASE record which has a daily cadence."
+    },
+    "_cdaweb_ids": [
+      "BEPICOLOMBO_HELIO1HR_POSITION"
     ]
   },
   "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-045A-04": {
@@ -1011,21 +1267,16 @@
       "C1_WAVEFORM_WBD"
     ]
   },
-  "http://www-pw.physics.uiowa.edu/cluster/": {
+  "https://www-pw.physics.uiowa.edu/cluster/": {
     "InformationURL": {
       "Name": "Cluster WBD Instrument Page",
-      "URL": "http://www-pw.physics.uiowa.edu/cluster/",
+      "URL": "https://www-pw.physics.uiowa.edu/cluster/",
       "Description": "Cluster WBD Instrument page maintained by the University of Iowa with links to instrument descriptions and team members, publications, lists of coordinated observing times, science data availability catalogs, data, data interpretation and caveat descriptions as well as data analysis tools.",
       "Language": "en"
     },
     "_cdaweb_ids": [
       "C1_WAVEFORM_WBD_BM2",
-      "C2_WAVEFORM_WBD",
-      "C2_WAVEFORM_WBD_BM2",
-      "C3_WAVEFORM_WBD",
-      "C3_WAVEFORM_WBD_BM2",
-      "C4_WAVEFORM_WBD",
-      "C4_WAVEFORM_WBD_BM2"
+      "C3_WAVEFORM_WBD_BM2"
     ]
   },
   "https://www.cosmos.esa.int/web/csa/documentation": {
@@ -1133,6 +1384,21 @@
     },
     "_cdaweb_ids": [
       "C2_UP_FGM"
+    ]
+  },
+  "http://www-pw.physics.uiowa.edu/cluster/": {
+    "InformationURL": {
+      "Name": "Cluster WBD Instrument Page",
+      "URL": "http://www-pw.physics.uiowa.edu/cluster/",
+      "Description": "Cluster WBD Instrument page maintained by the University of Iowa with links to instrument descriptions and team members, publications, lists of coordinated observing times, science data availability catalogs, data, data interpretation and caveat descriptions as well as data analysis tools.",
+      "Language": "en"
+    },
+    "_cdaweb_ids": [
+      "C2_WAVEFORM_WBD",
+      "C2_WAVEFORM_WBD_BM2",
+      "C3_WAVEFORM_WBD",
+      "C4_WAVEFORM_WBD",
+      "C4_WAVEFORM_WBD_BM2"
     ]
   },
   "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-041A-01": {
@@ -1323,6 +1589,16 @@
     },
     "_cdaweb_ids": [
       "C4_UP_FGM"
+    ]
+  },
+  "https://doi.org/10.48322/7x96-1j49": {
+    "InformationURL": {
+      "Name": "Helio1Day version SPASE DOI",
+      "URL": "https://doi.org/10.48322/7x96-1j49",
+      "Description": "Deprecated version of this SPASE record which has a daily cadence."
+    },
+    "_cdaweb_ids": [
+      "CASSINI_HELIO1HR_POSITION"
     ]
   },
   "https://www.cosmos.esa.int/web/csa": {
@@ -2203,6 +2479,16 @@
     "_cdaweb_ids": [
       "GOLD_L2_NMAX",
       "GOLD_L2_ON2",
+      "GOLD_L2_TDISK"
+    ]
+  },
+  "https://doi.org/10.1029/2024JA032424": {
+    "InformationURL": {
+      "Name": "Journal article on disk images of neutral temperature from the Global‐scale Observations of the Limb and Disk (GOLD) mission",
+      "URL": "https://doi.org/10.1029/2024JA032424",
+      "Description": "Evans  J. S., Lumpe, J. D., Eastes, R. W., Correira, J., Aryal, S., Laskar, F., et al., Journal of Geophysical Research: Space Physics, 129, e2024JA032424."
+    },
+    "_cdaweb_ids": [
       "GOLD_L2_TDISK"
     ]
   },
@@ -3171,6 +3457,16 @@
       "IT_OR_DEF"
     ]
   },
+  "https://doi.org/10.48322/d9ra-na69": {
+    "InformationURL": {
+      "Name": "Helio1Day version SPASE DOI",
+      "URL": "https://doi.org/10.48322/d9ra-na69",
+      "Description": "Deprecated version of this SPASE record which has a daily cadence."
+    },
+    "_cdaweb_ids": [
+      "JUNO_HELIO1HR_POSITION"
+    ]
+  },
   "https://doi.org/10.1029/93JA00726": {
     "InformationURL": {
       "Name": "Los Alamos Nation Laboratory spacecraft Magnetospheric Plasma Analyzer",
@@ -3233,6 +3529,26 @@
     "_cdaweb_ids": [
       "L7_K0_SPA",
       "L9_K0_SPA"
+    ]
+  },
+  "https://doi.org/10.48322/90ar-hx32": {
+    "InformationURL": {
+      "Name": "Helio1Day version SPASE DOI",
+      "URL": "https://doi.org/10.48322/90ar-hx32",
+      "Description": "Deprecated version of this SPASE record which has a daily cadence."
+    },
+    "_cdaweb_ids": [
+      "MAVEN_HELIO1HR_POSITION"
+    ]
+  },
+  "https://doi.org/10.48322/sx90-xh93": {
+    "InformationURL": {
+      "Name": "Helio1Day version SPASE DOI",
+      "URL": "https://doi.org/10.48322/sx90-xh93",
+      "Description": "Deprecated version of this SPASE record which has a daily cadence."
+    },
+    "_cdaweb_ids": [
+      "MESSENGER_HELIO1HR_POSITION"
     ]
   },
   "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2004-030A-07": {
@@ -4572,6 +4888,16 @@
       "PIONEER10_COHO1HR_MERGED_MAG_PLASMA"
     ]
   },
+  "https://doi.org/10.48322/yzp2-cp45": {
+    "InformationURL": {
+      "Name": "Helio1Day version SPASE DOI",
+      "URL": "https://doi.org/10.48322/yzp2-cp45",
+      "Description": "Deprecated version of this SPASE record which has a daily cadence."
+    },
+    "_cdaweb_ids": [
+      "PIONEER10_HELIO1HR_POSITION"
+    ]
+  },
   "https://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer10/mag/ip_1min_ascii/p10magmn_fmt.txt": {
     "InformationURL": {
       "Name": "Pioneer 10 HVM ASCII Data File Description",
@@ -4589,6 +4915,16 @@
     },
     "_cdaweb_ids": [
       "PIONEER11_COHO1HR_MERGED_MAG_PLASMA"
+    ]
+  },
+  "https://doi.org/10.48322/3dc9-j157": {
+    "InformationURL": {
+      "Name": "Helio1Day version SPASE DOI",
+      "URL": "https://doi.org/10.48322/3dc9-j157",
+      "Description": "Deprecated version of this SPASE record which has a daily cadence."
+    },
+    "_cdaweb_ids": [
+      "PIONEER11_HELIO1HR_POSITION"
     ]
   },
   "ftps://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer_venus/merged/coho1hr_magplasma_ascii/pvomgd.txt": {
@@ -4910,6 +5246,7 @@
       "Description": "Parker Solar Probe, PSP, FIELDS Instrument Suite Description: Bale, S.D., Goetz, K., Harvey, P.R. et al., The FIELDS Instrument Suite for Solar Probe Plus, Space Sci Rev 204, 49-82 (2016)"
     },
     "_cdaweb_ids": [
+      "PSP_FLD_L2_AEB",
       "PSP_FLD_L2_DFB_AC_BPF_DV12HG",
       "PSP_FLD_L2_DFB_AC_BPF_DV34HG",
       "PSP_FLD_L2_DFB_AC_BPF_SCMULFHG",
@@ -4964,6 +5301,7 @@
       "Description": "Parker Solar Probe, PSP, FIELDS Instrument Suite, Digital Fields Board, DFB, Description: Malaspina, D.M., Ergun, R.E., Bolton, M. et al., The Digital Fields Board for the FIELDS Instrument Suite on the Solar Probe Plus Mission: Analog and Digital signal Processing, JGR Space Physics, 121, 5088-5096 (2016)"
     },
     "_cdaweb_ids": [
+      "PSP_FLD_L2_AEB",
       "PSP_FLD_L2_DFB_AC_BPF_DV12HG",
       "PSP_FLD_L2_DFB_AC_BPF_DV34HG",
       "PSP_FLD_L2_DFB_AC_BPF_SCMULFHG",
@@ -5015,6 +5353,7 @@
       "Description": "Parker Solar Probe, PSP, FIELDS Instrument Suite, Data Description and Access, Spacecraft Operations Center, SOC, Web Site, UC Berkeley"
     },
     "_cdaweb_ids": [
+      "PSP_FLD_L2_AEB",
       "PSP_FLD_L2_DFB_AC_BPF_DV12HG",
       "PSP_FLD_L2_DFB_AC_BPF_SCMUMFHG",
       "PSP_FLD_L2_DFB_AC_SPEC_SCMELFHG",
@@ -5047,6 +5386,7 @@
       "Description": "Parker Solar Probe, PSP, FIELDS Instrument Suite, Rules of the Road, Spacecraft Operations Center, SOC, Web Site, UC Berkeley"
     },
     "_cdaweb_ids": [
+      "PSP_FLD_L2_AEB",
       "PSP_FLD_L2_DFB_AC_BPF_DV12HG",
       "PSP_FLD_L2_DFB_AC_BPF_SCMUMFHG",
       "PSP_FLD_L2_DFB_AC_SPEC_SCMELFHG",
@@ -5335,6 +5675,8 @@
       "PSP_FLD_L2_DFB_AC_XSPEC_SCMDLFHG_SCMFLFHG",
       "PSP_FLD_L2_DFB_AC_XSPEC_SCMELFHG_SCMFLFHG",
       "PSP_FLD_L2_DFB_DBM_SCM",
+      "PSP_FLD_L2_DFB_DBM_VAC",
+      "PSP_FLD_L2_DFB_DBM_VDC",
       "PSP_FLD_L2_DFB_DC_BPF_DV12HG",
       "PSP_FLD_L2_DFB_DC_BPF_SCMVLFHG",
       "PSP_FLD_L2_DFB_DC_SPEC_SCMDLFHG",
@@ -5347,7 +5689,12 @@
       "PSP_FLD_L2_MAG_RTN_1MIN",
       "PSP_FLD_L2_MAG_RTN_4_SA_PER_CYC",
       "PSP_FLD_L2_MAG_SC",
-      "PSP_FLD_L2_RFS_HFR"
+      "PSP_FLD_L2_MAG_VSO",
+      "PSP_FLD_L2_RFS_BURST",
+      "PSP_FLD_L2_RFS_HFR",
+      "PSP_FLD_L3_DUST",
+      "PSP_FLD_L3_MERGED_SCAM_WF",
+      "PSP_FLD_L3_RFS_LFR_QTN"
     ]
   },
   "http://fields.ssl.berkeley.edu/rules/": {
@@ -5379,6 +5726,49 @@
       "PSP_FLD_L2_MAG_RTN_1MIN",
       "PSP_FLD_L2_MAG_RTN_4_SA_PER_CYC",
       "PSP_FLD_L2_MAG_SC"
+    ]
+  },
+  "https://link.springer.com/article/10.1007/s11214-016-0244-5": {
+    "InformationURL": {
+      "Name": "FIELDS instrument paper",
+      "URL": "https://link.springer.com/article/10.1007/s11214-016-0244-5",
+      "Description": "PSP/FIELDS/RFS/LFR data available at",
+      "Language": "en"
+    },
+    "_cdaweb_ids": [
+      "PSP_FLD_L3_RFS_LFR_QTN"
+    ]
+  },
+  "https://doi.org/10.1002/2017JA024449": {
+    "InformationURL": {
+      "Name": "The Quasi-thermal noise (QTN) spectroscopy paper",
+      "URL": "https://doi.org/10.1002/2017JA024449",
+      "Description": "PSP/FIELDS/RFS/LFR data available at",
+      "Language": "en"
+    },
+    "_cdaweb_ids": [
+      "PSP_FLD_L3_RFS_LFR_QTN"
+    ]
+  },
+  "https://www.cdpp.eu": {
+    "InformationURL": {
+      "Name": "CDPP",
+      "URL": "https://www.cdpp.eu",
+      "Description": "High Resolution PSP/FIELDS data are available at",
+      "Language": "en"
+    },
+    "_cdaweb_ids": [
+      "PSP_FLD_L3_SQTN_RFS_V1V2"
+    ]
+  },
+  "https://doi.org/10.48322/41s1-hx58": {
+    "InformationURL": {
+      "Name": "Helio1Day version SPASE DOI",
+      "URL": "https://doi.org/10.48322/41s1-hx58",
+      "Description": "Deprecated version of this SPASE record which has a daily cadence."
+    },
+    "_cdaweb_ids": [
+      "PSP_HELIO1HR_POSITION"
     ]
   },
   "https://doi.org/10.1007/s11214-014-0059-1": {
@@ -6859,6 +7249,16 @@
       "STB_COHO1HR_MERGED_MAG_PLASMA"
     ]
   },
+  "https://doi.org/10.48322/4ekf-zt68": {
+    "InformationURL": {
+      "Name": "Helio1Day version SPASE DOI",
+      "URL": "https://doi.org/10.48322/4ekf-zt68",
+      "Description": "Deprecated version of this SPASE record which has a daily cadence."
+    },
+    "_cdaweb_ids": [
+      "STA_HELIO1HR_POSITION"
+    ]
+  },
   "https://sprg.ssl.berkeley.edu/impact": {
     "InformationURL": {
       "Name": "STEREO/IMPACT PI Site",
@@ -7189,6 +7589,16 @@
       "STB_COHO1HR_MERGED_MAG_PLASMA"
     ]
   },
+  "https://doi.org/10.48322/wf40-pg89": {
+    "InformationURL": {
+      "Name": "Helio1Day version SPASE DOI",
+      "URL": "https://doi.org/10.48322/wf40-pg89",
+      "Description": "Deprecated version of this SPASE record which has a daily cadence."
+    },
+    "_cdaweb_ids": [
+      "STB_HELIO1HR_POSITION"
+    ]
+  },
   "https://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/stb_l1_let_00000000_v01.skt": {
     "InformationURL": {
       "Name": "CDAWeb Skeleton Table",
@@ -7457,6 +7867,16 @@
       "THE_L2_GMOM"
     ]
   },
+  "https://doi.org/10.48322/bqr4-cj65": {
+    "InformationURL": {
+      "Name": "Helio1Day version SPASE DOI",
+      "URL": "https://doi.org/10.48322/bqr4-cj65",
+      "Description": "Deprecated version of this SPASE record which has a daily cadence."
+    },
+    "_cdaweb_ids": [
+      "THB_HELIO1HR_POSITION"
+    ]
+  },
   "https://spdf.gsfc.nasa.gov/pub/data/themis/thb/l2/merged/ascii/00readme_themisb.txt": {
     "InformationURL": {
       "Name": "SPDF readme",
@@ -7464,6 +7884,16 @@
     },
     "_cdaweb_ids": [
       "THB_L2_MERGED"
+    ]
+  },
+  "https://doi.org/10.48322/axy8-z379": {
+    "InformationURL": {
+      "Name": "Helio1Day version SPASE DOI",
+      "URL": "https://doi.org/10.48322/axy8-z379",
+      "Description": "Deprecated version of this SPASE record which has a daily cadence."
+    },
+    "_cdaweb_ids": [
+      "THC_HELIO1HR_POSITION"
     ]
   },
   "ftp://apollo.ssl.berkeley.edu/pub/THEMIS/3 Ground Systems/3.2 Science Operations/Science Operations Documents/thm_ogs_431m_ephemeris_format_definition.pdf": {
@@ -8607,6 +9037,7 @@
       "WI_EPACT_STEP-DIRECTIONAL-DIFF-H-FLUX-10MIN",
       "WI_EPACT_STEP-DIRECTIONAL-DIFF-HE-FLUX-10MIN",
       "WI_H1_WAV",
+      "WI_L2_WAV_RAD1",
       "WI_STRAHL0_SWE"
     ]
   },
@@ -8637,7 +9068,8 @@
     "_cdaweb_ids": [
       "WI_H0_WAV",
       "WI_H1_WAV",
-      "WI_K0_WAV"
+      "WI_K0_WAV",
+      "WI_L2_WAV_RAD1"
     ]
   },
   "https://solar-radio.gsfc.nasa.gov/wind/data_products.html": {
