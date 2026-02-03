@@ -994,9 +994,9 @@
   ],
   "C1_UP_FGM": "MagneticField",
   "C1_WAVEFORM_WBD": [
-    "MagneticField",
+    "Waves.Passive",
     "ElectricField",
-    "Spectrum"
+    "MagneticField"
   ],
   "C1_WAVEFORM_WBD_BM2": [
     "Waves.Passive",
@@ -3125,8 +3125,8 @@
     "ThermalPlasma",
     "Waves.Passive"
   ],
-  "RBSP-A_HFR-SPECTRA-BURST_EMFISIS-L2": "MagneticField",
-  "RBSP-A_HFR-SPECTRA-MERGED_EMFISIS-L2": "MagneticField",
+  "RBSP-A_HFR-SPECTRA-BURST_EMFISIS-L2": "Waves",
+  "RBSP-A_HFR-SPECTRA-MERGED_EMFISIS-L2": "Waves",
   "RBSP-A_HFR-SPECTRA_EMFISIS-L2": "Waves",
   "RBSP-A_HFR-WAVEFORM_EMFISIS-L2": "Waves",
   "RBSP-A_MAGNETOMETER_1SEC-GEI_EMFISIS-L3": "MagneticField",
@@ -3145,7 +3145,7 @@
   "RBSP-A_MAGNETOMETER_HIRES-GSM_EMFISIS-L3": "MagneticField",
   "RBSP-A_MAGNETOMETER_HIRES-SM_EMFISIS-L3": "MagneticField",
   "RBSP-A_MAGNETOMETER_UVW_EMFISIS-L2": "MagneticField",
-  "RBSP-A_WFR-SPECTRAL-MATRIX-DIAGONAL-MERGED_EMFISIS-L2": "MagneticField",
+  "RBSP-A_WFR-SPECTRAL-MATRIX-DIAGONAL-MERGED_EMFISIS-L2": "Waves",
   "RBSP-A_WFR-SPECTRAL-MATRIX-DIAGONAL_EMFISIS-L2": "Waves",
   "RBSP-A_WFR-SPECTRAL-MATRIX_EMFISIS-L2": "Spectrum",
   "RBSP-A_WFR-WAVEFORM-CONTINUOUS-BURST_EMFISIS-L2": [
@@ -3154,7 +3154,7 @@
     "Spectrum",
     "Waves.Passive"
   ],
-  "RBSP-A_WFR-WAVEFORM_EMFISIS-L2": "MagneticField",
+  "RBSP-A_WFR-WAVEFORM_EMFISIS-L2": "ElectricField",
   "RBSP-A_WNA-SURVEY-SHEATH-CORRECTED-E_EMFISIS-L4": "Waves",
   "RBSP-B-RBSPICE_LEV-2_ESRHELT": "EnergeticParticles",
   "RBSP-B-RBSPICE_LEV-2_ESRLEHT": "EnergeticParticles",
@@ -3237,8 +3237,8 @@
     "ThermalPlasma",
     "Waves.Passive"
   ],
-  "RBSP-B_HFR-SPECTRA-BURST_EMFISIS-L2": "MagneticField",
-  "RBSP-B_HFR-SPECTRA-MERGED_EMFISIS-L2": "MagneticField",
+  "RBSP-B_HFR-SPECTRA-BURST_EMFISIS-L2": "Waves",
+  "RBSP-B_HFR-SPECTRA-MERGED_EMFISIS-L2": "Waves",
   "RBSP-B_HFR-SPECTRA_EMFISIS-L2": "Waves",
   "RBSP-B_HFR-WAVEFORM_EMFISIS-L2": "Waves",
   "RBSP-B_MAGNETOMETER_1SEC-GEI_EMFISIS-L3": "MagneticField",
@@ -3257,14 +3257,14 @@
   "RBSP-B_MAGNETOMETER_HIRES-GSM_EMFISIS-L3": "MagneticField",
   "RBSP-B_MAGNETOMETER_HIRES-SM_EMFISIS-L3": "MagneticField",
   "RBSP-B_MAGNETOMETER_UVW_EMFISIS-L2": "MagneticField",
-  "RBSP-B_WFR-SPECTRAL-MATRIX-DIAGONAL-MERGED_EMFISIS-L2": "MagneticField",
+  "RBSP-B_WFR-SPECTRAL-MATRIX-DIAGONAL-MERGED_EMFISIS-L2": "Waves",
   "RBSP-B_WFR-SPECTRAL-MATRIX-DIAGONAL_EMFISIS-L2": "Waves",
-  "RBSP-B_WFR-SPECTRAL-MATRIX_EMFISIS-L2": "MagneticField",
-  "RBSP-B_WFR-WAVEFORM-CONTINUOUS-BURST_EMFISIS-L2": "MagneticField",
+  "RBSP-B_WFR-SPECTRAL-MATRIX_EMFISIS-L2": "Spectrum",
+  "RBSP-B_WFR-WAVEFORM-CONTINUOUS-BURST_EMFISIS-L2": "ElectricField",
   "RBSP-B_WFR-WAVEFORM_EMFISIS-L2": "ElectricField",
   "RBSP-B_WNA-SURVEY-SHEATH-CORRECTED-E_EMFISIS-L4": "Waves",
   "RBSPA_EFW-L2_E-HIRES-UVW": "ElectricField",
-  "RBSPA_EFW-L2_E-SPINFIT-MGSE": "MagneticField",
+  "RBSPA_EFW-L2_E-SPINFIT-MGSE": "ElectricField",
   "RBSPA_EFW-L2_ESVY_DESPUN": [
     "ElectricField",
     "Waves"
@@ -3274,8 +3274,12 @@
     "Waves",
     "Spectrum"
   ],
-  "RBSPA_EFW-L2_SPEC": "MagneticField",
-  "RBSPA_EFW-L2_VSVY-HIRES": "MagneticField",
+  "RBSPA_EFW-L2_SPEC": [
+    "ElectricField",
+    "Waves",
+    "Spectrum"
+  ],
+  "RBSPA_EFW-L2_VSVY-HIRES": "ElectricField",
   "RBSPA_EFW-L3": [
     "ElectricField",
     "Waves"
@@ -3326,7 +3330,11 @@
     "ElectricField",
     "Waves"
   ],
-  "RBSPB_EFW-L2_FBK": "MagneticField",
+  "RBSPB_EFW-L2_FBK": [
+    "ElectricField",
+    "Waves",
+    "Spectrum"
+  ],
   "RBSPB_EFW-L2_SPEC": [
     "ElectricField",
     "Waves",
@@ -3654,8 +3662,7 @@
   "THB_L2_FBK": [
     "ElectricField",
     "MagneticField",
-    "Spectrum",
-    "Waves.Passive"
+    "Spectrum"
   ],
   "THB_L2_FFT": "Spectrum",
   "THB_L2_FGM": "MagneticField",
@@ -3731,8 +3738,7 @@
   "THD_L2_FBK": [
     "ElectricField",
     "MagneticField",
-    "Spectrum",
-    "Waves.Passive"
+    "Spectrum"
   ],
   "THD_L2_FFT": "Spectrum",
   "THD_L2_FGM": "MagneticField",
@@ -3765,8 +3771,7 @@
   "THE_L2_FBK": [
     "ElectricField",
     "MagneticField",
-    "Spectrum",
-    "Waves.Passive"
+    "Spectrum"
   ],
   "THE_L2_FFT": "Spectrum",
   "THE_L2_FGM": "MagneticField",
@@ -4140,7 +4145,7 @@
   "VOYAGER1_PLS_COMPOSITION": "ThermalPlasma",
   "VOYAGER1_PLS_ELECTRONS_E1": "EnergeticParticles",
   "VOYAGER1_PLS_ELECTRONS_E2": "EnergeticParticles",
-  "VOYAGER1_PLS_HIRES_PLASMA_DATA": "ThermalPlasma",
+  "VOYAGER1_PLS_HIRES_PLASMA_DATA": "EnergeticParticles",
   "VOYAGER1_PLS_IONS_L": "EnergeticParticles",
   "VOYAGER1_PLS_IONS_M": "EnergeticParticles",
   "VOYAGER2_10S_MAG": "MagneticField",

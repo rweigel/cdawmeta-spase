@@ -1,12 +1,14 @@
 {
-  "http://onlinelibrary.wiley.com/doi/10.1029/93JA00726/pdf": {
+  " https://doi.org/10.1029/93JA00726": {
     "InformationURL": {
       "Name": "Los Alamos National Laboratory Spacecraft Magnetospheric Plasma Analyzer",
-      "URL": "http://onlinelibrary.wiley.com/doi/10.1029/93JA00726/pdf",
+      "URL": " https://doi.org/10.1029/93JA00726",
       "Description": "Journal of Geophysical Research article on the LANL MPA instrument."
     },
     "_cdaweb_ids": [
-      "A1_K0_MPA"
+      "A1_K0_MPA",
+      "L1_K0_MPA",
+      "L4_K0_MPA"
     ]
   },
   "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/93JA00726": {
@@ -19,10 +21,10 @@
       "A2_K0_MPA"
     ]
   },
-  "http://www.srl.caltech.edu/ACE/ASC/orbit.html": {
+  "https://izw1.caltech.edu/ACE/ASC/orbit.html": {
     "InformationURL": {
       "Name": "ACE Attitude and Orbit Data Website",
-      "URL": "http://www.srl.caltech.edu/ACE/ASC/orbit.html",
+      "URL": "https://izw1.caltech.edu/ACE/ASC/orbit.html",
       "Description": "ACE Attitude and Orbit Data Release Notes and Information"
     },
     "_cdaweb_ids": [
@@ -158,12 +160,25 @@
       "AC_H0_SWE",
       "AC_H1_EPM",
       "AC_H1_MFI",
+      "AC_H1_SIS",
+      "AC_H2_EPM",
+      "AC_H2_MFI",
       "AC_H2_SEP",
+      "AC_H2_SIS",
+      "AC_H2_SWE",
+      "AC_H2_SWI",
+      "AC_H3_EPM",
+      "AC_H3_MFI",
       "AC_H3_SWI",
       "AC_H4_SWI",
       "AC_H5_SWI",
+      "AC_K0_EPM",
+      "AC_K0_MFI",
+      "AC_K0_SIS",
+      "AC_K0_SWE",
       "AC_K1_EPM",
-      "AC_K1_MFI"
+      "AC_K1_MFI",
+      "AC_K2_MFI"
     ]
   },
   "https://izw1.caltech.edu/ACE/ASC/level2/swepam_l2desc.html": {
@@ -183,7 +198,9 @@
       "Description": "A web site hosting instrument information, data release notes, as well as web utilities for plotting and downloading data"
     },
     "_cdaweb_ids": [
-      "AC_H1_EPM"
+      "AC_H1_EPM",
+      "AC_H2_EPM",
+      "AC_H3_EPM"
     ]
   },
   "https://izw1.caltech.edu/ACE/ASC/level2/index.html": {
@@ -194,12 +211,19 @@
     },
     "_cdaweb_ids": [
       "AC_H1_MFI",
+      "AC_H2_MFI",
       "AC_H2_SEP",
+      "AC_H2_SWE",
+      "AC_H3_MFI",
       "AC_H3_SWI",
       "AC_H4_SWI",
       "AC_H5_SWI",
+      "AC_K0_EPM",
+      "AC_K0_MFI",
+      "AC_K0_SWE",
       "AC_K1_EPM",
-      "AC_K1_MFI"
+      "AC_K1_MFI",
+      "AC_K2_MFI"
     ]
   },
   "http://www-ssg.sr.unh.edu/mag/ACE.html": {
@@ -217,38 +241,16 @@
       "AC_K2_MFI"
     ]
   },
-  "http://www.srl.caltech.edu/ACE/ASC/level2/sis_l2desc.html": {
+  "https://izw1.caltech.edu/ACE/ASC/level2/sis_l2desc.html": {
     "InformationURL": {
       "Name": "ACE Solar Isotope Spectrometer (SIS) Level 2 data Home Page",
-      "URL": "http://www.srl.caltech.edu/ACE/ASC/level2/sis_l2desc.html",
-      "Description": "A web site hosting instrument information, data release \nnotes, as well as web utilities for plotting and downloading data"
+      "URL": "https://izw1.caltech.edu/ACE/ASC/level2/sis_l2desc.html",
+      "Description": "A web site hosting instrument information, data release notes, as well as web utilities for plotting and downloading data"
     },
     "_cdaweb_ids": [
       "AC_H1_SIS",
       "AC_H2_SIS",
       "AC_K0_SIS"
-    ]
-  },
-  "http://www.srl.caltech.edu/ACE/ASC/level2/policy_lvl2.html": {
-    "InformationURL": {
-      "Name": "Rules of use, and caveats",
-      "URL": "http://www.srl.caltech.edu/ACE/ASC/level2/policy_lvl2.html",
-      "Description": "ACE level 2 data rules of use, and caveats"
-    },
-    "_cdaweb_ids": [
-      "AC_H1_SIS",
-      "AC_H2_EPM",
-      "AC_H2_MFI",
-      "AC_H2_SIS",
-      "AC_H2_SWE",
-      "AC_H2_SWI",
-      "AC_H3_EPM",
-      "AC_H3_MFI",
-      "AC_K0_EPM",
-      "AC_K0_MFI",
-      "AC_K0_SIS",
-      "AC_K0_SWE",
-      "AC_K2_MFI"
     ]
   },
   "https://izw1.caltech.edu/ACE/ASC/level2/cris_l2desc.html": {
@@ -258,34 +260,8 @@
       "Description": "A web site hosting instrument information, data release notes, as well as web utilities for plotting and downloading data"
     },
     "_cdaweb_ids": [
-      "AC_H2_CRIS"
-    ]
-  },
-  "http://www.srl.caltech.edu/ACE/ASC/level2/epam_l2desc.html": {
-    "InformationURL": {
-      "Name": "ACE Electron Proton Alpha Monitor (EPAM) Level 2 data Home Page",
-      "URL": "http://www.srl.caltech.edu/ACE/ASC/level2/epam_l2desc.html",
-      "Description": "A web site hosting instrument information, data release notes, as well as web utilities for plotting and downloading data"
-    },
-    "_cdaweb_ids": [
-      "AC_H2_EPM",
-      "AC_H3_EPM"
-    ]
-  },
-  "http://www.srl.caltech.edu/ACE/ASC/level2/index.html": {
-    "InformationURL": {
-      "Name": "ACE Science Center Home Page for Level 2 Data Release Notes",
-      "URL": "http://www.srl.caltech.edu/ACE/ASC/level2/index.html",
-      "Description": "ACE Level 2 Data Release Notes Home Page"
-    },
-    "_cdaweb_ids": [
-      "AC_H2_MFI",
-      "AC_H2_SWE",
-      "AC_H3_MFI",
-      "AC_K0_EPM",
-      "AC_K0_MFI",
-      "AC_K0_SWE",
-      "AC_K2_MFI"
+      "AC_H2_CRIS",
+      "AC_H3_CRIS"
     ]
   },
   "http://www.ssg.sr.unh.edu/tof/Missions/Ace/index.html?sepicamain.html": {
@@ -298,15 +274,16 @@
       "AC_H2_SEP"
     ]
   },
-  "https://www.swepam.lanl.gov": {
+  "https://doi.org/10.1023/A:1005040232597": {
     "InformationURL": {
-      "Name": "ACE Solar Wind Electron, Proton, and Alpha Monitor (SWEPAM) Instrument Home Page at the Los Alamos National Laboratory",
-      "URL": "https://www.swepam.lanl.gov",
-      "Description": "ACE SWEPAM Instrument Home Page at LANL"
+      "Name": "ACE SWEPAM Instrument Description",
+      "URL": "https://doi.org/10.1023/A:1005040232597",
+      "Description": "McComas, D.J., Bame, S.J., Barker, P., Feldman, W.C., Phillips, J.L., Riley, P., and J.W. Griffee, Solar Wind Electron Proton Alpha Monitor (SWEPAM) for the Advanced Composition Explorer, Space Sci. Rev., 86, 563–612, 1998"
     },
     "_cdaweb_ids": [
       "AC_H2_SWE",
-      "AC_K0_SWE"
+      "AC_K0_SWE",
+      "AC_K1_SWE"
     ]
   },
   "https://space.umd.edu/umd_sensors/swics.html": {
@@ -330,16 +307,6 @@
     },
     "_cdaweb_ids": [
       "AC_H2_ULE"
-    ]
-  },
-  "http://www.srl.caltech.edu/ACE/ASC/level2/cris_l2desc.html": {
-    "InformationURL": {
-      "Name": "ACE Cosmic Ray Isotope Spectrometer (CRIS) Level 2 data Home Page",
-      "URL": "http://www.srl.caltech.edu/ACE/ASC/level2/cris_l2desc.html",
-      "Description": "A web site hosting instrument information, data release notes, as well as web utilities for plotting and downloading data"
-    },
-    "_cdaweb_ids": [
-      "AC_H3_CRIS"
     ]
   },
   "http://www.srl.caltech.edu/ACE/ASC/DATA/level2/ss2/swics_lv2_V2_release_notes.txt": {
@@ -371,16 +338,6 @@
     "_cdaweb_ids": [
       "AC_K0_EPM",
       "AC_K1_EPM"
-    ]
-  },
-  "https://doi.org/10.1023/A:1005040232597": {
-    "InformationURL": {
-      "Name": "ACE SWEPAM Instrument Description",
-      "URL": "https://doi.org/10.1023/A:1005040232597",
-      "Description": "McComas, D.J., Bame, S.J., Barker, P., Feldman, W.C., Phillips, J.L., Riley, P., and J.W. Griffee, Solar Wind Electron Proton Alpha Monitor (SWEPAM) for the Advanced Composition Explorer, Space Sci. Rev., 86, 563–612, 1998"
-    },
-    "_cdaweb_ids": [
-      "AC_K1_SWE"
     ]
   },
   "https://rbspgway.jhuapl.edu/ac6": {
@@ -585,118 +542,376 @@
       "^BAR"
     ]
   },
-  "http://barreldata.ucsc.edu": {
-    "InformationURL": {
-      "Name": "BARREL Data Repository and Tools",
-      "URL": "http://barreldata.ucsc.edu",
-      "Description": "Access to all releases of BARREL data and links to the Science Operation Center Tools"
-    },
-    "_cdaweb_ids": [
-      "^BAR"
-    ]
-  },
-  "https://omniweb.sci.gsfc.nasa.gov/coho/helios/heli.html": {
+  "https://omniweb.gsfc.nasa.gov/coho/helios/heli.html": {
     "InformationURL": {
       "Name": "Heliocentric Trajectories HelioWeb Data Service, NASA GSFC",
-      "URL": "https://omniweb.sci.gsfc.nasa.gov/coho/helios/heli.html",
+      "URL": "https://omniweb.gsfc.nasa.gov/coho/helios/heli.html",
       "Description": "Heliocentric trajectories for selected spacecraft, planets, and comets, HelioWeb data service, hosted by NASA GSFC"
     },
     "_cdaweb_ids": [
       "BEPICOLOMBO_HELIO1DAY_POSITION",
+      "BEPICOLOMBO_HELIO1HR_POSITION",
+      "BORRELLY_HELIO1DAY_POSITION",
+      "BORRELLY_HELIO1HR_POSITION",
       "CASSINI_HELIO1DAY_POSITION",
+      "CASSINI_HELIO1HR_POSITION",
+      "COMETGS_HELIO1DAY_POSITION",
+      "COMETGS_HELIO1HR_POSITION",
+      "COMETHMP_HELIO1DAY_POSITION",
+      "COMETHMP_HELIO1HR_POSITION",
       "DAWN_HELIO1DAY_POSITION",
+      "DAWN_HELIO1HR_POSITION",
+      "EARTH_HELIO1DAY_POSITION",
+      "EARTH_HELIO1HR_POSITION",
+      "GALILEO_HELIO1DAY_POSITION",
+      "GALILEO_HELIO1HR_POSITION",
+      "GIACOBINI_HELIO1DAY_POSITION",
+      "GIACOBINI_HELIO1HR_POSITION",
+      "GIOTTO_HELIO1DAY_POSITION",
+      "GIOTTO_HELIO1HR_POSITION",
       "HALEBOPP_HELIO1DAY_POSITION",
+      "HALEBOPP_HELIO1HR_POSITION",
       "HALLEY_HELIO1DAY_POSITION",
+      "HALLEY_HELIO1HR_POSITION",
+      "HELIOS1_HELIO1DAY_POSITION",
+      "HELIOS1_HELIO1HR_POSITION",
       "HELIOS2_HELIO1DAY_POSITION",
+      "HELIOS2_HELIO1HR_POSITION",
       "HYAKUTAKE_HELIO1DAY_POSITION",
+      "HYAKUTAKE_HELIO1HR_POSITION",
+      "ISEE-3_HELIO1DAY_POSITION",
+      "ISEE-3_HELIO1HR_POSITION",
+      "JUNO_HELIO1DAY_POSITION",
+      "JUNO_HELIO1HR_POSITION",
       "JUPITER_HELIO1DAY_POSITION",
+      "JUPITER_HELIO1HR_POSITION",
+      "MARS_HELIO1DAY_POSITION",
+      "MARS_HELIO1HR_POSITION",
+      "MAVEN_HELIO1DAY_POSITION",
+      "MAVEN_HELIO1HR_POSITION",
+      "MERCURY_HELIO1DAY_POSITION",
+      "MERCURY_HELIO1HR_POSITION",
+      "MESSENGER_HELIO1DAY_POSITION",
+      "MESSENGER_HELIO1HR_POSITION",
+      "MSL_HELIO1DAY_POSITION",
       "NEPTUNE_HELIO1DAY_POSITION",
+      "NEPTUNE_HELIO1HR_POSITION",
       "PHOBOS2_HELIO1DAY_POSITION",
+      "PHOBOS2_HELIO1HR_POSITION",
       "PIONEER10_HELIO1DAY_POSITION",
+      "PIONEER10_HELIO1HR_POSITION",
+      "PIONEER11_HELIO1DAY_POSITION",
+      "PIONEER11_HELIO1HR_POSITION",
+      "PLUTO_HELIO1DAY_POSITION",
+      "PLUTO_HELIO1HR_POSITION",
+      "PSP_HELIO1DAY_POSITION",
+      "PSP_HELIO1HR_POSITION",
+      "ROSETTA_HELIO1DAY_POSITION",
+      "ROSETTA_HELIO1HR_POSITION",
+      "SAKIGAKE_HELIO1DAY_POSITION",
+      "SAKIGAKE_HELIO1HR_POSITION",
+      "SATURN_HELIO1DAY_POSITION",
+      "SATURN_HELIO1HR_POSITION",
+      "SOHO_HELIO1DAY_POSITION",
+      "SOHO_HELIO1HR_POSITION",
+      "SOLO_HELIO1DAY_POSITION",
       "STA_HELIO1DAY_POSITION",
+      "STA_HELIO1HR_POSITION",
+      "STB_HELIO1DAY_POSITION",
+      "STB_HELIO1HR_POSITION",
+      "SUISEI_HELIO1DAY_POSITION",
+      "SUISEI_HELIO1HR_POSITION",
       "THB_HELIO1DAY_POSITION",
+      "THB_HELIO1HR_POSITION",
       "THC_HELIO1DAY_POSITION",
+      "THC_HELIO1HR_POSITION",
+      "ULYSSES_HELIO1DAY_POSITION",
+      "ULYSSES_HELIO1HR_POSITION",
       "URANUS_HELIO1DAY_POSITION",
+      "URANUS_HELIO1HR_POSITION",
       "VENUS_HELIO1DAY_POSITION",
-      "WILD2_HELIO1DAY_POSITION"
+      "VENUS_HELIO1HR_POSITION",
+      "WILD2_HELIO1DAY_POSITION",
+      "WILD2_HELIO1HR_POSITION"
     ]
   },
-  "https://omniweb.sci.gsfc.nasa.gov/coho/helios/about_helioweb.html": {
+  "https://omniweb.gsfc.nasa.gov/coho/helios/about_helioweb.html": {
     "InformationURL": {
       "Name": "Heliocentric Trajectories HelioWeb Data Service Usage Instructions, NASA GSFC",
-      "URL": "https://omniweb.sci.gsfc.nasa.gov/coho/helios/about_helioweb.html",
+      "URL": "https://omniweb.gsfc.nasa.gov/coho/helios/about_helioweb.html",
       "Description": "Instructions for using the Heliocentric Trajectories HelioWeb data service, hosted by NASA GSFC"
     },
     "_cdaweb_ids": [
       "BEPICOLOMBO_HELIO1DAY_POSITION",
+      "BEPICOLOMBO_HELIO1HR_POSITION",
+      "BORRELLY_HELIO1DAY_POSITION",
+      "BORRELLY_HELIO1HR_POSITION",
       "CASSINI_HELIO1DAY_POSITION",
+      "CASSINI_HELIO1HR_POSITION",
+      "COMETGS_HELIO1DAY_POSITION",
+      "COMETGS_HELIO1HR_POSITION",
+      "COMETHMP_HELIO1DAY_POSITION",
+      "COMETHMP_HELIO1HR_POSITION",
       "DAWN_HELIO1DAY_POSITION",
+      "DAWN_HELIO1HR_POSITION",
+      "EARTH_HELIO1DAY_POSITION",
+      "EARTH_HELIO1HR_POSITION",
+      "GALILEO_HELIO1DAY_POSITION",
+      "GALILEO_HELIO1HR_POSITION",
+      "GIACOBINI_HELIO1DAY_POSITION",
+      "GIACOBINI_HELIO1HR_POSITION",
+      "GIOTTO_HELIO1DAY_POSITION",
+      "GIOTTO_HELIO1HR_POSITION",
       "HALEBOPP_HELIO1DAY_POSITION",
+      "HALEBOPP_HELIO1HR_POSITION",
       "HALLEY_HELIO1DAY_POSITION",
+      "HALLEY_HELIO1HR_POSITION",
+      "HELIOS1_HELIO1DAY_POSITION",
+      "HELIOS1_HELIO1HR_POSITION",
       "HELIOS2_HELIO1DAY_POSITION",
+      "HELIOS2_HELIO1HR_POSITION",
       "HYAKUTAKE_HELIO1DAY_POSITION",
+      "HYAKUTAKE_HELIO1HR_POSITION",
+      "ISEE-3_HELIO1DAY_POSITION",
+      "ISEE-3_HELIO1HR_POSITION",
+      "JUNO_HELIO1DAY_POSITION",
+      "JUNO_HELIO1HR_POSITION",
       "JUPITER_HELIO1DAY_POSITION",
+      "JUPITER_HELIO1HR_POSITION",
+      "MARS_HELIO1DAY_POSITION",
+      "MARS_HELIO1HR_POSITION",
+      "MAVEN_HELIO1DAY_POSITION",
+      "MAVEN_HELIO1HR_POSITION",
+      "MERCURY_HELIO1DAY_POSITION",
+      "MERCURY_HELIO1HR_POSITION",
+      "MESSENGER_HELIO1DAY_POSITION",
+      "MESSENGER_HELIO1HR_POSITION",
+      "MSL_HELIO1DAY_POSITION",
       "NEPTUNE_HELIO1DAY_POSITION",
+      "NEPTUNE_HELIO1HR_POSITION",
       "PHOBOS2_HELIO1DAY_POSITION",
+      "PHOBOS2_HELIO1HR_POSITION",
       "PIONEER10_HELIO1DAY_POSITION",
+      "PIONEER10_HELIO1HR_POSITION",
+      "PIONEER11_HELIO1DAY_POSITION",
+      "PIONEER11_HELIO1HR_POSITION",
+      "PLUTO_HELIO1DAY_POSITION",
+      "PLUTO_HELIO1HR_POSITION",
+      "PSP_HELIO1DAY_POSITION",
+      "PSP_HELIO1HR_POSITION",
+      "ROSETTA_HELIO1DAY_POSITION",
+      "ROSETTA_HELIO1HR_POSITION",
+      "SAKIGAKE_HELIO1DAY_POSITION",
+      "SAKIGAKE_HELIO1HR_POSITION",
+      "SATURN_HELIO1DAY_POSITION",
+      "SATURN_HELIO1HR_POSITION",
+      "SOHO_HELIO1DAY_POSITION",
+      "SOHO_HELIO1HR_POSITION",
+      "SOLO_HELIO1DAY_POSITION",
       "STA_HELIO1DAY_POSITION",
+      "STA_HELIO1HR_POSITION",
+      "STB_HELIO1DAY_POSITION",
+      "STB_HELIO1HR_POSITION",
+      "SUISEI_HELIO1DAY_POSITION",
+      "SUISEI_HELIO1HR_POSITION",
       "THB_HELIO1DAY_POSITION",
+      "THB_HELIO1HR_POSITION",
       "THC_HELIO1DAY_POSITION",
+      "THC_HELIO1HR_POSITION",
+      "ULYSSES_HELIO1DAY_POSITION",
+      "ULYSSES_HELIO1HR_POSITION",
       "URANUS_HELIO1DAY_POSITION",
+      "URANUS_HELIO1HR_POSITION",
       "VENUS_HELIO1DAY_POSITION",
-      "WILD2_HELIO1DAY_POSITION"
+      "VENUS_HELIO1HR_POSITION",
+      "WILD2_HELIO1DAY_POSITION",
+      "WILD2_HELIO1HR_POSITION"
     ]
   },
-  "https://omniweb.sci.gsfc.nasa.gov/coho/helios/helioweb_command_line_sample.txt": {
+  "https://omniweb.gsfc.nasa.gov/coho/helios/helioweb_command_line_sample.txt": {
     "InformationURL": {
       "Name": "Heliocentric Trajectories HelioWeb Data Service Usage via CURL or WGET Commands, NASA GSFC",
-      "URL": "https://omniweb.sci.gsfc.nasa.gov/coho/helios/helioweb_command_line_sample.txt",
+      "URL": "https://omniweb.gsfc.nasa.gov/coho/helios/helioweb_command_line_sample.txt",
       "Description": "Instructions for using the Heliocentric Trajectories HelioWeb data service via CURL or WGET commands, hosted by NASA GSFC"
     },
     "_cdaweb_ids": [
       "BEPICOLOMBO_HELIO1DAY_POSITION",
+      "BEPICOLOMBO_HELIO1HR_POSITION",
+      "BORRELLY_HELIO1DAY_POSITION",
+      "BORRELLY_HELIO1HR_POSITION",
       "CASSINI_HELIO1DAY_POSITION",
+      "CASSINI_HELIO1HR_POSITION",
+      "COMETGS_HELIO1DAY_POSITION",
+      "COMETGS_HELIO1HR_POSITION",
+      "COMETHMP_HELIO1DAY_POSITION",
+      "COMETHMP_HELIO1HR_POSITION",
       "DAWN_HELIO1DAY_POSITION",
+      "DAWN_HELIO1HR_POSITION",
+      "EARTH_HELIO1DAY_POSITION",
+      "EARTH_HELIO1HR_POSITION",
+      "GALILEO_HELIO1DAY_POSITION",
+      "GALILEO_HELIO1HR_POSITION",
+      "GIACOBINI_HELIO1DAY_POSITION",
+      "GIACOBINI_HELIO1HR_POSITION",
+      "GIOTTO_HELIO1DAY_POSITION",
+      "GIOTTO_HELIO1HR_POSITION",
       "HALEBOPP_HELIO1DAY_POSITION",
+      "HALEBOPP_HELIO1HR_POSITION",
       "HALLEY_HELIO1DAY_POSITION",
+      "HALLEY_HELIO1HR_POSITION",
+      "HELIOS1_HELIO1DAY_POSITION",
+      "HELIOS1_HELIO1HR_POSITION",
       "HELIOS2_HELIO1DAY_POSITION",
+      "HELIOS2_HELIO1HR_POSITION",
       "HYAKUTAKE_HELIO1DAY_POSITION",
+      "HYAKUTAKE_HELIO1HR_POSITION",
+      "ISEE-3_HELIO1DAY_POSITION",
+      "ISEE-3_HELIO1HR_POSITION",
+      "JUNO_HELIO1DAY_POSITION",
+      "JUNO_HELIO1HR_POSITION",
       "JUPITER_HELIO1DAY_POSITION",
+      "JUPITER_HELIO1HR_POSITION",
+      "MARS_HELIO1DAY_POSITION",
+      "MARS_HELIO1HR_POSITION",
+      "MAVEN_HELIO1DAY_POSITION",
+      "MAVEN_HELIO1HR_POSITION",
+      "MERCURY_HELIO1DAY_POSITION",
+      "MERCURY_HELIO1HR_POSITION",
+      "MESSENGER_HELIO1DAY_POSITION",
+      "MESSENGER_HELIO1HR_POSITION",
+      "MSL_HELIO1DAY_POSITION",
       "NEPTUNE_HELIO1DAY_POSITION",
+      "NEPTUNE_HELIO1HR_POSITION",
       "PHOBOS2_HELIO1DAY_POSITION",
+      "PHOBOS2_HELIO1HR_POSITION",
       "PIONEER10_HELIO1DAY_POSITION",
+      "PIONEER10_HELIO1HR_POSITION",
+      "PIONEER11_HELIO1DAY_POSITION",
+      "PIONEER11_HELIO1HR_POSITION",
+      "PLUTO_HELIO1DAY_POSITION",
+      "PLUTO_HELIO1HR_POSITION",
+      "PSP_HELIO1DAY_POSITION",
+      "PSP_HELIO1HR_POSITION",
+      "ROSETTA_HELIO1DAY_POSITION",
+      "ROSETTA_HELIO1HR_POSITION",
+      "SAKIGAKE_HELIO1DAY_POSITION",
+      "SAKIGAKE_HELIO1HR_POSITION",
+      "SATURN_HELIO1DAY_POSITION",
+      "SATURN_HELIO1HR_POSITION",
+      "SOHO_HELIO1DAY_POSITION",
+      "SOHO_HELIO1HR_POSITION",
+      "SOLO_HELIO1DAY_POSITION",
       "STA_HELIO1DAY_POSITION",
+      "STA_HELIO1HR_POSITION",
+      "STB_HELIO1DAY_POSITION",
+      "STB_HELIO1HR_POSITION",
+      "SUISEI_HELIO1DAY_POSITION",
+      "SUISEI_HELIO1HR_POSITION",
       "THB_HELIO1DAY_POSITION",
+      "THB_HELIO1HR_POSITION",
       "THC_HELIO1DAY_POSITION",
+      "THC_HELIO1HR_POSITION",
+      "ULYSSES_HELIO1DAY_POSITION",
+      "ULYSSES_HELIO1HR_POSITION",
       "URANUS_HELIO1DAY_POSITION",
+      "URANUS_HELIO1HR_POSITION",
       "VENUS_HELIO1DAY_POSITION",
-      "WILD2_HELIO1DAY_POSITION"
+      "VENUS_HELIO1HR_POSITION",
+      "WILD2_HELIO1DAY_POSITION",
+      "WILD2_HELIO1HR_POSITION"
     ]
   },
-  "https://omniweb.sci.gsfc.nasa.gov/coho/helios/coor_des.html": {
+  "https://omniweb.gsfc.nasa.gov/coho/helios/coor_des.html": {
     "InformationURL": {
       "Name": "HG, HGI, and SE Coordinate System Definitions, NASA GSFC",
-      "URL": "https://omniweb.sci.gsfc.nasa.gov/coho/helios/coor_des.html",
+      "URL": "https://omniweb.gsfc.nasa.gov/coho/helios/coor_des.html",
       "Description": "Definitions for the Heliographic, HG, Heliographic Inertial, HGI, and Solar Ecliptic, SE, Coordinate Systems, hosted by NASA GSFC"
     },
     "_cdaweb_ids": [
       "BEPICOLOMBO_HELIO1DAY_POSITION",
+      "BEPICOLOMBO_HELIO1HR_POSITION",
+      "BORRELLY_HELIO1DAY_POSITION",
+      "BORRELLY_HELIO1HR_POSITION",
       "CASSINI_HELIO1DAY_POSITION",
+      "CASSINI_HELIO1HR_POSITION",
+      "COMETGS_HELIO1DAY_POSITION",
+      "COMETGS_HELIO1HR_POSITION",
+      "COMETHMP_HELIO1DAY_POSITION",
+      "COMETHMP_HELIO1HR_POSITION",
       "DAWN_HELIO1DAY_POSITION",
+      "DAWN_HELIO1HR_POSITION",
+      "EARTH_HELIO1DAY_POSITION",
+      "EARTH_HELIO1HR_POSITION",
+      "GALILEO_HELIO1DAY_POSITION",
+      "GALILEO_HELIO1HR_POSITION",
+      "GIACOBINI_HELIO1DAY_POSITION",
+      "GIACOBINI_HELIO1HR_POSITION",
+      "GIOTTO_HELIO1DAY_POSITION",
+      "GIOTTO_HELIO1HR_POSITION",
       "HALEBOPP_HELIO1DAY_POSITION",
+      "HALEBOPP_HELIO1HR_POSITION",
       "HALLEY_HELIO1DAY_POSITION",
+      "HALLEY_HELIO1HR_POSITION",
+      "HELIOS1_HELIO1DAY_POSITION",
+      "HELIOS1_HELIO1HR_POSITION",
       "HELIOS2_HELIO1DAY_POSITION",
+      "HELIOS2_HELIO1HR_POSITION",
       "HYAKUTAKE_HELIO1DAY_POSITION",
+      "HYAKUTAKE_HELIO1HR_POSITION",
+      "ISEE-3_HELIO1DAY_POSITION",
+      "ISEE-3_HELIO1HR_POSITION",
+      "JUNO_HELIO1DAY_POSITION",
+      "JUNO_HELIO1HR_POSITION",
       "JUPITER_HELIO1DAY_POSITION",
+      "JUPITER_HELIO1HR_POSITION",
+      "MARS_HELIO1DAY_POSITION",
+      "MARS_HELIO1HR_POSITION",
+      "MAVEN_HELIO1DAY_POSITION",
+      "MAVEN_HELIO1HR_POSITION",
+      "MERCURY_HELIO1DAY_POSITION",
+      "MERCURY_HELIO1HR_POSITION",
+      "MESSENGER_HELIO1DAY_POSITION",
+      "MESSENGER_HELIO1HR_POSITION",
+      "MSL_HELIO1DAY_POSITION",
       "NEPTUNE_HELIO1DAY_POSITION",
+      "NEPTUNE_HELIO1HR_POSITION",
       "PHOBOS2_HELIO1DAY_POSITION",
+      "PHOBOS2_HELIO1HR_POSITION",
       "PIONEER10_HELIO1DAY_POSITION",
+      "PIONEER10_HELIO1HR_POSITION",
+      "PIONEER11_HELIO1DAY_POSITION",
+      "PIONEER11_HELIO1HR_POSITION",
+      "PLUTO_HELIO1DAY_POSITION",
+      "PLUTO_HELIO1HR_POSITION",
+      "PSP_HELIO1DAY_POSITION",
+      "PSP_HELIO1HR_POSITION",
+      "ROSETTA_HELIO1DAY_POSITION",
+      "ROSETTA_HELIO1HR_POSITION",
+      "SAKIGAKE_HELIO1DAY_POSITION",
+      "SAKIGAKE_HELIO1HR_POSITION",
+      "SATURN_HELIO1DAY_POSITION",
+      "SATURN_HELIO1HR_POSITION",
+      "SOHO_HELIO1DAY_POSITION",
+      "SOHO_HELIO1HR_POSITION",
+      "SOLO_HELIO1DAY_POSITION",
       "STA_HELIO1DAY_POSITION",
+      "STA_HELIO1HR_POSITION",
+      "STB_HELIO1DAY_POSITION",
+      "STB_HELIO1HR_POSITION",
+      "SUISEI_HELIO1DAY_POSITION",
+      "SUISEI_HELIO1HR_POSITION",
       "THB_HELIO1DAY_POSITION",
+      "THB_HELIO1HR_POSITION",
       "THC_HELIO1DAY_POSITION",
+      "THC_HELIO1HR_POSITION",
+      "ULYSSES_HELIO1DAY_POSITION",
+      "ULYSSES_HELIO1HR_POSITION",
       "URANUS_HELIO1DAY_POSITION",
+      "URANUS_HELIO1HR_POSITION",
       "VENUS_HELIO1DAY_POSITION",
-      "WILD2_HELIO1DAY_POSITION"
+      "VENUS_HELIO1HR_POSITION",
+      "WILD2_HELIO1DAY_POSITION",
+      "WILD2_HELIO1HR_POSITION"
     ]
   },
   "https://ssd.jpl.nasa.gov/horizons.cgi": {
@@ -792,310 +1007,6 @@
       "WILD2_HELIO1HR_POSITION"
     ]
   },
-  "https://omniweb.gsfc.nasa.gov/coho/helios/heli.html": {
-    "InformationURL": {
-      "Name": "Heliocentric Trajectories HelioWeb Data Service, NASA GSFC",
-      "URL": "https://omniweb.gsfc.nasa.gov/coho/helios/heli.html",
-      "Description": "Heliocentric trajectories for selected spacecraft, planets, and comets, HelioWeb data service, hosted by NASA GSFC"
-    },
-    "_cdaweb_ids": [
-      "BEPICOLOMBO_HELIO1HR_POSITION",
-      "BORRELLY_HELIO1DAY_POSITION",
-      "BORRELLY_HELIO1HR_POSITION",
-      "CASSINI_HELIO1HR_POSITION",
-      "COMETGS_HELIO1DAY_POSITION",
-      "COMETGS_HELIO1HR_POSITION",
-      "COMETHMP_HELIO1DAY_POSITION",
-      "COMETHMP_HELIO1HR_POSITION",
-      "DAWN_HELIO1HR_POSITION",
-      "EARTH_HELIO1DAY_POSITION",
-      "EARTH_HELIO1HR_POSITION",
-      "GALILEO_HELIO1DAY_POSITION",
-      "GALILEO_HELIO1HR_POSITION",
-      "GIACOBINI_HELIO1DAY_POSITION",
-      "GIACOBINI_HELIO1HR_POSITION",
-      "GIOTTO_HELIO1DAY_POSITION",
-      "GIOTTO_HELIO1HR_POSITION",
-      "HALEBOPP_HELIO1HR_POSITION",
-      "HALLEY_HELIO1HR_POSITION",
-      "HELIOS1_HELIO1DAY_POSITION",
-      "HELIOS1_HELIO1HR_POSITION",
-      "HELIOS2_HELIO1HR_POSITION",
-      "HYAKUTAKE_HELIO1HR_POSITION",
-      "ISEE-3_HELIO1DAY_POSITION",
-      "ISEE-3_HELIO1HR_POSITION",
-      "JUNO_HELIO1DAY_POSITION",
-      "JUNO_HELIO1HR_POSITION",
-      "JUPITER_HELIO1HR_POSITION",
-      "MARS_HELIO1DAY_POSITION",
-      "MARS_HELIO1HR_POSITION",
-      "MAVEN_HELIO1DAY_POSITION",
-      "MAVEN_HELIO1HR_POSITION",
-      "MERCURY_HELIO1DAY_POSITION",
-      "MERCURY_HELIO1HR_POSITION",
-      "MESSENGER_HELIO1DAY_POSITION",
-      "MESSENGER_HELIO1HR_POSITION",
-      "MSL_HELIO1DAY_POSITION",
-      "NEPTUNE_HELIO1HR_POSITION",
-      "PHOBOS2_HELIO1HR_POSITION",
-      "PIONEER10_HELIO1HR_POSITION",
-      "PIONEER11_HELIO1DAY_POSITION",
-      "PIONEER11_HELIO1HR_POSITION",
-      "PLUTO_HELIO1DAY_POSITION",
-      "PLUTO_HELIO1HR_POSITION",
-      "PSP_HELIO1DAY_POSITION",
-      "PSP_HELIO1HR_POSITION",
-      "ROSETTA_HELIO1DAY_POSITION",
-      "ROSETTA_HELIO1HR_POSITION",
-      "SAKIGAKE_HELIO1DAY_POSITION",
-      "SAKIGAKE_HELIO1HR_POSITION",
-      "SATURN_HELIO1DAY_POSITION",
-      "SATURN_HELIO1HR_POSITION",
-      "SOHO_HELIO1DAY_POSITION",
-      "SOHO_HELIO1HR_POSITION",
-      "SOLO_HELIO1DAY_POSITION",
-      "STA_HELIO1HR_POSITION",
-      "STB_HELIO1DAY_POSITION",
-      "STB_HELIO1HR_POSITION",
-      "SUISEI_HELIO1DAY_POSITION",
-      "SUISEI_HELIO1HR_POSITION",
-      "THB_HELIO1HR_POSITION",
-      "THC_HELIO1HR_POSITION",
-      "ULYSSES_HELIO1DAY_POSITION",
-      "ULYSSES_HELIO1HR_POSITION",
-      "URANUS_HELIO1HR_POSITION",
-      "VENUS_HELIO1HR_POSITION",
-      "WILD2_HELIO1HR_POSITION"
-    ]
-  },
-  "https://omniweb.gsfc.nasa.gov/coho/helios/about_helioweb.html": {
-    "InformationURL": {
-      "Name": "Heliocentric Trajectories HelioWeb Data Service Usage Instructions, NASA GSFC",
-      "URL": "https://omniweb.gsfc.nasa.gov/coho/helios/about_helioweb.html",
-      "Description": "Instructions for using the Heliocentric Trajectories HelioWeb data service, hosted by NASA GSFC"
-    },
-    "_cdaweb_ids": [
-      "BEPICOLOMBO_HELIO1HR_POSITION",
-      "BORRELLY_HELIO1DAY_POSITION",
-      "BORRELLY_HELIO1HR_POSITION",
-      "CASSINI_HELIO1HR_POSITION",
-      "COMETGS_HELIO1DAY_POSITION",
-      "COMETGS_HELIO1HR_POSITION",
-      "COMETHMP_HELIO1DAY_POSITION",
-      "COMETHMP_HELIO1HR_POSITION",
-      "DAWN_HELIO1HR_POSITION",
-      "EARTH_HELIO1DAY_POSITION",
-      "EARTH_HELIO1HR_POSITION",
-      "GALILEO_HELIO1DAY_POSITION",
-      "GALILEO_HELIO1HR_POSITION",
-      "GIACOBINI_HELIO1DAY_POSITION",
-      "GIACOBINI_HELIO1HR_POSITION",
-      "GIOTTO_HELIO1DAY_POSITION",
-      "GIOTTO_HELIO1HR_POSITION",
-      "HALEBOPP_HELIO1HR_POSITION",
-      "HALLEY_HELIO1HR_POSITION",
-      "HELIOS1_HELIO1DAY_POSITION",
-      "HELIOS1_HELIO1HR_POSITION",
-      "HELIOS2_HELIO1HR_POSITION",
-      "HYAKUTAKE_HELIO1HR_POSITION",
-      "ISEE-3_HELIO1DAY_POSITION",
-      "ISEE-3_HELIO1HR_POSITION",
-      "JUNO_HELIO1DAY_POSITION",
-      "JUNO_HELIO1HR_POSITION",
-      "JUPITER_HELIO1HR_POSITION",
-      "MARS_HELIO1DAY_POSITION",
-      "MARS_HELIO1HR_POSITION",
-      "MAVEN_HELIO1DAY_POSITION",
-      "MAVEN_HELIO1HR_POSITION",
-      "MERCURY_HELIO1DAY_POSITION",
-      "MERCURY_HELIO1HR_POSITION",
-      "MESSENGER_HELIO1DAY_POSITION",
-      "MESSENGER_HELIO1HR_POSITION",
-      "MSL_HELIO1DAY_POSITION",
-      "NEPTUNE_HELIO1HR_POSITION",
-      "PHOBOS2_HELIO1HR_POSITION",
-      "PIONEER10_HELIO1HR_POSITION",
-      "PIONEER11_HELIO1DAY_POSITION",
-      "PIONEER11_HELIO1HR_POSITION",
-      "PLUTO_HELIO1DAY_POSITION",
-      "PLUTO_HELIO1HR_POSITION",
-      "PSP_HELIO1DAY_POSITION",
-      "PSP_HELIO1HR_POSITION",
-      "ROSETTA_HELIO1DAY_POSITION",
-      "ROSETTA_HELIO1HR_POSITION",
-      "SAKIGAKE_HELIO1DAY_POSITION",
-      "SAKIGAKE_HELIO1HR_POSITION",
-      "SATURN_HELIO1DAY_POSITION",
-      "SATURN_HELIO1HR_POSITION",
-      "SOHO_HELIO1DAY_POSITION",
-      "SOHO_HELIO1HR_POSITION",
-      "SOLO_HELIO1DAY_POSITION",
-      "STA_HELIO1HR_POSITION",
-      "STB_HELIO1DAY_POSITION",
-      "STB_HELIO1HR_POSITION",
-      "SUISEI_HELIO1DAY_POSITION",
-      "SUISEI_HELIO1HR_POSITION",
-      "THB_HELIO1HR_POSITION",
-      "THC_HELIO1HR_POSITION",
-      "ULYSSES_HELIO1DAY_POSITION",
-      "ULYSSES_HELIO1HR_POSITION",
-      "URANUS_HELIO1HR_POSITION",
-      "VENUS_HELIO1HR_POSITION",
-      "WILD2_HELIO1HR_POSITION"
-    ]
-  },
-  "https://omniweb.gsfc.nasa.gov/coho/helios/helioweb_command_line_sample.txt": {
-    "InformationURL": {
-      "Name": "Heliocentric Trajectories HelioWeb Data Service Usage via CURL or WGET Commands, NASA GSFC",
-      "URL": "https://omniweb.gsfc.nasa.gov/coho/helios/helioweb_command_line_sample.txt",
-      "Description": "Instructions for using the Heliocentric Trajectories HelioWeb data service via CURL or WGET commands, hosted by NASA GSFC"
-    },
-    "_cdaweb_ids": [
-      "BEPICOLOMBO_HELIO1HR_POSITION",
-      "BORRELLY_HELIO1DAY_POSITION",
-      "BORRELLY_HELIO1HR_POSITION",
-      "CASSINI_HELIO1HR_POSITION",
-      "COMETGS_HELIO1DAY_POSITION",
-      "COMETGS_HELIO1HR_POSITION",
-      "COMETHMP_HELIO1DAY_POSITION",
-      "COMETHMP_HELIO1HR_POSITION",
-      "DAWN_HELIO1HR_POSITION",
-      "EARTH_HELIO1DAY_POSITION",
-      "EARTH_HELIO1HR_POSITION",
-      "GALILEO_HELIO1DAY_POSITION",
-      "GALILEO_HELIO1HR_POSITION",
-      "GIACOBINI_HELIO1DAY_POSITION",
-      "GIACOBINI_HELIO1HR_POSITION",
-      "GIOTTO_HELIO1DAY_POSITION",
-      "GIOTTO_HELIO1HR_POSITION",
-      "HALEBOPP_HELIO1HR_POSITION",
-      "HALLEY_HELIO1HR_POSITION",
-      "HELIOS1_HELIO1DAY_POSITION",
-      "HELIOS1_HELIO1HR_POSITION",
-      "HELIOS2_HELIO1HR_POSITION",
-      "HYAKUTAKE_HELIO1HR_POSITION",
-      "ISEE-3_HELIO1DAY_POSITION",
-      "ISEE-3_HELIO1HR_POSITION",
-      "JUNO_HELIO1DAY_POSITION",
-      "JUNO_HELIO1HR_POSITION",
-      "JUPITER_HELIO1HR_POSITION",
-      "MARS_HELIO1DAY_POSITION",
-      "MARS_HELIO1HR_POSITION",
-      "MAVEN_HELIO1DAY_POSITION",
-      "MAVEN_HELIO1HR_POSITION",
-      "MERCURY_HELIO1DAY_POSITION",
-      "MERCURY_HELIO1HR_POSITION",
-      "MESSENGER_HELIO1DAY_POSITION",
-      "MESSENGER_HELIO1HR_POSITION",
-      "MSL_HELIO1DAY_POSITION",
-      "NEPTUNE_HELIO1HR_POSITION",
-      "PHOBOS2_HELIO1HR_POSITION",
-      "PIONEER10_HELIO1HR_POSITION",
-      "PIONEER11_HELIO1DAY_POSITION",
-      "PIONEER11_HELIO1HR_POSITION",
-      "PLUTO_HELIO1DAY_POSITION",
-      "PLUTO_HELIO1HR_POSITION",
-      "PSP_HELIO1DAY_POSITION",
-      "PSP_HELIO1HR_POSITION",
-      "ROSETTA_HELIO1DAY_POSITION",
-      "ROSETTA_HELIO1HR_POSITION",
-      "SAKIGAKE_HELIO1DAY_POSITION",
-      "SAKIGAKE_HELIO1HR_POSITION",
-      "SATURN_HELIO1DAY_POSITION",
-      "SATURN_HELIO1HR_POSITION",
-      "SOHO_HELIO1DAY_POSITION",
-      "SOHO_HELIO1HR_POSITION",
-      "SOLO_HELIO1DAY_POSITION",
-      "STA_HELIO1HR_POSITION",
-      "STB_HELIO1DAY_POSITION",
-      "STB_HELIO1HR_POSITION",
-      "SUISEI_HELIO1DAY_POSITION",
-      "SUISEI_HELIO1HR_POSITION",
-      "THB_HELIO1HR_POSITION",
-      "THC_HELIO1HR_POSITION",
-      "ULYSSES_HELIO1DAY_POSITION",
-      "ULYSSES_HELIO1HR_POSITION",
-      "URANUS_HELIO1HR_POSITION",
-      "VENUS_HELIO1HR_POSITION",
-      "WILD2_HELIO1HR_POSITION"
-    ]
-  },
-  "https://omniweb.gsfc.nasa.gov/coho/helios/coor_des.html": {
-    "InformationURL": {
-      "Name": "HG, HGI, and SE Coordinate System Definitions, NASA GSFC",
-      "URL": "https://omniweb.gsfc.nasa.gov/coho/helios/coor_des.html",
-      "Description": "Definitions for the Heliographic, HG, Heliographic Inertial, HGI, and Solar Ecliptic, SE, Coordinate Systems, hosted by NASA GSFC"
-    },
-    "_cdaweb_ids": [
-      "BEPICOLOMBO_HELIO1HR_POSITION",
-      "BORRELLY_HELIO1DAY_POSITION",
-      "BORRELLY_HELIO1HR_POSITION",
-      "CASSINI_HELIO1HR_POSITION",
-      "COMETGS_HELIO1DAY_POSITION",
-      "COMETGS_HELIO1HR_POSITION",
-      "COMETHMP_HELIO1DAY_POSITION",
-      "COMETHMP_HELIO1HR_POSITION",
-      "DAWN_HELIO1HR_POSITION",
-      "EARTH_HELIO1DAY_POSITION",
-      "EARTH_HELIO1HR_POSITION",
-      "GALILEO_HELIO1DAY_POSITION",
-      "GALILEO_HELIO1HR_POSITION",
-      "GIACOBINI_HELIO1DAY_POSITION",
-      "GIACOBINI_HELIO1HR_POSITION",
-      "GIOTTO_HELIO1DAY_POSITION",
-      "GIOTTO_HELIO1HR_POSITION",
-      "HALEBOPP_HELIO1HR_POSITION",
-      "HALLEY_HELIO1HR_POSITION",
-      "HELIOS1_HELIO1DAY_POSITION",
-      "HELIOS1_HELIO1HR_POSITION",
-      "HELIOS2_HELIO1HR_POSITION",
-      "HYAKUTAKE_HELIO1HR_POSITION",
-      "ISEE-3_HELIO1DAY_POSITION",
-      "ISEE-3_HELIO1HR_POSITION",
-      "JUNO_HELIO1DAY_POSITION",
-      "JUNO_HELIO1HR_POSITION",
-      "JUPITER_HELIO1HR_POSITION",
-      "MARS_HELIO1DAY_POSITION",
-      "MARS_HELIO1HR_POSITION",
-      "MAVEN_HELIO1DAY_POSITION",
-      "MAVEN_HELIO1HR_POSITION",
-      "MERCURY_HELIO1DAY_POSITION",
-      "MERCURY_HELIO1HR_POSITION",
-      "MESSENGER_HELIO1DAY_POSITION",
-      "MESSENGER_HELIO1HR_POSITION",
-      "MSL_HELIO1DAY_POSITION",
-      "NEPTUNE_HELIO1HR_POSITION",
-      "PHOBOS2_HELIO1HR_POSITION",
-      "PIONEER10_HELIO1HR_POSITION",
-      "PIONEER11_HELIO1DAY_POSITION",
-      "PIONEER11_HELIO1HR_POSITION",
-      "PLUTO_HELIO1DAY_POSITION",
-      "PLUTO_HELIO1HR_POSITION",
-      "PSP_HELIO1DAY_POSITION",
-      "PSP_HELIO1HR_POSITION",
-      "ROSETTA_HELIO1DAY_POSITION",
-      "ROSETTA_HELIO1HR_POSITION",
-      "SAKIGAKE_HELIO1DAY_POSITION",
-      "SAKIGAKE_HELIO1HR_POSITION",
-      "SATURN_HELIO1DAY_POSITION",
-      "SATURN_HELIO1HR_POSITION",
-      "SOHO_HELIO1DAY_POSITION",
-      "SOHO_HELIO1HR_POSITION",
-      "SOLO_HELIO1DAY_POSITION",
-      "STA_HELIO1HR_POSITION",
-      "STB_HELIO1DAY_POSITION",
-      "STB_HELIO1HR_POSITION",
-      "SUISEI_HELIO1DAY_POSITION",
-      "SUISEI_HELIO1HR_POSITION",
-      "THB_HELIO1HR_POSITION",
-      "THC_HELIO1HR_POSITION",
-      "ULYSSES_HELIO1DAY_POSITION",
-      "ULYSSES_HELIO1HR_POSITION",
-      "URANUS_HELIO1HR_POSITION",
-      "VENUS_HELIO1HR_POSITION",
-      "WILD2_HELIO1HR_POSITION"
-    ]
-  },
   "https://doi.org/10.48322/cyec-7n35": {
     "InformationURL": {
       "Name": "Helio1Day version SPASE DOI",
@@ -1114,6 +1025,7 @@
     },
     "_cdaweb_ids": [
       "C1_CP_FGM_SPIN",
+      "C1_UP_FGM",
       "C2_CP_FGM_SPIN",
       "C3_CP_FGM_SPIN",
       "C4_CP_FGM_SPIN"
@@ -1167,10 +1079,10 @@
       "C1_PP_ASP"
     ]
   },
-  "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045A-02": {
+  "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-045A-02": {
     "InformationURL": {
       "Name": "NSSDC Master Catalog listing for Cluster II Rumba Cluster Ion Spectrometry (CIS)",
-      "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045A-02",
+      "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-045A-02",
       "Description": "This site provides information concerning the Cluster II Rumba Cluster Ion Spectrometry Instrument."
     },
     "_cdaweb_ids": [
@@ -1197,10 +1109,10 @@
       "C1_PP_EDI"
     ]
   },
-  "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045A-08": {
+  "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-045A-08": {
     "InformationURL": {
       "Name": "NSSDC Master Catalog listing for Cluster II Rumba Electric Field and Waves (EFW)",
-      "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045A-08",
+      "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-045A-08",
       "Description": "This site provides information concerning the Cluster II Rumba Electric Field and Waves Instrument."
     },
     "_cdaweb_ids": [
@@ -1217,20 +1129,20 @@
       "C1_PP_PEA"
     ]
   },
-  "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045A-06": {
+  "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-045A-06": {
     "InformationURL": {
       "Name": "NSSDC Master Catalog listing for Cluster II Rumba Research with Adaptive Particle Imaging Detectors (RAPID)",
-      "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045A-06",
+      "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-045A-06",
       "Description": "This site provides information concerning the Cluster II Rumba Research with Adaptive Particle Imaging Detectors Instrument."
     },
     "_cdaweb_ids": [
       "C1_PP_RAP"
     ]
   },
-  "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045A-09": {
+  "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-045A-09": {
     "InformationURL": {
       "Name": "NSSDC Master Catalog listing for Cluster II Rumba Spatio-Temporal Analysis of Magnetic Field Fluctuations (STAFF)",
-      "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045A-09",
+      "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-045A-09",
       "Description": "This site provides information concerning the Cluster II Rumba Spatio-Temporal Analysis of Magnetic Field Fluctuations Instrument."
     },
     "_cdaweb_ids": [
@@ -1247,24 +1159,36 @@
       "C1_PP_WHI"
     ]
   },
-  "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045A-04": {
+  "http://www-pw.physics.uiowa.edu/cluster/": {
     "InformationURL": {
-      "Name": "NSSDC Master Catalog listing for Cluster II Rumba Fluxgate Magnetometer (FGM)",
-      "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045A-04",
-      "Description": "This site provides information concerning the Cluster II Rumba Fluxgate Magnetometer Instrument."
+      "Name": "Cluster WBD Instrument Page",
+      "URL": "http://www-pw.physics.uiowa.edu/cluster/",
+      "Description": "Cluster WBD Instrument page maintained by the University of Iowa with links to instrument descriptions and team members, publications, lists of coordinated observing times, science data availability catalogs, data, data interpretation and caveat descriptions as well as data analysis tools.",
+      "Language": "en"
     },
     "_cdaweb_ids": [
-      "C1_UP_FGM"
+      "C1_WAVEFORM_WBD",
+      "C2_WAVEFORM_WBD",
+      "C3_WAVEFORM_WBD",
+      "C4_WAVEFORM_WBD"
     ]
   },
-  "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045A-10": {
+  "https://www.cosmos.esa.int/web/csa/documentation": {
     "InformationURL": {
-      "Name": "NSSDC's Master Catalog on the Wide Band Data (WBD) experiment",
-      "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045A-10",
-      "Description": "Introduction to the WBD experiment on Cluster II Rumba"
+      "Name": "Cluster Science Archive Documentation Page",
+      "URL": "https://www.cosmos.esa.int/web/csa/documentation",
+      "Description": "Cluster WBD documentation with links to lists of coordinated observing times, science data availability catalogs, WBD User Guide, WBD Calibration Report, WBD Interface Control Document, and data interpretation and caveat descriptions.",
+      "Language": "en"
     },
     "_cdaweb_ids": [
-      "C1_WAVEFORM_WBD"
+      "C1_WAVEFORM_WBD",
+      "C1_WAVEFORM_WBD_BM2",
+      "C2_WAVEFORM_WBD",
+      "C2_WAVEFORM_WBD_BM2",
+      "C3_WAVEFORM_WBD",
+      "C3_WAVEFORM_WBD_BM2",
+      "C4_WAVEFORM_WBD",
+      "C4_WAVEFORM_WBD_BM2"
     ]
   },
   "https://www-pw.physics.uiowa.edu/cluster/": {
@@ -1276,23 +1200,8 @@
     },
     "_cdaweb_ids": [
       "C1_WAVEFORM_WBD_BM2",
-      "C3_WAVEFORM_WBD_BM2"
-    ]
-  },
-  "https://www.cosmos.esa.int/web/csa/documentation": {
-    "InformationURL": {
-      "Name": "Cluster Science Archive Documentation Page",
-      "URL": "https://www.cosmos.esa.int/web/csa/documentation",
-      "Description": "Cluster WBD documentation with links to lists of coordinated observing times, science data availability catalogs, WBD User Guide, WBD Calibration Report, WBD Interface Control Document, and data interpretation and caveat descriptions.",
-      "Language": "en"
-    },
-    "_cdaweb_ids": [
-      "C1_WAVEFORM_WBD_BM2",
-      "C2_WAVEFORM_WBD",
       "C2_WAVEFORM_WBD_BM2",
-      "C3_WAVEFORM_WBD",
       "C3_WAVEFORM_WBD_BM2",
-      "C4_WAVEFORM_WBD",
       "C4_WAVEFORM_WBD_BM2"
     ]
   },
@@ -1316,20 +1225,20 @@
       "C2_PP_DWP"
     ]
   },
-  "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041B-03": {
+  "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-041B-03": {
     "InformationURL": {
       "Name": "NSSDC Master Catalog listing for the Cluster II Salsa Electron Drift Instrument (EDI)",
-      "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041B-03",
+      "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-041B-03",
       "Description": "This site provides information concerning the Cluster II Salsa Electron Drift Instrument."
     },
     "_cdaweb_ids": [
       "C2_PP_EDI"
     ]
   },
-  "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041B-08": {
+  "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-041B-08": {
     "InformationURL": {
       "Name": "NSSDC Master Catalog listing for Cluster II Salsa Electric Field and Waves (EFW)",
-      "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041B-08",
+      "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-041B-08",
       "Description": "This site provides information concerning the Cluster II Salsa Electric Field and Waves Instrument."
     },
     "_cdaweb_ids": [
@@ -1356,10 +1265,10 @@
       "C2_PP_RAP"
     ]
   },
-  "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041B-09": {
+  "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-041B-09": {
     "InformationURL": {
       "Name": "NSSDC Master Catalog listing for Cluster II Salsa Spatio-Temporal Analysis of Magnetic Field Fluctuations (STAFF)",
-      "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041B-09",
+      "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-041B-09",
       "Description": "This site provides information concerning the Cluster II Salsa Spatio-Temporal Analysis of Magnetic Field Fluctuations Instrument."
     },
     "_cdaweb_ids": [
@@ -1376,29 +1285,14 @@
       "C2_PP_WHI"
     ]
   },
-  "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041B-04": {
+  "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-041B-04": {
     "InformationURL": {
       "Name": "NSSDC Master Catalog listing for Cluster II Salsa Fluxgate Magnetometer (FGM)",
-      "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041B-04",
+      "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-041B-04",
       "Description": "This site provides information concerning the Cluster II Salsa Fluxgate Magnetometer Instrument."
     },
     "_cdaweb_ids": [
       "C2_UP_FGM"
-    ]
-  },
-  "http://www-pw.physics.uiowa.edu/cluster/": {
-    "InformationURL": {
-      "Name": "Cluster WBD Instrument Page",
-      "URL": "http://www-pw.physics.uiowa.edu/cluster/",
-      "Description": "Cluster WBD Instrument page maintained by the University of Iowa with links to instrument descriptions and team members, publications, lists of coordinated observing times, science data availability catalogs, data, data interpretation and caveat descriptions as well as data analysis tools.",
-      "Language": "en"
-    },
-    "_cdaweb_ids": [
-      "C2_WAVEFORM_WBD",
-      "C2_WAVEFORM_WBD_BM2",
-      "C3_WAVEFORM_WBD",
-      "C4_WAVEFORM_WBD",
-      "C4_WAVEFORM_WBD_BM2"
     ]
   },
   "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-041A-01": {
@@ -1411,30 +1305,30 @@
       "C3_PP_ASP"
     ]
   },
-  "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041A-02": {
+  "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-041A-02": {
     "InformationURL": {
       "Name": "NSSDC Master Catalog listing for Cluster II Samba Cluster Ion Spectrometry (CIS)",
-      "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041A-02",
+      "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-041A-02",
       "Description": "This site provides information concerning the Cluster II Samba Cluster Ion Spectrometry Instrument."
     },
     "_cdaweb_ids": [
       "C3_PP_CIS"
     ]
   },
-  "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041A-03": {
+  "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-041A-03": {
     "InformationURL": {
       "Name": "NSSDC Master Catalog listing for the Cluster II Samba Electron Drift Instrument (EDI)",
-      "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041A-03",
+      "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-041A-03",
       "Description": "This site provides information concerning the Cluster II Samba Electron Drift Instrument."
     },
     "_cdaweb_ids": [
       "C3_PP_EDI"
     ]
   },
-  "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041A-08": {
+  "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-041A-08": {
     "InformationURL": {
       "Name": "NSSDC Master Catalog listing for Cluster II Samba Electric Field and Waves (EFW)",
-      "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041A-08",
+      "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-041A-08",
       "Description": "This site provides information concerning the Cluster II Samba Electric Field and Waves Instrument."
     },
     "_cdaweb_ids": [
@@ -1461,10 +1355,10 @@
       "C3_PP_RAP"
     ]
   },
-  "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041A-09": {
+  "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-041A-09": {
     "InformationURL": {
       "Name": "NSSDC Master Catalog listing for Cluster II Samba Spatio-Temporal Analysis of Magnetic Field Fluctuations (STAFF)",
-      "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041A-09",
+      "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-041A-09",
       "Description": "This site provides information concerning the Cluster II Samba Spatio-Temporal Analysis of Magnetic Field Fluctuations Instrument."
     },
     "_cdaweb_ids": [
@@ -1481,10 +1375,10 @@
       "C3_PP_WHI"
     ]
   },
-  "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041A-04": {
+  "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-041A-04": {
     "InformationURL": {
       "Name": "NSSDC Master Catalog listing for Cluster II Samba Fluxgate Magnetometer (FGM)",
-      "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041A-04",
+      "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-041A-04",
       "Description": "This site provides information concerning the Cluster II Samba Fluxgate Magnetometer Instrument."
     },
     "_cdaweb_ids": [
@@ -1501,10 +1395,10 @@
       "C4_PP_ASP"
     ]
   },
-  "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045B-02": {
+  "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-045B-02": {
     "InformationURL": {
       "Name": "NSSDC Master Catalog listing for Cluster II Tango Cluster Ion Spectrometry (CIS)",
-      "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045B-02",
+      "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-045B-02",
       "Description": "This site provides information concerning the Cluster II Tango Cluster Ion Spectrometry Instrument."
     },
     "_cdaweb_ids": [
@@ -1521,20 +1415,20 @@
       "C4_PP_DWP"
     ]
   },
-  "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045B-03": {
+  "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-045B-03": {
     "InformationURL": {
       "Name": "NSSDC Master Catalog listing for the Cluster II Tango Electron Drift Instrument (EDI)",
-      "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045B-03",
+      "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-045B-03",
       "Description": "This site provides information concerning the Cluster II Tango Electron Drift Instrument."
     },
     "_cdaweb_ids": [
       "C4_PP_EDI"
     ]
   },
-  "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045B-08": {
+  "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-045B-08": {
     "InformationURL": {
       "Name": "NSSDC Master Catalog listing for Cluster II Tango Electric Field and Waves (EFW)",
-      "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045B-08",
+      "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-045B-08",
       "Description": "This site provides information concerning the Cluster II Tango Electric Field and Waves Instrument."
     },
     "_cdaweb_ids": [
@@ -1561,10 +1455,10 @@
       "C4_PP_RAP"
     ]
   },
-  "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045B-09": {
+  "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-045B-09": {
     "InformationURL": {
       "Name": "NSSDC Master Catalog listing for Cluster II Tango Spatio-Temporal Analysis of Magnetic Field Fluctuations (STAFF)",
-      "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045B-09",
+      "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-045B-09",
       "Description": "This site provides information concerning the Cluster II Tango Spatio-Temporal Analysis of Magnetic Field Fluctuations Instrument."
     },
     "_cdaweb_ids": [
@@ -1581,10 +1475,10 @@
       "C4_PP_WHI"
     ]
   },
-  "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045B-04": {
+  "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-045B-04": {
     "InformationURL": {
       "Name": "NSSDC Master Catalog listing for Cluster II Tango Fluxgate Magnetometer (FGM)",
-      "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045B-04",
+      "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-045B-04",
       "Description": "This site provides information concerning the Cluster II Tango Fluxgate Magnetometer Instrument."
     },
     "_cdaweb_ids": [
@@ -1611,10 +1505,10 @@
       "CL_JP_PCY"
     ]
   },
-  "https://cdaweb.gsfc.nasa.gov/index.html/": {
+  "https://cdaweb.gsfc.nasa.gov/index.html": {
     "InformationURL": {
       "Name": "C/NOFS PLP 1-s plasma parameter data",
-      "URL": "https://cdaweb.gsfc.nasa.gov/index.html/",
+      "URL": "https://cdaweb.gsfc.nasa.gov/index.html",
       "Description": "1-sec PLP avg key parameters preliminary data from CDAWeb"
     },
     "_cdaweb_ids": [
@@ -1645,10 +1539,10 @@
       "CN_K1_MARI"
     ]
   },
-  "ftps://spdf.gsfc.nasa.gov/pub/data/crres/particle_mea/500ms_pcbinary/document/": {
+  "https://spdf.gsfc.nasa.gov/pub/data/crres/particle_mea/500ms_pcbinary/document/": {
     "InformationURL": {
       "Name": "AFRL Descriptive Document",
-      "URL": "ftps://spdf.gsfc.nasa.gov/pub/data/crres/particle_mea/500ms_pcbinary/document/",
+      "URL": "https://spdf.gsfc.nasa.gov/pub/data/crres/particle_mea/500ms_pcbinary/document/",
       "Description": "This is an information file provided by the PI for the raw high resolution data."
     },
     "_cdaweb_ids": [
@@ -1841,19 +1735,19 @@
       "DE2_ION2S_RPA"
     ]
   },
-  "ftps://spdf.gsfc.nasa.gov/pub/data/de/de2/neutral_gas_nacs/00readme.txt": {
+  "https://spdf.gsfc.nasa.gov/pub/data/de/de2/neutral_gas_nacs/00readme.txt": {
     "InformationURL": {
       "Name": "Readme file at SPDF",
-      "URL": "ftps://spdf.gsfc.nasa.gov/pub/data/de/de2/neutral_gas_nacs/00readme.txt"
+      "URL": "https://spdf.gsfc.nasa.gov/pub/data/de/de2/neutral_gas_nacs/00readme.txt"
     },
     "_cdaweb_ids": [
       "DE2_NEUTRAL1S_NACS"
     ]
   },
-  "ftps://spdf.gsfc.nasa.gov/pub/data/de/de2/plasma_lang/00readme.txt": {
+  "https://spdf.gsfc.nasa.gov/pub/data/de/de2/plasma_lang/00readme.txt": {
     "InformationURL": {
       "Name": "Readme file at SPDF",
-      "URL": "ftps://spdf.gsfc.nasa.gov/pub/data/de/de2/plasma_lang/00readme.txt"
+      "URL": "https://spdf.gsfc.nasa.gov/pub/data/de/de2/plasma_lang/00readme.txt"
     },
     "_cdaweb_ids": [
       "DE2_PLASMA500MS_LANG"
@@ -1888,10 +1782,10 @@
       "DE2_VION250MS_IDM"
     ]
   },
-  "ftps://spdf.gsfc.nasa.gov/pub/data/de/de2/neutral_gas_wats/00readme.txt": {
+  "https://spdf.gsfc.nasa.gov/pub/data/de/de2/neutral_gas_wats/00readme.txt": {
     "InformationURL": {
       "Name": "Readme file at SPDF",
-      "URL": "ftps://spdf.gsfc.nasa.gov/pub/data/de/de2/neutral_gas_wats/00readme.txt"
+      "URL": "https://spdf.gsfc.nasa.gov/pub/data/de/de2/neutral_gas_wats/00readme.txt"
     },
     "_cdaweb_ids": [
       "DE2_WIND2S_WATS"
@@ -2210,10 +2104,10 @@
       "FM_K0_KILP"
     ]
   },
-  "https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1997-019A-03": {
+  "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1997-019A-03": {
     "InformationURL": {
       "Name": "GOES 10 Magnetic Field Sensor",
-      "URL": "https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1997-019A-03",
+      "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1997-019A-03",
       "Description": "Introduction to the GOES 10 Magnetometer."
     },
     "_cdaweb_ids": [
@@ -2230,16 +2124,6 @@
       "G0_K0_MAG",
       "G6_K0_EPS",
       "G7_K1_MAG"
-    ]
-  },
-  "http://themis.ssl.berkeley.edu/data/goes/GOES8-12_readme_draft090108.doc": {
-    "InformationURL": {
-      "Name": "README document",
-      "URL": "http://themis.ssl.berkeley.edu/data/goes/GOES8-12_readme_draft090108.doc",
-      "Description": "Notes on GOES 8-12 magnetometer data by Howard J. Singer."
-    },
-    "_cdaweb_ids": [
-      "G12_L2_MAG"
     ]
   },
   "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1994-022A-05": {
@@ -2295,15 +2179,6 @@
       "G9_K0_EP8"
     ]
   },
-  "http://genesis.lanl.gov/l2_description.html": {
-    "InformationURL": {
-      "Name": "Data Description at LANL",
-      "URL": "http://genesis.lanl.gov/l2_description.html"
-    },
-    "_cdaweb_ids": [
-      "GENESIS_3DL2_GIM"
-    ]
-  },
   "https://www.darts.isas.ac.jp/stp/geotail/jgg_lep.pdf": {
     "InformationURL": {
       "Name": "The Geotail Low Energy Particle Experiment (LEP)",
@@ -2311,27 +2186,7 @@
       "Description": "Reprint of Mukai, T., S. Machida, Y. Saito, M. Hirahara, T. Terasawa, N. Kaya, T. Obara, M. Ejiri, and A. Nishida, The low energy particle (LEP) experiment onboard the Geotail satellite, J. Geomag. Geoelectr., 46, 669-692, 1994."
     },
     "_cdaweb_ids": [
-      "GE_EDA12SEC_LEP"
-    ]
-  },
-  "http://www.darts.isas.ac.jp/stp/geotail/jgg_mgf.pdf": {
-    "InformationURL": {
-      "Name": "The Geotail Magnetic Field Experiment (MGF)",
-      "URL": "http://www.darts.isas.ac.jp/stp/geotail/jgg_mgf.pdf",
-      "Description": "Reprint of Kokubun, S., T. Yamamoto, M. H. Acuna, K. Hayashi, K. Shiokawa, and H. Kawano, The Geotail Magnetic Field Experiment, J. Geomag. Geoelectr., 46, 7-21, 1994."
-    },
-    "_cdaweb_ids": [
-      "GE_EDA3SEC_MGF",
-      "GE_K0_MGF"
-    ]
-  },
-  "http://www.darts.isas.ac.jp/stp/geotail/jgg_lep.pdf": {
-    "InformationURL": {
-      "Name": "The Geotail Low Energy Particle Experiment (LEP)",
-      "URL": "http://www.darts.isas.ac.jp/stp/geotail/jgg_lep.pdf",
-      "Description": "Reprint of Mukai, T., S. Machida, Y. Saito, M. Hirahara, T. Terasawa, N. Kaya, T. Obara, M. Ejiri, and A. Nishida, The low energy particle (LEP) experiment onboard the Geotail satellite, J. Geomag. Geoelectr., 46, 669-692, 1994."
-    },
-    "_cdaweb_ids": [
+      "GE_EDA12SEC_LEP",
       "GE_EDB12SEC_LEP"
     ]
   },
@@ -2342,18 +2197,9 @@
       "Description": "Reprint of Kokubun, S., T. Yamamoto, M. H. Acuna, K. Hayashi, K. Shiokawa, and H. Kawano, The Geotail Magnetic Field Experiment, J. Geomag. Geoelectr., 46, 7-21, 1994."
     },
     "_cdaweb_ids": [
-      "GE_EDB3SEC_MGF"
-    ]
-  },
-  "http://www-pi.physics.uiowa.edu/cpi": {
-    "InformationURL": {
-      "Name": "CPI Survey Plots",
-      "URL": "http://www-pi.physics.uiowa.edu/cpi",
-      "Description": "Geotail CPI description and survey plots."
-    },
-    "_cdaweb_ids": [
-      "GE_H0_CPI",
-      "GE_HPAMOM_CPI"
+      "GE_EDA3SEC_MGF",
+      "GE_EDB3SEC_MGF",
+      "GE_K0_MGF"
     ]
   },
   "http://www-pi.physics.uiowa.edu/cpi/": {
@@ -2363,14 +2209,16 @@
       "Description": "Geotail CPI description and survey plots."
     },
     "_cdaweb_ids": [
+      "GE_H0_CPI",
+      "GE_HPAMOM_CPI",
       "GE_K0_CPI",
       "GE_SW_CPI"
     ]
   },
-  "http://nssdc.gsfc.nasa.gov/nmc/datasetDisplay.do?id=SPHE-00568": {
+  "https://nssdc.gsfc.nasa.gov/nmc/dataset/display.action?id=SPHE-00568": {
     "InformationURL": {
       "Name": "Key Parameters GE_K0_MGF from the Geotail Magnetic Field Instrument (MGF) in CDF",
-      "URL": "http://nssdc.gsfc.nasa.gov/nmc/datasetDisplay.do?id=SPHE-00568"
+      "URL": "https://nssdc.gsfc.nasa.gov/nmc/dataset/display.action?id=SPHE-00568"
     },
     "_cdaweb_ids": [
       "GE_K0_MGF"
@@ -2396,23 +2244,14 @@
       "WI_OR_DEF"
     ]
   },
-  "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-022A-03": {
+  "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-022A-03": {
     "InformationURL": {
       "Name": "GOES 11 Environment Monitor",
-      "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-022A-03",
+      "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-022A-03",
       "Description": "Introduction to the GOES 11 Space Environment Monitor."
     },
     "_cdaweb_ids": [
-      "GOES11_K0_EP8"
-    ]
-  },
-  "https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-022A-03": {
-    "InformationURL": {
-      "Name": "GOES 11 Space Environment Monitor",
-      "URL": "https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-022A-03",
-      "Description": "Introduction to the GOES 11 Magnetometer."
-    },
-    "_cdaweb_ids": [
+      "GOES11_K0_EP8",
       "GOES11_K0_MAG"
     ]
   },
@@ -2438,23 +2277,13 @@
     },
     "_cdaweb_ids": [
       "GOES13_EPEAD-SCIENCE-ELECTRONS-E13EW_1MIN",
+      "GOES13_EPS-MAGED_1MIN",
       "GOES13_EPS-MAGED_5MIN",
       "GOES14_EPEAD-SCIENCE-ELECTRONS-E13EW_1MIN",
+      "GOES14_EPS-MAGED_1MIN",
       "GOES14_EPS-MAGED_5MIN",
       "GOES15_EPEAD-SCIENCE-ELECTRONS-E13EW_1MIN",
-      "GOES15_EPS-MAGED_1MIN"
-    ]
-  },
-  "http://goes.gsfc.nasa.gov/text/brochure/GOES_NOP_print.pdf": {
-    "InformationURL": {
-      "Name": "GOES N, O, and P Brochure",
-      "URL": "http://goes.gsfc.nasa.gov/text/brochure/GOES_NOP_print.pdf",
-      "Description": "Information about the magnetometers onboard GOES 13.",
-      "Language": "en"
-    },
-    "_cdaweb_ids": [
-      "GOES13_EPS-MAGED_1MIN",
-      "GOES14_EPS-MAGED_1MIN",
+      "GOES15_EPS-MAGED_1MIN",
       "GOES15_EPS-MAGED_5MIN"
     ]
   },
@@ -2502,10 +2331,10 @@
       "GPS_ROTI15MIN_JPL"
     ]
   },
-  "ftps://spdf.gsfc.nasa.gov/pub/data/helios/helios1/mag/6sec_ness/helios.txt": {
+  "https://spdf.gsfc.nasa.gov/pub/data/helios/helios1/mag/6sec_ness/helios.txt": {
     "InformationURL": {
       "Name": "Data set page at SPDF",
-      "URL": "ftps://spdf.gsfc.nasa.gov/pub/data/helios/helios1/mag/6sec_ness/helios.txt",
+      "URL": "https://spdf.gsfc.nasa.gov/pub/data/helios/helios1/mag/6sec_ness/helios.txt",
       "Description": "Data set page at SPDF"
     },
     "_cdaweb_ids": [
@@ -2522,19 +2351,19 @@
       "HEL2_6SEC_NESSMAG"
     ]
   },
-  "ftp://spdf.gsfc.nasa.gov/pub/data/helios/helios1/merged/he1mgd.txt": {
+  "https://spdf.gsfc.nasa.gov/pub/data/helios/helios1/merged/he1mgd.txt": {
     "InformationURL": {
       "Name": "Readme file at SPDF",
-      "URL": "ftp://spdf.gsfc.nasa.gov/pub/data/helios/helios1/merged/he1mgd.txt"
+      "URL": "https://spdf.gsfc.nasa.gov/pub/data/helios/helios1/merged/he1mgd.txt"
     },
     "_cdaweb_ids": [
       "HELIOS1_COHO1HR_MERGED_MAG_PLASMA"
     ]
   },
-  "ftps://spdf.gsfc.nasa.gov/pub/data/helios/helios2/merged/he2mgd.txt": {
+  "https://spdf.gsfc.nasa.gov/pub/data/helios/helios2/merged/he2mgd.txt": {
     "InformationURL": {
       "Name": "Readme file at SPDF",
-      "URL": "ftps://spdf.gsfc.nasa.gov/pub/data/helios/helios2/merged/he2mgd.txt"
+      "URL": "https://spdf.gsfc.nasa.gov/pub/data/helios/helios2/merged/he2mgd.txt"
     },
     "_cdaweb_ids": [
       "HELIOS2_COHO1HR_MERGED_MAG_PLASMA"
@@ -2629,7 +2458,9 @@
       "Language": "en"
     },
     "_cdaweb_ids": [
-      "I1_AV_ALL"
+      "I1_AV_ALL",
+      "I1_NEPROF_TOPS",
+      "I2_NEPROF_TOPS"
     ]
   },
   "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1969-009A-01": {
@@ -2642,39 +2473,50 @@
       "I1_AV_ALL"
     ]
   },
+  "https://doi.org/10.1109/PROC.1969.7140": {
+    "InformationURL": {
+      "Name": " J. E. Jackson, \"The reduction of topside ionograms to electron-density profiles\", Proceedings of the IEEE., p. 960, June 1969",
+      "URL": "https://doi.org/10.1109/PROC.1969.7140",
+      "Description": "Landing page for the Jackson paper"
+    },
+    "_cdaweb_ids": [
+      "I1_NEPROF_TOPS",
+      "I2_NEPROF_TOPS"
+    ]
+  },
   "https://wind.nasa.gov/imp8/": {
     "InformationURL": {
       "Name": "IMP-8 Magnetometer Experiment Home Page",
       "URL": "https://wind.nasa.gov/imp8/",
-      "Description": "A web site hosting instrument information and providing \naccess to the data"
+      "Description": "A web site hosting instrument information and providing access to the data"
     },
     "_cdaweb_ids": [
       "I8_15SEC_MAG"
     ]
   },
-  "ftp://spdf.gsfc.nasa.gov/pub/data/imp/imp8/mag/320ms_ascii/doc/imp8_mag_320ms_proc.txt": {
+  "https://spdf.gsfc.nasa.gov/pub/data/imp/imp8/mag/320ms_ascii/doc/imp8_mag_320ms_proc.txt": {
     "InformationURL": {
       "Name": "Readme file at SPDF",
-      "URL": "ftp://spdf.gsfc.nasa.gov/pub/data/imp/imp8/mag/320ms_ascii/doc/imp8_mag_320ms_proc.txt",
+      "URL": "https://spdf.gsfc.nasa.gov/pub/data/imp/imp8/mag/320ms_ascii/doc/imp8_mag_320ms_proc.txt",
       "Description": "Details on creation of this data set"
     },
     "_cdaweb_ids": [
       "I8_320MSEC_MAG"
     ]
   },
-  "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1973-078A-09": {
+  "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1973-078A-09": {
     "InformationURL": {
       "Name": "NSSDC Master Catalog",
-      "URL": "http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1973-078A-09"
+      "URL": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1973-078A-09"
     },
     "_cdaweb_ids": [
       "I8_H0_GME"
     ]
   },
-  "ftp://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/i8_h0_gme_00000000_v01.skt": {
+  "https://spdf.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/i8_h0_gme_00000000_v01.skt": {
     "InformationURL": {
       "Name": "CDAWeb Skeleton Table",
-      "URL": "ftp://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/i8_h0_gme_00000000_v01.skt"
+      "URL": "https://spdf.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/i8_h0_gme_00000000_v01.skt"
     },
     "_cdaweb_ids": [
       "I8_H0_GME"
@@ -2800,16 +2642,29 @@
       "IBEX_H3_ENA_HI_R07_NOCG_SP_OMNI_6MO",
       "IBEX_H3_ENA_HI_R07_NOCG_SP_RAM_1YR",
       "IBEX_H3_ENA_HI_R10_CG_NOSP_ANTIRAM_1YR",
+      "IBEX_H3_ENA_HI_R10_CG_NOSP_ANTIRAM_7YR",
+      "IBEX_H3_ENA_HI_R10_CG_NOSP_OMNI_6MO",
       "IBEX_H3_ENA_HI_R10_CG_NOSP_OMNI_7YR",
       "IBEX_H3_ENA_HI_R10_CG_NOSP_RAM_1YR",
+      "IBEX_H3_ENA_HI_R10_CG_NOSP_RAM_7YR",
       "IBEX_H3_ENA_HI_R10_CG_SP_ANTIRAM_1YR",
+      "IBEX_H3_ENA_HI_R10_CG_SP_ANTIRAM_7YR",
+      "IBEX_H3_ENA_HI_R10_CG_SP_OMNI_6MO",
       "IBEX_H3_ENA_HI_R10_CG_SP_OMNI_7YR",
       "IBEX_H3_ENA_HI_R10_CG_SP_RAM_1YR",
+      "IBEX_H3_ENA_HI_R10_CG_SP_RAM_7YR",
+      "IBEX_H3_ENA_HI_R10_NOCG_NOSP_ANTIRAM_1YR",
       "IBEX_H3_ENA_HI_R10_NOCG_NOSP_ANTIRAM_7YR",
+      "IBEX_H3_ENA_HI_R10_NOCG_NOSP_OMNI_6MO",
       "IBEX_H3_ENA_HI_R10_NOCG_NOSP_OMNI_7YR",
+      "IBEX_H3_ENA_HI_R10_NOCG_NOSP_RAM_1YR",
       "IBEX_H3_ENA_HI_R10_NOCG_SP_ANTIRAM_1YR",
+      "IBEX_H3_ENA_HI_R10_NOCG_SP_ANTIRAM_7YR",
       "IBEX_H3_ENA_HI_R10_NOCG_SP_OMNI_6MO",
+      "IBEX_H3_ENA_HI_R10_NOCG_SP_OMNI_7YR",
       "IBEX_H3_ENA_HI_R10_NOCG_SP_RAM_1YR",
+      "IBEX_H3_ENA_HI_R12_MAGNETOSPHERE_24MIN",
+      "IBEX_H3_ENA_HI_R13_CG_NOSP_ANTIRAM_1YR",
       "IBEX_H3_ENA_HI_R13_CG_NOSP_RAM_1YR",
       "IBEX_H3_ENA_HI_R14_PRESS-SLOPE_CG_NOSP_RAM_3YR",
       "IBEX_H3_ENA_HI_R16_CG_NOSP_ANTIRAM_11YR",
@@ -2845,6 +2700,7 @@
       "IBEX_H3_ENA_LO_R10_NOCG_NOSP_OMNI_6MO",
       "IBEX_H3_ENA_LO_R10_NOCG_NOSP_OMNI_7YR",
       "IBEX_H3_ENA_LO_R10_NOCG_SP_OMNI_6MO",
+      "IBEX_H3_ENA_LO_R10_NOCG_SP_OMNI_7YR",
       "IBEX_H3_ENA_LO_R17_CG_NOSP_ANTIRAM_1YR",
       "IBEX_H3_ENA_LO_R17_CG_NOSP_OMNI_1YR",
       "IBEX_H3_ENA_LO_R17_CG_NOSP_RAM_1YR",
@@ -2862,18 +2718,32 @@
     },
     "_cdaweb_ids": [
       "IBEX_H3_ENA_HI_R10_CG_NOSP_ANTIRAM_1YR",
+      "IBEX_H3_ENA_HI_R10_CG_NOSP_ANTIRAM_7YR",
+      "IBEX_H3_ENA_HI_R10_CG_NOSP_OMNI_6MO",
       "IBEX_H3_ENA_HI_R10_CG_NOSP_OMNI_7YR",
       "IBEX_H3_ENA_HI_R10_CG_NOSP_RAM_1YR",
+      "IBEX_H3_ENA_HI_R10_CG_NOSP_RAM_7YR",
       "IBEX_H3_ENA_HI_R10_CG_SP_ANTIRAM_1YR",
+      "IBEX_H3_ENA_HI_R10_CG_SP_ANTIRAM_7YR",
+      "IBEX_H3_ENA_HI_R10_CG_SP_OMNI_6MO",
       "IBEX_H3_ENA_HI_R10_CG_SP_OMNI_7YR",
       "IBEX_H3_ENA_HI_R10_CG_SP_RAM_1YR",
+      "IBEX_H3_ENA_HI_R10_CG_SP_RAM_7YR",
+      "IBEX_H3_ENA_HI_R10_NOCG_NOSP_ANTIRAM_1YR",
       "IBEX_H3_ENA_HI_R10_NOCG_NOSP_ANTIRAM_7YR",
+      "IBEX_H3_ENA_HI_R10_NOCG_NOSP_OMNI_6MO",
       "IBEX_H3_ENA_HI_R10_NOCG_NOSP_OMNI_7YR",
+      "IBEX_H3_ENA_HI_R10_NOCG_NOSP_RAM_1YR",
       "IBEX_H3_ENA_HI_R10_NOCG_SP_ANTIRAM_1YR",
+      "IBEX_H3_ENA_HI_R10_NOCG_SP_ANTIRAM_7YR",
       "IBEX_H3_ENA_HI_R10_NOCG_SP_OMNI_6MO",
+      "IBEX_H3_ENA_HI_R10_NOCG_SP_OMNI_7YR",
       "IBEX_H3_ENA_HI_R10_NOCG_SP_RAM_1YR",
+      "IBEX_H3_ENA_HI_R12_MAGNETOSPHERE_24MIN",
+      "IBEX_H3_ENA_HI_R13_CG_NOSP_ANTIRAM_1YR",
       "IBEX_H3_ENA_HI_R13_CG_NOSP_RAM_1YR",
-      "IBEX_H3_ENA_LO_R10_NOCG_NOSP_OMNI_7YR"
+      "IBEX_H3_ENA_LO_R10_NOCG_NOSP_OMNI_7YR",
+      "IBEX_H3_ENA_LO_R10_NOCG_SP_OMNI_7YR"
     ]
   },
   "https://spdf.gsfc.nasa.gov/pub/data/ibex/release10/IBEX-Data-Release-10_Seven-Years-of-Imaging-the-Global-Heliosphere-with-IBEX.pdf": {
@@ -2884,17 +2754,29 @@
     },
     "_cdaweb_ids": [
       "IBEX_H3_ENA_HI_R10_CG_NOSP_ANTIRAM_1YR",
+      "IBEX_H3_ENA_HI_R10_CG_NOSP_ANTIRAM_7YR",
+      "IBEX_H3_ENA_HI_R10_CG_NOSP_OMNI_6MO",
       "IBEX_H3_ENA_HI_R10_CG_NOSP_OMNI_7YR",
       "IBEX_H3_ENA_HI_R10_CG_NOSP_RAM_1YR",
+      "IBEX_H3_ENA_HI_R10_CG_NOSP_RAM_7YR",
       "IBEX_H3_ENA_HI_R10_CG_SP_ANTIRAM_1YR",
+      "IBEX_H3_ENA_HI_R10_CG_SP_ANTIRAM_7YR",
+      "IBEX_H3_ENA_HI_R10_CG_SP_OMNI_6MO",
       "IBEX_H3_ENA_HI_R10_CG_SP_OMNI_7YR",
       "IBEX_H3_ENA_HI_R10_CG_SP_RAM_1YR",
+      "IBEX_H3_ENA_HI_R10_CG_SP_RAM_7YR",
+      "IBEX_H3_ENA_HI_R10_NOCG_NOSP_ANTIRAM_1YR",
       "IBEX_H3_ENA_HI_R10_NOCG_NOSP_ANTIRAM_7YR",
+      "IBEX_H3_ENA_HI_R10_NOCG_NOSP_OMNI_6MO",
       "IBEX_H3_ENA_HI_R10_NOCG_NOSP_OMNI_7YR",
+      "IBEX_H3_ENA_HI_R10_NOCG_NOSP_RAM_1YR",
       "IBEX_H3_ENA_HI_R10_NOCG_SP_ANTIRAM_1YR",
+      "IBEX_H3_ENA_HI_R10_NOCG_SP_ANTIRAM_7YR",
       "IBEX_H3_ENA_HI_R10_NOCG_SP_OMNI_6MO",
+      "IBEX_H3_ENA_HI_R10_NOCG_SP_OMNI_7YR",
       "IBEX_H3_ENA_HI_R10_NOCG_SP_RAM_1YR",
-      "IBEX_H3_ENA_LO_R10_NOCG_NOSP_OMNI_7YR"
+      "IBEX_H3_ENA_LO_R10_NOCG_NOSP_OMNI_7YR",
+      "IBEX_H3_ENA_LO_R10_NOCG_SP_OMNI_7YR"
     ]
   },
   "https://iopscience.iop.org/article/10.3847/1538-4365/aa66d8": {
@@ -2966,82 +2848,6 @@
       "IBEX_H3_ENA_HI_R13_CG_NOSP_RAM_1YR",
       "IBEX_H3_ENA_LO_R10_NOCG_NOSP_OMNI_7YR",
       "IBEX_H3_ENA_LO_R10_NOCG_SP_OMNI_7YR"
-    ]
-  },
-  "http://ibex.swri.edu/": {
-    "InformationURL": {
-      "Name": "IBEX Mission, Instrument, and Data Release Description, SwRI",
-      "URL": "http://ibex.swri.edu/",
-      "Description": "Interstellar Boundary Explorer, IBEX, Mission, Instrument, and Data Release Description, hosted by the Southwest Research Institute, SwRI"
-    },
-    "_cdaweb_ids": [
-      "IBEX_H3_ENA_HI_R10_CG_NOSP_ANTIRAM_7YR",
-      "IBEX_H3_ENA_HI_R10_CG_NOSP_OMNI_6MO",
-      "IBEX_H3_ENA_HI_R10_CG_NOSP_RAM_7YR",
-      "IBEX_H3_ENA_HI_R10_CG_SP_ANTIRAM_7YR",
-      "IBEX_H3_ENA_HI_R10_CG_SP_OMNI_6MO",
-      "IBEX_H3_ENA_HI_R10_CG_SP_RAM_7YR",
-      "IBEX_H3_ENA_HI_R10_NOCG_NOSP_ANTIRAM_1YR",
-      "IBEX_H3_ENA_HI_R10_NOCG_NOSP_OMNI_6MO",
-      "IBEX_H3_ENA_HI_R10_NOCG_NOSP_RAM_1YR",
-      "IBEX_H3_ENA_HI_R10_NOCG_SP_ANTIRAM_7YR",
-      "IBEX_H3_ENA_HI_R10_NOCG_SP_OMNI_7YR",
-      "IBEX_H3_ENA_HI_R12_MAGNETOSPHERE_24MIN",
-      "IBEX_H3_ENA_HI_R13_CG_NOSP_ANTIRAM_1YR",
-      "IBEX_H3_ENA_LO_R10_NOCG_SP_OMNI_7YR"
-    ]
-  },
-  "http://ibex.swri.edu/ibexpublicdata/Data_Release_10/": {
-    "InformationURL": {
-      "Name": "IBEX Data Release 10, IBEX-Hi Maps Overview Listing, SwRI",
-      "URL": "http://ibex.swri.edu/ibexpublicdata/Data_Release_10/",
-      "Description": "Interstellar Boundary Explorer, IBEX, Mission, Data Release 10, IBEX-Hi Maps in ASCII List Format and Image Format, hosted by the Southwest Research Institute, SwRI"
-    },
-    "_cdaweb_ids": [
-      "IBEX_H3_ENA_HI_R10_CG_NOSP_ANTIRAM_7YR",
-      "IBEX_H3_ENA_HI_R10_CG_NOSP_OMNI_6MO",
-      "IBEX_H3_ENA_HI_R10_CG_NOSP_RAM_7YR",
-      "IBEX_H3_ENA_HI_R10_CG_SP_ANTIRAM_7YR",
-      "IBEX_H3_ENA_HI_R10_CG_SP_OMNI_6MO",
-      "IBEX_H3_ENA_HI_R10_CG_SP_RAM_7YR",
-      "IBEX_H3_ENA_HI_R10_NOCG_NOSP_ANTIRAM_1YR",
-      "IBEX_H3_ENA_HI_R10_NOCG_NOSP_OMNI_6MO",
-      "IBEX_H3_ENA_HI_R10_NOCG_NOSP_RAM_1YR",
-      "IBEX_H3_ENA_HI_R10_NOCG_SP_ANTIRAM_7YR",
-      "IBEX_H3_ENA_HI_R10_NOCG_SP_OMNI_7YR",
-      "IBEX_H3_ENA_LO_R10_NOCG_SP_OMNI_7YR"
-    ]
-  },
-  "https://spdf.sci.gsfc.nasa.gov/pub/data/ibex/release10/IBEX-Data-Release-10_Seven-Years-of-Imaging-the-Global-Heliosphere-with-IBEX.pdf": {
-    "InformationURL": {
-      "Name": "IBEX Data Release 10, IBEX-Hi Maps Overview Listing, SPDF, NASA",
-      "URL": "https://spdf.sci.gsfc.nasa.gov/pub/data/ibex/release10/IBEX-Data-Release-10_Seven-Years-of-Imaging-the-Global-Heliosphere-with-IBEX.pdf",
-      "Description": "Interstellar Boundary Explorer, IBEX, Mission, Data Release 10, IBEX-Hi Maps in ASCII List Format and Image Format, hosted by the Space Physics Data Facility, SPDF, NASA"
-    },
-    "_cdaweb_ids": [
-      "IBEX_H3_ENA_HI_R10_CG_NOSP_ANTIRAM_7YR",
-      "IBEX_H3_ENA_HI_R10_CG_NOSP_OMNI_6MO",
-      "IBEX_H3_ENA_HI_R10_CG_NOSP_RAM_7YR",
-      "IBEX_H3_ENA_HI_R10_CG_SP_ANTIRAM_7YR",
-      "IBEX_H3_ENA_HI_R10_CG_SP_OMNI_6MO",
-      "IBEX_H3_ENA_HI_R10_CG_SP_RAM_7YR",
-      "IBEX_H3_ENA_HI_R10_NOCG_NOSP_ANTIRAM_1YR",
-      "IBEX_H3_ENA_HI_R10_NOCG_NOSP_OMNI_6MO",
-      "IBEX_H3_ENA_HI_R10_NOCG_NOSP_RAM_1YR",
-      "IBEX_H3_ENA_HI_R10_NOCG_SP_ANTIRAM_7YR",
-      "IBEX_H3_ENA_HI_R10_NOCG_SP_OMNI_7YR",
-      "IBEX_H3_ENA_LO_R10_NOCG_SP_OMNI_7YR"
-    ]
-  },
-  "http://ibex.swri.edu/ibexpublicdata/Data_Release_12/": {
-    "InformationURL": {
-      "Name": "IBEX Data Release 12, IBEX-Hi Maps Overview Listing, SwRI",
-      "URL": "http://ibex.swri.edu/ibexpublicdata/Data_Release_12/",
-      "Description": "Interstellar Boundary Explorer, IBEX, Mission, Data Release 12, IBEX-Hi Count Data for Magnetospheric Imaging in ASCII Format, hosted by the Southwest Research Institute, SwRI",
-      "Language": "en"
-    },
-    "_cdaweb_ids": [
-      "IBEX_H3_ENA_HI_R12_MAGNETOSPHERE_24MIN"
     ]
   },
   "https://spdf.gsfc.nasa.gov/pub/data/ibex/release12/IBEX-Data-Release-12_Remote-measurements-of-magnetospheric-Energetic-Neutral-Emissions-by-the-Interstellar-Boundary-Explorer.pdf": {
@@ -3130,17 +2936,6 @@
     },
     "_cdaweb_ids": [
       "IBEX_H3_ENA_HI_R12_MAGNETOSPHERE_24MIN"
-    ]
-  },
-  "http://ibex.swri.edu/ibexpublicdata/Data_Release_13/": {
-    "InformationURL": {
-      "Name": "IBEX Data Release 13, IBEX-Hi Maps Overview Listing, SwRI",
-      "URL": "http://ibex.swri.edu/ibexpublicdata/Data_Release_13/",
-      "Description": "Interstellar Boundary Explorer, IBEX, Mission, Data Release 13, IBEX-Hi Maps in ASCII List Format and Image Format, hosted by the Southwest Research Institute, SwRI",
-      "Language": "en"
-    },
-    "_cdaweb_ids": [
-      "IBEX_H3_ENA_HI_R13_CG_NOSP_ANTIRAM_1YR"
     ]
   },
   "https://spdf.gsfc.nasa.gov/pub/data/ibex/release13/IBEX-Data-Release-13_Expansion-of-the-Heliosphere.pdf": {
@@ -3348,39 +3143,28 @@
       "ISEE-3_MAG_1MIN_MAGNETIC_FIELD"
     ]
   },
-  "http://www-ssc.igpp.ucla.edu/forms/isee": {
-    "InformationURL": {
-      "Name": "UCLA-IGPP ISEE Magnetometer Interactive Data Server",
-      "URL": "http://www-ssc.igpp.ucla.edu/forms/isee",
-      "Description": "Data at 60-s and 4-s resolution are available for the entire ISEE mission (October 22, 1977 through  September 25, 1987) and can be displayed either as a plot or an ASCII listing. The ISEE-1 and -2 magnetometer data server is provided by the Institute of Geophysics and Planetary Physics (IGPP) at UCLA, through a grant to Robert J. Strangeway from the NASA Space Physics Data System (SPDS)."
-    },
-    "_cdaweb_ids": [
-      "ISEE1_60SEC_MFI",
-      "ISEE2_4SEC_MFI"
-    ]
-  },
-  "ftp://spdf.gsfc.nasa.gov/pub/data/isee/isee1/fast_electrons_gsfc/aareadme.txt": {
+  "https://spdf.gsfc.nasa.gov/pub/data/isee/isee1/fast_electrons_gsfc/aareadme.txt": {
     "InformationURL": {
       "Name": "Readme file at SPDF",
-      "URL": "ftp://spdf.gsfc.nasa.gov/pub/data/isee/isee1/fast_electrons_gsfc/aareadme.txt"
+      "URL": "https://spdf.gsfc.nasa.gov/pub/data/isee/isee1/fast_electrons_gsfc/aareadme.txt"
     },
     "_cdaweb_ids": [
       "ISEE1_H0_FE"
     ]
   },
-  "ftps://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/isee1_h1_fpe_00000000_v01.skt": {
+  "https://spdf.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/isee1_h1_fpe_00000000_v01.skt": {
     "InformationURL": {
       "Name": "Skeleton table at CDAWeb/SPDF",
-      "URL": "ftps://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/isee1_h1_fpe_00000000_v01.skt"
+      "URL": "https://spdf.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/isee1_h1_fpe_00000000_v01.skt"
     },
     "_cdaweb_ids": [
       "ISEE1_H1_FPE"
     ]
   },
-  "ftp://spdf.gsfc.nasa.gov/pub/data/isee/isee1/plasma_lanl/aareadme.txt": {
+  "https://spdf.gsfc.nasa.gov/pub/data/isee/isee1/plasma_lanl/aareadme.txt": {
     "InformationURL": {
       "Name": "Readme file at SPDF",
-      "URL": "ftp://spdf.gsfc.nasa.gov/pub/data/isee/isee1/plasma_lanl/aareadme.txt"
+      "URL": "https://spdf.gsfc.nasa.gov/pub/data/isee/isee1/plasma_lanl/aareadme.txt"
     },
     "_cdaweb_ids": [
       "ISEE1_H2_FPE"
@@ -3399,10 +3183,10 @@
       "ISEE1_PWI_SFR-E"
     ]
   },
-  "ftps://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/isee2_h1_fpe_00000000_v01.skt": {
+  "https://spdf.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/isee2_h1_fpe_00000000_v01.skt": {
     "InformationURL": {
       "Name": "Skeleton table at CDAWeb/SPDF",
-      "URL": "ftps://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/isee2_h1_fpe_00000000_v01.skt"
+      "URL": "https://spdf.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/isee2_h1_fpe_00000000_v01.skt"
     },
     "_cdaweb_ids": [
       "ISEE2_H1_FPE"
@@ -3438,10 +3222,10 @@
       "ISS_SP_FPMU"
     ]
   },
-  "http://www.iki.rssi.ru/vprokhor": {
+  "http://www.iki.rssi.ru/vprokhor/": {
     "InformationURL": {
       "Name": "IKI Satellite Situation Center",
-      "URL": "http://www.iki.rssi.ru/vprokhor",
+      "URL": "http://www.iki.rssi.ru/vprokhor/",
       "Description": "This page maintains the Situation Analysis for the IKI International Space Missions and its coordination with the Inter-Agency multimission campaigns."
     },
     "_cdaweb_ids": [
@@ -3474,7 +3258,9 @@
       "Description": "Journal of Geophysical Research Article on the LANL MPA instrument."
     },
     "_cdaweb_ids": [
-      "L0_K0_MPA"
+      "L0_K0_MPA",
+      "L7_K0_MPA",
+      "L9_K0_MPA"
     ]
   },
   "https://doi.org/10.1029/92JA01139": {
@@ -3485,18 +3271,9 @@
     },
     "_cdaweb_ids": [
       "L0_K0_SPA",
-      "L4_K0_SPA"
-    ]
-  },
-  " https://doi.org/10.1029/93JA00726": {
-    "InformationURL": {
-      "Name": "Los Alamos Nation Laboratory spacecraft Magnetospheric Plasma Analyzer",
-      "URL": " https://doi.org/10.1029/93JA00726",
-      "Description": "Journal of Geophysical Research Article on the LANL MPA instrument."
-    },
-    "_cdaweb_ids": [
-      "L1_K0_MPA",
-      "L4_K0_MPA"
+      "L4_K0_SPA",
+      "L7_K0_SPA",
+      "L9_K0_SPA"
     ]
   },
   " https://doi.org/10.1029/92JA01139": {
@@ -3507,28 +3284,6 @@
     },
     "_cdaweb_ids": [
       "L1_K0_SPA"
-    ]
-  },
-  "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/93JA00726": {
-    "InformationURL": {
-      "Name": "Los Alamos Nation Laboratory spacecraft Magnetospheric Plasma Analyzer",
-      "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/93JA00726",
-      "Description": "Journal of Geophysical Research Article on the LANL MPA instrument."
-    },
-    "_cdaweb_ids": [
-      "L7_K0_MPA",
-      "L9_K0_MPA"
-    ]
-  },
-  "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/92JA01139": {
-    "InformationURL": {
-      "Name": "Los Alamos Nation Laboratory spacecraft Synchronous Orbit Particle Analyzer (SOPA)",
-      "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/92JA01139",
-      "Description": "Journal of Geophysical Research Article containing information on the LANL SOPA instrument."
-    },
-    "_cdaweb_ids": [
-      "L7_K0_SPA",
-      "L9_K0_SPA"
     ]
   },
   "https://doi.org/10.48322/90ar-hx32": {
@@ -3671,7 +3426,15 @@
       "MMS1_FEEPS_SRVY_L2_ION",
       "MMS1_FGM_BRST_L2",
       "MMS1_FGM_SRVY_L2",
+      "MMS1_FPI_BRST_L2_DES-DIST",
+      "MMS1_FPI_BRST_L2_DES-DIST",
+      "MMS1_FPI_BRST_L2_DES-MOMS",
+      "MMS1_FPI_BRST_L2_DES-MOMS",
       "MMS1_FPI_BRST_L2_DES-PARTMOMS",
+      "MMS1_FPI_BRST_L2_DIS-DIST",
+      "MMS1_FPI_BRST_L2_DIS-DIST",
+      "MMS1_FPI_BRST_L2_DIS-MOMS",
+      "MMS1_FPI_BRST_L2_DIS-MOMS",
       "MMS1_FPI_BRST_L2_DIS-PARTMOMS",
       "MMS1_FPI_FAST_L2_DES-DIST",
       "MMS1_FPI_FAST_L2_DES-DIST",
@@ -3687,6 +3450,7 @@
       "MMS1_HPCA_BRST_L2_MOMENTS",
       "MMS1_HPCA_SRVY_L2_ION",
       "MMS1_HPCA_SRVY_L2_MOMENTS",
+      "MMS1_HPCA_SRVY_L2_TOF-COUNTS",
       "MMS1_MEC_BRST_L2_EPHT89D",
       "MMS1_MEC_BRST_L2_EPHT89Q",
       "MMS1_MEC_BRST_L2_EPHTS04D",
@@ -3728,7 +3492,15 @@
       "MMS2_FEEPS_SRVY_L2_ION",
       "MMS2_FGM_BRST_L2",
       "MMS2_FGM_SRVY_L2",
+      "MMS2_FPI_BRST_L2_DES-DIST",
+      "MMS2_FPI_BRST_L2_DES-DIST",
+      "MMS2_FPI_BRST_L2_DES-MOMS",
+      "MMS2_FPI_BRST_L2_DES-MOMS",
       "MMS2_FPI_BRST_L2_DES-PARTMOMS",
+      "MMS2_FPI_BRST_L2_DIS-DIST",
+      "MMS2_FPI_BRST_L2_DIS-DIST",
+      "MMS2_FPI_BRST_L2_DIS-MOMS",
+      "MMS2_FPI_BRST_L2_DIS-MOMS",
       "MMS2_FPI_BRST_L2_DIS-PARTMOMS",
       "MMS2_FPI_FAST_L2_DES-DIST",
       "MMS2_FPI_FAST_L2_DES-DIST",
@@ -3744,6 +3516,7 @@
       "MMS2_HPCA_BRST_L2_MOMENTS",
       "MMS2_HPCA_SRVY_L2_ION",
       "MMS2_HPCA_SRVY_L2_MOMENTS",
+      "MMS2_HPCA_SRVY_L2_TOF-COUNTS",
       "MMS2_MEC_BRST_L2_EPHT89D",
       "MMS2_MEC_BRST_L2_EPHT89Q",
       "MMS2_MEC_BRST_L2_EPHTS04D",
@@ -3785,7 +3558,15 @@
       "MMS3_FEEPS_SRVY_L2_ION",
       "MMS3_FGM_BRST_L2",
       "MMS3_FGM_SRVY_L2",
+      "MMS3_FPI_BRST_L2_DES-DIST",
+      "MMS3_FPI_BRST_L2_DES-DIST",
+      "MMS3_FPI_BRST_L2_DES-MOMS",
+      "MMS3_FPI_BRST_L2_DES-MOMS",
       "MMS3_FPI_BRST_L2_DES-PARTMOMS",
+      "MMS3_FPI_BRST_L2_DIS-DIST",
+      "MMS3_FPI_BRST_L2_DIS-DIST",
+      "MMS3_FPI_BRST_L2_DIS-MOMS",
+      "MMS3_FPI_BRST_L2_DIS-MOMS",
       "MMS3_FPI_BRST_L2_DIS-PARTMOMS",
       "MMS3_FPI_FAST_L2_DES-DIST",
       "MMS3_FPI_FAST_L2_DES-DIST",
@@ -3801,6 +3582,7 @@
       "MMS3_HPCA_BRST_L2_MOMENTS",
       "MMS3_HPCA_SRVY_L2_ION",
       "MMS3_HPCA_SRVY_L2_MOMENTS",
+      "MMS3_HPCA_SRVY_L2_TOF-COUNTS",
       "MMS3_MEC_BRST_L2_EPHT89D",
       "MMS3_MEC_BRST_L2_EPHT89Q",
       "MMS3_MEC_BRST_L2_EPHTS04D",
@@ -3842,7 +3624,15 @@
       "MMS4_FEEPS_SRVY_L2_ION",
       "MMS4_FGM_BRST_L2",
       "MMS4_FGM_SRVY_L2",
+      "MMS4_FPI_BRST_L2_DES-DIST",
+      "MMS4_FPI_BRST_L2_DES-DIST",
+      "MMS4_FPI_BRST_L2_DES-MOMS",
+      "MMS4_FPI_BRST_L2_DES-MOMS",
       "MMS4_FPI_BRST_L2_DES-PARTMOMS",
+      "MMS4_FPI_BRST_L2_DIS-DIST",
+      "MMS4_FPI_BRST_L2_DIS-DIST",
+      "MMS4_FPI_BRST_L2_DIS-MOMS",
+      "MMS4_FPI_BRST_L2_DIS-MOMS",
       "MMS4_FPI_BRST_L2_DIS-PARTMOMS",
       "MMS4_FPI_FAST_L2_DES-DIST",
       "MMS4_FPI_FAST_L2_DES-DIST",
@@ -3858,6 +3648,7 @@
       "MMS4_HPCA_BRST_L2_MOMENTS",
       "MMS4_HPCA_SRVY_L2_ION",
       "MMS4_HPCA_SRVY_L2_MOMENTS",
+      "MMS4_HPCA_SRVY_L2_TOF-COUNTS",
       "MMS4_MEC_BRST_L2_EPHT89D",
       "MMS4_MEC_BRST_L2_EPHT89Q",
       "MMS4_MEC_BRST_L2_EPHTS04D",
@@ -3893,59 +3684,6 @@
       "MMS2_ASPOC_SRVY_L2",
       "MMS3_ASPOC_SRVY_L2",
       "MMS4_ASPOC_SRVY_L2"
-    ]
-  },
-  "http://mms.space.swri.edu/index.html": {
-    "InformationURL": {
-      "Name": "The MMS Scientific Investigation, SMART, home page at Southwest Research Institute (SwRI)",
-      "URL": "http://mms.space.swri.edu/index.html",
-      "Description": "The Magnetospheric Multiscale (MMS) Scientific Investigation home page. The MMS Scientific Investigation is called Solving Magnetospheric Acceleration, Reconnection, and Turbulence (SMART). The web page is hosted by the Southwest Research Institute (SwRI)."
-    },
-    "_cdaweb_ids": [
-      "MMS1_EDI_BRST_L2_AMB",
-      "MMS1_EDI_BRST_L2_EFIELD",
-      "MMS1_EDI_SRVY_L2_AMB-PM2",
-      "MMS1_EDI_SRVY_L2_EFIELD",
-      "MMS1_EPD-EIS_BRST_L2_PHXTOF",
-      "MMS1_EPD-EIS_SRVY_L2_EXTOF",
-      "MMS1_FEEPS_BRST_L2_ELECTRON",
-      "MMS1_FEEPS_SRVY_L2_ELECTRON",
-      "MMS1_FGM_SRVY_L2",
-      "MMS1_HPCA_BRST_L2_MOMENTS",
-      "MMS1_HPCA_SRVY_L2_ION",
-      "MMS2_EDI_BRST_L2_AMB",
-      "MMS2_EDI_BRST_L2_EFIELD",
-      "MMS2_EDI_SRVY_L2_AMB-PM2",
-      "MMS2_EDI_SRVY_L2_EFIELD",
-      "MMS2_EPD-EIS_BRST_L2_PHXTOF",
-      "MMS2_EPD-EIS_SRVY_L2_EXTOF",
-      "MMS2_FEEPS_BRST_L2_ELECTRON",
-      "MMS2_FEEPS_SRVY_L2_ELECTRON",
-      "MMS2_FGM_SRVY_L2",
-      "MMS2_HPCA_BRST_L2_MOMENTS",
-      "MMS2_HPCA_SRVY_L2_ION",
-      "MMS3_EDI_BRST_L2_AMB",
-      "MMS3_EDI_BRST_L2_EFIELD",
-      "MMS3_EDI_SRVY_L2_AMB-PM2",
-      "MMS3_EDI_SRVY_L2_EFIELD",
-      "MMS3_EPD-EIS_BRST_L2_PHXTOF",
-      "MMS3_EPD-EIS_SRVY_L2_EXTOF",
-      "MMS3_FEEPS_BRST_L2_ELECTRON",
-      "MMS3_FEEPS_SRVY_L2_ELECTRON",
-      "MMS3_FGM_SRVY_L2",
-      "MMS3_HPCA_BRST_L2_MOMENTS",
-      "MMS3_HPCA_SRVY_L2_ION",
-      "MMS4_EDI_BRST_L2_AMB",
-      "MMS4_EDI_BRST_L2_EFIELD",
-      "MMS4_EDI_SRVY_L2_AMB-PM2",
-      "MMS4_EDI_SRVY_L2_EFIELD",
-      "MMS4_EPD-EIS_BRST_L2_PHXTOF",
-      "MMS4_EPD-EIS_SRVY_L2_EXTOF",
-      "MMS4_FEEPS_BRST_L2_ELECTRON",
-      "MMS4_FEEPS_SRVY_L2_ELECTRON",
-      "MMS4_FGM_SRVY_L2",
-      "MMS4_HPCA_BRST_L2_MOMENTS",
-      "MMS4_HPCA_SRVY_L2_ION"
     ]
   },
   "https://lasp.colorado.edu/mms/sdc/public/datasets/fields/": {
@@ -3997,31 +3735,6 @@
       "MMS4_FGM_SRVY_L2"
     ]
   },
-  "http://mms-fields.unh.edu/": {
-    "InformationURL": {
-      "Name": "At UNH",
-      "URL": "http://mms-fields.unh.edu/",
-      "Description": "The Magnetospheric Multiscale (MMS) FIELDS Instrument Suite home page. The web page is hosted by the University of New Hampshire (UNH)."
-    },
-    "_cdaweb_ids": [
-      "MMS1_EDI_BRST_L2_AMB",
-      "MMS1_EDI_BRST_L2_EFIELD",
-      "MMS1_EDI_SRVY_L2_AMB-PM2",
-      "MMS1_EDI_SRVY_L2_EFIELD",
-      "MMS2_EDI_BRST_L2_AMB",
-      "MMS2_EDI_BRST_L2_EFIELD",
-      "MMS2_EDI_SRVY_L2_AMB-PM2",
-      "MMS2_EDI_SRVY_L2_EFIELD",
-      "MMS3_EDI_BRST_L2_AMB",
-      "MMS3_EDI_BRST_L2_EFIELD",
-      "MMS3_EDI_SRVY_L2_AMB-PM2",
-      "MMS3_EDI_SRVY_L2_EFIELD",
-      "MMS4_EDI_BRST_L2_AMB",
-      "MMS4_EDI_BRST_L2_EFIELD",
-      "MMS4_EDI_SRVY_L2_AMB-PM2",
-      "MMS4_EDI_SRVY_L2_EFIELD"
-    ]
-  },
   "https://mms-fields.unh.edu/": {
     "InformationURL": {
       "Name": "At UNH",
@@ -4029,47 +3742,38 @@
       "Description": "The Magnetospheric Multiscale (MMS) FIELDS Instrument Suite home page. The web page is hosted by the University of New Hampshire (UNH)."
     },
     "_cdaweb_ids": [
+      "MMS1_EDI_BRST_L2_AMB",
       "MMS1_EDI_BRST_L2_AMB-PM2",
+      "MMS1_EDI_BRST_L2_EFIELD",
       "MMS1_EDI_BRST_L2_Q0",
       "MMS1_EDI_SRVY_L2_AMB",
+      "MMS1_EDI_SRVY_L2_AMB-PM2",
+      "MMS1_EDI_SRVY_L2_EFIELD",
       "MMS1_EDI_SRVY_L2_Q0",
+      "MMS2_EDI_BRST_L2_AMB",
       "MMS2_EDI_BRST_L2_AMB-PM2",
+      "MMS2_EDI_BRST_L2_EFIELD",
       "MMS2_EDI_BRST_L2_Q0",
       "MMS2_EDI_SRVY_L2_AMB",
+      "MMS2_EDI_SRVY_L2_AMB-PM2",
+      "MMS2_EDI_SRVY_L2_EFIELD",
       "MMS2_EDI_SRVY_L2_Q0",
+      "MMS3_EDI_BRST_L2_AMB",
       "MMS3_EDI_BRST_L2_AMB-PM2",
+      "MMS3_EDI_BRST_L2_EFIELD",
       "MMS3_EDI_BRST_L2_Q0",
       "MMS3_EDI_SRVY_L2_AMB",
+      "MMS3_EDI_SRVY_L2_AMB-PM2",
+      "MMS3_EDI_SRVY_L2_EFIELD",
       "MMS3_EDI_SRVY_L2_Q0",
+      "MMS4_EDI_BRST_L2_AMB",
       "MMS4_EDI_BRST_L2_AMB-PM2",
+      "MMS4_EDI_BRST_L2_EFIELD",
       "MMS4_EDI_BRST_L2_Q0",
       "MMS4_EDI_SRVY_L2_AMB",
+      "MMS4_EDI_SRVY_L2_AMB-PM2",
+      "MMS4_EDI_SRVY_L2_EFIELD",
       "MMS4_EDI_SRVY_L2_Q0"
-    ]
-  },
-  "http://mms.space.swri.edu/": {
-    "InformationURL": {
-      "Name": "The MMS Scientific Investigation, SMART, home page at Southwest Research Institute (SwRI)",
-      "URL": "http://mms.space.swri.edu/",
-      "Description": "The Magnetospheric Multiscale (MMS) Scientific Investigation home page. The MMS Scientific Investigation is called Solving Magnetospheric Acceleration, Reconnection, and Turbulence (SMART). The web page is hosted by the Southwest Research Institute (SwRI)."
-    },
-    "_cdaweb_ids": [
-      "MMS1_EDP_FAST_L2_SCPOT",
-      "MMS1_EDP_SLOW_L2_SCPOT",
-      "MMS1_FPI_FAST_L2_DES-PARTMOMS",
-      "MMS1_FPI_FAST_L2_DIS-PARTMOMS",
-      "MMS2_EDP_FAST_L2_SCPOT",
-      "MMS2_EDP_SLOW_L2_SCPOT",
-      "MMS2_FPI_FAST_L2_DES-PARTMOMS",
-      "MMS2_FPI_FAST_L2_DIS-PARTMOMS",
-      "MMS3_EDP_FAST_L2_SCPOT",
-      "MMS3_EDP_SLOW_L2_SCPOT",
-      "MMS3_FPI_FAST_L2_DES-PARTMOMS",
-      "MMS3_FPI_FAST_L2_DIS-PARTMOMS",
-      "MMS4_EDP_FAST_L2_SCPOT",
-      "MMS4_EDP_SLOW_L2_SCPOT",
-      "MMS4_FPI_FAST_L2_DES-PARTMOMS",
-      "MMS4_FPI_FAST_L2_DIS-PARTMOMS"
     ]
   },
   "https://lasp.colorado.edu/mms/sdc/public/datasets/epd/": {
@@ -4125,72 +3829,13 @@
     },
     "_cdaweb_ids": [
       "MMS1_FGM_BRST_L2",
-      "MMS2_FGM_BRST_L2",
-      "MMS3_FGM_BRST_L2",
-      "MMS4_FGM_BRST_L2"
-    ]
-  },
-  "https://www.iwf.oeaw.ac.at/missionen/laufende-missionen/mms/dfg/": {
-    "InformationURL": {
-      "Name": "The MMS Graz FGM Team home page at IWF, OAW",
-      "URL": "https://www.iwf.oeaw.ac.at/missionen/laufende-missionen/mms/dfg/",
-      "Description": "The Magnetospheric Multiscale (MMS) Flux Gate Magnetometer (FGM) home page hosted by the Institut fur Weltraumforschung (IWF), Osterreichische Akademie der Wissenschaften (OAW)."
-    },
-    "_cdaweb_ids": [
       "MMS1_FGM_SRVY_L2",
+      "MMS2_FGM_BRST_L2",
       "MMS2_FGM_SRVY_L2",
+      "MMS3_FGM_BRST_L2",
       "MMS3_FGM_SRVY_L2",
+      "MMS4_FGM_BRST_L2",
       "MMS4_FGM_SRVY_L2"
-    ]
-  },
-  "https://mms.gsfc.nasa.gov": {
-    "InformationURL": {
-      "Name": "The Magnetospheric Multiscale (MMS) Mission home page at Goddard Space Flight Center (GSFC)",
-      "URL": "https://mms.gsfc.nasa.gov",
-      "Description": "The Magnetospheric Multiscale (MMS) Mission Home Page hosted at the Goddard Space Flight Center (GSFC)"
-    },
-    "_cdaweb_ids": [
-      "MMS1_FPI_BRST_L2_DES-DIST",
-      "MMS1_FPI_BRST_L2_DES-MOMS",
-      "MMS1_FPI_BRST_L2_DIS-DIST",
-      "MMS1_FPI_BRST_L2_DIS-MOMS",
-      "MMS2_FPI_BRST_L2_DES-DIST",
-      "MMS2_FPI_BRST_L2_DES-MOMS",
-      "MMS2_FPI_BRST_L2_DIS-DIST",
-      "MMS2_FPI_BRST_L2_DIS-MOMS",
-      "MMS3_FPI_BRST_L2_DES-DIST",
-      "MMS3_FPI_BRST_L2_DES-MOMS",
-      "MMS3_FPI_BRST_L2_DIS-DIST",
-      "MMS3_FPI_BRST_L2_DIS-MOMS",
-      "MMS4_FPI_BRST_L2_DES-DIST",
-      "MMS4_FPI_BRST_L2_DES-MOMS",
-      "MMS4_FPI_BRST_L2_DIS-DIST",
-      "MMS4_FPI_BRST_L2_DIS-MOMS"
-    ]
-  },
-  "http://mms.space.swri.edu": {
-    "InformationURL": {
-      "Name": "The MMS Scientific Investigation, SMART, home page at Southwest Research Institute (SwRI)",
-      "URL": "http://mms.space.swri.edu",
-      "Description": "The SMART Home Page hosted by the Southwest Research Institute (SwRI). SMART is the Acronym for the Magnetospheric Multiscale (MMS) Scientific Investigation. The Acronym stands for Solving Magnetospheric Acceleration, Reconnection, and Turbulence."
-    },
-    "_cdaweb_ids": [
-      "MMS1_FPI_BRST_L2_DES-DIST",
-      "MMS1_FPI_BRST_L2_DES-MOMS",
-      "MMS1_FPI_BRST_L2_DIS-DIST",
-      "MMS1_FPI_BRST_L2_DIS-MOMS",
-      "MMS2_FPI_BRST_L2_DES-DIST",
-      "MMS2_FPI_BRST_L2_DES-MOMS",
-      "MMS2_FPI_BRST_L2_DIS-DIST",
-      "MMS2_FPI_BRST_L2_DIS-MOMS",
-      "MMS3_FPI_BRST_L2_DES-DIST",
-      "MMS3_FPI_BRST_L2_DES-MOMS",
-      "MMS3_FPI_BRST_L2_DIS-DIST",
-      "MMS3_FPI_BRST_L2_DIS-MOMS",
-      "MMS4_FPI_BRST_L2_DES-DIST",
-      "MMS4_FPI_BRST_L2_DES-MOMS",
-      "MMS4_FPI_BRST_L2_DIS-DIST",
-      "MMS4_FPI_BRST_L2_DIS-MOMS"
     ]
   },
   "https://lasp.colorado.edu/mms/sdc/public/": {
@@ -4332,27 +3977,10 @@
       "MMS4_HPCA_SRVY_L2_MOMENTS"
     ]
   },
-  "http://mms.space.swri.edu/instruments.html": {
-    "InformationURL": {
-      "Name": "The MMS SwRI Team Instrument Payload home page",
-      "URL": "http://mms.space.swri.edu/instruments.html",
-      "Description": "The Magnetospheric Multiscale (MMS) Instrument Payload home page. The web page is hosted by the Southwest Research Institute (SwRI)."
-    },
-    "_cdaweb_ids": [
-      "MMS1_HPCA_BRST_L2_MOMENTS",
-      "MMS1_HPCA_SRVY_L2_ION",
-      "MMS2_HPCA_BRST_L2_MOMENTS",
-      "MMS2_HPCA_SRVY_L2_ION",
-      "MMS3_HPCA_BRST_L2_MOMENTS",
-      "MMS3_HPCA_SRVY_L2_ION",
-      "MMS4_HPCA_BRST_L2_MOMENTS",
-      "MMS4_HPCA_SRVY_L2_ION"
-    ]
-  },
-  "https://www.nasa.gov/mission_pages/mms/spacecraft/mms-instruments.html": {
+  "https://mms.gsfc.nasa.gov/instruments.html": {
     "InformationURL": {
       "Name": "MMS instruments, hosted by NASA",
-      "URL": "https://www.nasa.gov/mission_pages/mms/spacecraft/mms-instruments.html",
+      "URL": "https://mms.gsfc.nasa.gov/instruments.html",
       "Description": "MMS Science instrument descriptions, hosted by National Aeronautics and Space Administration, NASA"
     },
     "_cdaweb_ids": [
@@ -4362,11 +3990,11 @@
       "MMS4_HPCA_SRVY_L2_TOF-COUNTS"
     ]
   },
-  "https://link.springer.com/article/10.1007/s11214-014-0119-6": {
+  "https://doi.org/10.1007/s11214-014-0119-6": {
     "InformationURL": {
       "Name": "MMS Hot Plasma Composition Analyzer, HPCA, Space Science Reviews instrument paper",
-      "URL": "https://link.springer.com/article/10.1007/s11214-014-0119-6",
-      "Description": "Young, D. T. , J.L. Burch, R.G. Gomez, A. De Los Santos, G.P. Miller, P. Wilson, IV, N. Paschalidis, S.A. Fuselier, K. Pickens, E. Hertzberg, C.J. Pollock, J. Scherrer, P.B. Wood, E.T. Donald, D. Aaron, J. Furman, D. George, R.S. Gurnee, R.S. Hourani, A. Jacques, T. Johnson, T. Orr, K.S. Pan, S. Persyn, S. Pope, J. Roberts, M.R. Stokes, K.J. Trattner, and J.M. Webster, Hot Plasma Composition Analyzer for the Magnetospheric Multiscale Mission, Space Sci. Rev., 199, 407–470, 2016, DOI: 10.1007/s11214-014-0119-6"
+      "URL": "https://doi.org/10.1007/s11214-014-0119-6",
+      "Description": "Young, D. T. , J.L. Burch, R.G. Gomez, A. De Los Santos, G.P. Miller, P. Wilson, IV, N. Paschalidis, S.A. Fuselier, K. Pickens, E. Hertzberg, C.J. Pollock, J. Scherrer, P.B. Wood, E.T. Donald, D. Aaron, J. Furman, D. George, R.S. Gurnee, R.S. Hourani, A. Jacques, T. Johnson, T. Orr, K.S. Pan, S. Persyn, S. Pope, J. Roberts, M.R. Stokes, K.J. Trattner, and J.M. Webster, Hot Plasma Composition Analyzer for the Magnetospheric Multiscale Mission, Space Sci. Rev., 199, 407-470, 2016, DOI: 10.1007/s11214-014-0119-6"
     },
     "_cdaweb_ids": [
       "MMS1_HPCA_SRVY_L2_TOF-COUNTS",
@@ -4416,24 +4044,15 @@
     },
     "_cdaweb_ids": [
       "MMS1_SCM_BRST_L2_SCB",
-      "MMS2_SCM_BRST_L2_SCB",
-      "MMS3_SCM_BRST_L2_SCB",
-      "MMS4_SCM_BRST_L2_SCB"
-    ]
-  },
-  "https://magnum.lpp.polytechnique.fr/MMS-SCM-939?lang=en": {
-    "InformationURL": {
-      "Name": "The MMS LPP SCM Team home page at LPP, UPMC",
-      "URL": "https://magnum.lpp.polytechnique.fr/MMS-SCM-939?lang=en",
-      "Description": "The Magnetospheric Multiscale (MMS) Search-Coil Magnetometer (FGM) home page hosted by the Laboratoire de Physique des Plasma (LPP), Universite Pierre et Marie Curie (UPMC)."
-    },
-    "_cdaweb_ids": [
       "MMS1_SCM_BRST_L2_SCHB",
       "MMS1_SCM_SRVY_L2_SCSRVY",
+      "MMS2_SCM_BRST_L2_SCB",
       "MMS2_SCM_BRST_L2_SCHB",
       "MMS2_SCM_SRVY_L2_SCSRVY",
+      "MMS3_SCM_BRST_L2_SCB",
       "MMS3_SCM_BRST_L2_SCHB",
       "MMS3_SCM_SRVY_L2_SCSRVY",
+      "MMS4_SCM_BRST_L2_SCB",
       "MMS4_SCM_BRST_L2_SCHB",
       "MMS4_SCM_SRVY_L2_SCSRVY"
     ]
@@ -4832,7 +4451,8 @@
       "Description": "Additional analysis tools for these data from the"
     },
     "_cdaweb_ids": [
-      "OMNI_COHO1HR_MERGED_MAG_PLASMA"
+      "OMNI_COHO1HR_MERGED_MAG_PLASMA",
+      "PSP_COHO1HR_MERGED_MAG_PLASMA"
     ]
   },
   "https://omniweb.gsfc.nasa.gov/html/HROdocum.html": {
@@ -4844,7 +4464,8 @@
     "_cdaweb_ids": [
       "OMNI_HRO2_1MIN",
       "OMNI_HRO2_5MIN",
-      "OMNI_HRO_1MIN"
+      "OMNI_HRO_1MIN",
+      "OMNI_HRO_5MIN"
     ]
   },
   "https://omniweb.gsfc.nasa.gov/ow_min.html": {
@@ -4869,20 +4490,10 @@
       "OMNI_HRO2_5MIN"
     ]
   },
-  "https://omniweb.sci.gsfc.nasa.gov/html/HROdocum.html": {
-    "InformationURL": {
-      "Name": "High Resolution OMNI Documentation",
-      "URL": "https://omniweb.sci.gsfc.nasa.gov/html/HROdocum.html",
-      "Description": "Extensive OMNI documentation pages"
-    },
-    "_cdaweb_ids": [
-      "OMNI_HRO_5MIN"
-    ]
-  },
-  "ftps://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer10/merged/coho1hr_magplasma_ascii/p10mgd.txt": {
+  "https://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer10/merged/coho1hr_magplasma_ascii/p10mgd.txt": {
     "InformationURL": {
       "Name": "Readme file at SPDF",
-      "URL": "ftps://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer10/merged/coho1hr_magplasma_ascii/p10mgd.txt"
+      "URL": "https://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer10/merged/coho1hr_magplasma_ascii/p10mgd.txt"
     },
     "_cdaweb_ids": [
       "PIONEER10_COHO1HR_MERGED_MAG_PLASMA"
@@ -4927,10 +4538,10 @@
       "PIONEER11_HELIO1HR_POSITION"
     ]
   },
-  "ftps://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer_venus/merged/coho1hr_magplasma_ascii/pvomgd.txt": {
+  "https://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer_venus/merged/coho1hr_magplasma_ascii/pvomgd.txt": {
     "InformationURL": {
       "Name": "Readme file from SPDF",
-      "URL": "ftps://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer_venus/merged/coho1hr_magplasma_ascii/pvomgd.txt"
+      "URL": "https://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer_venus/merged/coho1hr_magplasma_ascii/pvomgd.txt"
     },
     "_cdaweb_ids": [
       "PIONEERVENUS_COHO1HR_MERGED_MAG_PLASMA"
@@ -4990,29 +4601,36 @@
       "PO_OR_DEF"
     ]
   },
-  "http://www-pw.physics.uiowa.edu/plasma-wave/istp/polar/data.html": {
+  "https://www-pw.physics.uiowa.edu/plasma-wave/istp/polar/data.html": {
     "InformationURL": {
       "Name": "Polar Plasma Wave Investigation (PWI) Data and User's Guides",
-      "URL": "http://www-pw.physics.uiowa.edu/plasma-wave/istp/polar/data.html",
+      "URL": "https://www-pw.physics.uiowa.edu/plasma-wave/istp/polar/data.html",
       "Description": "A Polar PWI page is maintained at the University of Iowa with descriptions of interpretation issues, user's guides, data availability tables, a form for creating summary plots and access to pregenerated dynamic spectrograms.",
       "Language": "en"
     },
     "_cdaweb_ids": [
-      "PO_H0_PWI",
-      "PO_H1_PWI",
-      "PO_H2_PWI"
+      "PO_H0_PWI"
     ]
   },
-  "http://www-pw.physics.uiowa.edu/plasma-wave/istp/polar/modes.html": {
+  "https://www-pw.physics.uiowa.edu/plasma-wave/istp/polar/modes.html": {
     "InformationURL": {
       "Name": "User's Guide to PWI Receiver Design Features and Modes",
-      "URL": "http://www-pw.physics.uiowa.edu/plasma-wave/istp/polar/modes.html",
+      "URL": "https://www-pw.physics.uiowa.edu/plasma-wave/istp/polar/modes.html",
       "Description": "Descriptions of PWI receiver and antenna modes.",
       "Language": "en"
     },
     "_cdaweb_ids": [
-      "PO_H0_PWI",
-      "PO_H1_PWI"
+      "PO_H0_PWI"
+    ]
+  },
+  "http://tideuvira.nsstc.nasa.gov/tide": {
+    "InformationURL": {
+      "Name": "TIDE NSSTC (MSFC) Home Page",
+      "URL": "http://tideuvira.nsstc.nasa.gov/tide"
+    },
+    "_cdaweb_ids": [
+      "PO_H0_TID",
+      "PO_H1_TID"
     ]
   },
   "http://lasp.colorado.edu/home/timas/full/": {
@@ -5065,6 +4683,29 @@
     "_cdaweb_ids": [
       "PO_H0_TIM",
       "PO_K1_TIM"
+    ]
+  },
+  "http://www-pw.physics.uiowa.edu/plasma-wave/istp/polar/data.html": {
+    "InformationURL": {
+      "Name": "Polar Plasma Wave Investigation (PWI) Data and User's Guides",
+      "URL": "http://www-pw.physics.uiowa.edu/plasma-wave/istp/polar/data.html",
+      "Description": "A Polar PWI page is maintained at the University of Iowa with descriptions of interpretation issues, user's guides, data availability tables, a form for creating summary plots and access to pregenerated dynamic spectrograms.",
+      "Language": "en"
+    },
+    "_cdaweb_ids": [
+      "PO_H1_PWI",
+      "PO_H2_PWI"
+    ]
+  },
+  "http://www-pw.physics.uiowa.edu/plasma-wave/istp/polar/modes.html": {
+    "InformationURL": {
+      "Name": "User's Guide to PWI Receiver Design Features and Modes",
+      "URL": "http://www-pw.physics.uiowa.edu/plasma-wave/istp/polar/modes.html",
+      "Description": "Descriptions of PWI receiver and antenna modes.",
+      "Language": "en"
+    },
+    "_cdaweb_ids": [
+      "PO_H1_PWI"
     ]
   },
   "http://lasp.colorado.edu/timas/info/h12-data/h12-data.html": {
@@ -5127,6 +4768,18 @@
       "PO_H2_TIM"
     ]
   },
+  "https://space.physics.uiowa.edu/plasma-wave/polar/data.html": {
+    "InformationURL": {
+      "Name": "Polar Plasma Wave Investigation (PWI) Data and User's Guides",
+      "URL": "https://space.physics.uiowa.edu/plasma-wave/polar/data.html",
+      "Description": "A Polar PWI page is maintained at the University of Iowa with descriptions of receivers, interpretation issues, user's guides, and data availability tables.",
+      "Language": "en"
+    },
+    "_cdaweb_ids": [
+      "PO_H3_PWI",
+      "PO_H4_PWI"
+    ]
+  },
   "http://www-pw.physics.uiowa.edu/polar/data.html": {
     "InformationURL": {
       "Name": "Polar Plasma Wave Investigation (PWI) Data and User's Guides",
@@ -5135,22 +4788,30 @@
       "Language": "en"
     },
     "_cdaweb_ids": [
-      "PO_H3_PWI",
       "PO_H5_PWI",
       "PO_H7_PWI",
       "PO_H8_PWI",
       "PO_H9_PWI"
     ]
   },
-  "http://vis.physics.uiowa.edu/vis/vis_description/vis_description.htmlx": {
+  "http://tideuvira.nsstc.nasa.gov/uvi/": {
+    "InformationURL": {
+      "Name": "UVI Home Page",
+      "URL": "http://tideuvira.nsstc.nasa.gov/uvi/",
+      "Description": "The Polar Ultraviolet Imager (UVI) Home Page contains links that describe the instrument, its operation, allow the user to view 36 second images and key parameter mosaics from the mission and download software, plus links to the UVI data archive, to lists of UVI publications and presentations, and several miscellaneous mission sites."
+    },
+    "_cdaweb_ids": [
+      "PO_LEVEL1_UVI"
+    ]
+  },
+  "https://space.physics.uiowa.edu/vis/description.html": {
     "InformationURL": {
       "Name": "Scientific Description of the VIS Instrument",
-      "URL": "http://vis.physics.uiowa.edu/vis/vis_description/vis_description.htmlx",
+      "URL": "https://space.physics.uiowa.edu/vis/description.html",
       "Description": "Scientific Description of the VIS Instrument"
     },
     "_cdaweb_ids": [
-      "PO_VIS_EARTH-CAMERA-CALIBRATED",
-      "PO_VIS_VISIBLE-IMAGER-CALIBRATED"
+      "PO_VIS_EARTH-CAMERA-CALIBRATED"
     ]
   },
   "https://cdaweb.gsfc.nasa.gov/Polar_VIS_docs/SENSITIVITIES_AND_INTENSITIES.TXT": {
@@ -5175,6 +4836,26 @@
       "PO_VIS_VISIBLE-IMAGER-CALIBRATED"
     ]
   },
+  "https://space.physics.uiowa.edu/vis/software/": {
+    "InformationURL": {
+      "Name": "Link to Scientific Analysis Software",
+      "URL": "https://space.physics.uiowa.edu/vis/software/",
+      "Description": "Scientific Analysis Software"
+    },
+    "_cdaweb_ids": [
+      "PO_VIS_EARTH-CAMERA-CALIBRATED"
+    ]
+  },
+  "http://vis.physics.uiowa.edu/vis/vis_description/vis_description.htmlx": {
+    "InformationURL": {
+      "Name": "Scientific Description of the VIS Instrument",
+      "URL": "http://vis.physics.uiowa.edu/vis/vis_description/vis_description.htmlx",
+      "Description": "Scientific Description of the VIS Instrument"
+    },
+    "_cdaweb_ids": [
+      "PO_VIS_VISIBLE-IMAGER-CALIBRATED"
+    ]
+  },
   "http://vis.physics.uiowa.edu/vis/software/": {
     "InformationURL": {
       "Name": "Link to Scientific Analysis Software",
@@ -5182,7 +4863,6 @@
       "Description": "Scientific Analysis Software"
     },
     "_cdaweb_ids": [
-      "PO_VIS_EARTH-CAMERA-CALIBRATED",
       "PO_VIS_VISIBLE-IMAGER-CALIBRATED"
     ]
   },
@@ -5198,41 +4878,32 @@
       "STB_COHO1HR_MERGED_MAG_PLASMA"
     ]
   },
-  "https://omniweb.sci.gsfc.nasa.gov/coho/": {
+  "https://omniweb.gsfc.nasa.gov/coho/": {
     "InformationURL": {
       "Name": "COHOWeb Deep Space Hourly and Daily Data and Service web site, GSFC, SPDF",
-      "URL": "https://omniweb.sci.gsfc.nasa.gov/coho/",
+      "URL": "https://omniweb.gsfc.nasa.gov/coho/",
       "Description": "Data access and services for hourly and daily merged interplanetary magnetic field, plasma, proton fluxes, and ephemerides data from deep space satellite missions. The services include: 1) Graphical browse and listing, 2) Listing, and plotting with filtering, 3) Distribution functions, medians, averages, standard deviations, 4) Scatter plotting, linear regression fitting, 5) FTPS access to hourly data, and 6) FTPS access to high resolution data."
     },
     "_cdaweb_ids": [
       "PSP_COHO1HR_MERGED_MAG_PLASMA",
+      "STA_COHO1HR_MERGED_MAG_PLASMA",
       "STB_COHO1HR_MERGED_MAG_PLASMA"
     ]
   },
-  "https://omniweb.sci.gsfc.nasa.gov/html/about_interface.html": {
+  "https://omniweb.gsfc.nasa.gov/html/about_interface.html": {
     "InformationURL": {
       "Name": "OMNIWeb Plus Interface Description",
-      "URL": "https://omniweb.sci.gsfc.nasa.gov/html/about_interface.html",
+      "URL": "https://omniweb.gsfc.nasa.gov/html/about_interface.html",
       "Description": "The OMNIWeb Plus integrated interface provides access to the many interplanetary magnetic field, plasma, and energetic particle data sets hosted by the Goddard Space Flight Center, GSFC, Space Physics Data Facility, SPDF. OMNIWeb Plus services are available via several underlying interfaces including: OMNIWeb, COHOWeb, FTPBrowser, CDAWeb, HelioWeb, and direct HTTPS access that offering various functionalities."
     },
     "_cdaweb_ids": [
       "PSP_COHO1HR_MERGED_MAG_PLASMA"
     ]
   },
-  "https://omniweb.sci.gsfc.nasa.gov/": {
-    "InformationURL": {
-      "Name": "OMNIWeb Plus Deep Space Data and Service web site, GSFC, SPDF",
-      "URL": "https://omniweb.sci.gsfc.nasa.gov/",
-      "Description": "Paths to magnetic field, plasma, energetic particle, and ephemeris data relevant to heliospheric studies resident at the Goddard Space Flight Center, GSFC, Space Physics Data Facility, SPDF"
-    },
-    "_cdaweb_ids": [
-      "PSP_COHO1HR_MERGED_MAG_PLASMA"
-    ]
-  },
-  "https://omniweb.sci.gsfc.nasa.gov/html/citing.html": {
+  "https://omniweb.gsfc.nasa.gov/html/citing.html": {
     "InformationURL": {
       "Name": "OMNI Data Rules of the Road",
-      "URL": "https://omniweb.sci.gsfc.nasa.gov/html/citing.html",
+      "URL": "https://omniweb.gsfc.nasa.gov/html/citing.html",
       "Description": "OMNI Data Usage Citation Instructions"
     },
     "_cdaweb_ids": [
@@ -5291,6 +4962,7 @@
       "PSP_FLD_L2_MAG_SC",
       "PSP_FLD_L2_MAG_SC_1MIN",
       "PSP_FLD_L2_MAG_SC_4_SA_PER_CYC",
+      "PSP_FLD_L2_RFS_HFR",
       "PSP_FLD_L2_RFS_LFR"
     ]
   },
@@ -5341,8 +5013,12 @@
       "PSP_FLD_L2_DFB_WF_VDC",
       "PSP_FLD_L2_F2_100BPS",
       "PSP_FLD_L2_MAG_RTN",
+      "PSP_FLD_L2_MAG_RTN_1MIN",
+      "PSP_FLD_L2_MAG_RTN_4_SA_PER_CYC",
+      "PSP_FLD_L2_MAG_SC",
       "PSP_FLD_L2_MAG_SC_1MIN",
       "PSP_FLD_L2_MAG_SC_4_SA_PER_CYC",
+      "PSP_FLD_L2_RFS_HFR",
       "PSP_FLD_L2_RFS_LFR"
     ]
   },
@@ -5355,27 +5031,50 @@
     "_cdaweb_ids": [
       "PSP_FLD_L2_AEB",
       "PSP_FLD_L2_DFB_AC_BPF_DV12HG",
+      "PSP_FLD_L2_DFB_AC_BPF_DV34HG",
+      "PSP_FLD_L2_DFB_AC_BPF_SCMULFHG",
       "PSP_FLD_L2_DFB_AC_BPF_SCMUMFHG",
+      "PSP_FLD_L2_DFB_AC_SPEC_DV12HG",
+      "PSP_FLD_L2_DFB_AC_SPEC_DV34HG",
+      "PSP_FLD_L2_DFB_AC_SPEC_SCMDLFHG",
       "PSP_FLD_L2_DFB_AC_SPEC_SCMELFHG",
       "PSP_FLD_L2_DFB_AC_SPEC_SCMFLFHG",
+      "PSP_FLD_L2_DFB_AC_SPEC_SCMMF",
+      "PSP_FLD_L2_DFB_AC_SPEC_SCMULFLG",
       "PSP_FLD_L2_DFB_AC_SPEC_SCMVLFHG",
       "PSP_FLD_L2_DFB_AC_SPEC_V5HG",
       "PSP_FLD_L2_DFB_AC_XSPEC_DV12HG_DV34HG",
       "PSP_FLD_L2_DFB_AC_XSPEC_SCMDLFHG_SCMELFHG",
+      "PSP_FLD_L2_DFB_AC_XSPEC_SCMDLFHG_SCMFLFHG",
+      "PSP_FLD_L2_DFB_AC_XSPEC_SCMELFHG_SCMFLFHG",
       "PSP_FLD_L2_DFB_DBM_DVAC",
+      "PSP_FLD_L2_DFB_DBM_SCM",
+      "PSP_FLD_L2_DFB_DC_BPF_DV12HG",
       "PSP_FLD_L2_DFB_DC_BPF_DV34HG",
       "PSP_FLD_L2_DFB_DC_BPF_SCMULFHG",
+      "PSP_FLD_L2_DFB_DC_BPF_SCMVLFHG",
       "PSP_FLD_L2_DFB_DC_SPEC_DV12HG",
+      "PSP_FLD_L2_DFB_DC_SPEC_SCMDLFHG",
+      "PSP_FLD_L2_DFB_DC_SPEC_SCMELFHG",
       "PSP_FLD_L2_DFB_DC_SPEC_SCMFLFHG",
+      "PSP_FLD_L2_DFB_DC_SPEC_SCMULFHG",
       "PSP_FLD_L2_DFB_DC_SPEC_SCMVLFHG",
       "PSP_FLD_L2_DFB_DC_SPEC_SCMWLFHG",
       "PSP_FLD_L2_DFB_DC_XSPEC_SCMDLFHG_SCMELFHG",
       "PSP_FLD_L2_DFB_DC_XSPEC_SCMDLFHG_SCMFLFHG",
+      "PSP_FLD_L2_DFB_DC_XSPEC_SCMELFHG_SCMFLFHG",
+      "PSP_FLD_L2_DFB_DC_XSPEC_SCMVLFHG_SCMWLFHG",
       "PSP_FLD_L2_DFB_WF_DVDC",
+      "PSP_FLD_L2_DFB_WF_SCM",
+      "PSP_FLD_L2_DFB_WF_VDC",
       "PSP_FLD_L2_F2_100BPS",
       "PSP_FLD_L2_MAG_RTN",
+      "PSP_FLD_L2_MAG_RTN_1MIN",
+      "PSP_FLD_L2_MAG_RTN_4_SA_PER_CYC",
+      "PSP_FLD_L2_MAG_SC",
       "PSP_FLD_L2_MAG_SC_1MIN",
       "PSP_FLD_L2_MAG_SC_4_SA_PER_CYC",
+      "PSP_FLD_L2_RFS_HFR",
       "PSP_FLD_L2_RFS_LFR"
     ]
   },
@@ -5388,27 +5087,50 @@
     "_cdaweb_ids": [
       "PSP_FLD_L2_AEB",
       "PSP_FLD_L2_DFB_AC_BPF_DV12HG",
+      "PSP_FLD_L2_DFB_AC_BPF_DV34HG",
+      "PSP_FLD_L2_DFB_AC_BPF_SCMULFHG",
       "PSP_FLD_L2_DFB_AC_BPF_SCMUMFHG",
+      "PSP_FLD_L2_DFB_AC_SPEC_DV12HG",
+      "PSP_FLD_L2_DFB_AC_SPEC_DV34HG",
+      "PSP_FLD_L2_DFB_AC_SPEC_SCMDLFHG",
       "PSP_FLD_L2_DFB_AC_SPEC_SCMELFHG",
       "PSP_FLD_L2_DFB_AC_SPEC_SCMFLFHG",
+      "PSP_FLD_L2_DFB_AC_SPEC_SCMMF",
+      "PSP_FLD_L2_DFB_AC_SPEC_SCMULFLG",
       "PSP_FLD_L2_DFB_AC_SPEC_SCMVLFHG",
       "PSP_FLD_L2_DFB_AC_SPEC_V5HG",
       "PSP_FLD_L2_DFB_AC_XSPEC_DV12HG_DV34HG",
       "PSP_FLD_L2_DFB_AC_XSPEC_SCMDLFHG_SCMELFHG",
+      "PSP_FLD_L2_DFB_AC_XSPEC_SCMDLFHG_SCMFLFHG",
+      "PSP_FLD_L2_DFB_AC_XSPEC_SCMELFHG_SCMFLFHG",
       "PSP_FLD_L2_DFB_DBM_DVAC",
+      "PSP_FLD_L2_DFB_DBM_SCM",
+      "PSP_FLD_L2_DFB_DC_BPF_DV12HG",
       "PSP_FLD_L2_DFB_DC_BPF_DV34HG",
       "PSP_FLD_L2_DFB_DC_BPF_SCMULFHG",
+      "PSP_FLD_L2_DFB_DC_BPF_SCMVLFHG",
       "PSP_FLD_L2_DFB_DC_SPEC_DV12HG",
+      "PSP_FLD_L2_DFB_DC_SPEC_SCMDLFHG",
+      "PSP_FLD_L2_DFB_DC_SPEC_SCMELFHG",
       "PSP_FLD_L2_DFB_DC_SPEC_SCMFLFHG",
+      "PSP_FLD_L2_DFB_DC_SPEC_SCMULFHG",
       "PSP_FLD_L2_DFB_DC_SPEC_SCMVLFHG",
       "PSP_FLD_L2_DFB_DC_SPEC_SCMWLFHG",
       "PSP_FLD_L2_DFB_DC_XSPEC_SCMDLFHG_SCMELFHG",
       "PSP_FLD_L2_DFB_DC_XSPEC_SCMDLFHG_SCMFLFHG",
+      "PSP_FLD_L2_DFB_DC_XSPEC_SCMELFHG_SCMFLFHG",
+      "PSP_FLD_L2_DFB_DC_XSPEC_SCMVLFHG_SCMWLFHG",
       "PSP_FLD_L2_DFB_WF_DVDC",
+      "PSP_FLD_L2_DFB_WF_SCM",
+      "PSP_FLD_L2_DFB_WF_VDC",
       "PSP_FLD_L2_F2_100BPS",
       "PSP_FLD_L2_MAG_RTN",
+      "PSP_FLD_L2_MAG_RTN_1MIN",
+      "PSP_FLD_L2_MAG_RTN_4_SA_PER_CYC",
+      "PSP_FLD_L2_MAG_SC",
       "PSP_FLD_L2_MAG_SC_1MIN",
       "PSP_FLD_L2_MAG_SC_4_SA_PER_CYC",
+      "PSP_FLD_L2_RFS_HFR",
       "PSP_FLD_L2_RFS_LFR"
     ]
   },
@@ -5463,6 +5185,7 @@
       "PSP_FLD_L2_MAG_SC",
       "PSP_FLD_L2_MAG_SC_1MIN",
       "PSP_FLD_L2_MAG_SC_4_SA_PER_CYC",
+      "PSP_FLD_L2_RFS_HFR",
       "PSP_FLD_L2_RFS_LFR"
     ]
   },
@@ -5474,27 +5197,50 @@
     },
     "_cdaweb_ids": [
       "PSP_FLD_L2_DFB_AC_BPF_DV12HG",
+      "PSP_FLD_L2_DFB_AC_BPF_DV34HG",
+      "PSP_FLD_L2_DFB_AC_BPF_SCMULFHG",
       "PSP_FLD_L2_DFB_AC_BPF_SCMUMFHG",
+      "PSP_FLD_L2_DFB_AC_SPEC_DV12HG",
+      "PSP_FLD_L2_DFB_AC_SPEC_DV34HG",
+      "PSP_FLD_L2_DFB_AC_SPEC_SCMDLFHG",
       "PSP_FLD_L2_DFB_AC_SPEC_SCMELFHG",
       "PSP_FLD_L2_DFB_AC_SPEC_SCMFLFHG",
+      "PSP_FLD_L2_DFB_AC_SPEC_SCMMF",
+      "PSP_FLD_L2_DFB_AC_SPEC_SCMULFLG",
       "PSP_FLD_L2_DFB_AC_SPEC_SCMVLFHG",
       "PSP_FLD_L2_DFB_AC_SPEC_V5HG",
       "PSP_FLD_L2_DFB_AC_XSPEC_DV12HG_DV34HG",
       "PSP_FLD_L2_DFB_AC_XSPEC_SCMDLFHG_SCMELFHG",
+      "PSP_FLD_L2_DFB_AC_XSPEC_SCMDLFHG_SCMFLFHG",
+      "PSP_FLD_L2_DFB_AC_XSPEC_SCMELFHG_SCMFLFHG",
       "PSP_FLD_L2_DFB_DBM_DVAC",
+      "PSP_FLD_L2_DFB_DBM_SCM",
+      "PSP_FLD_L2_DFB_DC_BPF_DV12HG",
       "PSP_FLD_L2_DFB_DC_BPF_DV34HG",
       "PSP_FLD_L2_DFB_DC_BPF_SCMULFHG",
+      "PSP_FLD_L2_DFB_DC_BPF_SCMVLFHG",
       "PSP_FLD_L2_DFB_DC_SPEC_DV12HG",
+      "PSP_FLD_L2_DFB_DC_SPEC_SCMDLFHG",
+      "PSP_FLD_L2_DFB_DC_SPEC_SCMELFHG",
       "PSP_FLD_L2_DFB_DC_SPEC_SCMFLFHG",
+      "PSP_FLD_L2_DFB_DC_SPEC_SCMULFHG",
       "PSP_FLD_L2_DFB_DC_SPEC_SCMVLFHG",
       "PSP_FLD_L2_DFB_DC_SPEC_SCMWLFHG",
       "PSP_FLD_L2_DFB_DC_XSPEC_SCMDLFHG_SCMELFHG",
       "PSP_FLD_L2_DFB_DC_XSPEC_SCMDLFHG_SCMFLFHG",
+      "PSP_FLD_L2_DFB_DC_XSPEC_SCMELFHG_SCMFLFHG",
+      "PSP_FLD_L2_DFB_DC_XSPEC_SCMVLFHG_SCMWLFHG",
       "PSP_FLD_L2_DFB_WF_DVDC",
+      "PSP_FLD_L2_DFB_WF_SCM",
+      "PSP_FLD_L2_DFB_WF_VDC",
       "PSP_FLD_L2_F2_100BPS",
       "PSP_FLD_L2_MAG_RTN",
+      "PSP_FLD_L2_MAG_RTN_1MIN",
+      "PSP_FLD_L2_MAG_RTN_4_SA_PER_CYC",
+      "PSP_FLD_L2_MAG_SC",
       "PSP_FLD_L2_MAG_SC_1MIN",
       "PSP_FLD_L2_MAG_SC_4_SA_PER_CYC",
+      "PSP_FLD_L2_RFS_HFR",
       "PSP_FLD_L2_RFS_LFR"
     ]
   },
@@ -5506,27 +5252,50 @@
     },
     "_cdaweb_ids": [
       "PSP_FLD_L2_DFB_AC_BPF_DV12HG",
+      "PSP_FLD_L2_DFB_AC_BPF_DV34HG",
+      "PSP_FLD_L2_DFB_AC_BPF_SCMULFHG",
       "PSP_FLD_L2_DFB_AC_BPF_SCMUMFHG",
+      "PSP_FLD_L2_DFB_AC_SPEC_DV12HG",
+      "PSP_FLD_L2_DFB_AC_SPEC_DV34HG",
+      "PSP_FLD_L2_DFB_AC_SPEC_SCMDLFHG",
       "PSP_FLD_L2_DFB_AC_SPEC_SCMELFHG",
       "PSP_FLD_L2_DFB_AC_SPEC_SCMFLFHG",
+      "PSP_FLD_L2_DFB_AC_SPEC_SCMMF",
+      "PSP_FLD_L2_DFB_AC_SPEC_SCMULFLG",
       "PSP_FLD_L2_DFB_AC_SPEC_SCMVLFHG",
       "PSP_FLD_L2_DFB_AC_SPEC_V5HG",
       "PSP_FLD_L2_DFB_AC_XSPEC_DV12HG_DV34HG",
       "PSP_FLD_L2_DFB_AC_XSPEC_SCMDLFHG_SCMELFHG",
+      "PSP_FLD_L2_DFB_AC_XSPEC_SCMDLFHG_SCMFLFHG",
+      "PSP_FLD_L2_DFB_AC_XSPEC_SCMELFHG_SCMFLFHG",
       "PSP_FLD_L2_DFB_DBM_DVAC",
+      "PSP_FLD_L2_DFB_DBM_SCM",
+      "PSP_FLD_L2_DFB_DC_BPF_DV12HG",
       "PSP_FLD_L2_DFB_DC_BPF_DV34HG",
       "PSP_FLD_L2_DFB_DC_BPF_SCMULFHG",
+      "PSP_FLD_L2_DFB_DC_BPF_SCMVLFHG",
       "PSP_FLD_L2_DFB_DC_SPEC_DV12HG",
+      "PSP_FLD_L2_DFB_DC_SPEC_SCMDLFHG",
+      "PSP_FLD_L2_DFB_DC_SPEC_SCMELFHG",
       "PSP_FLD_L2_DFB_DC_SPEC_SCMFLFHG",
+      "PSP_FLD_L2_DFB_DC_SPEC_SCMULFHG",
       "PSP_FLD_L2_DFB_DC_SPEC_SCMVLFHG",
       "PSP_FLD_L2_DFB_DC_SPEC_SCMWLFHG",
       "PSP_FLD_L2_DFB_DC_XSPEC_SCMDLFHG_SCMELFHG",
       "PSP_FLD_L2_DFB_DC_XSPEC_SCMDLFHG_SCMFLFHG",
+      "PSP_FLD_L2_DFB_DC_XSPEC_SCMELFHG_SCMFLFHG",
+      "PSP_FLD_L2_DFB_DC_XSPEC_SCMVLFHG_SCMWLFHG",
       "PSP_FLD_L2_DFB_WF_DVDC",
+      "PSP_FLD_L2_DFB_WF_SCM",
+      "PSP_FLD_L2_DFB_WF_VDC",
       "PSP_FLD_L2_F2_100BPS",
       "PSP_FLD_L2_MAG_RTN",
+      "PSP_FLD_L2_MAG_RTN_1MIN",
+      "PSP_FLD_L2_MAG_RTN_4_SA_PER_CYC",
+      "PSP_FLD_L2_MAG_SC",
       "PSP_FLD_L2_MAG_SC_1MIN",
       "PSP_FLD_L2_MAG_SC_4_SA_PER_CYC",
+      "PSP_FLD_L2_RFS_HFR",
       "PSP_FLD_L2_RFS_LFR"
     ]
   },
@@ -5538,27 +5307,50 @@
     },
     "_cdaweb_ids": [
       "PSP_FLD_L2_DFB_AC_BPF_DV12HG",
+      "PSP_FLD_L2_DFB_AC_BPF_DV34HG",
+      "PSP_FLD_L2_DFB_AC_BPF_SCMULFHG",
       "PSP_FLD_L2_DFB_AC_BPF_SCMUMFHG",
+      "PSP_FLD_L2_DFB_AC_SPEC_DV12HG",
+      "PSP_FLD_L2_DFB_AC_SPEC_DV34HG",
+      "PSP_FLD_L2_DFB_AC_SPEC_SCMDLFHG",
       "PSP_FLD_L2_DFB_AC_SPEC_SCMELFHG",
       "PSP_FLD_L2_DFB_AC_SPEC_SCMFLFHG",
+      "PSP_FLD_L2_DFB_AC_SPEC_SCMMF",
+      "PSP_FLD_L2_DFB_AC_SPEC_SCMULFLG",
       "PSP_FLD_L2_DFB_AC_SPEC_SCMVLFHG",
       "PSP_FLD_L2_DFB_AC_SPEC_V5HG",
       "PSP_FLD_L2_DFB_AC_XSPEC_DV12HG_DV34HG",
       "PSP_FLD_L2_DFB_AC_XSPEC_SCMDLFHG_SCMELFHG",
+      "PSP_FLD_L2_DFB_AC_XSPEC_SCMDLFHG_SCMFLFHG",
+      "PSP_FLD_L2_DFB_AC_XSPEC_SCMELFHG_SCMFLFHG",
       "PSP_FLD_L2_DFB_DBM_DVAC",
+      "PSP_FLD_L2_DFB_DBM_SCM",
+      "PSP_FLD_L2_DFB_DC_BPF_DV12HG",
       "PSP_FLD_L2_DFB_DC_BPF_DV34HG",
       "PSP_FLD_L2_DFB_DC_BPF_SCMULFHG",
+      "PSP_FLD_L2_DFB_DC_BPF_SCMVLFHG",
       "PSP_FLD_L2_DFB_DC_SPEC_DV12HG",
+      "PSP_FLD_L2_DFB_DC_SPEC_SCMDLFHG",
+      "PSP_FLD_L2_DFB_DC_SPEC_SCMELFHG",
       "PSP_FLD_L2_DFB_DC_SPEC_SCMFLFHG",
+      "PSP_FLD_L2_DFB_DC_SPEC_SCMULFHG",
       "PSP_FLD_L2_DFB_DC_SPEC_SCMVLFHG",
       "PSP_FLD_L2_DFB_DC_SPEC_SCMWLFHG",
       "PSP_FLD_L2_DFB_DC_XSPEC_SCMDLFHG_SCMELFHG",
       "PSP_FLD_L2_DFB_DC_XSPEC_SCMDLFHG_SCMFLFHG",
+      "PSP_FLD_L2_DFB_DC_XSPEC_SCMELFHG_SCMFLFHG",
+      "PSP_FLD_L2_DFB_DC_XSPEC_SCMVLFHG_SCMWLFHG",
       "PSP_FLD_L2_DFB_WF_DVDC",
+      "PSP_FLD_L2_DFB_WF_SCM",
+      "PSP_FLD_L2_DFB_WF_VDC",
       "PSP_FLD_L2_F2_100BPS",
       "PSP_FLD_L2_MAG_RTN",
+      "PSP_FLD_L2_MAG_RTN_1MIN",
+      "PSP_FLD_L2_MAG_RTN_4_SA_PER_CYC",
+      "PSP_FLD_L2_MAG_SC",
       "PSP_FLD_L2_MAG_SC_1MIN",
       "PSP_FLD_L2_MAG_SC_4_SA_PER_CYC",
+      "PSP_FLD_L2_RFS_HFR",
       "PSP_FLD_L2_RFS_LFR"
     ]
   },
@@ -5570,27 +5362,50 @@
     },
     "_cdaweb_ids": [
       "PSP_FLD_L2_DFB_AC_BPF_DV12HG",
+      "PSP_FLD_L2_DFB_AC_BPF_DV34HG",
+      "PSP_FLD_L2_DFB_AC_BPF_SCMULFHG",
       "PSP_FLD_L2_DFB_AC_BPF_SCMUMFHG",
+      "PSP_FLD_L2_DFB_AC_SPEC_DV12HG",
+      "PSP_FLD_L2_DFB_AC_SPEC_DV34HG",
+      "PSP_FLD_L2_DFB_AC_SPEC_SCMDLFHG",
       "PSP_FLD_L2_DFB_AC_SPEC_SCMELFHG",
       "PSP_FLD_L2_DFB_AC_SPEC_SCMFLFHG",
+      "PSP_FLD_L2_DFB_AC_SPEC_SCMMF",
+      "PSP_FLD_L2_DFB_AC_SPEC_SCMULFLG",
       "PSP_FLD_L2_DFB_AC_SPEC_SCMVLFHG",
       "PSP_FLD_L2_DFB_AC_SPEC_V5HG",
       "PSP_FLD_L2_DFB_AC_XSPEC_DV12HG_DV34HG",
       "PSP_FLD_L2_DFB_AC_XSPEC_SCMDLFHG_SCMELFHG",
+      "PSP_FLD_L2_DFB_AC_XSPEC_SCMDLFHG_SCMFLFHG",
+      "PSP_FLD_L2_DFB_AC_XSPEC_SCMELFHG_SCMFLFHG",
       "PSP_FLD_L2_DFB_DBM_DVAC",
+      "PSP_FLD_L2_DFB_DBM_SCM",
+      "PSP_FLD_L2_DFB_DC_BPF_DV12HG",
       "PSP_FLD_L2_DFB_DC_BPF_DV34HG",
       "PSP_FLD_L2_DFB_DC_BPF_SCMULFHG",
+      "PSP_FLD_L2_DFB_DC_BPF_SCMVLFHG",
       "PSP_FLD_L2_DFB_DC_SPEC_DV12HG",
+      "PSP_FLD_L2_DFB_DC_SPEC_SCMDLFHG",
+      "PSP_FLD_L2_DFB_DC_SPEC_SCMELFHG",
       "PSP_FLD_L2_DFB_DC_SPEC_SCMFLFHG",
+      "PSP_FLD_L2_DFB_DC_SPEC_SCMULFHG",
       "PSP_FLD_L2_DFB_DC_SPEC_SCMVLFHG",
       "PSP_FLD_L2_DFB_DC_SPEC_SCMWLFHG",
       "PSP_FLD_L2_DFB_DC_XSPEC_SCMDLFHG_SCMELFHG",
       "PSP_FLD_L2_DFB_DC_XSPEC_SCMDLFHG_SCMFLFHG",
+      "PSP_FLD_L2_DFB_DC_XSPEC_SCMELFHG_SCMFLFHG",
+      "PSP_FLD_L2_DFB_DC_XSPEC_SCMVLFHG_SCMWLFHG",
       "PSP_FLD_L2_DFB_WF_DVDC",
+      "PSP_FLD_L2_DFB_WF_SCM",
+      "PSP_FLD_L2_DFB_WF_VDC",
       "PSP_FLD_L2_F2_100BPS",
       "PSP_FLD_L2_MAG_RTN",
+      "PSP_FLD_L2_MAG_RTN_1MIN",
+      "PSP_FLD_L2_MAG_RTN_4_SA_PER_CYC",
+      "PSP_FLD_L2_MAG_SC",
       "PSP_FLD_L2_MAG_SC_1MIN",
       "PSP_FLD_L2_MAG_SC_4_SA_PER_CYC",
+      "PSP_FLD_L2_RFS_HFR",
       "PSP_FLD_L2_RFS_LFR"
     ]
   },
@@ -5602,27 +5417,50 @@
     },
     "_cdaweb_ids": [
       "PSP_FLD_L2_DFB_AC_BPF_DV12HG",
+      "PSP_FLD_L2_DFB_AC_BPF_DV34HG",
+      "PSP_FLD_L2_DFB_AC_BPF_SCMULFHG",
       "PSP_FLD_L2_DFB_AC_BPF_SCMUMFHG",
+      "PSP_FLD_L2_DFB_AC_SPEC_DV12HG",
+      "PSP_FLD_L2_DFB_AC_SPEC_DV34HG",
+      "PSP_FLD_L2_DFB_AC_SPEC_SCMDLFHG",
       "PSP_FLD_L2_DFB_AC_SPEC_SCMELFHG",
       "PSP_FLD_L2_DFB_AC_SPEC_SCMFLFHG",
+      "PSP_FLD_L2_DFB_AC_SPEC_SCMMF",
+      "PSP_FLD_L2_DFB_AC_SPEC_SCMULFLG",
       "PSP_FLD_L2_DFB_AC_SPEC_SCMVLFHG",
       "PSP_FLD_L2_DFB_AC_SPEC_V5HG",
       "PSP_FLD_L2_DFB_AC_XSPEC_DV12HG_DV34HG",
       "PSP_FLD_L2_DFB_AC_XSPEC_SCMDLFHG_SCMELFHG",
+      "PSP_FLD_L2_DFB_AC_XSPEC_SCMDLFHG_SCMFLFHG",
+      "PSP_FLD_L2_DFB_AC_XSPEC_SCMELFHG_SCMFLFHG",
       "PSP_FLD_L2_DFB_DBM_DVAC",
+      "PSP_FLD_L2_DFB_DBM_SCM",
+      "PSP_FLD_L2_DFB_DC_BPF_DV12HG",
       "PSP_FLD_L2_DFB_DC_BPF_DV34HG",
       "PSP_FLD_L2_DFB_DC_BPF_SCMULFHG",
+      "PSP_FLD_L2_DFB_DC_BPF_SCMVLFHG",
       "PSP_FLD_L2_DFB_DC_SPEC_DV12HG",
+      "PSP_FLD_L2_DFB_DC_SPEC_SCMDLFHG",
+      "PSP_FLD_L2_DFB_DC_SPEC_SCMELFHG",
       "PSP_FLD_L2_DFB_DC_SPEC_SCMFLFHG",
+      "PSP_FLD_L2_DFB_DC_SPEC_SCMULFHG",
       "PSP_FLD_L2_DFB_DC_SPEC_SCMVLFHG",
       "PSP_FLD_L2_DFB_DC_SPEC_SCMWLFHG",
       "PSP_FLD_L2_DFB_DC_XSPEC_SCMDLFHG_SCMELFHG",
       "PSP_FLD_L2_DFB_DC_XSPEC_SCMDLFHG_SCMFLFHG",
+      "PSP_FLD_L2_DFB_DC_XSPEC_SCMELFHG_SCMFLFHG",
+      "PSP_FLD_L2_DFB_DC_XSPEC_SCMVLFHG_SCMWLFHG",
       "PSP_FLD_L2_DFB_WF_DVDC",
+      "PSP_FLD_L2_DFB_WF_SCM",
+      "PSP_FLD_L2_DFB_WF_VDC",
       "PSP_FLD_L2_F2_100BPS",
       "PSP_FLD_L2_MAG_RTN",
+      "PSP_FLD_L2_MAG_RTN_1MIN",
+      "PSP_FLD_L2_MAG_RTN_4_SA_PER_CYC",
+      "PSP_FLD_L2_MAG_SC",
       "PSP_FLD_L2_MAG_SC_1MIN",
       "PSP_FLD_L2_MAG_SC_4_SA_PER_CYC",
+      "PSP_FLD_L2_RFS_HFR",
       "PSP_FLD_L2_RFS_LFR"
     ]
   },
@@ -5634,98 +5472,68 @@
     },
     "_cdaweb_ids": [
       "PSP_FLD_L2_DFB_AC_BPF_DV12HG",
+      "PSP_FLD_L2_DFB_AC_BPF_DV34HG",
+      "PSP_FLD_L2_DFB_AC_BPF_SCMULFHG",
       "PSP_FLD_L2_DFB_AC_BPF_SCMUMFHG",
+      "PSP_FLD_L2_DFB_AC_SPEC_DV12HG",
+      "PSP_FLD_L2_DFB_AC_SPEC_DV34HG",
+      "PSP_FLD_L2_DFB_AC_SPEC_SCMDLFHG",
       "PSP_FLD_L2_DFB_AC_SPEC_SCMELFHG",
       "PSP_FLD_L2_DFB_AC_SPEC_SCMFLFHG",
+      "PSP_FLD_L2_DFB_AC_SPEC_SCMMF",
+      "PSP_FLD_L2_DFB_AC_SPEC_SCMULFLG",
       "PSP_FLD_L2_DFB_AC_SPEC_SCMVLFHG",
       "PSP_FLD_L2_DFB_AC_SPEC_V5HG",
       "PSP_FLD_L2_DFB_AC_XSPEC_DV12HG_DV34HG",
       "PSP_FLD_L2_DFB_AC_XSPEC_SCMDLFHG_SCMELFHG",
+      "PSP_FLD_L2_DFB_AC_XSPEC_SCMDLFHG_SCMFLFHG",
+      "PSP_FLD_L2_DFB_AC_XSPEC_SCMELFHG_SCMFLFHG",
       "PSP_FLD_L2_DFB_DBM_DVAC",
+      "PSP_FLD_L2_DFB_DBM_SCM",
+      "PSP_FLD_L2_DFB_DC_BPF_DV12HG",
       "PSP_FLD_L2_DFB_DC_BPF_DV34HG",
       "PSP_FLD_L2_DFB_DC_BPF_SCMULFHG",
+      "PSP_FLD_L2_DFB_DC_BPF_SCMVLFHG",
       "PSP_FLD_L2_DFB_DC_SPEC_DV12HG",
+      "PSP_FLD_L2_DFB_DC_SPEC_SCMDLFHG",
+      "PSP_FLD_L2_DFB_DC_SPEC_SCMELFHG",
       "PSP_FLD_L2_DFB_DC_SPEC_SCMFLFHG",
+      "PSP_FLD_L2_DFB_DC_SPEC_SCMULFHG",
       "PSP_FLD_L2_DFB_DC_SPEC_SCMVLFHG",
       "PSP_FLD_L2_DFB_DC_SPEC_SCMWLFHG",
       "PSP_FLD_L2_DFB_DC_XSPEC_SCMDLFHG_SCMELFHG",
       "PSP_FLD_L2_DFB_DC_XSPEC_SCMDLFHG_SCMFLFHG",
+      "PSP_FLD_L2_DFB_DC_XSPEC_SCMELFHG_SCMFLFHG",
+      "PSP_FLD_L2_DFB_DC_XSPEC_SCMVLFHG_SCMWLFHG",
       "PSP_FLD_L2_DFB_WF_DVDC",
+      "PSP_FLD_L2_DFB_WF_SCM",
+      "PSP_FLD_L2_DFB_WF_VDC",
       "PSP_FLD_L2_F2_100BPS",
       "PSP_FLD_L2_MAG_RTN",
+      "PSP_FLD_L2_MAG_RTN_1MIN",
+      "PSP_FLD_L2_MAG_RTN_4_SA_PER_CYC",
+      "PSP_FLD_L2_MAG_SC",
       "PSP_FLD_L2_MAG_SC_1MIN",
       "PSP_FLD_L2_MAG_SC_4_SA_PER_CYC",
+      "PSP_FLD_L2_RFS_HFR",
       "PSP_FLD_L2_RFS_LFR"
     ]
   },
   "http://fields.ssl.berkeley.edu/data/": {
     "InformationURL": {
-      "Name": "PSP FIELDS Instrument Suite, Data Description, SOC Web Site, UC Berkeley",
+      "Name": "Data Link",
       "URL": "http://fields.ssl.berkeley.edu/data/",
-      "Description": "Parker Solar Probe, PSP, FIELDS Instrument Suite, Data Description, Spacecraft Operations Center, SOC, Web Site, UC Berkeley"
+      "Description": "PSP/FIELDS SOC",
+      "Language": "en"
     },
     "_cdaweb_ids": [
-      "PSP_FLD_L2_DFB_AC_BPF_DV34HG",
-      "PSP_FLD_L2_DFB_AC_BPF_SCMULFHG",
-      "PSP_FLD_L2_DFB_AC_SPEC_DV12HG",
-      "PSP_FLD_L2_DFB_AC_SPEC_DV34HG",
-      "PSP_FLD_L2_DFB_AC_SPEC_SCMDLFHG",
-      "PSP_FLD_L2_DFB_AC_SPEC_SCMMF",
-      "PSP_FLD_L2_DFB_AC_SPEC_SCMULFLG",
-      "PSP_FLD_L2_DFB_AC_XSPEC_SCMDLFHG_SCMFLFHG",
-      "PSP_FLD_L2_DFB_AC_XSPEC_SCMELFHG_SCMFLFHG",
-      "PSP_FLD_L2_DFB_DBM_SCM",
       "PSP_FLD_L2_DFB_DBM_VAC",
       "PSP_FLD_L2_DFB_DBM_VDC",
-      "PSP_FLD_L2_DFB_DC_BPF_DV12HG",
-      "PSP_FLD_L2_DFB_DC_BPF_SCMVLFHG",
-      "PSP_FLD_L2_DFB_DC_SPEC_SCMDLFHG",
-      "PSP_FLD_L2_DFB_DC_SPEC_SCMELFHG",
-      "PSP_FLD_L2_DFB_DC_SPEC_SCMULFHG",
-      "PSP_FLD_L2_DFB_DC_XSPEC_SCMELFHG_SCMFLFHG",
-      "PSP_FLD_L2_DFB_DC_XSPEC_SCMVLFHG_SCMWLFHG",
-      "PSP_FLD_L2_DFB_WF_SCM",
-      "PSP_FLD_L2_DFB_WF_VDC",
-      "PSP_FLD_L2_MAG_RTN_1MIN",
-      "PSP_FLD_L2_MAG_RTN_4_SA_PER_CYC",
-      "PSP_FLD_L2_MAG_SC",
       "PSP_FLD_L2_MAG_VSO",
       "PSP_FLD_L2_RFS_BURST",
-      "PSP_FLD_L2_RFS_HFR",
       "PSP_FLD_L3_DUST",
       "PSP_FLD_L3_MERGED_SCAM_WF",
       "PSP_FLD_L3_RFS_LFR_QTN"
-    ]
-  },
-  "http://fields.ssl.berkeley.edu/rules/": {
-    "InformationURL": {
-      "Name": "PSP FIELDS Instrument Suite, Rules of the Road, SOC Web Site, UC Berkeley",
-      "URL": "http://fields.ssl.berkeley.edu/rules/",
-      "Description": "Parker Solar Probe, PSP, FIELDS Instrument Suite, Rules of the Road, Spacecraft Operations Center, SOC, Web Site, UC Berkeley"
-    },
-    "_cdaweb_ids": [
-      "PSP_FLD_L2_DFB_AC_BPF_DV34HG",
-      "PSP_FLD_L2_DFB_AC_BPF_SCMULFHG",
-      "PSP_FLD_L2_DFB_AC_SPEC_DV12HG",
-      "PSP_FLD_L2_DFB_AC_SPEC_DV34HG",
-      "PSP_FLD_L2_DFB_AC_SPEC_SCMDLFHG",
-      "PSP_FLD_L2_DFB_AC_SPEC_SCMMF",
-      "PSP_FLD_L2_DFB_AC_SPEC_SCMULFLG",
-      "PSP_FLD_L2_DFB_AC_XSPEC_SCMDLFHG_SCMFLFHG",
-      "PSP_FLD_L2_DFB_AC_XSPEC_SCMELFHG_SCMFLFHG",
-      "PSP_FLD_L2_DFB_DBM_SCM",
-      "PSP_FLD_L2_DFB_DC_BPF_DV12HG",
-      "PSP_FLD_L2_DFB_DC_BPF_SCMVLFHG",
-      "PSP_FLD_L2_DFB_DC_SPEC_SCMDLFHG",
-      "PSP_FLD_L2_DFB_DC_SPEC_SCMELFHG",
-      "PSP_FLD_L2_DFB_DC_SPEC_SCMULFHG",
-      "PSP_FLD_L2_DFB_DC_XSPEC_SCMELFHG_SCMFLFHG",
-      "PSP_FLD_L2_DFB_DC_XSPEC_SCMVLFHG_SCMWLFHG",
-      "PSP_FLD_L2_DFB_WF_SCM",
-      "PSP_FLD_L2_DFB_WF_VDC",
-      "PSP_FLD_L2_MAG_RTN_1MIN",
-      "PSP_FLD_L2_MAG_RTN_4_SA_PER_CYC",
-      "PSP_FLD_L2_MAG_SC"
     ]
   },
   "https://link.springer.com/article/10.1007/s11214-016-0244-5": {
@@ -5809,14 +5617,20 @@
       "PSP_ISOIS-EPIHI_L2-HET-RATES10",
       "PSP_ISOIS-EPIHI_L2-HET-RATES300",
       "PSP_ISOIS-EPIHI_L2-HET-RATES3600",
+      "PSP_ISOIS-EPIHI_L2-HET-RATES60",
+      "PSP_ISOIS-EPIHI_L2-LET1-RATES10",
       "PSP_ISOIS-EPIHI_L2-LET1-RATES300",
+      "PSP_ISOIS-EPIHI_L2-LET1-RATES3600",
       "PSP_ISOIS-EPIHI_L2-LET1-RATES60",
+      "PSP_ISOIS-EPIHI_L2-LET2-RATES10",
       "PSP_ISOIS-EPIHI_L2-LET2-RATES300",
+      "PSP_ISOIS-EPIHI_L2-LET2-RATES3600",
       "PSP_ISOIS-EPIHI_L2-LET2-RATES60",
       "PSP_ISOIS-EPIHI_L2-SECOND-RATES",
       "PSP_ISOIS-EPILO_L2-IC",
       "PSP_ISOIS-EPILO_L2-PE",
-      "PSP_ISOIS_L2-EPHEM"
+      "PSP_ISOIS_L2-EPHEM",
+      "PSP_ISOIS_L2-SUMMARY"
     ]
   },
   "https://spp-isois.sr.unh.edu/data_public/ISOIS_Data_Glossary.pdf": {
@@ -5830,14 +5644,20 @@
       "PSP_ISOIS-EPIHI_L2-HET-RATES10",
       "PSP_ISOIS-EPIHI_L2-HET-RATES300",
       "PSP_ISOIS-EPIHI_L2-HET-RATES3600",
+      "PSP_ISOIS-EPIHI_L2-HET-RATES60",
+      "PSP_ISOIS-EPIHI_L2-LET1-RATES10",
       "PSP_ISOIS-EPIHI_L2-LET1-RATES300",
+      "PSP_ISOIS-EPIHI_L2-LET1-RATES3600",
       "PSP_ISOIS-EPIHI_L2-LET1-RATES60",
+      "PSP_ISOIS-EPIHI_L2-LET2-RATES10",
       "PSP_ISOIS-EPIHI_L2-LET2-RATES300",
+      "PSP_ISOIS-EPIHI_L2-LET2-RATES3600",
       "PSP_ISOIS-EPIHI_L2-LET2-RATES60",
       "PSP_ISOIS-EPIHI_L2-SECOND-RATES",
       "PSP_ISOIS-EPILO_L2-IC",
       "PSP_ISOIS-EPILO_L2-PE",
-      "PSP_ISOIS_L2-EPHEM"
+      "PSP_ISOIS_L2-EPHEM",
+      "PSP_ISOIS_L2-SUMMARY"
     ]
   },
   "https://spp-isois.sr.unh.edu/home.html": {
@@ -5851,14 +5671,20 @@
       "PSP_ISOIS-EPIHI_L2-HET-RATES10",
       "PSP_ISOIS-EPIHI_L2-HET-RATES300",
       "PSP_ISOIS-EPIHI_L2-HET-RATES3600",
+      "PSP_ISOIS-EPIHI_L2-HET-RATES60",
+      "PSP_ISOIS-EPIHI_L2-LET1-RATES10",
       "PSP_ISOIS-EPIHI_L2-LET1-RATES300",
+      "PSP_ISOIS-EPIHI_L2-LET1-RATES3600",
       "PSP_ISOIS-EPIHI_L2-LET1-RATES60",
+      "PSP_ISOIS-EPIHI_L2-LET2-RATES10",
       "PSP_ISOIS-EPIHI_L2-LET2-RATES300",
+      "PSP_ISOIS-EPIHI_L2-LET2-RATES3600",
       "PSP_ISOIS-EPIHI_L2-LET2-RATES60",
       "PSP_ISOIS-EPIHI_L2-SECOND-RATES",
       "PSP_ISOIS-EPILO_L2-IC",
       "PSP_ISOIS-EPILO_L2-PE",
-      "PSP_ISOIS_L2-EPHEM"
+      "PSP_ISOIS_L2-EPHEM",
+      "PSP_ISOIS_L2-SUMMARY"
     ]
   },
   "https://fields.ssl.berkeley.edu": {
@@ -5872,73 +5698,19 @@
       "PSP_ISOIS-EPIHI_L2-HET-RATES10",
       "PSP_ISOIS-EPIHI_L2-HET-RATES300",
       "PSP_ISOIS-EPIHI_L2-HET-RATES3600",
+      "PSP_ISOIS-EPIHI_L2-HET-RATES60",
+      "PSP_ISOIS-EPIHI_L2-LET1-RATES10",
       "PSP_ISOIS-EPIHI_L2-LET1-RATES300",
+      "PSP_ISOIS-EPIHI_L2-LET1-RATES3600",
       "PSP_ISOIS-EPIHI_L2-LET1-RATES60",
+      "PSP_ISOIS-EPIHI_L2-LET2-RATES10",
       "PSP_ISOIS-EPIHI_L2-LET2-RATES300",
+      "PSP_ISOIS-EPIHI_L2-LET2-RATES3600",
       "PSP_ISOIS-EPIHI_L2-LET2-RATES60",
       "PSP_ISOIS-EPIHI_L2-SECOND-RATES",
       "PSP_ISOIS-EPILO_L2-IC",
       "PSP_ISOIS-EPILO_L2-PE",
-      "PSP_ISOIS_L2-EPHEM"
-    ]
-  },
-  "http://spp-isois.sr.unh.edu/ISOIS_Terms_of_Use.html": {
-    "InformationURL": {
-      "Name": "PSP ISOIS Instrument Suite, Rules of the Road, SOC web site, UNH",
-      "URL": "http://spp-isois.sr.unh.edu/ISOIS_Terms_of_Use.html",
-      "Description": "Parker Solar Probe, PSP, ISOIS Instrument Suite, Rules of the Road, Spacecraft Operations Center, SOC, web site, Univ. of New Hampshire"
-    },
-    "_cdaweb_ids": [
-      "PSP_ISOIS-EPIHI_L2-HET-RATES60",
-      "PSP_ISOIS-EPIHI_L2-LET1-RATES10",
-      "PSP_ISOIS-EPIHI_L2-LET1-RATES3600",
-      "PSP_ISOIS-EPIHI_L2-LET2-RATES10",
-      "PSP_ISOIS-EPIHI_L2-LET2-RATES3600",
-      "PSP_ISOIS_L2-SUMMARY"
-    ]
-  },
-  "http://spp-isois.sr.unh.edu/data_public/ISOIS_Data_Glossary.pdf": {
-    "InformationURL": {
-      "Name": "PSP ISOIS Instrument Suite, Energetic Particle Data - User Guide, SOC web site, UNH",
-      "URL": "http://spp-isois.sr.unh.edu/data_public/ISOIS_Data_Glossary.pdf",
-      "Description": "Parker Solar Probe, PSP, ISOIS Instrument Suite, Energetic Particle Data - User Guide, Spacecraft Operations Center, SOC, web site, Univ. of New Hampshire"
-    },
-    "_cdaweb_ids": [
-      "PSP_ISOIS-EPIHI_L2-HET-RATES60",
-      "PSP_ISOIS-EPIHI_L2-LET1-RATES10",
-      "PSP_ISOIS-EPIHI_L2-LET1-RATES3600",
-      "PSP_ISOIS-EPIHI_L2-LET2-RATES10",
-      "PSP_ISOIS-EPIHI_L2-LET2-RATES3600",
-      "PSP_ISOIS_L2-SUMMARY"
-    ]
-  },
-  "http://spp-isois.sr.unh.edu/home.html": {
-    "InformationURL": {
-      "Name": "PSP ISOIS Instrument Suite, SOC web site, UNH",
-      "URL": "http://spp-isois.sr.unh.edu/home.html",
-      "Description": "Parker Solar Probe, PSP, ISOIS Instrument Suite, Spacecraft Operations Center, SOC, web site, Univ. of New Hampshire. This is the official science data host site for the IS☉IS instrument suite and visualization toolkit."
-    },
-    "_cdaweb_ids": [
-      "PSP_ISOIS-EPIHI_L2-HET-RATES60",
-      "PSP_ISOIS-EPIHI_L2-LET1-RATES10",
-      "PSP_ISOIS-EPIHI_L2-LET1-RATES3600",
-      "PSP_ISOIS-EPIHI_L2-LET2-RATES10",
-      "PSP_ISOIS-EPIHI_L2-LET2-RATES3600",
-      "PSP_ISOIS_L2-SUMMARY"
-    ]
-  },
-  "http://fields.ssl.berkeley.edu/": {
-    "InformationURL": {
-      "Name": "PSP FIELDS Instrument Suite, SOC web site, UC Berkeley",
-      "URL": "http://fields.ssl.berkeley.edu/",
-      "Description": "Parker Solar Probe, PSP, FIELDS Instrument Suite, Spacecraft Operations Center, SOC, web site, UC Berkeley. The magnetic field data sed for pitch angle calculation of ISOIS energetic particle data is provided courtesy of the PSP FIELDS team."
-    },
-    "_cdaweb_ids": [
-      "PSP_ISOIS-EPIHI_L2-HET-RATES60",
-      "PSP_ISOIS-EPIHI_L2-LET1-RATES10",
-      "PSP_ISOIS-EPIHI_L2-LET1-RATES3600",
-      "PSP_ISOIS-EPIHI_L2-LET2-RATES10",
-      "PSP_ISOIS-EPIHI_L2-LET2-RATES3600",
+      "PSP_ISOIS_L2-EPHEM",
       "PSP_ISOIS_L2-SUMMARY"
     ]
   },
@@ -6053,7 +5825,7 @@
   },
   "http://rbspice.ftecs.com/Data.html": {
     "InformationURL": {
-      "Name": "Current QuickLook & Summary Plots, Instrument Information and All Data",
+      "Name": "Current QuickLook and Summary Plots, Instrument Information and All Data",
       "URL": "http://rbspice.ftecs.com/Data.html",
       "Description": "at the RBSPICE Instrument Site"
     },
@@ -6181,126 +5953,6 @@
       "RBSP-B-RBSPICE_LEV-3_TOFXPHHLEHT"
     ]
   },
-  "http://vanallenprobes.jhuapl.edu": {
-    "InformationURL": {
-      "Name": "The Van Allen Probes Home Page",
-      "URL": "http://vanallenprobes.jhuapl.edu",
-      "Description": "Science Gateway (including Mission Rules of the Road for Data Usage)"
-    },
-    "_cdaweb_ids": [
-      "RBSP-A-RBSPICE_LEV-2_ESRHELT",
-      "RBSP-A-RBSPICE_LEV-2_ISRHELT",
-      "RBSP-A-RBSPICE_LEV-2_TOFXEH",
-      "RBSP-A-RBSPICE_LEV-2_TOFXENONH",
-      "RBSP-A-RBSPICE_LEV-3-PAP_ESRHELT",
-      "RBSP-A-RBSPICE_LEV-3-PAP_TOFXEO",
-      "RBSP-A-RBSPICE_LEV-3-PAP_TOFXPHHHELT",
-      "RBSP-A-RBSPICE_LEV-3-PAP_TOFXPHHLEHT",
-      "RBSP-A-RBSPICE_LEV-3-PAP_TOFXPHOHELT",
-      "RBSP-A-RBSPICE_LEV-3-PAP_TOFXPHOLEHT",
-      "RBSP-A-RBSPICE_LEV-3_ESRHELT",
-      "RBSP-A-RBSPICE_LEV-3_ISRHELT",
-      "RBSP-A-RBSPICE_LEV-3_TOFXEH",
-      "RBSP-A-RBSPICE_LEV-3_TOFXENONH",
-      "RBSP-A_DENSITY_EMFISIS-L4",
-      "RBSP-A_HFR-SPECTRA_EMFISIS-L2",
-      "RBSP-A_HFR-WAVEFORM_EMFISIS-L2",
-      "RBSP-A_MAGNETOMETER_1SEC-GEI_EMFISIS-L3",
-      "RBSP-A_MAGNETOMETER_1SEC-GSM_EMFISIS-L3",
-      "RBSP-A_MAGNETOMETER_1SEC-SM_EMFISIS-L3",
-      "RBSP-A_MAGNETOMETER_4SEC-GEO_EMFISIS-L3",
-      "RBSP-A_MAGNETOMETER_4SEC-GSE_EMFISIS-L3",
-      "RBSP-A_MAGNETOMETER_HIRES-GEI_EMFISIS-L3",
-      "RBSP-A_MAGNETOMETER_HIRES-GSM_EMFISIS-L3",
-      "RBSP-A_MAGNETOMETER_HIRES-SM_EMFISIS-L3",
-      "RBSP-A_WFR-SPECTRAL-MATRIX-DIAGONAL_EMFISIS-L2",
-      "RBSP-A_WFR-WAVEFORM-CONTINUOUS-BURST_EMFISIS-L2",
-      "RBSP-B-RBSPICE_LEV-2_ESRHELT",
-      "RBSP-B-RBSPICE_LEV-2_ISRHELT",
-      "RBSP-B-RBSPICE_LEV-2_TOFXEH",
-      "RBSP-B-RBSPICE_LEV-2_TOFXENONH",
-      "RBSP-B-RBSPICE_LEV-3-PAP_ESRHELT",
-      "RBSP-B-RBSPICE_LEV-3-PAP_TOFXEO",
-      "RBSP-B-RBSPICE_LEV-3-PAP_TOFXPHHHELT",
-      "RBSP-B-RBSPICE_LEV-3-PAP_TOFXPHHLEHT",
-      "RBSP-B-RBSPICE_LEV-3-PAP_TOFXPHOHELT",
-      "RBSP-B-RBSPICE_LEV-3-PAP_TOFXPHOLEHT",
-      "RBSP-B-RBSPICE_LEV-3_ESRHELT",
-      "RBSP-B-RBSPICE_LEV-3_ISRHELT",
-      "RBSP-B-RBSPICE_LEV-3_TOFXEH",
-      "RBSP-B-RBSPICE_LEV-3_TOFXENONH",
-      "RBSP-B_DENSITY_EMFISIS-L4",
-      "RBSP-B_HFR-SPECTRA_EMFISIS-L2",
-      "RBSP-B_HFR-WAVEFORM_EMFISIS-L2",
-      "RBSP-B_MAGNETOMETER_1SEC-GEI_EMFISIS-L3",
-      "RBSP-B_MAGNETOMETER_1SEC-GSM_EMFISIS-L3",
-      "RBSP-B_MAGNETOMETER_1SEC-SM_EMFISIS-L3",
-      "RBSP-B_MAGNETOMETER_4SEC-GEO_EMFISIS-L3",
-      "RBSP-B_MAGNETOMETER_4SEC-GSE_EMFISIS-L3",
-      "RBSP-B_MAGNETOMETER_HIRES-GEI_EMFISIS-L3",
-      "RBSP-B_MAGNETOMETER_HIRES-GSM_EMFISIS-L3",
-      "RBSP-B_MAGNETOMETER_HIRES-SM_EMFISIS-L3",
-      "RBSP-B_WFR-SPECTRAL-MATRIX-DIAGONAL_EMFISIS-L2",
-      "RBSP-B_WFR-WAVEFORM_EMFISIS-L2",
-      "RBSPA_EFW-L2_E-HIRES-UVW",
-      "RBSPA_EFW-L2_ESVY_DESPUN",
-      "RBSPA_EFW-L2_FBK",
-      "RBSPA_L2-1MIN_PSBR-RPS",
-      "RBSPA_REL03_ECT-MAGEIS-L2",
-      "RBSPA_REL03_ECT-REPT-SCI-L2",
-      "RBSPA_REL04_ECT-HOPE-PA-L3",
-      "RBSPB_EFW-L2_E-SPINFIT-MGSE",
-      "RBSPB_EFW-L2_ESVY_DESPUN",
-      "RBSPB_EFW-L2_SPEC",
-      "RBSPB_EFW-L2_VSVY-HIRES",
-      "RBSPB_EFW-L3",
-      "RBSPB_L2_PSBR-RPS",
-      "RBSPB_REL03_ECT-REPT-SCI-L3",
-      "RBSPB_REL04_ECT-HOPE-MOM-L3",
-      "RBSPB_REL04_ECT-HOPE-SCI-L2",
-      "RBSPB_REL04_ECT-MAGEIS-L3"
-    ]
-  },
-  "http://athena.jhuapl.edu": {
-    "InformationURL": {
-      "Name": "Van Allen Probes Science Gateway",
-      "URL": "http://athena.jhuapl.edu",
-      "Description": "Science Gateway (including Mission Rules of the Road for Data Usage)"
-    },
-    "_cdaweb_ids": [
-      "RBSP-A-RBSPICE_LEV-2_ESRLEHT",
-      "RBSP-A-RBSPICE_LEV-2_TOFXPHHHELT",
-      "RBSP-A-RBSPICE_LEV-3_ESRLEHT",
-      "RBSP-A-RBSPICE_LEV-3_TOFXPHHHELT",
-      "RBSP-A_HFR-SPECTRA-BURST_EMFISIS-L2",
-      "RBSP-A_HFR-SPECTRA-MERGED_EMFISIS-L2",
-      "RBSP-A_MAGNETOMETER_1SEC-GEO_EMFISIS-L3",
-      "RBSP-A_MAGNETOMETER_1SEC-GSE_EMFISIS-L3",
-      "RBSP-A_MAGNETOMETER_4SEC-GEI_EMFISIS-L3",
-      "RBSP-A_MAGNETOMETER_4SEC-GSM_EMFISIS-L3",
-      "RBSP-A_MAGNETOMETER_4SEC-SM_EMFISIS-L3",
-      "RBSP-A_MAGNETOMETER_HIRES-GEO_EMFISIS-L3",
-      "RBSP-A_WFR-SPECTRAL-MATRIX-DIAGONAL-MERGED_EMFISIS-L2",
-      "RBSP-A_WFR-WAVEFORM_EMFISIS-L2",
-      "RBSP-B-RBSPICE_LEV-2_TOFXPHHLEHT",
-      "RBSP-B-RBSPICE_LEV-3_TOFXEION",
-      "RBSP-B-RBSPICE_LEV-3_TOFXPHHLEHT",
-      "RBSP-B_HFR-SPECTRA-BURST_EMFISIS-L2",
-      "RBSP-B_HFR-SPECTRA-MERGED_EMFISIS-L2",
-      "RBSP-B_MAGNETOMETER_1SEC-GSE_EMFISIS-L3",
-      "RBSP-B_MAGNETOMETER_4SEC-GEI_EMFISIS-L3",
-      "RBSP-B_MAGNETOMETER_4SEC-SM_EMFISIS-L3",
-      "RBSP-B_MAGNETOMETER_HIRES-GSE_EMFISIS-L3",
-      "RBSP-B_MAGNETOMETER_UVW_EMFISIS-L2",
-      "RBSP-B_WFR-SPECTRAL-MATRIX-DIAGONAL-MERGED_EMFISIS-L2",
-      "RBSP-B_WFR-SPECTRAL-MATRIX_EMFISIS-L2",
-      "RBSP-B_WFR-WAVEFORM-CONTINUOUS-BURST_EMFISIS-L2",
-      "RBSPA_EFW-L2_E-SPINFIT-MGSE",
-      "RBSPA_EFW-L2_SPEC",
-      "RBSPA_EFW-L2_VSVY-HIRES",
-      "RBSPB_EFW-L2_FBK"
-    ]
-  },
   "https://vanallenprobes.jhuapl.edu": {
     "InformationURL": {
       "Name": "The Van Allen Probes Home Page",
@@ -6308,106 +5960,143 @@
       "Description": "Science Gateway (including Mission Rules of the Road for Data Usage)"
     },
     "_cdaweb_ids": [
+      "RBSP-A-RBSPICE_LEV-2_ESRHELT",
+      "RBSP-A-RBSPICE_LEV-2_ESRLEHT",
+      "RBSP-A-RBSPICE_LEV-2_ISRHELT",
+      "RBSP-A-RBSPICE_LEV-2_TOFXEH",
       "RBSP-A-RBSPICE_LEV-2_TOFXEION",
+      "RBSP-A-RBSPICE_LEV-2_TOFXENONH",
+      "RBSP-A-RBSPICE_LEV-2_TOFXPHHHELT",
       "RBSP-A-RBSPICE_LEV-2_TOFXPHHLEHT",
+      "RBSP-A-RBSPICE_LEV-3-PAP_ESRHELT",
       "RBSP-A-RBSPICE_LEV-3-PAP_ESRLEHT",
       "RBSP-A-RBSPICE_LEV-3-PAP_TOFXEH",
       "RBSP-A-RBSPICE_LEV-3-PAP_TOFXEHE",
       "RBSP-A-RBSPICE_LEV-3-PAP_TOFXEHE-0",
       "RBSP-A-RBSPICE_LEV-3-PAP_TOFXEION",
+      "RBSP-A-RBSPICE_LEV-3-PAP_TOFXEO",
       "RBSP-A-RBSPICE_LEV-3-PAP_TOFXEO-0",
+      "RBSP-A-RBSPICE_LEV-3-PAP_TOFXPHHHELT",
+      "RBSP-A-RBSPICE_LEV-3-PAP_TOFXPHHLEHT",
+      "RBSP-A-RBSPICE_LEV-3-PAP_TOFXPHOHELT",
+      "RBSP-A-RBSPICE_LEV-3-PAP_TOFXPHOLEHT",
+      "RBSP-A-RBSPICE_LEV-3_ESRHELT",
+      "RBSP-A-RBSPICE_LEV-3_ESRLEHT",
+      "RBSP-A-RBSPICE_LEV-3_ISRHELT",
+      "RBSP-A-RBSPICE_LEV-3_TOFXEH",
       "RBSP-A-RBSPICE_LEV-3_TOFXEION",
+      "RBSP-A-RBSPICE_LEV-3_TOFXENONH",
+      "RBSP-A-RBSPICE_LEV-3_TOFXPHHHELT",
       "RBSP-A-RBSPICE_LEV-3_TOFXPHHLEHT",
+      "RBSP-A_DENSITY_EMFISIS-L4",
+      "RBSP-A_HFR-SPECTRA-BURST_EMFISIS-L2",
+      "RBSP-A_HFR-SPECTRA-MERGED_EMFISIS-L2",
+      "RBSP-A_HFR-SPECTRA_EMFISIS-L2",
+      "RBSP-A_HFR-WAVEFORM_EMFISIS-L2",
+      "RBSP-A_MAGNETOMETER_1SEC-GEI_EMFISIS-L3",
+      "RBSP-A_MAGNETOMETER_1SEC-GEO_EMFISIS-L3",
+      "RBSP-A_MAGNETOMETER_1SEC-GSE_EMFISIS-L3",
+      "RBSP-A_MAGNETOMETER_1SEC-GSM_EMFISIS-L3",
+      "RBSP-A_MAGNETOMETER_1SEC-SM_EMFISIS-L3",
+      "RBSP-A_MAGNETOMETER_4SEC-GEI_EMFISIS-L3",
+      "RBSP-A_MAGNETOMETER_4SEC-GEO_EMFISIS-L3",
+      "RBSP-A_MAGNETOMETER_4SEC-GSE_EMFISIS-L3",
+      "RBSP-A_MAGNETOMETER_4SEC-GSM_EMFISIS-L3",
+      "RBSP-A_MAGNETOMETER_4SEC-SM_EMFISIS-L3",
+      "RBSP-A_MAGNETOMETER_HIRES-GEI_EMFISIS-L3",
+      "RBSP-A_MAGNETOMETER_HIRES-GEO_EMFISIS-L3",
       "RBSP-A_MAGNETOMETER_HIRES-GSE_EMFISIS-L3",
+      "RBSP-A_MAGNETOMETER_HIRES-GSM_EMFISIS-L3",
+      "RBSP-A_MAGNETOMETER_HIRES-SM_EMFISIS-L3",
       "RBSP-A_MAGNETOMETER_UVW_EMFISIS-L2",
+      "RBSP-A_WFR-SPECTRAL-MATRIX-DIAGONAL-MERGED_EMFISIS-L2",
+      "RBSP-A_WFR-SPECTRAL-MATRIX-DIAGONAL_EMFISIS-L2",
+      "RBSP-A_WFR-WAVEFORM-CONTINUOUS-BURST_EMFISIS-L2",
+      "RBSP-A_WFR-WAVEFORM_EMFISIS-L2",
+      "RBSP-B-RBSPICE_LEV-2_ESRHELT",
       "RBSP-B-RBSPICE_LEV-2_ESRLEHT",
+      "RBSP-B-RBSPICE_LEV-2_ISRHELT",
+      "RBSP-B-RBSPICE_LEV-2_TOFXEH",
       "RBSP-B-RBSPICE_LEV-2_TOFXEION",
+      "RBSP-B-RBSPICE_LEV-2_TOFXENONH",
       "RBSP-B-RBSPICE_LEV-2_TOFXPHHHELT",
+      "RBSP-B-RBSPICE_LEV-2_TOFXPHHLEHT",
+      "RBSP-B-RBSPICE_LEV-3-PAP_ESRHELT",
       "RBSP-B-RBSPICE_LEV-3-PAP_ESRLEHT",
       "RBSP-B-RBSPICE_LEV-3-PAP_TOFXEH",
       "RBSP-B-RBSPICE_LEV-3-PAP_TOFXEHE",
       "RBSP-B-RBSPICE_LEV-3-PAP_TOFXEHE-0",
       "RBSP-B-RBSPICE_LEV-3-PAP_TOFXEION",
+      "RBSP-B-RBSPICE_LEV-3-PAP_TOFXEO",
       "RBSP-B-RBSPICE_LEV-3-PAP_TOFXEO-0",
+      "RBSP-B-RBSPICE_LEV-3-PAP_TOFXPHHHELT",
+      "RBSP-B-RBSPICE_LEV-3-PAP_TOFXPHHLEHT",
+      "RBSP-B-RBSPICE_LEV-3-PAP_TOFXPHOHELT",
+      "RBSP-B-RBSPICE_LEV-3-PAP_TOFXPHOLEHT",
+      "RBSP-B-RBSPICE_LEV-3_ESRHELT",
       "RBSP-B-RBSPICE_LEV-3_ESRLEHT",
+      "RBSP-B-RBSPICE_LEV-3_ISRHELT",
+      "RBSP-B-RBSPICE_LEV-3_TOFXEH",
+      "RBSP-B-RBSPICE_LEV-3_TOFXEION",
+      "RBSP-B-RBSPICE_LEV-3_TOFXENONH",
       "RBSP-B-RBSPICE_LEV-3_TOFXPHHHELT",
+      "RBSP-B-RBSPICE_LEV-3_TOFXPHHLEHT",
+      "RBSP-B_DENSITY_EMFISIS-L4",
+      "RBSP-B_HFR-SPECTRA-BURST_EMFISIS-L2",
+      "RBSP-B_HFR-SPECTRA-MERGED_EMFISIS-L2",
+      "RBSP-B_HFR-SPECTRA_EMFISIS-L2",
+      "RBSP-B_HFR-WAVEFORM_EMFISIS-L2",
+      "RBSP-B_MAGNETOMETER_1SEC-GEI_EMFISIS-L3",
       "RBSP-B_MAGNETOMETER_1SEC-GEO_EMFISIS-L3",
+      "RBSP-B_MAGNETOMETER_1SEC-GSE_EMFISIS-L3",
+      "RBSP-B_MAGNETOMETER_1SEC-GSM_EMFISIS-L3",
+      "RBSP-B_MAGNETOMETER_1SEC-SM_EMFISIS-L3",
+      "RBSP-B_MAGNETOMETER_4SEC-GEI_EMFISIS-L3",
+      "RBSP-B_MAGNETOMETER_4SEC-GEO_EMFISIS-L3",
+      "RBSP-B_MAGNETOMETER_4SEC-GSE_EMFISIS-L3",
       "RBSP-B_MAGNETOMETER_4SEC-GSM_EMFISIS-L3",
+      "RBSP-B_MAGNETOMETER_4SEC-SM_EMFISIS-L3",
+      "RBSP-B_MAGNETOMETER_HIRES-GEI_EMFISIS-L3",
       "RBSP-B_MAGNETOMETER_HIRES-GEO_EMFISIS-L3",
+      "RBSP-B_MAGNETOMETER_HIRES-GSE_EMFISIS-L3",
+      "RBSP-B_MAGNETOMETER_HIRES-GSM_EMFISIS-L3",
+      "RBSP-B_MAGNETOMETER_HIRES-SM_EMFISIS-L3",
+      "RBSP-B_MAGNETOMETER_UVW_EMFISIS-L2",
+      "RBSP-B_WFR-SPECTRAL-MATRIX-DIAGONAL-MERGED_EMFISIS-L2",
+      "RBSP-B_WFR-SPECTRAL-MATRIX-DIAGONAL_EMFISIS-L2",
+      "RBSP-B_WFR-WAVEFORM-CONTINUOUS-BURST_EMFISIS-L2",
+      "RBSP-B_WFR-WAVEFORM_EMFISIS-L2",
+      "RBSPA_EFW-L2_E-HIRES-UVW",
+      "RBSPA_EFW-L2_E-SPINFIT-MGSE",
+      "RBSPA_EFW-L2_ESVY_DESPUN",
+      "RBSPA_EFW-L2_FBK",
+      "RBSPA_EFW-L2_SPEC",
+      "RBSPA_EFW-L2_VSVY-HIRES",
       "RBSPA_EFW-L3",
+      "RBSPA_L2-1MIN_PSBR-RPS",
       "RBSPA_L2_PSBR-RPS",
+      "RBSPA_REL03_ECT-MAGEIS-L2",
+      "RBSPA_REL03_ECT-REPT-SCI-L2",
       "RBSPA_REL03_ECT-REPT-SCI-L3",
       "RBSPA_REL04_ECT-HOPE-MOM-L3",
+      "RBSPA_REL04_ECT-HOPE-PA-L3",
       "RBSPA_REL04_ECT-HOPE-SCI-L2",
       "RBSPA_REL04_ECT-MAGEIS-L3",
       "RBSPB_EFW-L2_E-HIRES-UVW",
+      "RBSPB_EFW-L2_E-SPINFIT-MGSE",
+      "RBSPB_EFW-L2_ESVY_DESPUN",
+      "RBSPB_EFW-L2_FBK",
+      "RBSPB_EFW-L2_SPEC",
+      "RBSPB_EFW-L2_VSVY-HIRES",
+      "RBSPB_EFW-L3",
       "RBSPB_L2-1MIN_PSBR-RPS",
+      "RBSPB_L2_PSBR-RPS",
       "RBSPB_REL03_ECT-MAGEIS-L2",
       "RBSPB_REL03_ECT-REPT-SCI-L2",
-      "RBSPB_REL04_ECT-HOPE-PA-L3"
-    ]
-  },
-  "http://rbspgway.jhuapl.edu/": {
-    "InformationURL": {
-      "Name": "Van Allen Probes Science Gateway for access to Data, Models, Software and Tools for Researchers, Students and the General Public, JHU/APL",
-      "URL": "http://rbspgway.jhuapl.edu/",
-      "Description": "Van Allen Probes Science Gateway for access to Data, Models, Software and Tools for Researchers, Students and the General Public at the Applied Physics Laboratory, Johns Hopkins University"
-    },
-    "_cdaweb_ids": [
-      "RBSP-A-RBSPICE_LEV-3-PAP_ESRHELT",
-      "RBSP-A-RBSPICE_LEV-3-PAP_TOFXEO",
-      "RBSP-A-RBSPICE_LEV-3-PAP_TOFXPHHHELT",
-      "RBSP-A-RBSPICE_LEV-3-PAP_TOFXPHHLEHT",
-      "RBSP-A-RBSPICE_LEV-3-PAP_TOFXPHOHELT",
-      "RBSP-A-RBSPICE_LEV-3-PAP_TOFXPHOLEHT",
-      "RBSP-A_DENSITY_EMFISIS-L4",
-      "RBSP-A_WFR-WAVEFORM-CONTINUOUS-BURST_EMFISIS-L2",
-      "RBSP-B-RBSPICE_LEV-3-PAP_ESRHELT",
-      "RBSP-B-RBSPICE_LEV-3-PAP_TOFXEO",
-      "RBSP-B-RBSPICE_LEV-3-PAP_TOFXPHHHELT",
-      "RBSP-B-RBSPICE_LEV-3-PAP_TOFXPHHLEHT",
-      "RBSP-B-RBSPICE_LEV-3-PAP_TOFXPHOHELT",
-      "RBSP-B-RBSPICE_LEV-3-PAP_TOFXPHOLEHT",
-      "RBSP-B_DENSITY_EMFISIS-L4",
-      "RBSPA_L2-1MIN_PSBR-RPS",
-      "RBSPA_REL03_ECT-MAGEIS-L2",
-      "RBSPA_REL03_ECT-REPT-SCI-L2",
-      "RBSPA_REL04_ECT-HOPE-PA-L3",
-      "RBSPB_L2_PSBR-RPS",
       "RBSPB_REL03_ECT-REPT-SCI-L3",
       "RBSPB_REL04_ECT-HOPE-MOM-L3",
-      "RBSPB_REL04_ECT-MAGEIS-L3"
-    ]
-  },
-  "http://rbspgway.jhuapl.edu/data_policy": {
-    "InformationURL": {
-      "Name": "Van Allen Probes Science Gateway, Mission Rules of the Road for Data Usage, JHU/APL",
-      "URL": "http://rbspgway.jhuapl.edu/data_policy",
-      "Description": "Van Allen Probes Science Gateway, Mission Rules of the Road for Data Usage, Applied Physics Laboratory at the Applied Physics Laboratory, Johns Hopkins University"
-    },
-    "_cdaweb_ids": [
-      "RBSP-A-RBSPICE_LEV-3-PAP_ESRHELT",
-      "RBSP-A-RBSPICE_LEV-3-PAP_TOFXEO",
-      "RBSP-A-RBSPICE_LEV-3-PAP_TOFXPHHHELT",
-      "RBSP-A-RBSPICE_LEV-3-PAP_TOFXPHHLEHT",
-      "RBSP-A-RBSPICE_LEV-3-PAP_TOFXPHOHELT",
-      "RBSP-A-RBSPICE_LEV-3-PAP_TOFXPHOLEHT",
-      "RBSP-A_DENSITY_EMFISIS-L4",
-      "RBSP-A_WFR-WAVEFORM-CONTINUOUS-BURST_EMFISIS-L2",
-      "RBSP-B-RBSPICE_LEV-3-PAP_ESRHELT",
-      "RBSP-B-RBSPICE_LEV-3-PAP_TOFXEO",
-      "RBSP-B-RBSPICE_LEV-3-PAP_TOFXPHHHELT",
-      "RBSP-B-RBSPICE_LEV-3-PAP_TOFXPHHLEHT",
-      "RBSP-B-RBSPICE_LEV-3-PAP_TOFXPHOHELT",
-      "RBSP-B-RBSPICE_LEV-3-PAP_TOFXPHOLEHT",
-      "RBSP-B_DENSITY_EMFISIS-L4",
-      "RBSPA_L2-1MIN_PSBR-RPS",
-      "RBSPA_REL03_ECT-MAGEIS-L2",
-      "RBSPA_REL03_ECT-REPT-SCI-L2",
-      "RBSPA_REL04_ECT-HOPE-PA-L3",
-      "RBSPB_L2_PSBR-RPS",
-      "RBSPB_REL03_ECT-REPT-SCI-L3",
-      "RBSPB_REL04_ECT-HOPE-MOM-L3",
+      "RBSPB_REL04_ECT-HOPE-PA-L3",
+      "RBSPB_REL04_ECT-HOPE-SCI-L2",
       "RBSPB_REL04_ECT-MAGEIS-L3"
     ]
   },
@@ -6418,26 +6107,49 @@
       "Description": "Van Allen Probes Science Gateway for access to Data, Models, Software and Tools for Researchers, Students and the General Public at the Applied Physics Laboratory, Johns Hopkins University"
     },
     "_cdaweb_ids": [
+      "RBSP-A-RBSPICE_LEV-3-PAP_ESRHELT",
       "RBSP-A-RBSPICE_LEV-3-PAP_ESRLEHT",
       "RBSP-A-RBSPICE_LEV-3-PAP_TOFXEH",
       "RBSP-A-RBSPICE_LEV-3-PAP_TOFXEHE",
       "RBSP-A-RBSPICE_LEV-3-PAP_TOFXEHE-0",
       "RBSP-A-RBSPICE_LEV-3-PAP_TOFXEION",
+      "RBSP-A-RBSPICE_LEV-3-PAP_TOFXEO",
       "RBSP-A-RBSPICE_LEV-3-PAP_TOFXEO-0",
+      "RBSP-A-RBSPICE_LEV-3-PAP_TOFXPHHHELT",
+      "RBSP-A-RBSPICE_LEV-3-PAP_TOFXPHHLEHT",
+      "RBSP-A-RBSPICE_LEV-3-PAP_TOFXPHOHELT",
+      "RBSP-A-RBSPICE_LEV-3-PAP_TOFXPHOLEHT",
+      "RBSP-A_DENSITY_EMFISIS-L4",
+      "RBSP-A_WFR-WAVEFORM-CONTINUOUS-BURST_EMFISIS-L2",
+      "RBSP-B-RBSPICE_LEV-3-PAP_ESRHELT",
       "RBSP-B-RBSPICE_LEV-3-PAP_ESRLEHT",
       "RBSP-B-RBSPICE_LEV-3-PAP_TOFXEH",
       "RBSP-B-RBSPICE_LEV-3-PAP_TOFXEHE",
       "RBSP-B-RBSPICE_LEV-3-PAP_TOFXEHE-0",
       "RBSP-B-RBSPICE_LEV-3-PAP_TOFXEION",
+      "RBSP-B-RBSPICE_LEV-3-PAP_TOFXEO",
       "RBSP-B-RBSPICE_LEV-3-PAP_TOFXEO-0",
+      "RBSP-B-RBSPICE_LEV-3-PAP_TOFXPHHHELT",
+      "RBSP-B-RBSPICE_LEV-3-PAP_TOFXPHHLEHT",
+      "RBSP-B-RBSPICE_LEV-3-PAP_TOFXPHOHELT",
+      "RBSP-B-RBSPICE_LEV-3-PAP_TOFXPHOLEHT",
+      "RBSP-B_DENSITY_EMFISIS-L4",
+      "RBSPA_L2-1MIN_PSBR-RPS",
       "RBSPA_L2_PSBR-RPS",
+      "RBSPA_REL03_ECT-MAGEIS-L2",
+      "RBSPA_REL03_ECT-REPT-SCI-L2",
       "RBSPA_REL03_ECT-REPT-SCI-L3",
       "RBSPA_REL04_ECT-HOPE-MOM-L3",
+      "RBSPA_REL04_ECT-HOPE-PA-L3",
       "RBSPA_REL04_ECT-MAGEIS-L3",
       "RBSPB_L2-1MIN_PSBR-RPS",
+      "RBSPB_L2_PSBR-RPS",
       "RBSPB_REL03_ECT-MAGEIS-L2",
       "RBSPB_REL03_ECT-REPT-SCI-L2",
-      "RBSPB_REL04_ECT-HOPE-PA-L3"
+      "RBSPB_REL03_ECT-REPT-SCI-L3",
+      "RBSPB_REL04_ECT-HOPE-MOM-L3",
+      "RBSPB_REL04_ECT-HOPE-PA-L3",
+      "RBSPB_REL04_ECT-MAGEIS-L3"
     ]
   },
   "https://rbspgway.jhuapl.edu/data_policy": {
@@ -6447,26 +6159,60 @@
       "Description": "Van Allen Probes Science Gateway, Mission Rules of the Road for Data Usage, Applied Physics Laboratory at the Applied Physics Laboratory, Johns Hopkins University"
     },
     "_cdaweb_ids": [
+      "RBSP-A-RBSPICE_LEV-3-PAP_ESRHELT",
       "RBSP-A-RBSPICE_LEV-3-PAP_ESRLEHT",
       "RBSP-A-RBSPICE_LEV-3-PAP_TOFXEH",
       "RBSP-A-RBSPICE_LEV-3-PAP_TOFXEHE",
       "RBSP-A-RBSPICE_LEV-3-PAP_TOFXEHE-0",
       "RBSP-A-RBSPICE_LEV-3-PAP_TOFXEION",
+      "RBSP-A-RBSPICE_LEV-3-PAP_TOFXEO",
       "RBSP-A-RBSPICE_LEV-3-PAP_TOFXEO-0",
+      "RBSP-A-RBSPICE_LEV-3-PAP_TOFXPHHHELT",
+      "RBSP-A-RBSPICE_LEV-3-PAP_TOFXPHHLEHT",
+      "RBSP-A-RBSPICE_LEV-3-PAP_TOFXPHOHELT",
+      "RBSP-A-RBSPICE_LEV-3-PAP_TOFXPHOLEHT",
+      "RBSP-A_DENSITY_EMFISIS-L4",
+      "RBSP-A_WFR-WAVEFORM-CONTINUOUS-BURST_EMFISIS-L2",
+      "RBSP-B-RBSPICE_LEV-3-PAP_ESRHELT",
       "RBSP-B-RBSPICE_LEV-3-PAP_ESRLEHT",
       "RBSP-B-RBSPICE_LEV-3-PAP_TOFXEH",
       "RBSP-B-RBSPICE_LEV-3-PAP_TOFXEHE",
       "RBSP-B-RBSPICE_LEV-3-PAP_TOFXEHE-0",
       "RBSP-B-RBSPICE_LEV-3-PAP_TOFXEION",
+      "RBSP-B-RBSPICE_LEV-3-PAP_TOFXEO",
       "RBSP-B-RBSPICE_LEV-3-PAP_TOFXEO-0",
+      "RBSP-B-RBSPICE_LEV-3-PAP_TOFXPHHHELT",
+      "RBSP-B-RBSPICE_LEV-3-PAP_TOFXPHHLEHT",
+      "RBSP-B-RBSPICE_LEV-3-PAP_TOFXPHOHELT",
+      "RBSP-B-RBSPICE_LEV-3-PAP_TOFXPHOLEHT",
+      "RBSP-B_DENSITY_EMFISIS-L4",
+      "RBSPA_L2-1MIN_PSBR-RPS",
       "RBSPA_L2_PSBR-RPS",
+      "RBSPA_REL03_ECT-MAGEIS-L2",
+      "RBSPA_REL03_ECT-REPT-SCI-L2",
       "RBSPA_REL03_ECT-REPT-SCI-L3",
       "RBSPA_REL04_ECT-HOPE-MOM-L3",
+      "RBSPA_REL04_ECT-HOPE-PA-L3",
       "RBSPA_REL04_ECT-MAGEIS-L3",
       "RBSPB_L2-1MIN_PSBR-RPS",
+      "RBSPB_L2_PSBR-RPS",
       "RBSPB_REL03_ECT-MAGEIS-L2",
       "RBSPB_REL03_ECT-REPT-SCI-L2",
-      "RBSPB_REL04_ECT-HOPE-PA-L3"
+      "RBSPB_REL03_ECT-REPT-SCI-L3",
+      "RBSPB_REL04_ECT-HOPE-MOM-L3",
+      "RBSPB_REL04_ECT-HOPE-PA-L3",
+      "RBSPB_REL04_ECT-MAGEIS-L3"
+    ]
+  },
+  "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2014JA020857": {
+    "InformationURL": {
+      "Name": "Electron densities inferred from plasma wave\n                spectra obtained by the Waves instrument\n                on Van Allen Probes, W. S. Kurth, S. De Pascuale, J. B. Faden, C. A. Kletzing, G. B. Hospodarsky, S. Thaller, and J. R. Wygant, published in JGR",
+      "URL": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2014JA020857",
+      "Description": "This paper details how electron density was inferred primarily from the upper hybrid resonance frequency."
+    },
+    "_cdaweb_ids": [
+      "RBSP-A_DENSITY_EMFISIS-L4",
+      "RBSP-B_DENSITY_EMFISIS-L4"
     ]
   },
   "http://emfisis.physics.uiowa.edu": {
@@ -6479,7 +6225,8 @@
       "RBSP-A_DENSITY_EMFISIS-L4",
       "RBSP-A_WFR-SPECTRAL-MATRIX_EMFISIS-L2",
       "RBSP-A_WFR-WAVEFORM-CONTINUOUS-BURST_EMFISIS-L2",
-      "RBSP-B_DENSITY_EMFISIS-L4"
+      "RBSP-B_DENSITY_EMFISIS-L4",
+      "RBSP-B_WFR-SPECTRAL-MATRIX_EMFISIS-L2"
     ]
   },
   "http://emfisis.physics.uiowa.edu/about/instrument": {
@@ -6551,15 +6298,24 @@
     },
     "_cdaweb_ids": [
       "RBSP-A_DENSITY_EMFISIS-L4",
+      "RBSP-A_HFR-SPECTRA-BURST_EMFISIS-L2",
+      "RBSP-A_HFR-SPECTRA-MERGED_EMFISIS-L2",
       "RBSP-A_HFR-SPECTRA_EMFISIS-L2",
       "RBSP-A_HFR-WAVEFORM_EMFISIS-L2",
+      "RBSP-A_WFR-SPECTRAL-MATRIX-DIAGONAL-MERGED_EMFISIS-L2",
       "RBSP-A_WFR-SPECTRAL-MATRIX-DIAGONAL_EMFISIS-L2",
       "RBSP-A_WFR-SPECTRAL-MATRIX_EMFISIS-L2",
       "RBSP-A_WFR-WAVEFORM-CONTINUOUS-BURST_EMFISIS-L2",
+      "RBSP-A_WFR-WAVEFORM_EMFISIS-L2",
       "RBSP-B_DENSITY_EMFISIS-L4",
+      "RBSP-B_HFR-SPECTRA-BURST_EMFISIS-L2",
+      "RBSP-B_HFR-SPECTRA-MERGED_EMFISIS-L2",
       "RBSP-B_HFR-SPECTRA_EMFISIS-L2",
       "RBSP-B_HFR-WAVEFORM_EMFISIS-L2",
+      "RBSP-B_WFR-SPECTRAL-MATRIX-DIAGONAL-MERGED_EMFISIS-L2",
       "RBSP-B_WFR-SPECTRAL-MATRIX-DIAGONAL_EMFISIS-L2",
+      "RBSP-B_WFR-SPECTRAL-MATRIX_EMFISIS-L2",
+      "RBSP-B_WFR-WAVEFORM-CONTINUOUS-BURST_EMFISIS-L2",
       "RBSP-B_WFR-WAVEFORM_EMFISIS-L2"
     ]
   },
@@ -6615,7 +6371,6 @@
       "RBSP-B_MAGNETOMETER_UVW_EMFISIS-L2",
       "RBSP-B_WFR-SPECTRAL-MATRIX-DIAGONAL-MERGED_EMFISIS-L2",
       "RBSP-B_WFR-SPECTRAL-MATRIX-DIAGONAL_EMFISIS-L2",
-      "RBSP-B_WFR-SPECTRAL-MATRIX_EMFISIS-L2",
       "RBSP-B_WFR-WAVEFORM-CONTINUOUS-BURST_EMFISIS-L2",
       "RBSP-B_WFR-WAVEFORM_EMFISIS-L2"
     ]
@@ -6713,18 +6468,25 @@
       "RBSPB_L2_PSBR-RPS"
     ]
   },
-  "http://rbsp-ect.sr.unh.edu": {
+  "https://rbsp-ect.sr.unh.edu/": {
     "InformationURL": {
       "Name": "Van Allen Probes ECT Home Page, UNH",
-      "URL": "http://rbsp-ect.sr.unh.edu",
+      "URL": "https://rbsp-ect.sr.unh.edu/",
       "Description": "Van Allen Probes Energetic Particle, Composition, and Thermal Plasma Suite, ECT, Home Page at the University of New Hampshire"
     },
     "_cdaweb_ids": [
       "RBSPA_REL03_ECT-MAGEIS-L2",
       "RBSPA_REL03_ECT-REPT-SCI-L2",
+      "RBSPA_REL03_ECT-REPT-SCI-L3",
+      "RBSPA_REL04_ECT-HOPE-MOM-L3",
       "RBSPA_REL04_ECT-HOPE-PA-L3",
+      "RBSPA_REL04_ECT-HOPE-SCI-L2",
+      "RBSPA_REL04_ECT-MAGEIS-L3",
+      "RBSPB_REL03_ECT-MAGEIS-L2",
+      "RBSPB_REL03_ECT-REPT-SCI-L2",
       "RBSPB_REL03_ECT-REPT-SCI-L3",
       "RBSPB_REL04_ECT-HOPE-MOM-L3",
+      "RBSPB_REL04_ECT-HOPE-PA-L3",
       "RBSPB_REL04_ECT-HOPE-SCI-L2",
       "RBSPB_REL04_ECT-MAGEIS-L3",
       "RBSP_ECT-REPT-SCI-L3-SELESNICK-MODEL"
@@ -6772,22 +6534,6 @@
       "RBSPB_REL04_ECT-MAGEIS-L3"
     ]
   },
-  "https://rbsp-ect.sr.unh.edu/": {
-    "InformationURL": {
-      "Name": "Van Allen Probes ECT Home Page, UNH",
-      "URL": "https://rbsp-ect.sr.unh.edu/",
-      "Description": "Van Allen Probes Energetic Particle, Composition, and Thermal Plasma Suite, ECT, Home Page at the University of New Hampshire"
-    },
-    "_cdaweb_ids": [
-      "RBSPA_REL03_ECT-REPT-SCI-L3",
-      "RBSPA_REL04_ECT-HOPE-MOM-L3",
-      "RBSPA_REL04_ECT-HOPE-SCI-L2",
-      "RBSPA_REL04_ECT-MAGEIS-L3",
-      "RBSPB_REL03_ECT-MAGEIS-L2",
-      "RBSPB_REL03_ECT-REPT-SCI-L2",
-      "RBSPB_REL04_ECT-HOPE-PA-L3"
-    ]
-  },
   "https://rbsp-ect.lanl.gov/rbsp_ect.php": {
     "InformationURL": {
       "Name": "ECT SOC and data services",
@@ -6801,26 +6547,6 @@
       "RBSPB_REL04_ECT-HOPE-SCI-L2SA"
     ]
   },
-  "http://rbsp-ect.sr.unh.edu/": {
-    "InformationURL": {
-      "Name": "The MMS FIELDS Team home page at UNH",
-      "URL": "http://rbsp-ect.sr.unh.edu/",
-      "Description": "ECT home page"
-    },
-    "_cdaweb_ids": [
-      "RBSPA_REL04_ECT-HOPE-SCI-L2SA"
-    ]
-  },
-  "http://rbsp-ect.sr.unh.edu/instrument_hope.shtml": {
-    "InformationURL": {
-      "Name": "Science Gateway (including Mission Rules of the Road for Data Usage)",
-      "URL": "http://rbsp-ect.sr.unh.edu/instrument_hope.shtml",
-      "Description": "Van Allen Probes"
-    },
-    "_cdaweb_ids": [
-      "RBSPA_REL04_ECT-HOPE-SCI-L2SA"
-    ]
-  },
   "https://rbsp-ect.sr.unh.edu//": {
     "InformationURL": {
       "Name": "The MMS FIELDS Team home page at UNH",
@@ -6828,6 +6554,7 @@
       "Description": "ECT home page"
     },
     "_cdaweb_ids": [
+      "RBSPA_REL04_ECT-HOPE-SCI-L2SA",
       "RBSPB_REL04_ECT-HOPE-SCI-L2SA"
     ]
   },
@@ -6838,6 +6565,7 @@
       "Description": "Van Allen Probes"
     },
     "_cdaweb_ids": [
+      "RBSPA_REL04_ECT-HOPE-SCI-L2SA",
       "RBSPB_REL04_ECT-HOPE-SCI-L2SA"
     ]
   },
@@ -6889,7 +6617,9 @@
       "RENU2_H0_EFIELD",
       "RENU2_H0_EPLAS",
       "RENU2_H0_IG2",
-      "RENU2_H0_UVPMT"
+      "RENU2_H0_PMT",
+      "RENU2_H0_UVPMT",
+      "RENU2_H0_VLF"
     ]
   },
   "http://mirl.sr.unh.edu/projects_renu2/FlightData/FlightData.html": {
@@ -6924,16 +6654,14 @@
       "RENU2_H0_VLF"
     ]
   },
-  "http://www.dartmouth.edu/~aurora/renu/instruments.html": {
+  "http://mirl.sr.unh.edu/projects_renu2/renu2_instrumentation.html": {
     "InformationURL": {
       "Name": "RENU2 Instrument Overview Web Page, DU",
-      "URL": "http://www.dartmouth.edu/~aurora/renu/instruments.html",
+      "URL": "http://mirl.sr.unh.edu/projects_renu2/renu2_instrumentation.html",
       "Description": "Rocket Experiment for Neutral Upwelling 2, RENU2, Instrument Overview Web Page, Lynch Rocket Lab, Dartmouth University"
     },
     "_cdaweb_ids": [
-      "RENU2_H0_FGM",
-      "RENU2_H0_PMT",
-      "RENU2_H0_VLF"
+      "RENU2_H0_FGM"
     ]
   },
   "http://lasp.colorado.edu/home/snoe/data/download-data/": {
@@ -6966,7 +6694,8 @@
       "SOHO_ERNE-HED_L2-1MIN",
       "SOHO_ERNE-LED_L2-1MIN",
       "SOHO_ERNE_HEAVY-ION-1HR",
-      "SOHO_ERNE_HEAVY-ION-5MIN"
+      "SOHO_ERNE_HEAVY-ION-5MIN",
+      "SO_K0_CEL"
     ]
   },
   "https://www.ieap.uni-kiel.de/et/soho/celias/": {
@@ -6978,7 +6707,8 @@
       "SOHO_CELIAS-PM_30S",
       "SOHO_CELIAS-PM_5MIN",
       "SOHO_CELIAS-SEM_15S",
-      "SOHO_CELIAS-SEM_1DAY"
+      "SOHO_CELIAS-SEM_1DAY",
+      "SO_K0_CEL"
     ]
   },
   "https://doi.org/10.5270/esa-iey8z2h": {
@@ -6990,7 +6720,8 @@
       "SOHO_CELIAS-PM_30S",
       "SOHO_CELIAS-PM_5MIN",
       "SOHO_CELIAS-SEM_15S",
-      "SOHO_CELIAS-SEM_1DAY"
+      "SOHO_CELIAS-SEM_1DAY",
+      "SO_K0_CEL"
     ]
   },
   "https://doi.org/10.1007/BF00733436": {
@@ -7003,7 +6734,8 @@
       "SOHO_CELIAS-PM_30S",
       "SOHO_CELIAS-PM_5MIN",
       "SOHO_CELIAS-SEM_15S",
-      "SOHO_CELIAS-SEM_1DAY"
+      "SOHO_CELIAS-SEM_1DAY",
+      "SO_K0_CEL"
     ]
   },
   "https://soho.nascom.nasa.gov/data/archive.html": {
@@ -7136,19 +6868,19 @@
       "SO_OR_PRE"
     ]
   },
-  "ftps://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/so_k0_cel_00000000_v01.skt": {
+  "https://spdf.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/so_k0_cel_00000000_v01.skt": {
     "InformationURL": {
       "Name": "CDAWeb Skeleton Table",
-      "URL": "ftps://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/so_k0_cel_00000000_v01.skt"
+      "URL": "https://spdf.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/so_k0_cel_00000000_v01.skt"
     },
     "_cdaweb_ids": [
       "SO_K0_CEL"
     ]
   },
-  "ftp://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/so_k0_cst_00000000_v01.skt": {
+  "https://spdf.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/so_k0_cst_00000000_v01.skt": {
     "InformationURL": {
       "Name": "CDAWeb Skeleton Table",
-      "URL": "ftp://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/so_k0_cst_00000000_v01.skt"
+      "URL": "https://spdf.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/so_k0_cst_00000000_v01.skt"
     },
     "_cdaweb_ids": [
       "SO_K0_CST"
@@ -7161,17 +6893,6 @@
     },
     "_cdaweb_ids": [
       "SO_K0_ERN"
-    ]
-  },
-  "https://omniweb.gsfc.nasa.gov/coho/": {
-    "InformationURL": {
-      "Name": "COHOWeb Deep Space Hourly and Daily Data and Service web site, GSFC, SPDF",
-      "URL": "https://omniweb.gsfc.nasa.gov/coho/",
-      "Description": "Data access and services for hourly and daily merged interplanetary magnetic field, plasma, proton fluxes, and ephemerides data from deep space satellite missions. The services include: 1) Graphical browse and listing, 2) Listing, and plotting with filtering, 3) Distribution functions, medians, averages, standard deviations, 4) Scatter plotting, linear regression fitting, 5) FTP access to hourly data, and 6) FTP access to high resolution data.",
-      "Language": "en"
-    },
-    "_cdaweb_ids": [
-      "STA_COHO1HR_MERGED_MAG_PLASMA"
     ]
   },
   "https://cohoweb.gsfc.nasa.gov/html/about_interface.html": {
@@ -7335,10 +7056,10 @@
       "STB_LB_IMPACT"
     ]
   },
-  "ftp://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/sta_l1_let_00000000_v01.skt": {
+  "https://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/sta_l1_let_00000000_v01.skt": {
     "InformationURL": {
       "Name": "CDAWeb Skeleton Table",
-      "URL": "ftp://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/sta_l1_let_00000000_v01.skt"
+      "URL": "https://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/sta_l1_let_00000000_v01.skt"
     },
     "_cdaweb_ids": [
       "STA_L1_LET"
@@ -7383,10 +7104,10 @@
       "STB_L1_SIT"
     ]
   },
-  "ftp://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/sta_l1_sit_00000000_v01.skt": {
+  "https://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/sta_l1_sit_00000000_v01.skt": {
     "InformationURL": {
       "Name": "CDAWeb Skeleton Table",
-      "URL": "ftp://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/sta_l1_sit_00000000_v01.skt"
+      "URL": "https://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/sta_l1_sit_00000000_v01.skt"
     },
     "_cdaweb_ids": [
       "STA_L1_SIT"
@@ -7398,7 +7119,8 @@
       "URL": "http://www.srl.caltech.edu/STEREO/"
     },
     "_cdaweb_ids": [
-      "STA_L1_STE"
+      "STA_L1_STE",
+      "STB_L1_STE"
     ]
   },
   "https://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/sta_l1_ste_00000000_v01.skt": {
@@ -7608,10 +7330,10 @@
       "STB_L1_LET"
     ]
   },
-  "ftp://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/stb_l1_sept_00000000_v01.skt": {
+  "https://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/stb_l1_sept_00000000_v01.skt": {
     "InformationURL": {
       "Name": "CDAWeb Skeleton Table",
-      "URL": "ftp://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/stb_l1_sept_00000000_v01.skt"
+      "URL": "https://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/stb_l1_sept_00000000_v01.skt"
     },
     "_cdaweb_ids": [
       "STB_L1_SEPT"
@@ -7626,19 +7348,10 @@
       "STB_L1_SIT"
     ]
   },
-  "http://sprg.ssl.berkeley.edu/~windsound/STE/STE.html": {
-    "InformationURL": {
-      "Name": "Lin and Wang STE page at UCB",
-      "URL": "http://sprg.ssl.berkeley.edu/~windsound/STE/STE.html"
-    },
-    "_cdaweb_ids": [
-      "STB_L1_STE"
-    ]
-  },
-  "ftp://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/stb_l1_ste_00000000_v01.skt": {
+  "https://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/stb_l1_ste_00000000_v01.skt": {
     "InformationURL": {
       "Name": "CDAWeb Skeleton Table",
-      "URL": "ftp://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/stb_l1_ste_00000000_v01.skt"
+      "URL": "https://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/stb_l1_ste_00000000_v01.skt"
     },
     "_cdaweb_ids": [
       "STB_L1_STE"
@@ -7670,7 +7383,7 @@
     "InformationURL": {
       "Name": "Data descriptive text at Caltech",
       "URL": "http://www.srl.caltech.edu/sampex/DataCenter/docs/NSSDC_Level2_doc_v1-3.pdf",
-      "Description": "Extensive PDF document prepared by M. Lennard, J. Mazur,\nand G. Mason originally in 1996 and most recently updated in 2007 to describe the\nmany NSSDC-resident SAMPEX data sets, including the polar cap averaged fluxes.\nThis document also identifies a series of mission and instrument papers at\nIEEE Transactions on Geoscience and Remote Sensing, Vol. 31, No. 3, May 1993"
+      "Description": "Extensive PDF document prepared by M. Lennard, J. Mazur, and G. Mason originally in 1996 and most recently updated in 2007 to describe the many NSSDC-resident SAMPEX data sets, including the polar cap averaged fluxes. This document also identifies a series of mission and instrument papers at IEEE Transactions on Geoscience and Remote Sensing, Vol. 31, No. 3, May 1993"
     },
     "_cdaweb_ids": [
       "SX_K0_POF"
@@ -7722,7 +7435,10 @@
     },
     "_cdaweb_ids": [
       "THA_L1_STATE",
-      "THB_L1_STATE"
+      "THB_L1_STATE",
+      "THC_L1_STATE",
+      "THD_L1_STATE",
+      "THE_L1_STATE"
     ]
   },
   "http://themis.ssl.berkeley.edu/instrument_efi.shtml": {
@@ -7781,31 +7497,26 @@
       "THA_L2_FBK",
       "THA_L2_FFT",
       "THA_L2_FGM",
-      "THA_L2_FIT",
       "THA_L2_GMOM",
       "THA_L2_SST",
       "THB_L2_FBK",
       "THB_L2_FFT",
       "THB_L2_FGM",
-      "THB_L2_FIT",
       "THB_L2_GMOM",
       "THB_L2_SST",
       "THC_L2_FBK",
       "THC_L2_FFT",
       "THC_L2_FGM",
-      "THC_L2_FIT",
       "THC_L2_GMOM",
       "THC_L2_SST",
       "THD_L2_FBK",
       "THD_L2_FFT",
       "THD_L2_FGM",
-      "THD_L2_FIT",
       "THD_L2_GMOM",
       "THD_L2_SST",
       "THE_L2_FBK",
       "THE_L2_FFT",
       "THE_L2_FGM",
-      "THE_L2_FIT",
       "THE_L2_GMOM",
       "THE_L2_SST",
       "THG_L2_MAG_BMLS",
@@ -7837,6 +7548,19 @@
       "THG_L2_MAG_TPAS",
       "THG_L2_MAG_UKIA",
       "THG_L2_MAG_WHIT"
+    ]
+  },
+  "https://themis.ssl.berkeley.edu": {
+    "InformationURL": {
+      "Name": "THEMIS website",
+      "URL": "https://themis.ssl.berkeley.edu"
+    },
+    "_cdaweb_ids": [
+      "THA_L2_FIT",
+      "THB_L2_FIT",
+      "THC_L2_FIT",
+      "THD_L2_FIT",
+      "THE_L2_FIT"
     ]
   },
   "http://themis.ssl.berkeley.edu/instrument_sst.shtml": {
@@ -7896,22 +7620,10 @@
       "THC_HELIO1HR_POSITION"
     ]
   },
-  "ftp://apollo.ssl.berkeley.edu/pub/THEMIS/3 Ground Systems/3.2 Science Operations/Science Operations Documents/thm_ogs_431m_ephemeris_format_definition.pdf": {
-    "InformationURL": {
-      "Name": "THEMIS Ephemeris Format Definition",
-      "URL": "ftp://apollo.ssl.berkeley.edu/pub/THEMIS/3 Ground Systems/3.2 Science Operations/Science Operations Documents/thm_ogs_431m_ephemeris_format_definition.pdf",
-      "Description": "Ephemeris file format and quantity details including RoI descriptions."
-    },
-    "_cdaweb_ids": [
-      "THC_L1_STATE",
-      "THD_L1_STATE",
-      "THE_L1_STATE"
-    ]
-  },
-  "ftp://spdf.gsfc.nasa.gov/pub/data/themis/thc/l2/merged/ascii/00readme_themisc.txt": {
+  "https://spdf.gsfc.nasa.gov/pub/data/themis/thc/l2/merged/ascii/00readme_themisc.txt": {
     "InformationURL": {
       "Name": "SPDF readme",
-      "URL": "ftp://spdf.gsfc.nasa.gov/pub/data/themis/thc/l2/merged/ascii/00readme_themisc.txt"
+      "URL": "https://spdf.gsfc.nasa.gov/pub/data/themis/thc/l2/merged/ascii/00readme_themisc.txt"
     },
     "_cdaweb_ids": [
       "THC_L2_MERGED"
@@ -7928,7 +7640,6 @@
       "THG_L2_MAG_AMER",
       "THG_L2_MAG_BENN",
       "THG_L2_MAG_HRIS",
-      "THG_L2_MAG_INUK",
       "THG_L2_MAG_KJPK",
       "THG_L2_MAG_KODK",
       "THG_L2_MAG_LARG",
@@ -7966,7 +7677,6 @@
       "THG_L2_MAG_FSJ",
       "THG_L2_MAG_FTN",
       "THG_L2_MAG_HRP",
-      "THG_L2_MAG_INUK",
       "THG_L2_MAG_KJPK",
       "THG_L2_MAG_LARG",
       "THG_L2_MAG_LCL",
@@ -8302,6 +8012,26 @@
       "THG_L2_MAG_TAR"
     ]
   },
+  "https://sprg.ssl.berkeley.edu/themis/": {
+    "InformationURL": {
+      "Name": "THEMIS Ground-based Observatory (GBO) Magnetic Field Data Portal",
+      "URL": "https://sprg.ssl.berkeley.edu/themis/",
+      "Description": "THEMIS Ground-based Observatory (GBO) MAGnetometers (GMAGs)"
+    },
+    "_cdaweb_ids": [
+      "THG_L2_MAG_INUK"
+    ]
+  },
+  "https://autumn.athabascau.ca/": {
+    "InformationURL": {
+      "Name": "AUTUMNX Mag data portal",
+      "URL": "https://autumn.athabascau.ca/",
+      "Description": "Calibration files at https://autumn.athabascau.ca/themis.gbo.mag.calibration"
+    },
+    "_cdaweb_ids": [
+      "THG_L2_MAG_INUK"
+    ]
+  },
   "http://spc.igpp.ucla.edu/mcmac/rmd_files/": {
     "InformationURL": {
       "Name": "THEMIS Ground-based Observatory (GBO) Magnetic Field Data Portal",
@@ -8383,10 +8113,10 @@
       "TIMED_L3A_SEE"
     ]
   },
-  "http://timed.hao.ucar.edu/tidi/": {
+  "https://timed.hao.ucar.edu/tidi/": {
     "InformationURL": {
       "Name": "TIDI data and experiment home page, NCAR",
-      "URL": "http://timed.hao.ucar.edu/tidi/",
+      "URL": "https://timed.hao.ucar.edu/tidi/",
       "Description": "TIDI data and experiment home page hosted by National Center for Atmospheric Research, NCAR",
       "Language": "en"
     },
@@ -8394,10 +8124,10 @@
       "TIMED_WINDVECTORSNCAR_TIDI"
     ]
   },
-  "http://tidi.engin.umich.edu/": {
+  "https://tidi.engin.umich.edu/": {
     "InformationURL": {
       "Name": "TIDI data and experiment home page, UM",
-      "URL": "http://tidi.engin.umich.edu/",
+      "URL": "https://tidi.engin.umich.edu/",
       "Description": "TIDI data and experiment home page hosted by University of Michigan, UM",
       "Language": "en"
     },
@@ -8405,10 +8135,10 @@
       "TIMED_WINDVECTORSNCAR_TIDI"
     ]
   },
-  "http://www.timed.jhuapl.edu/scripts/mdc_home.pl": {
+  "https://www.timed.jhuapl.edu/scripts/mdc_home.pl": {
     "InformationURL": {
       "Name": "TIMED Mission Data Center, JHU/APL",
-      "URL": "http://www.timed.jhuapl.edu/scripts/mdc_home.pl",
+      "URL": "https://www.timed.jhuapl.edu/scripts/mdc_home.pl",
       "Description": "TIMED Mission Data Center hosted by the Johns Hopkins University, Applied Physics Laboratory, JHU/APL",
       "Language": "en"
     },
@@ -8438,15 +8168,16 @@
       "TWINS1_AT_DEF"
     ]
   },
-  "http://twins.swri.edu": {
+  "https://earth.esa.int/web/eoportal/satellite-missions/t/twins": {
     "InformationURL": {
       "Name": "TWINS Home Page",
-      "URL": "http://twins.swri.edu",
+      "URL": "https://earth.esa.int/web/eoportal/satellite-missions/t/twins",
       "Description": "?"
     },
     "_cdaweb_ids": [
       "TWINS1_L1_IMAGER",
       "TWINS1_OR_DEF",
+      "TWINS2_L1_IMAGER",
       "TWINS2_OR_DEF"
     ]
   },
@@ -8471,7 +8202,9 @@
     },
     "_cdaweb_ids": [
       "TWINS1_L1_LAD",
-      "TWINS1_TISTORM_IMAGER"
+      "TWINS1_TISTORM_IMAGER",
+      "TWINS2_L1_LAD",
+      "TWINS2_TISTORM_IMAGER"
     ]
   },
   "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2008-010A": {
@@ -8483,27 +8216,6 @@
     },
     "_cdaweb_ids": [
       "TWINS2_AT_DEF"
-    ]
-  },
-  "https://earth.esa.int/web/eoportal/satellite-missions/t/twins": {
-    "InformationURL": {
-      "Name": "TWINS Home Page",
-      "URL": "https://earth.esa.int/web/eoportal/satellite-missions/t/twins",
-      "Description": "?"
-    },
-    "_cdaweb_ids": [
-      "TWINS2_L1_IMAGER"
-    ]
-  },
-  "http://twins.swri.edu/": {
-    "InformationURL": {
-      "Name": "TWINS Release Notes and other Information, SwRI Web Site",
-      "URL": "http://twins.swri.edu/",
-      "Description": "Two Wide-angle Imaging Neutral-atom Spectrometers, TWINS, Release Notes and other Information, Southwest Research Institute, SwRI, Web Site"
-    },
-    "_cdaweb_ids": [
-      "TWINS2_L1_LAD",
-      "TWINS2_TISTORM_IMAGER"
     ]
   },
   "https://doi.org/10.1007/s11214-008-9467-4": {
@@ -8614,6 +8326,16 @@
       "UY_H0_GLG"
     ]
   },
+  "http://ufa.esac.esa.int/ufa-sl-server/data-action?PROTOCOL=HTTP&PRODUCT_TYPE=ALL&FILE_NAME=cospin_at_un.html&FILE_PATH=/ufa/HiRes/doc/cospin": {
+    "InformationURL": {
+      "Name": "User Notes for the COSPIN/AT Data Files",
+      "URL": "http://ufa.esac.esa.int/ufa-sl-server/data-action?PROTOCOL=HTTP&PRODUCT_TYPE=ALL&FILE_NAME=cospin_at_un.html&FILE_PATH=/ufa/HiRes/doc/cospin",
+      "Description": "The User Notes File at the Ulysses Final Archive (UFA) describes the Format of the ASCII Data Files for the COSPIN dual Anisotropy Telescopes, AT1 and AT2, 10 min Average Proton and Helium Spin-Averaged and Sectored Fluxes"
+    },
+    "_cdaweb_ids": [
+      "UY_M0_AT1"
+    ]
+  },
   "http://ufa.esac.esa.int/ufa-sl-server/data-action?PROTOCOL=HTTP&PRODUCT_TYPE=ALL&FILE_NAME=het_usernotes.pdf&FILE_PATH=/ufa/HiRes/doc/cospin": {
     "InformationURL": {
       "Name": "User Notes for the COSPIN/HET Data Files",
@@ -8642,6 +8364,26 @@
     },
     "_cdaweb_ids": [
       "UY_M0_KET"
+    ]
+  },
+  "http://ufa.esac.esa.int/ufa-sl-server/data-action?PROTOCOL=HTTP&PRODUCT_TYPE=ALL&FILE_NAME=cospin_let_un.html&FILE_PATH=/ufa/HiRes/doc/cospin": {
+    "InformationURL": {
+      "Name": "User Notes for the COSPIN/LET Data Files",
+      "URL": "http://ufa.esac.esa.int/ufa-sl-server/data-action?PROTOCOL=HTTP&PRODUCT_TYPE=ALL&FILE_NAME=cospin_let_un.html&FILE_PATH=/ufa/HiRes/doc/cospin",
+      "Description": "The User Notes File at the Ulysses Final Archive (UFA) describes the Format of the ASCII Data Files for the COSPIN Low Energy Telescope, LET, 10 min Average Ion and Electron Fluxes and Detector Count Rates"
+    },
+    "_cdaweb_ids": [
+      "UY_M0_LET"
+    ]
+  },
+  "http://ufa.esac.esa.int/ufa-sl-server/data-action?PROTOCOL=HTTP&PRODUCT_TYPE=ALL&FILE_NAME=LET_Handbook_rev1.pdf&FILE_PATH=/ufa/HiRes/doc/cospin": {
+    "InformationURL": {
+      "Name": "COSPIN/LET Handbook and other Documentation",
+      "URL": "http://ufa.esac.esa.int/ufa-sl-server/data-action?PROTOCOL=HTTP&PRODUCT_TYPE=ALL&FILE_NAME=LET_Handbook_rev1.pdf&FILE_PATH=/ufa/HiRes/doc/cospin",
+      "Description": "This PDF File at the Ulysses Final Archive (UFA) COSPIN Low Energy Telescope, LET, Handbook and many other appended Documents"
+    },
+    "_cdaweb_ids": [
+      "UY_M0_LET"
     ]
   },
   "https://urap.gsfc.nasa.gov": {
@@ -8867,10 +8609,10 @@
       "VOYAGER2_48S_MAG"
     ]
   },
-  "ftps://spdf.gsfc.nasa.gov/pub/data/voyager/voyager2/merged/vy2mgd.txt": {
+  "https://spdf.gsfc.nasa.gov/pub/data/voyager/voyager2/merged/vy2mgd.txt": {
     "InformationURL": {
       "Name": "Readme file at SPDF",
-      "URL": "ftps://spdf.gsfc.nasa.gov/pub/data/voyager/voyager2/merged/vy2mgd.txt"
+      "URL": "https://spdf.gsfc.nasa.gov/pub/data/voyager/voyager2/merged/vy2mgd.txt"
     },
     "_cdaweb_ids": [
       "VOYAGER2_COHO1HR_MERGED_MAG_PLASMA"
@@ -9305,7 +9047,7 @@
     "InformationURL": {
       "Name": "Wind SWE Reduced Charge Flux Distributions, Data Release Notes",
       "URL": "https://cdaweb.gsfc.nasa.gov/pub/data/wind/swe/swe_faraday/documents/wi_sw-ion-dist_swe-faraday_releasenotes.pdf",
-      "Description": "Wind Solar Wind Experiment, SWE: reduced charge flux distributions data release notes, version: 1.0.  format: CDF 3.4.0.  release Date: June 10, 2012",
+      "Description": "Wind Solar Wind Experiment, SWE: reduced charge flux distributions data release notes, version: 1.0. format: CDF 3.4.0. release Date: June 10, 2012",
       "Language": "en"
     },
     "_cdaweb_ids": [
