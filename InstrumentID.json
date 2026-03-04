@@ -68,8 +68,8 @@
   "APOLLO12_SWS_28S": "spase://SMWG/Instrument/Apollo12-LM/SWS",
   "APOLLO15_SWS_1HR": "spase://SMWG/Instrument/Apollo15-LM/SWS",
   "APOLLO15_SWS_28S": "spase://SMWG/Instrument/Apollo15-LM/SWS",
-  "AWE_L3A_TMP": "spase://NASA/Instrument/AWE/AMTM/",
-  "AWE_L3C_Q20": "spase://NASA/Instrument/AWE/AMTM/",
+  "AWE_L3A_TMP": "spase://NASA/Instrument/AWE/AMTM",
+  "AWE_L3C_Q20": "spase://NASA/Instrument/AWE/AMTM",
   "BAR_1A_L2_EPHM": "spase://SMWG/Instrument/BARREL/1A/Ephemeris",
   "BAR_1A_L2_FSPC": "spase://SMWG/Instrument/BARREL/1A/XRI",
   "BAR_1A_L2_HKPG": "spase://SMWG/Instrument/BARREL/1A/DataProcessingUnit",
@@ -444,7 +444,9 @@
   "BAR_5A_L2_USPC": "spase://SMWG/Instrument/BARREL/5A/XRI",
   "BAR_5A_L2_XSPC": "spase://SMWG/Instrument/BARREL/5A/XRI",
   "BEPICOLOMBO_HELIO1DAY_POSITION": "spase://SMWG/Instrument/BepiColombo/Ephemeris",
+  "BEPICOLOMBO_HELIO1HR_POSITION": "spase://SMWG/Instrument/BepiColombo/Ephemeris",
   "BORRELLY_HELIO1DAY_POSITION": null,
+  "BORRELLY_HELIO1HR_POSITION": null,
   "C1_CP_FGM_SPIN": "spase://SMWG/Instrument/Cluster-Rumba/FGM",
   "C1_JP_PMP": "spase://SMWG/Instrument/Cluster/JSOC",
   "C1_JP_PSE": "spase://SMWG/Instrument/Cluster/JSOC",
@@ -504,6 +506,7 @@
   "C4_WAVEFORM_WBD": "spase://SMWG/Instrument/Cluster-Tango/WBD",
   "C4_WAVEFORM_WBD_BM2": "spase://SMWG/Instrument/Cluster-Tango/WBD",
   "CASSINI_HELIO1DAY_POSITION": "spase://SMWG/Instrument/Cassini/Ephemeris",
+  "CASSINI_HELIO1HR_POSITION": "spase://SMWG/Instrument/Cassini/Ephemeris",
   "CASSINI_MAG_1MIN_MAGNETIC_FIELD": "spase://SMWG/Instrument/Cassini/MAG",
   "CL_JP_PCY": "spase://SMWG/Instrument/Cluster/JSOC",
   "CL_JP_PGP": "spase://SMWG/Instrument/Cluster/JSOC",
@@ -524,12 +527,15 @@
   "CN_K0_MPA": "spase://SMWG/Instrument/CANOPUS/MPA",
   "CN_K1_MARI": "spase://SMWG/Instrument/CANOPUS/MARI",
   "COMETGS_HELIO1DAY_POSITION": null,
+  "COMETGS_HELIO1HR_POSITION": null,
   "COMETHMP_HELIO1DAY_POSITION": null,
+  "COMETHMP_HELIO1HR_POSITION": null,
   "CRRES_H0_MEA": "spase://SMWG/Instrument/CRRES/MEA",
   "CSSWE_REPTILE_6SEC-COUNTS-L1": "spase://SMWG/Instrument/CubeSat/CSSWE/REPTile",
   "CSSWE_REPTILE_6SEC-FLUX-L2": "spase://SMWG/Instrument/CubeSat/CSSWE/REPTile",
   "CT_JP_PSE": "spase://SMWG/Instrument/Cluster/JSOC",
   "DAWN_HELIO1DAY_POSITION": "spase://SMWG/Instrument/Dawn/Ephemeris",
+  "DAWN_HELIO1HR_POSITION": "spase://SMWG/Instrument/Dawn/Ephemeris",
   "DE1_1MIN_RIMS": [
     "spase://SMWG/Instrument/DynamicsExplorer1/Ephemeris",
     "spase://SMWG/Instrument/DynamicsExplorer1/MAGA",
@@ -589,6 +595,7 @@
     "spase://SMWG/Instrument/DSCOVR/PlasMag/FluxgateMagnetometer"
   ],
   "EARTH_HELIO1DAY_POSITION": null,
+  "EARTH_HELIO1HR_POSITION": null,
   "ELA_L1_EPDEF": "spase://NASA/Instrument/ELFIN/A/EPD",
   "ELA_L1_EPDIF": "spase://NASA/Instrument/ELFIN/A/EPD",
   "ELA_L1_STATE_DEFN": "spase://NASA/Instrument/ELFIN/A/Ephemeris",
@@ -639,6 +646,7 @@
     "spase://SMWG/Instrument/GOES/9/Ephemeris"
   ],
   "GALILEO_HELIO1DAY_POSITION": "spase://SMWG/Instrument/Galileo/Ephemeris",
+  "GALILEO_HELIO1HR_POSITION": "spase://SMWG/Instrument/Galileo/Ephemeris",
   "GENESIS_3DL2_GIM": "spase://SMWG/Instrument/Genesis/GIM-GEM",
   "GE_1MIN_MAG_PLASMA_SW_ONLY": [
     "spase://SMWG/Instrument/Geotail/CPI",
@@ -666,7 +674,9 @@
   "GE_OR_PRE": "spase://SMWG/Instrument/Geotail/Ephemeris",
   "GE_SW_CPI": "spase://SMWG/Instrument/Geotail/CPI/SWA",
   "GIACOBINI_HELIO1DAY_POSITION": null,
+  "GIACOBINI_HELIO1HR_POSITION": null,
   "GIOTTO_HELIO1DAY_POSITION": "spase://SMWG/Instrument/Giotto/Ephemeris",
+  "GIOTTO_HELIO1HR_POSITION": "spase://SMWG/Instrument/Giotto/Ephemeris",
   "GOES10_EPHEMERIS_SSC": [
     "spase://SMWG/Instrument/GOES/10/Ephemeris",
     "spase://SMWG/Instrument/GOES/10/MAG"
@@ -724,7 +734,9 @@
   "GPS_TEC1HR_IGS": "spase://SMWG/Instrument/IGS/GPS_Receiver",
   "GPS_TEC2HR_IGS": "spase://SMWG/Instrument/IGS/GPS_Receiver",
   "HALEBOPP_HELIO1DAY_POSITION": null,
+  "HALEBOPP_HELIO1HR_POSITION": null,
   "HALLEY_HELIO1DAY_POSITION": null,
+  "HALLEY_HELIO1HR_POSITION": null,
   "HEL1_6SEC_NESSMAG": "spase://SMWG/Instrument/Helios1/E3",
   "HEL2_6SEC_NESSMAG": "spase://SMWG/Instrument/Helios2/E3",
   "HELIOS1_40SEC_MAG-PLASMA": [
@@ -738,6 +750,7 @@
   "HELIOS1_E6_1HOUR_PARTICLE_FLUX": "spase://SMWG/Instrument/Helios1/E6",
   "HELIOS1_E6_KUNOW_1HOUR_PARTICLE-FLUX": "spase://SMWG/Instrument/Helios1/E6",
   "HELIOS1_HELIO1DAY_POSITION": "spase://SMWG/Instrument/Helios1/Ephemeris",
+  "HELIOS1_HELIO1HR_POSITION": "spase://SMWG/Instrument/Helios1/Ephemeris",
   "HELIOS2_40SEC_MAG-PLASMA": [
     "spase://SMWG/Instrument/Helios2/E3",
     "spase://SMWG/Instrument/Helios2/E1"
@@ -749,9 +762,11 @@
   "HELIOS2_E6_1HOUR_PARTICLE_FLUX": "spase://SMWG/Instrument/Helios2/E6",
   "HELIOS2_E6_KUNOW_1HOUR_PARTICLE-FLUX": "spase://SMWG/Instrument/Helios2/E6",
   "HELIOS2_HELIO1DAY_POSITION": "spase://SMWG/Instrument/Helios2/Ephemeris",
+  "HELIOS2_HELIO1HR_POSITION": "spase://SMWG/Instrument/Helios2/Ephemeris",
   "HK_H0_MAG": "spase://SMWG/Instrument/Hawkeye/MAG",
   "HK_H0_VLF": "spase://SMWG/Instrument/Hawkeye/VLF",
   "HYAKUTAKE_HELIO1DAY_POSITION": null,
+  "HYAKUTAKE_HELIO1HR_POSITION": null,
   "I1_AV2_OTT": "spase://SMWG/Instrument/ISIS1/SFS",
   "I1_AV2_QUI": "spase://SMWG/Instrument/ISIS1/SFS",
   "I1_AV2_ULA": "spase://SMWG/Instrument/ISIS1/SFS",
@@ -927,6 +942,7 @@
   "IM_OR_DEF": "spase://SMWG/Instrument/IMAGE/Ephemeris",
   "IM_OR_PRE": null,
   "ISEE-3_HELIO1DAY_POSITION": "spase://SMWG/Instrument/ISEE3/Ephemeris",
+  "ISEE-3_HELIO1HR_POSITION": "spase://SMWG/Instrument/ISEE3/Ephemeris",
   "ISEE-3_MAGPLASMA_2MIN_MAGNETIC_FIELD_PLASMA": [
     "spase://SMWG/Instrument/ISEE3/MAG",
     "spase://SMWG/Instrument/ISEE3/SWP"
@@ -971,7 +987,9 @@
     "spase://SMWG/Instrument/Magion-4/Ephemeris"
   ],
   "JUNO_HELIO1DAY_POSITION": "spase://SMWG/Instrument/Juno/Ephemeris",
+  "JUNO_HELIO1HR_POSITION": "spase://SMWG/Instrument/Juno/Ephemeris",
   "JUPITER_HELIO1DAY_POSITION": null,
+  "JUPITER_HELIO1HR_POSITION": null,
   "L0_K0_MPA": "spase://SMWG/Instrument/LANL/1990/MPA",
   "L0_K0_SPA": "spase://SMWG/Instrument/LANL/1990/SOPA",
   "L1_K0_MPA": "spase://SMWG/Instrument/LANL/1991/MPA",
@@ -985,9 +1003,13 @@
   "L9_K0_MPA": "spase://SMWG/Instrument/LANL/1989/MPA",
   "L9_K0_SPA": "spase://SMWG/Instrument/LANL/1989/SOPA",
   "MARS_HELIO1DAY_POSITION": null,
+  "MARS_HELIO1HR_POSITION": null,
   "MAVEN_HELIO1DAY_POSITION": "spase://SMWG/Instrument/MAVEN/Ephemeris",
+  "MAVEN_HELIO1HR_POSITION": "spase://SMWG/Instrument/MAVEN/Ephemeris",
   "MERCURY_HELIO1DAY_POSITION": null,
+  "MERCURY_HELIO1HR_POSITION": null,
   "MESSENGER_HELIO1DAY_POSITION": "spase://SMWG/Instrument/MESSENGER/Ephemeris",
+  "MESSENGER_HELIO1HR_POSITION": "spase://SMWG/Instrument/MESSENGER/Ephemeris",
   "MESSENGER_MAG_RTN": [
     "spase://SMWG/Instrument/MESSENGER/Ephemeris",
     "spase://SMWG/Instrument/MESSENGER/Magnetometer"
@@ -1618,6 +1640,7 @@
   "MVN_SWI_L2_ONBOARDSVYMOM": "spase://SMWG/Instrument/MAVEN/SWIA",
   "MVN_SWI_L2_ONBOARDSVYSPEC": "spase://SMWG/Instrument/MAVEN/SWIA",
   "NEPTUNE_HELIO1DAY_POSITION": null,
+  "NEPTUNE_HELIO1HR_POSITION": null,
   "NEW_HORIZONS_SWAP_PICKUP-IONS": "spase://SMWG/Instrument/NewHorizons/SWAP",
   "NEW_HORIZONS_SWAP_PICKUP-IONS-HISTOGRAM": "spase://SMWG/Instrument/NewHorizons/SWAP",
   "NOAA05_MEPED1MIN_SEM": "spase://SMWG/Instrument/NOAA/5/SPM",
@@ -1664,17 +1687,20 @@
   "OMNI_HRO_1MIN": "spase://SMWG/Instrument/OMNI",
   "OMNI_HRO_5MIN": "spase://SMWG/Instrument/OMNI",
   "PHOBOS2_HELIO1DAY_POSITION": "spase://SMWG/Instrument/Phobos2/Ephemeris",
+  "PHOBOS2_HELIO1HR_POSITION": "spase://SMWG/Instrument/Phobos2/Ephemeris",
   "PIONEER10_COHO1HR_MERGED_MAG_PLASMA": [
     "spase://SMWG/Instrument/Pioneer10/MAG",
     "spase://SMWG/Instrument/Pioneer10/PLS"
   ],
   "PIONEER10_HELIO1DAY_POSITION": "spase://SMWG/Instrument/Pioneer10/Ephemeris",
+  "PIONEER10_HELIO1HR_POSITION": "spase://SMWG/Instrument/Pioneer10/Ephemeris",
   "PIONEER10_MAG_1MIN_MAGNETIC_FIELD": "spase://SMWG/Instrument/Pioneer10/MAG",
   "PIONEER11_COHO1HR_MERGED_MAG_PLASMA": [
     "spase://SMWG/Instrument/Pioneer11/MAG1",
     "spase://SMWG/Instrument/Pioneer11/PLS"
   ],
   "PIONEER11_HELIO1DAY_POSITION": "spase://SMWG/Instrument/Pioneer11/Ephemeris",
+  "PIONEER11_HELIO1HR_POSITION": "spase://SMWG/Instrument/Pioneer11/Ephemeris",
   "PIONEERVENUS_COHO1HR_MERGED_MAG_PLASMA": [
     "spase://SMWG/Instrument/PioneerVenusOrbiter/OMAG",
     "spase://SMWG/Instrument/PioneerVenusOrbiter/ORPA"
@@ -1685,6 +1711,7 @@
     "spase://SMWG/Instrument/PioneerVenusOrbiter/OPA"
   ],
   "PLUTO_HELIO1DAY_POSITION": null,
+  "PLUTO_HELIO1HR_POSITION": null,
   "POLAR_HYDRA_MOMENTS-14SEC": "spase://SMWG/Instrument/POLAR/HYDRA",
   "PO_10MINATT_EFI": "spase://SMWG/Instrument/POLAR/EFI",
   "PO_6SECEDSC_EFI": "spase://SMWG/Instrument/POLAR/EFI",
@@ -1726,6 +1753,7 @@
     "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/MAG",
     "spase://SMWG/Instrument/ParkerSolarProbe/SWEAP/SPC"
   ],
+  "PSP_FLD_L2_AEB": "spase://SMWG/Instrument/",
   "PSP_FLD_L2_DFB_AC_BPF_DV12HG": [
     "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
     "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V1",
@@ -1809,9 +1837,33 @@
     "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V4",
     "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V5"
   ],
+  "PSP_FLD_L2_DFB_DBM_DVDC": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V1",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V2",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V3",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V4",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V5"
+  ],
   "PSP_FLD_L2_DFB_DBM_SCM": [
     "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
     "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/SCM"
+  ],
+  "PSP_FLD_L2_DFB_DBM_VAC": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V1",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V2",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V3",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V4",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V5"
+  ],
+  "PSP_FLD_L2_DFB_DBM_VDC": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V1",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V2",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V3",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V4",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V5"
   ],
   "PSP_FLD_L2_DFB_DC_BPF_DV12HG": [
     "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB",
@@ -1914,9 +1966,27 @@
   "PSP_FLD_L2_MAG_SC": "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/MAG",
   "PSP_FLD_L2_MAG_SC_1MIN": "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/MAG",
   "PSP_FLD_L2_MAG_SC_4_SA_PER_CYC": "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/MAG",
+  "PSP_FLD_L2_MAG_VSO": "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/MAG",
+  "PSP_FLD_L2_RFS_BURST": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/RFS/HFR",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/RFS/LFR",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/SCM",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V1",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V2",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V3",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V4"
+  ],
   "PSP_FLD_L2_RFS_HFR": "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/RFS/HFR",
   "PSP_FLD_L2_RFS_LFR": "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/RFS/LFR",
+  "PSP_FLD_L3_DUST": "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/FIELDS2/TDS",
+  "PSP_FLD_L3_MERGED_SCAM_WF": [
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/MAG",
+    "spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/SCM"
+  ],
+  "PSP_FLD_L3_RFS_LFR_QTN": "spase://SMWG/Instrument/ParkerSolarProbe/RFS",
+  "PSP_FLD_L3_SQTN_RFS_V1V2": "spase://SMWG/Instrument/",
   "PSP_HELIO1DAY_POSITION": "spase://SMWG/Instrument/ParkerSolarProbe/Ephemeris",
+  "PSP_HELIO1HR_POSITION": "spase://SMWG/Instrument/ParkerSolarProbe/Ephemeris",
   "PSP_ISOIS-EPIHI_L2-HET-RATES10": "spase://SMWG/Instrument/ParkerSolarProbe/ISOIS/EPI-Hi/HET",
   "PSP_ISOIS-EPIHI_L2-HET-RATES300": "spase://SMWG/Instrument/ParkerSolarProbe/ISOIS/EPI-Hi/HET",
   "PSP_ISOIS-EPIHI_L2-HET-RATES3600": "spase://SMWG/Instrument/ParkerSolarProbe/ISOIS/EPI-Hi/HET",
@@ -2161,11 +2231,11 @@
   "RBSP-B_WFR-WAVEFORM_EMFISIS-L2": "spase://SMWG/Instrument/RBSP/B/EMFISIS",
   "RBSP-B_WNA-SURVEY-SHEATH-CORRECTED-E_EMFISIS-L4": "spase://SMWG/Instrument/RBSP/A/EMFISIS",
   "RBSPA_EFW-L2_E-HIRES-UVW": "spase://SMWG/Instrument/RBSP/A/EFW",
-  "RBSPA_EFW-L2_E-SPINFIT-MGSE": "spase://SMWG/Instrument/RBSP/B/EMFISIS",
+  "RBSPA_EFW-L2_E-SPINFIT-MGSE": "spase://SMWG/Instrument/RBSP/A/EFW",
   "RBSPA_EFW-L2_ESVY_DESPUN": "spase://SMWG/Instrument/RBSP/A/EFW",
   "RBSPA_EFW-L2_FBK": "spase://SMWG/Instrument/RBSP/A/EFW",
-  "RBSPA_EFW-L2_SPEC": "spase://SMWG/Instrument/RBSP/B/EMFISIS",
-  "RBSPA_EFW-L2_VSVY-HIRES": "spase://SMWG/Instrument/RBSP/B/EMFISIS",
+  "RBSPA_EFW-L2_SPEC": "spase://SMWG/Instrument/RBSP/A/EFW",
+  "RBSPA_EFW-L2_VSVY-HIRES": "spase://SMWG/Instrument/RBSP/A/EFW",
   "RBSPA_EFW-L3": "spase://SMWG/Instrument/RBSP/A/EFW",
   "RBSPA_L2-1MIN_PSBR-RPS": [
     "spase://SMWG/Instrument/RBSP/A/Ephemeris",
@@ -2204,7 +2274,7 @@
   "RBSPB_EFW-L2_E-HIRES-UVW": "spase://SMWG/Instrument/RBSP/B/EFW",
   "RBSPB_EFW-L2_E-SPINFIT-MGSE": "spase://SMWG/Instrument/RBSP/B/EFW",
   "RBSPB_EFW-L2_ESVY_DESPUN": "spase://SMWG/Instrument/RBSP/B/EFW",
-  "RBSPB_EFW-L2_FBK": "spase://SMWG/Instrument/RBSP/B/EMFISIS",
+  "RBSPB_EFW-L2_FBK": "spase://SMWG/Instrument/RBSP/B/EFW",
   "RBSPB_EFW-L2_SPEC": "spase://SMWG/Instrument/RBSP/B/EFW",
   "RBSPB_EFW-L2_VSVY-HIRES": "spase://SMWG/Instrument/RBSP/B/EFW",
   "RBSPB_EFW-L3": "spase://SMWG/Instrument/RBSP/B/EFW",
@@ -2256,9 +2326,12 @@
   "RENU2_H0_UVPMT": "spase://SMWG/Instrument/RENU2/UVPMT",
   "RENU2_H0_VLF": "spase://SMWG/Instrument/RENU2/COWBOY",
   "ROSETTA_HELIO1DAY_POSITION": "spase://SMWG/Instrument/Rosetta/Ephemeris",
+  "ROSETTA_HELIO1HR_POSITION": "spase://SMWG/Instrument/Rosetta/Ephemeris",
   "RS_K0_IPEI": "spase://SMWG/Instrument/ROCSAT-1/IPEI",
   "SAKIGAKE_HELIO1DAY_POSITION": "spase://SMWG/Instrument/Sakigake/Ephemeris",
+  "SAKIGAKE_HELIO1HR_POSITION": "spase://SMWG/Instrument/Sakigake/Ephemeris",
   "SATURN_HELIO1DAY_POSITION": null,
+  "SATURN_HELIO1HR_POSITION": null,
   "SE_K0_AIS": "spase://SMWG/Instrument/SESAME/AIS",
   "SE_K0_FPI": "spase://SMWG/Instrument/SESAME/FPI",
   "SE_K0_MAG": "spase://SMWG/Instrument/SESAME/MAG",
@@ -2281,6 +2354,7 @@
   "SOHO_ERNE_HEAVY-ION-1HR": "spase://SMWG/Instrument/SOHO/ERNE",
   "SOHO_ERNE_HEAVY-ION-5MIN": "spase://SMWG/Instrument/SOHO/ERNE",
   "SOHO_HELIO1DAY_POSITION": "spase://SMWG/Instrument/SOHO/Ephemeris",
+  "SOHO_HELIO1HR_POSITION": "spase://SMWG/Instrument/SOHO/Ephemeris",
   "SOLO_HELIO1DAY_POSITION": "spase://SMWG/Instrument/SolarOrbiter/Ephemeris",
   "SO_AT_DEF": "spase://SMWG/Instrument/SOHO/Ephemeris",
   "SO_K0_CEL": "spase://SMWG/Instrument/SOHO/CELIAS",
@@ -2297,6 +2371,7 @@
     "spase://SMWG/Instrument/STEREO-A/PLASTIC"
   ],
   "STA_HELIO1DAY_POSITION": "spase://SMWG/Instrument/STEREO-A/Ephemeris",
+  "STA_HELIO1HR_POSITION": "spase://SMWG/Instrument/STEREO-A/Ephemeris",
   "STA_L1_HET": "spase://SMWG/Instrument/STEREO-A/IMPACT/HET",
   "STA_L1_IMPACT_BURST": [
     "spase://SMWG/Instrument/STEREO-A/IMPACT/MAG",
@@ -2348,6 +2423,7 @@
     "spase://SMWG/Instrument/STEREO-B/IMPACT"
   ],
   "STB_HELIO1DAY_POSITION": "spase://SMWG/Instrument/STEREO-B/Ephemeris",
+  "STB_HELIO1HR_POSITION": "spase://SMWG/Instrument/STEREO-B/Ephemeris",
   "STB_L1_HET": "spase://SMWG/Instrument/STEREO-B/IMPACT/HET",
   "STB_L1_IMPACT_BURST": [
     "spase://SMWG/Instrument/STEREO-B/IMPACT/MAG",
@@ -2391,6 +2467,7 @@
     "spase://SMWG/Instrument/STEREO-B/SWAVES"
   ],
   "SUISEI_HELIO1DAY_POSITION": "spase://SMWG/Instrument/Suisei/Ephemeris",
+  "SUISEI_HELIO1HR_POSITION": "spase://SMWG/Instrument/Suisei/Ephemeris",
   "SX_K0_30F": [
     "spase://SMWG/Instrument/SAMPEX/MAST",
     "spase://SMWG/Instrument/SAMPEX/HILT",
@@ -2428,6 +2505,7 @@
   "THA_L2_SST": "spase://SMWG/Instrument/THEMIS/A/SST",
   "THA_OR_SSC": "spase://SMWG/Instrument/THEMIS/A/Ephemeris",
   "THB_HELIO1DAY_POSITION": "spase://SMWG/Instrument/THEMIS/B/Ephemeris",
+  "THB_HELIO1HR_POSITION": "spase://SMWG/Instrument/THEMIS/B/Ephemeris",
   "THB_L1_STATE": "spase://SMWG/Instrument/THEMIS/B/Ephemeris",
   "THB_L2_EFI": "spase://SMWG/Instrument/THEMIS/B/EFI",
   "THB_L2_ESA": "spase://SMWG/Instrument/THEMIS/B/ESA",
@@ -2457,6 +2535,7 @@
   "THB_L2_SST": "spase://SMWG/Instrument/THEMIS/B/SST",
   "THB_OR_SSC": "spase://SMWG/Instrument/THEMIS/B/Ephemeris",
   "THC_HELIO1DAY_POSITION": "spase://SMWG/Instrument/THEMIS/C/Ephemeris",
+  "THC_HELIO1HR_POSITION": "spase://SMWG/Instrument/THEMIS/C/Ephemeris",
   "THC_L1_STATE": "spase://SMWG/Instrument/THEMIS/C/Ephemeris",
   "THC_L2_EFI": "spase://SMWG/Instrument/THEMIS/C/EFI",
   "THC_L2_ESA": "spase://SMWG/Instrument/THEMIS/C/ESA",
@@ -2736,7 +2815,9 @@
     "spase://SMWG/Instrument/TWINS2/Ephemeris"
   ],
   "ULYSSES_HELIO1DAY_POSITION": "spase://SMWG/Instrument/Ulysses/Ephemeris",
+  "ULYSSES_HELIO1HR_POSITION": "spase://SMWG/Instrument/Ulysses/Ephemeris",
   "URANUS_HELIO1DAY_POSITION": null,
+  "URANUS_HELIO1HR_POSITION": null,
   "UY_1MIN_VHM": "spase://SMWG/Instrument/Ulysses/FGM",
   "UY_1SEC_VHM": "spase://SMWG/Instrument/Ulysses/FGM",
   "UY_ALPHA-DISTRIBUTIONS_SWOOPS": [
@@ -2804,6 +2885,7 @@
     "spase://SMWG/Instrument/Ulysses/SWOOPS"
   ],
   "VENUS_HELIO1DAY_POSITION": null,
+  "VENUS_HELIO1HR_POSITION": null,
   "VG1_PWS_LR": "spase://SMWG/Instrument/Voyager1/PWS",
   "VG1_PWS_WF": "spase://SMWG/Instrument/Voyager1/PWS",
   "VG2_PWS_LR": "spase://SMWG/Instrument/Voyager2/PWS",
@@ -2828,7 +2910,7 @@
   "VOYAGER1_PLS_COMPOSITION": "spase://SMWG/Instrument/Voyager1/PLS",
   "VOYAGER1_PLS_ELECTRONS_E1": "spase://SMWG/Instrument/Voyager1/PLS",
   "VOYAGER1_PLS_ELECTRONS_E2": "spase://SMWG/Instrument/Voyager1/PLS",
-  "VOYAGER1_PLS_HIRES_PLASMA_DATA": "spase://SMWG/Instrument/Voyager1/MAG",
+  "VOYAGER1_PLS_HIRES_PLASMA_DATA": "spase://SMWG/Instrument/Voyager1/PLS",
   "VOYAGER1_PLS_IONS_L": "spase://SMWG/Instrument/Voyager1/PLS",
   "VOYAGER1_PLS_IONS_M": "spase://SMWG/Instrument/Voyager1/PLS",
   "VOYAGER2_10S_MAG": [
@@ -2852,6 +2934,7 @@
   "VOYAGER2_PLS_IONS_L": "spase://SMWG/Instrument/Voyager2/PLS",
   "VOYAGER2_PLS_IONS_M": "spase://SMWG/Instrument/Voyager2/PLS",
   "WILD2_HELIO1DAY_POSITION": null,
+  "WILD2_HELIO1HR_POSITION": null,
   "WIND_3DP_ECHSFITS_E0-YR": null,
   "WI_AT_DEF": "spase://SMWG/Instrument/Wind/Ephemeris",
   "WI_AT_PRE": "spase://SMWG/Instrument/Wind/Ephemeris",
@@ -2899,6 +2982,7 @@
   "WI_L2-5MIN-SEP_EPACT-LEMT": "spase://SMWG/Instrument/Wind/EPACT",
   "WI_L2_3MIN_SMS-STICS-NVT-MAGNETOSPHERE": "spase://SMWG/Instrument/Wind/SMS/STICS",
   "WI_L2_3MIN_SMS-STICS-NVT-SOLARWIND": "spase://SMWG/Instrument/Wind/SMS/STICS",
+  "WI_L2_WAV_RAD1": "spase://SMWG/Instrument/Wind/WAVES",
   "WI_L3-DUSTIMPACT_WAVES": "spase://SMWG/Instrument/Wind/WAVES",
   "WI_M0_SWE": "spase://SMWG/Instrument/Wind/SWE",
   "WI_M2_SWE": "spase://SMWG/Instrument/Wind/SWE",
