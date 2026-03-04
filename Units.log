@@ -1,0 +1,1007 @@
+Differences:
+Value diff for counts (All Q: A=null vs B="null"
+
+Mapped values in A: 573
+
+Null values in A (499):
+#
+# / pixel
+# major frames
+# spins
+#/(cm^2-s) (All Qs)
+#/(cm^2-s-keV/e-sr)
+#/[cc*(cm/s)^3*str]
+#/cc (w/o error bars)
+#/cc (with error bars)
+#/s-cm2-sr-keV/q
+#/{cc*(cm/s)^3}
+% of Flux
+% of H+ E-Flux
+% of H+ Fluence
+% of He+ E-Flux
+% of He++ E-Flux
+% of He1 Fluence
+% of He2 Fluence
+% of O+ E-Flux
+% of O+ Fluence
+( < 0 fails)
+(/cm2-s-sr-keV)^2
+(0-3=Sci/Man/Con/Eng)
+(0-3=U/FULL/OPEN/CL)
+(0-3=U/NORM/STAR/IDLE)
+(0=A East & B West)
+(0=Bu,1=Bv,2=Bz)
+(0=Dis 1=Enabled)
+(0=Eu,1=Ev,2=Ez)
+(0=Eu,1=Ez)
+(0=Full)
+(0=Good)
+(0=Good,5=Bad)
+(0=Lock 1=Out lock)
+(0=Log,1=Linear)
+(0=NOT,1=FULL)
+(0=No Gap)
+(0=No_Eclipse)
+(0=OK)
+(0=OK, 1=unreliable)
+(0=OK,1=Other)
+(0=OK,1=Suspect)
+(0=OK,1=poor)
+(0=U,1=V,2=W/Spin)
+(0=highest)
+(0=lossless)
+(0=off)
+(0=off,1=on)
+(0=out,1=in)
+(0=prime,1=second)
+(0=stnd,1=Atten)
+(0=valid)
+(0to15)
+(1-4)
+(10=He_OK,>1=P_OK)
+(10=OK)
+(1992 or 3984 pts in <=0.064s)
+(1=Ctn,2=OK)
+(1=EA=RAM-A,2=SW=RAM-B)
+(1=Full)
+(1=Good, 2=Bad)
+(1=Good,2=Bad)
+(1=NTMS,2=TMS,3=AQM)
+(1=OK)
+(1=On)
+(1=SW,2=MULT,3=NSW)
+(1=Track)
+(1=good)
+(1=possible)
+(2038=Yr0)
+(222/223=good)
+(256 Pixels)
+(2=Auroral)
+(31744 pts in 0.045s @ 9.2s)
+(3=L)
+(3=good, 2=OK)
+(6=No,1=All,-1=n/a)
+(7=good)
+(>3 Bad)
+(All Qs) cm^{-3}
+(All Qs) km/s
+(All Qs) u/e
+(EA=RAM-A=Code 1, SW=RAM-B=Code 2)
+(GGG=All Good)
+(Gain1)
+(Gain2)
+(Gain3)
+(Good Q) cm^{-3}
+(Good Q) km/s
+(Good Qs) cm^{-3}
+(Good Qs) km/s
+(Good Qs) u/e
+(Good=0)
+(Instrmt Coords)
+(Model-Peak)^2/(uncertainty)^2
+(OK>=2)
+(UnitVect)
+(X/Y/Z)
+(cm^-3 s^-1)^2
+(code=TBD)
+(codes 1-8)
+(codes=1-9)
+(eV/[eV cm^2 sr s])^2
+(none)
+(pseudo telescope no)
+(source level)
+*n
+-
+-1=unknown 0=good 1=bad
+-Volts
+.
+/cm^(-3)
+0 = Good
+0 = good
+0 means no issues
+0, 1
+0-11
+0-31
+0-7=H/04/56/HS/HL/SO/SH/U)
+0-down,1-up
+0.01 V
+0.01 mV/m
+0.01/cc
+0.01nT
+0.1 deg
+0.1 s
+0.1nT
+00-15
+00-29
+00-31
+00-32
+0=Good
+0=Interpolated, 1=Modeled
+0=MAINT;1=SCI;2=HIGHRATE
+0=disabled;1=enabled
+0=good
+0=good Q, 2=bad
+0=good quality
+0=good,15=bad
+0=grounded,(1)=enabled
+0=in,1=out,2=average,3=gradiometer
+0=low-bias;1=normal-bias
+0=passive,(1)=sweeping
+0high-9low
+1,6-good;2,7-fair;else warn
+1-slow mode,6-normal mode
+1.0e-15Tesla/Hz**0.5
+1.E16 m-2
+1/(SQcm-ster-s)..
+1/(cm2 s sr MeV/n
+1/(cm2 sec sr MeV/n
+1/N SUM |B|, nT
+1/[cm**2-s-sr-keV/e]
+1/[cm**2-s-sr/e]
+1/[cm**2-s-sr/keV]
+1/c
+1/cc (qual only if scan=2=SW)
+1/cm^-3
+10.0 kHz
+100.0 dBpT/sqrt(Hz)
+100.0 dBuV/m/sqrt(Hz)
+10=best quality
+10^6 km
+10^{-10}/m/sr
+1=Good
+1=good
+1E16 m-2
+2s/255
+3 = Good
+3-hour
+3/4 dBnV/m
+3/4 dBnv/m
+32-bit error flags
+50 Nanoseconds
+7.03125 nA
+81-day
+8=IMP8
+<|V|>
+<|mV/m|>
+<|nT|>
+=n
+>c/acc
+Active Region Z score
+Arbitrary
+Bin Number
+Bursts
+CO2
+Celcius
+Celsius
+Ch
+Charge state
+Cleaned UV Intensity in QLC Counts
+Cleaned UV Intensity in kRay
+Cnts*254/I_max
+Cnts/sec cm^2 Sr
+Cnts/sec cm^2 Sr MeV
+Column number
+Counts per spin
+Counts.
+Counts/256sec
+Counts/Acc
+Cup No.
+DD-MMM-YYYY_hr:mm
+DQ for channel C
+DQ for channel D
+DQ for channel P
+Day (since 1990)
+Day of Year
+Day of the year
+Day/ni/tw=0/1/2
+Db
+DbM
+Deg.(1hr)
+Deg.(1min)
+Deg.(3sec)
+Degrees*10
+Descrete quality ind
+Detector#
+EarthRadii_G
+Eband#
+Electrons
+F/B
+Flag
+Fraction of the year
+Fractional Error
+Fractional Hour of Day
+GSE
+G^(1/2) RE
+Gauss RE**3
+Good=1
+H2O
+ID
+IRI-95
+IRI95
+Index
+Index_No
+Integer
+Integer Table
+Ion1
+Ion2
+Ion3
+Ion4
+Ion5
+K (w/o error bars)
+K (with error bars)
+LH:-1/RH:+1
+Log (microV/m/Hz^0.5)
+Log10 (Intensity/Rayleighs)
+Log10 (Raw Pixel Cnts)
+Log10(Cnts)
+Log10(Raw Pixel Cnts)
+MJD
+MLT hours
+Maj Frames
+Milliseconds since 1970-01-01 00:00:00
+Milliseconds since 1970-1-1 00:00:00
+Mirror steps
+N/A
+NA
+NM2
+Na
+Nm2
+None (All Qs)
+Normalized
+Number
+O
+O3 (1.27um)
+O3 (9.6um)
+OK<2048
+PSI
+Phase Angle, Deg
+Q*10+N
+QLC Counts
+R!dE!n
+RGB levels
+RPS
+RV
+R_E nT^0.5
+Rads/Count
+Range
+Raw Pixel Cnts
+Ray*254/i_max
+Re (1hr)
+Re (1min)
+Re and MLT
+Re*(10**6)
+Relative Counts
+Row number
+Rv
+SAT [rad]
+Sa/s
+Samples/cycle
+Samples/s
+Seconds since 1970-01-01T00:00:00Z
+Shadow Flag
+Slope
+Sol
+Steps
+T/F
+TBD
+TIDE
+Ticks
+Time
+UT
+UT seconds of day
+UTC
+UncmpCounts
+V (All Qs)
+V-dc
+W/C
+Weeks
+X GSE
+Y GSE
+YYYYDDD
+YYYYDOY
+Z GSE
+[-1, 1]
+[Code]
+[DO NOT USE-NO QFLAG FILTER]
+[DO NOT USE-No QualF]
+[DO NOT USE]
+[Re]
+[]
+adc
+arb
+asc=0/desc=1
+attitude change in degrees
+binary
+c/acc
+calc range
+calls
+cdfepoch
+cm2^2 sr keV keV^-1
+cm^-3 (All Qs)
+cm^2 sr eV/eV)^-1
+cnts/(cm**2-ster-s-e
+cnts/50ms
+cnts/9ms
+cnts/accum
+commands
+constant
+cor cnts/sec
+counts (All Q
+counts (All Q)
+counts (good Q
+counts (good Q)
+counts per 9ms
+counts per sample
+counts/(channel-10ms)
+counts/sample
+cts/6-sec
+cts/9ms
+cts/s (EffCorr,PropTo_DiffEFlux)
+cubic ft
+dB>bgnd
+dBV/root-Hz
+dBVolts
+dBm
+daily
+data points
+date/time
+day-month-year hour:minute:second
+deg (>200)
+deg (from fits)
+deg (from moments)
+deg C
+deg(C)
+deg. C
+degrees (All Qs)
+degrees (E)
+degrees (N)
+degrees C
+degrees F
+degrees, degrees, meters
+del-phi counts
+eV (All Qs)
+eV (qual only if scan=2=SW)
+eV/(cm^2-s) (All Qs)
+eV/(cm^2-s-sr-eV) (All Qs)
+eV/cm2/delta-eV/ster/s
+eV/cm^-3
+eV/cm^3 (All Qs)
+energy channel
+energy index
+ergs/(cm**2 str s eV
+ergs/(cm**2-ster-s-e
+ev/cm2/delta-eV/ster/s
+feet
+feet/s
+feet/sec
+feet/sec**2
+flag
+fractional year
+good = 0
+hh:mm
+hour and decimal hour
+index
+integer
+ionic charge
+kilofeet
+km (>200)
+km/s (All Qs)
+km/s (qual only if scan=2=SW)
+km/s (w/o error bars)
+km/s (with error bars)
+km/sec (from fits)
+km/sec (from moments)
+ln(#protons/cm^2.s.sr.MeV)
+log(#protons/cm^2.s.sr.MeV)
+log(Torr)
+log(cm^-3)
+log10((V/m)**2/Hz)
+log10(cnts/cm^2/sr)
+log10(nT**2/Hz)
+mV RMS
+mV/m pT/Hz
+mass/charge
+micro.
+millimaps/m
+milliseconds since 1970-01-01 00:00:00
+milliseconds since 1970-01-01 00:00:00.0 UTC
+mjd
+mo
+mode
+months
+ms (UT)
+ms since 1970/01/01
+ms/10
+ms/2
+n/a
+n/cc (from fits)
+n/cc (from moments)
+nT (1hr)
+nT (1min)
+nT (3sec)
+nT (>200)
+nT (All Q's)
+nT (All Qs)
+nT (all flags)
+nT DSL
+nT DSL (All Q's)
+nT DSL (All Qs)
+nT GSE
+nT GSE (All Q's)
+nT GSE (All Qs)
+nT GSM
+nT GSM (All Q's)
+nT GSM (All Qs)
+nT RMS
+nT R_E^2
+nT SSL
+nT SSL (All Q's)
+nT SSL (All Qs)
+nT(1hr)
+nanoseconds since J2000
+nautical miles
+no units
+no value=good
+no/cm/cm/s
+none (All Qs)
+num
+num sector
+num sectors
+num spins in sum
+number
+pdyne-au/cm^2
+phase-space density
+points
+points/avg
+pseudo-nT
+psi
+raw
+raw counts
+rclk
+resets
+retarding potential: 1-increasing,2-decreasing
+s^3/(km^3-cm^3)
+samples
+sats
+sec since 1-1-70
+seconds (All Q)
+seconds (good Q)
+seconds since 1970-01-01 00:00:00
+seconds since 1970-01-01T00:00:00Z
+seconds since 2000-01-01 12:00:00
+seconds since Jan. 1, 1970
+sector
+sector index
+segment
+spins
+step
+string
+ticks
+torr
+uGray/hr (All Q)
+uGray/hr (good Q)
+unit vector
+urad/ct
+wpix#
+
+Mapped values in B: 574
+
+Null values in B (498):
+#
+# / pixel
+# major frames
+# spins
+#/(cm^2-s) (All Qs)
+#/(cm^2-s-keV/e-sr)
+#/[cc*(cm/s)^3*str]
+#/cc (w/o error bars)
+#/cc (with error bars)
+#/s-cm2-sr-keV/q
+#/{cc*(cm/s)^3}
+% of Flux
+% of H+ E-Flux
+% of H+ Fluence
+% of He+ E-Flux
+% of He++ E-Flux
+% of He1 Fluence
+% of He2 Fluence
+% of O+ E-Flux
+% of O+ Fluence
+( < 0 fails)
+(/cm2-s-sr-keV)^2
+(0-3=Sci/Man/Con/Eng)
+(0-3=U/FULL/OPEN/CL)
+(0-3=U/NORM/STAR/IDLE)
+(0=A East & B West)
+(0=Bu,1=Bv,2=Bz)
+(0=Dis 1=Enabled)
+(0=Eu,1=Ev,2=Ez)
+(0=Eu,1=Ez)
+(0=Full)
+(0=Good)
+(0=Good,5=Bad)
+(0=Lock 1=Out lock)
+(0=Log,1=Linear)
+(0=NOT,1=FULL)
+(0=No Gap)
+(0=No_Eclipse)
+(0=OK)
+(0=OK, 1=unreliable)
+(0=OK,1=Other)
+(0=OK,1=Suspect)
+(0=OK,1=poor)
+(0=U,1=V,2=W/Spin)
+(0=highest)
+(0=lossless)
+(0=off)
+(0=off,1=on)
+(0=out,1=in)
+(0=prime,1=second)
+(0=stnd,1=Atten)
+(0=valid)
+(0to15)
+(1-4)
+(10=He_OK,>1=P_OK)
+(10=OK)
+(1992 or 3984 pts in <=0.064s)
+(1=Ctn,2=OK)
+(1=EA=RAM-A,2=SW=RAM-B)
+(1=Full)
+(1=Good, 2=Bad)
+(1=Good,2=Bad)
+(1=NTMS,2=TMS,3=AQM)
+(1=OK)
+(1=On)
+(1=SW,2=MULT,3=NSW)
+(1=Track)
+(1=good)
+(1=possible)
+(2038=Yr0)
+(222/223=good)
+(256 Pixels)
+(2=Auroral)
+(31744 pts in 0.045s @ 9.2s)
+(3=L)
+(3=good, 2=OK)
+(6=No,1=All,-1=n/a)
+(7=good)
+(>3 Bad)
+(All Qs) cm^{-3}
+(All Qs) km/s
+(All Qs) u/e
+(EA=RAM-A=Code 1, SW=RAM-B=Code 2)
+(GGG=All Good)
+(Gain1)
+(Gain2)
+(Gain3)
+(Good Q) cm^{-3}
+(Good Q) km/s
+(Good Qs) cm^{-3}
+(Good Qs) km/s
+(Good Qs) u/e
+(Good=0)
+(Instrmt Coords)
+(Model-Peak)^2/(uncertainty)^2
+(OK>=2)
+(UnitVect)
+(X/Y/Z)
+(cm^-3 s^-1)^2
+(code=TBD)
+(codes 1-8)
+(codes=1-9)
+(eV/[eV cm^2 sr s])^2
+(none)
+(pseudo telescope no)
+(source level)
+*n
+-
+-1=unknown 0=good 1=bad
+-Volts
+.
+/cm^(-3)
+0 = Good
+0 = good
+0 means no issues
+0, 1
+0-11
+0-31
+0-7=H/04/56/HS/HL/SO/SH/U)
+0-down,1-up
+0.01 V
+0.01 mV/m
+0.01/cc
+0.01nT
+0.1 deg
+0.1 s
+0.1nT
+00-15
+00-29
+00-31
+00-32
+0=Good
+0=Interpolated, 1=Modeled
+0=MAINT;1=SCI;2=HIGHRATE
+0=disabled;1=enabled
+0=good
+0=good Q, 2=bad
+0=good quality
+0=good,15=bad
+0=grounded,(1)=enabled
+0=in,1=out,2=average,3=gradiometer
+0=low-bias;1=normal-bias
+0=passive,(1)=sweeping
+0high-9low
+1,6-good;2,7-fair;else warn
+1-slow mode,6-normal mode
+1.0e-15Tesla/Hz**0.5
+1.E16 m-2
+1/(SQcm-ster-s)..
+1/(cm2 s sr MeV/n
+1/(cm2 sec sr MeV/n
+1/N SUM |B|, nT
+1/[cm**2-s-sr-keV/e]
+1/[cm**2-s-sr/e]
+1/[cm**2-s-sr/keV]
+1/c
+1/cc (qual only if scan=2=SW)
+1/cm^-3
+10.0 kHz
+100.0 dBpT/sqrt(Hz)
+100.0 dBuV/m/sqrt(Hz)
+10=best quality
+10^6 km
+10^{-10}/m/sr
+1=Good
+1=good
+1E16 m-2
+2s/255
+3 = Good
+3-hour
+3/4 dBnV/m
+3/4 dBnv/m
+32-bit error flags
+50 Nanoseconds
+7.03125 nA
+81-day
+8=IMP8
+<|V|>
+<|mV/m|>
+<|nT|>
+=n
+>c/acc
+Active Region Z score
+Arbitrary
+Bin Number
+Bursts
+CO2
+Celcius
+Celsius
+Ch
+Charge state
+Cleaned UV Intensity in QLC Counts
+Cleaned UV Intensity in kRay
+Cnts*254/I_max
+Cnts/sec cm^2 Sr
+Cnts/sec cm^2 Sr MeV
+Column number
+Counts per spin
+Counts.
+Counts/256sec
+Counts/Acc
+Cup No.
+DD-MMM-YYYY_hr:mm
+DQ for channel C
+DQ for channel D
+DQ for channel P
+Day (since 1990)
+Day of Year
+Day of the year
+Day/ni/tw=0/1/2
+Db
+DbM
+Deg.(1hr)
+Deg.(1min)
+Deg.(3sec)
+Degrees*10
+Descrete quality ind
+Detector#
+EarthRadii_G
+Eband#
+Electrons
+F/B
+Flag
+Fraction of the year
+Fractional Error
+Fractional Hour of Day
+GSE
+G^(1/2) RE
+Gauss RE**3
+Good=1
+H2O
+ID
+IRI-95
+IRI95
+Index
+Index_No
+Integer
+Integer Table
+Ion1
+Ion2
+Ion3
+Ion4
+Ion5
+K (w/o error bars)
+K (with error bars)
+LH:-1/RH:+1
+Log (microV/m/Hz^0.5)
+Log10 (Intensity/Rayleighs)
+Log10 (Raw Pixel Cnts)
+Log10(Cnts)
+Log10(Raw Pixel Cnts)
+MJD
+MLT hours
+Maj Frames
+Milliseconds since 1970-01-01 00:00:00
+Milliseconds since 1970-1-1 00:00:00
+Mirror steps
+N/A
+NA
+NM2
+Na
+Nm2
+None (All Qs)
+Normalized
+Number
+O
+O3 (1.27um)
+O3 (9.6um)
+OK<2048
+PSI
+Phase Angle, Deg
+Q*10+N
+QLC Counts
+R!dE!n
+RGB levels
+RPS
+RV
+R_E nT^0.5
+Rads/Count
+Range
+Raw Pixel Cnts
+Ray*254/i_max
+Re (1hr)
+Re (1min)
+Re and MLT
+Re*(10**6)
+Relative Counts
+Row number
+Rv
+SAT [rad]
+Sa/s
+Samples/cycle
+Samples/s
+Seconds since 1970-01-01T00:00:00Z
+Shadow Flag
+Slope
+Sol
+Steps
+T/F
+TBD
+TIDE
+Ticks
+Time
+UT
+UT seconds of day
+UTC
+UncmpCounts
+V (All Qs)
+V-dc
+W/C
+Weeks
+X GSE
+Y GSE
+YYYYDDD
+YYYYDOY
+Z GSE
+[-1, 1]
+[Code]
+[DO NOT USE-NO QFLAG FILTER]
+[DO NOT USE-No QualF]
+[DO NOT USE]
+[Re]
+[]
+adc
+arb
+asc=0/desc=1
+attitude change in degrees
+binary
+c/acc
+calc range
+calls
+cdfepoch
+cm2^2 sr keV keV^-1
+cm^-3 (All Qs)
+cm^2 sr eV/eV)^-1
+cnts/(cm**2-ster-s-e
+cnts/50ms
+cnts/9ms
+cnts/accum
+commands
+constant
+cor cnts/sec
+counts (All Q)
+counts (good Q
+counts (good Q)
+counts per 9ms
+counts per sample
+counts/(channel-10ms)
+counts/sample
+cts/6-sec
+cts/9ms
+cts/s (EffCorr,PropTo_DiffEFlux)
+cubic ft
+dB>bgnd
+dBV/root-Hz
+dBVolts
+dBm
+daily
+data points
+date/time
+day-month-year hour:minute:second
+deg (>200)
+deg (from fits)
+deg (from moments)
+deg C
+deg(C)
+deg. C
+degrees (All Qs)
+degrees (E)
+degrees (N)
+degrees C
+degrees F
+degrees, degrees, meters
+del-phi counts
+eV (All Qs)
+eV (qual only if scan=2=SW)
+eV/(cm^2-s) (All Qs)
+eV/(cm^2-s-sr-eV) (All Qs)
+eV/cm2/delta-eV/ster/s
+eV/cm^-3
+eV/cm^3 (All Qs)
+energy channel
+energy index
+ergs/(cm**2 str s eV
+ergs/(cm**2-ster-s-e
+ev/cm2/delta-eV/ster/s
+feet
+feet/s
+feet/sec
+feet/sec**2
+flag
+fractional year
+good = 0
+hh:mm
+hour and decimal hour
+index
+integer
+ionic charge
+kilofeet
+km (>200)
+km/s (All Qs)
+km/s (qual only if scan=2=SW)
+km/s (w/o error bars)
+km/s (with error bars)
+km/sec (from fits)
+km/sec (from moments)
+ln(#protons/cm^2.s.sr.MeV)
+log(#protons/cm^2.s.sr.MeV)
+log(Torr)
+log(cm^-3)
+log10((V/m)**2/Hz)
+log10(cnts/cm^2/sr)
+log10(nT**2/Hz)
+mV RMS
+mV/m pT/Hz
+mass/charge
+micro.
+millimaps/m
+milliseconds since 1970-01-01 00:00:00
+milliseconds since 1970-01-01 00:00:00.0 UTC
+mjd
+mo
+mode
+months
+ms (UT)
+ms since 1970/01/01
+ms/10
+ms/2
+n/a
+n/cc (from fits)
+n/cc (from moments)
+nT (1hr)
+nT (1min)
+nT (3sec)
+nT (>200)
+nT (All Q's)
+nT (All Qs)
+nT (all flags)
+nT DSL
+nT DSL (All Q's)
+nT DSL (All Qs)
+nT GSE
+nT GSE (All Q's)
+nT GSE (All Qs)
+nT GSM
+nT GSM (All Q's)
+nT GSM (All Qs)
+nT RMS
+nT R_E^2
+nT SSL
+nT SSL (All Q's)
+nT SSL (All Qs)
+nT(1hr)
+nanoseconds since J2000
+nautical miles
+no units
+no value=good
+no/cm/cm/s
+none (All Qs)
+num
+num sector
+num sectors
+num spins in sum
+number
+pdyne-au/cm^2
+phase-space density
+points
+points/avg
+pseudo-nT
+psi
+raw
+raw counts
+rclk
+resets
+retarding potential: 1-increasing,2-decreasing
+s^3/(km^3-cm^3)
+samples
+sats
+sec since 1-1-70
+seconds (All Q)
+seconds (good Q)
+seconds since 1970-01-01 00:00:00
+seconds since 1970-01-01T00:00:00Z
+seconds since 2000-01-01 12:00:00
+seconds since Jan. 1, 1970
+sector
+sector index
+segment
+spins
+step
+string
+ticks
+torr
+uGray/hr (All Q)
+uGray/hr (good Q)
+unit vector
+urad/ct
+wpix#
